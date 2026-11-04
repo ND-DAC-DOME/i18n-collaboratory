@@ -843,7 +843,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Koga lahko prizadene spletna zloraba v športu?",
+            "text": "Kateri odgovor najbolje odraža razpon ljudi, ki jih lahko prizadene spletna zloraba v športu?",
             "note": "MCQ stem"
           },
           "choices": {

@@ -843,7 +843,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "¿Quiénes pueden verse afectados por el abuso en línea en el deporte?",
+            "text": "¿Qué respuesta refleja mejor el abanico de personas que pueden verse afectadas por el abuso en línea en el deporte?",
             "note": "MCQ stem"
           },
           "choices": {

@@ -853,7 +853,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Who can be affected by online abuse in sport?",
+            "text": "Which answer best reflects the range of people who can be affected by online abuse in sport?",
             "note": "MCQ stem"
           },
           "choices": {

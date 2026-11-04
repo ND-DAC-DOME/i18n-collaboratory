@@ -843,7 +843,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Koho může ovlivnit online zneužívání ve sportu?",
+            "text": "Která odpověď nejlépe vystihuje spektrum lidí, které může ovlivnit online zneužívání ve sportu?",
             "note": "MCQ stem"
           },
           "choices": {

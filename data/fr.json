@@ -843,7 +843,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Qui peut être touché par les abus en ligne dans le sport ?",
+            "text": "Quelle réponse reflète le mieux l’éventail des personnes qui peuvent être touchées par les abus en ligne dans le sport ?",
             "note": "MCQ stem"
           },
           "choices": {
