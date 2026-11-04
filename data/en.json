@@ -116,6 +116,30 @@
     "close": {
       "text": "Close",
       "note": "aria-label on dialog close (×) buttons, e.g. M5 layers why/ORP dialogs"
+    },
+    "yourAnswer": {
+      "text": "Your answer:",
+      "note": "Knowledge-check results screen (M1/M2/M3/M4 check widgets) — label before the learner's choice"
+    },
+    "correctAnswer": {
+      "text": "Correct answer:",
+      "note": "Knowledge-check results screen (M1/M2/M3/M4 check widgets) — label before the correct choice"
+    },
+    "scoreAllCorrect": {
+      "text": "Nice work. You got every question right.",
+      "note": "Knowledge-check results screen (M1/M2/M3/M4 check widgets) — perfect score"
+    },
+    "scoreRetry": {
+      "text": "<strong>Not quite. Review your answers, then try again.</strong>",
+      "note": "Knowledge-check results screen (M1/M2/M3/M4 check widgets) — first attempt not perfect; HTML allowed"
+    },
+    "scoreGoodEffort": {
+      "text": "Good effort. Review the items below before continuing.",
+      "note": "Knowledge-check results screen (M1/M2/M3/M4 check widgets) — final attempt, 2+ correct"
+    },
+    "scoreReviewContent": {
+      "text": "Take another look at the module content, then continue.",
+      "note": "Knowledge-check results screen (M1/M2/M3/M4 check widgets) — final attempt, under 2 correct"
     }
   },
   "survey": {
@@ -740,7 +764,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Apply: What do you see?</span>",
+          "text": "<span style=\"color: #1c3564\">Apply: What do you see?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -750,7 +774,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Context matters</span>",
+          "text": "<span style=\"color: #1c3564\">Context matters</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -760,7 +784,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore: How can online abuse evolve?</span>",
+          "text": "<span style=\"color: #1c3564\">Explore: How can online abuse evolve?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -796,7 +820,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">What do we understand by online abuse?</span>",
+          "text": "<span style=\"color: #1c3564\">What do we understand by online abuse?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {
@@ -814,7 +838,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">When the behaviours overlap:</span>",
+          "text": "<span style=\"color: #1c3564\">When the behaviours overlap:</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       }
@@ -834,10 +858,10 @@
           },
           "choices": {
             "c0": {
-              "text": "Only primarily professional athletes and match officials."
+              "text": "Only professional athletes and match officials."
             },
             "c1": {
-              "text": "Anyone with a public social media account."
+              "text": "People who follow sport on social media."
             },
             "c2": {
               "text": "Athletes, officials, journalists, organisations and their representatives, families, fans, and others across sporting communities.",
@@ -1095,7 +1119,7 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "<p>Online abuse can disrupt sleep and recovery. Harmful online experiences can continue beyond the initial interaction, affecting an athlete’s ability to rest and recover.</p>",
+            "text": "<p>Online abuse can disrupt sleep and recovery. Harmful online experiences may affect an athlete’s sleep patterns, making it harder to wake up feeling rested and recover fully after training or competition.</p>",
             "note": "HTML allowed"
           },
           "research": {
@@ -1379,7 +1403,7 @@
                 "text": "Spain"
               },
               "html": {
-                "text": "<p>In Spain, the EU AI Act applies directly and provides the legal framework for regulating artificial intelligence, including AI-generated content. The Spanish Agency for the Supervision of Artificial Intelligence (AESIA) oversees compliance with AI regulations and supports their implementation at the national level.</p>",
+                "text": "<p>In Spain, the EU AI Act applies directly and provides the legal framework for regulating artificial intelligence, including AI-generated content. The <a href=\"https://aesia.digital.gob.es/es\" target=\"_blank\" rel=\"noopener noreferrer\">Spanish Agency for the Supervision of Artificial Intelligence (AESIA)</a> oversees compliance with AI regulations and supports their implementation at the national level.</p>",
                 "note": "HTML allowed"
               }
             }
@@ -1672,7 +1696,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">AI and Online Harm</span>",
+          "text": "<span style=\"color: #1c3564\">AI and Online Harm</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1682,7 +1706,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore reporting systems in your country:&nbsp;</span>",
+          "text": "<span style=\"color: #1c3564\">Explore reporting systems in your country:&nbsp;</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1692,17 +1716,17 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore: Which factors can influence how harmful content travels online?</span>",
+          "text": "<span style=\"color: #1c3564\">Explore: Which factors can influence how harmful content travels online?</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsHelpReduceOnlineAbuse": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Platforms act as intermediaries between <strong>people, content, and communities</strong>. Their design can influence the reach of harmful content, and their built-in tools can also help <strong>detect, limit, report, and respond to abuse</strong>.</span></p><p></p><p><span style=\"color: #091324\">These measures can include <strong>content moderation, reduced distribution of harmful content, prompts before posting, user safety settings, reporting mechanisms, and community standards.</strong> Regulation is also increasingly shaping platform responsibilities.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">In most countries of the world, these platforms have a fiduciary duty (in the UK, for example, the <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Online Safety Act</a> and in Europe, the <a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\" target=\"_blank\" rel=\"noopener\">Digital Services Act</a>) to assess risks, protect users from illegal content, provide reporting mechanisms, and implement proportionate safety measures.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Platforms act as intermediaries between <strong>people, content, and communities</strong>. Their design can influence the reach of harmful content, and their built-in tools can also help <strong>detect, limit, report, and respond to abuse</strong>.</span></p><p></p><p><span style=\"color: #091324\">These measures can include <strong>content moderation, reduced distribution of harmful content, prompts before posting, user safety settings, reporting mechanisms, and community standards.</strong> Regulation is also increasingly shaping platform responsibilities.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">In most countries of the world, these platforms have a fiduciary duty (in the UK, for example, the <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Online Safety Act</a> and in Europe, the <a href=\"https://www.consilium.europa.eu/en/policies/digital-services-act/\" target=\"_blank\" rel=\"noopener noreferrer\">Digital Services Act</a>) to assess risks, protect users from illegal content, provide reporting mechanisms, and implement proportionate safety measures.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">How platforms help reduce online abuse</span>",
+          "text": "<span style=\"color: #1c3564\">How platforms help reduce online abuse</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1712,7 +1736,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">How platforms shape the spread of online abuse</span>",
+          "text": "<span style=\"color: #1c3564\">How platforms shape the spread of online abuse</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1738,7 +1762,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Looking ahead</span>",
+          "text": "<span style=\"color: #1c3564\">Looking ahead</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1754,7 +1778,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Reporting online abuse on social media</span>",
+          "text": "<span style=\"color: #1c3564\">Reporting online abuse on social media</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1764,7 +1788,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Select a region to learn more about online abuse. </span>",
+          "text": "<span style=\"color: #1c3564\">Select a region to learn more about online abuse. </span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }
@@ -2151,7 +2175,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">How can legal responses differ by country?</span>",
+          "text": "<span style=\"color: #1c3564\">How can legal responses differ by country?</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2171,7 +2195,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Responsibilities beyond the law</span>",
+          "text": "<span style=\"color: #1c3564\">Responsibilities beyond the law</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2187,7 +2211,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Three legal pathways</span>",
+          "text": "<span style=\"color: #1c3564\">Three legal pathways</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2207,7 +2231,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Where legal responses have limits</span>",
+          "text": "<span style=\"color: #1c3564\">Where legal responses have limits</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2447,7 +2471,7 @@
             "text": ""
           },
           "orpBody": {
-            "text": "<strong>UAOA's Organisational Readiness Platform (ORP)</strong> supports these efforts by helping sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse.",
+            "text": "<strong><a href=\"https://orp.unitedagainstonlineabuse.com\" target=\"_blank\" rel=\"noopener noreferrer\">UAOA's Organisational Readiness Platform (ORP)</a></strong> supports these efforts by helping sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse.",
             "note": "HTML allowed"
           }
         },
@@ -2816,7 +2840,7 @@
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explore the three layers of action</span>",
+          "text": "<span style=\"color: #1c3564\">Explore the three layers of action</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
@@ -2848,13 +2872,13 @@
       },
       "uaoaHelpsConnectTheseLevelsOf": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">UAOA helps connect these levels of action.&nbsp;</span>",
+          "text": "<span style=\"color: #1c3564\">UAOA helps connect these levels of action.&nbsp;</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "youArePartOfAWider": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">You are part of a wider system</span>",
+          "text": "<span style=\"color: #1c3564\">You are part of a wider system</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       }
@@ -3303,7 +3327,7 @@
       "exit": {
         "congratulations": {
           "heading": {
-            "text": "<span style=\"color: #21B7CB\">Congratulations!</span>",
+            "text": "<span style=\"color: #1c3564\">Congratulations!</span>",
             "note": "Native heading on Exit Page"
           }
         },
@@ -3341,7 +3365,7 @@
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "<span style=\"color: #21b7cb\">You are ready to act against online abuse</span>",
+            "text": "<span style=\"color: #1c3564\">You are ready to act against online abuse</span>",
             "note": "Native heading on Final Quiz"
           }
         }
@@ -4604,7 +4628,7 @@
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">About the course</span>",
+          "text": "<span style=\"color: #1c3564\">About the course</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4614,7 +4638,7 @@
       },
       "readyToBegin": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Ready to Begin?</span>",
+          "text": "<span style=\"color: #1c3564\">Ready to Begin?</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4638,7 +4662,7 @@
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">What you’ll explore</span>",
+          "text": "<span style=\"color: #1c3564\">What you’ll explore</span>",
           "note": "Native heading on About This Course"
         }
       },

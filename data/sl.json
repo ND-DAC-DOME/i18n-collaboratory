@@ -114,6 +114,24 @@
     },
     "close": {
       "text": "Zapri"
+    },
+    "yourAnswer": {
+      "text": "Vaš odgovor:"
+    },
+    "correctAnswer": {
+      "text": "Pravilen odgovor:"
+    },
+    "scoreAllCorrect": {
+      "text": "Odlično – pravilno ste odgovorili na vsa vprašanja."
+    },
+    "scoreRetry": {
+      "text": "<strong>Ne čisto. Preglejte možnosti in poskusite znova.</strong>"
+    },
+    "scoreGoodEffort": {
+      "text": "Dobro delo – spodaj preglejte vse spregledane elemente."
+    },
+    "scoreReviewContent": {
+      "text": "Ponovno si oglejte vsebino modula in nato nadaljujte."
     }
   },
   "survey": {
@@ -738,7 +756,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Uporabite: Kaj vidite?</span>",
+          "text": "<span style=\"color: #1c3564\">Uporabite: Kaj vidite?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -748,7 +766,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Kontekst je pomemben</span>",
+          "text": "<span style=\"color: #1c3564\">Kontekst je pomemben</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -758,7 +776,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Raziščite: Kako se lahko razvija spletna zloraba?</span>",
+          "text": "<span style=\"color: #1c3564\">Raziščite: Kako se lahko razvija spletna zloraba?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -794,7 +812,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Kaj razumemo pod spletno zlorabo?</span>",
+          "text": "<span style=\"color: #1c3564\">Kaj razumemo pod spletno zlorabo?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {
@@ -811,7 +829,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Ko se vedenja prekrivajo:</span>",
+          "text": "<span style=\"color: #1c3564\">Ko se vedenja prekrivajo:</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       }
@@ -830,10 +848,10 @@
           },
           "choices": {
             "c0": {
-              "text": "Predvsem samo profesionalni športniki in sodniki tekem."
+              "text": "Samo profesionalni športniki in sodniki tekem."
             },
             "c1": {
-              "text": "Vsakdo z javnim računom na družbenih omrežjih."
+              "text": "Ljudje, ki spremljajo šport na družbenih omrežjih."
             },
             "c2": {
               "text": "Športniki, sodniki, novinarji, organizacije in njihovi predstavniki, družine, navijači in drugi v športnih skupnostih.",
@@ -1089,7 +1107,7 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "<p>Spletna zloraba lahko moti spanec in okrevanje. Škodljive spletne izkušnje se lahko nadaljujejo tudi po začetni interakciji in vplivajo na športnikovo sposobnost počitka in okrevanja.</p>",
+            "text": "<p>Spletna zloraba lahko moti spanec in okrevanje. Škodljive spletne izkušnje lahko vplivajo na športnikove vzorce spanja, zaradi česar je težje vstati spočit in se v celoti okrevati po treningu ali tekmovanju.</p>",
             "note": "HTML allowed"
           },
           "research": {
@@ -1373,7 +1391,7 @@
                 "text": "Španija"
               },
               "html": {
-                "text": "<p>V Španiji se akt EU o umetni inteligenci uporablja neposredno in zagotavlja pravni okvir za urejanje umetne inteligence, vključno z vsebinami, ki jih ustvari umetna inteligenca. Španska agencija za nadzor umetne inteligence (AESIA) nadzira skladnost s predpisi o umetni inteligenci in podpira njihovo izvajanje na nacionalni ravni.</p>",
+                "text": "<p>V Španiji se akt EU o umetni inteligenci uporablja neposredno in zagotavlja pravni okvir za urejanje umetne inteligence, vključno z vsebinami, ki jih ustvari umetna inteligenca. <a href=\"https://aesia.digital.gob.es/es\" target=\"_blank\" rel=\"noopener noreferrer\">Španska agencija za nadzor umetne inteligence (AESIA)</a> nadzira skladnost s predpisi o umetni inteligenci in podpira njihovo izvajanje na nacionalni ravni.</p>",
                 "note": "HTML allowed"
               }
             }
@@ -1666,7 +1684,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Umetna inteligenca in spletna škoda</span>",
+          "text": "<span style=\"color: #1c3564\">Umetna inteligenca in spletna škoda</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1676,7 +1694,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Raziščite sisteme prijave v svoji državi:</span>",
+          "text": "<span style=\"color: #1c3564\">Raziščite sisteme prijave v svoji državi:</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1686,17 +1704,17 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Raziščite: Kateri dejavniki lahko vplivajo na to, kako se škodljiva vsebina širi po spletu?</span>",
+          "text": "<span style=\"color: #1c3564\">Raziščite: Kateri dejavniki lahko vplivajo na to, kako se škodljiva vsebina širi po spletu?</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsHelpReduceOnlineAbuse": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Platforme delujejo kot posredniki med <strong>ljudmi, vsebinami in skupnostmi</strong>. Njihova zasnova lahko vpliva na doseg škodljivih vsebin, njihova vgrajena orodja pa lahko pomagajo tudi pri <strong>odkrivanju, omejevanju, prijavi in odzivanju na zlorabe</strong>.</span></p><p></p><p><span style=\"color: #091324\">Ti ukrepi lahko vključujejo <strong>moderiranje vsebin, zmanjšano distribucijo škodljivih vsebin, pozive pred objavo, nastavitve varnosti uporabnikov, mehanizme za prijavo in standarde skupnosti.</strong> Regulacija vse bolj oblikuje tudi odgovornosti platform.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">V večini držav sveta imajo te platforme fiduciarno dolžnost (v Združenem kraljestvu na primer <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Zakon o spletni varnosti</a> in v Evropi <a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\" target=\"_blank\" rel=\"noopener\">Zakon o digitalnih storitvah</a>), da ocenjujejo tveganja, ščitijo uporabnike pred nezakonitimi vsebinami, zagotavljajo mehanizme za prijavo in izvajajo sorazmerne varnostne ukrepe.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Platforme delujejo kot posredniki med <strong>ljudmi, vsebinami in skupnostmi</strong>. Njihova zasnova lahko vpliva na doseg škodljivih vsebin, njihova vgrajena orodja pa lahko pomagajo tudi pri <strong>odkrivanju, omejevanju, prijavi in odzivanju na zlorabe</strong>.</span></p><p></p><p><span style=\"color: #091324\">Ti ukrepi lahko vključujejo <strong>moderiranje vsebin, zmanjšano distribucijo škodljivih vsebin, pozive pred objavo, nastavitve varnosti uporabnikov, mehanizme za prijavo in standarde skupnosti.</strong> Regulacija vse bolj oblikuje tudi odgovornosti platform.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">V večini držav sveta imajo te platforme fiduciarno dolžnost (v Združenem kraljestvu na primer <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Zakon o spletni varnosti</a> in v Evropi <a href=\"https://www.consilium.europa.eu/en/policies/digital-services-act/\" target=\"_blank\" rel=\"noopener noreferrer\">Zakon o digitalnih storitvah</a>), da ocenjujejo tveganja, ščitijo uporabnike pred nezakonitimi vsebinami, zagotavljajo mehanizme za prijavo in izvajajo sorazmerne varnostne ukrepe.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Kako platforme pomagajo zmanjšati spletno zlorabo</span>",
+          "text": "<span style=\"color: #1c3564\">Kako platforme pomagajo zmanjšati spletno zlorabo</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1706,7 +1724,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Kako platforme oblikujejo širjenje spletnih zlorab</span>",
+          "text": "<span style=\"color: #1c3564\">Kako platforme oblikujejo širjenje spletnih zlorab</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1732,7 +1750,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Pogled v prihodnost</span>",
+          "text": "<span style=\"color: #1c3564\">Pogled v prihodnost</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1748,7 +1766,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Prijava spletne zlorabe na družbenih omrežjih</span>",
+          "text": "<span style=\"color: #1c3564\">Prijava spletne zlorabe na družbenih omrežjih</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1758,7 +1776,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Izberite regijo, če želite izvedeti več o spletni zlorabi.</span>",
+          "text": "<span style=\"color: #1c3564\">Izberite regijo, če želite izvedeti več o spletni zlorabi.</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }
@@ -2145,7 +2163,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Kako se lahko pravni odzivi razlikujejo glede na državo?</span>",
+          "text": "<span style=\"color: #1c3564\">Kako se lahko pravni odzivi razlikujejo glede na državo?</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2165,7 +2183,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Odgovornosti, ki presegajo zakon</span>",
+          "text": "<span style=\"color: #1c3564\">Odgovornosti, ki presegajo zakon</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2181,7 +2199,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Tri pravne poti</span>",
+          "text": "<span style=\"color: #1c3564\">Tri pravne poti</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2201,7 +2219,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Kjer imajo pravni odzivi omejitve</span>",
+          "text": "<span style=\"color: #1c3564\">Kjer imajo pravni odzivi omejitve</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2437,7 +2455,7 @@
             "text": ""
           },
           "orpBody": {
-            "text": "<strong>Platforma za organizacijsko pripravljenost (ORP) združenja UAOA</strong> podpira ta prizadevanja tako, da športnim organizacijam pomaga oceniti njihovo pripravljenost, prepoznati področja za izboljšave in okrepiti njihove pristope k preprečevanju in odzivanju na spletne zlorabe.",
+            "text": "<strong><a href=\"https://orp.unitedagainstonlineabuse.com\" target=\"_blank\" rel=\"noopener noreferrer\">Platforma za organizacijsko pripravljenost (ORP) združenja UAOA</a></strong> podpira ta prizadevanja tako, da športnim organizacijam pomaga oceniti njihovo pripravljenost, prepoznati področja za izboljšave in okrepiti njihove pristope k preprečevanju in odzivanju na spletne zlorabe.",
             "note": "HTML allowed"
           }
         },
@@ -2806,7 +2824,7 @@
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Raziščite tri plasti ukrepanja</span>",
+          "text": "<span style=\"color: #1c3564\">Raziščite tri plasti ukrepanja</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
@@ -2838,13 +2856,13 @@
       },
       "uaoaHelpsConnectTheseLevelsOf": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">UAOA pomaga povezati te ravni delovanja.</span>",
+          "text": "<span style=\"color: #1c3564\">UAOA pomaga povezati te ravni delovanja.</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "youArePartOfAWider": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Ste del širšega sistema</span>",
+          "text": "<span style=\"color: #1c3564\">Ste del širšega sistema</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       }
@@ -3289,7 +3307,7 @@
       "exit": {
         "congratulations": {
           "heading": {
-            "text": "<span style=\"color: #21B7CB\">Čestitke!</span>",
+            "text": "<span style=\"color: #1c3564\">Čestitke!</span>",
             "note": "Native heading on Exit Page"
           }
         },
@@ -3327,7 +3345,7 @@
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "<span style=\"color: #21b7cb\">Pripravljeni ste ukrepati proti spletni zlorabi</span>",
+            "text": "<span style=\"color: #1c3564\">Pripravljeni ste ukrepati proti spletni zlorabi</span>",
             "note": "Native heading on Final Quiz"
           }
         }
@@ -4481,7 +4499,7 @@
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">O tečaju</span>",
+          "text": "<span style=\"color: #1c3564\">O tečaju</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4491,7 +4509,7 @@
       },
       "readyToBegin": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Ste pripravljeni začeti?</span>",
+          "text": "<span style=\"color: #1c3564\">Ste pripravljeni začeti?</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4515,7 +4533,7 @@
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Kaj boste raziskovali</span>",
+          "text": "<span style=\"color: #1c3564\">Kaj boste raziskovali</span>",
           "note": "Native heading on About This Course"
         }
       },

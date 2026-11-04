@@ -114,6 +114,24 @@
     },
     "close": {
       "text": "Zavřít"
+    },
+    "yourAnswer": {
+      "text": "Vaše odpověď:"
+    },
+    "correctAnswer": {
+      "text": "Správná odpověď:"
+    },
+    "scoreAllCorrect": {
+      "text": "Výborně – na všechny otázky jste odpověděli správně."
+    },
+    "scoreRetry": {
+      "text": "<strong>Ne tak docela. Zkontrolujte možnosti a zkuste to znovu.</strong>"
+    },
+    "scoreGoodEffort": {
+      "text": "Dobrá práce – níže si projděte otázky, ve kterých jste chybovali."
+    },
+    "scoreReviewContent": {
+      "text": "Projděte si znovu obsah modulu a poté pokračujte."
     }
   },
   "survey": {
@@ -738,7 +756,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Uplatněte: Co vidíte?</span>",
+          "text": "<span style=\"color: #1c3564\">Uplatněte: Co vidíte?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -748,7 +766,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Kontext je důležitý</span>",
+          "text": "<span style=\"color: #1c3564\">Kontext je důležitý</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -758,7 +776,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Prozkoumejte: Jak se může online zneužívání vyvíjet?</span>",
+          "text": "<span style=\"color: #1c3564\">Prozkoumejte: Jak se může online zneužívání vyvíjet?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -794,7 +812,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Co rozumíme pod pojmem online zneužívání?</span>",
+          "text": "<span style=\"color: #1c3564\">Co rozumíme pod pojmem online zneužívání?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {
@@ -811,7 +829,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Když se chování překrývá:</span>",
+          "text": "<span style=\"color: #1c3564\">Když se chování překrývá:</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       }
@@ -830,10 +848,10 @@
           },
           "choices": {
             "c0": {
-              "text": "Pouze primárně profesionální sportovci a rozhodčí."
+              "text": "Pouze profesionální sportovci a rozhodčí."
             },
             "c1": {
-              "text": "Kdokoli s veřejným účtem na sociálních sítích."
+              "text": "Lidé, kteří sledují sport na sociálních sítích."
             },
             "c2": {
               "text": "Sportovci, rozhodčí, novináři, organizace a jejich zástupci, rodiny, fanoušci a další osoby napříč sportovními komunitami.",
@@ -1089,7 +1107,7 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "<p>Online zneužívání může narušit spánek a regeneraci. Škodlivé online zážitky mohou přetrvávat i po počáteční interakci a ovlivňovat schopnost sportovce odpočívat a regenerovat se.</p>",
+            "text": "<p>Online zneužívání může narušit spánek a regeneraci. Škodlivé online zážitky mohou ovlivnit spánkové návyky sportovce, takže je těžší vstávat odpočatý a plně se zregenerovat po tréninku nebo soutěži.</p>",
             "note": "HTML allowed"
           },
           "research": {
@@ -1373,7 +1391,7 @@
                 "text": "Španělsko"
               },
               "html": {
-                "text": "<p>Ve Španělsku se přímo uplatňuje akt EU o umělé inteligenci (AI Act), který poskytuje právní rámec pro regulaci umělé inteligence, včetně obsahu generovaného umělou inteligencí. Španělská agentura pro dohled nad umělou inteligencí (AESIA) dohlíží na dodržování předpisů týkajících se umělé inteligence a podporuje jejich implementaci na národní úrovni.</p>",
+                "text": "<p>Ve Španělsku se přímo uplatňuje akt EU o umělé inteligenci (AI Act), který poskytuje právní rámec pro regulaci umělé inteligence, včetně obsahu generovaného umělou inteligencí. <a href=\"https://aesia.digital.gob.es/es\" target=\"_blank\" rel=\"noopener noreferrer\">Španělská agentura pro dohled nad umělou inteligencí (AESIA)</a> dohlíží na dodržování předpisů týkajících se umělé inteligence a podporuje jejich implementaci na národní úrovni.</p>",
                 "note": "HTML allowed"
               }
             }
@@ -1666,7 +1684,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Umělá inteligence a online újma</span>",
+          "text": "<span style=\"color: #1c3564\">Umělá inteligence a online újma</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1676,7 +1694,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Prozkoumejte systémy hlášení ve vaší zemi:</span>",
+          "text": "<span style=\"color: #1c3564\">Prozkoumejte systémy hlášení ve vaší zemi:</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1686,17 +1704,17 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Prozkoumejte: Které faktory mohou ovlivnit, jak se škodlivý obsah šíří online?</span>",
+          "text": "<span style=\"color: #1c3564\">Prozkoumejte: Které faktory mohou ovlivnit, jak se škodlivý obsah šíří online?</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsHelpReduceOnlineAbuse": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Platformy fungují jako prostředníci mezi <strong>lidmi, obsahem a komunitami</strong>. Jejich design může ovlivnit dosah škodlivého obsahu a jejich vestavěné nástroje mohou také pomoci <strong>odhalit a omezit zneužívání, nahlásit ho a reagovat na něj</strong>.</span></p><p></p><p><span style=\"color: #091324\">Tato opatření mohou zahrnovat <strong>moderování obsahu, omezené šíření škodlivého obsahu, upozornění před zveřejněním, bezpečnostní nastavení pro uživatele, mechanismy hlášení a pravidla komunity.</strong> Odpovědnosti platforem stále více formuje i regulace.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">Ve většině zemí světa mají tyto platformy zákonnou povinnost (ve Spojeném království například podle <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">zákona o online bezpečnosti (Online Safety Act)</a> a v Evropě podle <a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\" target=\"_blank\" rel=\"noopener\">aktu o digitálních službách (Digital Services Act)</a>) posuzovat rizika, chránit uživatele před nezákonným obsahem, poskytovat mechanismy hlášení a zavádět přiměřená bezpečnostní opatření.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Platformy fungují jako prostředníci mezi <strong>lidmi, obsahem a komunitami</strong>. Jejich design může ovlivnit dosah škodlivého obsahu a jejich vestavěné nástroje mohou také pomoci <strong>odhalit a omezit zneužívání, nahlásit ho a reagovat na něj</strong>.</span></p><p></p><p><span style=\"color: #091324\">Tato opatření mohou zahrnovat <strong>moderování obsahu, omezené šíření škodlivého obsahu, upozornění před zveřejněním, bezpečnostní nastavení pro uživatele, mechanismy hlášení a pravidla komunity.</strong> Odpovědnosti platforem stále více formuje i regulace.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">Ve většině zemí světa mají tyto platformy zákonnou povinnost (ve Spojeném království například podle <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">zákona o online bezpečnosti (Online Safety Act)</a> a v Evropě podle <a href=\"https://www.consilium.europa.eu/en/policies/digital-services-act/\" target=\"_blank\" rel=\"noopener noreferrer\">aktu o digitálních službách (Digital Services Act)</a>) posuzovat rizika, chránit uživatele před nezákonným obsahem, poskytovat mechanismy hlášení a zavádět přiměřená bezpečnostní opatření.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Jak platformy pomáhají snižovat online zneužívání</span>",
+          "text": "<span style=\"color: #1c3564\">Jak platformy pomáhají snižovat online zneužívání</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1706,7 +1724,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Jak platformy ovlivňují šíření online zneužívání</span>",
+          "text": "<span style=\"color: #1c3564\">Jak platformy ovlivňují šíření online zneužívání</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1732,7 +1750,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Pohled do budoucna</span>",
+          "text": "<span style=\"color: #1c3564\">Pohled do budoucna</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1748,7 +1766,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Hlášení online zneužívání na sociálních sítích</span>",
+          "text": "<span style=\"color: #1c3564\">Hlášení online zneužívání na sociálních sítích</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1758,7 +1776,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Vyberte region a dozvíte se více o online zneužívání.</span>",
+          "text": "<span style=\"color: #1c3564\">Vyberte region a dozvíte se více o online zneužívání.</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }
@@ -2145,7 +2163,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Jak se mohou právní reakce lišit v jednotlivých zemích?</span>",
+          "text": "<span style=\"color: #1c3564\">Jak se mohou právní reakce lišit v jednotlivých zemích?</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2165,7 +2183,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Zodpovědnosti nad rámec zákona</span>",
+          "text": "<span style=\"color: #1c3564\">Zodpovědnosti nad rámec zákona</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2181,7 +2199,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Tři právní cesty</span>",
+          "text": "<span style=\"color: #1c3564\">Tři právní cesty</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2201,7 +2219,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Kde mají právní reakce limity</span>",
+          "text": "<span style=\"color: #1c3564\">Kde mají právní reakce limity</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2437,7 +2455,7 @@
             "text": ""
           },
           "orpBody": {
-            "text": "<strong>Platforma organizační připravenosti (ORP) od UAOA</strong> toto úsilí podporuje tím, že pomáhá sportovním organizacím posoudit jejich připravenost, určit oblasti ke zlepšení a posílit jejich přístupy k prevenci online zneužívání a reakci na něj.",
+            "text": "<strong><a href=\"https://orp.unitedagainstonlineabuse.com\" target=\"_blank\" rel=\"noopener noreferrer\">Platforma organizační připravenosti (ORP) od UAOA</a></strong> toto úsilí podporuje tím, že pomáhá sportovním organizacím posoudit jejich připravenost, určit oblasti ke zlepšení a posílit jejich přístupy k prevenci online zneužívání a reakci na něj.",
             "note": "HTML allowed"
           }
         },
@@ -2806,7 +2824,7 @@
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Prozkoumejte tři vrstvy jednání</span>",
+          "text": "<span style=\"color: #1c3564\">Prozkoumejte tři vrstvy jednání</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
@@ -2838,13 +2856,13 @@
       },
       "uaoaHelpsConnectTheseLevelsOf": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">UAOA pomáhá propojit tyto úrovně jednání.</span>",
+          "text": "<span style=\"color: #1c3564\">UAOA pomáhá propojit tyto úrovně jednání.</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "youArePartOfAWider": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Jste součástí širšího systému</span>",
+          "text": "<span style=\"color: #1c3564\">Jste součástí širšího systému</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       }
@@ -3289,7 +3307,7 @@
       "exit": {
         "congratulations": {
           "heading": {
-            "text": "<span style=\"color: #21B7CB\">Gratulujeme!</span>",
+            "text": "<span style=\"color: #1c3564\">Gratulujeme!</span>",
             "note": "Native heading on Exit Page"
           }
         },
@@ -3327,7 +3345,7 @@
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "<span style=\"color: #21b7cb\">Jste připraveni zasáhnout proti online zneužívání</span>",
+            "text": "<span style=\"color: #1c3564\">Jste připraveni zasáhnout proti online zneužívání</span>",
             "note": "Native heading on Final Quiz"
           }
         }
@@ -4481,7 +4499,7 @@
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">O kurzu</span>",
+          "text": "<span style=\"color: #1c3564\">O kurzu</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4491,7 +4509,7 @@
       },
       "readyToBegin": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Připraveni začít?</span>",
+          "text": "<span style=\"color: #1c3564\">Připraveni začít?</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4515,7 +4533,7 @@
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Co budete prozkoumávat</span>",
+          "text": "<span style=\"color: #1c3564\">Co budete prozkoumávat</span>",
           "note": "Native heading on About This Course"
         }
       },

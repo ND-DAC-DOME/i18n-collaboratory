@@ -114,6 +114,24 @@
     },
     "close": {
       "text": "Stäng"
+    },
+    "yourAnswer": {
+      "text": "Ditt svar:"
+    },
+    "correctAnswer": {
+      "text": "Rätt svar:"
+    },
+    "scoreAllCorrect": {
+      "text": "Perfekt – du svarade rätt på alla frågor."
+    },
+    "scoreRetry": {
+      "text": "<strong>Inte riktigt. Granska alternativen och försök igen.</strong>"
+    },
+    "scoreGoodEffort": {
+      "text": "Bra jobbat – gå igenom de frågor du missade nedan."
+    },
+    "scoreReviewContent": {
+      "text": "Titta igenom modulens innehåll igen och fortsätt sedan."
     }
   },
   "survey": {
@@ -738,7 +756,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Tillämpa: Vad ser du?</span>",
+          "text": "<span style=\"color: #1c3564\">Tillämpa: Vad ser du?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -748,7 +766,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Kontext spelar roll</span>",
+          "text": "<span style=\"color: #1c3564\">Kontext spelar roll</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -758,7 +776,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Utforska: Hur kan övergrepp online utvecklas?</span>",
+          "text": "<span style=\"color: #1c3564\">Utforska: Hur kan övergrepp online utvecklas?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -794,7 +812,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Vad menar vi med onlineövergrepp?</span>",
+          "text": "<span style=\"color: #1c3564\">Vad menar vi med onlineövergrepp?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {
@@ -811,7 +829,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">När beteendena överlappar varandra:</span>",
+          "text": "<span style=\"color: #1c3564\">När beteendena överlappar varandra:</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       }
@@ -830,10 +848,10 @@
           },
           "choices": {
             "c0": {
-              "text": "Endast främst professionella idrottare och tävlingsfunktionärer."
+              "text": "Endast professionella idrottare och tävlingsfunktionärer."
             },
             "c1": {
-              "text": "Vem som helst med ett offentligt konto på sociala medier."
+              "text": "Personer som följer sport på sociala medier."
             },
             "c2": {
               "text": "Idrottare, funktionärer, journalister, organisationer och deras representanter, familjer, fans och andra inom idrottsgemenskaper.",
@@ -1089,7 +1107,7 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "<p>Onlineövergrepp kan störa sömn och återhämtning. Skadliga onlineupplevelser kan fortsätta efter den första interaktionen och påverka en idrottares förmåga att vila och återhämta sig.</p>",
+            "text": "<p>Onlineövergrepp kan störa sömn och återhämtning. Skadliga onlineupplevelser kan påverka en idrottares sömnmönster, vilket gör det svårare att vakna utvilad och återhämta sig helt efter träning eller tävling.</p>",
             "note": "HTML allowed"
           },
           "research": {
@@ -1373,7 +1391,7 @@
                 "text": "Spanien"
               },
               "html": {
-                "text": "<p>I Spanien gäller EU:s AI-lag direkt och tillhandahåller den rättsliga ramen för reglering av artificiell intelligens, inklusive AI-genererat innehåll. Den spanska myndigheten för tillsyn av artificiell intelligens (AESIA) övervakar efterlevnaden av AI-förordningar och stöder deras genomförande på nationell nivå.</p>",
+                "text": "<p>I Spanien gäller EU:s AI-lag direkt och tillhandahåller den rättsliga ramen för reglering av artificiell intelligens, inklusive AI-genererat innehåll. Den <a href=\"https://aesia.digital.gob.es/es\" target=\"_blank\" rel=\"noopener noreferrer\">spanska myndigheten för tillsyn av artificiell intelligens (AESIA)</a> övervakar efterlevnaden av AI-förordningar och stöder deras genomförande på nationell nivå.</p>",
                 "note": "HTML allowed"
               }
             }
@@ -1666,7 +1684,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">AI och onlineskada</span>",
+          "text": "<span style=\"color: #1c3564\">AI och onlineskada</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1676,7 +1694,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Utforska rapporteringssystem i ditt land:</span>",
+          "text": "<span style=\"color: #1c3564\">Utforska rapporteringssystem i ditt land:</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1686,17 +1704,17 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Utforska: Vilka faktorer kan påverka hur skadligt innehåll sprids online?</span>",
+          "text": "<span style=\"color: #1c3564\">Utforska: Vilka faktorer kan påverka hur skadligt innehåll sprids online?</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsHelpReduceOnlineAbuse": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Plattformar fungerar som mellanhänder mellan <strong>människor, innehåll och gemenskaper</strong>. Deras design kan påverka räckvidden för skadligt innehåll, och deras inbyggda verktyg kan också hjälpa till att <strong>upptäcka, begränsa, rapportera och reagera på övergrepp</strong>.</span></p><p></p><p><span style=\"color: #091324\">Dessa åtgärder kan omfatta <strong>innehållsmoderering, minskad spridning av skadligt innehåll, uppmaningar före publicering, säkerhetsinställningar för användare, rapporteringsmekanismer och gemenskapsregler.</strong> Reglering formar också i allt högre grad plattformarnas ansvar.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">I de flesta länder i världen har dessa plattformar en förvaltarplikt (i Storbritannien till exempel <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Online Safety Act</a> och i Europa <a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\" target=\"_blank\" rel=\"noopener\">Digital Services Act</a>) att bedöma risker, skydda användare mot olagligt innehåll, tillhandahålla rapporteringsmekanismer och genomföra proportionerliga säkerhetsåtgärder.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Plattformar fungerar som mellanhänder mellan <strong>människor, innehåll och gemenskaper</strong>. Deras design kan påverka räckvidden för skadligt innehåll, och deras inbyggda verktyg kan också hjälpa till att <strong>upptäcka, begränsa, rapportera och reagera på övergrepp</strong>.</span></p><p></p><p><span style=\"color: #091324\">Dessa åtgärder kan omfatta <strong>innehållsmoderering, minskad spridning av skadligt innehåll, uppmaningar före publicering, säkerhetsinställningar för användare, rapporteringsmekanismer och gemenskapsregler.</strong> Reglering formar också i allt högre grad plattformarnas ansvar.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">I de flesta länder i världen har dessa plattformar en förvaltarplikt (i Storbritannien till exempel <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Online Safety Act</a> och i Europa <a href=\"https://www.consilium.europa.eu/en/policies/digital-services-act/\" target=\"_blank\" rel=\"noopener noreferrer\">Digital Services Act</a>) att bedöma risker, skydda användare mot olagligt innehåll, tillhandahålla rapporteringsmekanismer och genomföra proportionerliga säkerhetsåtgärder.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Hur plattformar bidrar till att minska onlineövergrepp</span>",
+          "text": "<span style=\"color: #1c3564\">Hur plattformar bidrar till att minska onlineövergrepp</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1706,7 +1724,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Hur plattformar formar spridningen av onlineövergrepp</span>",
+          "text": "<span style=\"color: #1c3564\">Hur plattformar formar spridningen av onlineövergrepp</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1732,7 +1750,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Blick framåt</span>",
+          "text": "<span style=\"color: #1c3564\">Blick framåt</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1748,7 +1766,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Anmäla övergrepp online på sociala medier</span>",
+          "text": "<span style=\"color: #1c3564\">Anmäla övergrepp online på sociala medier</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1758,7 +1776,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Välj en region för att lära dig mer om onlineövergrepp.</span>",
+          "text": "<span style=\"color: #1c3564\">Välj en region för att lära dig mer om onlineövergrepp.</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }
@@ -2145,7 +2163,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Hur kan rättsliga svar skilja sig åt mellan länder?</span>",
+          "text": "<span style=\"color: #1c3564\">Hur kan rättsliga svar skilja sig åt mellan länder?</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2165,7 +2183,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Ansvar utöver lagen</span>",
+          "text": "<span style=\"color: #1c3564\">Ansvar utöver lagen</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2181,7 +2199,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Tre juridiska vägar</span>",
+          "text": "<span style=\"color: #1c3564\">Tre juridiska vägar</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2201,7 +2219,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Där juridiska svar har begränsningar</span>",
+          "text": "<span style=\"color: #1c3564\">Där juridiska svar har begränsningar</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2437,7 +2455,7 @@
             "text": ""
           },
           "orpBody": {
-            "text": "<strong>UAOA:s plattform för organisatorisk beredskap (ORP)</strong> stöder dessa insatser genom att hjälpa idrottsorganisationer att bedöma sin beredskap, hitta förbättringsområden och stärka sitt arbete med att förebygga och hantera onlineövergrepp.",
+            "text": "<strong><a href=\"https://orp.unitedagainstonlineabuse.com\" target=\"_blank\" rel=\"noopener noreferrer\">UAOA:s plattform för organisatorisk beredskap (ORP)</a></strong> stöder dessa insatser genom att hjälpa idrottsorganisationer att bedöma sin beredskap, hitta förbättringsområden och stärka sitt arbete med att förebygga och hantera onlineövergrepp.",
             "note": "HTML allowed"
           }
         },
@@ -2806,7 +2824,7 @@
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Utforska de tre åtgärdsnivåerna</span>",
+          "text": "<span style=\"color: #1c3564\">Utforska de tre åtgärdsnivåerna</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
@@ -2838,13 +2856,13 @@
       },
       "uaoaHelpsConnectTheseLevelsOf": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">UAOA hjälper till att koppla samman dessa åtgärdsnivåer.</span>",
+          "text": "<span style=\"color: #1c3564\">UAOA hjälper till att koppla samman dessa åtgärdsnivåer.</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "youArePartOfAWider": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Du är en del av ett större system</span>",
+          "text": "<span style=\"color: #1c3564\">Du är en del av ett större system</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       }
@@ -3289,7 +3307,7 @@
       "exit": {
         "congratulations": {
           "heading": {
-            "text": "<span style=\"color: #21B7CB\">Grattis!</span>",
+            "text": "<span style=\"color: #1c3564\">Grattis!</span>",
             "note": "Native heading on Exit Page"
           }
         },
@@ -3327,7 +3345,7 @@
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "<span style=\"color: #21b7cb\">Du är redo att agera mot onlineövergrepp</span>",
+            "text": "<span style=\"color: #1c3564\">Du är redo att agera mot onlineövergrepp</span>",
             "note": "Native heading on Final Quiz"
           }
         }
@@ -4481,7 +4499,7 @@
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Om kursen</span>",
+          "text": "<span style=\"color: #1c3564\">Om kursen</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4491,7 +4509,7 @@
       },
       "readyToBegin": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Redo att börja?</span>",
+          "text": "<span style=\"color: #1c3564\">Redo att börja?</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4515,7 +4533,7 @@
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Vad du kommer att utforska</span>",
+          "text": "<span style=\"color: #1c3564\">Vad du kommer att utforska</span>",
           "note": "Native heading on About This Course"
         }
       },

@@ -114,6 +114,24 @@
     },
     "close": {
       "text": "Cerrar"
+    },
+    "yourAnswer": {
+      "text": "Tu respuesta:"
+    },
+    "correctAnswer": {
+      "text": "Respuesta correcta:"
+    },
+    "scoreAllCorrect": {
+      "text": "Perfecto, respondiste correctamente a todas las preguntas."
+    },
+    "scoreRetry": {
+      "text": "<strong>No del todo. Revisa las opciones e inténtalo de nuevo.</strong>"
+    },
+    "scoreGoodEffort": {
+      "text": "Buen trabajo. Revisa a continuación cualquier elemento que hayas omitido."
+    },
+    "scoreReviewContent": {
+      "text": "Vuelve a revisar el contenido del módulo y, después, continúa."
     }
   },
   "survey": {
@@ -738,7 +756,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Aplicación: ¿Qué ves?</span>",
+          "text": "<span style=\"color: #1c3564\">Aplicación: ¿Qué ves?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -748,7 +766,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">El contexto importa</span>",
+          "text": "<span style=\"color: #1c3564\">El contexto importa</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -758,7 +776,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explora: ¿Cómo puede evolucionar el abuso en línea?</span>",
+          "text": "<span style=\"color: #1c3564\">Explora: ¿Cómo puede evolucionar el abuso en línea?</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -794,7 +812,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">¿Qué entendemos por abuso en línea?</span>",
+          "text": "<span style=\"color: #1c3564\">¿Qué entendemos por abuso en línea?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {
@@ -811,7 +829,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Cuando los comportamientos se superponen:</span>",
+          "text": "<span style=\"color: #1c3564\">Cuando los comportamientos se superponen:</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       }
@@ -833,7 +851,7 @@
               "text": "Solo atletas profesionales y árbitros."
             },
             "c1": {
-              "text": "Cualquier persona con una cuenta pública en redes sociales."
+              "text": "Las personas que siguen el deporte en las redes sociales."
             },
             "c2": {
               "text": "Atletas, directivos, periodistas, organizaciones y sus representantes, familiares, aficionados y demás personas relacionadas con las comunidades deportivas.",
@@ -1089,7 +1107,7 @@
             "note": "Image alt"
           },
           "body": {
-            "text": "<p>El abuso en línea puede alterar el sueño y la recuperación. Las experiencias negativas en línea pueden prolongarse más allá de la interacción inicial, afectando la capacidad del atleta para descansar y recuperarse.</p>",
+            "text": "<p>El abuso en línea puede alterar el sueño y la recuperación. Las experiencias dañinas en línea pueden afectar los patrones de sueño de un atleta, dificultando despertar descansado y recuperarse por completo tras el entrenamiento o la competición.</p>",
             "note": "HTML allowed"
           },
           "research": {
@@ -1373,7 +1391,7 @@
                 "text": "España"
               },
               "html": {
-                "text": "<p>En España, la Ley de IA de la UE se aplica directamente y proporciona el marco legal para la regulación de la inteligencia artificial, incluido el contenido generado por IA. La Agencia Española de Supervisión de la Inteligencia Artificial (AESIA) supervisa el cumplimiento de la normativa sobre IA y apoya su implementación a nivel nacional.</p>",
+                "text": "<p>En España, la Ley de IA de la UE se aplica directamente y proporciona el marco legal para la regulación de la inteligencia artificial, incluido el contenido generado por IA. La <a href=\"https://aesia.digital.gob.es/es\" target=\"_blank\" rel=\"noopener noreferrer\">Agencia Española de Supervisión de la Inteligencia Artificial (AESIA)</a> supervisa el cumplimiento de la normativa sobre IA y apoya su implementación a nivel nacional.</p>",
                 "note": "HTML allowed"
               }
             }
@@ -1666,7 +1684,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Inteligencia artificial y daños en línea</span>",
+          "text": "<span style=\"color: #1c3564\">Inteligencia artificial y daños en línea</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1676,7 +1694,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explora los sistemas de denuncia en tu país:</span>",
+          "text": "<span style=\"color: #1c3564\">Explora los sistemas de denuncia en tu país:</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1686,17 +1704,17 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explora: ¿Qué factores pueden influir en la difusión de contenido dañino en línea?</span>",
+          "text": "<span style=\"color: #1c3564\">Explora: ¿Qué factores pueden influir en la difusión de contenido dañino en línea?</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
       "howPlatformsHelpReduceOnlineAbuse": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Las plataformas actúan como intermediarias entre <strong>personas, contenido y comunidades</strong>. Su diseño puede influir en el alcance del contenido dañino, y sus herramientas integradas también pueden ayudar a <strong>detectar, limitar, denunciar y responder al abuso</strong>.</span></p><p></p><p><span style=\"color: #091324\">Estas medidas pueden incluir <strong>la moderación de contenido, la reducción de la distribución de contenido dañino, avisos antes de publicar, configuraciones de seguridad del usuario, mecanismos de denuncia y normas comunitarias.</strong> La regulación también está influyendo cada vez más en las responsabilidades de las plataformas.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">En la mayoría de los países del mundo, estas plataformas tienen el deber fiduciario (en el Reino Unido, por ejemplo, la <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Ley de Seguridad en Línea</a> y en Europa, la <a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\" target=\"_blank\" rel=\"noopener\">Ley de Servicios Digitales</a>) de evaluar los riesgos, proteger a los usuarios del contenido ilegal, proporcionar mecanismos de denuncia e implementar medidas de seguridad proporcionadas.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Las plataformas actúan como intermediarias entre <strong>personas, contenido y comunidades</strong>. Su diseño puede influir en el alcance del contenido dañino, y sus herramientas integradas también pueden ayudar a <strong>detectar, limitar, denunciar y responder al abuso</strong>.</span></p><p></p><p><span style=\"color: #091324\">Estas medidas pueden incluir <strong>la moderación de contenido, la reducción de la distribución de contenido dañino, avisos antes de publicar, configuraciones de seguridad del usuario, mecanismos de denuncia y normas comunitarias.</strong> La regulación también está influyendo cada vez más en las responsabilidades de las plataformas.&nbsp;</span></p><p></p><p><span style=\"color: #091324\">En la mayoría de los países del mundo, estas plataformas tienen el deber fiduciario (en el Reino Unido, por ejemplo, la <a href=\"https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer\" target=\"_blank\" rel=\"noopener\">Ley de Seguridad en Línea</a> y en Europa, la <a href=\"https://www.consilium.europa.eu/en/policies/digital-services-act/\" target=\"_blank\" rel=\"noopener noreferrer\">Ley de Servicios Digitales</a>) de evaluar los riesgos, proteger a los usuarios del contenido ilegal, proporcionar mecanismos de denuncia e implementar medidas de seguridad proporcionadas.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Cómo las plataformas ayudan a reducir el abuso en línea</span>",
+          "text": "<span style=\"color: #1c3564\">Cómo las plataformas ayudan a reducir el abuso en línea</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1706,7 +1724,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Cómo las plataformas influyen en la propagación del abuso en línea</span>",
+          "text": "<span style=\"color: #1c3564\">Cómo las plataformas influyen en la propagación del abuso en línea</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1732,7 +1750,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Mirando hacia adelante</span>",
+          "text": "<span style=\"color: #1c3564\">Mirando hacia adelante</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1748,7 +1766,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Denunciar el abuso en línea en las redes sociales</span>",
+          "text": "<span style=\"color: #1c3564\">Denunciar el abuso en línea en las redes sociales</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1758,7 +1776,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Seleccione una región para obtener más información sobre el abuso en línea. </span>",
+          "text": "<span style=\"color: #1c3564\">Seleccione una región para obtener más información sobre el abuso en línea. </span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }
@@ -2145,7 +2163,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">¿Cómo pueden variar las respuestas legales según el país?</span>",
+          "text": "<span style=\"color: #1c3564\">¿Cómo pueden variar las respuestas legales según el país?</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2165,7 +2183,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Responsabilidades que van más allá de la ley</span>",
+          "text": "<span style=\"color: #1c3564\">Responsabilidades que van más allá de la ley</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2181,7 +2199,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Tres vías legales</span>",
+          "text": "<span style=\"color: #1c3564\">Tres vías legales</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2201,7 +2219,7 @@
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Dónde tienen límites las respuestas legales</span>",
+          "text": "<span style=\"color: #1c3564\">Dónde tienen límites las respuestas legales</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2437,7 +2455,7 @@
             "text": ""
           },
           "orpBody": {
-            "text": "<strong>La Plataforma de Preparación Organizacional (ORP) de la UAOA</strong> respalda estos esfuerzos ayudando a las organizaciones deportivas a evaluar su nivel de preparación, identificar áreas de mejora y fortalecer sus enfoques para prevenir y responder al abuso en línea.",
+            "text": "<strong><a href=\"https://orp.unitedagainstonlineabuse.com\" target=\"_blank\" rel=\"noopener noreferrer\">La Plataforma de Preparación Organizacional (ORP) de la UAOA</a></strong> respalda estos esfuerzos ayudando a las organizaciones deportivas a evaluar su nivel de preparación, identificar áreas de mejora y fortalecer sus enfoques para prevenir y responder al abuso en línea.",
             "note": "HTML allowed"
           }
         },
@@ -2806,7 +2824,7 @@
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Explora las tres capas de acción</span>",
+          "text": "<span style=\"color: #1c3564\">Explora las tres capas de acción</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
@@ -2838,13 +2856,13 @@
       },
       "uaoaHelpsConnectTheseLevelsOf": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">UAOA ayuda a conectar estos niveles de acción.</span>",
+          "text": "<span style=\"color: #1c3564\">UAOA ayuda a conectar estos niveles de acción.</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
       "youArePartOfAWider": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Formas parte de un sistema más amplio</span>",
+          "text": "<span style=\"color: #1c3564\">Formas parte de un sistema más amplio</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       }
@@ -3290,7 +3308,7 @@
       "exit": {
         "congratulations": {
           "heading": {
-            "text": "<span style=\"color: #21B7CB\">¡Felicidades!</span>",
+            "text": "<span style=\"color: #1c3564\">¡Felicidades!</span>",
             "note": "Native heading on Exit Page"
           }
         },
@@ -3328,7 +3346,7 @@
             "note": "Native text body on Final Quiz"
           },
           "heading": {
-            "text": "<span style=\"color: #21b7cb\">Estás listo para actuar contra el abuso en línea.</span>",
+            "text": "<span style=\"color: #1c3564\">Estás listo para actuar contra el abuso en línea.</span>",
             "note": "Native heading on Final Quiz"
           }
         }
@@ -4482,7 +4500,7 @@
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Acerca del curso</span>",
+          "text": "<span style=\"color: #1c3564\">Acerca del curso</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4492,7 +4510,7 @@
       },
       "readyToBegin": {
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">¿Listo para comenzar?</span>",
+          "text": "<span style=\"color: #1c3564\">¿Listo para comenzar?</span>",
           "note": "Native heading on About This Course"
         }
       },
@@ -4516,7 +4534,7 @@
           "note": "Native text body on About This Course"
         },
         "heading": {
-          "text": "<span style=\"color: #21b7cb\">Lo que explorarás</span>",
+          "text": "<span style=\"color: #1c3564\">Lo que explorarás</span>",
           "note": "Native heading on About This Course"
         }
       },
