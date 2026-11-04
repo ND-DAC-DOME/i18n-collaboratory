@@ -229,21 +229,21 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Ne čisto.</strong> Poglejte vzorec interakcij in kako se razvijajo skozi čas. <strong>Poskusite znova.</strong>",
+            "text": "<strong>Ne čisto.</strong> Premislite, na kaj je komentar usmerjen. <strong>Poskusite znova.</strong>",
             "note": "HTML allowed"
           }
         },
         "s3": {
           "text": {
-            "text": "Po kontroverzni odločitvi sodnik prejme komentar z žaljivim in ponižujočim jezikom od dela navijačev, ki z njo niso bili zadovoljni.",
+            "text": "Po odločitvi sodnik prejme komentar z žaljivim in nespoštljivim jezikom od skupine navijačev, ki z njegovo končno sodbo niso bili zadovoljni.",
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "<strong>Pravilno!</strong> Komentar uporablja žaljiv in ponižujoč jezik, usmerjen proti sodniku, zaradi česar je to primer <strong>žaljivega govora</strong>.",
+            "text": "<strong>Pravilno!</strong> Komentar uporablja žaljiv in nespoštljiv jezik, usmerjen proti sodniku, zaradi česar je to primer <strong>žaljivega govora</strong>.",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Ne čisto.</strong> Osredotočite se na uporabljeni jezik in kaj ga dela škodljivega. <strong>Poskusite znova.</strong>",
+            "text": "<strong>Ne čisto.</strong> Premislite, na kaj je komentar usmerjen. <strong>Poskusite znova.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -257,7 +257,7 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Ne čisto.</strong> Razmislite, na kaj so komentarji usmerjeni. <strong>Poskusite znova.</strong>",
+            "text": "<strong>Ne čisto.</strong> Osredotočite se na uporabljeni jezik in kaj ga dela škodljivega. <strong>Poskusite znova.</strong>",
             "note": "HTML allowed"
           }
         }

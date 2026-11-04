@@ -223,7 +223,7 @@
         },
         "s2": {
           "text": {
-            "text": "An athlete receives a derogatory comment that specifically attacks their religion.",
+            "text": "An athlete receives an offensive comment that specifically attacks their religion.",
             "note": "Scenario prompt; answer = hate speech"
           },
           "ok": {
@@ -231,21 +231,21 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Not quite.</strong> Look at the pattern of interactions and how they develop over time. <strong>Try again.</strong>",
+            "text": "<strong>Not quite.</strong> Consider what the comment targets. <strong>Try again.</strong>",
             "note": "HTML allowed"
           }
         },
         "s3": {
           "text": {
-            "text": "After a controversial decision, a referee receives a comment using humiliating and degrading language from a section of fans who were not happy about it.",
+            "text": "After a decision, a referee receives a comment using humiliating and disrespectful language from a group of fans who were not happy with his final call.",
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "<strong>Correct!</strong> The comment uses insulting and degrading language directed at the referee, making this an example of <strong>offensive speech</strong>.",
+            "text": "<strong>Correct!</strong> The comment uses insulting and disrespectful language directed at the referee, making this an example of <strong>offensive speech</strong>.",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Not quite.</strong> Focus on the language being used and what makes it harmful. <strong>Try again.</strong>",
+            "text": "<strong>Not quite.</strong> Consider what the comment targets. <strong>Try again.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -259,7 +259,7 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Not quite.</strong> Consider what the comments are targeting. <strong>Try again.</strong>",
+            "text": "<strong>Not quite.</strong> Focus on the language being used and what makes it harmful. <strong>Try again.</strong>",
             "note": "HTML allowed"
           }
         }

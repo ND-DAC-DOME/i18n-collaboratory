@@ -221,7 +221,7 @@
         },
         "s2": {
           "text": {
-            "text": "Sportovec obdrží hanlivou poznámku, která konkrétně útočí na jeho náboženství.",
+            "text": "Sportovec obdrží urážlivý komentář, který konkrétně útočí na jeho náboženství.",
             "note": "Scenario prompt; answer = hate speech"
           },
           "ok": {
@@ -229,21 +229,21 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Ne tak docela.</strong> Podívejte se na vzorec interakcí a na to, jak se vyvíjejí v čase. <strong>Zkuste to znovu.</strong>",
+            "text": "<strong>Ne tak docela.</strong> Zvažte, na co komentář cílí. <strong>Zkuste to znovu.</strong>",
             "note": "HTML allowed"
           }
         },
         "s3": {
           "text": {
-            "text": "Po kontroverzním rozhodnutí obdrží rozhodčí od části fanoušků, kteří s rozhodnutím nebyli spokojeni, ponižující a urážlivý komentář.",
+            "text": "Po rozhodnutí obdrží rozhodčí od skupiny fanoušků, kteří nebyli spokojeni s jeho konečným verdiktem, komentář s ponižujícím a neuctivým jazykem.",
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "<strong>Správně!</strong> Komentář používá urážlivý a ponižující jazyk namířený proti rozhodčímu, takže jde o příklad <strong>urážlivých projevů</strong>.",
+            "text": "<strong>Správně!</strong> Komentář používá urážlivý a neuctivý jazyk namířený proti rozhodčímu, takže jde o příklad <strong>urážlivých projevů</strong>.",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Ne tak docela.</strong> Zaměřte se na použitý jazyk a na to, co ho činí škodlivým. <strong>Zkuste to znovu.</strong>",
+            "text": "<strong>Ne tak docela.</strong> Zvažte, na co komentář cílí. <strong>Zkuste to znovu.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -257,7 +257,7 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Ne tak docela.</strong> Zvažte, na co se komentáře zaměřují. <strong>Zkuste to znovu.</strong>",
+            "text": "<strong>Ne tak docela.</strong> Zaměřte se na použitý jazyk a na to, co ho činí škodlivým. <strong>Zkuste to znovu.</strong>",
             "note": "HTML allowed"
           }
         }

@@ -221,7 +221,7 @@
         },
         "s2": {
           "text": {
-            "text": "Un athlète reçoit un commentaire désobligeant qui s'attaque spécifiquement à sa religion.",
+            "text": "Un athlète reçoit un commentaire offensant qui s'attaque spécifiquement à sa religion.",
             "note": "Scenario prompt; answer = hate speech"
           },
           "ok": {
@@ -229,21 +229,21 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Pas tout à fait.</strong> Observez la dynamique des interactions et leur évolution au fil du temps. <strong>Réessayez.</strong>",
+            "text": "<strong>Pas tout à fait.</strong> Réfléchissez à ce que vise ce commentaire. <strong>Réessayez.</strong>",
             "note": "HTML allowed"
           }
         },
         "s3": {
           "text": {
-            "text": "Suite à une décision controversée, un arbitre reçoit des commentaires humiliants et dégradants de la part d'une partie des supporters mécontents.",
+            "text": "Après une décision, un arbitre reçoit un commentaire utilisant un langage humiliant et irrespectueux de la part d'un groupe de supporters mécontents de sa décision finale.",
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "<strong>Exact !</strong> Ce commentaire utilise un langage insultant et dégradant envers l'arbitre, ce qui en fait un exemple de <strong>discours offensant</strong>.",
+            "text": "<strong>Exact !</strong> Ce commentaire utilise un langage insultant et irrespectueux envers l'arbitre, ce qui en fait un exemple de <strong>discours offensant</strong>.",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Pas tout à fait.</strong> Concentrez-vous sur le langage utilisé et sur ce qui le rend nuisible. <strong>Réessayez.</strong>",
+            "text": "<strong>Pas tout à fait.</strong> Réfléchissez à ce que vise ce commentaire. <strong>Réessayez.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -257,7 +257,7 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Pas tout à fait.</strong> Réfléchissez à ce que visent ces commentaires. <strong>Réessayez.</strong>",
+            "text": "<strong>Pas tout à fait.</strong> Concentrez-vous sur le langage utilisé et sur ce qui le rend nuisible. <strong>Réessayez.</strong>",
             "note": "HTML allowed"
           }
         }

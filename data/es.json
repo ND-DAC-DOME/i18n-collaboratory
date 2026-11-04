@@ -221,7 +221,7 @@
         },
         "s2": {
           "text": {
-            "text": "Un atleta recibe un comentario despectivo que ataca específicamente su religión.",
+            "text": "Un atleta recibe un comentario ofensivo que ataca específicamente su religión.",
             "note": "Scenario prompt; answer = hate speech"
           },
           "ok": {
@@ -229,21 +229,21 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>No exactamente.</strong> Observa el patrón de interacciones y cómo evolucionan con el tiempo. <strong>Inténtalo de nuevo.</strong>",
+            "text": "<strong>No exactamente.</strong> Considera a qué se dirige el comentario. <strong>Inténtalo de nuevo.</strong>",
             "note": "HTML allowed"
           }
         },
         "s3": {
           "text": {
-            "text": "Tras una decisión polémica, un árbitro recibe comentarios con lenguaje humillante y degradante por parte de un sector de los aficionados que no estaban contentos con la misma.",
+            "text": "Tras una decisión, un árbitro recibe un comentario con lenguaje humillante e irrespetuoso de un grupo de aficionados que no estaban contentos con su decisión final.",
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "<strong>¡Correcto!</strong> El comentario utiliza un lenguaje insultante y degradante dirigido al árbitro, lo que lo convierte en un ejemplo de <strong>discurso ofensivo</strong>.",
+            "text": "<strong>¡Correcto!</strong> El comentario utiliza un lenguaje insultante e irrespetuoso dirigido al árbitro, lo que lo convierte en un ejemplo de <strong>discurso ofensivo</strong>.",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>No exactamente.</strong> Céntrate en el lenguaje que se utiliza y en lo que lo hace dañino. <strong>Inténtalo de nuevo.</strong>",
+            "text": "<strong>No exactamente.</strong> Considera a qué se dirige el comentario. <strong>Inténtalo de nuevo.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -257,7 +257,7 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>No exactamente.</strong> Considera a qué se refieren los comentarios. <strong>Inténtalo de nuevo.</strong>",
+            "text": "<strong>No exactamente.</strong> Céntrate en el lenguaje que se utiliza y en lo que lo hace dañino. <strong>Inténtalo de nuevo.</strong>",
             "note": "HTML allowed"
           }
         }

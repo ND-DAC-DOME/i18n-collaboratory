@@ -221,7 +221,7 @@
         },
         "s2": {
           "text": {
-            "text": "En idrottare får en nedsättande kommentar som specifikt attackerar deras religion.",
+            "text": "En idrottare får en stötande kommentar som specifikt attackerar deras religion.",
             "note": "Scenario prompt; answer = hate speech"
           },
           "ok": {
@@ -229,21 +229,21 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Inte riktigt.</strong> Titta på interaktionsmönstret och hur det utvecklas över tid. <strong>Försök igen.</strong>",
+            "text": "<strong>Inte riktigt.</strong> Tänk på vad kommentaren riktar sig mot. <strong>Försök igen.</strong>",
             "note": "HTML allowed"
           }
         },
         "s3": {
           "text": {
-            "text": "Efter ett kontroversiellt beslut får en domare en kommentar med förödmjukande och nedvärderande språk från en grupp fans som inte var nöjda med det.",
+            "text": "Efter ett beslut får en domare en kommentar med förödmjukande och respektlöst språk från en grupp fans som inte var nöjda med hans slutliga domslut.",
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "<strong>Korrekt!</strong> Kommentaren använder förolämpande och nedvärderande språk riktat mot domaren, vilket gör detta till ett exempel på <strong>stötande tal</strong>.",
+            "text": "<strong>Korrekt!</strong> Kommentaren använder förolämpande och respektlöst språk riktat mot domaren, vilket gör detta till ett exempel på <strong>stötande tal</strong>.",
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Inte riktigt.</strong> Fokusera på språket som används och vad som gör det skadligt. <strong>Försök igen.</strong>",
+            "text": "<strong>Inte riktigt.</strong> Tänk på vad kommentaren riktar sig mot. <strong>Försök igen.</strong>",
             "note": "HTML allowed"
           }
         },
@@ -257,7 +257,7 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Inte riktigt.</strong> Tänk på vad kommentarerna riktar sig mot. <strong>Försök igen.</strong>",
+            "text": "<strong>Inte riktigt.</strong> Fokusera på språket som används och vad som gör det skadligt. <strong>Försök igen.</strong>",
             "note": "HTML allowed"
           }
         }
