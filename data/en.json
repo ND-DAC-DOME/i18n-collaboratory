@@ -4547,8 +4547,12 @@
   "welcome": {
     "partners": {
       "caption": {
-        "text": "UAOA thanks the Erasmus+ partner FIA member clubs Autoklub Ceske republiky (Czech Republic), Zveza za avto sport Slovenije - AS (Slovenia), Real Federación Española De Automovilismo (Spain) and Svenska Bilsportförbundet (Sweden) along with the respective Academic partners Charles University, Prague, Prof. Matej Tusak (Slovenia), ESBS (European Sport Business School (ESBS Spain) and Asst. Prof. Lisa Kaati (Stockholm University) for contributing to the development of this eLearning Course.",
-        "note": "Welcome partner-acknowledgements caption embed (teal italic box under video)"
+        "text": "United Against Online Abuse (UAOA) gratefully acknowledges the contributions of its Erasmus+ partners to the development of this eLearning Course: FIA member clubs Autoklub České republiky (Czech Republic), Zveza za avto šport Slovenije – AŠ (Slovenia), Real Federación Española de Automovilismo (Spain), and Svenska Bilsportförbundet (Sweden), alongside academic partners Charles University (Czech Republic), Prof. Matej Tušak (Slovenia), European Sport Business School (Spain), and Docent Lisa Kaati, Stockholm University (Sweden).",
+        "note": "Welcome partner-acknowledgements body (teal, not italic, inside navy-outline box under video)"
+      },
+      "heading": {
+        "text": "Acknowledging Our Erasmus+ Partners",
+        "note": "Welcome partner-acknowledgements heading (navy, bold, inside navy-outline box under video)"
       }
     },
     "outcomes": {
