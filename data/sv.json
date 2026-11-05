@@ -832,7 +832,7 @@
       },
       "whenTheBehavioursOverlap": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\">Tänk dig att en spelare får en förödmjukande kommentar efter en förlust. Liknande meddelanden översvämmar sedan hens konto i flera dagar. Vissa angriper också hens etnicitet.<br><br>Det förödmjukande språket är <strong>stötande tal</strong>. Den upprepade offentliga aggressionen på en eller flera sociala medieplattformar skapar <strong>digital fientlighet</strong>. Den rasistiska måltavlan betraktas som <strong>hatpropaganda</strong>. <br><br>För att känna igen vad som händer, titta på språket, vem eller vad det riktar sig mot och interaktionsmönstret. Mer än ett beteende kan förekomma.</span></p>",
+          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\">Tänk dig att en spelare får en förödmjukande kommentar efter en förlust. Liknande meddelanden översvämmar sedan hens konto i flera dagar. Vissa angriper också hens etnicitet.<br><br>Det förödmjukande språket är <strong>stötande tal</strong>. Den upprepade offentliga aggressionen på en eller flera sociala medieplattformar skapar <strong>digital fientlighet</strong>. Den rasistiska måltavlan betraktas som <strong>hatpropaganda</strong>.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {

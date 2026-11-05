@@ -832,7 +832,7 @@
       },
       "whenTheBehavioursOverlap": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\">Představte si, že hráč po prohře dostane ponižující komentář. Podobné zprávy pak jeho účet zaplavují celé dny. Některé navíc útočí na jeho rasu.<br><br>Ponižující jazyk představuje <strong>urážlivé projevy</strong>. Opakovaná veřejná agrese na jedné nebo více sociálních sítích vytváří <strong>digitální nepřátelství</strong>. Rasistické cílení je považováno za <strong>nenávistné projevy</strong>. <br><br>Abyste rozpoznali, co se děje, všímejte si jazyka, toho, na koho nebo na co cílí, a vzorce interakcí. Může být přítomno více typů chování najednou.</span></p>",
+          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\">Představte si, že hráč po prohře dostane ponižující komentář. Podobné zprávy pak jeho účet zaplavují celé dny. Některé navíc útočí na jeho rasu.<br><br>Ponižující jazyk představuje <strong>urážlivé projevy</strong>. Opakovaná veřejná agrese na jedné nebo více sociálních sítích vytváří <strong>digitální nepřátelství</strong>. Rasistické cílení je považováno za <strong>nenávistné projevy</strong>.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
