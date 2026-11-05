@@ -275,7 +275,7 @@
         },
         "s4": {
           "text": {
-            "text": "After an important match, a female athlete receives insulting comments from a fan criticizing her performance.",
+            "text": "After an important match, a female athlete receives insulting comments from a fan criticising her performance.",
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
