@@ -177,8 +177,8 @@
         "note": "Nav CTA after survey embed"
       },
       "welcomeContinue": {
-        "text": "Continue",
-        "note": "Welcome CTA now advances to pre-course survey (was Continue to Module 1)"
+        "text": "Start Module 1",
+        "note": "Welcome slide bottom navigation_button label (action stays next/go to next; was Continue)"
       }
     },
     "postCourse": {
@@ -4615,7 +4615,7 @@
         }
       },
       "buildReadinessBody": {
-        "text": "<p><span style=\"color: #091324\">Awareness is only the beginning. This course builds the practical knowledge and skills needed to understand online abuse and take informed action for yourself and for your sporting community.</span></p><p></p><p><span style=\"color: #091324\">The course is designed to meet you wherever you are in your understanding of the topic:</span></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>If you are already familiar with online abuse</strong>, deepen your understanding of reporting systems, digital platforms, AI, and emerging approaches to prevention and response.</span></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>If the topic is new to you</strong>, build a strong foundation and identify practical ways to contribute to safer online practices and digital spaces in sport.</span></p></li></ul><p><span style=\"color: #091324\">By the end of the course, you will be better equipped to <strong>recognise online abuse, respond with confidence, and play an active role in creating safer sport.</strong></span></p>",
+        "text": "<p><span style=\"color: #091324\"><strong>Awareness is only the beginning.</strong> This course equips you with the knowledge and practical skills to understand online abuse and take informed action.</span></p><p></p><p><span style=\"color: #091324\">Whether you are new to the topic or already familiar with it, you will explore reporting systems, digital platforms, AI, and approaches to prevention and response.</span></p><p></p><p><span style=\"color: #091324\">By the end of the course, you will be better prepared to <strong>recognise online abuse, respond with confidence, and contribute to safer sport.</strong></span></p>",
         "note": "Native text body on Welcome"
       },
       "unitedAgainstOnlineAbuseUaoaBrings": {

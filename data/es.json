@@ -169,8 +169,8 @@
         "note": "Nav CTA after survey embed"
       },
       "welcomeContinue": {
-        "text": "Continuar",
-        "note": "Welcome CTA now advances to pre-course survey (was Continue to Module 1)"
+        "text": "Iniciar el Módulo 1",
+        "note": "Welcome slide bottom navigation_button label (action stays next/go to next; was Continue)"
       }
     },
     "postCourse": {
@@ -4488,7 +4488,7 @@
         }
       },
       "buildReadinessBody": {
-        "text": "<p><span style=\"color: #091324\">La concienciación es solo el principio. Este curso desarrolla los conocimientos y las habilidades prácticas necesarios para comprender el abuso en línea y tomar medidas informadas por ti y por tu comunidad deportiva.</span></p><p></p><p><span style=\"color: #091324\">El curso está diseñado para adaptarse a tu nivel de conocimiento sobre el tema:</span></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Si ya estás familiarizado con el abuso en línea</strong>, profundiza en tu comprensión de los sistemas de denuncia, las plataformas digitales, la IA y los enfoques emergentes de prevención y respuesta.</span></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Si el tema es nuevo para ti</strong>, construye una base sólida e identifica formas prácticas de contribuir a prácticas y espacios digitales más seguros en el deporte.</span></p></li></ul><p><span style=\"color: #091324\">Al finalizar el curso, estarás mejor preparado para <strong>reconocer el abuso en línea, responder con confianza y desempeñar un papel activo en la creación de un deporte más seguro.</strong></span></p>",
+        "text": "<p><span style=\"color: #091324\"><strong>La concienciación es solo el principio.</strong> Este curso te proporciona los conocimientos y las habilidades prácticas para comprender el abuso en línea y tomar medidas informadas.</span></p><p></p><p><span style=\"color: #091324\">Tanto si eres nuevo en el tema como si ya estás familiarizado con él, explorarás los sistemas de denuncia, las plataformas digitales, la IA y los enfoques de prevención y respuesta.</span></p><p></p><p><span style=\"color: #091324\">Al finalizar el curso, estarás mejor preparado para <strong>reconocer el abuso en línea, responder con confianza y contribuir a un deporte más seguro.</strong></span></p>",
         "note": "Native text body on Welcome"
       },
       "unitedAgainstOnlineAbuseUaoaBrings": {

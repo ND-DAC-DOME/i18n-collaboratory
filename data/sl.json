@@ -169,8 +169,8 @@
         "note": "Nav CTA after survey embed"
       },
       "welcomeContinue": {
-        "text": "Nadaljuj",
-        "note": "Welcome CTA now advances to pre-course survey (was Continue to Module 1)"
+        "text": "Začni modul 1",
+        "note": "Welcome slide bottom navigation_button label (action stays next/go to next; was Continue)"
       }
     },
     "postCourse": {
@@ -4487,7 +4487,7 @@
         }
       },
       "buildReadinessBody": {
-        "text": "<p><span style=\"color: #091324\">Ozaveščenost je šele začetek. Ta tečaj gradi praktično znanje in veščine, potrebne za razumevanje spletne zlorabe in premišljeno ukrepanje zase in za svojo športno skupnost.</span></p><p></p><p><span style=\"color: #091324\">Tečaj je zasnovan tako, da vam bo ustrezal ne glede na to, koliko že razumete to temo:</span></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Če ste s spletno zlorabo že seznanjeni</strong>, poglobite svoje razumevanje sistemov prijave, digitalnih platform, umetne inteligence in novih pristopov k preprečevanju in odzivanju.</span></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Če vam je tema nova</strong>, zgradite trdne temelje in prepoznajte praktične načine, kako prispevati k varnejšim spletnim praksam in digitalnim prostorom v športu.</span></p></li></ul><p><span style=\"color: #091324\">Ob koncu tečaja boste bolje opremljeni, da <strong>prepoznate spletno zlorabo, se samozavestno odzovete in aktivno prispevate k ustvarjanju varnejšega športa.</strong></span></p>",
+        "text": "<p><span style=\"color: #091324\"><strong>Ozaveščenost je šele začetek.</strong> Ta tečaj vas opremi z znanjem in praktičnimi veščinami za razumevanje spletne zlorabe in premišljeno ukrepanje.</span></p><p></p><p><span style=\"color: #091324\">Ne glede na to, ali je tema za vas nova ali ste z njo že seznanjeni, boste raziskali sisteme prijave, digitalne platforme, umetno inteligenco in pristope k preprečevanju in odzivanju.</span></p><p></p><p><span style=\"color: #091324\">Ob koncu tečaja boste bolje pripravljeni <strong>prepoznati spletno zlorabo, se samozavestno odzvati in prispevati k varnejšemu športu.</strong></span></p>",
         "note": "Native text body on Welcome"
       },
       "unitedAgainstOnlineAbuseUaoaBrings": {

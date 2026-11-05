@@ -169,8 +169,8 @@
         "note": "Nav CTA after survey embed"
       },
       "welcomeContinue": {
-        "text": "Fortsätt",
-        "note": "Welcome CTA now advances to pre-course survey (was Continue to Module 1)"
+        "text": "Starta modul 1",
+        "note": "Welcome slide bottom navigation_button label (action stays next/go to next; was Continue)"
       }
     },
     "postCourse": {
@@ -4487,7 +4487,7 @@
         }
       },
       "buildReadinessBody": {
-        "text": "<p><span style=\"color: #091324\">Medvetenhet är bara början. Den här kursen bygger upp de praktiska kunskaper och färdigheter som behövs för att förstå onlineövergrepp och vidta välgrundade åtgärder för dig själv och för din idrottsgemenskap.</span></p><p></p><p><span style=\"color: #091324\">Kursen är utformad för att möta dig där du befinner dig i din förståelse av ämnet:</span></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Om du redan är bekant med onlineövergrepp</strong> kan du fördjupa din förståelse av rapporteringssystem, digitala plattformar, AI och nya metoder för förebyggande arbete och respons.</span></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Om ämnet är nytt för dig</strong> kan du bygga en stabil grund och hitta praktiska sätt att bidra till säkrare beteenden online och tryggare digitala miljöer inom idrotten.</span></p></li></ul><p><span style=\"color: #091324\">När du har gått igenom kursen är du bättre rustad att <strong>känna igen onlineövergrepp, reagera med självförtroende och ta en aktiv roll i att skapa en säkrare idrott.</strong></span></p>",
+        "text": "<p><span style=\"color: #091324\"><strong>Medvetenhet är bara början.</strong> Den här kursen ger dig kunskaperna och de praktiska färdigheterna för att förstå onlineövergrepp och vidta välgrundade åtgärder.</span></p><p></p><p><span style=\"color: #091324\">Oavsett om ämnet är nytt för dig eller om du redan är bekant med det kommer du att utforska rapporteringssystem, digitala plattformar, AI och metoder för förebyggande arbete och respons.</span></p><p></p><p><span style=\"color: #091324\">När du har gått igenom kursen är du bättre förberedd att <strong>känna igen onlineövergrepp, reagera med självförtroende och bidra till en säkrare idrott.</strong></span></p>",
         "note": "Native text body on Welcome"
       },
       "unitedAgainstOnlineAbuseUaoaBrings": {

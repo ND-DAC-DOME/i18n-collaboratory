@@ -169,8 +169,8 @@
         "note": "Nav CTA after survey embed"
       },
       "welcomeContinue": {
-        "text": "Continuer",
-        "note": "Welcome CTA now advances to pre-course survey (was Continue to Module 1)"
+        "text": "Commencer le module 1",
+        "note": "Welcome slide bottom navigation_button label (action stays next/go to next; was Continue)"
       }
     },
     "postCourse": {
@@ -4487,7 +4487,7 @@
         }
       },
       "buildReadinessBody": {
-        "text": "<p><span style=\"color: #091324\">La sensibilisation n'est qu'un point de départ. Ce cours développe les connaissances et les compétences pratiques nécessaires pour comprendre les abus en ligne et agir de manière éclairée, pour vous-même et pour votre communauté sportive.</span></p><p></p><p><span style=\"color: #091324\">Le cours est conçu pour s'adapter à votre niveau de connaissance du sujet :</span></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Si vous connaissez déjà les abus en ligne</strong>, approfondissez votre compréhension des systèmes de signalement, des plateformes numériques, de l'IA et des nouvelles approches de prévention et de réponse.</span></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Si le sujet est nouveau pour vous</strong>, acquérez de solides bases et identifiez des moyens concrets de contribuer à des pratiques en ligne et des espaces numériques plus sûrs dans le sport.</span></p></li></ul><p><span style=\"color: #091324\">À la fin du cours, vous serez mieux armé(e) pour <strong>reconnaître les abus en ligne, réagir avec assurance et jouer un rôle actif dans la création d'un sport plus sûr.</strong></span></p>",
+        "text": "<p><span style=\"color: #091324\"><strong>La sensibilisation n'est qu'un point de départ.</strong> Ce cours vous dote des connaissances et des compétences pratiques pour comprendre les abus en ligne et agir de manière éclairée.</span></p><p></p><p><span style=\"color: #091324\">Que le sujet soit nouveau pour vous ou que vous le connaissiez déjà, vous explorerez les systèmes de signalement, les plateformes numériques, l'IA et les approches de prévention et de réponse.</span></p><p></p><p><span style=\"color: #091324\">À la fin du cours, vous serez mieux préparé(e) à <strong>reconnaître les abus en ligne, réagir avec assurance et contribuer à un sport plus sûr.</strong></span></p>",
         "note": "Native text body on Welcome"
       },
       "unitedAgainstOnlineAbuseUaoaBrings": {

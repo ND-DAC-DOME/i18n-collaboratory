@@ -169,8 +169,8 @@
         "note": "Nav CTA after survey embed"
       },
       "welcomeContinue": {
-        "text": "Pokračovat",
-        "note": "Welcome CTA now advances to pre-course survey (was Continue to Module 1)"
+        "text": "Začít modul 1",
+        "note": "Welcome slide bottom navigation_button label (action stays next/go to next; was Continue)"
       }
     },
     "postCourse": {
@@ -4487,7 +4487,7 @@
         }
       },
       "buildReadinessBody": {
-        "text": "<p><span style=\"color: #091324\">Povědomí je jen začátek. Tento kurz rozvíjí praktické znalosti a dovednosti potřebné k pochopení online zneužívání a k informovaným krokům pro vás i pro vaši sportovní komunitu.</span></p><p></p><p><span style=\"color: #091324\">Kurz je navržen tak, aby vám vyhověl bez ohledu na to, jak dobře již téma znáte:</span></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Pokud se s online zneužíváním již vyznáte</strong>, prohloubíte své znalosti systémů nahlašování, digitálních platforem, umělé inteligence a nových přístupů k prevenci a reakci.</span></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Pokud je pro vás téma nové</strong>, vybudujete si pevný základ a najdete praktické způsoby, jak přispět k bezpečnějším online postupům a digitálním prostorům ve sportu.</span></p></li></ul><p><span style=\"color: #091324\">Na konci kurzu budete lépe připraveni <strong>rozpoznat online zneužívání, reagovat s jistotou a aktivně se podílet na vytváření bezpečnějšího sportu.</strong></span></p>",
+        "text": "<p><span style=\"color: #091324\"><strong>Povědomí je jen začátek.</strong> Tento kurz vás vybaví znalostmi a praktickými dovednostmi k pochopení online zneužívání a k informovaným krokům.</span></p><p></p><p><span style=\"color: #091324\">Ať už je pro vás téma nové, nebo je vám již známé, prozkoumáte systémy nahlašování, digitální platformy, umělou inteligenci a přístupy k prevenci a reakci.</span></p><p></p><p><span style=\"color: #091324\">Na konci kurzu budete lépe připraveni <strong>rozpoznat online zneužívání, reagovat s jistotou a přispívat k bezpečnějšímu sportu.</strong></span></p>",
         "note": "Native text body on Welcome"
       },
       "unitedAgainstOnlineAbuseUaoaBrings": {
