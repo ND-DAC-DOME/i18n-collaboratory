@@ -286,9 +286,6 @@
         "progress": {
           "text": "{n} de {total} explorados",
           "note": "Flip progress counter"
-        },
-        "done": {
-          "text": "Todas las formas exploradas"
         }
       },
       "cards": {
@@ -377,6 +374,16 @@
       },
       "religion": {
         "text": "Religión"
+      },
+      "age": {
+        "text": "Edad"
+      },
+      "pregnancy": {
+        "text": "Embarazo"
+      },
+      "maritalStatus": {
+        "text": "Estado civil",
+        "note": "May wrap to two lines on the tile"
       }
     },
     "platforms": {
@@ -812,7 +819,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">¿Qué entendemos por abuso en línea?</span>",
+          "text": "<span style=\"color: #1c3564\">¿Qué queremos decir sobre el abuso en línea?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {

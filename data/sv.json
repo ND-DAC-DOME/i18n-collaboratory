@@ -286,9 +286,6 @@
         "progress": {
           "text": "{n} av {total} utforskade",
           "note": "Flip progress counter"
-        },
-        "done": {
-          "text": "Alla former utforskade"
         }
       },
       "cards": {
@@ -377,6 +374,16 @@
       },
       "religion": {
         "text": "Religion"
+      },
+      "age": {
+        "text": "Ålder"
+      },
+      "pregnancy": {
+        "text": "Graviditet"
+      },
+      "maritalStatus": {
+        "text": "Civilstånd",
+        "note": "May wrap to two lines on the tile"
       }
     },
     "platforms": {
@@ -812,7 +819,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Vad menar vi med onlineövergrepp?</span>",
+          "text": "<span style=\"color: #1c3564\">Vad menar vi om onlineövergrepp?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {

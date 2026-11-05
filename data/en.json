@@ -294,9 +294,6 @@
         "progress": {
           "text": "{n} of {total} explored",
           "note": "Flip progress counter"
-        },
-        "done": {
-          "text": "All forms explored"
         }
       },
       "cards": {
@@ -385,6 +382,16 @@
       },
       "religion": {
         "text": "Religion"
+      },
+      "age": {
+        "text": "Age"
+      },
+      "pregnancy": {
+        "text": "Pregnancy"
+      },
+      "maritalStatus": {
+        "text": "Marital Status",
+        "note": "May wrap to two lines on the tile"
       }
     },
     "platforms": {
@@ -820,7 +827,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">What do we understand by online abuse?</span>",
+          "text": "<span style=\"color: #1c3564\">What do we mean about online abuse?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {

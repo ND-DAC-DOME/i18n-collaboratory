@@ -286,9 +286,6 @@
         "progress": {
           "text": "Prozkoumáno: {n} z {total}",
           "note": "Flip progress counter"
-        },
-        "done": {
-          "text": "Všechny formy prozkoumány"
         }
       },
       "cards": {
@@ -377,6 +374,16 @@
       },
       "religion": {
         "text": "Náboženství"
+      },
+      "age": {
+        "text": "Věk"
+      },
+      "pregnancy": {
+        "text": "Těhotenství"
+      },
+      "maritalStatus": {
+        "text": "Rodinný stav",
+        "note": "May wrap to two lines on the tile"
       }
     },
     "platforms": {
@@ -812,7 +819,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Co rozumíme pod pojmem online zneužívání?</span>",
+          "text": "<span style=\"color: #1c3564\">Co máme na mysli ohledně online zneužívání?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {

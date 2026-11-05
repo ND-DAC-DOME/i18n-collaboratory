@@ -286,9 +286,6 @@
         "progress": {
           "text": "{n} od {total} raziskanih",
           "note": "Flip progress counter"
-        },
-        "done": {
-          "text": "Vse oblike raziskane"
         }
       },
       "cards": {
@@ -377,6 +374,16 @@
       },
       "religion": {
         "text": "Religija"
+      },
+      "age": {
+        "text": "Starost"
+      },
+      "pregnancy": {
+        "text": "Nosečnost"
+      },
+      "maritalStatus": {
+        "text": "Zakonski stan",
+        "note": "May wrap to two lines on the tile"
       }
     },
     "platforms": {
@@ -812,7 +819,7 @@
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Kaj razumemo pod spletno zlorabo?</span>",
+          "text": "<span style=\"color: #1c3564\">Kaj mislimo o spletni zlorabi?</span>",
           "note": "Native heading on Understanding Online Abuse"
         },
         "p4": {
