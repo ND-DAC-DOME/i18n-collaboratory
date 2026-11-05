@@ -161,7 +161,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p>Fyll i den här korta enkäten innan du börjar modul 1. Fortsätt-knappen låses upp när du är klar.</p>",
+        "text": "<p><span style=\"color: #091324\">Innan du börjar kommer den här korta enkäten att hjälpa dig att reflektera över dina nuvarande kunskaper, ditt självförtroende och din beredskap att hantera onlineövergrepp. Det finns inga rätta eller felaktiga svar. Dina svar ger en utgångspunkt för att reflektera över dina framsteg under kursens gång.</span></p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {

@@ -161,7 +161,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p>Completa esta breve encuesta antes de comenzar el Módulo 1. El botón Continuar se desbloqueará cuando la termines.</p>",
+        "text": "<p><span style=\"color: #091324\">Antes de comenzar, esta breve encuesta te ayudará a reflexionar sobre tus conocimientos, confianza y preparación actuales para abordar el abuso en línea. No hay respuestas correctas ni incorrectas. Tus respuestas servirán de punto de partida para reflexionar sobre tu progreso a lo largo del curso.</span></p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {

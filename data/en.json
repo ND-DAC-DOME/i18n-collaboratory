@@ -169,7 +169,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p>Please complete this short survey before starting Module 1. Continue unlocks when you finish.</p>",
+        "text": "<p><span style=\"color: #091324\">Before you begin, this short survey will help you reflect on your current knowledge, confidence, and readiness to address online abuse. There are no right or wrong answers. Your responses will provide a starting point for reflecting on your progress throughout the course.</span></p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {

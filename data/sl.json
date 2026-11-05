@@ -161,7 +161,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p>Preden začnete z modulom 1, izpolnite to kratko anketo. Gumb »Nadaljuj« se odklene, ko končate.</p>",
+        "text": "<p><span style=\"color: #091324\">Preden začnete, vam bo ta kratka anketa pomagala razmisliti o vašem trenutnem znanju, samozavesti in pripravljenosti za obravnavo spletne zlorabe. Ni pravih ali napačnih odgovorov. Vaši odgovori bodo izhodišče za razmislek o vašem napredku skozi tečaj.</span></p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {

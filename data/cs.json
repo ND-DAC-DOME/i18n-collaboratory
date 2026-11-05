@@ -161,7 +161,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p>Před zahájením Modulu 1 prosím vyplňte tento krátký průzkum. Pokračování se odemkne po jeho dokončení.</p>",
+        "text": "<p><span style=\"color: #091324\">Než začnete, tento krátký průzkum vám pomůže zamyslet se nad vašimi současnými znalostmi, jistotou a připraveností řešit online zneužívání. Neexistují správné ani špatné odpovědi. Vaše odpovědi poskytnou výchozí bod pro reflexi vašeho pokroku v průběhu kurzu.</span></p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {

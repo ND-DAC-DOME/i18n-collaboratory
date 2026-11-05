@@ -161,7 +161,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p>Veuillez remplir ce court sondage avant de commencer le module 1. La suite se débloquera une fois le sondage terminé.</p>",
+        "text": "<p><span style=\"color: #091324\">Avant de commencer, ce court sondage vous aidera à réfléchir à vos connaissances, à votre confiance en soi et à votre niveau de préparation actuels pour faire face aux abus en ligne. Il n’y a pas de bonnes ou de mauvaises réponses. Vos réponses constitueront un point de départ pour réfléchir à votre progression tout au long du cours.</span></p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {
