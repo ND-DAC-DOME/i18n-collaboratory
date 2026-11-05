@@ -798,11 +798,11 @@
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Nätkonversationer är en del av sporten: </strong>att fira ett resultat, diskutera ett beslut eller få kontakt med ett lag eller en idrottare. Men dessa utrymmen kan också bli platser där människor blir förödmjukade, utsatta för övergrepp eller överväldigade av kritik och kränkningar.</span></p>",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Nätkonversationer är en del av sporten: </strong>att fira ett resultat, diskutera ett beslut eller få kontakt med ett lag eller en idrottare. Samma interaktioner som för människor samman kan också utsätta dem för förödmjukelse, trakasserier och övergrepp.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Nätkonversationer är en del av sporten: att fira ett resultat, diskutera ett beslut eller få kontakt med ett lag eller en idrottare. Men dessa utrymmen kan också bli platser där människor blir förödmjukade, utsatta för övergrepp eller överväldigade av kritik och kränkningar.</span>",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Nätkonversationer är en del av sporten: att fira ett resultat, diskutera ett beslut eller få kontakt med ett lag eller en idrottare. Samma interaktioner som för människor samman kan också utsätta dem för förödmjukelse, trakasserier och övergrepp.</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },

@@ -798,11 +798,11 @@
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Online konverzace jsou součástí sportu:</strong> oslava výsledku, diskuse o rozhodnutí nebo navazování kontaktů s týmem či sportovcem. Tato místa se však mohou stát také místy, kde jsou lidé ponižováni, terčem útoků nebo zahlceni kritikou a zneužíváním.</span></p>",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Online konverzace jsou součástí sportu:</strong> oslava výsledku, diskuse o rozhodnutí nebo navazování kontaktů s týmem či sportovcem. Stejné interakce, které lidi spojují, je mohou také vystavit ponižování, obtěžování a zneužívání.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online konverzace jsou součástí sportu: oslava výsledku, diskuse o rozhodnutí nebo navazování kontaktů s týmem či sportovcem. Tato místa se však mohou stát také místy, kde jsou lidé ponižováni, terčem útoků nebo zahlceni kritikou a zneužíváním.</span>",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online konverzace jsou součástí sportu: oslava výsledku, diskuse o rozhodnutí nebo navazování kontaktů s týmem či sportovcem. Stejné interakce, které lidi spojují, je mohou také vystavit ponižování, obtěžování a zneužívání.</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },

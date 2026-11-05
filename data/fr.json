@@ -798,11 +798,11 @@
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Les conversations en ligne font partie intégrante du sport : </strong>célébrer un résultat, discuter d’une décision ou échanger avec une équipe ou un athlète. Mais ces espaces peuvent aussi devenir des lieux où des personnes sont humiliées, ciblées ou submergées de critiques et d’abus.</span></p>",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Les conversations en ligne font partie intégrante du sport : </strong>célébrer un résultat, discuter d’une décision ou échanger avec une équipe ou un athlète. Les mêmes interactions qui rassemblent les personnes peuvent aussi les exposer à l’humiliation, au harcèlement et aux abus.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Les conversations en ligne font partie intégrante du sport : célébrer un résultat, discuter d’une décision ou échanger avec une équipe ou un athlète. Mais ces espaces peuvent aussi devenir des lieux où des personnes sont humiliées, ciblées ou submergées de critiques et d’abus.</span>",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Les conversations en ligne font partie intégrante du sport : célébrer un résultat, discuter d’une décision ou échanger avec une équipe ou un athlète. Les mêmes interactions qui rassemblent les personnes peuvent aussi les exposer à l’humiliation, au harcèlement et aux abus.</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },

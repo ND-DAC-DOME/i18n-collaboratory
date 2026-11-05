@@ -806,11 +806,11 @@
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Online conversations are part of sport: </strong>celebrating a result, discussing a decision, or connecting with a team or athlete. But these spaces can also become places where people are humiliated, targeted, or overwhelmed with criticism and abuse.</span></p>",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Online conversations are part of sport: </strong>celebrating a result, discussing a decision, or connecting with a team or athlete. The same interactions that bring people together can also expose them to humiliation, harassment, and abuse.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online conversations are part of sport: celebrating a result, discussing a decision, or connecting with a team or athlete. But these spaces can also become places where people are humiliated, targeted, or overwhelmed with criticism and abuse.</span>",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online conversations are part of sport: celebrating a result, discussing a decision, or connecting with a team or athlete. The same interactions that bring people together can also expose them to humiliation, harassment, and abuse.</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },

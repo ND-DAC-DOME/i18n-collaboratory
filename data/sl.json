@@ -798,11 +798,11 @@
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Spletni pogovori so del športa: </strong>praznovanje rezultata, razprava o odločitvi ali povezovanje z ekipo ali športnikom. Vendar pa lahko ti prostori postanejo tudi kraji, kjer so ljudje ponižani, tarča napadov ali preobremenjeni s kritiko in zlorabami.</span></p>",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Spletni pogovori so del športa: </strong>praznovanje rezultata, razprava o odločitvi ali povezovanje z ekipo ali športnikom. Iste interakcije, ki ljudi povezujejo, jih lahko tudi izpostavijo ponižanju, nadlegovanju in zlorabi.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Spletni pogovori so del športa: praznovanje rezultata, razprava o odločitvi ali povezovanje z ekipo ali športnikom. Vendar pa lahko ti prostori postanejo tudi kraji, kjer so ljudje ponižani, tarča napadov ali preobremenjeni s kritiko in zlorabami.</span>",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Spletni pogovori so del športa: praznovanje rezultata, razprava o odločitvi ali povezovanje z ekipo ali športnikom. Iste interakcije, ki ljudi povezujejo, jih lahko tudi izpostavijo ponižanju, nadlegovanju in zlorabi.</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },

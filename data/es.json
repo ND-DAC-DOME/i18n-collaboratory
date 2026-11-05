@@ -798,11 +798,11 @@
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Las conversaciones en línea son parte del deporte: </strong>celebrar un resultado, debatir una decisión o conectar con un equipo o un atleta. Pero estos espacios también pueden convertirse en lugares donde las personas son humilladas, atacadas o abrumadas por críticas y abusos.</span></p>",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Las conversaciones en línea son parte del deporte: </strong>celebrar un resultado, debatir una decisión o conectar con un equipo o un atleta. Las mismas interacciones que unen a las personas también pueden exponerlas a la humillación, el acoso y el abuso.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Las conversaciones en línea son parte del deporte: celebrar un resultado, debatir una decisión o conectar con un equipo o un atleta. Pero estos espacios también pueden convertirse en lugares donde las personas son humilladas, atacadas o abrumadas por críticas y abusos.</span>",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Las conversaciones en línea son parte del deporte: celebrar un resultado, debatir una decisión o conectar con un equipo o un atleta. Las mismas interacciones que unen a las personas también pueden exponerlas a la humillación, el acoso y el abuso.</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
