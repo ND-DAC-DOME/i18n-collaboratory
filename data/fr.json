@@ -850,7 +850,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Quelle réponse reflète le mieux l’éventail des personnes qui peuvent être touchées par les abus en ligne dans le sport ?",
+            "text": "Quelle option reflète le mieux l’éventail des personnes qui peuvent être touchées par les abus en ligne dans le sport ?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -967,7 +967,7 @@
         },
         "c2": {
           "name": {
-            "text": "Arbitres"
+            "text": "Officiels sportifs"
           },
           "body": {
             "text": "Les officiels peuvent être victimes d'abus en ligne à la suite de des décisions prises pendant une compétition, ce qui s'ajoute aux agressions verbales et physiques qu'ils subissent déjà en personne. Les critiques répétées, les menaces et l'hostilité peuvent engendrer du stress et affecter leur confiance en eux, leur autorité perçue et leur bien-être."
@@ -975,7 +975,7 @@
         },
         "c3": {
           "name": {
-            "text": "Journalistes"
+            "text": "Professionnels des médias"
           },
           "body": {
             "text": "Les journalistes jouent un rôle important en reliant les athlètes, les équipes et les organisations sportives à un public plus large. Ils peuvent devenir la cible d'hostilité en ligne en raison de leurs reportages, de leurs commentaires ou de leur position perçue sur un sujet."
@@ -983,7 +983,7 @@
         },
         "c4": {
           "name": {
-            "text": "Sponsors et représentants"
+            "text": "Fédérations et organisations sportives"
           },
           "body": {
             "text": "Les organisations sportives et leurs financeurs, gestionnaires et représentants peuvent également être la cible d'abus en ligne. Les contenus hostiles peuvent viser l'organisation elle-même, ses décisions, ses politiques ou ses actions, ou encore certains de ses employés et représentants. Cela peut nuire à sa réputation, à son activité professionnelle, à sa prise de décision et au bien-être des personnes concernées."
@@ -1022,7 +1022,7 @@
           "text": "{n} sélectionné(s)"
         },
         "ok": {
-          "text": "<strong>Ces impacts peuvent être interdépendants.</strong> Les abus en ligne peuvent affecter simultanément plusieurs aspects de la vie d'une personne, et leurs effets peuvent se développer ou s'intensifier avec le temps. Savoir reconnaître ces signes peut aider les acteurs du monde sportif à réagir avec plus de discernement et de soutien.",
+          "text": "<strong>Ces impacts peuvent être interconnectés et, de ce fait, chacun d’eux sont corrects.</strong> Les abus en ligne peuvent affecter simultanément plusieurs aspects de la vie d’une personne, et les effets peuvent se développer ou s’intensifier au fil du temps. Reconnaître ces signes peut aider les acteurs du sport à répondre avec davantage de sensibilisation et de soutien.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1118,7 +1118,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "Dans une étude menée auprès de 912 jeunes athlètes âgés de 12 à 24 ans, 10,4 % ont déclaré avoir subi des abus en ligne. Parmi eux, 44,3 % ont rapporté des répercussions modérées à graves sur la qualité de leur sommeil.",
+            "text": "Dans une étude menée auprès de 912 jeunes athlètes âgés de 12 à 24 ans, <strong>10,4 %</strong> ont déclaré avoir subi des abus en ligne. Parmi eux, <strong>44,3 % ont rapporté des répercussions modérées à graves sur la qualité de leur sommeil.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1315,7 +1315,7 @@
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section4Body": {
-        "text": "<p><span style=\"color: #091324\">Après avoir reçu à plusieurs reprises des messages injurieux en ligne, un athlète commence à publier moins fréquemment sur les réseaux sociaux. Son entraîneur remarque qu'il semble distrait pendant les entraînements, et il a récemment mentionné des troubles du sommeil et une anxiété liée à la participation à des événements publics.</span></p>",
+        "text": "",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body": {

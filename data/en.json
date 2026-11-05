@@ -860,7 +860,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Which answer best reflects the range of people who can be affected by online abuse in sport?",
+            "text": "Which option best reflects the range of people who can be affected by online abuse in sport?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -978,7 +978,7 @@
         },
         "c2": {
           "name": {
-            "text": "Match officials"
+            "text": "Sport Officials"
           },
           "body": {
             "text": "Officials can face online abuse following decisions made during competition, adding to the verbal and physical abuse they may already experience in person. Repeated criticism, threats, and hostility can contribute to stress and affect their confidence, perceived authority, and wellbeing."
@@ -986,7 +986,7 @@
         },
         "c3": {
           "name": {
-            "text": "Journalists"
+            "text": "Media Professionals"
           },
           "body": {
             "text": "Journalists play an important role in connecting athletes, teams, and sporting organisations with wider audiences. Journalists may become targets of online hostility in response to their reporting, commentary or perceived position on an issue."
@@ -994,7 +994,7 @@
         },
         "c4": {
           "name": {
-            "text": "Sponsors and representatives"
+            "text": "Sports federations and organisations"
           },
           "body": {
             "text": "Sporting organisations and the people who fund, manage, and represent them can also become targets of online abuse. Hostile content may be directed at an organisation itself, its decisions, policies or actions, or at individual staff and representatives. This can affect organisational reputation, professional activity, decision-making, and the wellbeing of those involved."
@@ -1033,7 +1033,7 @@
           "text": "{n} selected"
         },
         "ok": {
-          "text": "<strong>These impacts can be interconnected.</strong> Online abuse may affect several areas of a person’s life at the same time, and the effects may develop or intensify over time. Recognising these signs can help people across sport respond with greater awareness and support.",
+          "text": "<strong>These impacts can be interconnected and thus each of them are correct.</strong> Online abuse may affect several areas of a person’s life at the same time, and the effects may develop or intensify over time. Recognising these signs can help people across sport respond with greater awareness and support.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1130,7 +1130,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "In a study of 912 young athletes aged 12–24, 10.4% reported experiencing online abuse. Among those affected, 44.3% reported moderate to severe effects on their sleep quality.",
+            "text": "In a study of 912 young athletes aged 12–24, <strong>10.4%</strong> reported experiencing online abuse. Among those affected, <strong>44.3% reported moderate to severe effects on their sleep quality.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1327,7 +1327,7 @@
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section4Body": {
-        "text": "<p><span style=\"color: #091324\">After receiving repeated abusive messages online, an athlete begins posting on social media less frequently. Their coach notices they seem distracted during training, and they have recently mentioned sleeping poorly and feeling anxious about attending public events.</span></p>",
+        "text": "",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body": {

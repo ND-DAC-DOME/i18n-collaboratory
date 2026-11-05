@@ -850,7 +850,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Kateri odgovor najbolje odraža razpon ljudi, ki jih lahko prizadene spletna zloraba v športu?",
+            "text": "Katera možnost najbolje odraža razpon ljudi, ki jih lahko prizadene spletna zloraba v športu?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -967,7 +967,7 @@
         },
         "c2": {
           "name": {
-            "text": "Sodniki tekme"
+            "text": "Športni sodniki"
           },
           "body": {
             "text": "Sodniki se lahko soočijo s spletnimi zlorabami zaradi odločitev, sprejetih med tekmovanjem, kar še povečuje verbalno in fizično zlorabo, ki jo morda že doživljajo v živo. Ponavljajoče se kritike, grožnje in sovražnost lahko prispevajo k stresu in vplivajo na njihovo samozavest, zaznano avtoriteto in dobro počutje."
@@ -975,7 +975,7 @@
         },
         "c3": {
           "name": {
-            "text": "Novinarji"
+            "text": "Medijski strokovnjaki"
           },
           "body": {
             "text": "Novinarji imajo pomembno vlogo pri povezovanju športnikov, ekip in športnih organizacij s širšim občinstvom. Novinarji lahko postanejo tarče spletne sovražnosti zaradi svojega poročanja, komentarjev ali domnevnega stališča do določene teme."
@@ -983,7 +983,7 @@
         },
         "c4": {
           "name": {
-            "text": "Sponzorji in predstavniki"
+            "text": "Športne zveze in organizacije"
           },
           "body": {
             "text": "Športne organizacije in ljudje, ki jih financirajo, upravljajo in zastopajo, lahko prav tako postanejo tarče spletnih zlorab. Sovražne vsebine so lahko usmerjene proti sami organizaciji, njenim odločitvam, politikam ali dejanjem ali proti posameznim zaposlenim in predstavnikom. To lahko vpliva na ugled organizacije, njeno poklicno dejavnost, odločanje in dobro počutje vpletenih."
@@ -1022,7 +1022,7 @@
           "text": "{n} izbranih"
         },
         "ok": {
-          "text": "<strong>Ti vplivi so lahko medsebojno povezani.</strong> Spletna zloraba lahko hkrati vpliva na več področij človekovega življenja, učinki pa se lahko sčasoma razvijejo ali okrepijo. Prepoznavanje teh znakov lahko ljudem v športu pomaga, da se odzovejo z večjo ozaveščenostjo in podporo.",
+          "text": "<strong>Ti vplivi so lahko medsebojno povezani in so zato vsi pravilni.</strong> Spletna zloraba lahko hkrati vpliva na več področij človekovega življenja, učinki pa se lahko sčasoma razvijejo ali okrepijo. Prepoznavanje teh znakov lahko pomaga ljudem v športu, da se odzovejo z večjo ozaveščenostjo in podporo.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1118,7 +1118,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "V študiji 912 mladih športnikov, starih od 12 do 24 let, jih je 10,4 % poročalo o spletnih zlorabah. Med prizadetimi jih je 44,3 % poročalo o zmernih do hudih vplivih na kakovost spanca.",
+            "text": "V študiji 912 mladih športnikov, starih od 12 do 24 let, jih je <strong>10,4 %</strong> poročalo o spletnih zlorabah. Med prizadetimi jih je <strong>44,3 % poročalo o zmernih do hudih vplivih na kakovost spanca.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1315,7 +1315,7 @@
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section4Body": {
-        "text": "<p><span style=\"color: #091324\">Potem ko je na spletu prejel večkratna žaljiva sporočila, je športnik začel manj pogosto objavljati na družbenih omrežjih. Njegov trener je opazil, da se med treningom zdi raztresen, pred kratkim pa je omenil, da slabo spi in da je tesnoben zaradi udeležbe na javnih dogodkih.</span></p>",
+        "text": "",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body": {

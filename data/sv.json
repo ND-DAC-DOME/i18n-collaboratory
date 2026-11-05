@@ -850,7 +850,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Vilket svar återspeglar bäst spektrumet av personer som kan drabbas av onlineövergrepp inom idrotten?",
+            "text": "Vilket alternativ återspeglar bäst spektrumet av personer som kan drabbas av onlineövergrepp inom idrotten?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -967,7 +967,7 @@
         },
         "c2": {
           "name": {
-            "text": "Domare"
+            "text": "Idrottsfunktionärer"
           },
           "body": {
             "text": "Domare kan utsättas för online-trakasserier efter beslut som fattats under tävlingar, vilket förvärrar de verbala och fysiska trakasserier de redan kan uppleva personligen. Upprepad kritik, hot och fientlighet kan bidra till stress och påverka deras självförtroende, upplevda auktoritet och välbefinnande."
@@ -975,7 +975,7 @@
         },
         "c3": {
           "name": {
-            "text": "Journalister"
+            "text": "Medieprofessionella"
           },
           "body": {
             "text": "Journalister spelar en viktig roll i att koppla samman idrottare, lag och idrottsorganisationer med en bredare publik. Journalister kan bli måltavlor för fientlighet online som svar på sin rapportering, kommentarer eller upplevda ståndpunkt i en fråga."
@@ -983,7 +983,7 @@
         },
         "c4": {
           "name": {
-            "text": "Sponsorer och representanter"
+            "text": "Idrottsförbund och organisationer"
           },
           "body": {
             "text": "Idrottsorganisationer och de personer som finansierar, förvaltar och representerar dem kan också bli måltavlor för onlineövergrepp. Fientlig innehåll kan riktas mot en organisation i sig, dess beslut, policyer eller handlingar, eller mot enskilda anställda och representanter. Detta kan påverka organisationens rykte, professionella verksamhet, beslutsfattande och de inblandades välbefinnande."
@@ -1022,7 +1022,7 @@
           "text": "Valda: {n}"
         },
         "ok": {
-          "text": "<strong>Dessa effekter kan vara sammankopplade.</strong> Övergrepp online kan påverka flera områden i en persons liv samtidigt, och effekterna kan utvecklas eller förstärkas över tid. Att känna igen dessa tecken kan hjälpa människor inom idrotten att reagera med större medvetenhet och stöd.",
+          "text": "<strong>Dessa konsekvenser kan vara sammanlänkade och därför är var och en av dem korrekta.</strong> Övergrepp online kan påverka flera områden i en persons liv samtidigt, och effekterna kan utvecklas eller intensifieras över tid. Att känna igen dessa tecken kan hjälpa människor inom idrotten att reagera med större medvetenhet och stöd.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1118,7 +1118,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "I en studie av 912 unga idrottare i åldrarna 12–24 rapporterade 10,4 % att de upplevt onlineövergrepp. Bland de drabbade rapporterade 44,3 % måttliga till svåra effekter på sin sömnkvalitet.",
+            "text": "I en studie av 912 unga idrottare i åldrarna 12–24 rapporterade <strong>10,4 %</strong> att de upplevt onlineövergrepp. Bland de drabbade rapporterade <strong>44,3 % måttliga till svåra effekter på sin sömnkvalitet.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1315,7 +1315,7 @@
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section4Body": {
-        "text": "<p><span style=\"color: #091324\">Efter att ha fått upprepade kränkande meddelanden online börjar en idrottare posta mer sällan på sociala medier. Deras tränare märker att de verkar distraherade under träningen, och de har nyligen nämnt att de sover dåligt och känner sig oroliga inför att delta i offentliga evenemang.</span></p>",
+        "text": "",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body": {

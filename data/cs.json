@@ -850,7 +850,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Která odpověď nejlépe vystihuje spektrum lidí, které může ovlivnit online zneužívání ve sportu?",
+            "text": "Která možnost nejlépe vystihuje spektrum lidí, které může ovlivnit online zneužívání ve sportu?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -967,7 +967,7 @@
         },
         "c2": {
           "name": {
-            "text": "Rozhodčí zápasu"
+            "text": "Sportovní rozhodčí"
           },
           "body": {
             "text": "Rozhodčí mohou čelit online útokům po rozhodnutích učiněných během soutěže, což se dále přidává k verbálnímu a fyzickému napadání, které již mohou zažít osobně. Opakovaná kritika, výhrůžky a nepřátelství mohou přispívat ke stresu a ovlivňovat jejich sebevědomí, vnímanou autoritu a pohodu."
@@ -975,7 +975,7 @@
         },
         "c3": {
           "name": {
-            "text": "Novináři"
+            "text": "Mediální profesionálové"
           },
           "body": {
             "text": "Novináři hrají důležitou roli v propojování sportovců, týmů a sportovních organizací s širším publikem. Novináři se mohou stát terčem online nepřátelství v reakci na své reportáže, komentáře nebo vnímaný postoj k určitému tématu."
@@ -983,7 +983,7 @@
         },
         "c4": {
           "name": {
-            "text": "Sponzoři a zástupci"
+            "text": "Sportovní federace a organizace"
           },
           "body": {
             "text": "Sportovní organizace a osoby, které je financují, řídí a zastupují, se mohou také stát terčem online zneužívání. Nepřátelský obsah může být namířen proti samotné organizaci, jejím rozhodnutím, politikám či akcím, nebo proti jednotlivým zaměstnancům a zástupcům. To může ovlivnit reputaci organizace, její profesní činnost, rozhodování a duševní pohodu zúčastněných."
@@ -1022,7 +1022,7 @@
           "text": "Vybráno {n}"
         },
         "ok": {
-          "text": "<strong>Tyto dopady mohou být vzájemně propojené.</strong> Online zneužívání může zasáhnout několik oblastí života člověka současně a jeho dopady se mohou časem rozvíjet nebo zesilovat. Rozpoznání těchto signálů může lidem ve sportu pomoci reagovat s větším porozuměním a podporou.",
+          "text": "<strong>Tyto dopady mohou být vzájemně propojené, a proto je každý z nich správný.</strong> Online zneužívání může zasáhnout několik oblastí života člověka současně a účinky se mohou v čase rozvíjet nebo zesilovat. Rozpoznání těchto znaků může pomoci lidem ve sportu reagovat s větší pozorností a podporou.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1118,7 +1118,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "Ve studii 912 mladých sportovců ve věku 12–24 let 10,4 % uvedlo, že zažili online zneužívání. Z postižených 44,3 % uvedlo středně závažné až závažné dopady na kvalitu spánku.",
+            "text": "Ve studii 912 mladých sportovců ve věku 12–24 let <strong>10,4 %</strong> uvedlo, že zažili online zneužívání. Z postižených <strong>44,3 % uvedlo středně závažné až závažné dopady na kvalitu spánku.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1315,7 +1315,7 @@
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section4Body": {
-        "text": "<p><span style=\"color: #091324\">Poté, co sportovec opakovaně dostával online urážlivé zprávy, začal méně často zveřejňovat příspěvky na sociálních sítích. Jeho trenér si všiml, že se během tréninku jeví roztržitě, a nedávno zmínil, že špatně spí a má úzkost z účasti na veřejných akcích.</span></p>",
+        "text": "",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body": {

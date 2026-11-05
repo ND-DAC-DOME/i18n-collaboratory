@@ -850,7 +850,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "¿Qué respuesta refleja mejor el abanico de personas que pueden verse afectadas por el abuso en línea en el deporte?",
+            "text": "¿Qué opción refleja mejor el abanico de personas que pueden verse afectadas por el abuso en línea en el deporte?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -967,7 +967,7 @@
         },
         "c2": {
           "name": {
-            "text": "Árbitros"
+            "text": "Oficiales deportivos"
           },
           "body": {
             "text": "Los árbitros pueden sufrir abuso en línea tras tomar decisiones durante la competición, lo que se suma al abuso verbal y físico que ya puedan experimentar en persona. Las críticas reiteradas, las amenazas y la hostilidad pueden contribuir al estrés y afectar su confianza, su autoridad percibida y su bienestar."
@@ -975,7 +975,7 @@
         },
         "c3": {
           "name": {
-            "text": "Periodistas"
+            "text": "Profesionales de los medios"
           },
           "body": {
             "text": "Los periodistas desempeñan un papel importante al conectar a atletas, equipos y organizaciones deportivas con un público más amplio. Pueden convertirse en blanco de hostilidad en línea como respuesta a sus reportajes, comentarios o postura sobre algún tema."
@@ -983,7 +983,7 @@
         },
         "c4": {
           "name": {
-            "text": "Patrocinadores y representantes"
+            "text": "Federaciones y organizaciones deportivas"
           },
           "body": {
             "text": "Las organizaciones deportivas y las personas que las financian, gestionan y representan también pueden ser blanco de abuso en línea. El contenido hostil puede dirigirse a la propia organización, a sus decisiones, políticas o acciones, o a empleados y representantes individuales. Esto puede afectar la reputación de la organización, su actividad profesional, la toma de decisiones y el bienestar de las personas involucradas."
@@ -1022,7 +1022,7 @@
           "text": "{n} seleccionados"
         },
         "ok": {
-          "text": "<strong>Estos impactos pueden estar interconectados.</strong> El abuso en línea puede afectar varias áreas de la vida de una persona simultáneamente, y sus efectos pueden desarrollarse o intensificarse con el tiempo. Reconocer estas señales puede ayudar a las personas en el ámbito deportivo a responder con mayor sensibilización y brindar apoyo.",
+          "text": "<strong>Estos impactos pueden estar interconectados y, por tanto, cada uno de ellos son correctos.</strong> El abuso en línea puede afectar varias áreas de la vida de una persona al mismo tiempo, y los efectos pueden desarrollarse o intensificarse con el tiempo. Reconocer estas señales puede ayudar a las personas del deporte a responder con mayor conciencia y apoyo.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1118,7 +1118,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "En un estudio realizado con 912 jóvenes atletas de entre 12 y 24 años, el 10,4% informó haber sufrido abuso en línea. Entre los afectados, el 44,3% reportó efectos de moderados a graves en la calidad de su sueño.",
+            "text": "En un estudio realizado con 912 jóvenes atletas de entre 12 y 24 años, el <strong>10,4%</strong> informó haber sufrido abuso en línea. Entre los afectados, <strong>el 44,3% reportó efectos de moderados a graves en la calidad de su sueño.</strong>",
             "note": "HTML allowed"
           },
           "source": {
@@ -1315,7 +1315,7 @@
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section4Body": {
-        "text": "<p><span style=\"color: #091324\">Tras recibir repetidos mensajes abusivos en línea, un atleta comienza a publicar con menos frecuencia en las redes sociales. Su entrenador nota que parece distraído durante los entrenamientos y que recientemente ha mencionado que duerme mal y que siente ansiedad al asistir a eventos públicos.</span></p>",
+        "text": "",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
       "section5Body": {
