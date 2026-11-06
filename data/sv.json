@@ -1700,7 +1700,7 @@
       },
       "exploreReportingSystemsInYourCountry": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Lär dig var du kan rapportera övergrepp online, söka stöd och få tillgång till resurser för att ta itu med skadligt innehåll och beteende.</span></p>",
+          "text": "<p><span style=\"color: rgb(9, 19, 36)\">Lär dig var du kan rapportera övergrepp online, söka stöd och få tillgång till resurser för att ta itu med skadligt innehåll och beteende. </span><br><br>(Länderna som listas nedan är endast avsedda som referens. Fler länder ska läggas till i framtiden.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {

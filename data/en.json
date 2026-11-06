@@ -1712,7 +1712,7 @@
       },
       "exploreReportingSystemsInYourCountry": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Learn where to report online abuse, seek support and access resources to help address harmful content and behaviour.</span></p>",
+          "text": "<p><span style=\"color: rgb(9, 19, 36)\">Learn where to report online abuse, seek support and access resources to help address harmful content and behaviour. </span><br><br>(The countries listed below are only for reference. More countries shall be added in the future.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {

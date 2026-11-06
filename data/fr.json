@@ -1700,7 +1700,7 @@
       },
       "exploreReportingSystemsInYourCountry": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Découvrez où signaler les abus en ligne, obtenir de l'aide et accéder aux ressources pour lutter contre les contenus et les comportements nuisibles.</span></p>",
+          "text": "<p><span style=\"color: rgb(9, 19, 36)\">Découvrez où signaler les abus en ligne, obtenir de l'aide et accéder aux ressources pour lutter contre les contenus et les comportements nuisibles. </span><br><br>(Les pays indiqués ci-dessous sont uniquement donnés à titre de référence. D'autres pays seront ajoutés à l'avenir.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {

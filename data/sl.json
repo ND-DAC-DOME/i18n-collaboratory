@@ -1700,7 +1700,7 @@
       },
       "exploreReportingSystemsInYourCountry": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Naučite se, kje prijaviti spletno zlorabo, poiskati podporo in dostopati do virov za pomoč pri obravnavanju škodljivih vsebin in vedenja.</span></p>",
+          "text": "<p><span style=\"color: rgb(9, 19, 36)\">Naučite se, kje prijaviti spletno zlorabo, poiskati podporo in dostopati do virov za pomoč pri obravnavanju škodljivih vsebin in vedenja. </span><br><br>(Spodaj navedene države so zgolj za orientacijo. V prihodnosti bo dodanih več držav.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
