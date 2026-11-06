@@ -1704,7 +1704,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Utforska rapporteringssystem i ditt land:</span>",
+          "text": "<span style=\"color: rgb(28, 53, 100)\">Utforska resurser för rapportering och stöd i ditt land:&nbsp;</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1762,6 +1762,12 @@
         "heading": {
           "text": "<span style=\"color: #1c3564\">Blick framåt</span>",
           "note": "Native heading on How Online Harm Spreads"
+        }
+      },
+      "noteTheseActionsProvidePracticalGuidance": {
+        "body": {
+          "text": "<p><span style=\"color: #091324\">Obs: Dessa åtgärder ger praktisk vägledning för att reagera på övergrepp online och behöver inte följas i en viss ordning. Beroende på omständigheterna kan vissa åtgärder vidtas samtidigt. Prioritera alltid din säkerhet och sök omedelbar hjälp från lämpliga myndigheter om det finns ett omedelbart hot.</span></p>",
+          "note": "Native text body on How Online Harm Spreads"
         }
       },
       "onlineAbuseCanSpreadQuicklyAnd": {

@@ -1704,7 +1704,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Explora los sistemas de denuncia en tu país:</span>",
+          "text": "<span style=\"color: rgb(28, 53, 100)\">Explora los recursos de denuncia y apoyo en tu país:&nbsp;</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1762,6 +1762,12 @@
         "heading": {
           "text": "<span style=\"color: #1c3564\">Mirando hacia adelante</span>",
           "note": "Native heading on How Online Harm Spreads"
+        }
+      },
+      "noteTheseActionsProvidePracticalGuidance": {
+        "body": {
+          "text": "<p><span style=\"color: #091324\">Nota: Estas acciones proporcionan orientación práctica para responder al abuso en línea y no es necesario seguirlas en un orden concreto. Según las circunstancias, algunas acciones pueden realizarse al mismo tiempo. Priorice siempre su seguridad y, si existe una amenaza inmediata, solicite asistencia inmediata de las autoridades competentes.</span></p>",
+          "note": "Native text body on How Online Harm Spreads"
         }
       },
       "onlineAbuseCanSpreadQuicklyAnd": {

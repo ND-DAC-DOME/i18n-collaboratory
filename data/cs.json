@@ -1704,7 +1704,7 @@
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Prozkoumejte systémy hlášení ve vaší zemi:</span>",
+          "text": "<span style=\"color: rgb(28, 53, 100)\">Prozkoumejte zdroje hlášení a podpory ve vaší zemi:&nbsp;</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1762,6 +1762,12 @@
         "heading": {
           "text": "<span style=\"color: #1c3564\">Pohled do budoucna</span>",
           "note": "Native heading on How Online Harm Spreads"
+        }
+      },
+      "noteTheseActionsProvidePracticalGuidance": {
+        "body": {
+          "text": "<p><span style=\"color: #091324\">Poznámka: Tato opatření poskytují praktické vodítko pro reakci na online zneužívání a není nutné je provádět v určitém pořadí. V závislosti na okolnostech lze některá opatření přijmout současně. Vždy upřednostněte svou bezpečnost a v případě bezprostřední hrozby ihned vyhledejte pomoc příslušných orgánů.</span></p>",
+          "note": "Native text body on How Online Harm Spreads"
         }
       },
       "onlineAbuseCanSpreadQuicklyAnd": {
