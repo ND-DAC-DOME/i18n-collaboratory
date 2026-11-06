@@ -1438,29 +1438,32 @@
         "hint": {
           "text": "Markera varje steg när du går igenom det. Inte betygsatt.",
           "note": "Removed from widget UI; kept for translators / legacy"
-        },
-        "done": {
-          "text": "Alla steg granskade."
         }
       },
       "items": {
         "i1": {
-          "text": "1. Bedöm situationen och din säkerhet. Tänk på innehållets karaktär och om du eller någon annan kan vara i omedelbar risk."
+          "text": "1. <strong>Bedöm situationen och din säkerhet.</strong> Tänk på innehållets karaktär och om du eller någon annan kan vara i omedelbar fara. Vid ett omedelbart hot, sök lämpligt stöd utan dröjsmål.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i2": {
-          "text": "2. Samla bevis. Spara kränkande inlägg, meddelanden, profilinformation, webbadresser och skärmdumpar där det är lämpligt."
+          "text": "2. <strong>Samla bevis.</strong> Spara kopior av kränkande inlägg, meddelanden, profilinformation, webbadresser och skärmdumpar innan innehållet tas bort eller blir otillgängligt. Förvara dessa underlag på en säker plats om de behövs för en anmälan eller vidare åtgärder.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i3": {
-          "text": "3. Registrera viktiga detaljer. Notera datum, tid, användarnamn eller konto och relevant information om vad som hände."
+          "text": "3. <strong>Anteckna viktiga uppgifter.</strong> Dokumentera när och var övergreppet inträffade, vilka konton som var inblandade och relevanta omständigheter. Notera om liknande händelser har skett tidigare eller om beteendet verkar utgöra ett mönster av övergrepp.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i4": {
-          "text": "4. Använd plattformens säkerhetsverktyg. Begränsa, tysta eller blockera kontot där det är lämpligt för att begränsa ytterligare kontakt eller exponering."
+          "text": "4. <strong>Använd plattformens säkerhetsverktyg.</strong> Begränsa, tysta eller blockera konton för att minska fortsatt kontakt eller exponering för skadligt innehåll. Justera dina integritetsinställningar när det passar för att hjälpa till att förebygga upprepade händelser.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i5": {
-          "text": "5. Rapportera via plattformen. Granska plattformens relevanta policyer och flagga innehållet eller kontot med hjälp av dess inbyggda rapporteringsalternativ."
+          "text": "5. <strong>Anmäl via plattformen.</strong> Granska plattformens riktlinjer och använd dess rapporteringsverktyg för att flagga kränkande innehåll eller konton. Lämna relevant information och stödjande underlag när det efterfrågas så att plattformen kan bedöma anmälan.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i6": {
-          "text": "6. Sök ytterligare stöd eller eskalera vid behov. Kontakta din organisations välfärds- eller skyddsansvariga där det är relevant. Om du anser att det finns ett hot mot din säkerhet, kontakta lämpliga lokala myndigheter eller räddningstjänster."
+          "text": "6. <strong>Sök ytterligare stöd eller eskalera vid behov.</strong> Kontakta din organisations ansvariga för välbefinnande och skydd eller andra lämpliga stödtjänster. Om din säkerhet hotas, kontakta lokala myndigheter eller räddningstjänst som det är lämpligt – oavsett om du har slutfört de övriga stegen.",
+          "note": "HTML allowed — first sentence in <strong> only"
         }
       }
     },

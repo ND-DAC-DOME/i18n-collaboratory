@@ -1438,29 +1438,32 @@
         "hint": {
           "text": "Označite vsak korak, ko ga pregledate. Ni ocenjeno.",
           "note": "Removed from widget UI; kept for translators / legacy"
-        },
-        "done": {
-          "text": "Vsi koraki pregledani."
         }
       },
       "items": {
         "i1": {
-          "text": "1. Ocenite situacijo in svojo varnost. Upoštevajte naravo vsebine in ali ste vi ali kdo drug v neposredni nevarnosti."
+          "text": "1. <strong>Ocenite situacijo in svojo varnost.</strong> Upoštevajte naravo vsebine in ali ste vi ali nekdo drug v neposredni nevarnosti. Če obstaja neposredna grožnja, nemudoma poiščite ustrezno pomoč.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i2": {
-          "text": "2. Zberite dokaze. Po potrebi shranite žaljive objave, sporočila, podatke o profilu, URL-je in posnetke zaslona."
+          "text": "2. <strong>Zberite dokaze.</strong> Shranite kopije žaljivih objav, sporočil, podatkov profila, naslovov URL in posnetkov zaslona, preden je vsebina izbrisana ali postane nedostopna. Te zabeležbe hranite na varnem mestu za primer prijave ali nadaljnjih ukrepov.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i3": {
-          "text": "3. Zapišite si ključne podrobnosti. Zapišite si datum, uro, uporabniško ime ali račun in ustrezne informacije o tem, kaj se je zgodilo."
+          "text": "3. <strong>Zapišite ključne podrobnosti.</strong> Zabeležite, kdaj in kje se je zloraba zgodila, katere račune je vključevala in katere okoliščine so pomembne. Zapišite, ali so se podobni dogodki že dogajali ali se zdi, da je obnašanje del ponavljajočega vzorca zlorabe.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i4": {
-          "text": "4. Uporabljajte orodja za varnost platforme. Po potrebi omejite, utišajte ali blokirajte račun, da omejite nadaljnji stik ali izpostavljenost."
+          "text": "4. <strong>Uporabite varnostna orodja platforme.</strong> Omejite, utišajte ali blokirajte račune, da zmanjšate nadaljnji stik ali izpostavljenost škodljivi vsebini. Po potrebi prilagodite nastavitve zasebnosti in s tem zmanjšajte tveganje ponovitve.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i5": {
-          "text": "5. Prijavite prek platforme. Preglejte ustrezne pravilnike platforme in označite vsebino ali račun z uporabo vgrajenih možnosti prijave."
+          "text": "5. <strong>Prijavite prek platforme.</strong> Preglejte pravilnike platforme in z njenimi orodji za prijavo označite žaljivo vsebino ali račune. Po potrebi navedite ustrezne podrobnosti in dokaze, da platforma lažje oceni prijavo.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i6": {
-          "text": "6. Poiščite dodatno podporo ali po potrebi zadevo posredujte naprej. Po potrebi se obrnite na vodjo službe za dobro počutje ali zaščito v vaši organizaciji. Če menite, da je vaša varnost ogrožena, se obrnite na ustrezne lokalne organe ali reševalne službe."
+          "text": "6. <strong>Po potrebi poiščite dodatno podporo ali stopnjo ukrepanja.</strong> Obrnite se na odgovorno osebo za dobro počutje ali varstvo v vaši organizaciji ali druge ustrezne storitve podpore. Če je ogrožena vaša varnost, se po potrebi obrnite na lokalne organe ali službe za nujne primere, ne glede na to, ali ste dokončali preostale korake.",
+          "note": "HTML allowed — first sentence in <strong> only"
         }
       }
     },

@@ -1438,29 +1438,32 @@
         "hint": {
           "text": "Cochez chaque étape au fur et à mesure de votre révision. Non noté.",
           "note": "Removed from widget UI; kept for translators / legacy"
-        },
-        "done": {
-          "text": "Toutes les étapes ont été examinées."
         }
       },
       "items": {
         "i1": {
-          "text": "1. Évaluez la situation et votre sécurité. Tenez compte de la nature du contenu et déterminez si vous ou quelqu'un d'autre courez un danger immédiat."
+          "text": "1. <strong>Évaluez la situation et votre sécurité.</strong> Tenez compte de la nature du contenu et déterminez si vous ou une autre personne êtes en danger immédiat. En cas de menace immédiate, sollicitez une aide appropriée sans attendre.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i2": {
-          "text": "2. Rassemblez des preuves. Sauvegardez les publications abusives, les messages, les informations de profil, les URL et les captures d'écran, le cas échéant."
+          "text": "2. <strong>Rassemblez des preuves.</strong> Conservez des copies des publications injurieuses, des messages, des informations de profil, des URL et des captures d'écran avant que le contenu ne soit supprimé ou ne devienne inaccessible. Gardez ces éléments dans un endroit sûr au cas où ils seraient nécessaires pour un signalement ou des mesures ultérieures.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i3": {
-          "text": "3. Consignez les détails essentiels. Notez la date, l'heure, le nom d'utilisateur ou le compte, ainsi que toute information pertinente concernant l'incident."
+          "text": "3. <strong>Consignez les informations essentielles.</strong> Notez quand et où les violences se sont produites, les comptes impliqués et tout élément de contexte pertinent. Indiquez si des incidents similaires se sont déjà produits ou si le comportement semble s'inscrire dans un schéma répété d'abus.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i4": {
-          "text": "4. Utilisez les outils de sécurité de la plateforme. Restreignez, mettez en sourdine ou bloquez le compte le cas échéant afin de limiter tout contact ou exposition ultérieurs."
+          "text": "4. <strong>Utilisez les outils de sécurité de la plateforme.</strong> Restreignez, mettez en sourdine ou bloquez des comptes pour limiter d'autres contacts ou l'exposition à un contenu préjudiciable. Adaptez vos paramètres de confidentialité le cas échéant pour réduire le risque d'incidents répétés.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i5": {
-          "text": "5. Signalez le problème via la plateforme. Consultez les politiques pertinentes de la plateforme et signalez le contenu ou le compte à l'aide de ses options de signalement intégrées."
+          "text": "5. <strong>Signalez via la plateforme.</strong> Consultez les règles de la plateforme et utilisez ses outils de signalement pour signaler un contenu ou des comptes abusifs. Fournissez les informations pertinentes et les preuves à l'appui lorsque cela est demandé pour aider la plateforme à traiter le signalement.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i6": {
-          "text": "6. N’hésitez pas à solliciter de l’aide supplémentaire ou à signaler le problème si nécessaire. Contactez le responsable du bien-être ou de la protection des personnes de votre organisation, le cas échéant. Si vous pensez que votre sécurité est menacée, contactez les autorités locales compétentes ou les services d’urgence."
+          "text": "6. <strong>Recherchez un soutien complémentaire ou faites remonter la situation si nécessaire.</strong> Contactez le référent bien-être ou protection de votre organisation ou d'autres services de soutien appropriés. Si votre sécurité est menacée, contactez les autorités locales ou les services d'urgence selon le cas, que vous ayez ou non suivi les autres étapes.",
+          "note": "HTML allowed — first sentence in <strong> only"
         }
       }
     },

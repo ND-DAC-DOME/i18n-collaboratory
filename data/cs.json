@@ -1438,29 +1438,32 @@
         "hint": {
           "text": "Zaškrtněte každý krok při jeho kontrole. Nehodnotí se.",
           "note": "Removed from widget UI; kept for translators / legacy"
-        },
-        "done": {
-          "text": "Všechny kroky zkontrolovány."
         }
       },
       "items": {
         "i1": {
-          "text": "1. Zhodnoťte situaci a svou bezpečnost. Zvažte povahu obsahu a to, zda vy nebo někdo jiný můžete být vystaveni bezprostřednímu riziku."
+          "text": "1. <strong>Vyhodnoťte situaci a svou bezpečnost.</strong> Zvažte povahu obsahu a to, zda vy nebo někdo jiný můžete být v bezprostředním ohrožení. Jde-li o bezprostřední hrozbu, bez prodlení vyhledejte vhodnou pomoc.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i2": {
-          "text": "2. Shromažďujte důkazy. V případě potřeby ukládejte urážlivé příspěvky, zprávy, informace o profilech, URL adresy a snímky obrazovky."
+          "text": "2. <strong>Shromažďujte důkazy.</strong> Uložte si kopie urážlivých příspěvků, zpráv, údajů z profilu, adres URL a snímků obrazovky dříve, než bude obsah smazán nebo se stane nedostupným. Tyto záznamy uchovávejte na bezpečném místě pro případ hlášení nebo dalších kroků.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i3": {
-          "text": "3. Zaznamenejte si klíčové údaje. Poznamenejte si datum, čas, uživatelské jméno nebo účet a relevantní informace o tom, co se stalo."
+          "text": "3. <strong>Zaznamenejte klíčové údaje.</strong> Poznamenejte si, kdy a kde k zneužívání došlo, které účty byly zapojeny a jaké okolnosti s tím souvisely. Uveďte, zda se již dříve vyskytly podobné incidenty nebo zda se jedná o opakovaný vzorec chování.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i4": {
-          "text": "4. Používejte bezpečnostní nástroje platformy. V případě potřeby omezte, ztlumte nebo zablokujte účet, abyste omezili další kontakt nebo vystavení obsahu."
+          "text": "4. <strong>Používejte bezpečnostní nástroje platformy.</strong> Omezujte, ztišujte nebo blokujte účty, abyste omezili další kontakt nebo vystavení škodlivému obsahu. V případě potřeby upravte nastavení soukromí, které vám pomůže předcházet opakování incidentů.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i5": {
-          "text": "5. Nahlaste prostřednictvím platformy. Projděte si příslušné zásady platformy a nahlaste obsah nebo účet pomocí jejích vestavěných možností hlášení."
+          "text": "5. <strong>Nahlaste prostřednictvím platformy.</strong> Projděte si zásady platformy a použijte její nástroje k nahlášení urážlivého obsahu nebo účtů. Uveďte relevantní údaje a doplňující důkazy, pokud o to platforma požádá, aby mohla hlášení posoudit.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i6": {
-          "text": "6. Vyhledejte další podporu nebo v případě potřeby eskalujte situaci. V případě potřeby kontaktujte osobu odpovědnou za ochranu a duševní pohodu ve vaší organizaci. Pokud máte pocit, že existuje ohrožení vaší bezpečnosti, kontaktujte příslušné místní úřady nebo záchranné složky."
+          "text": "6. <strong>V případě potřeby vyhledejte další podporu nebo eskalaci.</strong> Obratte se na vedoucího pro blaho a ochranu ve vaší organizaci nebo jiné vhodné podpůrné služby. Pokud je ohrožena vaše bezpečnost, kontaktujte podle situace místní orgány nebo záchranné složky, a to nezávisle na tom, zda jste dokončili ostatní kroky.",
+          "note": "HTML allowed — first sentence in <strong> only"
         }
       }
     },

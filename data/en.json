@@ -1450,29 +1450,32 @@
         "hint": {
           "text": "Tick each step as you review it. Not graded.",
           "note": "Removed from widget UI; kept for translators / legacy"
-        },
-        "done": {
-          "text": "All steps reviewed."
         }
       },
       "items": {
         "i1": {
-          "text": "1. Assess the situation and your safety. Consider the nature of the content and whether you or someone else may be at immediate risk."
+          "text": "1. <strong>Assess the situation and your safety.</strong> Consider the nature of the content and whether you or someone else may be at immediate risk. If there is an immediate threat, seek appropriate assistance without delay.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i2": {
-          "text": "2. Collect evidence. Save abusive posts, messages, profile information, URLs, and screenshots where appropriate."
+          "text": "2. <strong>Collect evidence.</strong> Save copies of abusive posts, messages, profile information, URLs, and screenshots before the content is deleted or becomes inaccessible. Keep these records in a secure location in case they are needed for reporting or further action.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i3": {
-          "text": "3. Record key details. Note the date, time, username or account, and relevant information about what occurred."
+          "text": "3. <strong>Record key details.</strong> Record when and where the abuse occurred, the accounts involved, and any relevant circumstances. Note whether similar incidents have happened before or whether the behaviour appears to be part of a pattern of abuse.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i4": {
-          "text": "4. Use platform safety tools. Restrict, mute, or block the account where appropriate to limit further contact or exposure."
+          "text": "4. <strong>Use platform safety tools.</strong> Restrict, mute, or block accounts to limit further contact or exposure to harmful content. Adjust your privacy settings where appropriate to help prevent repeated incidents.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i5": {
-          "text": "5. Report through the platform. Review the platform’s relevant policies and flag the content or account using its built-in reporting options."
+          "text": "5. <strong>Report through the platform.</strong> Review the platform\u2019s policies and use its reporting tools to flag abusive content or accounts. Provide relevant details and supporting evidence where requested to help the platform assess the report.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i6": {
-          "text": "6. Seek additional support or escalate when needed. Contact your organisation’s welfare or safeguarding lead where relevant. If you feel there is a threat to your safety, contact the appropriate local authorities or emergency services."
+          "text": "6. <strong>Seek additional support or escalate when needed.</strong> Contact your organisation\u2019s welfare or safeguarding lead or other appropriate support services. If your safety is threatened, contact local authorities or emergency services as appropriate, regardless of whether you have completed the other steps.",
+          "note": "HTML allowed — first sentence in <strong> only"
         }
       }
     },

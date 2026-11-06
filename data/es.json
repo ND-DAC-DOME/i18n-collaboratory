@@ -1438,29 +1438,32 @@
         "hint": {
           "text": "Marque cada paso a medida que lo revise. No se califica.",
           "note": "Removed from widget UI; kept for translators / legacy"
-        },
-        "done": {
-          "text": "Se han revisado todos los pasos."
         }
       },
       "items": {
         "i1": {
-          "text": "1. Evalúe la situación y su seguridad. Considere la naturaleza del contenido y si usted u otra persona pueden estar en riesgo inmediato."
+          "text": "1. <strong>Evalue la situación y su seguridad.</strong> Tenga en cuenta la naturaleza del contenido y si usted o otra persona corre un riesgo inmediato. Si existe una amenaza inmediata, busque la asistencia adecuada sin demora.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i2": {
-          "text": "2. Reúna pruebas. Guarde las publicaciones abusivas, los mensajes, la información del perfil, las URL y las capturas de pantalla cuando sea apropiado."
+          "text": "2. <strong>Reúna pruebas.</strong> Guarde copias de publicaciones abusivas, mensajes, información de perfiles, URL y capturas de pantalla antes de que el contenido se elimine o deje de estar accesible. Conserve estos registros en un lugar seguro por si fueran necesarios para denunciar o tomar medidas adicionales.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i3": {
-          "text": "3. Registre los detalles clave. Anote la fecha, la hora, el nombre de usuario o la cuenta, y la información relevante sobre lo ocurrido."
+          "text": "3. <strong>Anote los datos clave.</strong> Registre cuándo y dónde ocurrió el abuso, las cuentas implicadas y cualquier circunstancia relevante. Anote si se han producido incidentes similares con anterioridad o si el comportamiento parece formar parte de un patrón de abuso.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i4": {
-          "text": "4. Utilice las herramientas de seguridad de la plataforma. Restrinja, silencie o bloquee la cuenta cuando sea necesario para limitar el contacto o la exposición."
+          "text": "4. <strong>Utilice las herramientas de seguridad de la plataforma.</strong> Restrinja, silencie o bloquee cuentas para limitar ulteriores contactos o la exposición a contenido dañino. Ajuste la configuración de privacidad cuando corresponda para ayudar a evitar incidentes repetidos.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i5": {
-          "text": "5. Denuncie a través de la plataforma. Revise las políticas pertinentes de la plataforma y señale el contenido o la cuenta utilizando sus opciones de denuncia integradas."
+          "text": "5. <strong>Denuncie a través de la plataforma.</strong> Revise las políticas de la plataforma y utilice sus herramientas de denuncia para señalar contenido o cuentas abusivas. Proporcione los datos pertinentes y pruebas de apoyo cuando se le soliciten para ayudar a la plataforma a valorar el informe.",
+          "note": "HTML allowed — first sentence in <strong> only"
         },
         "i6": {
-          "text": "6. Solicite apoyo adicional o, si es necesario, derive la situación a instancias superiores. Si procede, póngase en contacto con el responsable de bienestar o protección de su organización. Si considera que su seguridad está en peligro, póngase en contacto con las autoridades locales o los servicios de emergencia correspondientes."
+          "text": "6. <strong>Busque apoyo adicional o escale la situación cuando sea necesario.</strong> Póngase en contacto con la persona responsable del bienestar o la protección de su organización u otros servicios de apoyo adecuados. Si su seguridad está amenazada, póngase en contacto con las autoridades locales o los servicios de emergencia según corresponda, independientemente de si ha completado los demás pasos.",
+          "note": "HTML allowed — first sentence in <strong> only"
         }
       }
     },
