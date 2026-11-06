@@ -3515,11 +3515,29 @@
         "text": "Course support",
         "note": "aria-label on floater stack"
       }
+    },
+    "disclaimerModal": {
+      "navAria": {
+        "text": "View Disclaimer",
+        "note": "Left-nav control above the support pill. Visible label on wide layout; icon-only below 768px. Accessible name in both states."
+      },
+      "confirm": {
+        "text": "I confirm that I have read and understood the disclaimer.",
+        "note": "Checkbox label. Checking it acknowledges and dismisses the Welcome disclaimer modal. No separate button."
+      },
+      "coFunded": {
+        "text": "Co-funded by the European Union",
+        "note": "Caption under the EU flag in the disclaimer modal. No existing course string; official EU co-funded wording."
+      },
+      "logoAria": {
+        "text": "FIA",
+        "note": "Alt text for the temporary FIA mark cropped from the design comp. Jared will replace the image later."
+      }
     }
   },
   "_inventory": {
     "summary": {
-      "learner_facing_keys": 1036,
+      "learner_facing_keys": 1091,
       "widgets_and_embeds_wired": 30,
       "native_slide_keys": "welcome.about.* / welcome.slide.* / survey.* / m1–m5.slide.* / summary.slide.* (from live ScormStack; deploy: scripts/deploy_native_slide_text.py + deploy_nav_labels.py)"
     },
@@ -3561,7 +3579,8 @@
       "widget-platform-flips.html",
       "widget-summary-final-quiz.html",
       "widget-summary-further-action.html",
-      "widget-welcome-outcomes.html"
+      "widget-welcome-outcomes.html",
+      "embeds.disclaimerModal → docs/course-disclaimer-modal.js (baked via deploy_custom_js.py --locale)"
     ],
     "cataloged_widgets": [
       "m1.apply → widget-apply-scenarios.html",
@@ -4629,6 +4648,12 @@
         "p3": {
           "text": "<p>United Against Online Abuse (UAOA), founded by FIA President Mohammed Ben Sulayem, brings together more than 75 governments, sporting organisations, academic institutions, and technology platforms around a shared goal: making sport safer from online abuse. Lasting change requires action across institutions, communities, and individuals, and that includes you.</p>",
           "note": "Native text on Welcome"
+        }
+      },
+      "fiaDisclaimer": {
+        "body": {
+          "text": "<p><span style=\"font-size: 12px\"><em>This course contains educational materials, including third-party research, data, and citations, provided for informational and educational purposes only. While we select reputable sources, we do not independently verify or guarantee the absolute accuracy, completeness, or current validity of this external information, as research and industry standards continuously evolve. Any reliance on or application of these materials or guidelines is strictly at the learner's own risk; for learners who are minors, parents or legal guardians are entirely responsible for reviewing the course content and supervising its use. The inclusion of third-party citations does not imply any endorsement, sponsorship, or formal partnership between UAOA and the referenced institutions or authors.</em></span></p>",
+          "note": "Exact live Welcome footer paragraph under the EU co-funded block (block c5616a89-8c7d-4dcb-9f01-029bb124123c). Disclaimer modal reads this key. Not in native_slide_map, so deploy_native_slide_text does not push it."
         }
       }
     },

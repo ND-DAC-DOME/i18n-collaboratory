@@ -3493,6 +3493,24 @@
         "text": "Podpora v tečaju",
         "note": "aria-label on floater stack"
       }
+    },
+    "disclaimerModal": {
+      "navAria": {
+        "text": "Prikaži izjavo",
+        "note": "Left-nav control above the support pill. Visible label on wide layout; icon-only below 768px. Accessible name in both states."
+      },
+      "confirm": {
+        "text": "Potrjujem, da sem izjavo prebral(a) in jo razumel(a).",
+        "note": "Checkbox label. Checking it acknowledges and dismisses the Welcome disclaimer modal. No separate button."
+      },
+      "coFunded": {
+        "text": "Sofinancira Evropska unija",
+        "note": "Caption under the EU flag in the disclaimer modal. Official EU co-funded wording."
+      },
+      "logoAria": {
+        "text": "FIA",
+        "note": "Alt text for the temporary FIA mark cropped from the design comp. Jared will replace the image later."
+      }
     }
   },
   "player": {
@@ -4500,6 +4518,12 @@
       "unitedAgainstOnlineAbuseUaoaBrings": {
         "p3": {
           "text": "<p>United Against Online Abuse (UAOA), ki jo je ustanovil predsednik FIA Mohammed Ben Sulayem, združuje več kot 75 vlad, športnih organizacij, akademskih institucij in tehnoloških platform okoli skupnega cilja: narediti šport varnejši pred spletno zlorabo. Trajne spremembe zahtevajo ukrepanje institucij, skupnosti in posameznikov, kar vključuje tudi vas.</p>"
+        }
+      },
+      "fiaDisclaimer": {
+        "body": {
+          "text": "<p><span style=\"font-size: 12px\"><em>This course contains educational materials, including third-party research, data, and citations, provided for informational and educational purposes only. While we select reputable sources, we do not independently verify or guarantee the absolute accuracy, completeness, or current validity of this external information, as research and industry standards continuously evolve. Any reliance on or application of these materials or guidelines is strictly at the learner's own risk; for learners who are minors, parents or legal guardians are entirely responsible for reviewing the course content and supervising its use. The inclusion of third-party citations does not imply any endorsement, sponsorship, or formal partnership between UAOA and the referenced institutions or authors.</em></span></p>",
+          "note": "Still English. This footer paragraph is on the EN Welcome slide only (block c5616a89); es/fr/cs/sl/sv courses do not have it yet. Left as the English source."
         }
       }
     },
