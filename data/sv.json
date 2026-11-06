@@ -1750,8 +1750,8 @@
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "",
-          "note": "Native text body on How Online Harm Spreads — cleared; copy lives in m3.risksBenefits.benefits.b4 per comps"
+          "text": "<p><span style=\"color: #091324\"><strong>Mänskligt omdöme förblir avgörande.</strong> AI-system kan ha svårt att tolka språk, kontext, kulturella skillnader och föränderliga missbrukstaktiker på ett korrekt sätt. Mänsklig tillsyn är därför viktig när skadligt innehåll bedöms och beslut fattas om hur man ska reagera. När AI används alltmer utvecklas även regleringen för att hantera nya risker och etablera skyddsåtgärder i olika jurisdiktioner.</span></p>",
+          "note": "Native text body on How Online Harm Spreads — leftover blurb below 3.5 widget (not a fourth card)"
         }
       },
       "image": {
@@ -1842,10 +1842,6 @@
         "b3": {
           "text": "<strong>Stödja användare:</strong> AI-aktiverade verktyg kan hjälpa individer att filtrera oönskat innehåll, hantera sin onlineupplevelse och få tillgång till rapporterings- och säkerhetsfunktioner.",
           "note": "HTML allowed"
-        },
-        "b4": {
-          "text": "<strong>Mänskligt omdöme förblir avgörande.</strong> AI-system kan ha svårt att tolka språk, kontext, kulturella skillnader och föränderliga missbrukstaktiker på ett korrekt sätt. Mänsklig tillsyn är därför viktig när skadligt innehåll bedöms och beslut fattas om hur man ska reagera. När AI används alltmer utvecklas även regleringen för att hantera nya risker och etablera skyddsåtgärder i olika jurisdiktioner.",
-          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }

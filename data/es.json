@@ -1750,8 +1750,8 @@
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "",
-          "note": "Native text body on How Online Harm Spreads — cleared; copy lives in m3.risksBenefits.benefits.b4 per comps"
+          "text": "<p><span style=\"color: #091324\"><strong>El juicio humano sigue siendo esencial.</strong> Los sistemas de IA pueden tener dificultades para interpretar con precisión el lenguaje, el contexto, las diferencias culturales y las tácticas de abuso en evolución. Por ello, la supervisión humana es importante al evaluar contenido dañino y decidir cómo responder. A medida que la IA se usa de forma más generalizada, la regulación también evoluciona para abordar los riesgos emergentes y establecer salvaguardas en distintas jurisdicciones.</span></p>",
+          "note": "Native text body on How Online Harm Spreads — leftover blurb below 3.5 widget (not a fourth card)"
         }
       },
       "image": {
@@ -1842,10 +1842,6 @@
         "b3": {
           "text": "<strong>Apoyo a los usuarios:</strong> Las herramientas impulsadas por IA pueden ayudar a las personas a filtrar contenido no deseado, gestionar su experiencia en línea y acceder a funciones de denuncia y seguridad.",
           "note": "HTML allowed"
-        },
-        "b4": {
-          "text": "<strong>El juicio humano sigue siendo esencial.</strong> Los sistemas de IA pueden tener dificultades para interpretar con precisión el lenguaje, el contexto, las diferencias culturales y las tácticas de abuso en evolución. Por ello, la supervisión humana es importante al evaluar contenido dañino y decidir cómo responder. A medida que la IA se usa de forma más generalizada, la regulación también evoluciona para abordar los riesgos emergentes y establecer salvaguardas en distintas jurisdicciones.",
-          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }

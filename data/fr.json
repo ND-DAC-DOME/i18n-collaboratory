@@ -1750,8 +1750,8 @@
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "",
-          "note": "Native text body on How Online Harm Spreads — cleared; copy lives in m3.risksBenefits.benefits.b4 per comps"
+          "text": "<p><span style=\"color: #091324\"><strong>Le jugement humain reste essentiel.</strong> Les systèmes d’IA peuvent avoir du mal à interpréter avec précision le langage, le contexte, les différences culturelles et l’évolution des tactiques d’abus. La supervision humaine est donc importante lors de l’évaluation des contenus nuisibles et de la décision sur la manière d’y répondre. À mesure que l’IA se généralise, la réglementation évolue également pour répondre aux risques émergents et établir des garanties dans différentes juridictions.</span></p>",
+          "note": "Native text body on How Online Harm Spreads — leftover blurb below 3.5 widget (not a fourth card)"
         }
       },
       "image": {
@@ -1842,10 +1842,6 @@
         "b3": {
           "text": "<strong>Aide aux utilisateurs :</strong> Les outils basés sur l’IA peuvent aider les personnes à filtrer les contenus indésirables, à gérer leur expérience en ligne et à accéder aux fonctionnalités de signalement et de sécurité.",
           "note": "HTML allowed"
-        },
-        "b4": {
-          "text": "<strong>Le jugement humain reste essentiel.</strong> Les systèmes d’IA peuvent avoir du mal à interpréter avec précision le langage, le contexte, les différences culturelles et l’évolution des tactiques d’abus. La supervision humaine est donc importante lors de l’évaluation des contenus nuisibles et de la décision sur la manière d’y répondre. À mesure que l’IA se généralise, la réglementation évolue également pour répondre aux risques émergents et établir des garanties dans différentes juridictions.",
-          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }
