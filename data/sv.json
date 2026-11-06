@@ -1118,7 +1118,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "I en studie av 912 unga idrottare i åldrarna 12–24 rapporterade <strong>10,4 %</strong> att de upplevt onlineövergrepp. Bland de drabbade rapporterade <strong>44,3 % måttliga till svåra effekter på sin sömnkvalitet.</strong>",
+            "text": "I en studie av 912 unga idrottare i åldrarna 12–24 rapporterade <strong>10,4 % att de upplevt onlineövergrepp.</strong> Bland de drabbade rapporterade <strong>44,3 %</strong> måttliga till svåra <strong>effekter på sin sömnkvalitet</strong>.",
             "note": "HTML allowed"
           },
           "source": {
@@ -3508,8 +3508,8 @@
         "note": "Caption under the EU flag in the disclaimer modal. Official EU co-funded wording."
       },
       "logoAria": {
-        "text": "FIA",
-        "note": "Alt text for the temporary FIA mark cropped from the design comp. Jared will replace the image later."
+        "text": "UAOA",
+        "note": "Alt text for the UAOA mark in the disclaimer modal."
       }
     }
   },

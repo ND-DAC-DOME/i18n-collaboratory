@@ -1118,7 +1118,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "V študiji 912 mladih športnikov, starih od 12 do 24 let, jih je <strong>10,4 %</strong> poročalo o spletnih zlorabah. Med prizadetimi jih je <strong>44,3 % poročalo o zmernih do hudih vplivih na kakovost spanca.</strong>",
+            "text": "V študiji 912 mladih športnikov, starih od 12 do 24 let, jih je <strong>10,4 % poročalo o spletnih zlorabah.</strong> Med prizadetimi jih je <strong>44,3 %</strong> poročalo o zmernih do hudih <strong>vplivih na kakovost spanca</strong>.",
             "note": "HTML allowed"
           },
           "source": {
@@ -3508,8 +3508,8 @@
         "note": "Caption under the EU flag in the disclaimer modal. Official EU co-funded wording."
       },
       "logoAria": {
-        "text": "FIA",
-        "note": "Alt text for the temporary FIA mark cropped from the design comp. Jared will replace the image later."
+        "text": "UAOA",
+        "note": "Alt text for the UAOA mark in the disclaimer modal."
       }
     }
   },

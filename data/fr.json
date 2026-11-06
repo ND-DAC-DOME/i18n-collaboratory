@@ -1118,7 +1118,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "Dans une étude menée auprès de 912 jeunes athlètes âgés de 12 à 24 ans, <strong>10,4 %</strong> ont déclaré avoir subi des abus en ligne. Parmi eux, <strong>44,3 % ont rapporté des répercussions modérées à graves sur la qualité de leur sommeil.</strong>",
+            "text": "Dans une étude menée auprès de 912 jeunes athlètes âgés de 12 à 24 ans, <strong>10,4 % ont déclaré avoir subi des abus en ligne.</strong> Parmi eux, <strong>44,3 %</strong> ont rapporté des répercussions modérées à graves <strong>sur la qualité de leur sommeil</strong>.",
             "note": "HTML allowed"
           },
           "source": {
@@ -3508,8 +3508,8 @@
         "note": "Caption under the EU flag in the disclaimer modal. Official EU co-funded wording."
       },
       "logoAria": {
-        "text": "FIA",
-        "note": "Alt text for the temporary FIA mark cropped from the design comp. Jared will replace the image later."
+        "text": "UAOA",
+        "note": "Alt text for the UAOA mark in the disclaimer modal."
       }
     }
   },

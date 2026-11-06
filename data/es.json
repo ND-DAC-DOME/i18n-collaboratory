@@ -1118,7 +1118,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "En un estudio realizado con 912 jóvenes atletas de entre 12 y 24 años, el <strong>10,4%</strong> informó haber sufrido abuso en línea. Entre los afectados, <strong>el 44,3% reportó efectos de moderados a graves en la calidad de su sueño.</strong>",
+            "text": "En un estudio realizado con 912 jóvenes atletas de entre 12 y 24 años, <strong>el 10,4% informó haber sufrido abuso en línea.</strong> Entre los afectados, el <strong>44,3%</strong> reportó efectos de moderados a graves <strong>en la calidad de su sueño</strong>.",
             "note": "HTML allowed"
           },
           "source": {
@@ -3509,8 +3509,8 @@
         "note": "Caption under the EU flag in the disclaimer modal. Official EU co-funded wording."
       },
       "logoAria": {
-        "text": "FIA",
-        "note": "Alt text for the temporary FIA mark cropped from the design comp. Jared will replace the image later."
+        "text": "UAOA",
+        "note": "Alt text for the UAOA mark in the disclaimer modal."
       }
     }
   },

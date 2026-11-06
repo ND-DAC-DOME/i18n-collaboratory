@@ -1130,7 +1130,7 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "In a study of 912 young athletes aged 12–24, <strong>10.4%</strong> reported experiencing online abuse. Among those affected, <strong>44.3% reported moderate to severe effects on their sleep quality.</strong>",
+            "text": "In a study of 912 young athletes aged 12–24, <strong>10.4% reported experiencing online abuse.</strong> Among those affected, <strong>44.3%</strong> reported moderate to severe <strong>effects on their sleep quality</strong>.",
             "note": "HTML allowed"
           },
           "source": {
@@ -3530,8 +3530,8 @@
         "note": "Caption under the EU flag in the disclaimer modal. No existing course string; official EU co-funded wording."
       },
       "logoAria": {
-        "text": "FIA",
-        "note": "Alt text for the temporary FIA mark cropped from the design comp. Jared will replace the image later."
+        "text": "UAOA",
+        "note": "Alt text for the UAOA mark in the disclaimer modal."
       }
     }
   },
