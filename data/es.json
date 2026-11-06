@@ -1362,7 +1362,7 @@
             "text": "Unión Europea"
           },
           "html": {
-            "text": "<p>La <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Ley de IA de la Unión Europea</strong></a> utiliza un marco basado en el riesgo para la inteligencia artificial e introduce requisitos de transparencia para ciertos contenidos generados y manipulados por IA, incluidos algunos deepfakes.</p>",
+            "text": "<p>Existen distintas leyes que proporcionan el marco para regular la AI y su uso. Por ejemplo, la <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Ley de IA de la Unión Europea</strong></a> utiliza un marco basado en el riesgo para la inteligencia artificial e introduce requisitos de transparencia para ciertos contenidos generados y manipulados por IA, incluidos algunos deepfakes. Esta ley es generalmente aplicable en los países de la UE, y algunos de ellos adaptan legislaciones nacionales específicas.</p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1371,7 +1371,7 @@
                 "text": "Eslovenia"
               },
               "html": {
-                "text": "<p>En Eslovenia, la IA se rige por la <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">legislación nacional</a> y la <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">Ley de IA de la UE</a>. También están disponibles la <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">orientación gubernamental</a>, las <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">respuestas a las preguntas más frecuentes</a>y la información normativa del <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">ministerio responsable</a> .</p>",
+                "text": "<p>En Eslovenia, la AI se rige por la <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">legislación nacional</a> y la <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">Ley de IA de la UE</a> también es aplicable. Además, también hay recursos nacionales disponibles como la <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">orientación gubernamental</a>, las <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">respuestas a las preguntas más frecuentes</a> y la <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">información normativa del ministerio responsable</a>.</p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },

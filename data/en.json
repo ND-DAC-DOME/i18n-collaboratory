@@ -1374,7 +1374,7 @@
             "text": "European Union"
           },
           "html": {
-            "text": "<p>The <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>European Union AI Act</strong></a> uses a risk-based framework for AI and introduces transparency requirements for certain AI-generated and manipulated content, including some deepfakes.</p>",
+            "text": "<p>There are different laws which provide the framework for regulating AI and its use. For example, the <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>European Union AI Act</strong></a> uses a risk-based framework for AI and introduces transparency requirements for certain AI-generated and manipulated content, including some deepfakes. This Act is generally applicable across EU countries, with some of them adapting specific national legislations.</p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1383,7 +1383,7 @@
                 "text": "Slovenia"
               },
               "html": {
-                "text": "<p>In Slovenia, AI is governed by <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">national legislation</a> and the <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">EU AI Act</a>. <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">Government guidance</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">answers to common questions</a>, and regulatory information from the <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">responsible ministry</a> are also available.</p>",
+                "text": "<p>In Slovenia, AI is governed by <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">national legislation</a> and the <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">EU AI Act</a> is also applicable. Additionally, there are also available national resources like <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">Government guidance</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">answers to common questions</a>, and <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">regulatory information from the responsible ministry</a>.</p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },

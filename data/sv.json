@@ -1362,7 +1362,7 @@
             "text": "Europeiska unionen"
           },
           "html": {
-            "text": "<p>I <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>EU:s AI-förordning</strong></a> används ett riskbaserat ramverk för AI och införs transparenskrav för visst AI-genererat och manipulerat innehåll, inklusive vissa deepfakes.</p>",
+            "text": "<p>Det finns olika lagar som utgör ramverket för reglering av AI och dess användning. Till exempel används i <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>EU:s AI-förordning</strong></a> ett riskbaserat ramverk för AI och införs transparenskrav för visst AI-genererat och manipulerat innehåll, inklusive vissa deepfakes. Denna förordning är i allmänhet tillämplig i EU-länderna, och vissa av dem anpassar specifik nationell lagstiftning.</p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1371,7 +1371,7 @@
                 "text": "Slovenien"
               },
               "html": {
-                "text": "<p>I Slovenien regleras AI av <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">nationell lagstiftning</a> och <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">EU:s AI-förordning</a>. <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">Statlig vägledning</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">svar på vanliga frågor</a> och information om regleringen från <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">ansvarigt ministerium</a> finns också tillgängligt.</p>",
+                "text": "<p>I Slovenien regleras AI av <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">nationell lagstiftning</a> och <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">EU:s AI-förordning</a> är också tillämplig. Dessutom finns det också nationella resurser som <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">statlig vägledning</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">svar på vanliga frågor</a> och <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">information om regleringen från ansvarigt ministerium</a>.</p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },

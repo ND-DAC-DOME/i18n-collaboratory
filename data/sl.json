@@ -1362,7 +1362,7 @@
             "text": "Evropska unija"
           },
           "html": {
-            "text": "<p> <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Akt Evropske unije o umetni inteligenci</strong></a> uporablja okvir za umetno inteligenco, ki temelji na tveganju, in uvaja zahteve glede preglednosti za nekatere vsebine, ki jih ustvari ali z njimi manipulira umetna inteligenca, vključno z nekaterimi globokimi ponaredki.</p>",
+            "text": "<p>Obstajajo različni zakoni, ki zagotavljajo okvir za urejanje AI in njene uporabe. Na primer, <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Akt Evropske unije o umetni inteligenci</strong></a> uporablja okvir za umetno inteligenco, ki temelji na tveganju, in uvaja zahteve glede preglednosti za nekatere vsebine, ki jih ustvari ali z njimi manipulira umetna inteligenca, vključno z nekaterimi globokimi ponaredki. Ta akt se na splošno uporablja v državah EU, pri čemer nekatere izmed njih prilagajajo specifične nacionalne zakonodaje.</p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1371,7 +1371,7 @@
                 "text": "Slovenija"
               },
               "html": {
-                "text": "<p>V Sloveniji umetno inteligenco urejata <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">nacionalna zakonodaja</a> in <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">akt EU o umetni inteligenci</a>. Na voljo so tudi <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">vladne smernice</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">odgovori na pogosta vprašanja</a> in regulativne informacije <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">pristojnega ministrstva</a>.</p>",
+                "text": "<p>V Sloveniji AI ureja <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">nacionalna zakonodaja</a>, uporablja pa se tudi <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">akt EU o umetni inteligenci</a>. Poleg tega so na voljo tudi nacionalni viri, kot so <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">vladne smernice</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">odgovori na pogosta vprašanja</a> in <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">regulativne informacije pristojnega ministrstva</a>.</p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },

@@ -1362,7 +1362,7 @@
             "text": "Evropská unie"
           },
           "html": {
-            "text": "<p>Nařízení <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Evropské unie o umělé inteligenci (AI Act)</strong></a> využívá pro umělou inteligenci přístup založený na míře rizika a zavádí požadavky na transparentnost u určitého obsahu vytvořeného nebo upraveného umělou inteligencí, včetně některých deepfakes.</p>",
+            "text": "<p>Existují různé zákony, které poskytují rámec pro regulaci AI a jejího používání. Například nařízení <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Evropské unie o umělé inteligenci (AI Act)</strong></a> využívá pro umělou inteligenci přístup založený na míře rizika a zavádí požadavky na transparentnost u určitého obsahu vytvořeného nebo upraveného umělou inteligencí, včetně některých deepfakes. Toto nařízení se obecně uplatňuje ve všech zemích EU, přičemž některé z nich přizpůsobují specifické vnitrostátní právní předpisy.</p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1371,7 +1371,7 @@
                 "text": "Slovinsko"
               },
               "html": {
-                "text": "<p>Ve Slovinsku se umělá inteligence řídí <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">vnitrostátními právními předpisy</a> a <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">aktem EU o umělé inteligenci (AI Act)</a>. K dispozici jsou také <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">vládní pokyny</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">odpovědi na časté otázky</a> a regulační informace od <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">příslušného ministerstva</a>.</p>",
+                "text": "<p>Ve Slovinsku se AI řídí <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">vnitrostátními právními předpisy</a> a <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">akt EU o umělé inteligenci (AI Act)</a> je rovněž použitelný. Kromě toho jsou k dispozici také vnitrostátní zdroje, jako <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">vládní pokyny</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">odpovědi na časté otázky</a> a <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">regulační informace od příslušného ministerstva</a>.</p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },
