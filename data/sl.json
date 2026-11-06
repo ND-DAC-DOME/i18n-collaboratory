@@ -1570,22 +1570,28 @@
       },
       "items": {
         "i1": {
-          "text": "Ocenite situacijo in svojo varnost"
+          "text": "<strong>Assess the situation and your safety.</strong> Consider the nature of the content and whether you or someone else may be at immediate risk. If there is an immediate threat, seek appropriate assistance without delay.",
+          "note": "HTML allowed — first sentence in <strong> only. Same wording as m3.checklist.items; leading step number omitted so the sort does not reveal the answer."
         },
         "i2": {
-          "text": "Zberite dokaze"
+          "text": "<strong>Collect evidence.</strong> Save copies of abusive posts, messages, profile information, URLs, and screenshots before the content is deleted or becomes inaccessible. Keep these records in a secure location in case they are needed for reporting or further action.",
+          "note": "HTML allowed — first sentence in <strong> only. Same wording as m3.checklist.items; leading step number omitted so the sort does not reveal the answer."
         },
         "i3": {
-          "text": "Zabeležite ključne podrobnosti"
+          "text": "<strong>Record key details.</strong> Record when and where the abuse occurred, the accounts involved, and any relevant circumstances. Note whether similar incidents have happened before or whether the behaviour appears to be part of a pattern of abuse.",
+          "note": "HTML allowed — first sentence in <strong> only. Same wording as m3.checklist.items; leading step number omitted so the sort does not reveal the answer."
         },
         "i4": {
-          "text": "Vrsta športa, ki se igra"
+          "text": "<strong>Use platform safety tools.</strong> Restrict, mute, or block accounts to limit further contact or exposure to harmful content. Adjust your privacy settings where appropriate to help prevent repeated incidents.",
+          "note": "HTML allowed — first sentence in <strong> only. Same wording as m3.checklist.items; leading step number omitted so the sort does not reveal the answer."
         },
         "i5": {
-          "text": "Prijavite prek platforme"
+          "text": "<strong>Report through the platform.</strong> Review the platform’s policies and use its reporting tools to flag abusive content or accounts. Provide relevant details and supporting evidence where requested to help the platform assess the report.",
+          "note": "HTML allowed — first sentence in <strong> only. Same wording as m3.checklist.items; leading step number omitted so the sort does not reveal the answer."
         },
         "i6": {
-          "text": "Kraj, kjer poteka športni dogodek"
+          "text": "<strong>Seek additional support or escalate when needed.</strong> Contact your organisation’s welfare or safeguarding lead or other appropriate support services. If your safety is threatened, contact local authorities or emergency services as appropriate, regardless of whether you have completed the other steps.",
+          "note": "HTML allowed — first sentence in <strong> only. Same wording as m3.checklist.items; leading step number omitted so the sort does not reveal the answer."
         }
       }
     },
@@ -1744,8 +1750,8 @@
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Človeška presoja ostaja bistvena.</strong> Sistemi umetne inteligence lahko težko natančno razlagajo jezik, kontekst, kulturne razlike in spreminjajoče se taktike zlorabe. Zato je človeški nadzor pomemben pri ocenjevanju škodljive vsebine in odločanju o odzivu. Ker se umetna inteligenca vse bolj uporablja, se razvija tudi regulacija, da bi obravnavala nastajajoča tveganja in vzpostavila zaščitne ukrepe v različnih jurisdikcijah.</span></p>",
-          "note": "Native text body on How Online Harm Spreads"
+          "text": "",
+          "note": "Native text body on How Online Harm Spreads — cleared; copy lives in m3.risksBenefits.benefits.b4 per comps"
         }
       },
       "image": {
@@ -1836,6 +1842,10 @@
         "b3": {
           "text": "<strong>Podpora uporabnikom:</strong> Orodja, ki jih podpira umetna inteligenca, lahko posameznikom pomagajo filtrirati neželeno vsebino, upravljati njihovo spletno izkušnjo in dostopati do funkcij za prijavo in varnost.",
           "note": "HTML allowed"
+        },
+        "b4": {
+          "text": "<strong>Človeška presoja ostaja bistvena.</strong> Sistemi umetne inteligence lahko težko natančno razlagajo jezik, kontekst, kulturne razlike in spreminjajoče se taktike zlorabe. Zato je človeški nadzor pomemben pri ocenjevanju škodljive vsebine in odločanju o odzivu. Ker se umetna inteligenca vse bolj uporablja, se razvija tudi regulacija, da bi obravnavala nastajajoča tveganja in vzpostavila zaščitne ukrepe v različnih jurisdikcijah.",
+          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }
