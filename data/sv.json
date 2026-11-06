@@ -1690,7 +1690,7 @@
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">AI förändrar hur skada online kan skapas och hur den delas. Men AI kan också vara ett kraftfullt verktyg för att förhindra att oönskat innehåll sprids online.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Artificiell intelligens (AI) förändrar hur skada online skapas och delas. Även om AI kan möjliggöra nya former av missbruk, kan den också hjälpa till att upptäcka skadligt innehåll, stödja moderering och tillhandahålla verktyg för onlinesäkerhet.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1808,22 +1808,34 @@
       },
       "risks": {
         "r1": {
-          "text": "<strong>Skapa och förstärka skada:</strong> Generativ AI kan producera eller manipulera text, bilder, ljud och video snabbt och i stor skala.",
+          "text": "<strong>Skapa manipulerat innehåll:</strong> Generativ AI kan producera övertygande falska bilder, ljud och videor, inklusive deepfakes som felaktigt framställer idrottare som säger eller gör saker som aldrig har hänt.",
+          "note": "HTML allowed"
+        },
+        "r2": {
+          "text": "<strong>Förstärka trakasserier:</strong> AI-drivna verktyg kan generera och sprida kränkande meddelanden snabbt och i stor skala, vilket ökar räckvidden och effekten av trakasserier online.",
+          "note": "HTML allowed"
+        },
+        "r3": {
+          "text": "<strong>Sprida desinformation och utge sig för att vara andra:</strong> AI kan användas för att skapa vilseledande innehåll eller utge sig för att vara individer, vilket potentiellt kan skada rykten och vilseleda publiken.",
           "note": "HTML allowed"
         }
       },
       "benefits": {
         "b1": {
-          "text": "<strong>Upptäcka skadligt innehåll:</strong> AI kan hjälpa till att identifiera potentiellt skadligt innehåll och mönster i stora volymer onlineaktivitet.",
+          "text": "<strong>Upptäcka skadligt innehåll:</strong> AI kan hjälpa till att identifiera potentiellt kränkande meddelanden och upptäcka mönster av skadligt beteende i stora volymer onlineaktivitet.",
           "note": "HTML allowed"
         },
         "b2": {
-          "text": "<strong>Stödjer moderering:</strong> Automatiserade system kan flagga innehåll för granskning och hjälpa moderatorer att prioritera potentiella risker.",
+          "text": "<strong>Stödja moderering:</strong> Automatiserade system kan flagga och prioritera potentiellt skadligt innehåll för mänsklig granskning, vilket hjälper moderatorer att bedöma incidenter och vidta lämpliga åtgärder.",
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "<strong>Stödja användare:</strong> AI-aktiverade verktyg kan hjälpa till att filtrera oönskat innehåll och koppla samman människor med rapporterings- och säkerhetsfunktioner.",
+          "text": "<strong>Stödja användare:</strong> AI-aktiverade verktyg kan hjälpa individer att filtrera oönskat innehåll, hantera sin onlineupplevelse och få tillgång till rapporterings- och säkerhetsfunktioner.",
           "note": "HTML allowed"
+        },
+        "b4": {
+          "text": "<strong>Mänskligt omdöme förblir avgörande.</strong> AI-system kan ha svårt att tolka språk, kontext, kulturella skillnader och föränderliga missbrukstaktiker på ett korrekt sätt. Mänsklig tillsyn är därför viktig när skadligt innehåll bedöms och beslut fattas om hur man ska reagera. När AI används alltmer utvecklas även regleringen för att hantera nya risker och etablera skyddsåtgärder i olika jurisdiktioner.",
+          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }

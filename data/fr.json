@@ -1690,7 +1690,7 @@
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">L'IA transforme la manière dont les contenus nuisibles en ligne sont créés et partagés. Mais elle peut aussi constituer un outil puissant pour empêcher la diffusion de contenus indésirables sur Internet.</span></p>",
+          "text": "<p><span style=\"color: #091324\">L'intelligence artificielle (AI) transforme la manière dont les préjudices en ligne sont créés et partagés. Si l'AI peut favoriser de nouvelles formes d'abus, elle peut aussi aider à détecter les contenus nuisibles, soutenir la modération et fournir des outils pour la sécurité en ligne.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1808,22 +1808,34 @@
       },
       "risks": {
         "r1": {
-          "text": "<strong>Création et amplification des préjudices :</strong> l’IA générative peut produire ou manipuler rapidement et à grande échelle des textes, des images, des contenus audio et des vidéos.",
+          "text": "<strong>Création de contenus manipulés :</strong> L’IA générative peut produire de fausses images, de faux contenus audio et de fausses vidéos convaincants, y compris des deepfakes qui présentent faussement des athlètes en train de dire ou de faire des choses qui ne se sont jamais produites.",
+          "note": "HTML allowed"
+        },
+        "r2": {
+          "text": "<strong>Amplification du harcèlement :</strong> Les outils alimentés par l’IA peuvent générer et diffuser des messages abusifs rapidement et à grande échelle, augmentant la portée et l’impact du harcèlement en ligne.",
+          "note": "HTML allowed"
+        },
+        "r3": {
+          "text": "<strong>Diffusion de désinformation et usurpation d’identité :</strong> L’IA peut être utilisée pour créer des contenus trompeurs ou usurper l’identité de personnes, ce qui peut nuire aux réputations et tromper les publics.",
           "note": "HTML allowed"
         }
       },
       "benefits": {
         "b1": {
-          "text": "<strong>Détection des contenus nuisibles :</strong> l’IA peut aider à identifier les contenus et les schémas potentiellement nuisibles au sein de vastes volumes d’activité en ligne.",
+          "text": "<strong>Détection des contenus nuisibles :</strong> L’IA peut aider à identifier les messages potentiellement abusifs et à détecter des schémas de comportements nuisibles dans de vastes volumes d’activité en ligne.",
           "note": "HTML allowed"
         },
         "b2": {
-          "text": "<strong>Aide à la modération :</strong> les systèmes automatisés peuvent signaler des contenus à examiner et aider les modérateurs à hiérarchiser les risques potentiels.",
+          "text": "<strong>Aide à la modération :</strong> Les systèmes automatisés peuvent signaler et hiérarchiser les contenus potentiellement nuisibles pour un examen humain, aidant les modérateurs à évaluer les incidents et à prendre les mesures appropriées.",
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "<strong>Aide aux utilisateurs :</strong> les outils basés sur l’IA peuvent aider à filtrer les contenus indésirables et à orienter les utilisateurs vers les fonctionnalités de signalement et de sécurité.",
+          "text": "<strong>Aide aux utilisateurs :</strong> Les outils basés sur l’IA peuvent aider les personnes à filtrer les contenus indésirables, à gérer leur expérience en ligne et à accéder aux fonctionnalités de signalement et de sécurité.",
           "note": "HTML allowed"
+        },
+        "b4": {
+          "text": "<strong>Le jugement humain reste essentiel.</strong> Les systèmes d’IA peuvent avoir du mal à interpréter avec précision le langage, le contexte, les différences culturelles et l’évolution des tactiques d’abus. La supervision humaine est donc importante lors de l’évaluation des contenus nuisibles et de la décision sur la manière d’y répondre. À mesure que l’IA se généralise, la réglementation évolue également pour répondre aux risques émergents et établir des garanties dans différentes juridictions.",
+          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }

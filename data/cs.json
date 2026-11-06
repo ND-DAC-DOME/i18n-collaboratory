@@ -1690,7 +1690,7 @@
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Umělá inteligence mění způsob, jakým lze online újmu vytvářet a jak se šíří. Může však být také mocným nástrojem, jak zabránit šíření nežádoucího obsahu online.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Umělá inteligence (AI) mění způsob, jakým se online újma vytváří a sdílí. AI sice může umožnit nové formy zneužívání, ale může také pomáhat odhalovat škodlivý obsah, podporovat moderaci a poskytovat nástroje pro online bezpečnost.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1808,22 +1808,34 @@
       },
       "risks": {
         "r1": {
-          "text": "<strong>Vytváření a zesilování škod:</strong> Generativní umělá inteligence dokáže rychle a ve velkém měřítku vytvářet nebo manipulovat s textem, obrázky, zvukem a videem.",
+          "text": "<strong>Vytváření manipulovaného obsahu:</strong> Generativní umělá inteligence může vytvářet přesvědčivé falešné obrázky, audio a videa, včetně deepfakeů, které falešně zobrazují sportovce, jak říkají nebo dělají věci, které se nikdy nestaly.",
+          "note": "HTML allowed"
+        },
+        "r2": {
+          "text": "<strong>Zesilování obtěžování:</strong> Nástroje využívající umělou inteligenci mohou rychle a ve velkém měřítku generovat a šířit zneužívající zprávy, čímž zvyšují dosah a dopad online obtěžování.",
+          "note": "HTML allowed"
+        },
+        "r3": {
+          "text": "<strong>Šíření dezinformací a vydávání se za jiné osoby:</strong> Umělou inteligenci lze použít k vytváření zavádějícího obsahu nebo k vydávání se za jednotlivce, což může poškodit reputaci a oklamat publikum.",
           "note": "HTML allowed"
         }
       },
       "benefits": {
         "b1": {
-          "text": "<strong>Detekce škodlivého obsahu:</strong> Umělá inteligence může pomoci identifikovat potenciálně škodlivý obsah a vzorce napříč velkým objemem online aktivity.",
+          "text": "<strong>Detekce škodlivého obsahu:</strong> Umělá inteligence může pomoci identifikovat potenciálně zneužívající zprávy a odhalovat vzorce škodlivého chování napříč velkým objemem online aktivity.",
           "note": "HTML allowed"
         },
         "b2": {
-          "text": "<strong>Podpora moderování:</strong> Automatizované systémy mohou označovat obsah ke kontrole a pomáhat moderátorům upřednostňovat potenciální rizika.",
+          "text": "<strong>Podpora moderování:</strong> Automatizované systémy mohou označovat a upřednostňovat potenciálně škodlivý obsah k lidské kontrole, a pomáhat tak moderátorům posuzovat incidenty a přijímat vhodná opatření.",
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "<strong>Podpora uživatelů:</strong> Nástroje s využitím umělé inteligence mohou pomoci filtrovat nežádoucí obsah a propojit lidi s funkcemi pro hlášení a zabezpečení.",
+          "text": "<strong>Podpora uživatelů:</strong> Nástroje s umělou inteligencí mohou jednotlivcům pomoci filtrovat nežádoucí obsah, spravovat jejich online zkušenost a využívat funkce pro hlášení a zabezpečení.",
           "note": "HTML allowed"
+        },
+        "b4": {
+          "text": "<strong>Lidský úsudek zůstává zásadní.</strong> Systémy umělé inteligence mohou mít potíže přesně interpretovat jazyk, kontext, kulturní rozdíly a vyvíjející se taktiky zneužívání. Lidský dohled je proto důležitý při posuzování škodlivého obsahu a rozhodování o tom, jak reagovat. S tím, jak se umělá inteligence stále více používá, se také vyvíjí regulace, která má řešit vznikající rizika a zavádět ochranná opatření v různých jurisdikcích.",
+          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }

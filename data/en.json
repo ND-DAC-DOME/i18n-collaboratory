@@ -1702,7 +1702,7 @@
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">AI is changing how online harm can be created and how it is shared. But AI can also be a powerful tool to avoid unwanted content spreading online.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Artificial intelligence (AI) is changing how online harm is created and shared. While AI can enable new forms of abuse, it can also help detect harmful content, support moderation, and provide tools for online safety.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1811,31 +1811,43 @@
     },
     "risksBenefits": {
       "risksHeading": {
-        "text": "Potential risks",
+        "text": "Potential Risks",
         "note": "M3 AI risks/benefits widget"
       },
       "benefitsHeading": {
-        "text": "Potential benefits",
+        "text": "Potential Benefits",
         "note": "M3 AI risks/benefits widget"
       },
       "risks": {
         "r1": {
-          "text": "<strong>Creating and amplifying harm:</strong> Generative AI can produce or manipulate text, images, audio, and video quickly and at scale.",
+          "text": "<strong>Creating manipulated content:</strong> Generative AI can produce convincing fake images, audio, and videos, including deepfakes that falsely portray athletes saying or doing things that never happened.",
+          "note": "HTML allowed"
+        },
+        "r2": {
+          "text": "<strong>Amplifying harassment:</strong> AI-powered tools can generate and distribute abusive messages rapidly and at scale, increasing the reach and impact of online harassment.",
+          "note": "HTML allowed"
+        },
+        "r3": {
+          "text": "<strong>Spreading disinformation and impersonation:</strong> AI can be used to create misleading content or impersonate individuals, potentially damaging reputations and deceiving audiences.",
           "note": "HTML allowed"
         }
       },
       "benefits": {
         "b1": {
-          "text": "<strong>Detecting harmful content:</strong> AI can help identify potentially harmful content and patterns across large volumes of online activity.",
+          "text": "<strong>Detecting harmful content:</strong> AI can help identify potentially abusive messages and detect patterns of harmful behaviour across large volumes of online activity.",
           "note": "HTML allowed"
         },
         "b2": {
-          "text": "<strong>Supporting moderation:</strong> Automated systems can flag content for review and help moderators prioritise potential risks.",
+          "text": "<strong>Supporting moderation:</strong> Automated systems can flag and prioritise potentially harmful content for human review, helping moderators assess incidents and take appropriate action.",
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "<strong>Supporting users:</strong> AI-enabled tools can help filter unwanted content and connect people with reporting and safety features.",
+          "text": "<strong>Supporting users:</strong> AI-enabled tools can help individuals filter unwanted content, manage their online experience, and access reporting and safety features.",
           "note": "HTML allowed"
+        },
+        "b4": {
+          "text": "<strong>Human judgement remains essential.</strong> AI systems may struggle to interpret language, context, cultural differences, and evolving abuse tactics accurately. Human oversight is therefore important when assessing harmful content and deciding how to respond. As AI becomes more widely used, regulation is also evolving to address emerging risks and establish safeguards across different jurisdictions.",
+          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }

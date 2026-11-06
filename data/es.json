@@ -1690,7 +1690,7 @@
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">La IA está cambiando la forma en que se generan y se comparten los daños en línea. Pero también puede ser una herramienta poderosa para evitar la propagación de contenido no deseado en internet.</span></p>",
+          "text": "<p><span style=\"color: #091324\">La inteligencia artificial (AI) está cambiando la forma en que se crean y se comparten los daños en línea. Si bien la AI puede facilitar nuevas formas de abuso, también puede ayudar a detectar contenido dañino, apoyar la moderación y proporcionar herramientas para la seguridad en línea.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1808,22 +1808,34 @@
       },
       "risks": {
         "r1": {
-          "text": "<strong>Generación y amplificación del daño:</strong> La IA generativa puede producir o manipular texto, imágenes, audio y vídeo de forma rápida y a gran escala.",
+          "text": "<strong>Creación de contenido manipulado:</strong> La IA generativa puede producir imágenes, audio y vídeos falsos convincentes, incluidos deepfakes que retratan falsamente a atletas diciendo o haciendo cosas que nunca ocurrieron.",
+          "note": "HTML allowed"
+        },
+        "r2": {
+          "text": "<strong>Amplificación del acoso:</strong> Las herramientas impulsadas por IA pueden generar y distribuir mensajes abusivos de forma rápida y a gran escala, aumentando el alcance y el impacto del acoso en línea.",
+          "note": "HTML allowed"
+        },
+        "r3": {
+          "text": "<strong>Difusión de desinformación y suplantación de identidad:</strong> La IA puede usarse para crear contenido engañoso o suplantar a personas, lo que potencialmente daña reputaciones y engaña a las audiencias.",
           "note": "HTML allowed"
         }
       },
       "benefits": {
         "b1": {
-          "text": "<strong>Detección de contenido dañino:</strong> La IA puede ayudar a identificar contenido potencialmente dañino y patrones en grandes volúmenes de actividad en línea.",
+          "text": "<strong>Detección de contenido dañino:</strong> La IA puede ayudar a identificar mensajes potencialmente abusivos y detectar patrones de comportamiento dañino en grandes volúmenes de actividad en línea.",
           "note": "HTML allowed"
         },
         "b2": {
-          "text": "<strong>Apoyo a la moderación:</strong> Los sistemas automatizados pueden marcar el contenido para su revisión y ayudar a los moderadores a priorizar los riesgos potenciales.",
+          "text": "<strong>Apoyo a la moderación:</strong> Los sistemas automatizados pueden marcar y priorizar contenido potencialmente dañino para su revisión humana, ayudando a los moderadores a evaluar incidentes y tomar las medidas adecuadas.",
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "<strong>Apoyo a los usuarios:</strong> Las herramientas con inteligencia artificial pueden ayudar a filtrar contenido no deseado y conectar a las personas con funciones de denuncia y seguridad.",
+          "text": "<strong>Apoyo a los usuarios:</strong> Las herramientas impulsadas por IA pueden ayudar a las personas a filtrar contenido no deseado, gestionar su experiencia en línea y acceder a funciones de denuncia y seguridad.",
           "note": "HTML allowed"
+        },
+        "b4": {
+          "text": "<strong>El juicio humano sigue siendo esencial.</strong> Los sistemas de IA pueden tener dificultades para interpretar con precisión el lenguaje, el contexto, las diferencias culturales y las tácticas de abuso en evolución. Por ello, la supervisión humana es importante al evaluar contenido dañino y decidir cómo responder. A medida que la IA se usa de forma más generalizada, la regulación también evoluciona para abordar los riesgos emergentes y establecer salvaguardas en distintas jurisdicciones.",
+          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }

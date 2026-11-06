@@ -1690,7 +1690,7 @@
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Umetna inteligenca spreminja način ustvarjanja in deljenja spletne škode. Vendar pa je lahko tudi močno orodje za preprečevanje širjenja neželenih vsebin na spletu.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Umetna inteligenca (AI) spreminja način, kako se spletna škoda ustvarja in deli. Čeprav lahko AI omogoča nove oblike zlorabe, lahko tudi pomaga pri odkrivanju škodljivih vsebin, podpira moderiranje in zagotavlja orodja za spletno varnost.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1808,22 +1808,34 @@
       },
       "risks": {
         "r1": {
-          "text": "<strong>Ustvarjanje in krepitev škode:</strong> Generativna umetna inteligenca lahko hitro in v velikem obsegu ustvarja ali manipulira z besedilom, slikami, zvokom in videoposnetki.",
+          "text": "<strong>Ustvarjanje manipulirane vsebine:</strong> Generativna umetna inteligenca lahko ustvari prepričljive lažne slike, zvok in videoposnetke, vključno z deepfakei, ki lažno prikazujejo športnike, kako govorijo ali počnejo stvari, ki se nikoli niso zgodile.",
+          "note": "HTML allowed"
+        },
+        "r2": {
+          "text": "<strong>Krepitev nadlegovanja:</strong> Orodja, ki jih poganja umetna inteligenca, lahko hitro in v velikem obsegu ustvarijo in razširijo zlorabljajoča sporočila, s čimer povečajo doseg in vpliv spletnega nadlegovanja.",
+          "note": "HTML allowed"
+        },
+        "r3": {
+          "text": "<strong>Širjenje dezinformacij in lažno predstavljanje:</strong> Umetno inteligenco je mogoče uporabiti za ustvarjanje zavajajoče vsebine ali lažno predstavljanje posameznikov, kar lahko škodi ugledu in zavede občinstvo.",
           "note": "HTML allowed"
         }
       },
       "benefits": {
         "b1": {
-          "text": "<strong>Odkrivanje škodljive vsebine:</strong> Umetna inteligenca lahko pomaga prepoznati potencialno škodljivo vsebino in vzorce v velikih količinah spletnih dejavnosti.",
+          "text": "<strong>Odkrivanje škodljive vsebine:</strong> Umetna inteligenca lahko pomaga prepoznati potencialno zlorabljajoča sporočila in odkriti vzorce škodljivega vedenja v velikih količinah spletnih dejavnosti.",
           "note": "HTML allowed"
         },
         "b2": {
-          "text": "<strong>Podpora moderiranju:</strong> Avtomatizirani sistemi lahko označijo vsebino za pregled in pomagajo moderatorjem pri določanju prioritet morebitnih tveganj.",
+          "text": "<strong>Podpora moderiranju:</strong> Avtomatizirani sistemi lahko označijo in določijo prednost potencialno škodljivi vsebini za človeški pregled, s čimer pomagajo moderatorjem oceniti incidente in sprejeti ustrezne ukrepe.",
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "<strong>Podpora uporabnikom:</strong> Orodja, ki jih podpira umetna inteligenca, lahko pomagajo filtrirati neželeno vsebino in povezati ljudi s funkcijami za prijavo in varnost.",
+          "text": "<strong>Podpora uporabnikom:</strong> Orodja, ki jih podpira umetna inteligenca, lahko posameznikom pomagajo filtrirati neželeno vsebino, upravljati njihovo spletno izkušnjo in dostopati do funkcij za prijavo in varnost.",
           "note": "HTML allowed"
+        },
+        "b4": {
+          "text": "<strong>Človeška presoja ostaja bistvena.</strong> Sistemi umetne inteligence lahko težko natančno razlagajo jezik, kontekst, kulturne razlike in spreminjajoče se taktike zlorabe. Zato je človeški nadzor pomemben pri ocenjevanju škodljive vsebine in odločanju o odzivu. Ker se umetna inteligenca vse bolj uporablja, se razvija tudi regulacija, da bi obravnavala nastajajoča tveganja in vzpostavila zaščitne ukrepe v različnih jurisdikcijah.",
+          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }
