@@ -1788,11 +1788,11 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Dessa regionala exempel är valfritt kompletterande innehåll och påverkar inte dina kursframsteg.</span></p>",
+          "text": "<p><span style=\"color: #091324\">AI-regleringar skiljer sig åt mellan platser och kan påverka hur skadligt innehåll hanteras, vilka skydd som finns tillgängliga och vilka skyldigheter som gäller för onlineplattformar.</span></p><p></p><p><span style=\"color: #091324\">Att utforska dessa skillnader kan hjälpa dig att förstå hur synsätt på AI och onlineskada varierar, och varför tillgängliga skydd och resurser kan bero på var du befinner dig.</span><br><br>(Länderna som listas nedan är endast avsedda som referens. Fler länder ska läggas till i framtiden.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Välj en region för att lära dig mer om onlineövergrepp.</span>",
+          "text": "<span style=\"color: #1c3564\">Utforska AI-regleringar och onlineskada</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }

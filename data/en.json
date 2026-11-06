@@ -1800,11 +1800,11 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">These regional examples are optional supplementary content and do not affect your course progress.</span></p>",
+          "text": "<p><span style=\"color: #091324\">AI regulations differ across locations and may influence how harmful content is addressed, what protections are available, and which responsibilities apply to online platforms.</span></p><p></p><p><span style=\"color: #091324\">Exploring these differences can help you understand how approaches to AI and online harm vary, and why the protections and resources available may depend on where you are.</span><br><br>(The countries listed below are only for reference. More countries shall be added in the future.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Select a region to learn more about online abuse. </span>",
+          "text": "<span style=\"color: #1c3564\">Explore AI Regulations and Online Harm</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }

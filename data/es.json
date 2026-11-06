@@ -1788,11 +1788,11 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Estos ejemplos regionales son contenido complementario opcional y no afectan al progreso del curso.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Las regulaciones de AI difieren según la ubicación y pueden influir en cómo se aborda el contenido dañino, qué protecciones están disponibles y qué responsabilidades se aplican a las plataformas en línea.</span></p><p></p><p><span style=\"color: #091324\">Explorar estas diferencias puede ayudarte a comprender cómo varían los enfoques respecto a la AI y el daño en línea, y por qué las protecciones y los recursos disponibles pueden depender de dónde te encuentres.</span><br><br>(Los países que se enumeran a continuación son solo de referencia. Se añadirán más países en el futuro.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Seleccione una región para obtener más información sobre el abuso en línea. </span>",
+          "text": "<span style=\"color: #1c3564\">Explora las regulaciones de AI y el daño en línea</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }

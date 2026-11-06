@@ -1788,11 +1788,11 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Ti regionalni primeri so neobvezna dodatna vsebina in ne vplivajo na vaš napredek v tečaju.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Predpisi o AI se razlikujejo glede na lokacijo in lahko vplivajo na to, kako se obravnava škodljiva vsebina, katere zaščite so na voljo in katere odgovornosti veljajo za spletne platforme.</span></p><p></p><p><span style=\"color: #091324\">Raziskovanje teh razlik vam lahko pomaga razumeti, kako se pristopi k AI in spletni škodi razlikujejo ter zakaj so razpoložljive zaščite in viri lahko odvisni od tega, kje se nahajate.</span><br><br>(Spodaj navedene države so zgolj za orientacijo. V prihodnosti bo dodanih več držav.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Izberite regijo, če želite izvedeti več o spletni zlorabi.</span>",
+          "text": "<span style=\"color: #1c3564\">Raziščite predpise o AI in spletno škodo</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }

@@ -1788,11 +1788,11 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Tyto regionální příklady jsou volitelným doplňkovým obsahem a neovlivňují váš postup v kurzu.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Regulace AI se v jednotlivých lokalitách liší a mohou ovlivnit, jak se škodlivý obsah řeší, jaké ochrany jsou k dispozici a jaké povinnosti se vztahují na online platformy.</span></p><p></p><p><span style=\"color: #091324\">Prozkoumání těchto rozdílů vám může pomoci pochopit, jak se přístupy k AI a online újmě liší a proč dostupné ochrany a zdroje mohou záviset na tom, kde se nacházíte.</span><br><br>(Níže uvedené země slouží pouze pro orientaci. V budoucnu budou přidány další země.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Vyberte region a dozvíte se více o online zneužívání.</span>",
+          "text": "<span style=\"color: #1c3564\">Prozkoumejte regulace AI a online újmu</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       }
