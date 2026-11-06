@@ -501,14 +501,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "Le rôle sportif de la personne ciblée"
+          "text": "Le type de sport pratiqué"
         },
         "e": {
           "text": "Interactions des utilisateurs telles que les commentaires, les partages et les republications",
           "note": "Correct"
         },
         "f": {
-          "text": "Le fait que le contenu original soit considéré comme offensant"
+          "text": "Le lieu où se déroule un événement sportif"
         }
       }
     },
@@ -1710,8 +1710,8 @@
       },
       "exploreWhichFactorsCanInfluenceHow": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Sélectionnez les trois facteurs qui peuvent influencer directement la manière dont un contenu préjudiciable se propage et atteint de nouveaux publics en ligne.</span></p>",
-          "note": "Native text body on How Online Harm Spreads"
+          "text": "",
+          "note": "Native text body on How Online Harm Spreads (cleared; heading only above 3.2)"
         },
         "heading": {
           "text": "<span style=\"color: #1c3564\">Explorez : quels facteurs peuvent influencer la diffusion en ligne des contenus nuisibles ?</span>",

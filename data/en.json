@@ -509,14 +509,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "The sporting role of the person targeted"
+          "text": "The type of sport being played"
         },
         "e": {
           "text": "User interactions such as commenting, sharing, and reposting",
           "note": "Correct"
         },
         "f": {
-          "text": "Whether the original content is considered offensive"
+          "text": "The location where a sporting event takes place"
         }
       }
     },
@@ -1722,8 +1722,8 @@
       },
       "exploreWhichFactorsCanInfluenceHow": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Select the three factors that can directly influence how harmful content travels and reaches new audiences online.</span></p>",
-          "note": "Native text body on How Online Harm Spreads"
+          "text": "",
+          "note": "Native text body on How Online Harm Spreads (cleared; heading only above 3.2)"
         },
         "heading": {
           "text": "<span style=\"color: #1c3564\">Explore: Which factors can influence how harmful content travels online?</span>",

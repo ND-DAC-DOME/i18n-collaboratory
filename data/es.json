@@ -501,14 +501,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "El rol deportivo de la persona objetivo"
+          "text": "El tipo de deporte que se practica"
         },
         "e": {
           "text": "Interacciones de los usuarios como comentar, compartir y republicar.",
           "note": "Correct"
         },
         "f": {
-          "text": "Si el contenido original se considera ofensivo"
+          "text": "El lugar donde se celebra un evento deportivo"
         }
       }
     },
@@ -1710,8 +1710,8 @@
       },
       "exploreWhichFactorsCanInfluenceHow": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Selecciona los tres factores que pueden influir directamente en cómo el contenido dañino se difunde y llega a nuevas audiencias en línea.</span></p>",
-          "note": "Native text body on How Online Harm Spreads"
+          "text": "",
+          "note": "Native text body on How Online Harm Spreads (cleared; heading only above 3.2)"
         },
         "heading": {
           "text": "<span style=\"color: #1c3564\">Explora: ¿Qué factores pueden influir en la difusión de contenido dañino en línea?</span>",

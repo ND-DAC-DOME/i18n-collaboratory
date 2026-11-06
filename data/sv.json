@@ -501,14 +501,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "Den utsatta personens roll inom idrotten"
+          "text": "Den typ av sport som utövas"
         },
         "e": {
           "text": "Användarinteraktioner som att kommentera, dela och återpublicera",
           "note": "Correct"
         },
         "f": {
-          "text": "Huruvida det ursprungliga innehållet anses stötande"
+          "text": "Platsen där ett idrottsevenemang äger rum"
         }
       }
     },
@@ -1575,13 +1575,13 @@
           "text": "Registrera viktiga detaljer"
         },
         "i4": {
-          "text": "Sportart som utövas"
+          "text": "Den typ av sport som utövas"
         },
         "i5": {
           "text": "Rapportera via plattformen"
         },
         "i6": {
-          "text": "Plats där ett idrottsevenemang äger rum"
+          "text": "Platsen där ett idrottsevenemang äger rum"
         }
       }
     },
@@ -1710,8 +1710,8 @@
       },
       "exploreWhichFactorsCanInfluenceHow": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Välj de tre faktorer som direkt kan påverka hur skadligt innehåll sprids och når nya målgrupper online.</span></p>",
-          "note": "Native text body on How Online Harm Spreads"
+          "text": "",
+          "note": "Native text body on How Online Harm Spreads (cleared; heading only above 3.2)"
         },
         "heading": {
           "text": "<span style=\"color: #1c3564\">Utforska: Vilka faktorer kan påverka hur skadligt innehåll sprids online?</span>",

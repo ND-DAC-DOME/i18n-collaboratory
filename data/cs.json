@@ -501,14 +501,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "Sportovní role cílové osoby"
+          "text": "Druh provozovaného sportu"
         },
         "e": {
           "text": "Interakce uživatelů, jako je komentování, sdílení a opětovné publikování",
           "note": "Correct"
         },
         "f": {
-          "text": "Zda je původní obsah považován za urážlivý"
+          "text": "Místo konání sportovní události"
         }
       }
     },
@@ -1710,8 +1710,8 @@
       },
       "exploreWhichFactorsCanInfluenceHow": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Vyberte tři faktory, které mohou přímo ovlivnit, jak se škodlivý obsah šíří a oslovuje nové publikum online.</span></p>",
-          "note": "Native text body on How Online Harm Spreads"
+          "text": "",
+          "note": "Native text body on How Online Harm Spreads (cleared; heading only above 3.2)"
         },
         "heading": {
           "text": "<span style=\"color: #1c3564\">Prozkoumejte: Které faktory mohou ovlivnit, jak se škodlivý obsah šíří online?</span>",

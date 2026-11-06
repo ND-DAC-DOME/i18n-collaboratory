@@ -501,14 +501,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "Športna vloga ciljne osebe"
+          "text": "Vrsta športa, ki se igra"
         },
         "e": {
           "text": "Uporabniške interakcije, kot so komentiranje, deljenje in ponovno objavljanje",
           "note": "Correct"
         },
         "f": {
-          "text": "Ali se izvirna vsebina šteje za žaljivo"
+          "text": "Kraj, kjer poteka športni dogodek"
         }
       }
     },
@@ -1710,8 +1710,8 @@
       },
       "exploreWhichFactorsCanInfluenceHow": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Izberite tri dejavnike, ki lahko neposredno vplivajo na to, kako se škodljiva vsebina širi in dosega novo občinstvo na spletu.</span></p>",
-          "note": "Native text body on How Online Harm Spreads"
+          "text": "",
+          "note": "Native text body on How Online Harm Spreads (cleared; heading only above 3.2)"
         },
         "heading": {
           "text": "<span style=\"color: #1c3564\">Raziščite: Kateri dejavniki lahko vplivajo na to, kako se škodljiva vsebina širi po spletu?</span>",
