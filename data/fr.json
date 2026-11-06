@@ -17,6 +17,10 @@
       "text": "Suivant",
       "note": "Primary forward button on series / quiz widgets"
     },
+    "complete": {
+      "text": "Complete",
+      "note": "Last-card action on series widgets; becomes the completed checkbox"
+    },
     "completed": {
       "text": "Terminé",
       "note": "Replaces Next after the last step on some widgets"
@@ -1839,26 +1843,17 @@
   "m4": {
     "lawTabs": {
       "ui": {
-        "prompt": {
-          "text": "Sélectionnez une voie"
+        "navAria": {
+          "text": "Card navigation",
+          "note": "aria-label on the six-card progress control"
         },
-        "placeholder": {
-          "text": "Sélectionnez une voie"
+        "prevAria": {
+          "text": "Previous card",
+          "note": "aria-label on the back arrow"
         },
-        "pathwaysAria": {
-          "text": "Voies juridiques"
-        },
-        "seeExample": {
-          "text": "Voir un exemple"
-        },
-        "backToPathway": {
-          "text": "Retour à la voie"
-        },
-        "returnMain": {
-          "text": "Retour à la page principale"
-        },
-        "closeAria": {
-          "text": "Fermer"
+        "nextAria": {
+          "text": "Next card",
+          "note": "aria-label on the forward arrow"
         }
       },
       "tabs": {

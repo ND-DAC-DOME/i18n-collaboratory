@@ -17,6 +17,10 @@
       "text": "Naprej",
       "note": "Primary forward button on series / quiz widgets"
     },
+    "complete": {
+      "text": "Complete",
+      "note": "Last-card action on series widgets; becomes the completed checkbox"
+    },
     "completed": {
       "text": "Dokončano",
       "note": "Replaces Next after the last step on some widgets"
@@ -1839,26 +1843,17 @@
   "m4": {
     "lawTabs": {
       "ui": {
-        "prompt": {
-          "text": "Izberite pot"
+        "navAria": {
+          "text": "Card navigation",
+          "note": "aria-label on the six-card progress control"
         },
-        "placeholder": {
-          "text": "Izberite pot"
+        "prevAria": {
+          "text": "Previous card",
+          "note": "aria-label on the back arrow"
         },
-        "pathwaysAria": {
-          "text": "Pravne poti"
-        },
-        "seeExample": {
-          "text": "Oglejte si primer"
-        },
-        "backToPathway": {
-          "text": "Nazaj na pot"
-        },
-        "returnMain": {
-          "text": "Nazaj na glavno stran"
-        },
-        "closeAria": {
-          "text": "Zapri"
+        "nextAria": {
+          "text": "Next card",
+          "note": "aria-label on the forward arrow"
         }
       },
       "tabs": {

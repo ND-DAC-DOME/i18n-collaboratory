@@ -17,6 +17,10 @@
       "text": "Siguiente",
       "note": "Primary forward button on series / quiz widgets"
     },
+    "complete": {
+      "text": "Complete",
+      "note": "Last-card action on series widgets; becomes the completed checkbox"
+    },
     "completed": {
       "text": "Completado",
       "note": "Replaces Next after the last step on some widgets"
@@ -1839,26 +1843,17 @@
   "m4": {
     "lawTabs": {
       "ui": {
-        "prompt": {
-          "text": "Selecciona una vía"
+        "navAria": {
+          "text": "Card navigation",
+          "note": "aria-label on the six-card progress control"
         },
-        "placeholder": {
-          "text": "Selecciona una vía"
+        "prevAria": {
+          "text": "Previous card",
+          "note": "aria-label on the back arrow"
         },
-        "pathwaysAria": {
-          "text": "Vías legales"
-        },
-        "seeExample": {
-          "text": "Ver un ejemplo"
-        },
-        "backToPathway": {
-          "text": "Volver a la vía"
-        },
-        "returnMain": {
-          "text": "Volver a la página principal"
-        },
-        "closeAria": {
-          "text": "Cerrar"
+        "nextAria": {
+          "text": "Next card",
+          "note": "aria-label on the forward arrow"
         }
       },
       "tabs": {

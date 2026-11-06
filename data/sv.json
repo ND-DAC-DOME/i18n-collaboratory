@@ -17,6 +17,10 @@
       "text": "Nästa",
       "note": "Primary forward button on series / quiz widgets"
     },
+    "complete": {
+      "text": "Complete",
+      "note": "Last-card action on series widgets; becomes the completed checkbox"
+    },
     "completed": {
       "text": "Avslutad",
       "note": "Replaces Next after the last step on some widgets"
@@ -1839,26 +1843,17 @@
   "m4": {
     "lawTabs": {
       "ui": {
-        "prompt": {
-          "text": "Välj en väg"
+        "navAria": {
+          "text": "Card navigation",
+          "note": "aria-label on the six-card progress control"
         },
-        "placeholder": {
-          "text": "Välj en väg"
+        "prevAria": {
+          "text": "Previous card",
+          "note": "aria-label on the back arrow"
         },
-        "pathwaysAria": {
-          "text": "Rättsliga vägar"
-        },
-        "seeExample": {
-          "text": "Se ett exempel"
-        },
-        "backToPathway": {
-          "text": "Tillbaka till vägen"
-        },
-        "returnMain": {
-          "text": "Återgå till huvudsidan"
-        },
-        "closeAria": {
-          "text": "Stäng"
+        "nextAria": {
+          "text": "Next card",
+          "note": "aria-label on the forward arrow"
         }
       },
       "tabs": {
