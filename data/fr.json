@@ -3246,6 +3246,10 @@
           "prompt": {
             "text": "Souhaiteriez-vous entreprendre d'autres démarches auprès de l'UAOA ?"
           },
+          "hint": {
+            "text": "Choose one answer – this is not a scored question",
+            "note": "Helper under the Q11 stem only; other questions keep summary.quiz.ui.chooseOne"
+          },
           "choices": {
             "c0": {
               "text": "Je veux passer à l'action"

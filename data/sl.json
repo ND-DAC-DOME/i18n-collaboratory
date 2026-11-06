@@ -3246,6 +3246,10 @@
           "prompt": {
             "text": "Bi želeli nadalje ukrepati z UAOA?"
           },
+          "hint": {
+            "text": "Choose one answer – this is not a scored question",
+            "note": "Helper under the Q11 stem only; other questions keep summary.quiz.ui.chooseOne"
+          },
           "choices": {
             "c0": {
               "text": "Želim ukrepati"
