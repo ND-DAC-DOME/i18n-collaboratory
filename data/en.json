@@ -1584,13 +1584,13 @@
           "text": "Record key details"
         },
         "i4": {
-          "text": "Use platform safety tools"
+          "text": "The type of sport being played"
         },
         "i5": {
           "text": "Report through the platform"
         },
         "i6": {
-          "text": "Seek additional support or escalate when needed"
+          "text": "The location where a sporting event takes place"
         }
       }
     },
