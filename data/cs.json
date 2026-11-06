@@ -2388,7 +2388,7 @@
           "text": "Všechny tři vrstvy prozkoumány"
         },
         "openLayer": {
-          "text": "Prozkoumat"
+          "text": "Read"
         },
         "overview": {
           "text": "Přehled"
@@ -2397,10 +2397,10 @@
           "text": "Prozkoumáno: {n} ze 3 vrstev"
         },
         "exploredReview": {
-          "text": "Prozkoumáno · Zopakovat"
+          "text": "Read Again"
         },
         "startExploring": {
-          "text": "Začněte prozkoumávat"
+          "text": "Continue Reading"
         },
         "whyMatter": {
           "text": "Proč na tom záleží?"
@@ -2445,7 +2445,7 @@
             "text": "1"
           },
           "title": {
-            "text": "Individuální"
+            "text": "Individuals"
           },
           "eyebrow": {
             "text": "Vrstva 1 · Jednotlivci"
@@ -2569,7 +2569,7 @@
             },
             "media": {
               "title": {
-                "text": "Mediální organizace"
+                "text": "Media organisations"
               },
               "body": {
                 "text": "Spravují publikovaný obsah."
@@ -2580,7 +2580,7 @@
                 "text": "Advokační skupiny"
               },
               "body": {
-                "text": "Přispívají specializovanou podporou a vzděláváním."
+                "text": "Contribute specialised support and education."
               }
             }
           },
@@ -2638,7 +2638,7 @@
             "text": "Chraňte se"
           },
           "body": {
-            "text": "<p>Pro sportovce a další osoby, které působí na veřejnosti:</p><ul><li><strong>Omezte svou expozici.</strong> Zkontrolujte nastavení soukromí a bezpečnosti a určete, kdo vás může kontaktovat, zmínit nebo označit.</li><li><strong>Používejte bezpečnostní nástroje.</strong> Škodlivé účty nebo obsah ztlumte, omezte, zablokujte a nahlaste.</li><li><strong>Uchovávejte důkazy.</strong> Ukládejte si relevantní informace, pokud může být potřeba chování nahlásit nebo eskalovat.</li><li><strong>Chraňte svou duševní pohodu.</strong> Můžete si dát od online interakcí pauzu a vyhledat podporu u lidí, kterým důvěřujete.</li></ul><details><summary><strong>Proč na tom záleží?</strong></summary><p>Na vaší duševní pohodě záleží a podpora je sdílenou odpovědností. Když lidé používají nástroje pro bezpečnost a duševní pohodu, jsou lépe vybaveni k tomu, aby v širší sportovní komunitě předcházeli újmě.</p></details>",
+            "text": "<p>For everyone participating in sport and its online communities: </p><ul><li><strong>Manage your exposure.</strong> Review privacy and safety settings and control who can contact, mention, or tag you.</li><li><strong>Use safety tools.</strong> Mute, restrict, block, and report harmful accounts or content.</li><li><strong>Preserve evidence.</strong> Save relevant information when behaviour may need to be reported or escalated.</li><li><strong>Protect your wellbeing.</strong> You can choose to take a break from online interactions and seek support from people you trust.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Your wellbeing matters, and support is a shared responsibility. When people use safety and wellbeing tools, they are better equipped to prevent harm within the wider sporting community.</p></details>",
             "note": "HTML allowed"
           }
         },
@@ -2656,7 +2656,7 @@
             "text": "Jednejte bezpečně"
           },
           "body": {
-            "text": "<p>Při reakci na online zneužívání zvažte situaci, osobní bezpečnost a to, zda je potřeba další podpora:</p><ul><li><strong>Zhodnoťte situaci.</strong> Zvažte povahu chování, zda se stupňuje a zda může být někdo ohrožen.</li><li><strong>Vyhněte se nebezpečné interakci.</strong> Nekonfrontujte ani přímo nereagujte, pokud by to mohlo zvýšit újmu nebo někoho ohrozit.</li><li><strong>Vězte, kdy vyhledat podporu.</strong> Pokud situace vyžaduje další pomoc, zapojte důvěryhodnou osobu nebo příslušnou kontaktní osobu v organizaci.</li><li><strong>Eskalujte obavy o bezpečnost.</strong> Výhrůžky, opakovaný nežádoucí kontakt, zveřejnění osobních údajů nebo jiné obavy o bezpečnost mohou vyžadovat další podporu v rámci organizace nebo zvenčí.</li></ul><details><summary><strong>Proč na tom záleží?</strong></summary><p>Bezpečné jednání pomáhá propojit individuální kroky se správnou úrovní podpory. Rozpoznání, kdy situace vyžaduje další pomoc, umožňuje zapojit další lidi a pomáhá zajistit, aby bezpečnost zůstala na prvním místě.</p></details>",
+            "text": "<p>When responding to online abuse, consider the situation, personal safety, and whether additional support is needed:</p><ul><li><strong>Assess the situation.</strong> Consider the nature of the behaviour, whether it is escalating, and whether anyone may be at risk.</li><li><strong>Avoid unsafe engagement.</strong> Do not confront or engage directly as it can increase harm or place someone at risk.</li><li><strong>Know when to seek support.</strong> Involve a trusted person or the appropriate organisational contact when the situation requires additional help.</li><li><strong>Escalate safety concerns.</strong> Threats, repeated unwanted contact, exposure of personal information, or other safety concerns may require further organisational or external support.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Acting safely helps connect individual action with the right level of support. Recognising when a situation requires additional help allows others to become involved and helps ensure that safety remains the priority.</p></details>",
             "note": "HTML allowed"
           }
         }
@@ -2710,7 +2710,7 @@
             "text": "Silnější společně"
           },
           "body": {
-            "text": "<p>Organizace jsou silnější, když spolupracují. Každá z nich hraje jinou roli a společně mohou vytvořit <strong>koordinovanou síť ochrany</strong> a reakce na online zneužívání.</p><p><strong>Platforma organizační připravenosti (ORP) od UAOA</strong> toto úsilí podporuje tím, že pomáhá sportovním organizacím posoudit jejich připravenost, určit oblasti ke zlepšení a posílit jejich přístupy k prevenci online zneužívání a reakci na něj.</p>",
+            "text": "<p>Organisations are stronger when they work together. Each one plays a different role, and together they can create a <strong>coordinated network of protection</strong> and response against online abuse.</p><p><strong>UAOA’s Organisational Readiness Platform (ORP)</strong> supports these efforts by helping sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse.</p>",
             "note": "HTML allowed"
           }
         }
@@ -3025,12 +3025,12 @@
             "note": "HTML allowed"
           },
           "next": {
-            "text": "To se zdá hodně"
+            "text": "So, where do we begin?"
           }
         },
         "q2": {
           "prompt": {
-            "text": "S čím je podle výzkumu u sportovců spojeno větší vystavení online obtěžování?"
+            "text": "According to research, which of the following effects has online harassment been linked to among athletes?"
           },
           "choices": {
             "c0": {
@@ -3076,7 +3076,7 @@
         },
         "q4": {
           "prompt": {
-            "text": "<span class=\"scenario\">Hráč po prohře dostává ponižující komentáře. Podobné zprávy zaplavují jeho účet celé dny a útočí i na jeho rasu.</span>Co se děje?",
+            "text": "<span class=\"scenario\">A player receives humiliating comments after a loss. Similar messages continue to flood their account for days, including attacks based on their race.</span><strong>Which types of online abuse are occurring in this situation?</strong>",
             "note": "HTML allowed"
           },
           "choices": {

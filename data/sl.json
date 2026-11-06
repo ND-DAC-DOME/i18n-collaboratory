@@ -2388,7 +2388,7 @@
           "text": "Vse tri plasti so bile raziskane"
         },
         "openLayer": {
-          "text": "Razišči"
+          "text": "Read"
         },
         "overview": {
           "text": "Pregled"
@@ -2397,10 +2397,10 @@
           "text": "{n} od 3 raziskanih plasti"
         },
         "exploredReview": {
-          "text": "Raziskano · Ponovni ogled"
+          "text": "Read Again"
         },
         "startExploring": {
-          "text": "Začni raziskovati"
+          "text": "Continue Reading"
         },
         "whyMatter": {
           "text": "Zakaj je to pomembno?"
@@ -2445,7 +2445,7 @@
             "text": "1"
           },
           "title": {
-            "text": "Posameznik"
+            "text": "Individuals"
           },
           "eyebrow": {
             "text": "1. plast · Posamezniki"
@@ -2569,7 +2569,7 @@
             },
             "media": {
               "title": {
-                "text": "Medijske organizacije"
+                "text": "Media organisations"
               },
               "body": {
                 "text": "Upravljajo objavljeno vsebino."
@@ -2580,7 +2580,7 @@
                 "text": "Zagovorniške skupine"
               },
               "body": {
-                "text": "Prispevajo specializirano podporo in izobraževanje."
+                "text": "Contribute specialised support and education."
               }
             }
           },
@@ -2638,7 +2638,7 @@
             "text": "Zaščitite se"
           },
           "body": {
-            "text": "<p>Za športnike in druge, ki imajo javno vlogo:</p><ul><li><strong>Upravljajte svojo izpostavljenost.</strong> Preglejte nastavitve zasebnosti in varnosti ter nadzorujte, kdo vas lahko kontaktira, omeni ali označi.</li><li><strong>Uporabljajte varnostna orodja.</strong> Utišajte, omejite, blokirajte in prijavite škodljive račune ali vsebino.</li><li><strong>Ohranite dokaze.</strong> Shranite ustrezne informacije, kadar bo vedenje morda treba prijaviti ali posredovati naprej.</li><li><strong>Zaščitite svoje dobro počutje.</strong> Lahko se odločite, da si vzamete odmor od spletnih interakcij in poiščete podporo pri ljudeh, ki jim zaupate.</li></ul><details><summary><strong>Zakaj je to pomembno?</strong></summary><p>Vaše dobro počutje je pomembno in podpora je skupna odgovornost. Ko ljudje uporabljajo orodja za varnost in dobro počutje, so bolje opremljeni za preprečevanje škode znotraj širše športne skupnosti.</p></details>",
+            "text": "<p>For everyone participating in sport and its online communities: </p><ul><li><strong>Manage your exposure.</strong> Review privacy and safety settings and control who can contact, mention, or tag you.</li><li><strong>Use safety tools.</strong> Mute, restrict, block, and report harmful accounts or content.</li><li><strong>Preserve evidence.</strong> Save relevant information when behaviour may need to be reported or escalated.</li><li><strong>Protect your wellbeing.</strong> You can choose to take a break from online interactions and seek support from people you trust.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Your wellbeing matters, and support is a shared responsibility. When people use safety and wellbeing tools, they are better equipped to prevent harm within the wider sporting community.</p></details>",
             "note": "HTML allowed"
           }
         },
@@ -2656,7 +2656,7 @@
             "text": "Delujte varno"
           },
           "body": {
-            "text": "<p>Pri odzivanju na spletno zlorabo upoštevajte situacijo, osebno varnost in to, ali je potrebna dodatna podpora:</p><ul><li><strong>Ocenite situacijo.</strong> Upoštevajte naravo vedenja, ali se stopnjuje in ali je kdo lahko ogrožen.</li><li><strong>Izogibajte se nevarnemu odzivanju.</strong> Ne soočajte se in ne odzivajte se neposredno, če bi to lahko povečalo škodo ali nekoga ogrozilo.</li><li><strong>Vedite, kdaj poiskati podporo.</strong> Ko situacija zahteva dodatno pomoč, vključite zaupanja vredno osebo ali ustrezno kontaktno osebo v organizaciji.</li><li><strong>Varnostne pomisleke posredujte naprej.</strong> Grožnje, ponavljajoči se neželeni stiki, razkritje osebnih podatkov ali drugi varnostni pomisleki lahko zahtevajo nadaljnjo organizacijsko ali zunanjo podporo.</li></ul><details><summary><strong>Zakaj je to pomembno?</strong></summary><p>Varno ravnanje pomaga povezati posamezne ukrepe s pravo stopnjo podpore. Prepoznavanje, kdaj situacija zahteva dodatno pomoč, omogoča drugim, da se vključijo, in pomaga zagotoviti, da varnost ostane prednostna naloga.</p></details>",
+            "text": "<p>When responding to online abuse, consider the situation, personal safety, and whether additional support is needed:</p><ul><li><strong>Assess the situation.</strong> Consider the nature of the behaviour, whether it is escalating, and whether anyone may be at risk.</li><li><strong>Avoid unsafe engagement.</strong> Do not confront or engage directly as it can increase harm or place someone at risk.</li><li><strong>Know when to seek support.</strong> Involve a trusted person or the appropriate organisational contact when the situation requires additional help.</li><li><strong>Escalate safety concerns.</strong> Threats, repeated unwanted contact, exposure of personal information, or other safety concerns may require further organisational or external support.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Acting safely helps connect individual action with the right level of support. Recognising when a situation requires additional help allows others to become involved and helps ensure that safety remains the priority.</p></details>",
             "note": "HTML allowed"
           }
         }
@@ -2710,7 +2710,7 @@
             "text": "Močnejši skupaj"
           },
           "body": {
-            "text": "<p>Organizacije so močnejše, ko sodelujejo. Vsaka ima drugačno vlogo in skupaj lahko ustvarijo <strong>usklajeno mrežo zaščite</strong> in odzivanja na spletne zlorabe.</p><p><strong>Platforma za organizacijsko pripravljenost (ORP) združenja UAOA</strong> podpira ta prizadevanja tako, da športnim organizacijam pomaga oceniti njihovo pripravljenost, prepoznati področja za izboljšave in okrepiti njihove pristope k preprečevanju spletnih zlorab in odzivanju nanje.</p>",
+            "text": "<p>Organisations are stronger when they work together. Each one plays a different role, and together they can create a <strong>coordinated network of protection</strong> and response against online abuse.</p><p><strong>UAOA’s Organisational Readiness Platform (ORP)</strong> supports these efforts by helping sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse.</p>",
             "note": "HTML allowed"
           }
         }
@@ -3025,12 +3025,12 @@
             "note": "HTML allowed"
           },
           "next": {
-            "text": "To se zdi veliko"
+            "text": "So, where do we begin?"
           }
         },
         "q2": {
           "prompt": {
-            "text": "S čim je bila glede na raziskave povezana večja izpostavljenost spletnemu nadlegovanju med športniki?"
+            "text": "According to research, which of the following effects has online harassment been linked to among athletes?"
           },
           "choices": {
             "c0": {
@@ -3076,7 +3076,7 @@
         },
         "q4": {
           "prompt": {
-            "text": "<span class=\"scenario\">Igralec po porazu prejme ponižujoče komentarje. Podobna sporočila več dni preplavljajo njegov račun in napadajo tudi njegovo raso.</span>Kaj se dogaja?",
+            "text": "<span class=\"scenario\">A player receives humiliating comments after a loss. Similar messages continue to flood their account for days, including attacks based on their race.</span><strong>Which types of online abuse are occurring in this situation?</strong>",
             "note": "HTML allowed"
           },
           "choices": {

@@ -2388,7 +2388,7 @@
           "text": "Alla tre nivåer utforskade"
         },
         "openLayer": {
-          "text": "Utforska"
+          "text": "Read"
         },
         "overview": {
           "text": "Översikt"
@@ -2397,10 +2397,10 @@
           "text": "{n} av 3 nivåer utforskade"
         },
         "exploredReview": {
-          "text": "Utforskad · Granska igen"
+          "text": "Read Again"
         },
         "startExploring": {
-          "text": "Börja utforska"
+          "text": "Continue Reading"
         },
         "whyMatter": {
           "text": "Varför spelar detta roll?"
@@ -2445,7 +2445,7 @@
             "text": "1"
           },
           "title": {
-            "text": "Individ"
+            "text": "Individuals"
           },
           "eyebrow": {
             "text": "Nivå 1 · Individer"
@@ -2569,7 +2569,7 @@
             },
             "media": {
               "title": {
-                "text": "Medieorganisationer"
+                "text": "Media organisations"
               },
               "body": {
                 "text": "Hantera publicerat innehåll."
@@ -2580,7 +2580,7 @@
                 "text": "Intresseorganisationer"
               },
               "body": {
-                "text": "Bidra med specialiserat stöd och utbildning."
+                "text": "Contribute specialised support and education."
               }
             }
           },
@@ -2638,7 +2638,7 @@
             "text": "Skydda dig själv"
           },
           "body": {
-            "text": "<p>För idrottare och andra med offentliga roller:</p><ul><li><strong>Begränsa din exponering.</strong> Gå igenom inställningarna för integritet och säkerhet och styr vem som kan kontakta, nämna eller tagga dig.</li><li><strong>Använd säkerhetsverktygen.</strong> Tysta, begränsa, blockera och rapportera skadliga konton eller skadligt innehåll.</li><li><strong>Spara bevis.</strong> Spara relevant information när beteendet kan behöva rapporteras eller eskaleras.</li><li><strong>Skydda ditt välbefinnande.</strong> Du kan välja att ta en paus från interaktioner online och söka stöd hos personer du litar på.</li></ul><details><summary><strong>Varför är detta viktigt?</strong></summary><p>Ditt välbefinnande är viktigt, och stöd är ett gemensamt ansvar. När människor använder verktyg för säkerhet och välbefinnande är de bättre rustade att förebygga skada i den bredare idrottsgemenskapen.</p></details>",
+            "text": "<p>For everyone participating in sport and its online communities: </p><ul><li><strong>Manage your exposure.</strong> Review privacy and safety settings and control who can contact, mention, or tag you.</li><li><strong>Use safety tools.</strong> Mute, restrict, block, and report harmful accounts or content.</li><li><strong>Preserve evidence.</strong> Save relevant information when behaviour may need to be reported or escalated.</li><li><strong>Protect your wellbeing.</strong> You can choose to take a break from online interactions and seek support from people you trust.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Your wellbeing matters, and support is a shared responsibility. When people use safety and wellbeing tools, they are better equipped to prevent harm within the wider sporting community.</p></details>",
             "note": "HTML allowed"
           }
         },
@@ -2656,7 +2656,7 @@
             "text": "Agera säkert"
           },
           "body": {
-            "text": "<p>När du hanterar onlineövergrepp, tänk på situationen, den personliga säkerheten och om mer stöd behövs:</p><ul><li><strong>Bedöm situationen.</strong> Fundera på vilken typ av beteende det är, om det eskalerar och om någon kan vara i fara.</li><li><strong>Undvik osäker kontakt.</strong> Konfrontera inte och gå inte i direkt dialog när det kan öka skadan eller utsätta någon för risk.</li><li><strong>Vet när du ska söka stöd.</strong> Involvera en person du litar på eller rätt kontaktperson i organisationen när situationen kräver mer hjälp.</li><li><strong>Eskalera säkerhetsrisker.</strong> Hot, upprepad oönskad kontakt, spridning av personuppgifter eller andra säkerhetsrisker kan kräva ytterligare stöd från organisationen eller externa aktörer.</li></ul><details><summary><strong>Varför är detta viktigt?</strong></summary><p>Att agera säkert hjälper till att koppla ihop individuella åtgärder med rätt nivå av stöd. Att inse när en situation kräver mer hjälp gör att andra kan involveras och bidrar till att säkerheten alltid kommer först.</p></details>",
+            "text": "<p>When responding to online abuse, consider the situation, personal safety, and whether additional support is needed:</p><ul><li><strong>Assess the situation.</strong> Consider the nature of the behaviour, whether it is escalating, and whether anyone may be at risk.</li><li><strong>Avoid unsafe engagement.</strong> Do not confront or engage directly as it can increase harm or place someone at risk.</li><li><strong>Know when to seek support.</strong> Involve a trusted person or the appropriate organisational contact when the situation requires additional help.</li><li><strong>Escalate safety concerns.</strong> Threats, repeated unwanted contact, exposure of personal information, or other safety concerns may require further organisational or external support.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Acting safely helps connect individual action with the right level of support. Recognising when a situation requires additional help allows others to become involved and helps ensure that safety remains the priority.</p></details>",
             "note": "HTML allowed"
           }
         }
@@ -2710,7 +2710,7 @@
             "text": "Starkare tillsammans"
           },
           "body": {
-            "text": "<p>Organisationer är starkare när de arbetar tillsammans. Var och en har en egen roll, och tillsammans kan de skapa ett <strong>samordnat nätverk för skydd</strong> och insatser mot onlineövergrepp.</p><p><strong>UAOA:s plattform för organisatorisk beredskap (ORP)</strong> stöder dessa insatser genom att hjälpa idrottsorganisationer att bedöma sin beredskap, hitta förbättringsområden och stärka sitt arbete med att förebygga och hantera onlineövergrepp.</p>",
+            "text": "<p>Organisations are stronger when they work together. Each one plays a different role, and together they can create a <strong>coordinated network of protection</strong> and response against online abuse.</p><p><strong>UAOA’s Organisational Readiness Platform (ORP)</strong> supports these efforts by helping sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse.</p>",
             "note": "HTML allowed"
           }
         }
@@ -3025,12 +3025,12 @@
             "note": "HTML allowed"
           },
           "next": {
-            "text": "Det verkar mycket"
+            "text": "So, where do we begin?"
           }
         },
         "q2": {
           "prompt": {
-            "text": "Enligt forskning, vad har ökad exponering för trakasserier online förknippats med bland idrottare?"
+            "text": "According to research, which of the following effects has online harassment been linked to among athletes?"
           },
           "choices": {
             "c0": {
@@ -3076,7 +3076,7 @@
         },
         "q4": {
           "prompt": {
-            "text": "<span class=\"scenario\">En spelare får förödmjukande kommentarer efter en förlust. Liknande meddelanden översvämmar spelarens konto i flera dagar och angriper också spelarens etniska ursprung.</span>Vad är det som händer?",
+            "text": "<span class=\"scenario\">A player receives humiliating comments after a loss. Similar messages continue to flood their account for days, including attacks based on their race.</span><strong>Which types of online abuse are occurring in this situation?</strong>",
             "note": "HTML allowed"
           },
           "choices": {

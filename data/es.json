@@ -2388,7 +2388,7 @@
           "text": "Las tres capas exploradas"
         },
         "openLayer": {
-          "text": "Explorar"
+          "text": "Read"
         },
         "overview": {
           "text": "Descripción general"
@@ -2397,10 +2397,10 @@
           "text": "{n} de 3 capas exploradas"
         },
         "exploredReview": {
-          "text": "Explorado · Repasar"
+          "text": "Read Again"
         },
         "startExploring": {
-          "text": "Comienza a explorar"
+          "text": "Continue Reading"
         },
         "whyMatter": {
           "text": "¿Por qué importa esto?"
@@ -2445,7 +2445,7 @@
             "text": "1"
           },
           "title": {
-            "text": "Individual"
+            "text": "Individuals"
           },
           "eyebrow": {
             "text": "Capa 1 · Individuos"
@@ -2569,7 +2569,7 @@
             },
             "media": {
               "title": {
-                "text": "Organizaciones de medios de comunicación"
+                "text": "Media organisations"
               },
               "body": {
                 "text": "Gestionar el contenido publicado."
@@ -2580,7 +2580,7 @@
                 "text": "Grupos de defensa"
               },
               "body": {
-                "text": "Brindar apoyo y capacitación especializados."
+                "text": "Contribute specialised support and education."
               }
             }
           },
@@ -2638,7 +2638,7 @@
             "text": "Protégete"
           },
           "body": {
-            "text": "<p>Para atletas y otras personas con funciones de cara al público:</p><ul><li><strong>Gestiona tu exposición.</strong> Revisa la configuración de privacidad y seguridad y controla quién puede contactarte, mencionarte o etiquetarte.</li><li><strong>Usa herramientas de seguridad.</strong> Silencia, restringe, bloquea y denuncia cuentas o contenido dañinos.</li><li><strong>Conserva las pruebas.</strong> Guarda la información relevante cuando sea posible que haya que denunciar o escalar un comportamiento.</li><li><strong>Protege tu bienestar.</strong> Puedes optar por tomarte un descanso de las interacciones en línea y buscar apoyo en personas de confianza.</li></ul><details><summary><strong>¿Por qué es importante?</strong></summary><p>Tu bienestar importa y el apoyo es una responsabilidad compartida. Cuando las personas usan herramientas de seguridad y bienestar, están mejor preparadas para prevenir daños dentro de la comunidad deportiva en general.</p></details>",
+            "text": "<p>For everyone participating in sport and its online communities: </p><ul><li><strong>Manage your exposure.</strong> Review privacy and safety settings and control who can contact, mention, or tag you.</li><li><strong>Use safety tools.</strong> Mute, restrict, block, and report harmful accounts or content.</li><li><strong>Preserve evidence.</strong> Save relevant information when behaviour may need to be reported or escalated.</li><li><strong>Protect your wellbeing.</strong> You can choose to take a break from online interactions and seek support from people you trust.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Your wellbeing matters, and support is a shared responsibility. When people use safety and wellbeing tools, they are better equipped to prevent harm within the wider sporting community.</p></details>",
             "note": "HTML allowed"
           }
         },
@@ -2656,7 +2656,7 @@
             "text": "Actúa con seguridad"
           },
           "body": {
-            "text": "<p>Al responder al abuso en línea, ten en cuenta la situación, la seguridad personal y si se necesita apoyo adicional:</p><ul><li><strong>Evalúa la situación.</strong> Ten en cuenta la naturaleza del comportamiento, si va en aumento y si alguien puede estar en riesgo.</li><li><strong>Evita interacciones inseguras.</strong> No confrontes ni interactúes directamente cuando hacerlo pueda aumentar el daño o poner a alguien en riesgo.</li><li><strong>Reconoce cuándo buscar apoyo.</strong> Recurre a una persona de confianza o al contacto adecuado de la organización cuando la situación requiera ayuda adicional.</li><li><strong>Escala los problemas de seguridad.</strong> Las amenazas, el contacto no deseado repetido, la exposición de información personal u otros problemas de seguridad pueden requerir apoyo adicional de la organización o externo.</li></ul><details><summary><strong>¿Por qué es importante?</strong></summary><p>Actuar de forma segura ayuda a conectar la acción individual con el nivel de apoyo adecuado. Reconocer cuándo una situación requiere ayuda adicional permite que otras personas se involucren y ayuda a garantizar que la seguridad siga siendo la prioridad.</p></details>",
+            "text": "<p>When responding to online abuse, consider the situation, personal safety, and whether additional support is needed:</p><ul><li><strong>Assess the situation.</strong> Consider the nature of the behaviour, whether it is escalating, and whether anyone may be at risk.</li><li><strong>Avoid unsafe engagement.</strong> Do not confront or engage directly as it can increase harm or place someone at risk.</li><li><strong>Know when to seek support.</strong> Involve a trusted person or the appropriate organisational contact when the situation requires additional help.</li><li><strong>Escalate safety concerns.</strong> Threats, repeated unwanted contact, exposure of personal information, or other safety concerns may require further organisational or external support.</li></ul><details><summary><strong>Why does this matter?</strong></summary><p>Acting safely helps connect individual action with the right level of support. Recognising when a situation requires additional help allows others to become involved and helps ensure that safety remains the priority.</p></details>",
             "note": "HTML allowed"
           }
         }
@@ -2710,7 +2710,7 @@
             "text": "Juntos somos más fuertes"
           },
           "body": {
-            "text": "<p>Las organizaciones son más fuertes cuando trabajan juntas. Cada una desempeña un papel diferente, y juntas pueden crear una <strong>red coordinada de protección</strong> y respuesta contra el abuso en línea.</p><p><strong>La Plataforma de Preparación Organizacional (ORP) de la UAOA</strong> apoya estos esfuerzos ayudando a las organizaciones deportivas a evaluar su preparación, identificar áreas de mejora y fortalecer sus enfoques para prevenir y responder al abuso en línea.</p>",
+            "text": "<p>Organisations are stronger when they work together. Each one plays a different role, and together they can create a <strong>coordinated network of protection</strong> and response against online abuse.</p><p><strong>UAOA’s Organisational Readiness Platform (ORP)</strong> supports these efforts by helping sporting organisations assess their preparedness, identify areas for improvement, and strengthen their approaches to preventing and responding to online abuse.</p>",
             "note": "HTML allowed"
           }
         }
@@ -3025,12 +3025,12 @@
             "note": "HTML allowed"
           },
           "next": {
-            "text": "Eso parece mucho"
+            "text": "So, where do we begin?"
           }
         },
         "q2": {
           "prompt": {
-            "text": "Según las investigaciones, ¿con qué se ha asociado una mayor exposición al acoso en línea entre los deportistas?"
+            "text": "According to research, which of the following effects has online harassment been linked to among athletes?"
           },
           "choices": {
             "c0": {
@@ -3076,7 +3076,7 @@
         },
         "q4": {
           "prompt": {
-            "text": "<span class=\"scenario\">Un jugador recibe comentarios humillantes después de una derrota. Durante días, mensajes similares inundan su cuenta y también atacan su raza.</span>¿Qué está pasando?",
+            "text": "<span class=\"scenario\">A player receives humiliating comments after a loss. Similar messages continue to flood their account for days, including attacks based on their race.</span><strong>Which types of online abuse are occurring in this situation?</strong>",
             "note": "HTML allowed"
           },
           "choices": {
