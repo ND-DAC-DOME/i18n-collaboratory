@@ -1984,10 +1984,10 @@
     "regions": {
       "ui": {
         "prompt": {
-          "text": "Select a region"
+          "text": "Select a country"
         },
         "placeholder": {
-          "text": "Select a region to see an example of how existing laws can apply to online behaviour."
+          "text": "Select a country to see an example of how existing laws can apply to online behaviour."
         },
         "countriesAria": {
           "text": "Regions"
@@ -1999,7 +1999,7 @@
             "text": "United Kingdom"
           },
           "html": {
-            "text": "<p>In the UK, several laws address harmful online conduct. The <strong>Online Safety Act 2023</strong> introduces offences relating to threatening communications, cyberflashing, and sharing or threatening to share intimate images without consent. The <strong>Protection from Harassment Act 1997</strong> also covers harassment and stalking, including conduct involving digital communications. The Online Safety Act additionally places duties on regulated platforms to address illegal content and protect children from harmful material. The applicable protections depend on the conduct and jurisdiction.</p><p><em>Source: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
+            "text": "<p>In the UK, several laws address harmful online conduct. The <strong>Online Safety Act 2023</strong> establishes duties for regulated platforms to address illegal content and protect children from harmful material. It also introduces offences relating to threatening communications, cyberflashing, and sharing or threatening to share intimate images without consent.</p><p>The <strong>Protection from Harassment Act 1997</strong> addresses harassment and stalking, including behaviour involving digital communications.</p><p>The applicable legal protections depend on the nature of the conduct and the relevant jurisdiction.</p><p><em>Source: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -2200,7 +2200,7 @@
       },
       "howCanLegalResponsesDifferBy": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">The legal response to online abuse depends on where an incident occurs and which laws apply. Select a region to see an example of how existing laws can apply to online behaviour.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Legal protections against online abuse vary across locations and may influence how harmful behaviour is addressed, what legal options are available, and which responsibilities apply.</span></p><p></p><p><span style=\"color: #091324\">Exploring these differences can help you understand how existing laws may apply to online abuse in different countries.</span></p><p></p><p><span style=\"color: #091324\">(The countries listed below are only for reference. More countries shall be added in the future.)</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
@@ -2267,15 +2267,119 @@
       "whoCanDoWhat": {
         "col1": {
           "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Sporting organisations should:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Define online abuse and expected online conduct codes in organisational policies</span></p></li><li><p><span style=\"color: #091324\">Establish clear and accessible reporting procedures</span></p></li><li><p><span style=\"color: #091324\">Apply organisational consequences when codes of conduct are breached</span></p></li><li><p><span style=\"color: #091324\">Provide education on recognising, preventing, and responding to online abuse</span></p></li><li><p><span style=\"color: #091324\">Provide access to welfare and safeguarding support</span></p></li><li><p><span style=\"color: #091324\">Cooperate with platforms, regulators, or relevant authorities where appropriate</span></p></li></ul>",
-          "note": "Native text body on Knowing Your Rights and Responsibilities"
+          "note": "Superseded in the course by m4.duties (scripts/widget-m4-duties.html). Kept so existing translations remain; not shown."
         },
         "col2": {
           "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Everyone in sport should:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Follow the codes of conduct and policies associated with their role</span></p></li><li><p><span style=\"color: #091324\">Use appropriate channels to report harmful behaviour</span></p></li><li><p><span style=\"color: #091324\">Avoid sharing or amplifying abusive content</span></p></li><li><p><span style=\"color: #091324\">Support people who are targeted</span></p></li><li><p><span style=\"color: #091324\">Recognise that standards of respect, fair play, and sportsmanship also apply in digital spaces</span></p></li></ul>",
-          "note": "Native text body on Knowing Your Rights and Responsibilities"
+          "note": "Superseded in the course by m4.duties (scripts/widget-m4-duties.html). Kept so existing translations remain; not shown."
         },
         "heading": {
           "text": "Who can do what",
-          "note": "Native heading on Knowing Your Rights and Responsibilities"
+          "note": "Superseded in the course by m4.duties (scripts/widget-m4-duties.html). Kept so existing translations remain; not shown."
+        }
+      }
+    },
+    "duties": {
+      "orgs": {
+        "label": {
+          "text": "Sporting organisations should:",
+          "note": "Left rail on the responsibilities columns (widget-m4-duties.html). Accent bar and verbs are purple."
+        },
+        "i1": {
+          "verb": {
+            "text": "Define"
+          },
+          "rest": {
+            "text": "online abuse and expected online conduct codes in organisational policies"
+          }
+        },
+        "i2": {
+          "verb": {
+            "text": "Establish"
+          },
+          "rest": {
+            "text": "clear and accessible reporting procedures"
+          }
+        },
+        "i3": {
+          "verb": {
+            "text": "Apply"
+          },
+          "rest": {
+            "text": "organisational consequences when codes of conduct are breached"
+          }
+        },
+        "i4": {
+          "verb": {
+            "text": "Provide",
+            "note": "Education item (right column, second row)."
+          },
+          "rest": {
+            "text": "education on recognising, preventing, and responding to online abuse"
+          }
+        },
+        "i5": {
+          "verb": {
+            "text": "Provide",
+            "note": "Welfare item (left column, third row)."
+          },
+          "rest": {
+            "text": "access to welfare and safeguarding support"
+          }
+        },
+        "i6": {
+          "verb": {
+            "text": "Cooperate"
+          },
+          "rest": {
+            "text": "with platforms, regulators, or relevant authorities where appropriate"
+          }
+        }
+      },
+      "everyone": {
+        "label": {
+          "text": "Everyone in sport should:",
+          "note": "Left rail on the responsibilities columns (widget-m4-duties.html). Accent bar and verbs are turquoise."
+        },
+        "i1": {
+          "verb": {
+            "text": "Follow"
+          },
+          "rest": {
+            "text": "the codes of conduct and policies associated with their role"
+          }
+        },
+        "i2": {
+          "verb": {
+            "text": "Use"
+          },
+          "rest": {
+            "text": "appropriate channels to report harmful behaviour"
+          }
+        },
+        "i3": {
+          "verb": {
+            "text": "Avoid"
+          },
+          "rest": {
+            "text": "sharing or amplifying abusive content"
+          }
+        },
+        "i4": {
+          "verb": {
+            "text": "Support"
+          },
+          "rest": {
+            "text": "people who are targeted"
+          }
+        },
+        "i5": {
+          "verb": {
+            "text": "Recognise"
+          },
+          "rest": {
+            "text": "that standards of respect, fair play, and sportsmanship also apply in digital spaces"
+          }
         }
       }
     }
@@ -3563,8 +3667,8 @@
   },
   "_inventory": {
     "summary": {
-      "learner_facing_keys": 1092,
-      "widgets_and_embeds_wired": 30,
+      "learner_facing_keys": 1116,
+      "widgets_and_embeds_wired": 40,
       "native_slide_keys": "welcome.about.* / welcome.slide.* / survey.* / m1–m5.slide.* / summary.slide.* (from live ScormStack; deploy: scripts/deploy_native_slide_text.py + deploy_nav_labels.py)"
     },
     "wired_widgets": [
@@ -3597,6 +3701,7 @@
       "widget-m4-knowledge-check.html",
       "widget-m4-law-tabs.html",
       "widget-m4-limits-list.html",
+      "widget-m4-duties.html",
       "widget-m4-regions-accordion.html",
       "widget-m5-key-takeaways.html",
       "widget-m5-layers.html",
@@ -3634,6 +3739,7 @@
       "m3.trueFalse → widget-m3-true-false.html",
       "m4.lawTabs → widget-m4-law-tabs.html",
       "m4.limits → widget-m4-limits-list.html",
+      "m4.duties → widget-m4-duties.html",
       "m4.regions → widget-m4-regions-accordion.html",
       "m4.check → widget-m4-knowledge-check.html",
       "m5.layers (+ flow1/flow2/flow3 step bodies) → widget-m5-layers.html",

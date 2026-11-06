@@ -1972,10 +1972,10 @@
     "regions": {
       "ui": {
         "prompt": {
-          "text": "Välj en region"
+          "text": "Select a country"
         },
         "placeholder": {
-          "text": "Välj en region för att se ett exempel på hur befintliga lagar kan tillämpas på beteende online."
+          "text": "Select a country to see an example of how existing laws can apply to online behaviour."
         },
         "countriesAria": {
           "text": "Regioner"
@@ -1987,7 +1987,7 @@
             "text": "Storbritannien"
           },
           "html": {
-            "text": "<p>I Storbritannien finns flera lagar som gäller skadligt beteende online. <strong>Online Safety Act 2023</strong> inför brott som rör hotfulla meddelanden, cyberflashing och att dela eller hota att dela intima bilder utan samtycke. <strong>Protection from Harassment Act 1997</strong> omfattar också trakasserier och stalkning, inklusive beteenden via digital kommunikation. Online Safety Act ålägger dessutom reglerade plattformar att hantera olagligt innehåll och skydda barn mot skadligt material. Vilket skydd som gäller beror på beteendet och jurisdiktionen.</p><p><em>Källa: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
+            "text": "<p>In the UK, several laws address harmful online conduct. The <strong>Online Safety Act 2023</strong> establishes duties for regulated platforms to address illegal content and protect children from harmful material. It also introduces offences relating to threatening communications, cyberflashing, and sharing or threatening to share intimate images without consent.</p><p>The <strong>Protection from Harassment Act 1997</strong> addresses harassment and stalking, including behaviour involving digital communications.</p><p>The applicable legal protections depend on the nature of the conduct and the relevant jurisdiction.</p><p><em>Source: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
             "note": "HTML allowed"
           }
         },
@@ -2188,7 +2188,7 @@
       },
       "howCanLegalResponsesDifferBy": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Det rättsliga svaret på onlineövergrepp beror på var en incident inträffar och vilka lagar som gäller. Välj en region för att se ett exempel på hur befintliga lagar kan tillämpas på onlinebeteende.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Legal protections against online abuse vary across locations and may influence how harmful behaviour is addressed, what legal options are available, and which responsibilities apply.</span></p><p></p><p><span style=\"color: #091324\">Exploring these differences can help you understand how existing laws may apply to online abuse in different countries.</span></p><p></p><p><span style=\"color: #091324\">(The countries listed below are only for reference. More countries shall be added in the future.)</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
@@ -2255,15 +2255,119 @@
       "whoCanDoWhat": {
         "col1": {
           "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Idrottsorganisationer bör:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Definiera onlineövergrepp och förväntat uppträdande online i organisationens policyer</span></p></li><li><p><span style=\"color: #091324\">Inrätta tydliga och lättillgängliga rapporteringsrutiner</span></p></li><li><p><span style=\"color: #091324\">Tillämpa organisatoriska konsekvenser när uppförandekoder bryts</span></p></li><li><p><span style=\"color: #091324\">Erbjuda utbildning i att känna igen, förebygga och hantera onlineövergrepp</span></p></li><li><p><span style=\"color: #091324\">Ge tillgång till stöd för välmående, skydd och trygghet</span></p></li><li><p><span style=\"color: #091324\">Samarbeta med plattformar, tillsynsmyndigheter eller andra berörda myndigheter när det är lämpligt</span></p></li></ul>",
-          "note": "Native text body on Knowing Your Rights and Responsibilities"
+          "note": "Superseded in the course by m4.duties (scripts/widget-m4-duties.html). Kept so existing translations remain; not shown."
         },
         "col2": {
           "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Alla inom idrotten bör:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Följa de uppförandekoder och policyer som gäller för deras roll</span></p></li><li><p><span style=\"color: #091324\">Använda lämpliga kanaler för att rapportera skadligt beteende</span></p></li><li><p><span style=\"color: #091324\">Undvika att dela eller sprida kränkande innehåll</span></p></li><li><p><span style=\"color: #091324\">Stötta personer som utsätts</span></p></li><li><p><span style=\"color: #091324\">Komma ihåg att normer för respekt, fair play och gott idrottsmannaskap även gäller i digitala miljöer</span></p></li></ul>",
-          "note": "Native text body on Knowing Your Rights and Responsibilities"
+          "note": "Superseded in the course by m4.duties (scripts/widget-m4-duties.html). Kept so existing translations remain; not shown."
         },
         "heading": {
           "text": "Vem kan göra vad",
-          "note": "Native heading on Knowing Your Rights and Responsibilities"
+          "note": "Superseded in the course by m4.duties (scripts/widget-m4-duties.html). Kept so existing translations remain; not shown."
+        }
+      }
+    },
+    "duties": {
+      "orgs": {
+        "label": {
+          "text": "Sporting organisations should:",
+          "note": "Left rail on the responsibilities columns (widget-m4-duties.html). Accent bar and verbs are purple."
+        },
+        "i1": {
+          "verb": {
+            "text": "Define"
+          },
+          "rest": {
+            "text": "online abuse and expected online conduct codes in organisational policies"
+          }
+        },
+        "i2": {
+          "verb": {
+            "text": "Establish"
+          },
+          "rest": {
+            "text": "clear and accessible reporting procedures"
+          }
+        },
+        "i3": {
+          "verb": {
+            "text": "Apply"
+          },
+          "rest": {
+            "text": "organisational consequences when codes of conduct are breached"
+          }
+        },
+        "i4": {
+          "verb": {
+            "text": "Provide",
+            "note": "Education item (right column, second row)."
+          },
+          "rest": {
+            "text": "education on recognising, preventing, and responding to online abuse"
+          }
+        },
+        "i5": {
+          "verb": {
+            "text": "Provide",
+            "note": "Welfare item (left column, third row)."
+          },
+          "rest": {
+            "text": "access to welfare and safeguarding support"
+          }
+        },
+        "i6": {
+          "verb": {
+            "text": "Cooperate"
+          },
+          "rest": {
+            "text": "with platforms, regulators, or relevant authorities where appropriate"
+          }
+        }
+      },
+      "everyone": {
+        "label": {
+          "text": "Everyone in sport should:",
+          "note": "Left rail on the responsibilities columns (widget-m4-duties.html). Accent bar and verbs are turquoise."
+        },
+        "i1": {
+          "verb": {
+            "text": "Follow"
+          },
+          "rest": {
+            "text": "the codes of conduct and policies associated with their role"
+          }
+        },
+        "i2": {
+          "verb": {
+            "text": "Use"
+          },
+          "rest": {
+            "text": "appropriate channels to report harmful behaviour"
+          }
+        },
+        "i3": {
+          "verb": {
+            "text": "Avoid"
+          },
+          "rest": {
+            "text": "sharing or amplifying abusive content"
+          }
+        },
+        "i4": {
+          "verb": {
+            "text": "Support"
+          },
+          "rest": {
+            "text": "people who are targeted"
+          }
+        },
+        "i5": {
+          "verb": {
+            "text": "Recognise"
+          },
+          "rest": {
+            "text": "that standards of respect, fair play, and sportsmanship also apply in digital spaces"
+          }
         }
       }
     }
