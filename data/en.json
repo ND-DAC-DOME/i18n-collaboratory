@@ -1470,11 +1470,11 @@
           "note": "HTML allowed — first sentence in <strong> only"
         },
         "i5": {
-          "text": "5. <strong>Report through the platform.</strong> Review the platform\u2019s policies and use its reporting tools to flag abusive content or accounts. Provide relevant details and supporting evidence where requested to help the platform assess the report.",
+          "text": "5. <strong>Report through the platform.</strong> Review the platform’s policies and use its reporting tools to flag abusive content or accounts. Provide relevant details and supporting evidence where requested to help the platform assess the report.",
           "note": "HTML allowed — first sentence in <strong> only"
         },
         "i6": {
-          "text": "6. <strong>Seek additional support or escalate when needed.</strong> Contact your organisation\u2019s welfare or safeguarding lead or other appropriate support services. If your safety is threatened, contact local authorities or emergency services as appropriate, regardless of whether you have completed the other steps.",
+          "text": "6. <strong>Seek additional support or escalate when needed.</strong> Contact your organisation’s welfare or safeguarding lead or other appropriate support services. If your safety is threatened, contact local authorities or emergency services as appropriate, regardless of whether you have completed the other steps.",
           "note": "HTML allowed — first sentence in <strong> only"
         }
       }
@@ -2241,11 +2241,11 @@
       },
       "whenOnlineAbuseOccursImportantQuestions": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">When online abuse occurs, important questions can arise: <strong>Is there a law which can help? Who can take action? What other protections are available?</strong></span></p><p></p><p><span style=\"color: #091324\">The answers depend on the behaviour, where it occurs, and the laws that can help. Understanding the main legal pathways can help you recognise <strong>where legal accountability may be possible and when other forms of action are important</strong>.</span></p><p></p><p><span style=\"color: #091324\">In sport, legal protections work alongside<strong> organisational policies, codes of conduct, safeguarding procedures, and standards of sportsmanship</strong>. Together, these mechanisms help establish expectations for safer participation online.</span></p>",
+          "text": "<p><span style=\"color: #091324\">When online abuse occurs, important questions can arise: <strong>What legal protections are available? Who can take action? What responsibilities do individuals and organisations have?</strong></span></p><p></p><p><span style=\"color: #091324\">The answers depend on the behaviour, where it occurs, and the applicable laws. Understanding the main legal pathways can help you recognise <strong>your rights and responsibilities, where legal accountability may be possible, and when other forms of action are important.</strong></span></p><p></p><p><span style=\"color: #091324\">In sport, legal protections work alongside <strong>organisational policies, codes of conduct, safeguarding procedures, and standards of sportsmanship.</strong> Together, these mechanisms help establish expectations for safer participation online.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">When online abuse occurs, important questions can arise: <strong>Is there a law which can help?  Who can take action?  What other protections are available?</strong></span><br><span style=\"color: #1c3564; font-size: 14px\">The answers depend on the behaviour, where it occurs, and the laws that can help. Understanding the main legal pathways can help you recognise <strong>where legal accountability may be possible and when other forms of action are important</strong>.</span><br><span style=\"color: #1c3564; font-size: 14px\">In sport, legal protections work alongside <strong>organisational policies, codes of conduct, safeguarding procedures, and standards of sportsmanship</strong>. Together, these mechanisms help establish expectations for safer participation online.</span>",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">When online abuse occurs, important questions can arise: <strong>What legal protections are available? Who can take action? What responsibilities do individuals and organisations have?</strong></span><br><span style=\"color: #1c3564; font-size: 14px\">The answers depend on the behaviour, where it occurs, and the applicable laws. Understanding the main legal pathways can help you recognise <strong>your rights and responsibilities, where legal accountability may be possible, and when other forms of action are important.</strong></span><br><span style=\"color: #1c3564; font-size: 14px\">In sport, legal protections work alongside <strong>organisational policies, codes of conduct, safeguarding procedures, and standards of sportsmanship.</strong> Together, these mechanisms help establish expectations for safer participation online.</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
