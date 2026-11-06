@@ -2092,7 +2092,7 @@
           },
           "choices": {
             "c0": {
-              "text": "Chování online nespadá pod národní zákony."
+              "text": "Online chování nikdy nemůže být posuzováno jako právní záležitost."
             },
             "c1": {
               "text": "Lidé, platformy a škodlivé aktivity mohou překračovat jurisdikce a identifikace odpovědných osob nebo shromažďování důkazů může být obtížné."
@@ -2101,7 +2101,7 @@
               "text": "Online zneužívání lze vyšetřit pouze tehdy, když odpovědný účet používá skutečné jméno."
             },
             "c3": {
-              "text": "Sportovní organizace musí provést vlastní vyšetřování, než se do věci mohou zapojit úřady."
+              "text": "Sportovní organizace nemají právo zapojit úřady."
             }
           },
           "ok": {
@@ -2218,7 +2218,7 @@
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Vyberte pro každou otázku nejlepší možnost. Než budete moci pokračovat, musíte na každou otázku správně odpovědět. Můžete to zkusit tolikrát, kolikrát chcete.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Vyberte pro každou otázku nejlepší možnost. Musíte na každou otázku správně odpovědět, než budete moci pokračovat do další části kurzu. Můžete to zkusit tolikrát, kolikrát chcete.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },

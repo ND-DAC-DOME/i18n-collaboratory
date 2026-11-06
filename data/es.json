@@ -2092,7 +2092,7 @@
           },
           "choices": {
             "c0": {
-              "text": "El comportamiento en línea queda fuera del alcance de las leyes nacionales."
+              "text": "El comportamiento en línea nunca puede tratarse como un asunto legal."
             },
             "c1": {
               "text": "Las personas, las plataformas y las actividades perjudiciales pueden traspasar las jurisdicciones, y puede resultar difícil identificar a los responsables o recopilar pruebas."
@@ -2101,7 +2101,7 @@
               "text": "El abuso en línea solo puede investigarse cuando la cuenta responsable utiliza un nombre real."
             },
             "c3": {
-              "text": "Las organizaciones deportivas deben completar su propia investigación antes de que las autoridades puedan intervenir."
+              "text": "Las organizaciones deportivas no tienen derecho a involucrar a las autoridades."
             }
           },
           "ok": {
@@ -2218,7 +2218,7 @@
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Selecciona la mejor opción para cada pregunta. Debes responder correctamente a todas las preguntas antes de continuar. Puedes intentarlo tantas veces como quieras.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Selecciona la mejor opción para cada pregunta. Debes responder correctamente a cada pregunta antes de continuar con la siguiente sección. Puedes intentarlo tantas veces como quieras.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },

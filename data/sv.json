@@ -2092,7 +2092,7 @@
           },
           "choices": {
             "c0": {
-              "text": "Onlinebeteende faller utanför nationella lagar."
+              "text": "Onlinebeteende kan aldrig behandlas som en juridisk fråga."
             },
             "c1": {
               "text": "Människor, plattformar och skadlig aktivitet kan korsa jurisdiktioner, och det kan vara svårt att identifiera de ansvariga eller samla in bevis."
@@ -2101,7 +2101,7 @@
               "text": "Onlineövergrepp kan bara utredas när det ansvariga kontot använder ett riktigt namn."
             },
             "c3": {
-              "text": "Idrottsorganisationerna måste slutföra sin egen utredning innan myndigheterna kan ingripa."
+              "text": "Idrottsorganisationerna har inte rätt att involvera myndigheterna."
             }
           },
           "ok": {
@@ -2218,7 +2218,7 @@
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Välj det bästa alternativet för varje fråga. Du måste svara korrekt på varje fråga innan du fortsätter. Du kan försöka igen så många gånger du vill.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Välj det bästa alternativet för varje fråga. Du måste svara korrekt på varje fråga innan du fortsätter till nästa avsnitt. Du kan försöka igen så många gånger du vill.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },

@@ -2104,7 +2104,7 @@
           },
           "choices": {
             "c0": {
-              "text": "Online behaviour falls outside national laws."
+              "text": "Online behaviour can never be treated as a legal issue."
             },
             "c1": {
               "text": "People, platforms, and harmful activity may cross jurisdictions, and identifying those responsible or gathering evidence can be difficult."
@@ -2113,7 +2113,7 @@
               "text": "Online abuse can only be investigated when the responsible account uses a real name."
             },
             "c3": {
-              "text": "Sporting organisations must complete their own investigation before authorities can become involved."
+              "text": "Sporting organisations don't have the right to involve the authorities."
             }
           },
           "ok": {
@@ -2230,7 +2230,7 @@
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Select the best option for each question. You must answer each question correctly before continuing. You can retry as many times as you like.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Select the best option for each question. You must answer each question correctly before continuing to the next section. You can retry as many times as you like.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },

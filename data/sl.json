@@ -2092,7 +2092,7 @@
           },
           "choices": {
             "c0": {
-              "text": "Spletno vedenje ne spada pod nacionalno zakonodajo."
+              "text": "Spletno vedenje nikoli ne more biti obravnavano kot pravno vprašanje."
             },
             "c1": {
               "text": "Ljudje, platforme in škodljive dejavnosti lahko prečkajo jurisdikcije, zato je lahko identifikacija odgovornih ali zbiranje dokazov težavno."
@@ -2101,7 +2101,7 @@
               "text": "Spletno zlorabo je mogoče preiskati le, če odgovorni račun uporablja pravo ime."
             },
             "c3": {
-              "text": "Športne organizacije morajo opraviti lastno preiskavo, preden se lahko vmešajo oblasti."
+              "text": "Športne organizacije nimajo pravice vključiti pristojnih organov."
             }
           },
           "ok": {
@@ -2218,7 +2218,7 @@
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Za vsako vprašanje izberite najboljšo možnost. Preden nadaljujete, morate pravilno odgovoriti na vsako vprašanje. Poskusite lahko tolikokrat, kot želite.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Za vsako vprašanje izberite najboljšo možnost. Preden nadaljujete z naslednjim razdelkom, morate pravilno odgovoriti na vsako vprašanje. Poskusite lahko tolikokrat, kot želite.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },

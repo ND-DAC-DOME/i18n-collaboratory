@@ -2092,7 +2092,7 @@
           },
           "choices": {
             "c0": {
-              "text": "Les comportements en ligne échappent aux lois nationales."
+              "text": "Le comportement en ligne ne peut jamais être traité comme une question juridique."
             },
             "c1": {
               "text": "Les personnes, les plateformes et les activités nuisibles peuvent franchir plusieurs juridictions, et identifier les responsables ou rassembler des preuves peut s'avérer difficile."
@@ -2101,7 +2101,7 @@
               "text": "Les abus en ligne ne peuvent faire l'objet d'une enquête que si le compte responsable utilise un vrai nom."
             },
             "c3": {
-              "text": "Les organisations sportives doivent mener leur propre enquête avant que les autorités puissent intervenir."
+              "text": "Les organisations sportives n'ont pas le droit d'impliquer les autorités."
             }
           },
           "ok": {
@@ -2218,7 +2218,7 @@
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Choisissez la meilleure option pour chaque question. Vous devez répondre correctement à chaque question avant de continuer. Vous pouvez réessayer autant de fois que vous le souhaitez.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Choisissez la meilleure option pour chaque question. Vous devez répondre correctement à chaque question avant de passer à la section suivante. Vous pouvez réessayer autant de fois que vous le souhaitez.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },
