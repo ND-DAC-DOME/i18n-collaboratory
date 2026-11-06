@@ -4522,8 +4522,8 @@
       },
       "fiaDisclaimer": {
         "body": {
-          "text": "<p><span style=\"font-size: 12px\"><em>This course contains educational materials, including third-party research, data, and citations, provided for informational and educational purposes only. While we select reputable sources, we do not independently verify or guarantee the absolute accuracy, completeness, or current validity of this external information, as research and industry standards continuously evolve. Any reliance on or application of these materials or guidelines is strictly at the learner's own risk; for learners who are minors, parents or legal guardians are entirely responsible for reviewing the course content and supervising its use. The inclusion of third-party citations does not imply any endorsement, sponsorship, or formal partnership between UAOA and the referenced institutions or authors.</em></span></p>",
-          "note": "Still English. This footer paragraph is on the EN Welcome slide only (block c5616a89); es/fr/cs/sl/sv courses do not have it yet. Left as the English source."
+          "text": "<p><span style=\"font-size: 12px\"><em>Tento kurz obsahuje vzdělávací materiály, včetně výzkumu, údajů a citací od třetích stran, poskytované výhradně pro informační a vzdělávací účely. Přestože vybíráme renomované zdroje, nezávisle neověřujeme ani nezaručujeme absolutní přesnost, úplnost ani aktuální platnost těchto externích informací, protože výzkum a standardy odvětví se neustále vyvíjejí. Jakékoli spoléhání na tyto materiály nebo pokyny či jejich uplatnění je výhradně na vlastní riziko studenta; v případě studentů, kteří jsou nezletilí, nesou rodiče nebo zákonní zástupci plnou odpovědnost za přezkoumání obsahu kurzu a za dohled nad jeho používáním. Zahrnutí citací třetích stran neznamená žádné schválení, sponzorství ani formální partnerství mezi UAOA a citovanými institucemi nebo autory.</em></span></p>",
+          "note": "Best-effort legal translation pending review. Disclaimer modal bakes this key as plain text. Not in native_slide_map, so deploy_native_slide_text does not push it."
         }
       }
     },

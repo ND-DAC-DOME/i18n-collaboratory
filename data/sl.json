@@ -4522,8 +4522,8 @@
       },
       "fiaDisclaimer": {
         "body": {
-          "text": "<p><span style=\"font-size: 12px\"><em>This course contains educational materials, including third-party research, data, and citations, provided for informational and educational purposes only. While we select reputable sources, we do not independently verify or guarantee the absolute accuracy, completeness, or current validity of this external information, as research and industry standards continuously evolve. Any reliance on or application of these materials or guidelines is strictly at the learner's own risk; for learners who are minors, parents or legal guardians are entirely responsible for reviewing the course content and supervising its use. The inclusion of third-party citations does not imply any endorsement, sponsorship, or formal partnership between UAOA and the referenced institutions or authors.</em></span></p>",
-          "note": "Still English. This footer paragraph is on the EN Welcome slide only (block c5616a89); es/fr/cs/sl/sv courses do not have it yet. Left as the English source."
+          "text": "<p><span style=\"font-size: 12px\"><em>Ta tečaj vsebuje izobraževalna gradiva, vključno z raziskavami, podatki in citati tretjih oseb, ki so na voljo izključno v informativne in izobraževalne namene. Čeprav izbiramo ugledne vire, neodvisno ne preverjamo in ne jamčimo za absolutno točnost, popolnost ali trenutno veljavnost teh zunanjih informacij, saj se raziskave in standardi panoge nenehno razvijajo. Vsako zanašanje na ta gradiva ali smernice oziroma njihova uporaba je izključno na lastno tveganje udeleženca; pri udeležencih, ki so mladoletni, so starši ali zakoniti skrbniki v celoti odgovorni za pregled vsebine tečaja in za nadzor nad njegovo uporabo. Vključitev citatov tretjih oseb ne pomeni nobene odobritve, nobenega sponzorstva in nobenega formalnega partnerstva med UAOA in navedenimi institucijami ali avtorji.</em></span></p>",
+          "note": "Best-effort legal translation pending review. Disclaimer modal bakes this key as plain text. Not in native_slide_map, so deploy_native_slide_text does not push it."
         }
       }
     },
