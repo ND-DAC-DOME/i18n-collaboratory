@@ -3523,7 +3523,11 @@
       },
       "confirm": {
         "text": "I confirm that I have read and understood the disclaimer.",
-        "note": "Checkbox label. Checking it acknowledges and dismisses the Welcome disclaimer modal. No separate button."
+        "note": "Kept in the catalog. The Welcome disclaimer modal no longer shows this sentence; the short button is embeds.disclaimerModal.understand."
+      },
+      "understand": {
+        "text": "I understand",
+        "note": "Short pill button on the Welcome disclaimer modal. Clicking it acknowledges and dismisses. Same persistence as the former checkbox."
       },
       "coFunded": {
         "text": "Co-funded by the European Union",
@@ -3537,7 +3541,7 @@
   },
   "_inventory": {
     "summary": {
-      "learner_facing_keys": 1091,
+      "learner_facing_keys": 1092,
       "widgets_and_embeds_wired": 30,
       "native_slide_keys": "welcome.about.* / welcome.slide.* / survey.* / m1–m5.slide.* / summary.slide.* (from live ScormStack; deploy: scripts/deploy_native_slide_text.py + deploy_nav_labels.py)"
     },
@@ -4621,7 +4625,7 @@
       "euDisclaimer": {
         "body": {
           "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</em></span></p>",
-          "note": "Native text body on Welcome"
+          "note": "EU disclaimer body for the Welcome modal only. The Welcome-page footer block was removed."
         }
       },
       "sportConnectsMillionsOfPeopleAcross": {
@@ -4653,7 +4657,7 @@
       "fiaDisclaimer": {
         "body": {
           "text": "<p><span style=\"font-size: 12px\"><em>This course contains educational materials, including third-party research, data, and citations, provided for informational and educational purposes only. While we select reputable sources, we do not independently verify or guarantee the absolute accuracy, completeness, or current validity of this external information, as research and industry standards continuously evolve. Any reliance on or application of these materials or guidelines is strictly at the learner's own risk; for learners who are minors, parents or legal guardians are entirely responsible for reviewing the course content and supervising its use. The inclusion of third-party citations does not imply any endorsement, sponsorship, or formal partnership between UAOA and the referenced institutions or authors.</em></span></p>",
-          "note": "Exact live Welcome footer paragraph under the EU co-funded block (block c5616a89-8c7d-4dcb-9f01-029bb124123c). Disclaimer modal reads this key. Not in native_slide_map, so deploy_native_slide_text does not push it."
+          "note": "FIA disclaimer body for the Welcome modal only. The Welcome-page footer block was removed."
         }
       }
     },

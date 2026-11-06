@@ -3501,7 +3501,11 @@
       },
       "confirm": {
         "text": "Potvrzuji, že jsem si prohlášení přečetl(a) a porozuměl(a) mu.",
-        "note": "Checkbox label. Checking it acknowledges and dismisses the Welcome disclaimer modal. No separate button."
+        "note": "Kept in the catalog. The Welcome disclaimer modal no longer shows this sentence; the short button is embeds.disclaimerModal.understand."
+      },
+      "understand": {
+        "text": "Rozumím",
+        "note": "Short pill button on the Welcome disclaimer modal. Clicking it acknowledges and dismisses. Same persistence as the former checkbox."
       },
       "coFunded": {
         "text": "Spolufinancováno Evropskou unií",

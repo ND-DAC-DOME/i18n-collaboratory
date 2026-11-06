@@ -3502,7 +3502,11 @@
       },
       "confirm": {
         "text": "Confirmo que he leído y comprendido el descargo de responsabilidad.",
-        "note": "Checkbox label. Checking it acknowledges and dismisses the Welcome disclaimer modal. No separate button."
+        "note": "Kept in the catalog. The Welcome disclaimer modal no longer shows this sentence; the short button is embeds.disclaimerModal.understand."
+      },
+      "understand": {
+        "text": "Entiendo",
+        "note": "Short pill button on the Welcome disclaimer modal. Clicking it acknowledges and dismisses. Same persistence as the former checkbox."
       },
       "coFunded": {
         "text": "Cofinanciado por la Unión Europea",
