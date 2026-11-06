@@ -1740,7 +1740,7 @@
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Lidský úsudek zůstává zásadní</strong>. Jazyk, kontext, kulturní rozdíly a vyvíjející se taktiky zneužívání mohou ztěžovat přesnou interpretaci škodlivého obsahu. S tím, jak se umělá inteligence používá stále šířeji, se vyvíjí i regulace, která tato rizika řeší a zavádí ochranná opatření pro její používání v různých jurisdikcích.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Lidský úsudek zůstává zásadní.</strong> Systémy umělé inteligence mohou mít potíže přesně interpretovat jazyk, kontext, kulturní rozdíly a vyvíjející se taktiky zneužívání. Lidský dohled je proto důležitý při posuzování škodlivého obsahu a rozhodování o tom, jak reagovat. S tím, jak se umělá inteligence stále více používá, se také vyvíjí regulace, která má řešit vznikající rizika a zavádět ochranná opatření v různých jurisdikcích.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
@@ -1832,10 +1832,6 @@
         "b3": {
           "text": "<strong>Podpora uživatelů:</strong> Nástroje s umělou inteligencí mohou jednotlivcům pomoci filtrovat nežádoucí obsah, spravovat jejich online zkušenost a využívat funkce pro hlášení a zabezpečení.",
           "note": "HTML allowed"
-        },
-        "b4": {
-          "text": "<strong>Lidský úsudek zůstává zásadní.</strong> Systémy umělé inteligence mohou mít potíže přesně interpretovat jazyk, kontext, kulturní rozdíly a vyvíjející se taktiky zneužívání. Lidský dohled je proto důležitý při posuzování škodlivého obsahu a rozhodování o tom, jak reagovat. S tím, jak se umělá inteligence stále více používá, se také vyvíjí regulace, která má řešit vznikající rizika a zavádět ochranná opatření v různých jurisdikcích.",
-          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }

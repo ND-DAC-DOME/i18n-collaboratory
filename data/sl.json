@@ -1740,7 +1740,7 @@
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Človeška presoja ostaja bistvena</strong>.  Jezik, kontekst, kulturne razlike in razvijajoče se taktike zlorabe lahko otežijo natančno razlago škodljivih vsebin. Z vse širšo uporabo umetne inteligence se razvijajo tudi predpisi, ki obravnavajo ta tveganja in vzpostavljajo zaščitne ukrepe za njeno uporabo v različnih jurisdikcijah.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Človeška presoja ostaja bistvena.</strong> Sistemi umetne inteligence lahko težko natančno razlagajo jezik, kontekst, kulturne razlike in spreminjajoče se taktike zlorabe. Zato je človeški nadzor pomemben pri ocenjevanju škodljive vsebine in odločanju o odzivu. Ker se umetna inteligenca vse bolj uporablja, se razvija tudi regulacija, da bi obravnavala nastajajoča tveganja in vzpostavila zaščitne ukrepe v različnih jurisdikcijah.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
@@ -1832,10 +1832,6 @@
         "b3": {
           "text": "<strong>Podpora uporabnikom:</strong> Orodja, ki jih podpira umetna inteligenca, lahko posameznikom pomagajo filtrirati neželeno vsebino, upravljati njihovo spletno izkušnjo in dostopati do funkcij za prijavo in varnost.",
           "note": "HTML allowed"
-        },
-        "b4": {
-          "text": "<strong>Človeška presoja ostaja bistvena.</strong> Sistemi umetne inteligence lahko težko natančno razlagajo jezik, kontekst, kulturne razlike in spreminjajoče se taktike zlorabe. Zato je človeški nadzor pomemben pri ocenjevanju škodljive vsebine in odločanju o odzivu. Ker se umetna inteligenca vse bolj uporablja, se razvija tudi regulacija, da bi obravnavala nastajajoča tveganja in vzpostavila zaščitne ukrepe v različnih jurisdikcijah.",
-          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }

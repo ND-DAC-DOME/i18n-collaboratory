@@ -1752,7 +1752,7 @@
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Human judgement remains essential</strong>.  Language, context, cultural differences, and evolving abuse tactics can make harmful content difficult to interpret accurately. As AI becomes more widely used, regulation is also evolving to address these risks and establish safeguards for its use across different jurisdictions.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Human judgement remains essential.</strong> AI systems may struggle to interpret language, context, cultural differences, and evolving abuse tactics accurately. Human oversight is therefore important when assessing harmful content and deciding how to respond. As AI becomes more widely used, regulation is also evolving to address emerging risks and establish safeguards across different jurisdictions.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
@@ -1844,10 +1844,6 @@
         "b3": {
           "text": "<strong>Supporting users:</strong> AI-enabled tools can help individuals filter unwanted content, manage their online experience, and access reporting and safety features.",
           "note": "HTML allowed"
-        },
-        "b4": {
-          "text": "<strong>Human judgement remains essential.</strong> AI systems may struggle to interpret language, context, cultural differences, and evolving abuse tactics accurately. Human oversight is therefore important when assessing harmful content and deciding how to respond. As AI becomes more widely used, regulation is also evolving to address emerging risks and establish safeguards across different jurisdictions.",
-          "note": "HTML allowed; bold lead sentence ends with period"
         }
       }
     }
