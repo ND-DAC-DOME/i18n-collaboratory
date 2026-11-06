@@ -418,7 +418,7 @@
             "text": "Compartir vídeos y retransmisiones en directo"
           },
           "platforms": {
-            "text": "YouTube, Twitch, Kick"
+            "text": "YouTube, Twitch"
           },
           "body": {
             "text": "Los comentarios ofensivos en los videos pueden permanecer visibles mucho después de su publicación, lo que permite que el acoso continúe con el tiempo. Durante las transmisiones en vivo, los mensajes abusivos pueden aparecer y multiplicarse rápidamente a medida que los espectadores reaccionan en tiempo real."
@@ -1727,7 +1727,7 @@
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Cada plataforma funciona de manera diferente.</strong> Las características de diseño influyen en cómo se difunde el contenido, quién lo ve y cómo interactúan las personas con él. Selecciona cada tarjeta para obtener más información.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Cada plataforma funciona de manera diferente.</strong> Las características de diseño influyen en cómo se difunde el contenido, quién lo ve y cómo interactúan las personas con él.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {

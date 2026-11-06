@@ -426,7 +426,7 @@
             "text": "Video Sharing & Livestreaming"
           },
           "platforms": {
-            "text": "YouTube, Twitch, Kick"
+            "text": "YouTube, Twitch"
           },
           "body": {
             "text": "Harmful comments on videos can remain visible long after they are posted, allowing abuse to continue over time. During livestreams, abusive messages can appear and multiply rapidly as viewers react in real time."
@@ -1739,7 +1739,7 @@
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Every platform works differently.</strong> Design features influence how content travels, who encounters it, and how people interact with it. Select each card to learn more.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Every platform works differently.</strong> Design features influence how content travels, who encounters it, and how people interact with it.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {

@@ -418,7 +418,7 @@
             "text": "Partage de vidéos et diffusion en direct"
           },
           "platforms": {
-            "text": "YouTube, Twitch, Kick"
+            "text": "YouTube, Twitch"
           },
           "body": {
             "text": "Les commentaires haineux sur les vidéos peuvent rester visibles longtemps après leur publication, permettant ainsi aux abus de se perpétuer. Lors des diffusions en direct, les messages injurieux peuvent apparaître et se multiplier rapidement en fonction des réactions des spectateurs en temps réel."
@@ -1727,7 +1727,7 @@
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Chaque plateforme fonctionne différemment.</strong> Les caractéristiques de conception influencent la façon dont le contenu circule, qui le rencontre et comment les gens interagissent avec lui. Sélectionnez chaque carte pour en savoir plus.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Chaque plateforme fonctionne différemment.</strong> Les caractéristiques de conception influencent la façon dont le contenu circule, qui le rencontre et comment les gens interagissent avec lui.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {

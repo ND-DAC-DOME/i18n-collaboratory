@@ -418,7 +418,7 @@
             "text": "Videodelning och livestreaming"
           },
           "platforms": {
-            "text": "YouTube, Twitch, Kick"
+            "text": "YouTube, Twitch"
           },
           "body": {
             "text": "Skadliga kommentarer på videor kan förbli synliga långt efter att de har publicerats, vilket gör att kränkningar kan fortsätta över tid. Under livesändningar kan kränkande meddelanden dyka upp och mångfaldigas snabbt när tittarna reagerar i realtid."
@@ -1727,7 +1727,7 @@
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Varje plattform fungerar olika.</strong> Designfunktioner påverkar hur innehåll sprids, vem som möter det och hur människor interagerar med det. Välj varje kort för att läsa mer.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Varje plattform fungerar olika.</strong> Designfunktioner påverkar hur innehåll sprids, vem som möter det och hur människor interagerar med det.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {

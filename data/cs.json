@@ -418,7 +418,7 @@
             "text": "Sdílení videa a živé streamování"
           },
           "platforms": {
-            "text": "YouTube, Twitch, Kick"
+            "text": "YouTube, Twitch"
           },
           "body": {
             "text": "Škodlivé komentáře k videím mohou zůstat viditelné dlouho po jejich zveřejnění, což umožňuje pokračování zneužívání. Během živých přenosů se mohou objevovat a rychle se množit urážlivé zprávy, jak diváci reagují v reálném čase."
@@ -1727,7 +1727,7 @@
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Každá platforma funguje jinak.</strong> Designové prvky ovlivňují, jak se obsah šíří, kdo se s ním setká a jak s ním lidé interagují. Vyberte jednotlivé karty a dozvíte se více.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Každá platforma funguje jinak.</strong> Designové prvky ovlivňují, jak se obsah šíří, kdo se s ním setká a jak s ním lidé interagují.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {

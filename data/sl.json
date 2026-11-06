@@ -418,7 +418,7 @@
             "text": "Deljenje videoposnetkov in pretakanje v živo"
           },
           "platforms": {
-            "text": "YouTube, Twitch, Kick"
+            "text": "YouTube, Twitch"
           },
           "body": {
             "text": "Škodljivi komentarji na videoposnetkih lahko ostanejo vidni še dolgo po objavi, kar omogoča nadaljnje zlorabe. Med prenosi v živo se lahko pojavijo in hitro množijo žaljiva sporočila, saj se gledalci odzivajo v realnem času."
@@ -1727,7 +1727,7 @@
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Vsaka platforma deluje drugače.</strong> Oblikovne značilnosti vplivajo na to, kako se vsebina širi, kdo jo sreča in kako ljudje z njo komunicirajo. Za več informacij izberite posamezno kartico.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Vsaka platforma deluje drugače.</strong> Oblikovne značilnosti vplivajo na to, kako se vsebina širi, kdo jo sreča in kako ljudje z njo komunicirajo.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
