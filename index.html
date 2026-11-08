@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UAOA Translation Review</title>
-  <link rel="stylesheet" href="styles.css?v=30">
+  <link rel="stylesheet" href="styles.css?v=31">
 </head>
 <body>
   <header class="app-header">
@@ -52,7 +52,7 @@
     <aside class="sidebar">
       <h2>Modules</h2>
       <div class="mod-list" id="modList"></div>
-      <p class="sidebar-note">Leave markup like <code>&lt;strong&gt;</code> or <code>{n}</code> untouched in translations.</p>
+      <p class="sidebar-note">Styling such as bold, color, and lists is kept for you. Edit the words only. Hyperlink destinations stay English. Leave placeholders like <code>{n}</code> or <code>{{score}}</code> unchanged.</p>
     </aside>
     <main class="main">
       <div id="statusBanner" class="banner" hidden></div>
@@ -76,7 +76,8 @@
   </div>
 
   <div class="toast" id="toast" role="status"></div>
-  <script src="config.js?v=29"></script>
-  <script src="app.js?v=32"></script>
+  <script src="config.js?v=31"></script>
+  <script src="markup.js?v=31"></script>
+  <script src="app.js?v=31"></script>
 </body>
 </html>

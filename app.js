@@ -290,10 +290,20 @@
     return parts.slice(0, 2).join('.');
   }
 
+  function isUrlOnlyString(key, text) {
+    var k = String(key || '');
+    if (/\.(url|href|image)$/i.test(k)) return true;
+    var plain = window.UAOAMarkup
+      ? window.UAOAMarkup.plainText(text || '').trim()
+      : String(text || '').replace(/<[^>]+>/g, '').trim();
+    return /^https?:\/\/\S+$/i.test(plain);
+  }
+
   function flattenEn() {
     var out = [];
     walk(state.en, '', out);
-    return out;
+    // URLs / media paths are not translated — omit from the review list.
+    return out.filter(function (r) { return !isUrlOnlyString(r.key, r.text); });
   }
 
   /** Sticky approval: valid only while EN source fingerprint still matches. */
@@ -529,7 +539,9 @@
       if (moduleOf(r.key) !== state.module) return false;
       if (!q) return true;
       var tr = leafText(getByPath(state.tr, r.key));
-      return (r.key + ' ' + r.text + ' ' + tr + ' ' + r.note).toLowerCase().indexOf(q) !== -1;
+      var enPlain = window.UAOAMarkup ? window.UAOAMarkup.plainText(r.text) : r.text;
+      var trPlain = window.UAOAMarkup ? window.UAOAMarkup.plainText(tr) : tr;
+      return (r.key + ' ' + enPlain + ' ' + trPlain + ' ' + r.note).toLowerCase().indexOf(q) !== -1;
     });
   }
 
@@ -600,7 +612,8 @@
     left.innerHTML = '<div class="panel-label">English</div>';
     var enBox = document.createElement('div');
     enBox.className = 'en-box';
-    enBox.textContent = r.text;
+    if (window.UAOAMarkup) window.UAOAMarkup.mountPreview(enBox, r.text);
+    else enBox.textContent = r.text;
     left.appendChild(enBox);
     row.appendChild(left);
 
@@ -608,15 +621,13 @@
     right.innerHTML = '<div class="panel-label">Translation (' + state.locale + ')</div>';
     var trBox;
     if (editing) {
-      trBox = document.createElement('textarea');
-      trBox.className = 'tr-box editable' + (pendingSave ? ' is-busy' : '');
-      trBox.value = trText;
+      trBox = buildSegmentEditor(r.text, trText, pendingSave);
       trBox.id = 'edit-' + r.key;
-      if (pendingSave) trBox.disabled = true;
     } else {
       trBox = document.createElement('div');
       trBox.className = 'tr-box' + (approved ? ' locked' : '');
-      trBox.textContent = trText || '—';
+      if (window.UAOAMarkup) window.UAOAMarkup.mountPreview(trBox, trText);
+      else trBox.textContent = trText || '—';
     }
     right.appendChild(trBox);
     row.appendChild(right);
@@ -651,7 +662,8 @@
       save.setAttribute('aria-busy', pendingSave ? 'true' : 'false');
       save.addEventListener('click', function () {
         if (state.pendingKey) return;
-        saveEdit(r.key, trBox.value);
+        var next = window.UAOAMarkup ? window.UAOAMarkup.readEditor(trBox) : trBox.value;
+        saveEdit(r.key, next);
       });
       var cancel = document.createElement('button');
       cancel.type = 'button';
@@ -689,6 +701,43 @@
 
     row.appendChild(actions);
     return row;
+  }
+
+  function buildSegmentEditor(enText, locText, disabled) {
+    var aligned = window.UAOAMarkup
+      ? window.UAOAMarkup.alignLocaleSegments(enText, locText)
+      : { segments: [locText || ''], markup: '', hints: [], collapsed: false };
+    if (!aligned.markup) {
+      var plain = document.createElement('textarea');
+      plain.className = 'tr-box editable' + (disabled ? ' is-busy' : '');
+      plain.value = locText || '';
+      if (disabled) plain.disabled = true;
+      return plain;
+    }
+    var box = document.createElement('div');
+    box.className = 'tr-box editable segment-editor' + (disabled ? ' is-busy' : '');
+    box._markup = aligned.markup;
+    var note = document.createElement('p');
+    note.className = 'seg-note';
+    note.textContent = aligned.collapsed
+      ? 'This translation is not split like the English. The full text is in one field. Saving reapplies the English styling.'
+      : 'Edit the words only. Saving reapplies the English styling.';
+    box.appendChild(note);
+    aligned.segments.forEach(function (seg, i) {
+      var label = document.createElement('label');
+      label.className = 'seg-field';
+      var hint = document.createElement('span');
+      hint.className = 'seg-hint';
+      hint.textContent = aligned.hints[i] || 'Text';
+      var area = document.createElement('textarea');
+      area.value = seg;
+      area.rows = Math.min(8, Math.max(2, Math.ceil(String(seg || '').length / 72)));
+      if (disabled) area.disabled = true;
+      label.appendChild(hint);
+      label.appendChild(area);
+      box.appendChild(label);
+    });
+    return box;
   }
 
   function setByPathLocal(root, key, text) {
