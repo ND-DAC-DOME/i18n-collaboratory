@@ -169,7 +169,7 @@
         "note": "Manual unlock when QualtricsEOS is not received"
       },
       "slideTitle": {
-        "text": "Pre-course survey",
+        "text": "Pre-course Survey",
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
@@ -4783,7 +4783,7 @@
           "note": "Sidebar section title (outline) — ScormStack section `b883660a-734f-415f-bb1b-6040ed02f678`"
         },
         "preCourseSurvey": {
-          "text": "Pre-course survey",
+          "text": "Pre-course Survey",
           "note": "Sidebar section title (outline) — ScormStack section `0a7799a0-b6bf-43cc-a775-5bcb87c82c06`"
         },
         "module1": {
@@ -4821,7 +4821,7 @@
           "note": "Sidebar slide title (outline) — ScormStack slide `d4f62e1d-6153-42a0-893d-a2433efb98fe`"
         },
         "preCourseSurvey": {
-          "text": "Pre-course survey",
+          "text": "Pre-course Survey",
           "note": "Sidebar slide title (outline) — ScormStack slide `f11326b4-0133-4106-b4f5-6ce8842de2bf`"
         },
         "postCourseSurvey": {
