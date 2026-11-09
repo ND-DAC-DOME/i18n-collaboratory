@@ -473,8 +473,8 @@
       el.checkoutBtn.title = 'Checked out by you';
       el.checkoutBtn.setAttribute('aria-label', 'Checked out by you');
     } else if (lock && !mine) {
-      el.checkoutBtn.title = 'Checked out by ' + (lock.holder || 'someone else');
-      el.checkoutBtn.setAttribute('aria-label', 'Locale checked out by someone else');
+      el.checkoutBtn.title = 'Cannot begin review since locked by ' + (lock.holder || 'someone else');
+      el.checkoutBtn.setAttribute('aria-label', 'Cannot begin review since locked by someone else');
     } else {
       el.checkoutBtn.title = 'Start Review to claim this locale and approve or edit';
       el.checkoutBtn.setAttribute('aria-label', 'Start Review');
@@ -484,8 +484,9 @@
       el.banner.hidden = false;
       el.banner.className = 'banner';
       if (lock && !mine) {
-        el.banner.textContent = (lock.holder || 'Another reviewer') +
-          ' has this locale checked out until ' +
+        el.banner.textContent = 'Cannot begin review since locked by ' +
+          (lock.holder || 'someone else') +
+          ' until ' +
           (lock.until ? new Date(lock.until).toLocaleString() : 'later') +
           '. You can browse in read-only mode.';
       } else if (free) {
@@ -994,7 +995,7 @@
         if (data && data.acquired) {
           toast('Checked out — you can approve and edit', 'ok');
         } else {
-          toast('Could not check out — locale may be in use', 'error');
+          toast('Could not begin review — locale may be in use', 'error');
         }
       }).catch(function (e) {
         toast(e.message || 'Start Review failed', 'error');
