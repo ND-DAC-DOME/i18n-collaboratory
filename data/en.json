@@ -516,14 +516,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "The sporting role of the person targeted"
+          "text": "The type of sport being played"
         },
         "e": {
           "text": "User interactions such as commenting, sharing, and reposting",
           "note": "Correct"
         },
         "f": {
-          "text": "Whether the original content is considered offensive"
+          "text": "The location where a sporting event takes place"
         }
       }
     },
@@ -867,7 +867,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Which answer best reflects the range of people who can be affected by online abuse in sport?",
+            "text": "Which option best reflects the range of people who can be affected by online abuse in sport?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -1381,7 +1381,7 @@
             "text": "European Union"
           },
           "html": {
-            "text": "<p>The <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>European Union AI Act</strong></a> uses a risk-based framework for AI and introduces transparency requirements for certain AI-generated and manipulated content, including some deepfakes.</p>",
+            "text": "<p>There are different laws which provide the framework for regulating AI and its use. For example, the <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>European Union AI Act</strong></a> uses a risk-based framework for AI and introduces transparency requirements for certain AI-generated and manipulated content, including some deepfakes. This Act is generally applicable across EU countries, with some of them adapting specific national legislations.</p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1390,7 +1390,7 @@
                 "text": "Slovenia"
               },
               "html": {
-                "text": "<p>In Slovenia, AI is governed by <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">national legislation</a> and the <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">EU AI Act</a>. <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">Government guidance</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">answers to common questions</a>, and regulatory information from the <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">responsible ministry</a> are also available.</p>",
+                "text": "<p>In Slovenia, AI is governed by <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">national legislation</a> and the <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">EU AI Act</a> is also applicable. Additionally, there are also available national resources like <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">Government guidance</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">answers to common questions</a>, and <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">regulatory information from the responsible ministry</a>.</p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },
@@ -1798,7 +1798,7 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">AI regulations differ across locations and may influence how harmful content is addressed, what protections are available, and which responsibilities apply to online platforms.</span></p><p></p><p><span style=\"color: #091324\">Exploring these differences can help you understand how approaches to AI and online harm vary, and why the protections and resources available may depend on where you are.</span><br><br>(The countries listed below are only for reference. More countries shall be added in the future.)</p>",
+          "text": "<p><span style=\"color: #091324\">AI regulations differ across locations and may influence how harmful content is addressed, what protections are available, and which responsibilities apply to online platforms.</span></p><p></p><p><span style=\"color: #091324\">Exploring these differences can help you understand how approaches to AI and online harm vary, and why the protections and resources available may depend on where you are.</span><br><br>(The countries listed below are only for reference. More countries shall be added in the future.)<br><br><span style=\"font-size: 18px\"><strong>Select a Country below to explore its AI-related regulations.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -2006,7 +2006,7 @@
             "text": "United Kingdom"
           },
           "html": {
-            "text": "<p>In the UK, several laws address harmful online conduct. The <strong>Online Safety Act 2023</strong> introduces offences relating to threatening communications, cyberflashing, and sharing or threatening to share intimate images without consent. The <strong>Protection from Harassment Act 1997</strong> also covers harassment and stalking, including conduct involving digital communications. The Online Safety Act additionally places duties on regulated platforms to address illegal content and protect children from harmful material. The applicable protections depend on the conduct and jurisdiction.</p><p><em>Source: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
+            "text": "<p>In the UK, several laws address harmful online conduct. The <strong>Online Safety Act 2023</strong> establishes duties for regulated platforms to address illegal content and protect children from harmful material. It also introduces offences relating to threatening communications, cyberflashing, and sharing or threatening to share intimate images without consent.</p><p>The <strong>Protection from Harassment Act 1997</strong> addresses harassment and stalking, including behaviour involving digital communications.</p><p>The applicable legal protections depend on the nature of the conduct and the relevant jurisdiction.</p><p><em>Source: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
             "note": "HTML allowed"
           }
         },

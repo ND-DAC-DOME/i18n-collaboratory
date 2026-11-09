@@ -508,14 +508,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "Sportovní role cílové osoby"
+          "text": "Typ provozovaného sportu"
         },
         "e": {
           "text": "Interakce uživatelů, jako je komentování, sdílení a opětovné publikování",
           "note": "Correct"
         },
         "f": {
-          "text": "Zda je původní obsah považován za urážlivý"
+          "text": "Místo, kde se sportovní akce koná"
         }
       }
     },
@@ -857,7 +857,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Která odpověď nejlépe vystihuje spektrum lidí, které může ovlivnit online zneužívání ve sportu?",
+            "text": "Která možnost nejlépe vystihuje spektrum lidí, které může ovlivnit online zneužívání ve sportu?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -1369,7 +1369,7 @@
             "text": "Evropská unie"
           },
           "html": {
-            "text": "<p>Nařízení <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Evropské unie o umělé inteligenci (AI Act)</strong></a> využívá pro umělou inteligenci přístup založený na míře rizika a zavádí požadavky na transparentnost u určitého obsahu vytvořeného nebo upraveného umělou inteligencí, včetně některých deepfakes.</p>",
+            "text": "<p>Existují různé zákony, které tvoří rámec pro regulaci umělé inteligence a jejího používání. Například nařízení <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Evropské unie o umělé inteligenci (AI Act)</strong></a> využívá pro umělou inteligenci přístup založený na míře rizika a zavádí požadavky na transparentnost u určitého obsahu vytvořeného nebo upraveného umělou inteligencí, včetně některých deepfakes. Toto nařízení se obecně použije v zemích EU a některé z nich přizpůsobují zvláštní vnitrostátní právní předpisy.</p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1378,7 +1378,7 @@
                 "text": "Slovinsko"
               },
               "html": {
-                "text": "<p>Ve Slovinsku se umělá inteligence řídí <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">vnitrostátními právními předpisy</a> a <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">aktem EU o umělé inteligenci (AI Act)</a>. K dispozici jsou také <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">vládní pokyny</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">odpovědi na časté otázky</a> a regulační informace od <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">příslušného ministerstva</a>.</p>",
+                "text": "<p>Ve Slovinsku se umělá inteligence řídí <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">vnitrostátními právními předpisy</a> a <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">akt EU o umělé inteligenci (AI Act)</a> se rovněž použije. Kromě toho jsou k dispozici také vnitrostátní zdroje, jako jsou <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">vládní pokyny</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">odpovědi na časté otázky</a> a <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">regulační informace od příslušného ministerstva</a>.</p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },
@@ -1786,7 +1786,7 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Regulace AI se v různých místech liší a může ovlivnit, jak se řeší škodlivý obsah, jaká ochrana je dostupná a jaké povinnosti mají online platformy.</span></p><p></p><p><span style=\"color: #091324\">Prozkoumání těchto rozdílů pomáhá pochopit, jak se přístupy k AI a online újmě liší a proč dostupná ochrana a zdroje mohou záviset na tom, kde se nacházíte.</span><br><br>(Níže uvedené země jsou pouze orientační. Další země budou doplněny v budoucnu.)</p>",
+          "text": "<p><span style=\"color: #091324\">Regulace AI se v různých místech liší a může ovlivnit, jak se řeší škodlivý obsah, jaká ochrana je dostupná a jaké povinnosti mají online platformy.</span></p><p></p><p><span style=\"color: #091324\">Prozkoumání těchto rozdílů pomáhá pochopit, jak se přístupy k AI a online újmě liší a proč dostupná ochrana a zdroje mohou záviset na tom, kde se nacházíte.</span><br><br>(Níže uvedené země jsou pouze orientační. Další země budou doplněny v budoucnu.)<br><br><span style=\"font-size: 18px\"><strong>Níže vyberte zemi a prozkoumejte její předpisy související s AI.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1993,7 +1993,7 @@
             "text": "Spojené království"
           },
           "html": {
-            "text": "<p>Ve Spojeném království se škodlivým jednáním na internetu zabývá několik zákonů. <strong>Zákon o online bezpečnosti z roku 2023 (Online Safety Act 2023)</strong> zavádí trestné činy týkající se výhružné komunikace, kyberflashingu a sdílení intimních snímků bez souhlasu nebo vyhrožování jejich sdílením. <strong>Zákon o ochraně před obtěžováním z roku 1997 (Protection from Harassment Act 1997)</strong> se rovněž vztahuje na obtěžování a pronásledování (stalking), včetně jednání prostřednictvím digitální komunikace. Zákon o online bezpečnosti dále ukládá regulovaným platformám povinnost řešit nezákonný obsah a chránit děti před škodlivým materiálem. Použitelná ochrana závisí na konkrétním jednání a jurisdikci.</p><p><em>Zdroj: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
+            "text": "<p>Ve Spojeném království se škodlivým jednáním na internetu zabývá několik zákonů. <strong>Zákon o online bezpečnosti z roku 2023 (Online Safety Act 2023)</strong> zavádí trestné činy týkající se výhružné komunikace, kyberflashingu a sdílení intimních snímků bez souhlasu nebo vyhrožování jejich sdílením.</p><p><strong>Zákon o ochraně před obtěžováním z roku 1997 (Protection from Harassment Act 1997)</strong> se rovněž vztahuje na obtěžování a pronásledování (stalking), včetně jednání prostřednictvím digitální komunikace.</p><p>Zákon o online bezpečnosti dále ukládá regulovaným platformám povinnost řešit nezákonný obsah a chránit děti před škodlivým materiálem. Použitelná ochrana závisí na konkrétním jednání a jurisdikci.</p><p><em>Zdroj: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
             "note": "HTML allowed"
           }
         },

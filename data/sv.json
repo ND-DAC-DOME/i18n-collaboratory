@@ -508,14 +508,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "Den utsatta personens roll inom idrotten"
+          "text": "Den idrottsgren som utövas"
         },
         "e": {
           "text": "Användarinteraktioner som att kommentera, dela och återpublicera",
           "note": "Correct"
         },
         "f": {
-          "text": "Huruvida det ursprungliga innehållet anses stötande"
+          "text": "Platsen där ett idrottsevenemang äger rum"
         }
       }
     },
@@ -857,7 +857,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Vilket svar återspeglar bäst spektrumet av personer som kan drabbas av onlineövergrepp inom idrotten?",
+            "text": "Vilket alternativ återspeglar bäst spektrumet av personer som kan drabbas av onlineövergrepp inom idrotten?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -1369,7 +1369,7 @@
             "text": "Europeiska unionen"
           },
           "html": {
-            "text": "<p>I <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>EU:s AI-förordning</strong></a> används ett riskbaserat ramverk för AI och införs transparenskrav för visst AI-genererat och manipulerat innehåll, inklusive vissa deepfakes.</p>",
+            "text": "<p>Det finns olika lagar som ger ramverket för att reglera AI och dess användning. I <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>EU:s AI-förordning</strong></a> används till exempel ett riskbaserat ramverk för AI och införs transparenskrav för visst AI-genererat och manipulerat innehåll, inklusive vissa deepfakes. Denna förordning är i allmänhet tillämplig i EU-länderna, och vissa av dem anpassar särskild nationell lagstiftning.</p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1378,7 +1378,7 @@
                 "text": "Slovenien"
               },
               "html": {
-                "text": "<p>I Slovenien regleras AI av <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">nationell lagstiftning</a> och <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">EU:s AI-förordning</a>. <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">Statlig vägledning</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">svar på vanliga frågor</a> och information om regleringen från <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">ansvarigt ministerium</a> finns också tillgängligt.</p>",
+                "text": "<p>I Slovenien regleras AI av <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">nationell lagstiftning</a> och <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">EU:s AI-förordning</a> är också tillämplig. Dessutom finns även nationella resurser tillgängliga, till exempel <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">statlig vägledning</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">svar på vanliga frågor</a> och <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">information om regleringen från ansvarigt ministerium</a>.</p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },
@@ -1786,7 +1786,7 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">AI-regleringen skiljer sig mellan platser och kan påverka hur skadligt innehåll hanteras, vilket skydd som finns och vilka skyldigheter som gäller för plattformar på nätet.</span></p><p></p><p><span style=\"color: #091324\">Att utforska skillnaderna hjälper dig att förstå hur synen på AI och skada på nätet varierar, och varför skydd och resurser kan bero på var du befinner dig.</span><br><br>(Länderna nedan visas bara som referens. Fler länder kommer att läggas till framöver.)</p>",
+          "text": "<p><span style=\"color: #091324\">AI-regleringen skiljer sig mellan platser och kan påverka hur skadligt innehåll hanteras, vilket skydd som finns och vilka skyldigheter som gäller för plattformar på nätet.</span></p><p></p><p><span style=\"color: #091324\">Att utforska skillnaderna hjälper dig att förstå hur synen på AI och skada på nätet varierar, och varför skydd och resurser kan bero på var du befinner dig.</span><br><br>(Länderna nedan visas bara som referens. Fler länder kommer att läggas till framöver.)<br><br><span style=\"font-size: 18px\"><strong>Välj ett land nedan för att utforska dess AI-relaterade regleringar.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1993,7 +1993,7 @@
             "text": "Storbritannien"
           },
           "html": {
-            "text": "<p>I Storbritannien finns flera lagar som gäller skadligt beteende online. <strong>Online Safety Act 2023</strong> inför brott som rör hotfulla meddelanden, cyberflashing och att dela eller hota att dela intima bilder utan samtycke. <strong>Protection from Harassment Act 1997</strong> omfattar också trakasserier och stalkning, inklusive beteenden via digital kommunikation. Online Safety Act ålägger dessutom reglerade plattformar att hantera olagligt innehåll och skydda barn mot skadligt material. Vilket skydd som gäller beror på beteendet och jurisdiktionen.</p><p><em>Källa: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
+            "text": "<p>I Storbritannien finns flera lagar som gäller skadligt beteende online. <strong>Online Safety Act 2023</strong> inför brott som rör hotfulla meddelanden, cyberflashing och att dela eller hota att dela intima bilder utan samtycke.</p><p><strong>Protection from Harassment Act 1997</strong> omfattar också trakasserier och stalkning, inklusive beteenden via digital kommunikation.</p><p>Online Safety Act ålägger dessutom reglerade plattformar att hantera olagligt innehåll och skydda barn mot skadligt material. Vilket skydd som gäller beror på beteendet och jurisdiktionen.</p><p><em>Källa: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
             "note": "HTML allowed"
           }
         },

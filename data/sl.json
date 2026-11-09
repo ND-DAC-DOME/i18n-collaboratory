@@ -508,14 +508,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "Športna vloga ciljne osebe"
+          "text": "Vrsta športa, ki se igra"
         },
         "e": {
           "text": "Uporabniške interakcije, kot so komentiranje, deljenje in ponovno objavljanje",
           "note": "Correct"
         },
         "f": {
-          "text": "Ali se izvirna vsebina šteje za žaljivo"
+          "text": "Lokacija, kjer poteka športni dogodek"
         }
       }
     },
@@ -857,7 +857,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Kateri odgovor najbolje odraža razpon ljudi, ki jih lahko prizadene spletna zloraba v športu?",
+            "text": "Katera možnost najbolje odraža razpon ljudi, ki jih lahko prizadene spletna zloraba v športu?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -1369,7 +1369,7 @@
             "text": "Evropska unija"
           },
           "html": {
-            "text": "<p> <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Akt Evropske unije o umetni inteligenci</strong></a> uporablja okvir za umetno inteligenco, ki temelji na tveganju, in uvaja zahteve glede preglednosti za nekatere vsebine, ki jih ustvari ali z njimi manipulira umetna inteligenca, vključno z nekaterimi globokimi ponaredki.</p>",
+            "text": "<p>Obstajajo različni zakoni, ki določajo okvir za urejanje umetne inteligence in njene uporabe. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>Akt Evropske unije o umetni inteligenci</strong></a> na primer uporablja okvir za umetno inteligenco, ki temelji na tveganju, in uvaja zahteve glede preglednosti za nekatere vsebine, ki jih ustvari ali z njimi manipulira umetna inteligenca, vključno z nekaterimi globokimi ponaredki. Ta akt se na splošno uporablja v državah EU, nekatere med njimi pa prilagajajo posebno nacionalno zakonodajo.</p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1378,7 +1378,7 @@
                 "text": "Slovenija"
               },
               "html": {
-                "text": "<p>V Sloveniji umetno inteligenco urejata <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">nacionalna zakonodaja</a> in <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">akt EU o umetni inteligenci</a>. Na voljo so tudi <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">vladne smernice</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">odgovori na pogosta vprašanja</a> in regulativne informacije <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">pristojnega ministrstva</a>.</p>",
+                "text": "<p>V Sloveniji umetno inteligenco urejata <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">nacionalna zakonodaja</a> in <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">akt EU o umetni inteligenci</a>, ki se prav tako uporablja. Poleg tega so na voljo tudi nacionalni viri, kot so <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">vladne smernice</a>, <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">odgovori na pogosta vprašanja</a> in <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">regulativne informacije pristojnega ministrstva</a>.</p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },
@@ -1786,7 +1786,7 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Regulacija UI se razlikuje glede na kraj in lahko vpliva na to, kako se obravnava škodljiva vsebina, katera zaščita je na voljo in katere odgovornosti veljajo za spletne platforme.</span></p><p></p><p><span style=\"color: #091324\">Raziskovanje teh razlik pomaga razumeti, kako se pristopi k UI in spletni škodi razlikujejo in zakaj sta razpoložljiva zaščita in viri lahko odvisna od tega, kje ste.</span><br><br>(Spodaj navedene države so samo za orientacijo. Več držav bo dodanih v prihodnje.)</p>",
+          "text": "<p><span style=\"color: #091324\">Regulacija UI se razlikuje glede na kraj in lahko vpliva na to, kako se obravnava škodljiva vsebina, katera zaščita je na voljo in katere odgovornosti veljajo za spletne platforme.</span></p><p></p><p><span style=\"color: #091324\">Raziskovanje teh razlik pomaga razumeti, kako se pristopi k UI in spletni škodi razlikujejo in zakaj sta razpoložljiva zaščita in viri lahko odvisna od tega, kje ste.</span><br><br>(Spodaj navedene države so samo za orientacijo. Več držav bo dodanih v prihodnje.)<br><br><span style=\"font-size: 18px\"><strong>Spodaj izberite državo in raziščite njene predpise, povezane z AI.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1993,7 +1993,7 @@
             "text": "Združeno kraljestvo"
           },
           "html": {
-            "text": "<p>V Združenem kraljestvu več zakonov obravnava škodljivo spletno ravnanje. <strong>Zakon o spletni varnosti iz leta 2023</strong> uvaja kazniva dejanja, povezana z grozilnimi komunikacijami, kibernetskim razkazovanjem ter deljenjem ali grožnjami z deljenjem intimnih slik brez privolitve. <strong>Zakon o zaščiti pred nadlegovanjem iz leta 1997</strong> zajema tudi nadlegovanje in zalezovanje, vključno z ravnanjem, ki vključuje digitalne komunikacije. Zakon o spletni varnosti reguliranim platformam poleg tega nalaga dolžnosti za obravnavanje nezakonitih vsebin in zaščito otrok pred škodljivim gradivom. Veljavne zaščite so odvisne od ravnanja in jurisdikcije.</p><p><em>Vir: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
+            "text": "<p>V Združenem kraljestvu več zakonov obravnava škodljivo spletno ravnanje. <strong>Zakon o spletni varnosti iz leta 2023</strong> uvaja kazniva dejanja, povezana z grozilnimi komunikacijami, kibernetskim razkazovanjem ter deljenjem ali grožnjami z deljenjem intimnih slik brez privolitve.</p><p><strong>Zakon o zaščiti pred nadlegovanjem iz leta 1997</strong> zajema tudi nadlegovanje in zalezovanje, vključno z ravnanjem, ki vključuje digitalne komunikacije.</p><p>Zakon o spletni varnosti reguliranim platformam poleg tega nalaga dolžnosti za obravnavanje nezakonitih vsebin in zaščito otrok pred škodljivim gradivom. Veljavne zaščite so odvisne od ravnanja in jurisdikcije.</p><p><em>Vir: <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
             "note": "HTML allowed"
           }
         },

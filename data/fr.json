@@ -508,14 +508,14 @@
           "note": "Correct"
         },
         "d": {
-          "text": "Le rôle sportif de la personne ciblée"
+          "text": "Le type de sport pratiqué"
         },
         "e": {
           "text": "Interactions des utilisateurs telles que les commentaires, les partages et les republications",
           "note": "Correct"
         },
         "f": {
-          "text": "Le fait que le contenu original soit considéré comme offensant"
+          "text": "Le lieu où se déroule un événement sportif"
         }
       }
     },
@@ -857,7 +857,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Quelle réponse reflète le mieux l’éventail des personnes qui peuvent être touchées par les abus en ligne dans le sport ?",
+            "text": "Quelle option reflète le mieux l’éventail des personnes qui peuvent être touchées par les abus en ligne dans le sport ?",
             "note": "MCQ stem"
           },
           "choices": {
@@ -1369,7 +1369,7 @@
             "text": "Union européenne"
           },
           "html": {
-            "text": "<p>La <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>loi européenne sur l'IA (AI Act)</strong></a> repose sur une approche fondée sur les risques et introduit des exigences de transparence pour certains contenus générés ou manipulés par l'IA, y compris certains deepfakes.</p>",
+            "text": "<p>Il existe différentes lois qui fournissent le cadre de régulation de l'IA et de son utilisation. Par exemple, la <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/\" target=\"_blank\" rel=\"noopener\"><strong>loi européenne sur l'IA (AI Act)</strong></a> repose sur une approche fondée sur les risques et introduit des exigences de transparence pour certains contenus générés ou manipulés par l'IA, y compris certains deepfakes. Cette loi est généralement applicable dans les pays de l'UE, certains d'entre eux adaptant des législations nationales spécifiques.</p>",
             "note": "HTML allowed — European Union AI Act links to EUR-Lex"
           },
           "subs": {
@@ -1378,7 +1378,7 @@
                 "text": "Slovénie"
               },
               "html": {
-                "text": "<p>En Slovénie, l'IA est régie par la <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">législation nationale</a> et le <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">loi européenne sur l'IA (AI Act)</a>. Des <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">orientations gouvernementales</a>, des <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">réponses aux questions fréquentes</a> et des informations réglementaires du <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">ministère compétent</a> sont également disponibles.</p>",
+                "text": "<p>En Slovénie, l'IA est régie par la <a href=\"https://pisrs.si/pregledPredpisa?id=ZAKO9225#naslov-parent-393613415\" target=\"_blank\" rel=\"noopener\">législation nationale</a> et la <a href=\"https://eur-lex.europa.eu/legal-content/SL/TXT/HTML/?uri=OJ:L_202401689\" target=\"_blank\" rel=\"noopener\">loi européenne sur l'IA (AI Act)</a> est également applicable. En outre, des ressources nationales sont également disponibles, comme des <a href=\"https://www.gov.si/novice/2026-08-03-zacela-so-se-uporabljati-pravila-o-preglednosti-sistemov-umetne-inteligence/\" target=\"_blank\" rel=\"noopener\">orientations gouvernementales</a>, des <a href=\"https://www.ip-rs.si/umetna-inteligenca/pogosta-vpra%C5%A1anja/\" target=\"_blank\" rel=\"noopener\">réponses aux questions fréquentes</a> et des <a href=\"https://www.gov.si/en/state-authorities/ministries/ministry-of-the-interior-and-public-administration/about-the-ministry/\" target=\"_blank\" rel=\"noopener\">informations réglementaires du ministère compétent</a>.</p>",
                 "note": "HTML allowed — linked phrases open official sources"
               }
             },
@@ -1786,7 +1786,7 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">La réglementation de l’IA varie selon les lieux et peut influencer la façon dont les contenus préjudiciables sont traités, les protections disponibles et les responsabilités des plateformes en ligne.</span></p><p></p><p><span style=\"color: #091324\">Explorer ces différences aide à comprendre comment les approches de l’IA et du préjudice en ligne varient, et pourquoi les protections et les ressources disponibles peuvent dépendre de l’endroit où vous vous trouvez.</span><br><br>(Les pays indiqués ci-dessous le sont uniquement à titre de référence. D’autres pays seront ajoutés à l’avenir.)</p>",
+          "text": "<p><span style=\"color: #091324\">La réglementation de l’IA varie selon les lieux et peut influencer la façon dont les contenus préjudiciables sont traités, les protections disponibles et les responsabilités des plateformes en ligne.</span></p><p></p><p><span style=\"color: #091324\">Explorer ces différences aide à comprendre comment les approches de l’IA et du préjudice en ligne varient, et pourquoi les protections et les ressources disponibles peuvent dépendre de l’endroit où vous vous trouvez.</span><br><br>(Les pays indiqués ci-dessous le sont uniquement à titre de référence. D’autres pays seront ajoutés à l’avenir.)<br><br><span style=\"font-size: 18px\"><strong>Sélectionnez un pays ci-dessous pour explorer sa réglementation relative à l'IA.</strong></span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1993,7 +1993,7 @@
             "text": "Royaume-Uni"
           },
           "html": {
-            "text": "<p>Au Royaume-Uni, plusieurs lois encadrent les comportements nuisibles en ligne. L'<strong>Online Safety Act 2023</strong> (loi sur la sécurité en ligne) introduit des infractions liées aux communications menaçantes, au cyberflashing et au partage, ou à la menace de partage, d'images intimes sans consentement. Le <strong>Protection from Harassment Act 1997</strong> (loi sur la protection contre le harcèlement) couvre également le harcèlement et la traque (stalking), y compris les comportements impliquant des communications numériques. L'Online Safety Act impose en outre aux plateformes réglementées des obligations de lutte contre les contenus illégaux et de protection des enfants contre les contenus préjudiciables. Les protections applicables dépendent du comportement et de la juridiction.</p><p><em>Source : <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
+            "text": "<p>Au Royaume-Uni, plusieurs lois encadrent les comportements nuisibles en ligne. L'<strong>Online Safety Act 2023</strong> (loi sur la sécurité en ligne) introduit des infractions liées aux communications menaçantes, au cyberflashing et au partage, ou à la menace de partage, d'images intimes sans consentement.</p><p>Le <strong>Protection from Harassment Act 1997</strong> (loi sur la protection contre le harcèlement) couvre également le harcèlement et la traque (stalking), y compris les comportements impliquant des communications numériques.</p><p>L'Online Safety Act impose en outre aux plateformes réglementées des obligations de lutte contre les contenus illégaux et de protection des enfants contre les contenus préjudiciables. Les protections applicables dépendent du comportement et de la juridiction.</p><p><em>Source : <a href=\"https://www.legislation.gov.uk/\" target=\"_blank\" rel=\"noopener\">Legislation.gov.uk</a></em></p>",
             "note": "HTML allowed"
           }
         },
