@@ -457,7 +457,7 @@
       el.lockPill.className = 'pill busy';
     }
 
-    // Release only while you hold the lease. Check out stays visible once named:
+    // Release only while you hold the lease. Start Review stays visible once named:
     // enabled (primary) when free; disabled gray when you hold or someone else does.
     el.releaseBtn.hidden = !(state.canEdit && mine);
     el.checkoutBtn.hidden = !state.name;
@@ -476,8 +476,8 @@
       el.checkoutBtn.title = 'Checked out by ' + (lock.holder || 'someone else');
       el.checkoutBtn.setAttribute('aria-label', 'Locale checked out by someone else');
     } else {
-      el.checkoutBtn.title = 'Check out this locale to approve or edit';
-      el.checkoutBtn.setAttribute('aria-label', 'Check out locale');
+      el.checkoutBtn.title = 'Start Review to claim this locale and approve or edit';
+      el.checkoutBtn.setAttribute('aria-label', 'Start Review');
     }
 
     if (!state.canEdit) {
@@ -489,7 +489,7 @@
           (lock.until ? new Date(lock.until).toLocaleString() : 'later') +
           '. You can browse in read-only mode.';
       } else if (free) {
-        el.banner.textContent = 'View only — press Check out to claim this locale and approve or edit.';
+        el.banner.textContent = 'View only — press Start Review to claim this locale and approve or edit.';
       } else {
         el.banner.textContent = 'Read-only — could not check out this locale. Try again or pick another language.';
       }
@@ -981,7 +981,7 @@
     });
 
     el.releaseBtn.addEventListener('click', function () {
-      // Release only — do not re-claim; stay view-only until Check out.
+      // Release only — do not re-claim; stay view-only until Start Review.
       releaseLocale().then(function () {
         renderRows();
       });
@@ -997,7 +997,7 @@
           toast('Could not check out — locale may be in use', 'error');
         }
       }).catch(function (e) {
-        toast(e.message || 'Check out failed', 'error');
+        toast(e.message || 'Start Review failed', 'error');
       });
     });
 
