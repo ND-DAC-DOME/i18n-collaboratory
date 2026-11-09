@@ -17,6 +17,10 @@
       "text": "Další",
       "note": "Primary forward button on series / quiz widgets"
     },
+    "complete": {
+      "text": "Dokončit",
+      "note": "Last-card action on series widgets; becomes the completed checkbox"
+    },
     "completed": {
       "text": "Dokončeno",
       "note": "Replaces Next after the last step on some widgets"
@@ -161,7 +165,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p>Před zahájením Modulu 1 prosím vyplňte tento krátký průzkum. Pokračování se odemkne po jeho dokončení.</p>",
+        "text": "<p><span style=\"color: #091324\">Než začnete, tento krátký průzkum vám pomůže zamyslet se nad vašimi současnými znalostmi, jistotou a připraveností řešit online zneužívání. Neexistují správné ani špatné odpovědi. Vaše odpovědi budou výchozím bodem pro reflexi pokroku v průběhu kurzu.</span></p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {
@@ -169,7 +173,7 @@
         "note": "Nav CTA after survey embed"
       },
       "welcomeContinue": {
-        "text": "Pokračovat",
+        "text": "Začít modul 1",
         "note": "Welcome CTA now advances to pre-course survey (was Continue to Module 1)"
       }
     },
@@ -377,6 +381,16 @@
       },
       "religion": {
         "text": "Náboženství"
+      },
+      "age": {
+        "text": "Věk"
+      },
+      "pregnancy": {
+        "text": "Těhotenství"
+      },
+      "maritalStatus": {
+        "text": "Rodinný stav",
+        "note": "May wrap to two lines on the tile"
       }
     },
     "platforms": {
@@ -411,7 +425,7 @@
             "text": "Sdílení videa a živé streamování"
           },
           "platforms": {
-            "text": "YouTube, Twitch, Kick"
+            "text": "YouTube, Twitch"
           },
           "body": {
             "text": "Škodlivé komentáře k videím mohou zůstat viditelné dlouho po jejich zveřejnění, což umožňuje pokračování zneužívání. Během živých přenosů se mohou objevovat a rychle se množit urážlivé zprávy, jak diváci reagují v reálném čase."
@@ -564,7 +578,7 @@
         },
         "q2": {
           "label": {
-            "text": "2. Doplňte tvrzení: Co vám pomáhá pochopit kontext, který definuje online zneužívání"
+            "text": "2. Doplňte tvrzení: Co vám pomáhá pochopit kontext, který definuje online zneužívání?"
           },
           "sentenceBefore": {
             "text": "Při identifikaci online zneužívání zvažte použitý"
@@ -798,11 +812,11 @@
       },
       "onlineConversationsArePartOfSport": {
         "body": {
-          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Online konverzace jsou součástí sportu:</strong> oslava výsledku, diskuse o rozhodnutí nebo navazování kontaktů s týmem či sportovcem. Tato místa se však mohou stát také místy, kde jsou lidé ponižováni, terčem útoků nebo zahlceni kritikou a zneužíváním.</span></p>",
+          "text": "<p><span style=\"color: #091324; font-size: 18px\"><strong>Online konverzace jsou součástí sportu: </strong>oslava výsledku, diskuse o rozhodnutí nebo spojení s týmem či sportovcem. Stejné interakce, které lidi sbližují, je však mohou vystavit ponížení, obtěžování a zneužívání.</span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online konverzace jsou součástí sportu: oslava výsledku, diskuse o rozhodnutí nebo navazování kontaktů s týmem či sportovcem. Tato místa se však mohou stát také místy, kde jsou lidé ponižováni, terčem útoků nebo zahlceni kritikou a zneužíváním.</span>",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online konverzace jsou součástí sportu: oslava výsledku, diskuse o rozhodnutí nebo spojení s týmem či sportovcem. Stejné interakce, které lidi sbližují, je však mohou vystavit ponížení, obtěžování a zneužívání.</span>",
           "note": "Native heading on Understanding Online Abuse"
         }
       },
@@ -825,7 +839,7 @@
       },
       "whenTheBehavioursOverlap": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\">Představte si, že hráč po prohře dostane ponižující komentář. Podobné zprávy pak jeho účet zaplavují celé dny. Některé navíc útočí na jeho rasu.<br><br>Ponižující jazyk představuje <strong>urážlivé projevy</strong>. Opakovaná veřejná agrese na jedné nebo více sociálních sítích vytváří <strong>digitální nepřátelství</strong>. Rasistické cílení je považováno za <strong>nenávistné projevy</strong>. <br><br>Abyste rozpoznali, co se děje, všímejte si jazyka, toho, na koho nebo na co cílí, a vzorce interakcí. Může být přítomno více typů chování najednou.</span></p>",
+          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\">Představte si, že hráč po prohře dostane ponižující komentář. Podobné zprávy pak jeho účet zaplavují celé dny. Některé navíc útočí na jeho rasu.<br><br>Ponižující jazyk představuje <strong>urážlivé projevy</strong>. Opakovaná veřejná agrese na jedné nebo více sociálních sítích vytváří <strong>digitální nepřátelství</strong>. Rasistické cílení je považováno za <strong>nenávistné projevy</strong>. </span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
@@ -960,7 +974,7 @@
         },
         "c2": {
           "name": {
-            "text": "Rozhodčí zápasu"
+            "text": "Sportovní funkcionáři"
           },
           "body": {
             "text": "Rozhodčí mohou čelit online útokům po rozhodnutích učiněných během soutěže, což se dále přidává k verbálnímu a fyzickému napadání, které již mohou zažít osobně. Opakovaná kritika, výhrůžky a nepřátelství mohou přispívat ke stresu a ovlivňovat jejich sebevědomí, vnímanou autoritu a pohodu."
@@ -968,7 +982,7 @@
         },
         "c3": {
           "name": {
-            "text": "Novináři"
+            "text": "Mediální profesionálové"
           },
           "body": {
             "text": "Novináři hrají důležitou roli v propojování sportovců, týmů a sportovních organizací s širším publikem. Novináři se mohou stát terčem online nepřátelství v reakci na své reportáže, komentáře nebo vnímaný postoj k určitému tématu."
@@ -976,7 +990,7 @@
         },
         "c4": {
           "name": {
-            "text": "Sponzoři a zástupci"
+            "text": "Sportovní federace a organizace"
           },
           "body": {
             "text": "Sportovní organizace a osoby, které je financují, řídí a zastupují, se mohou také stát terčem online zneužívání. Nepřátelský obsah může být namířen proti samotné organizaci, jejím rozhodnutím, politikám či akcím, nebo proti jednotlivým zaměstnancům a zástupcům. To může ovlivnit reputaci organizace, její profesní činnost, rozhodování a duševní pohodu zúčastněných."
@@ -1090,7 +1104,7 @@
             "note": "HTML allowed"
           },
           "source": {
-            "text": "Hughes, M. C., Demaray, M. K., Skiba, E. A., & Warriner, S. E. (2026). Online harassment and mental health among collegiate student-athletes: Findings from an NCAA Division I conference survey. Journal of Issues in Intercollegiate Athletics.",
+            "text": "Hughes, M. C., Demaray, M. K., Skiba, E. A., & Warriner, S. E. (2026). Online obtěžování a duševní zdraví mezi vysokoškolskými studenty-sportovci: zjištění z průzkumu konference NCAA Division I. Journal of Issues in Intercollegiate Athletics.",
             "note": "Citation; keep author names"
           }
         },
@@ -1111,11 +1125,11 @@
             "note": "HTML allowed"
           },
           "research": {
-            "text": "Ve studii 912 mladých sportovců ve věku 12–24 let 10,4 % uvedlo, že zažili online zneužívání. Z postižených 44,3 % uvedlo středně závažné až závažné dopady na kvalitu spánku.",
+            "text": "Ve studii 912 mladých sportovců ve věku 12–24 let <strong>10,4 % uvedlo, že zažili online zneužívání.</strong> Z postižených <strong>44,3 %</strong> uvedlo středně závažné až závažné <strong>dopady na kvalitu spánku</strong>.",
             "note": "HTML allowed"
           },
           "source": {
-            "text": "Tooth, C., Kaux, J.-F., Tscholl, P., Touré, A., Muller, F., & Seil, K. (2026). The influence of social media on young athletes' mental health: A cross-sectional study. Frontiers in Psychology.",
+            "text": "Tooth, C., Kaux, J.-F., Tscholl, P., Touré, A., Muller, F., & Seil, K. (2026). Vliv sociálních médií na duševní zdraví mladých sportovců: průřezová studie. Frontiers in Psychology.",
             "note": "Citation; keep author names"
           }
         },
@@ -1140,7 +1154,7 @@
             "note": "HTML allowed"
           },
           "source": {
-            "text": "Jędryczka, W., Sorokowski, P., & Dobrowolska, M. (2022). The role of victim's resilience and self-esteem in experiencing internet hate. International Journal of Environmental Research and Public Health.",
+            "text": "Jędryczka, W., Sorokowski, P., & Dobrowolska, M. (2022). Role odolnosti a sebevědomí oběti při prožívání nenávisti na internetu. International Journal of Environmental Research and Public Health.",
             "note": "Citation; keep author names"
           }
         },
@@ -1165,7 +1179,7 @@
             "note": "HTML allowed"
           },
           "source": {
-            "text": "United Against Online Abuse. (2025). Online Abuse in Sport Barometer 2025.",
+            "text": "United Against Online Abuse. (2025). Barometr online zneužívání ve sportu 2025.",
             "note": "Citation; keep author names"
           }
         },
@@ -1190,7 +1204,7 @@
             "note": "HTML allowed"
           },
           "source": {
-            "text": "Taylor, N., Hancock, D., & Sullivan, P. (2026). Mental health and officiating performance. Frontiers in Psychology.",
+            "text": "Taylor, N., Hancock, D., & Sullivan, P. (2026). Duševní zdraví a výkon rozhodčích. Frontiers in Psychology.",
             "note": "Citation; keep author names"
           }
         },
@@ -1215,7 +1229,7 @@
             "note": "HTML allowed"
           },
           "source": {
-            "text": "Downward, P., Webb, T., & Dawson, P. (2024). Referee abuse, intention to quit, and well-being. Research Quarterly for Exercise and Sport. United Against Online Abuse. (2025). Online Abuse in Sport Barometer 2025.",
+            "text": "Downward, P., Webb, T., & Dawson, P. (2024). Zneužívání rozhodčích, záměr skončit a duševní pohoda. Research Quarterly for Exercise and Sport. United Against Online Abuse. (2025). Barometr online zneužívání ve sportu 2025.",
             "note": "Citation; keep author names"
           }
         }
@@ -1438,22 +1452,22 @@
       },
       "items": {
         "i1": {
-          "text": "1. Zhodnoťte situaci a svou bezpečnost. Zvažte povahu obsahu a to, zda vy nebo někdo jiný můžete být vystaveni bezprostřednímu riziku."
+          "text": "1. <strong>Zhodnoťte situaci a svou bezpečnost.</strong> Zvažte povahu obsahu a to, zda vy nebo někdo jiný můžete být v bezprostředním ohrožení. Pokud hrozí bezprostřední nebezpečí, vyhledejte bez odkladu vhodnou pomoc."
         },
         "i2": {
-          "text": "2. Shromažďujte důkazy. V případě potřeby ukládejte urážlivé příspěvky, zprávy, informace o profilech, URL adresy a snímky obrazovky."
+          "text": "2. <strong>Shromážděte důkazy.</strong> Uložte si kopie urážlivých příspěvků, zpráv, informací o profilu, URL adres a snímků obrazovky dříve, než bude obsah smazán nebo se stane nedostupným. Uchovávejte tyto záznamy na bezpečném místě pro případ, že budou potřeba k nahlášení nebo k dalšímu postupu."
         },
         "i3": {
-          "text": "3. Zaznamenejte si klíčové údaje. Poznamenejte si datum, čas, uživatelské jméno nebo účet a relevantní informace o tom, co se stalo."
+          "text": "3. <strong>Zaznamenejte klíčové údaje.</strong> Zapište, kdy a kde ke zneužívání došlo, kterých účtů se týkalo a jaké byly relevantní okolnosti. Poznamenejte, zda se podobné incidenty staly už dříve nebo zda chování působí jako součást vzorce zneužívání."
         },
         "i4": {
-          "text": "4. Používejte bezpečnostní nástroje platformy. V případě potřeby omezte, ztlumte nebo zablokujte účet, abyste omezili další kontakt nebo vystavení obsahu."
+          "text": "4. <strong>Používejte bezpečnostní nástroje platformy.</strong> Omezte, ztlumte nebo zablokujte účty, abyste omezili další kontakt nebo vystavení škodlivému obsahu. Podle potřeby upravte nastavení soukromí, aby se incidenty neopakovaly."
         },
         "i5": {
-          "text": "5. Nahlaste prostřednictvím platformy. Projděte si příslušné zásady platformy a nahlaste obsah nebo účet pomocí jejích vestavěných možností hlášení."
+          "text": "5. <strong>Nahlaste to prostřednictvím platformy.</strong> Projděte si zásady platformy a použijte její nástroje pro hlášení k označení urážlivého obsahu nebo účtů. Uveďte relevantní údaje a podpůrné důkazy, pokud jsou požadovány, aby platforma mohla hlášení posoudit."
         },
         "i6": {
-          "text": "6. Vyhledejte další podporu nebo v případě potřeby eskalujte situaci. V případě potřeby kontaktujte osobu odpovědnou za ochranu a duševní pohodu ve vaší organizaci. Pokud máte pocit, že existuje ohrožení vaší bezpečnosti, kontaktujte příslušné místní úřady nebo záchranné složky."
+          "text": "6. <strong>Vyhledejte další podporu nebo situaci v případě potřeby eskalujte.</strong> Obraťte se na osobu odpovědnou za ochranu a duševní pohodu ve vaší organizaci nebo na jiné vhodné podpůrné služby. Pokud je ohrožena vaše bezpečnost, kontaktujte místní orgány nebo záchranné složky podle situace, a to i v případě, že jste ostatní kroky nedokončili."
         }
       }
     },
@@ -1556,22 +1570,22 @@
       },
       "items": {
         "i1": {
-          "text": "Zhodnoťte situaci a svou bezpečnost"
+          "text": "<strong>Zhodnoťte situaci a svou bezpečnost.</strong> Zvažte povahu obsahu a to, zda vy nebo někdo jiný můžete být vystaveni bezprostřednímu riziku."
         },
         "i2": {
-          "text": "Shromážděte důkazy"
+          "text": "<strong>Shromažďujte důkazy.</strong> V případě potřeby ukládejte urážlivé příspěvky, zprávy, informace o profilech, URL adresy a snímky obrazovky."
         },
         "i3": {
-          "text": "Zaznamenejte klíčové detaily"
+          "text": "<strong>Zaznamenejte si klíčové údaje.</strong> Poznamenejte si datum, čas, uživatelské jméno nebo účet a relevantní informace o tom, co se stalo."
         },
         "i4": {
-          "text": "Používejte nástroje pro bezpečnost platformy"
+          "text": "<strong>Používejte bezpečnostní nástroje platformy.</strong> V případě potřeby omezte, ztlumte nebo zablokujte účet, abyste omezili další kontakt nebo vystavení obsahu."
         },
         "i5": {
-          "text": "Nahlaste to prostřednictvím platformy"
+          "text": "<strong>Nahlaste prostřednictvím platformy.</strong> Projděte si příslušné zásady platformy a nahlaste obsah nebo účet pomocí jejích vestavěných možností hlášení."
         },
         "i6": {
-          "text": "Vyhledejte další podporu nebo v případě potřeby eskalujte"
+          "text": "<strong>Vyhledejte další podporu nebo v případě potřeby eskalujte situaci.</strong> V případě potřeby kontaktujte osobu odpovědnou za ochranu a duševní pohodu ve vaší organizaci. Pokud máte pocit, že existuje ohrožení vaší bezpečnosti, kontaktujte příslušné místní úřady nebo záchranné složky."
         }
       }
     },
@@ -1680,7 +1694,7 @@
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Umělá inteligence mění způsob, jakým lze online újmu vytvářet a jak se šíří. Může však být také mocným nástrojem, jak zabránit šíření nežádoucího obsahu online.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Umělá inteligence (AI) mění to, jak online újma vzniká a jak se šíří. AI sice může umožnit nové formy zneužívání, ale může také pomáhat odhalovat škodlivý obsah, podporovat moderování a nabízet nástroje pro online bezpečnost.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1690,11 +1704,11 @@
       },
       "exploreReportingSystemsInYourCountry": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Zjistěte, kde nahlásit online zneužívání, vyhledat podporu a získat přístup ke zdrojům, které vám pomohou řešit škodlivý obsah a chování.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Zjistěte, kde hlásit online zneužívání, kde hledat podporu a jaké zdroje pomáhají řešit škodlivý obsah a chování. </span><br><br>(Níže uvedené země jsou pouze orientační. Další země budou doplněny v budoucnu.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Prozkoumejte systémy hlášení ve vaší zemi:</span>",
+          "text": "<span style=\"color: #1c3564\">Prozkoumejte zdroje pro hlášení a podporu ve vaší zemi:&nbsp;</span>",
           "note": "Native heading on How Online Harm Spreads"
         }
       },
@@ -1720,7 +1734,7 @@
       },
       "howPlatformsShapeTheSpreadOf": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Každá platforma funguje jinak.</strong> Designové prvky ovlivňují, jak se obsah šíří, kdo se s ním setká a jak s ním lidé interagují. Vyberte jednotlivé karty a dozvíte se více.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Každá platforma funguje jinak.</strong> Prvky návrhu ovlivňují, jak obsah putuje, kdo se s ním setká a jak s ním lidé zacházejí.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
@@ -1730,7 +1744,7 @@
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Lidský úsudek zůstává zásadní</strong>. Jazyk, kontext, kulturní rozdíly a vyvíjející se taktiky zneužívání mohou ztěžovat přesnou interpretaci škodlivého obsahu. S tím, jak se umělá inteligence používá stále šířeji, se vyvíjí i regulace, která tato rizika řeší a zavádí ochranná opatření pro její používání v různých jurisdikcích.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Lidský úsudek zůstává zásadní.</strong> Systémy AI mohou mít potíže přesně vyložit jazyk, kontext, kulturní rozdíly a vyvíjející se taktiky zneužívání. Lidský dohled je proto důležitý při posuzování škodlivého obsahu a při rozhodování, jak reagovat. S širším využíváním AI se vyvíjí i regulace, aby řešila nová rizika a stanovila pojistky v různých jurisdikcích.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
@@ -1772,12 +1786,17 @@
       },
       "selectARegionToLearnMore": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Tyto regionální příklady jsou volitelným doplňkovým obsahem a neovlivňují váš postup v kurzu.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Regulace AI se v různých místech liší a může ovlivnit, jak se řeší škodlivý obsah, jaká ochrana je dostupná a jaké povinnosti mají online platformy.</span></p><p></p><p><span style=\"color: #091324\">Prozkoumání těchto rozdílů pomáhá pochopit, jak se přístupy k AI a online újmě liší a proč dostupná ochrana a zdroje mohou záviset na tom, kde se nacházíte.</span><br><br>(Níže uvedené země jsou pouze orientační. Další země budou doplněny v budoucnu.)</p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Vyberte region a dozvíte se více o online zneužívání.</span>",
+          "text": "<span style=\"color: #1c3564\">Prozkoumejte regulaci AI a online újmu</span>",
           "note": "Native heading on How Online Harm Spreads"
+        }
+      },
+      "noteTheseActionsProvidePracticalGuidance": {
+        "body": {
+          "text": "<p><span style=\"color: #091324\">POZNÁMKA: Tyto kroky jsou praktickým vodítkem pro reakci na online zneužívání a není nutné je dodržet v daném pořadí. Podle okolností lze některé podniknout současně. Vždy upřednostněte svou bezpečnost a při bezprostředním ohrožení ihned vyhledejte pomoc příslušných orgánů.</span></p>"
         }
       }
     },
@@ -1806,7 +1825,7 @@
           "note": "HTML allowed"
         },
         "b3": {
-          "text": "<strong>Podpora uživatelů:</strong> Nástroje s využitím umělé inteligence mohou pomoci filtrovat nežádoucí obsah a propojit lidi s funkcemi pro hlášení a zabezpečení.",
+          "text": "<strong>Podpora uživatelů:</strong> Nástroje s využitím umělé inteligence mohou jednotlivcům pomoci filtrovat nežádoucí obsah, spravovat jejich online prostředí a využívat funkce pro hlášení a zabezpečení.",
           "note": "HTML allowed"
         }
       }
@@ -1835,6 +1854,22 @@
         },
         "closeAria": {
           "text": "Zavřít"
+        },
+        "forExample": {
+          "text": "Například:",
+          "note": "Shown under the title on law-tabs example cards"
+        },
+        "navAria": {
+          "text": "Navigace karet",
+          "note": "aria-label on law-tabs card navigation"
+        },
+        "prevAria": {
+          "text": "Předchozí karta",
+          "note": "aria-label on previous card"
+        },
+        "nextAria": {
+          "text": "Další karta",
+          "note": "aria-label on next card"
         }
       },
       "tabs": {
@@ -1874,7 +1909,7 @@
             "note": "HTML allowed"
           },
           "example": {
-            "text": "<p>Na internetu se začnou šířit nepravdivá obvinění o sportovci, která jsou opakovaně sdílena. Tato tvrzení poškozují jeho profesní pověst a sponzor s ním po seznámení s nimi ukončí spolupráci.</p><p>V závislosti na platném právu a okolnostech může sportovec podat občanskoprávní žalobu a domáhat se nápravy způsobené újmy, včetně příkazu k odstranění existujícího nepravdivého obsahu, soudního zákazu dalšího zveřejňování, peněžních nároků vůči pachateli, pokud je možné ho identifikovat, atd.</p>",
+            "text": "<p>Na internetu se začnou šířit nepravdivá obvinění o sportovci, která jsou opakovaně sdílena. Tato tvrzení poškozují jeho profesní pověst a sponzor s ním po seznámení s nimi ukončí spolupráci.</p><p>V závislosti na platném právu a okolnostech může sportovec podat občanskoprávní žalobu a domáhat se nápravy způsobené újmy, včetně příkazu k odstranění existujícího nepravdivého obsahu, soudního zákazu dalšího zveřejňování, peněžních nároků vůči pachateli, pokud je možné ho identifikovat.</p>",
             "note": "HTML allowed"
           }
         },
@@ -1934,7 +1969,7 @@
             "text": "Právní prahové hodnoty"
           },
           "html": {
-            "text": "<p>Ne každé škodlivé nebo zneužívající chování automaticky představuje protiprávní jednání nebo zakládá právní nárok. Záleží na příslušné právní definici, důkazech, kontextu a jurisdikci.</p><p>Právní kroky jsou proto jen jednou částí reakce na online zneužívání. Zásady online platforem i vlastní standardy a pravidla sportovních organizací mohou pomoci řešit i takové chování, pro které nemusí být dostatečný důvod k právním krokům.</p>",
+            "text": "<p>Ne každé škodlivé nebo zneužívající chování představuje trestný čin nebo zakládá důvod k právním krokům. Záleží na příslušných právních definicích, důkazech, kontextu a jurisdikci.</p><p>Právní kroky jsou proto jen jednou částí reakce na online zneužívání. Zásady online platforem i vlastní standardy a postupy sportovních organizací mohou pomoci řešit i chování, které nemusí splňovat právní požadavky pro zásah.</p>",
             "note": "HTML allowed"
           }
         }
@@ -1943,10 +1978,10 @@
     "regions": {
       "ui": {
         "prompt": {
-          "text": "Vyberte oblast"
+          "text": "Vyberte zemi"
         },
         "placeholder": {
-          "text": "Vyberte region a podívejte se na příklad, jak se stávající zákony mohou vztahovat na online chování."
+          "text": "Vyberte zemi a podívejte se na příklad, jak se stávající zákony mohou vztahovat na online chování."
         },
         "countriesAria": {
           "text": "Regiony"
@@ -2063,7 +2098,7 @@
           },
           "choices": {
             "c0": {
-              "text": "Chování online nespadá pod národní zákony."
+              "text": "Chování online nelze nikdy považovat za právní záležitost."
             },
             "c1": {
               "text": "Lidé, platformy a škodlivé aktivity mohou překračovat jurisdikce a identifikace odpovědných osob nebo shromažďování důkazů může být obtížné."
@@ -2072,7 +2107,7 @@
               "text": "Online zneužívání lze vyšetřit pouze tehdy, když odpovědný účet používá skutečné jméno."
             },
             "c3": {
-              "text": "Sportovní organizace musí provést vlastní vyšetřování, než se do věci mohou zapojit úřady."
+              "text": "Sportovní organizace nemají právo zapojit úřady."
             }
           },
           "ok": {
@@ -2127,7 +2162,7 @@
           "note": "HTML allowed"
         },
         "i5": {
-          "text": "<strong>Odpovědnost přesahuje rámec zákona.</strong> Sportovní organizace mohou zavádět pravidla, postupy pro nahlašování, podporu v oblasti ochrany (safeguarding) a důsledky za škodlivé chování.",
+          "text": "<strong>Odpovědnost přesahuje rámec zákona.</strong> Sportovní organizace mohou zavádět pravidla, postupy pro nahlašování, podporu v oblasti ochrany a důsledky za škodlivé chování.",
           "note": "HTML allowed"
         },
         "i6": {
@@ -2148,7 +2183,7 @@
       "callout": {
         "pleaseNote": {
           "body": {
-            "text": "<p><span style=\"color: #091324\">Tento modul poskytuje obecný přehled právních reakcí na online zneužívání a nepředstavuje právní poradenství. Zákony se v jednotlivých jurisdikcích liší a mohou se v průběhu času měnit. Pro radu ohledně konkrétní situace se obraťte na příslušně kvalifikovaného odborníka.</span></p>",
+            "text": "<p><span style=\"color: #091324; font-size: 14px\"><strong>Upozornění:</strong> Tento modul poskytuje obecný přehled právních reakcí na online zneužívání a nepředstavuje právní poradenství. Zákony se v jednotlivých jurisdikcích liší a mohou se v průběhu času měnit. Pro radu ohledně konkrétní situace se obraťte na příslušně kvalifikovaného odborníka.</span></p>",
             "note": "Callout body on Knowing Your Rights and Responsibilities"
           },
           "title": {
@@ -2159,7 +2194,7 @@
       },
       "howCanLegalResponsesDifferBy": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Právní reakce na online zneužívání závisí na tom, kde k incidentu dojde a jaké zákony se na něj vztahují. Vyberte region a podívejte se na příklad, jak se stávající zákony mohou vztahovat na online chování.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Právní ochrana před online zneužíváním se v různých místech liší a může ovlivnit, jak se škodlivé chování řeší, jaké právní možnosti existují a jaké povinnosti platí.</span></p><p></p><p><span style=\"color: #091324\">Prozkoumání těchto rozdílů pomáhá pochopit, jak se stávající zákony mohou vztahovat na online zneužívání v různých zemích.</span></p><p></p><p><span style=\"color: #091324\">(Níže uvedené země jsou pouze orientační. Další země budou doplněny v budoucnu.)</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
@@ -2179,7 +2214,7 @@
       },
       "responsibilitiesBeyondTheLaw": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Zákon stanoví právní povinnosti. <strong>Sport si také stanoví vlastní standardy účasti a chování</strong>.</span></p><p></p><p><span style=\"color: #091324\">Kodexy chování, postupy ochrany (safeguarding), bezpečnostní pravidla, disciplinární řízení a pravidla komunity mohou sportovním organizacím pomoci <strong>reagovat na škodlivé chování, i když právní cesta není k dispozici nebo není vhodná.</strong></span></p>",
+          "text": "<p><span style=\"color: #091324\">Právo stanoví právní povinnosti. <strong>Sport také stanoví normy účasti a chování.</strong></span></p><p></p><p><span style=\"color: #091324\">Etické kodexy, postupy ochrany, bezpečnostní zásady, disciplinární procesy a komunitní normy pomáhají vymezit <strong>sdílené, ale odlišné odpovědnosti</strong> jednotlivců a sportovních organizací. Společně tyto mechanismy podporují přiměřenou reakci na škodlivé chování i tehdy, když právní cesta není dostupná nebo vhodná.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
@@ -2189,7 +2224,7 @@
       },
       "selectTheBestOptionForEach": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Vyberte pro každou otázku nejlepší možnost. Než budete moci pokračovat, musíte na každou otázku správně odpovědět. Můžete to zkusit tolikrát, kolikrát chcete.</span></p>",
+          "text": "<p><span style=\"color: #091324\">U každé otázky vyberte nejlepší možnost. Než budete pokračovat do další části, musíte každou otázku zodpovědět správně. Můžete to zkoušet, kolikrát chcete.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2205,11 +2240,11 @@
       },
       "whenOnlineAbuseOccursImportantQuestions": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Když dojde k online zneužívání, mohou vyvstat důležité otázky: <strong>Existuje zákon, který může pomoci? Kdo může jednat? Jaká další ochrana je k dispozici?</strong></span></p><p></p><p><span style=\"color: #091324\">Odpovědi závisejí na konkrétním chování, na tom, kde k němu dochází, a na zákonech, které mohou pomoci. Pochopení hlavních právních cest vám může pomoci rozpoznat, <strong>kdy je možné vyvodit právní odpovědnost a kdy jsou důležité jiné formy opatření</strong>.</span></p><p></p><p><span style=\"color: #091324\">Ve sportu funguje právní ochrana vedle<strong> organizačních pravidel, kodexů chování, postupů ochrany (safeguarding) a standardů sportovního chování</strong>. Tyto mechanismy společně pomáhají stanovit očekávání pro bezpečnější účast v online prostředí.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Když dojde k online zneužívání, mohou vyvstat důležité otázky: <strong>Jaká právní ochrana je dostupná? Kdo může jednat? Jakou odpovědnost mají jednotlivci a organizace?</strong></span></p><p></p><p><span style=\"color: #091324\">Odpovědi závisí na chování, na tom, kde k němu dochází, a na použitelných zákonech. Porozumění hlavním právním cestám pomáhá rozpoznat <strong>vaše práva a povinnosti, kde může přicházet právní odpovědnost a kdy jsou důležité jiné formy jednání.</strong></span></p><p></p><p><span style=\"color: #091324\">Ve sportu právní ochrana stojí vedle <strong>organizačních zásad, etických kodexů, postupů ochrany a norem fair play.</strong> Společně tyto mechanismy pomáhají nastavit očekávání bezpečnější online účasti.</span></p>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Když dojde k online zneužívání, mohou vyvstat důležité otázky: <strong>Existuje zákon, který může pomoci?  Kdo může jednat?  Jaká další ochrana je k dispozici?</strong></span><br><span style=\"color: #1c3564; font-size: 14px\">Odpovědi závisejí na konkrétním chování, na tom, kde k němu dochází, a na zákonech, které mohou pomoci. Pochopení hlavních právních cest vám může pomoci rozpoznat, <strong>kdy je možné vyvodit právní odpovědnost a kdy jsou důležité jiné formy opatření</strong>.</span><br><span style=\"color: #1c3564; font-size: 14px\">Ve sportu funguje právní ochrana vedle <strong>organizačních pravidel, kodexů chování, postupů ochrany (safeguarding) a standardů sportovního chování</strong>. Tyto mechanismy společně pomáhají stanovit očekávání pro bezpečnější účast v online prostředí.</span>",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Když dojde k online zneužívání, mohou vyvstat důležité otázky: <strong>Jaká právní ochrana je dostupná? Kdo může jednat? Jakou odpovědnost mají jednotlivci a organizace?</strong></span><br><span style=\"color: #1c3564; font-size: 14px\">Odpovědi závisí na chování, na tom, kde k němu dochází, a na použitelných zákonech. Porozumění hlavním právním cestám pomáhá rozpoznat <strong>vaše práva a povinnosti, kde může přicházet právní odpovědnost a kdy jsou důležité jiné formy jednání.</strong></span><br><span style=\"color: #1c3564; font-size: 14px\">Ve sportu právní ochrana stojí vedle <strong>organizačních zásad, etických kodexů, postupů ochrany a norem fair play.</strong> Společně tyto mechanismy pomáhají nastavit očekávání bezpečnější online účasti.</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
       },
@@ -2225,7 +2260,7 @@
       },
       "whoCanDoWhat": {
         "col1": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Sportovní organizace by měly:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Definovat online zneužívání a očekávané online chování ve svých pravidlech</span></p></li><li><p><span style=\"color: #091324\">Zavést jasné a dostupné postupy pro nahlašování</span></p></li><li><p><span style=\"color: #091324\">Vyvozovat organizační důsledky při porušení kodexů chování</span></p></li><li><p><span style=\"color: #091324\">Poskytovat vzdělávání o tom, jak online zneužívání rozpoznat, předcházet mu a reagovat na ně</span></p></li><li><p><span style=\"color: #091324\">Zajistit přístup k podpoře duševní pohody a ochrany (safeguarding)</span></p></li><li><p><span style=\"color: #091324\">Ve vhodných případech spolupracovat s platformami, regulačními orgány nebo příslušnými úřady</span></p></li></ul>",
+          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Sportovní organizace by měly:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Definovat online zneužívání a očekávané online chování ve svých pravidlech</span></p></li><li><p><span style=\"color: #091324\">Zavést jasné a dostupné postupy pro nahlašování</span></p></li><li><p><span style=\"color: #091324\">Vyvozovat organizační důsledky při porušení kodexů chování</span></p></li><li><p><span style=\"color: #091324\">Poskytovat vzdělávání o tom, jak online zneužívání rozpoznat, předcházet mu a reagovat na ně</span></p></li><li><p><span style=\"color: #091324\">Zajistit přístup k podpoře duševní pohody a ochrany</span></p></li><li><p><span style=\"color: #091324\">Ve vhodných případech spolupracovat s platformami, regulačními orgány nebo příslušnými úřady</span></p></li></ul>",
           "note": "Native text body on Knowing Your Rights and Responsibilities"
         },
         "col2": {
@@ -2255,7 +2290,7 @@
           "text": "Všechny tři vrstvy prozkoumány"
         },
         "openLayer": {
-          "text": "Prozkoumat"
+          "text": "Číst"
         },
         "overview": {
           "text": "Přehled"
@@ -2264,10 +2299,10 @@
           "text": "Prozkoumáno: {n} ze 3 vrstev"
         },
         "exploredReview": {
-          "text": "Prozkoumáno · Zopakovat"
+          "text": "Číst znovu"
         },
         "startExploring": {
-          "text": "Začněte prozkoumávat"
+          "text": "Pokračovat ve čtení"
         },
         "whyMatter": {
           "text": "Proč na tom záleží?"
@@ -2312,7 +2347,7 @@
             "text": "1"
           },
           "title": {
-            "text": "Individuální"
+            "text": "Jednotlivci"
           },
           "eyebrow": {
             "text": "Vrstva 1 · Jednotlivci"
@@ -2386,7 +2421,7 @@
           },
           "protectItems": {
             "i1": {
-              "text": "Podpora duševní pohody a ochrana (safeguarding)"
+              "text": "Podpora duševní pohody a ochrana"
             },
             "i2": {
               "text": "Nástroje pro bezpečnost platformy a moderování"
@@ -2505,7 +2540,7 @@
             "text": "Chraňte se"
           },
           "body": {
-            "text": "<p>Pro sportovce a další osoby, které působí na veřejnosti:</p><ul><li><strong>Omezte svou expozici.</strong> Zkontrolujte nastavení soukromí a bezpečnosti a určete, kdo vás může kontaktovat, zmínit nebo označit.</li><li><strong>Používejte bezpečnostní nástroje.</strong> Škodlivé účty nebo obsah ztlumte, omezte, zablokujte a nahlaste.</li><li><strong>Uchovávejte důkazy.</strong> Ukládejte si relevantní informace, pokud může být potřeba chování nahlásit nebo eskalovat.</li><li><strong>Chraňte svou duševní pohodu.</strong> Můžete si dát od online interakcí pauzu a vyhledat podporu u lidí, kterým důvěřujete.</li></ul><details><summary><strong>Proč na tom záleží?</strong></summary><p>Na vaší duševní pohodě záleží a podpora je sdílenou odpovědností. Když lidé používají nástroje pro bezpečnost a duševní pohodu, jsou lépe vybaveni k tomu, aby v širší sportovní komunitě předcházeli újmě.</p></details>",
+            "text": "<p>Pro všechny, kdo se účastní sportu a jeho online komunit: </p><ul><li><strong>Omezte svou expozici.</strong> Zkontrolujte nastavení soukromí a bezpečnosti a určete, kdo vás může kontaktovat, zmínit nebo označit.</li><li><strong>Používejte bezpečnostní nástroje.</strong> Škodlivé účty nebo obsah ztlumte, omezte, zablokujte a nahlaste.</li><li><strong>Uchovávejte důkazy.</strong> Ukládejte si relevantní informace, pokud může být potřeba chování nahlásit nebo eskalovat.</li><li><strong>Chraňte svou duševní pohodu.</strong> Můžete si dát od online interakcí pauzu a vyhledat podporu u lidí, kterým důvěřujete.</li></ul><details><summary><strong>Proč na tom záleží?</strong></summary><p>Na vaší duševní pohodě záleží a podpora je sdílenou odpovědností. Když lidé používají nástroje pro bezpečnost a duševní pohodu, jsou lépe vybaveni k tomu, aby v širší sportovní komunitě předcházeli újmě.</p></details>",
             "note": "HTML allowed"
           }
         },
@@ -2550,7 +2585,7 @@
             "text": "Chránit"
           },
           "body": {
-            "text": "<p>Poskytněte podporu duševní pohody a ochranu (safeguarding), nástroje pro bezpečnost platformy, moderování a vhodné mechanismy pro ohrožené osoby.</p>",
+            "text": "<p>Poskytněte podporu duševní pohody a ochranu, nástroje pro bezpečnost platformy, moderování a vhodné mechanismy pro ohrožené osoby.</p>",
             "note": "HTML allowed"
           }
         },
@@ -2693,10 +2728,10 @@
       },
       "labels": {
         "l0": {
-          "text": "Individuals"
+          "text": "Jednotlivci"
         },
         "l1": {
-          "text": "Organisations"
+          "text": "Organizace"
         },
         "l2": {
           "text": "Společnost"
@@ -2721,7 +2756,7 @@
             "text": "Po několika incidentech online zneužívání zavedla sportovní federace systém hlášení, školení zaměstnanců a ochranné postupy."
           },
           "ok": {
-            "text": "<strong>Správně!</strong> Postupy pro nahlašování, školení a postupy ochrany (safeguarding) jsou organizační rámce.",
+            "text": "<strong>Správně!</strong> Postupy pro nahlašování, školení a postupy ochrany jsou organizační rámce.",
             "note": "HTML allowed"
           },
           "bad": {
@@ -2784,7 +2819,7 @@
           "note": "HTML allowed"
         },
         "i3": {
-          "text": "<strong>Organizace poskytují strukturu a podporu.</strong> Jasné rámce, ochrana (safeguarding), postupy pro nahlašování a koordinované kroky pomáhají organizacím připravit se na online zneužívání a reagovat na něj.",
+          "text": "<strong>Organizace poskytují strukturu a podporu.</strong> Jasné rámce, ochrana, postupy pro nahlašování a koordinované kroky pomáhají organizacím připravit se na online zneužívání a reagovat na něj.",
           "note": "HTML allowed"
         },
         "i4": {
@@ -2830,7 +2865,7 @@
       },
       "image": {
         "throughStrongerTogetherUaoaBringsPeople": {
-          "text": "<p><strong>Stronger Together</strong> is one of UAOA's three core strategic pillars, bringing sporting organisations, technology platforms, governments, and other partners together to tackle online abuse.</p><p>Through educational resources, organisational readiness tools, research partnerships, and international events, UAOA helps turn individual knowledge into institutional action and broader cooperation. These efforts support <strong>prevention, preparedness, and coordinated responses</strong> across the sporting community.</p>",
+          "text": "<p><strong>Stronger Together</strong> je jedním ze tří hlavních strategických pilířů UAOA a spojuje sportovní organizace, technologické platformy, vlády a další partnery v boji proti online zneužívání.<br></p><p></p><p>Prostřednictvím vzdělávacích zdrojů, nástrojů organizační připravenosti, výzkumných partnerství a mezinárodních akcí pomáhá UAOA proměnit individuální znalosti v institucionální jednání a širší spolupráci. Toto úsilí podporuje <strong>prevenci, připravenost a koordinovanou reakci</strong> napříč sportovní komunitou.</p>",
           "note": "Image body text on Take Action: Building Safer Digital Sport Communities"
         }
       },
@@ -2846,11 +2881,11 @@
       },
       "onlineAbuseInSportCanAffect": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Online zneužívání ve sportu může přímo zasáhnout jednoho člověka, ale <strong>nikdo na něj nemusí reagovat sám</strong>. Každý z nás se může podílet na vytváření bezpečnějších digitálních prostorů, ať už chráníme vlastní duševní pohodu, podporujeme někoho, kdo se stal terčem, jsme svědky škodlivého chování, nebo pomáháme druhým prostřednictvím své práce ve sportu.</span></p><p></p><p><span style=\"color: #091324\">Kroky, které můžeme podniknout, závisejí na naší roli a okolnostech. Jednotlivci mohou chránit sebe a podporovat ostatní. Organizace mohou poskytovat jasné postupy pro nahlašování, podporu a koordinované kroky. Napříč sportovními komunitami mohou vzdělávání, výzkum, politika a sdílené standardy pomáhat předcházet újmě a posilovat naši reakci.</span></p><p></p><p><span style=\"color: #091324\">V tomto závěrečném modulu prozkoumáte, jak se tyto různé úrovně jednání propojují, čím můžete přispět vy a jak může spolupráce pomoci budovat bezpečnější digitální sportovní komunity.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Porozumět online zneužívání je důležitý první krok. <strong>Vědět, jak reagovat a kdy jednat, může něco změnit</strong> pro vás, pro člověka, který zneužívání zažívá, i pro širší sportovní komunitu.</span></p><p></p><p><span style=\"color: #091324\">Jednat lze na různých úrovních. <strong>Jednotlivci</strong> se mohou chránit, hlásit škodlivé chování a podporovat druhé. <strong>Sportovní organizace</strong> mohou nabídnout kanály pro hlášení, opatření na ochranu a koordinovanou reakci. V širší <strong>sportovní komunitě</strong> mohou vzdělávání, výzkum a společné zásady pomáhat újmě předcházet.</span></p><p></p><p><span style=\"color: #091324\"><strong>Společně tyto kroky vytvářejí silnější a propojenější reakci na online zneužívání.</strong></span></p><p></p><p><span style=\"color: #091324\">V tomto závěrečném modulu prozkoumáte praktické cesty k jednání, jak jednotlivé úrovně podpory spolupracují a kde můžete přispět k bezpečnějším digitálním prostorům ve sportu.</span></p>",
           "note": "Native text body on Take Action: Building Safer Digital Sport Communities"
         },
         "heading": {
-          "text": "<span style=\"color: #1c3564; font-size: 14px\">Online zneužívání ve sportu může přímo zasáhnout jednoho člověka, ale <strong>nikdo na něj nemusí reagovat sám</strong>. Každý z nás se může podílet na vytváření bezpečnějších digitálních prostorů, ať už chráníme vlastní duševní pohodu, podporujeme někoho, kdo se stal terčem, jsme svědky škodlivého chování, nebo pomáháme druhým prostřednictvím své práce ve sportu.</span><br><br><span style=\"color: #1c3564; font-size: 14px\">Kroky, které můžeme podniknout, závisejí na naší roli a okolnostech. Jednotlivci mohou chránit sebe a podporovat ostatní. Organizace mohou poskytovat jasné postupy pro nahlašování, podporu a koordinované kroky. Napříč sportovními komunitami mohou vzdělávání, výzkum, politika a sdílené standardy pomáhat předcházet újmě a posilovat naši reakci.</span><br><br><span style=\"color: #1c3564; font-size: 14px\">V tomto závěrečném modulu prozkoumáte, jak se tyto různé úrovně jednání propojují, čím můžete přispět vy a jak může spolupráce pomoci budovat bezpečnější digitální sportovní komunity.</span>",
+          "text": "<span style=\"color: #1c3564; font-size: 14px\">Porozumět online zneužívání je důležitý první krok. <strong>Vědět, jak reagovat a kdy jednat, může něco změnit</strong> pro vás, pro člověka, který zneužívání zažívá, i pro širší sportovní komunitu.</span><br><br><span style=\"color: #1c3564; font-size: 14px\">Jednat lze na různých úrovních. <strong>Jednotlivci</strong> se mohou chránit, hlásit škodlivé chování a podporovat druhé. <strong>Sportovní organizace</strong> mohou nabídnout kanály pro hlášení, opatření na ochranu a koordinovanou reakci. V širší <strong>sportovní komunitě</strong> mohou vzdělávání, výzkum a společné zásady pomáhat újmě předcházet.</span><br><br><span style=\"color: #1c3564; font-size: 14px\"><strong>Společně tyto kroky vytvářejí silnější a propojenější reakci na online zneužívání.</strong></span><br><br><span style=\"color: #1c3564; font-size: 14px\">V tomto závěrečném modulu prozkoumáte praktické cesty k jednání, jak jednotlivé úrovně podpory spolupracují a kde můžete přispět k bezpečnějším digitálním prostorům ve sportu.</span>",
           "note": "Native heading on Take Action: Building Safer Digital Sport Communities"
         }
       },
@@ -2869,6 +2904,26 @@
     }
   },
   "summary": {
+    "exitScore": {
+      "heading": {
+        "text": "Vaše skóre je {n} %!",
+        "note": "{n} is the live final-quiz percentage"
+      },
+      "body": {
+        "text": "Vaše skóre odráží vaši současnou připravenost rozpoznat online zneužívání a činit informovaná rozhodnutí, když k němu dojde."
+      }
+    },
+    "exitThankyou": {
+      "body": {
+        "text": "Děkujeme, že jste si na učení s námi vyhradili čas. Znalosti a praktické porozumění, které jste získali, vám mohou pomoci rozpoznat škodlivé chování, reagovat s větší jistotou, podporovat ostatní a přispívat k bezpečnějším digitálním sportovním komunitám."
+      },
+      "quote1": {
+        "text": "Každé informované rozhodnutí se počítá."
+      },
+      "quote2": {
+        "text": "Společně můžeme pomoci učinit sport v online prostředí bezpečnějším."
+      }
+    },
     "quiz": {
       "questions": {
         "q1": {
@@ -2892,12 +2947,12 @@
             "note": "HTML allowed"
           },
           "next": {
-            "text": "To se zdá hodně"
+            "text": "Tak kde začneme?"
           }
         },
         "q2": {
           "prompt": {
-            "text": "S čím je podle výzkumu u sportovců spojeno větší vystavení online obtěžování?"
+            "text": "Se kterým z následujících účinků je podle výzkumu u sportovců spojeno online obtěžování?"
           },
           "choices": {
             "c0": {
@@ -2943,7 +2998,7 @@
         },
         "q4": {
           "prompt": {
-            "text": "<span class=\"scenario\">Hráč po prohře dostává ponižující komentáře. Podobné zprávy zaplavují jeho účet celé dny a útočí i na jeho rasu.</span>Co se děje?",
+            "text": "<span class=\"scenario\">Hráč po prohře dostává ponižující komentáře. Podobné zprávy dál zaplavují jeho účet celé dny, včetně útoků na základě rasy.</span><strong>Které typy online zneužívání se v této situaci vyskytují?</strong>",
             "note": "HTML allowed"
           },
           "choices": {
@@ -3113,6 +3168,10 @@
           "prompt": {
             "text": "Chtěli byste s UAOA podniknout další kroky?"
           },
+          "hint": {
+            "text": "Vyberte jednu odpověď – tato otázka se nehodnotí",
+            "note": "Ungraded Q11 helper under the stem; en dash (U+2013), no terminal period"
+          },
           "choices": {
             "c0": {
               "text": "Chci jednat"
@@ -3132,7 +3191,7 @@
             "note": "HTML allowed — ungraded item"
           },
           "next": {
-            "text": "Podívejte se na svou připravenost!"
+            "text": "Podívejte se na své skóre!"
           },
           "links": {
             "act": {
@@ -3176,7 +3235,7 @@
           "note": "Hint under the question on the open final-quiz layout"
         },
         "ok": {
-          "text": "OK",
+          "text": "Dobře",
           "note": "Confirm selection before reveal"
         },
         "pressEnter": {
@@ -3307,13 +3366,16 @@
       "exit": {
         "congratulations": {
           "heading": {
-            "text": "<span style=\"color: #1c3564\">Gratulujeme!</span>",
+            "text": "<span style=\"color: #1c3564\"><strong>Gratulujeme!</strong></span>",
             "note": "Native heading on Exit Page"
+          },
+          "body": {
+            "text": "<p class=\"course-block-heading\" style=\"text-align: center\"><span style=\"color: #091324; font-size: 50px\"><strong>Gratulujeme!</strong></span></p><p style=\"text-align: center\"><span style=\"color: #091324\"><strong>Nyní jste lépe připraveni jednat proti online zneužívání.</strong></span></p>"
           }
         },
         "youAreNowBetterPreparedTo": {
           "body": {
-            "text": "<p><span style=\"color: rgb(9, 19, 36)\"><strong>Nyní jste lépe připraveni jednat proti online zneužívání.</strong><br><br>Děkujeme, že jste si udělali čas a učili se s námi. Znalosti a praktické porozumění, které jste získali, vám mohou pomoci rozpoznat škodlivé chování, reagovat s větší jistotou, podporovat ostatní a přispívat k bezpečnějším digitálním sportovním komunitám.</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Na každém informovaném kroku záleží. Společně můžeme pomoci učinit sport v online prostředí bezpečnějším.</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\">Děkujeme, že jste absolvovali e-learningový kurz UAOA!</span></p><p></p><p><span style=\"color: rgb(9, 19, 36)\"><strong>UAOA</strong></span></p>",
+            "text": "<p><span style=\"color: #091324\">Naučili jste se rozpoznat online zneužívání, pochopit jeho dopad a reagovat bezpečněji v individuálním, organizačním i širším sportovním kontextu.</span></p>",
             "note": "Native text body on Exit Page"
           }
         },
@@ -3325,6 +3387,11 @@
           "heading": {
             "text": "Vaše připravenost",
             "note": "Native heading on Exit Page"
+          }
+        },
+        "image": {
+          "thankYouForCompletingTheUaoa": {
+            "text": "<p><span style=\"color: #091324\"><strong>Děkujeme, že jste dokončili e-learningový kurz UAOA!</strong></span></p>"
           }
         }
       },
@@ -3358,7 +3425,7 @@
         "text": "Oznámení o citlivém tématu"
       },
       "body": {
-        "text": "Tento kurz se zabývá tématy, která mohou být pro některé čtenáře obtížná nebo znepokojivá. Doporučujeme vám procházet látku tempem, které považujete za vhodné, a v případě potřeby vyhledat podporu. Nezapomeňte, že kurz můžete kdykoli opustit a vrátit se, až se budete cítit připraveni."
+        "text": "Tento kurz se zabývá tématy, která mohou být pro některé účastníky obtížná nebo znepokojivá. Doporučujeme vám procházet látku tempem, které považujete za vhodné, a v případě potřeby vyhledat podporu. Nezapomeňte, že kurz můžete kdykoli opustit a vrátit se, až se budete cítit připraveni."
       },
       "viewSupport": {
         "text": "Zobrazit možnosti podpory"
@@ -3485,6 +3552,32 @@
       "regionAria": {
         "text": "Podpora kurzu",
         "note": "aria-label on floater stack"
+      }
+    },
+    "disclaimerModal": {
+      "navAria": {
+        "text": "Zobrazit prohlášení",
+        "note": "Left-nav control above the support pill. Visible label on wide layout; icon-only below 768px. Accessible name in both states."
+      },
+      "confirm": {
+        "text": "Potvrzuji, že jsem si prohlášení přečetl(a) a porozuměl(a) mu.",
+        "note": "Kept in the catalog. The Welcome disclaimer modal no longer shows this sentence; the short button is embeds.disclaimerModal.understand."
+      },
+      "understand": {
+        "text": "Rozumím",
+        "note": "Short pill button on the Welcome disclaimer modal. Clicking it acknowledges and dismisses. Same persistence as the former checkbox."
+      },
+      "coFunded": {
+        "text": "Spolufinancováno Evropskou unií",
+        "note": "Caption under the EU flag in the disclaimer modal. No existing course string; official EU co-funded wording."
+      },
+      "logoAria": {
+        "text": "UAOA",
+        "note": "Alt text for the UAOA mark in the disclaimer modal."
+      },
+      "fia": {
+        "text": "Tento kurz obsahuje vzdělávací materiály, včetně výzkumu, údajů a citací od třetích stran, poskytované výhradně pro informační a vzdělávací účely. Přestože vybíráme renomované zdroje, nezávisle neověřujeme ani nezaručujeme absolutní přesnost, úplnost ani aktuální platnost těchto externích informací, protože výzkum a standardy odvětví se neustále vyvíjejí. Jakékoli spoléhání na tyto materiály nebo pokyny či jejich uplatnění je výhradně na vlastní riziko studenta; v případě studentů, kteří jsou nezletilí, nesou rodiče nebo zákonní zástupci plnou odpovědnost za přezkoumání obsahu kurzu a za dohled nad jeho používáním. Zahrnutí citací třetích stran neznamená žádné schválení, sponzorství ani formální partnerství mezi UAOA a citovanými institucemi nebo autory.",
+        "note": "Restored from previous overlay / review catalog (welcome.slide.fiaDisclaimer.body). Disclaimer modal bakes this as plain text."
       }
     }
   },
@@ -4419,7 +4512,7 @@
   "welcome": {
     "partners": {
       "caption": {
-        "text": "UAOA děkuje partnerským klubům FIA, Autoklubu České republiky (Česká republika), Zveze za avto sport Slovenije - AS (Slovinsko), Real Federación Española De Automovilismo (Španělsko) a Svenska Bilsportförbundet (Švédsko), spolu s příslušnými akademickými partnery, Karlovou univerzitou v Praze, prof. Matějem Tusakem (Slovinsko), ESBS (European Sport Business School (ESBS Španělsko)) a doc. Lise Kaati (Stockholmská univerzita) za přispění k vývoji tohoto e-learningového kurzu.",
+        "text": "United Against Online Abuse (UAOA) s vděkem oceňuje přínos svých partnerů programu Erasmus+ k vývoji tohoto e-learningového kurzu: členských klubů FIA Autoklub České republiky (Česká republika), Zveza za avto šport Slovenije – AŠ (Slovinsko), Real Federación Española de Automovilismo (Španělsko) a Svenska Bilsportförbundet (Švédsko), spolu s akademickými partnery Charles University (Česká republika), Prof. Matej Tušak (Slovinsko), European Sport Business School (Španělsko) a Docent Lisa Kaati, Stockholm University (Švédsko).",
         "note": "Welcome partner-acknowledgements caption embed (teal italic box under video)"
       }
     },
@@ -4468,11 +4561,11 @@
       },
       "sportConnectsMillionsOfPeopleAcross": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Sport spojuje miliony lidí</strong> napříč zeměmi, kulturami a generacemi díky vášni, hrdosti a vzrušení ze soutěžení.<br><br><strong>Online zneužívání toto spojení ohrožuje.</strong> Když jsou sportovci, rozhodčí, dobrovolníci a fanoušci online napadáni za to, kým jsou nebo jaký podávají výkon, následky mohou sahat daleko za hranice obrazovky – zraňují lidi, ničí kariéry a normalizují zneužívající chování.<br><br><strong>United Against Online Abuse (UAOA)</strong> sdružuje více než 75 vlád, sportovních organizací, akademiků a technologických platforem kolem společného cíle: <strong>chránit sport před online zneužíváním.</strong> Trvalá změna vyžaduje kroky napříč institucemi, komunitami <strong>i jednotlivci – a to včetně vás.</strong></span></p><p></p><p><span style=\"color: #091324\">Hlavním cílem iniciativy UAOA a tohoto <strong>e-learningového kurzu</strong>, vytvořeného ve spolupráci s Univerzitou Notre Dame, je pomoci vám rozpoznat různé formy online zneužívání, pochopit jejich dopad na vaši sportovní komunitu a s jistotou používat postupy nahlašování. Po jeho absolvování <strong>vás tento kurz připraví</strong> k informovaným krokům a k tomu, abyste přispěli k bezpečnějšímu sportovnímu prostředí.</span></p><p></p><p><span style=\"color: #091324\"><strong>Děkujeme, že se k tomuto úsilí připojujete.</strong></span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Sport spojuje miliony lidí</strong> napříč zeměmi, kulturami a generacemi díky vášni, hrdosti a vzrušení ze soutěžení.<br><br><strong>Online zneužívání toto spojení ohrožuje.</strong> Když jsou sportovci, rozhodčí, dobrovolníci a fanoušci online napadáni za to, kým jsou nebo jaký podávají výkon, následky mohou sahat daleko za hranice obrazovky – zraňují lidi, ničí kariéry a normalizují zneužívající chování.<br><br><strong>United Against Online Abuse (UAOA)</strong>, kterou založil prezident FIA Mohammed Ben Sulayem, sdružuje více než 75 vlád, sportovních organizací, akademických institucí a technologických platforem kolem společného cíle: <strong>chránit sport před online zneužíváním.</strong> Trvalá změna vyžaduje kroky napříč institucemi, komunitami <strong>i jednotlivci – a to včetně vás.</strong></span></p><p></p><p><span style=\"color: #091324\">Hlavním cílem iniciativy UAOA a tohoto <strong>e-learningového kurzu</strong>, vytvořeného ve spolupráci s Univerzitou Notre Dame vám tento e-learningový kurz pomůže rozpoznat různé formy online zneužívání, pochopit jejich dopad na vaši sportovní komunitu a s jistotou používat postupy nahlašování. Po jeho absolvování <strong>budete lépe připraveni</strong> k informovaným krokům a k tomu, abyste přispěli k bezpečnějšímu sportovnímu prostředí.</span></p><p></p><p><span style=\"color: #091324\"><strong>Vaše cesta k bezpečnějšímu sportovnímu prostředí začíná zde.</strong></span></p>",
           "note": "Native text body on Welcome"
         },
         "p3": {
-          "text": "<p>United Against Online Abuse (UAOA) sdružuje více než 75 vlád, sportovních organizací, akademiků a technologických platforem kolem společného cíle: chránit sport před online zneužíváním. Trvalá změna vyžaduje kroky napříč institucemi, komunitami i jednotlivci, a to včetně vás.</p>",
+          "text": "<p>United Against Online Abuse (UAOA) sdružuje více než 75 vlád, sportovních organizací, akademiků a technologických platforem kolem společného cíle: chránit sport před online zneužíváním. Trvalá změna vyžaduje kroky napříč institucemi, komunitami <strong>i jednotlivci, a to včetně vás.</strong></p>",
           "note": "Native text body on Welcome"
         }
       },
@@ -4483,12 +4576,12 @@
         }
       },
       "buildReadinessBody": {
-        "text": "<p><span style=\"color: #091324\">Povědomí je jen začátek. Tento kurz rozvíjí praktické znalosti a dovednosti potřebné k pochopení online zneužívání a k informovaným krokům pro vás i pro vaši sportovní komunitu.</span></p><p></p><p><span style=\"color: #091324\">Kurz je navržen tak, aby vám vyhověl bez ohledu na to, jak dobře již téma znáte:</span></p><ul style=\"margin: 0.5em 0 0.75em; padding-left: calc(1.35em + 10pt);\"><li style=\"margin: 0 0 10pt; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Pokud se s online zneužíváním již vyznáte</strong>, prohloubíte své znalosti systémů nahlašování, digitálních platforem, umělé inteligence a nových přístupů k prevenci a reakci.</span></p></li><li style=\"margin: 0; color: #091324;\"><p style=\"margin: 0;\"><span style=\"color: #091324\"><strong>Pokud je pro vás téma nové</strong>, vybudujete si pevný základ a najdete praktické způsoby, jak přispět k bezpečnějším online postupům a digitálním prostorům ve sportu.</span></p></li></ul><p><span style=\"color: #091324\">Na konci kurzu budete lépe připraveni <strong>rozpoznat online zneužívání, reagovat s jistotou a aktivně se podílet na vytváření bezpečnějšího sportu.</strong></span></p>",
+        "text": "<p><span style=\"color: #091324\"><strong>Povědomí je jen začátek.</strong> Tento kurz vám dává znalosti a praktické dovednosti k pochopení online zneužívání a k informovanému jednání.</span></p><p></p><p><span style=\"color: #091324\">Ať je pro vás téma nové, nebo už je znáte, prozkoumáte systémy hlášení, digitální platformy, AI a přístupy k prevenci a reakci.</span></p><p></p><p><span style=\"color: #091324\">Na konci kurzu budete lépe připraveni <strong>rozpoznat online zneužívání, reagovat s jistotou a přispět k bezpečnějšímu sportu.</strong></span></p>",
         "note": "Native text body on Welcome"
       },
       "unitedAgainstOnlineAbuseUaoaBrings": {
         "p3": {
-          "text": "<p>United Against Online Abuse (UAOA) sdružuje více než 75 vlád, sportovních organizací, akademiků a technologických platforem kolem společného cíle: chránit sport před online zneužíváním. Trvalá změna vyžaduje kroky napříč institucemi, komunitami i jednotlivci – a to včetně vás.</p>"
+          "text": "<p>United Against Online Abuse (UAOA), kterou založil prezident FIA Mohammed Ben Sulayem, sdružuje více než 75 vlád, sportovních organizací, akademických institucí a technologických platforem kolem společného cíle: chránit sport před online zneužíváním. Trvalá změna vyžaduje kroky napříč institucemi, komunitami <strong>i jednotlivci – a to včetně vás.</strong></p>"
         }
       }
     },
