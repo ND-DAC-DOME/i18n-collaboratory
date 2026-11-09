@@ -1029,7 +1029,7 @@
           "text": "Vybráno {n}"
         },
         "ok": {
-          "text": "<strong>Tyto dopady mohou být vzájemně propojené.</strong> Online zneužívání může zasáhnout několik oblastí života člověka současně a jeho dopady se mohou časem rozvíjet nebo zesilovat. Rozpoznání těchto signálů může lidem ve sportu pomoci reagovat s větším porozuměním a podporou.",
+          "text": "<strong>Tyto dopady mohou být vzájemně propojené, a proto je každý z nich správný.</strong> Online zneužívání může zasáhnout několik oblastí života člověka současně a jeho dopady se mohou časem rozvíjet nebo zesilovat. Rozpoznání těchto signálů může lidem ve sportu pomoci reagovat s větším porozuměním a podporou.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1076,7 +1076,7 @@
           "text": "Co ukazuje výzkum"
         },
         "done": {
-          "text": "Aktivita dokončena – zkontrolovali jste všech šest dopadů"
+          "text": "<strong>Tyto dopady mohou být vzájemně propojené, a proto je každý z nich správný.</strong> Online zneužívání může zasáhnout několik oblastí života člověka současně a jeho dopady se mohou časem rozvíjet nebo zesilovat. Rozpoznání těchto signálů může lidem ve sportu pomoci reagovat s větším porozuměním a podporou."
         },
         "sourceLabel": {
           "text": "Zdroj:"

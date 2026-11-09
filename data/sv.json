@@ -1029,7 +1029,7 @@
           "text": "Valda: {n}"
         },
         "ok": {
-          "text": "<strong>Dessa effekter kan vara sammankopplade.</strong> Övergrepp online kan påverka flera områden i en persons liv samtidigt, och effekterna kan utvecklas eller förstärkas över tid. Att känna igen dessa tecken kan hjälpa människor inom idrotten att reagera med större medvetenhet och stöd.",
+          "text": "<strong>Dessa effekter kan vara sammankopplade och därför är var och en av dem korrekt.</strong> Övergrepp online kan påverka flera områden i en persons liv samtidigt, och effekterna kan utvecklas eller förstärkas över tid. Att känna igen dessa tecken kan hjälpa människor inom idrotten att reagera med större medvetenhet och stöd.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1076,7 +1076,7 @@
           "text": "Vad forskningen visar"
         },
         "done": {
-          "text": "Aktivitet klar — du har granskat alla sex effekter"
+          "text": "<strong>Dessa effekter kan vara sammankopplade och därför är var och en av dem korrekt.</strong> Övergrepp online kan påverka flera områden i en persons liv samtidigt, och effekterna kan utvecklas eller förstärkas över tid. Att känna igen dessa tecken kan hjälpa människor inom idrotten att reagera med större medvetenhet och stöd."
         },
         "sourceLabel": {
           "text": "Källa:"

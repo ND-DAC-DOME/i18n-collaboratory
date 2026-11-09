@@ -1040,7 +1040,7 @@
           "text": "{n} selected"
         },
         "ok": {
-          "text": "<strong>These impacts can be interconnected.</strong> Online abuse may affect several areas of a person’s life at the same time, and the effects may develop or intensify over time. Recognising these signs can help people across sport respond with greater awareness and support.",
+          "text": "<strong>These impacts can be interconnected and thus each of them are correct.</strong> Online abuse may affect several areas of a person’s life at the same time, and the effects may develop or intensify over time. Recognising these signs can help people across sport respond with greater awareness and support.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1087,7 +1087,8 @@
           "text": "What the research shows"
         },
         "done": {
-          "text": "Activity complete — you’ve reviewed all six impacts"
+          "text": "<strong>These impacts can be interconnected and thus each of them are correct.</strong> Online abuse may affect several areas of a person’s life at the same time, and the effects may develop or intensify over time. Recognising these signs can help people across sport respond with greater awareness and support.",
+          "note": "HTML allowed — finished-state confirmation after all six impacts are viewed"
         },
         "sourceLabel": {
           "text": "Source:",

@@ -1029,7 +1029,7 @@
           "text": "{n} seleccionados"
         },
         "ok": {
-          "text": "<strong>Estos impactos pueden estar interconectados.</strong> El abuso en línea puede afectar varias áreas de la vida de una persona simultáneamente, y sus efectos pueden desarrollarse o intensificarse con el tiempo. Reconocer estas señales puede ayudar a las personas en el ámbito deportivo a responder con mayor sensibilización y brindar apoyo.",
+          "text": "<strong>Estos impactos pueden estar interconectados y, por tanto, cada uno de ellos es correcto.</strong> El abuso en línea puede afectar varias áreas de la vida de una persona simultáneamente, y sus efectos pueden desarrollarse o intensificarse con el tiempo. Reconocer estas señales puede ayudar a las personas en el ámbito deportivo a responder con mayor sensibilización y brindar apoyo.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1076,7 +1076,7 @@
           "text": "Lo que muestra la investigación"
         },
         "done": {
-          "text": "Actividad completada: has revisado los seis impactos."
+          "text": "<strong>Estos impactos pueden estar interconectados y, por tanto, cada uno de ellos es correcto.</strong> El abuso en línea puede afectar varias áreas de la vida de una persona simultáneamente, y sus efectos pueden desarrollarse o intensificarse con el tiempo. Reconocer estas señales puede ayudar a las personas en el ámbito deportivo a responder con mayor sensibilización y brindar apoyo."
         },
         "sourceLabel": {
           "text": "Fuente:"

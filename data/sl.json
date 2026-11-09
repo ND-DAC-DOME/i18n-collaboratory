@@ -1029,7 +1029,7 @@
           "text": "{n} izbranih"
         },
         "ok": {
-          "text": "<strong>Ti vplivi so lahko medsebojno povezani.</strong> Spletna zloraba lahko hkrati vpliva na več področij človekovega življenja, učinki pa se lahko sčasoma razvijejo ali okrepijo. Prepoznavanje teh znakov lahko ljudem v športu pomaga, da se odzovejo z večjo ozaveščenostjo in podporo.",
+          "text": "<strong>Ti vplivi so lahko medsebojno povezani, zato je vsak od njih pravilen.</strong> Spletna zloraba lahko hkrati vpliva na več področij človekovega življenja, učinki pa se lahko sčasoma razvijejo ali okrepijo. Prepoznavanje teh znakov lahko ljudem v športu pomaga, da se odzovejo z večjo ozaveščenostjo in podporo.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1076,7 +1076,7 @@
           "text": "Kaj kaže raziskava"
         },
         "done": {
-          "text": "Dejavnost je končana – pregledali ste vseh šest vplivov"
+          "text": "<strong>Ti vplivi so lahko medsebojno povezani, zato je vsak od njih pravilen.</strong> Spletna zloraba lahko hkrati vpliva na več področij človekovega življenja, učinki pa se lahko sčasoma razvijejo ali okrepijo. Prepoznavanje teh znakov lahko ljudem v športu pomaga, da se odzovejo z večjo ozaveščenostjo in podporo."
         },
         "sourceLabel": {
           "text": "Vir:"

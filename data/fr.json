@@ -1029,7 +1029,7 @@
           "text": "{n} sélectionné(s)"
         },
         "ok": {
-          "text": "<strong>Ces impacts peuvent être interdépendants.</strong> Les abus en ligne peuvent affecter simultanément plusieurs aspects de la vie d'une personne, et leurs effets peuvent se développer ou s'intensifier avec le temps. Savoir reconnaître ces signes peut aider les acteurs du monde sportif à réagir avec plus de discernement et de soutien.",
+          "text": "<strong>Ces impacts peuvent être interdépendants et, par conséquent, chacun d'eux est correct.</strong> Les abus en ligne peuvent affecter simultanément plusieurs aspects de la vie d'une personne, et leurs effets peuvent se développer ou s'intensifier avec le temps. Savoir reconnaître ces signes peut aider les acteurs du monde sportif à réagir avec plus de discernement et de soutien.",
           "note": "HTML allowed"
         },
         "bad": {
@@ -1076,7 +1076,7 @@
           "text": "Ce que la recherche montre"
         },
         "done": {
-          "text": "Activité terminée — vous avez examiné les six impacts"
+          "text": "<strong>Ces impacts peuvent être interdépendants et, par conséquent, chacun d'eux est correct.</strong> Les abus en ligne peuvent affecter simultanément plusieurs aspects de la vie d'une personne, et leurs effets peuvent se développer ou s'intensifier avec le temps. Savoir reconnaître ces signes peut aider les acteurs du monde sportif à réagir avec plus de discernement et de soutien."
         },
         "sourceLabel": {
           "text": "Source :"
