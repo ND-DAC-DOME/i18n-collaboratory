@@ -3216,9 +3216,9 @@
               "note": "Inline masked links for Q11 choice c0 — multiple items join with a plain “ / ” separator inside the answer pill",
               "items": [
                 {
-                  "text": "UAOA resources",
+                  "text": "Get Involved",
                   "url": {
-                    "text": "https://unitedagainstonlineabuse.com/resources/",
+                    "text": "https://unitedagainstonlineabuse.com/get-involved/",
                     "note": "External URL for Q11 choice c0 — opens in new tab"
                   }
                 },
@@ -3232,16 +3232,16 @@
               ]
             },
             "learn": {
-              "text": "UAOA webinar series",
+              "text": "UAOA Webinar Series",
               "url": {
                 "text": "https://unitedagainstonlineabuse.com/webinar-series/",
                 "note": "External URL for Q11 choice c1 — opens in new tab"
               }
             },
             "org": {
-              "text": "UAOA – Organisational Readiness Platform",
+              "text": "UAOA - Organizational Readiness Platform",
               "url": {
-                "text": "https://orp.unitedagainstonlineabuse.com/",
+                "text": "https://orp.unitedagainstonlineabuse.com",
                 "note": "External URL for Q11 choice c2 — opens in new tab"
               }
             }

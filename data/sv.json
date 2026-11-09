@@ -3197,9 +3197,9 @@
             "act": {
               "items": [
                 {
-                  "text": "UAOA:s resurser",
+                  "text": "Get Involved",
                   "url": {
-                    "text": "https://unitedagainstonlineabuse.com/resources/",
+                    "text": "https://unitedagainstonlineabuse.com/get-involved/",
                     "note": "External URL for Q11 choice c0 — opens in new tab"
                   }
                 },
@@ -3213,16 +3213,16 @@
               ]
             },
             "learn": {
-              "text": "UAOA-webbinariumserie",
+              "text": "UAOA Webinar Series",
               "url": {
                 "text": "https://unitedagainstonlineabuse.com/webinar-series/",
                 "note": "External URL for Q11 choice c1 — opens in new tab"
               }
             },
             "org": {
-              "text": "UAOA – Plattform för organisatorisk beredskap",
+              "text": "UAOA - Organizational Readiness Platform",
               "url": {
-                "text": "https://orp.unitedagainstonlineabuse.com/",
+                "text": "https://orp.unitedagainstonlineabuse.com",
                 "note": "External URL for Q11 choice c2 — opens in new tab"
               }
             }
