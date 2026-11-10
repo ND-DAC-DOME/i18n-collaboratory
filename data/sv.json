@@ -257,7 +257,7 @@
         },
         "s3": {
           "text": {
-            "text": "Efter ett beslut får en domare en kommentar med förödmjukande och respektlöst språk från en grupp fans som inte var nöjda med hans slutliga domslut.",
+            "text": "Efter ett beslut får en domare en kommentar med förödmjukande och respektlöst språk från en grupp fans som inte var nöjda med hans domslut.",
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
