@@ -3125,6 +3125,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:40:49Z",
-    "enFp": "09fcf8f70d02c865be44c7ffcaf23c727b3f706fa52c5942a8916522cc0aff1c"
+    "enFp": "09fcf8f70d02c865be44c7ffcaf23c727b3f706fa52c5942a8916522cc0aff1c",
+    "stale": false
+  },
+  "summary.slide.finalQuiz.youAreReadyToActAgainst.heading": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:40:59Z",
+    "enFp": "ce1fd127ef2be46810d30aa963d573d6a9d3cb53f64794c4465665a54b4a797b"
   }
 }
