@@ -1900,6 +1900,13 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:52:08Z",
-    "enFp": "38e5a46cbc5ad32842ac60a4f1425ac9b31c06bac685f446a06ab72b87de31ed"
+    "enFp": "38e5a46cbc5ad32842ac60a4f1425ac9b31c06bac685f446a06ab72b87de31ed",
+    "stale": false
+  },
+  "player.systemLabels.assessment.start_assessment": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:11Z",
+    "enFp": "be3b4a3de7d59a1c27aa6cf6d45afeb77740116b4d759df15f0ccdb8d05bb86f"
   }
 }
