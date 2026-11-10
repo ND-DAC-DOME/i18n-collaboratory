@@ -2881,7 +2881,7 @@
         },
         "q7": {
           "prompt": {
-            "text": "<span class=\"scenario\">En lagkamrat har fått kränkande meddelanden och verkar allt mer pressad.</span>Vilken är den starkaste och bästa reaktionen från ett stödsystem?",
+            "text": "<span class=\"scenario\">En lagkamrat har fått kränkande meddelanden och verkar allt mer pressad.</span>Vilken är den starkaste och bästa reaktionen (från ett stödsystem)?",
             "note": "HTML allowed"
           },
           "choices": {
