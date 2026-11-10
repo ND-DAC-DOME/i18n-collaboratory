@@ -3442,11 +3442,5 @@
     "at": "2026-11-10T17:50:49Z",
     "enFp": "44c701af061a0d15e71048012d0efaa2ec13003900eb878656a15059965cfab7",
     "stale": false
-  },
-  "m5.layers.tracks.t2.respondItems.i2": {
-    "approved": true,
-    "by": "Mikael Norén",
-    "at": "2026-11-10T17:50:54Z",
-    "enFp": "94bba504d62df33be59801eccee5a714e086b1565fe8cab5d7a15f4633cad7c4"
   }
 }
