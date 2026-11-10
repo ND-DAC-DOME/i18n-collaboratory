@@ -18,7 +18,7 @@
       "note": "Primary forward button on series / quiz widgets"
     },
     "complete": {
-      "text": "Dokončaj",
+      "text": "Izpolni",
       "note": "Last-card action on series widgets; becomes the completed checkbox"
     },
     "completed": {
