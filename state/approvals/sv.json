@@ -1977,12 +1977,20 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:58:07Z",
-    "enFp": "d4dab120aa0e487b1c6435e5138105ac3bc329c6f72ae7262ee9b9e2cbac8cd3"
+    "enFp": "d4dab120aa0e487b1c6435e5138105ac3bc329c6f72ae7262ee9b9e2cbac8cd3",
+    "stale": false
   },
   "player.systemLabels.sorting.item": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:58:07Z",
-    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733"
+    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733",
+    "stale": false
+  },
+  "player.systemLabels.sorting.move_next": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:58:29Z",
+    "enFp": "934397722f4bee912b3f281d566054d5e96338dbf3176671ead04404a0eb0dff"
   }
 }
