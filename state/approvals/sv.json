@@ -3055,12 +3055,26 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:38:55Z",
-    "enFp": "d623965ba62cbe654ed61bb670a4b576307b3b6d79e9f0efbdb8a7078e351511"
+    "enFp": "d623965ba62cbe654ed61bb670a4b576307b3b6d79e9f0efbdb8a7078e351511",
+    "stale": false
   },
   "summary.quiz.score.finish": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:38:55Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
+  },
+  "summary.quiz.score.cardAria": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:39:03Z",
+    "enFp": "59a99677b65e335ff6d99058491556e6ae7137bfc1ab4c35f72b4a17b317b23f"
+  },
+  "summary.slide.finishCourse": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:39:03Z",
+    "enFp": "4e612028e09a71f4020f2e52efeff8a27729d9fc27fa3f7d3a5956c091624636"
   }
 }
