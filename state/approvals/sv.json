@@ -4007,6 +4007,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:08:49Z",
-    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0",
+    "stale": false
+  },
+  "m5.slide.onlineAbuseCanBeAddressedAt.body": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:08:58Z",
+    "enFp": "a2aba8e45477c5465fd58f65a11eb46f89cb2e12fe09595f0e663a7a597a69f2"
   }
 }
