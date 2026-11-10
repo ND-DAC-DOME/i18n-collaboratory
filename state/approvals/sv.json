@@ -2313,6 +2313,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:03:17Z",
-    "enFp": "3030d206b671d1f951459de9217f4c504eb5d3b75dd3c3a6f2095efcb5176393"
+    "enFp": "3030d206b671d1f951459de9217f4c504eb5d3b75dd3c3a6f2095efcb5176393",
+    "stale": false
+  },
+  "embeds.sensitiveNotice.emergencyServicesDetail": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:03:24Z",
+    "enFp": "20bd84bf566fda4fc356cd80ffe602029d44a12f95680bd72d07dd2ba0b28f66"
   }
 }
