@@ -2341,6 +2341,25 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:03:43Z",
-    "enFp": "c59cbe275b112caa7058f0095115be0df247b8d1a64b7ad177f28efa9efd05ab"
+    "enFp": "c59cbe275b112caa7058f0095115be0df247b8d1a64b7ad177f28efa9efd05ab",
+    "stale": false
+  },
+  "embeds.sensitiveNotice.orgLeadDetail": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:03:52Z",
+    "enFp": "94c8b6d7a55a7ed49a9a6d8154f0418d8ceb155e8b9d10d400c217e63709c7a9"
+  },
+  "embeds.sensitiveNotice.close": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:03:52Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+  },
+  "embeds.sensitiveNotice.closeAria": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:03:52Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   }
 }
