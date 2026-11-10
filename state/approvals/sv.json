@@ -941,30 +941,41 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:40:19Z",
-    "enFp": "572e01d9de084605b894fedc00534f39114ff51d0c026f79382fa3c915b5ff1a"
+    "enFp": "572e01d9de084605b894fedc00534f39114ff51d0c026f79382fa3c915b5ff1a",
+    "stale": false
   },
   "player.systemLabels.assessment.continue_assessment": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:40:19Z",
-    "enFp": "b9d69d529c4dea5b9af52684314e6b98c1237660e5c5520c54548894078b0611"
+    "enFp": "b9d69d529c4dea5b9af52684314e6b98c1237660e5c5520c54548894078b0611",
+    "stale": false
   },
   "player.systemLabels.assessment.correct": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:40:19Z",
-    "enFp": "aca01a1a3a27d35c264a8104b0f2817aa31a8a29f8eec1e6cceddc6ac208c723"
+    "enFp": "aca01a1a3a27d35c264a8104b0f2817aa31a8a29f8eec1e6cceddc6ac208c723",
+    "stale": false
   },
   "player.systemLabels.assessment.correct_answer": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:40:19Z",
-    "enFp": "fb019d338b4305efe54477d99324fd5bf8d81299562d3f09a344ea259568ff76"
+    "enFp": "fb019d338b4305efe54477d99324fd5bf8d81299562d3f09a344ea259568ff76",
+    "stale": false
   },
   "player.systemLabels.assessment.edit_response": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:40:19Z",
-    "enFp": "f26154509d8898ca7f9b1cbd33a03462e1e7743c4b855a35d9eb401dc6c5cf2e"
+    "enFp": "f26154509d8898ca7f9b1cbd33a03462e1e7743c4b855a35d9eb401dc6c5cf2e",
+    "stale": false
+  },
+  "player.systemLabels.assessment.empty_description": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:40:26Z",
+    "enFp": "957fc8d32164d2383d6011b857b1193aef6cfad80f32803eaaedd9fb6e2265ac"
   }
 }
