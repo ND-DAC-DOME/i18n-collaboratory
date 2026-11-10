@@ -3734,6 +3734,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T18:08:05Z",
-    "enFp": "b405a483d712d5cd1ebee712f1593799a947bb866b51eccc4e410c5309867e56"
+    "enFp": "b405a483d712d5cd1ebee712f1593799a947bb866b51eccc4e410c5309867e56",
+    "stale": false
+  },
+  "m5.flow3.steps.s2.title": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T18:08:09Z",
+    "enFp": "f85457797117f218e8771d3a0c68af76b76aee7cc2382a824f5ebcc8652f69ac"
   }
 }
