@@ -3155,5 +3155,11 @@
     "at": "2026-11-10T17:45:40Z",
     "enFp": "8053eb250ccf110b832ff3e617b54ed46ee60872c34d4068f15afd3eaaf2dd4b",
     "stale": false
+  },
+  "m5.layers.ui.prompt": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:46:04Z",
+    "enFp": "7f162191a14c9a2204ea33353d8d2845f80e880f947a7ceab8aca34a43fe5ac7"
   }
 }
