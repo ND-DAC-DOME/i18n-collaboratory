@@ -2502,6 +2502,19 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:01:23Z",
-    "enFp": "e8f7e31bda03f5012a333327760618fba6b0e83eac9aea1d9e424e1542cb9305"
+    "enFp": "e8f7e31bda03f5012a333327760618fba6b0e83eac9aea1d9e424e1542cb9305",
+    "stale": false
+  },
+  "player.systemLabels.navigation.next": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:02:24Z",
+    "enFp": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858"
+  },
+  "player.systemLabels.navigation.of": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:02:24Z",
+    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624"
   }
 }
