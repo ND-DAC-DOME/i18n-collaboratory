@@ -1487,6 +1487,49 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:46:59Z",
-    "enFp": "62ec43f798807e469d678eda83e62c232efaed911c663330130e4973a3dd38c4"
+    "enFp": "62ec43f798807e469d678eda83e62c232efaed911c663330130e4973a3dd38c4",
+    "stale": false
+  },
+  "player.systemLabels.access.enter_email_placeholder": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:47:21Z",
+    "enFp": "97af051a28d9808c72ba34c39e22223ddd0d9166eab7eb13dd6621228976e0e3"
+  },
+  "player.systemLabels.access.enter_name": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:47:21Z",
+    "enFp": "951ab65190399b2ee372d243b19ce78e2251feb5baed01d78f92431e027b9313"
+  },
+  "player.systemLabels.access.enter_password": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:47:21Z",
+    "enFp": "7014aff13517c4071a9de8a8d338ac3ca12ae8ecf6589941d84170aa47cdcac3"
+  },
+  "player.systemLabels.access.failed_to_save": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:47:21Z",
+    "enFp": "7e29b879d2bc191578495f43a471bd93e21e86dd82e9231b8b5995fe891d9c7d"
+  },
+  "player.systemLabels.access.field_required": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:47:21Z",
+    "enFp": "6876f12ea673f6b1e07fadbe778bd5fa77e3e6014e23cc34d56d5579d071b5d9"
+  },
+  "player.systemLabels.access.incorrect_password": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:47:21Z",
+    "enFp": "78fa607c01bc6f41ea21803a7820389dc658b272a4dfb4cf7e1539fcd09176c0"
+  },
+  "player.systemLabels.access.invalid_email": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:47:21Z",
+    "enFp": "b00f7e3ae5e87365f3f63356a77f02245b82fea828b51d3279e6a490a351e7d1"
   }
 }
