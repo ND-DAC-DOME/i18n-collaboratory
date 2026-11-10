@@ -4273,6 +4273,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:31:31Z",
-    "enFp": "b78332de8404f26b37cbcf8b1be185c1406ccc3028f9fd2ae27ee38d8769ee7b"
+    "enFp": "b78332de8404f26b37cbcf8b1be185c1406ccc3028f9fd2ae27ee38d8769ee7b",
+    "stale": false
+  },
+  "m4.slide.howCanLegalResponsesDifferBy.heading": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:31:35Z",
+    "enFp": "05fe2bba783a050d82992c0c9be216678ea30cb0a06f1abe55cabce0e2e5a9f1"
   }
 }
