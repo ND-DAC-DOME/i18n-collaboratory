@@ -208,7 +208,7 @@
     "apply": {
       "ui": {
         "choicesAria": {
-          "text": "Vyberte si chování",
+          "text": "Vyberte chování",
           "note": "aria-label on the three behaviour choice buttons"
         }
       },
