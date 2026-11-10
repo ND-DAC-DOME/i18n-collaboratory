@@ -165,7 +165,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p><span style=\"color: #091324\">Innan du börjar hjälper den här korta enkäten dig att reflektera över din nuvarande kunskap, tillit och beredskap att hantera onlineövergrepp. Det finns inga rätta eller felaktiga svar. Dina svar blir en utgångspunkt för att reflektera över din utveckling genom kursen.</span></p>",
+        "text": "<p><span style=\"color: #091324\">Innan du börjar hjälper den här enkäten dig att reflektera över din nuvarande kunskap, tillit och beredskap att hantera övergrepp online. Det finns inga rätta eller felaktiga svar. Dina svar blir en utgångspunkt för att reflektera över din utveckling genom kursen.</span></p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {
