@@ -2698,6 +2698,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:23:59Z",
-    "enFp": "c03a84202587b12a59fcea043c1c37c0bd48a6e05cfa9ebcccd13c18c928363f"
+    "enFp": "c03a84202587b12a59fcea043c1c37c0bd48a6e05cfa9ebcccd13c18c928363f",
+    "stale": false
+  },
+  "summary.quiz.questions.q6.next": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:24:04Z",
+    "enFp": "dc711515d2672d79cc401e7fe5f1b422284a743b8a04904a97fb65c96520d3e9"
   }
 }
