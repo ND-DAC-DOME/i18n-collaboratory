@@ -2397,6 +2397,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:06:29Z",
-    "enFp": "de7efdd7a64919a8f9a23779888e447a55a51d16b83e81f0c68b69e98088ff63"
+    "enFp": "de7efdd7a64919a8f9a23779888e447a55a51d16b83e81f0c68b69e98088ff63",
+    "stale": false
+  },
+  "embeds.sensitiveNotice.viewSupport": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:06:33Z",
+    "enFp": "979526b999048a86454f567949f2eb1a2cd05599036a31e2af4cd38e597e22d7"
   }
 }
