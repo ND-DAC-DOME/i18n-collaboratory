@@ -2355,6 +2355,13 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:58:41Z",
-    "enFp": "446dffbab8729f159afcb5e12f550fa01046d9ae7f30a7fa049e29a2a6d6246a"
+    "enFp": "446dffbab8729f159afcb5e12f550fa01046d9ae7f30a7fa049e29a2a6d6246a",
+    "stale": false
+  },
+  "player.systemLabels.homepage.table_of_contents": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:58:44Z",
+    "enFp": "e331da0741fb6d0552bc27483ba0720778440c520b59be917613781679ede70f"
   }
 }
