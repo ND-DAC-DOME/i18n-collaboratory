@@ -153,7 +153,7 @@
         "note": "Status after QualtricsEOS / manual confirm"
       },
       "fallbackHint": {
-        "text": "Om du har fyllt i enkäten men Fortsätt fortfarande är låst kan du bekräfta nedan.",
+        "text": "Om du har fyllt i enkäten men Fortsätt-knappen fortfarande inte går att trycka på kan du bekräfta nedan.",
         "note": "Shown after ~45s if EOS not detected"
       },
       "fallbackButton": {
