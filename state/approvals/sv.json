@@ -2502,12 +2502,20 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:13:28Z",
-    "enFp": "fe6ad19e0e23dd822db714d1a43794e928dc2b859f12eb8bbcc4fefa2a771eed"
+    "enFp": "fe6ad19e0e23dd822db714d1a43794e928dc2b859f12eb8bbcc4fefa2a771eed",
+    "stale": false
   },
   "summary.quiz.questions.q2.choices.c0": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:13:28Z",
-    "enFp": "1d3fc73f3f60a8b16e5d422844781e244790abf7bf7f3500829b1b4de5ec317b"
+    "enFp": "1d3fc73f3f60a8b16e5d422844781e244790abf7bf7f3500829b1b4de5ec317b",
+    "stale": false
+  },
+  "summary.quiz.questions.q2.choices.c1": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:13:31Z",
+    "enFp": "334c7e11c35da9ce38ca5d29bca15bdcd0190cc43bcdd81b87404bfefd1430f6"
   }
 }
