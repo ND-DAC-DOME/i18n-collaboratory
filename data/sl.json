@@ -4086,7 +4086,7 @@
           "note": "ScormStack player/system label `sorting.move_next`"
         },
         "move_previous": {
-          "text": "Premakni nazaj",
+          "text": "Premaknite nazaj",
           "note": "ScormStack player/system label `sorting.move_previous`"
         },
         "position_for": {
