@@ -247,7 +247,7 @@
             "note": "Scenario prompt; answer = hate speech"
           },
           "ok": {
-            "text": "<strong>Korrekt!</strong> Kommentaren riktar sig mot idrottaren på grund av hens religion, en skyddad egenskap, vilket gör detta till ett exempel på <strong>hatpropaganda</strong>.",
+            "text": "<strong>Korrekt!</strong> Kommentaren riktar sig mot idrottaren på grund av hens religion, en skyddad egenskap, vilket skulle kunna göra detta till ett exempel på <strong>en hatfull kommentar som skulle kunna utgöra hets mot folkgrupp</strong>.",
             "note": "HTML allowed"
           },
           "bad": {
