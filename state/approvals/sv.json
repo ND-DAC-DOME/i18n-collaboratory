@@ -2887,6 +2887,19 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:35:44Z",
-    "enFp": "802dcd3819788e6fd452fa33494223cc5fd9464e6ddf6e1745d996dded447fbe"
+    "enFp": "802dcd3819788e6fd452fa33494223cc5fd9464e6ddf6e1745d996dded447fbe",
+    "stale": false
+  },
+  "summary.quiz.questions.q11.hint": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:35:54Z",
+    "enFp": "177c0b84ba4a65c65e479c70801eb044ba063ff74f15728d1e9be71658f4b6ea"
+  },
+  "summary.quiz.questions.q11.choices.c0": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:35:54Z",
+    "enFp": "bc73c38b238a3b523ba5a9188d5e61eaa9d2d92c16855b34d66534b127c7b49b"
   }
 }
