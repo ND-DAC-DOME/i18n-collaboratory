@@ -2264,12 +2264,20 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:01:57Z",
-    "enFp": "c6b802ad032348991a45c2ae3d19f0b38ad2a98b8ea84c66808ef2017db92c07"
+    "enFp": "c6b802ad032348991a45c2ae3d19f0b38ad2a98b8ea84c66808ef2017db92c07",
+    "stale": false
   },
   "embeds.scroll.continue": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:01:57Z",
-    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8",
+    "stale": false
+  },
+  "embeds.miniDictionary.title": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:02:06Z",
+    "enFp": "c12b37ea38c754a84a75befe1f4d29c7f3b4ad90f1a0c862ddd4f4392dc9c529"
   }
 }
