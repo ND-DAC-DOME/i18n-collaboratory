@@ -1375,6 +1375,13 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:25:16Z",
-    "enFp": "c6b802ad032348991a45c2ae3d19f0b38ad2a98b8ea84c66808ef2017db92c07"
+    "enFp": "c6b802ad032348991a45c2ae3d19f0b38ad2a98b8ea84c66808ef2017db92c07",
+    "stale": false
+  },
+  "embeds.scroll.restoreFailed": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:25:24Z",
+    "enFp": "df7921f43e3fc4912cafbf5333b345e21b39b808dfb46790c80939e21578e3f7"
   }
 }
