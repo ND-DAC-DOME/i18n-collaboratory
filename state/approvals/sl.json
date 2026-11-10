@@ -2327,6 +2327,13 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:57:47Z",
-    "enFp": "47d2a515ef2f05b87d688656286a61e4f743da4b878684c7654969db17711c40"
+    "enFp": "47d2a515ef2f05b87d688656286a61e4f743da4b878684c7654969db17711c40",
+    "stale": false
+  },
+  "player.systemLabels.general.retry": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:58:10Z",
+    "enFp": "942087cc2d41e01304b7195558d093d10c72af8e838c7556d6a02d471ee71852"
   }
 }
