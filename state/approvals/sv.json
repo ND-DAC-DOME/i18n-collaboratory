@@ -1221,18 +1221,27 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:43:23Z",
-    "enFp": "ffadc34faea315fca248b9e0657387a65fca0d6832e5925fcfe3f7939ca1caba"
+    "enFp": "ffadc34faea315fca248b9e0657387a65fca0d6832e5925fcfe3f7939ca1caba",
+    "stale": false
   },
   "player.systemLabels.assessment.total_points_possible": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:43:23Z",
-    "enFp": "a4c08944b936cd1c5151cb1e7c8ad8af3dcec3cd678c3df550234313c0a06461"
+    "enFp": "a4c08944b936cd1c5151cb1e7c8ad8af3dcec3cd678c3df550234313c0a06461",
+    "stale": false
   },
   "player.systemLabels.assessment.try_again": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:43:23Z",
-    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f"
+    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f",
+    "stale": false
+  },
+  "player.systemLabels.assessment.ungraded_submitted": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:43:26Z",
+    "enFp": "5962e4c3f208707fc6f325c86b23642ca51674b54fe623b8680133714c00ee52"
   }
 }
