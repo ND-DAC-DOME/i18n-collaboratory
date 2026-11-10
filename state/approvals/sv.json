@@ -2292,6 +2292,19 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:02:48Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
+  },
+  "embeds.miniDictionary.cta": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:02:52Z",
+    "enFp": "f647dc2a31e9e85660843bf459a473e7789a48b659f683c8cf577d311d0d2bda"
+  },
+  "embeds.miniDictionary.linkLabel": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:02:52Z",
+    "enFp": "637e4aab899ea4d8e98942d5a55486db74a94589c7d3fe9d72ada595a8c5ee38"
   }
 }
