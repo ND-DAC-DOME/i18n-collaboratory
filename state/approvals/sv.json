@@ -3965,6 +3965,19 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:07:33Z",
-    "enFp": "d53168c7c263d159b01cd60c646242d11369269ceb978a1a1b61995a9379d0b8"
+    "enFp": "d53168c7c263d159b01cd60c646242d11369269ceb978a1a1b61995a9379d0b8",
+    "stale": false
+  },
+  "m5.slide.title": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:08:09Z",
+    "enFp": "897a84716ffb5805dd9a701ff0e6d44f13efbc863a774fd9f44cbb60b7b939d8"
+  },
+  "m5.slide.goToFinalQuiz": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:08:09Z",
+    "enFp": "34e443787ab76a55019bb3b959d4200d4e3b8f24fd2c766523dd722f3546198d"
   }
 }
