@@ -3814,7 +3814,7 @@
           "note": "ScormStack player/system label `general.loading`"
         },
         "retry": {
-          "text": "Poskusi znova",
+          "text": "Poskusite znova",
           "note": "ScormStack player/system label `general.retry`"
         },
         "save": {
