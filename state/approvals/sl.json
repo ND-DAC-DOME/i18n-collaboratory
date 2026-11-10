@@ -2229,12 +2229,20 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:56:00Z",
-    "enFp": "e0bd1dd7cb66d8fc9929319816653f0d58cc156262e3e427b4b7dd2570f20b44"
+    "enFp": "e0bd1dd7cb66d8fc9929319816653f0d58cc156262e3e427b4b7dd2570f20b44",
+    "stale": false
   },
   "player.systemLabels.flashcard.click_to_flip_back": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:56:00Z",
-    "enFp": "eb803e84bc7ae111703e64f559f080af375dc170cfea289b92ebae90376af8b6"
+    "enFp": "eb803e84bc7ae111703e64f559f080af375dc170cfea289b92ebae90376af8b6",
+    "stale": false
+  },
+  "player.systemLabels.flashcard.no_flashcards": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:56:30Z",
+    "enFp": "837bb4525961e73d2d36e7fdd4fa12016a40cc33729fa4e97703a77eb7a8f85d"
   }
 }
