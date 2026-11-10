@@ -1963,6 +1963,13 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:52:49Z",
-    "enFp": "c00bc93746c403d8ab2f28a1ec1b9b21cb796dd092eed7df083fbdce06732e6d"
+    "enFp": "c00bc93746c403d8ab2f28a1ec1b9b21cb796dd092eed7df083fbdce06732e6d",
+    "stale": false
+  },
+  "player.systemLabels.assessment.success_meter.performance_level": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:53Z",
+    "enFp": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3"
   }
 }
