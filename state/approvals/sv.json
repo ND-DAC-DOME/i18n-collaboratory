@@ -3804,12 +3804,32 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T18:56:56Z",
-    "enFp": "b66b37fc0a7a20898471f2cc6893fbbce852e55920d9a79e5ee6e7cdb46fefe3"
+    "enFp": "b66b37fc0a7a20898471f2cc6893fbbce852e55920d9a79e5ee6e7cdb46fefe3",
+    "stale": false
   },
   "m5.flow3.steps.s7.title": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T18:56:56Z",
-    "enFp": "c1e36331e262b72e8d37bb1fa5d50948660c57964b5c8d6676bb0ed0c5766326"
+    "enFp": "c1e36331e262b72e8d37bb1fa5d50948660c57964b5c8d6676bb0ed0c5766326",
+    "stale": false
+  },
+  "m5.match.ui.trayAria": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T18:58:05Z",
+    "enFp": "9ec981202751c15aa166ecd5569a8c1b637a8b17789809773ad72d2979d3efa6"
+  },
+  "m5.match.ui.dropHint": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T18:58:05Z",
+    "enFp": "f8cb545e83a3dc4c37cd19715582c748e878a920db374221d4f2f5c910be84e3"
+  },
+  "m5.match.ui.submit": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T18:58:05Z",
+    "enFp": "155f816c0407310c0dab222493370773e045ee7fe04e6c9a951b07f495531264"
   }
 }
