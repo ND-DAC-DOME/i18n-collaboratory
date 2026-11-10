@@ -2586,12 +2586,26 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:02:50Z",
-    "enFp": "e8552b365ea7cab98afd83f1000b89c349bf729e95aa4b30f495f5088a92342d"
+    "enFp": "e8552b365ea7cab98afd83f1000b89c349bf729e95aa4b30f495f5088a92342d",
+    "stale": false
   },
   "player.systemLabels.reactions.question": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:02:50Z",
-    "enFp": "2cfcf9ff2690c3b6e91d44d16605503d31b54ca397b5134abdaa4a5110b35d58"
+    "enFp": "2cfcf9ff2690c3b6e91d44d16605503d31b54ca397b5134abdaa4a5110b35d58",
+    "stale": false
+  },
+  "player.systemLabels.reactions.rating_prompt": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:02:54Z",
+    "enFp": "2107d5bbdbbae8c083a67bd7a11fdb7027ad6781bec414a5efce4091c40ccc38"
+  },
+  "player.systemLabels.reactions.selection_locked": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:02:54Z",
+    "enFp": "cf849ffa09813e12c97ef9ffeb678b46ad1479ec3fe99f7cc7345ba0f9ead02b"
   }
 }
