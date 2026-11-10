@@ -3069,12 +3069,26 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:39:03Z",
-    "enFp": "59a99677b65e335ff6d99058491556e6ae7137bfc1ab4c35f72b4a17b317b23f"
+    "enFp": "59a99677b65e335ff6d99058491556e6ae7137bfc1ab4c35f72b4a17b317b23f",
+    "stale": false
   },
   "summary.slide.finishCourse": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:39:03Z",
-    "enFp": "4e612028e09a71f4020f2e52efeff8a27729d9fc27fa3f7d3a5956c091624636"
+    "enFp": "4e612028e09a71f4020f2e52efeff8a27729d9fc27fa3f7d3a5956c091624636",
+    "stale": false
+  },
+  "summary.slide.getCertificate": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:39:12Z",
+    "enFp": "8c8e7afa15e2c552b2b054c6c951431d0c70eafceaf3d263be93c36e72f497d1"
+  },
+  "summary.slide.exit.congratulations.heading": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:39:12Z",
+    "enFp": "89eb67c761aeb66f80dd71f2227a56a990bc6a900607e01d7a7a7f2e29007495"
   }
 }
