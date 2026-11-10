@@ -4028,6 +4028,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:10:38Z",
-    "enFp": "8abdda894f40977a83ad3d60ecb5d7e6ce74da153fd55fd3536b92ca24055003"
+    "enFp": "8abdda894f40977a83ad3d60ecb5d7e6ce74da153fd55fd3536b92ca24055003",
+    "stale": false
+  },
+  "m5.slide.uaoaHelpsConnectTheseLevelsOf.heading": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:10:43Z",
+    "enFp": "3c73edc246e94c1f10274a1156ccbfddfa5de5d0aba9fe7d82aa603af9d85d64"
   }
 }
