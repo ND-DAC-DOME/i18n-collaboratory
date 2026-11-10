@@ -3392,7 +3392,7 @@
       },
       "accordion": {
         "collapse": {
-          "text": "Fäll ihop",
+          "text": "Visa mindre/dölj",
           "note": "ScormStack player/system label `accordion.collapse`"
         },
         "expand": {
