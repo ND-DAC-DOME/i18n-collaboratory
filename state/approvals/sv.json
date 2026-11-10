@@ -3475,12 +3475,26 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:52:26Z",
-    "enFp": "9bd78fd71ec945701f504b5e9d68894db4bde7d4ab9022c9b0113f72bfe0081a"
+    "enFp": "9bd78fd71ec945701f504b5e9d68894db4bde7d4ab9022c9b0113f72bfe0081a",
+    "stale": false
   },
   "m5.layers.tracks.t2.who.federations.title": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:52:26Z",
-    "enFp": "7998e8df18de3aeccce9df384a01b30004874b550ff36e32645a6f7a1f55a8ec"
+    "enFp": "7998e8df18de3aeccce9df384a01b30004874b550ff36e32645a6f7a1f55a8ec",
+    "stale": false
+  },
+  "m5.layers.tracks.t2.who.federations.body": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:52:32Z",
+    "enFp": "60c8c55cf7159e0e1081f84bf675ced6894f394221b19eb510618ea79cfc940f"
+  },
+  "m5.layers.tracks.t2.who.platforms.title": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:52:32Z",
+    "enFp": "b45a5efd82e8f8d5bf8d20f0ecfafbfe61d12477d8fdeff5be7a156903aee10a"
   }
 }
