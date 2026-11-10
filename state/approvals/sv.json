@@ -2187,6 +2187,19 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:00:02Z",
-    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4"
+    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4",
+    "stale": false
+  },
+  "embeds.disclaimerModal.fia": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:01:02Z",
+    "enFp": "8cdce997a152baec51fa9514b9bec0dfb1f2baa45b635b8e0845f785c0a71f97"
+  },
+  "embeds.disclaimerModal.logoAria": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:01:02Z",
+    "enFp": "4ce3c2d66d5e5e9f6bcdb2ec8e7c3080a7e9db49af1624005a8d89a2ca703ac0"
   }
 }
