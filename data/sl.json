@@ -3475,7 +3475,7 @@
             "note": "ScormStack player/system label `assessment.fill_in_blank.choose`"
           },
           "type_here": {
-            "text": "Vtipkaj tukaj ...",
+            "text": "Vtipkajte tukaj ...",
             "note": "ScormStack player/system label `assessment.fill_in_blank.type_here`"
           }
         },
