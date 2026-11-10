@@ -1760,6 +1760,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:56:12Z",
-    "enFp": "f1f5ddaf664e92085e8def0bc7f59bb89ee5e51db2d382950f1e834fd5be8ad3"
+    "enFp": "f1f5ddaf664e92085e8def0bc7f59bb89ee5e51db2d382950f1e834fd5be8ad3",
+    "stale": false
+  },
+  "player.systemLabels.reactions.comment_placeholder": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:56:18Z",
+    "enFp": "8631a2088baaa0db11c699d6ecb6fe8f454db642539f6a22b549ed09b391dab5"
   }
 }
