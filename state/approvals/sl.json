@@ -1802,6 +1802,13 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:51:20Z",
-    "enFp": "f71041bb481fcfb42b6e8fd8c081fa11320ff3ce7ceae2634a285814dee860c3"
+    "enFp": "f71041bb481fcfb42b6e8fd8c081fa11320ff3ce7ceae2634a285814dee860c3",
+    "stale": false
+  },
+  "player.systemLabels.assessment.numerical.type_here": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:51:32Z",
+    "enFp": "8cbff9ea966c2720f8f11eeed5f8c562716f84914e14e9c7c2599e077956295b"
   }
 }
