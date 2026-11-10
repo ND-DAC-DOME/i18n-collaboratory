@@ -141,7 +141,7 @@
   "survey": {
     "preCourse": {
       "iframeTitle": {
-        "text": "Předkurzní průzkum",
+        "text": "Úvodní dotazník",
         "note": "iframe title for Qualtrics embed between Welcome and Module 1"
       },
       "waitingStatus": {
