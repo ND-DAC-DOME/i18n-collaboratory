@@ -3111,12 +3111,20 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:40:44Z",
-    "enFp": "478e933b8eeb506238a4cae75815b2e23f90e14f89479457f6332b766c41f092"
+    "enFp": "478e933b8eeb506238a4cae75815b2e23f90e14f89479457f6332b766c41f092",
+    "stale": false
   },
   "summary.slide.exit.image.thankYouForCompletingTheUaoa": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:40:44Z",
-    "enFp": "4d0397118586f03bb7079de0ac23c5393795233374f3d327045cdf11e5d7f889"
+    "enFp": "4d0397118586f03bb7079de0ac23c5393795233374f3d327045cdf11e5d7f889",
+    "stale": false
+  },
+  "summary.slide.finalQuiz.summaryScoredQuiz.heading": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:40:49Z",
+    "enFp": "09fcf8f70d02c865be44c7ffcaf23c727b3f706fa52c5942a8916522cc0aff1c"
   }
 }
