@@ -2852,24 +2852,34 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:05:29Z",
-    "enFp": "ab24e7c0019b0b290535cb991cd6b0cea7061506c5b2624af793c583b7cc5442"
+    "enFp": "ab24e7c0019b0b290535cb991cd6b0cea7061506c5b2624af793c583b7cc5442",
+    "stale": false
   },
   "player.systemLabels.timeline.no_events": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:05:29Z",
-    "enFp": "f36524f539bc30c9db9b25be6e159a784d8f79cc5e79519c6c143a81ba394121"
+    "enFp": "f36524f539bc30c9db9b25be6e159a784d8f79cc5e79519c6c143a81ba394121",
+    "stale": false
   },
   "player.systemLabels.video.error": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:05:29Z",
-    "enFp": "964015471ad69a6169a286a513cbb9567188d233207650f76a89b04d042b860c"
+    "enFp": "964015471ad69a6169a286a513cbb9567188d233207650f76a89b04d042b860c",
+    "stale": false
   },
   "player.systemLabels.video.loading": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:05:29Z",
-    "enFp": "adcf41fd1fe17674f087270dab76a5c920cddde53371af3ac7a089c6d6bff40c"
+    "enFp": "adcf41fd1fe17674f087270dab76a5c920cddde53371af3ac7a089c6d6bff40c",
+    "stale": false
+  },
+  "player.systemLabels.video.pause": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:41Z",
+    "enFp": "858e4ba7a29fd38b630ed73a79e2738333b3fc6778fafa90252f5556c1262fdc"
   }
 }
