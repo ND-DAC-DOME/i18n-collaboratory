@@ -1186,24 +1186,34 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:43:10Z",
-    "enFp": "c00bc93746c403d8ab2f28a1ec1b9b21cb796dd092eed7df083fbdce06732e6d"
+    "enFp": "c00bc93746c403d8ab2f28a1ec1b9b21cb796dd092eed7df083fbdce06732e6d",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.performance_level": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:43:10Z",
-    "enFp": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3"
+    "enFp": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.points": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:43:10Z",
-    "enFp": "77deabe238de2f6dddc88c17dbe14221918571838d8fc1228843f9387b0b69f7"
+    "enFp": "77deabe238de2f6dddc88c17dbe14221918571838d8fc1228843f9387b0b69f7",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.to_complete_the_assessment": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:43:10Z",
-    "enFp": "2141a0e25a04924263828140257c44cc760f796956416805b8fcdf6d56c23480"
+    "enFp": "2141a0e25a04924263828140257c44cc760f796956416805b8fcdf6d56c23480",
+    "stale": false
+  },
+  "player.systemLabels.assessment.success_meter.you_need": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:43:16Z",
+    "enFp": "cae78796053546d24f0d19fdf6ab09a59bf4f6170c00fd397e331504c806b5f7"
   }
 }
