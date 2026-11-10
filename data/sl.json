@@ -3257,7 +3257,7 @@
     },
     "disclaimerModal": {
       "navAria": {
-        "text": "Prikaži izjavo",
+        "text": "Preberite izjavo",
         "note": "Left-nav control above the support pill. Visible label on wide layout; icon-only below 768px. Accessible name in both states."
       },
       "confirm": {
