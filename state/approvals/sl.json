@@ -2677,12 +2677,32 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:04:07Z",
-    "enFp": "346181d6c9954315e3fcdd7ac2d9a49f47e779e480f4025072f87ab45d688ef3"
+    "enFp": "346181d6c9954315e3fcdd7ac2d9a49f47e779e480f4025072f87ab45d688ef3",
+    "stale": false
   },
   "player.systemLabels.separator.section_break": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:04:07Z",
-    "enFp": "66f41a831f779cc7184ea4cb68ad765313c760c5e9c004bc2db5acde5c6b6591"
+    "enFp": "66f41a831f779cc7184ea4cb68ad765313c760c5e9c004bc2db5acde5c6b6591",
+    "stale": false
+  },
+  "player.systemLabels.slide_intro.learning_objectives": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:04:14Z",
+    "enFp": "301b843724f10ba740cee6f3a1c67ec9828e73e12f9f84017b8188ec6115541d"
+  },
+  "player.systemLabels.slide_intro.lesson": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:04:14Z",
+    "enFp": "6e2b26d9de4033b952bd242f69b798420ee887151b937f394efc23252c78af74"
+  },
+  "player.systemLabels.slide_intro.minute": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:04:14Z",
+    "enFp": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c"
   }
 }
