@@ -1256,6 +1256,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:43:54Z",
-    "enFp": "f26efd3574998b71c05297305fb371e00bf20b98aa6d3468a944040eeb168f98"
+    "enFp": "f26efd3574998b71c05297305fb371e00bf20b98aa6d3468a944040eeb168f98",
+    "stale": false
+  },
+  "player.systemLabels.audio.show_transcript": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:45:10Z",
+    "enFp": "1bdd5c6251c9783e6d719ef58f38fd3a59e4434b785744d753cac3c57d7e0f3d"
   }
 }
