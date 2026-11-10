@@ -2222,6 +2222,19 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:55:55Z",
-    "enFp": "be3702e3f1af559a8df03568294283934a2558521fd8895f68eda09e3ce4f8a3"
+    "enFp": "be3702e3f1af559a8df03568294283934a2558521fd8895f68eda09e3ce4f8a3",
+    "stale": false
+  },
+  "player.systemLabels.flashcard.click_to_flip": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:56:00Z",
+    "enFp": "e0bd1dd7cb66d8fc9929319816653f0d58cc156262e3e427b4b7dd2570f20b44"
+  },
+  "player.systemLabels.flashcard.click_to_flip_back": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:56:00Z",
+    "enFp": "eb803e84bc7ae111703e64f559f080af375dc170cfea289b92ebae90376af8b6"
   }
 }
