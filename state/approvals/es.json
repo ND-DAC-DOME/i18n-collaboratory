@@ -1,29 +1,29 @@
 {
   "survey.preCourse.intro": {
-    "approved": false,
+    "approved": true,
     "by": "jhendri4",
     "at": "2026-11-05T19:59:18Z",
     "enFp": "8483b9b97d789bd8feaaacb682f7e11d44bb0d7e70f6771a6359487b982cbc78",
-    "stale": true,
-    "staleReason": "en_source_changed",
-    "staleAt": "2026-11-08T12:33:55Z"
+    "stale": false
   },
   "m1.slide.onlineConversationsArePartOfSport.body": {
-    "approved": false,
+    "approved": true,
     "by": "jhendri4",
     "at": "2026-11-05T20:01:24Z",
     "enFp": "b4f986d4a53ecae650de596a733c7b753514647bdeae5918845ad05e69795f30",
-    "stale": true,
-    "staleReason": "en_source_changed",
-    "staleAt": "2026-11-08T12:33:55Z"
+    "stale": false
   },
   "m1.slide.onlineConversationsArePartOfSport.heading": {
-    "approved": false,
+    "approved": true,
     "by": "jhendri4",
     "at": "2026-11-05T20:01:24Z",
     "enFp": "bc22e9d5d864b5ba722d653102909f84ddb373b733be7bb45eded85db315b9bc",
-    "stale": true,
-    "staleReason": "en_source_changed",
-    "staleAt": "2026-11-08T12:33:55Z"
+    "stale": false
+  },
+  "common.next": {
+    "approved": true,
+    "by": "Jared S Hendrickson",
+    "at": "2026-11-10T15:28:20Z",
+    "enFp": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858"
   }
 }
