@@ -3920,7 +3920,7 @@
           "note": "ScormStack player/system label `navigation.go_to_card`"
         },
         "go_to_page": {
-          "text": "Pojdi na stran {page}",
+          "text": "Pojdite na stran {page}",
           "note": "ScormStack player/system label `navigation.go_to_page`"
         },
         "next": {
