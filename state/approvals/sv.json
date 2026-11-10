@@ -3142,23 +3142,18 @@
     "enFp": "1f6c97ebff88ba6c690cf902fbc89f4e94161a634170dd05cb9e67b727338cf6",
     "stale": false
   },
-  "m5.layers.ui.prompt": {
-    "approved": true,
-    "by": "Mikael Norén",
-    "at": "2026-11-10T17:45:28Z",
-    "enFp": "7f162191a14c9a2204ea33353d8d2845f80e880f947a7ceab8aca34a43fe5ac7",
-    "stale": false
-  },
   "m5.layers.ui.tracksAria": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:45:40Z",
-    "enFp": "0436b95937b89f9c2b367469e5a0ba5a600170d784f1ac848901213ee88b648d"
+    "enFp": "0436b95937b89f9c2b367469e5a0ba5a600170d784f1ac848901213ee88b648d",
+    "stale": false
   },
   "m5.layers.ui.backToLayers": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:45:40Z",
-    "enFp": "8053eb250ccf110b832ff3e617b54ed46ee60872c34d4068f15afd3eaaf2dd4b"
+    "enFp": "8053eb250ccf110b832ff3e617b54ed46ee60872c34d4068f15afd3eaaf2dd4b",
+    "stale": false
   }
 }
