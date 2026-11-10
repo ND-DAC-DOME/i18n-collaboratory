@@ -3430,7 +3430,7 @@
           "note": "ScormStack player/system label `assessment.blanks`"
         },
         "case_insensitive": {
-          "text": "Inte skiftlägeskänsligt",
+          "text": "Inte skiftlägeskänsligt (ignorera stora och små bokstäver)",
           "note": "ScormStack player/system label `assessment.case_insensitive`"
         },
         "case_sensitive": {
