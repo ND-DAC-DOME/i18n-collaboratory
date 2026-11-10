@@ -675,7 +675,7 @@
       el.lockPill.textContent = 'Locale available';
       el.lockPill.className = 'pill ok';
     } else if (mine) {
-      el.lockPill.textContent = 'Checked out by you';
+      el.lockPill.textContent = 'Under review by you';
       el.lockPill.className = 'pill ok';
     } else {
       el.lockPill.textContent = 'In use by ' + (lock.holder || 'someone');
