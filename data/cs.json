@@ -165,7 +165,7 @@
         "note": "Slide / section title between Welcome and Module 1"
       },
       "intro": {
-        "text": "<p><span style=\"color: #091324\">Než začnete, tento krátký průzkum vám pomůže zamyslet se nad vašimi současnými znalostmi, jistotou a připraveností řešit online zneužívání. Neexistují správné ani špatné odpovědi. Vaše odpovědi budou výchozím bodem pro reflexi pokroku v průběhu kurzu.</span></p>",
+        "text": "<p><span style=\"color: #091324\">Než začnete, tento krátký dotazník vám pomůže zamyslet se nad vašimi současnými znalostmi, jistotou a připraveností řešit online zneužívání. Neexistují správné ani špatné odpovědi. Vaše odpovědi budou výchozím bodem pro reflexi pokroku v průběhu kurzu.</span></p>",
         "note": "Pre-course survey intro HTML"
       },
       "continue": {
