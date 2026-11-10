@@ -389,7 +389,7 @@
         "text": "Graviditet"
       },
       "maritalStatus": {
-        "text": "Civilstånd",
+        "text": "Civilstillstånd",
         "note": "May wrap to two lines on the tile"
       }
     },
