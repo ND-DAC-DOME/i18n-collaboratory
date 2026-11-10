@@ -237,7 +237,7 @@
             "note": "HTML allowed"
           },
           "bad": {
-            "text": "<strong>Inte riktigt.</strong> Titta på interaktionsmönstret och hur det utvecklas över tid. <strong>Försök igen.</strong>",
+            "text": "<strong>Inte riktigt.</strong> Titta på kommunikations mönstret och hur det utvecklas över tid. <strong>Försök igen.</strong>",
             "note": "HTML allowed"
           }
         },
