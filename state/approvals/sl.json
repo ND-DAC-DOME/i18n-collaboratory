@@ -2040,6 +2040,19 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:53:38Z",
-    "enFp": "1bdd5c6251c9783e6d719ef58f38fd3a59e4434b785744d753cac3c57d7e0f3d"
+    "enFp": "1bdd5c6251c9783e6d719ef58f38fd3a59e4434b785744d753cac3c57d7e0f3d",
+    "stale": false
+  },
+  "player.systemLabels.categorization.drop_here": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:53:45Z",
+    "enFp": "4034ec9f457dabd58fa7f3c60a60cfcaf5ee48c98231a4c55b99106739ea118d"
+  },
+  "player.systemLabels.categorization.item": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:53:45Z",
+    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733"
   }
 }
