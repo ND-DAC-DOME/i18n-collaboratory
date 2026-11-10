@@ -3854,7 +3854,7 @@
           "note": "ScormStack player/system label `interactive_image.close_tooltip`"
         },
         "hotspot": {
-          "text": "Vroča točka",
+          "text": "Hotspot",
           "note": "ScormStack player/system label `interactive_image.hotspot`"
         },
         "press_escape_close": {
