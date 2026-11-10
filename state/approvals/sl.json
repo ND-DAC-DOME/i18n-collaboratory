@@ -1571,12 +1571,20 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:47:44Z",
-    "enFp": "5d2c907559bb29d8b07b0ce841aa3f88bd7ddaf758947062018d2f65e62a6530"
+    "enFp": "5d2c907559bb29d8b07b0ce841aa3f88bd7ddaf758947062018d2f65e62a6530",
+    "stale": false
   },
   "player.systemLabels.access.nickname_placeholder": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:47:44Z",
-    "enFp": "6fcb754570dd77d6694dd74b27ddd63829f29cab358c297dea33ce8265170083"
+    "enFp": "6fcb754570dd77d6694dd74b27ddd63829f29cab358c297dea33ce8265170083",
+    "stale": false
+  },
+  "player.systemLabels.access.password_description": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:47:47Z",
+    "enFp": "8ed8f25d0ec0b36dc680466bcdf74bf2255547b04422520d96d48bf7f270d6a7"
   }
 }
