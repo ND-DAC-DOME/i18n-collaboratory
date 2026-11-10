@@ -3632,7 +3632,7 @@
       },
       "audio": {
         "show_transcript": {
-          "text": "Visa transkription",
+          "text": "Visa transkription/utskrift",
           "note": "ScormStack player/system label `audio.show_transcript`"
         }
       },
