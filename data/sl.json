@@ -3784,7 +3784,7 @@
           "note": "ScormStack player/system label `flow.of`"
         },
         "start_again": {
-          "text": "Začni znova",
+          "text": "Začnite znova",
           "note": "ScormStack player/system label `flow.start_again`"
         },
         "step": {
