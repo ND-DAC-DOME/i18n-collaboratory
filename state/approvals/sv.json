@@ -1564,6 +1564,25 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:48:23Z",
-    "enFp": "1509f561f2416598629b886ad7d3c05a7e221e4e0675c84bbff4ee6d9e03913d"
+    "enFp": "1509f561f2416598629b886ad7d3c05a7e221e4e0675c84bbff4ee6d9e03913d",
+    "stale": false
+  },
+  "player.systemLabels.homepage.course_home": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:48:30Z",
+    "enFp": "3a78695388b38b5cceefaf6796b0137877514593543b91af2752d5a17e3d736c"
+  },
+  "player.systemLabels.homepage.start_course": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:48:30Z",
+    "enFp": "446dffbab8729f159afcb5e12f550fa01046d9ae7f30a7fa049e29a2a6d6246a"
+  },
+  "player.systemLabels.homepage.table_of_contents": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:48:30Z",
+    "enFp": "e331da0741fb6d0552bc27483ba0720778440c520b59be917613781679ede70f"
   }
 }
