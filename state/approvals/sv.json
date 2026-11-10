@@ -4245,6 +4245,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:28:06Z",
-    "enFp": "eb6f9ecb22d6d5ece183aff54251a847ab166c3d43ef768b28d670b9147885b4"
+    "enFp": "eb6f9ecb22d6d5ece183aff54251a847ab166c3d43ef768b28d670b9147885b4",
+    "stale": false
+  },
+  "m4.slide.responsibilitiesBeyondTheLaw.heading": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:28:09Z",
+    "enFp": "6e6db98bf9b7ccae60f36a7f26f55628ec0fca728c2c090552bf289bb16193d7"
   }
 }
