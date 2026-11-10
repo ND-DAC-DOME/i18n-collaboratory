@@ -3916,7 +3916,7 @@
           "note": "ScormStack player/system label `navigation.finish`"
         },
         "go_to_card": {
-          "text": "Pojdi na kartico {card}",
+          "text": "Pojdite na kartico {card}",
           "note": "ScormStack player/system label `navigation.go_to_card`"
         },
         "go_to_page": {
