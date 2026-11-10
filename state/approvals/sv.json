@@ -1515,18 +1515,33 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:48:11Z",
-    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4"
+    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4",
+    "stale": false
   },
   "player.systemLabels.general.cancel": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:48:11Z",
-    "enFp": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27"
+    "enFp": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+    "stale": false
   },
   "player.systemLabels.general.close": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:48:11Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
+  },
+  "player.systemLabels.general.download": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:48:15Z",
+    "enFp": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24"
+  },
+  "player.systemLabels.general.error": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:48:15Z",
+    "enFp": "54a0e8c17ebb21a11f8a25b8042786ef7efe52441e6cc87e92c67e0c4c0c6e78"
   }
 }
