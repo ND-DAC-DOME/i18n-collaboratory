@@ -2364,5 +2364,11 @@
     "at": "2026-11-10T17:03:52Z",
     "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
     "stale": false
+  },
+  "embeds.sensitiveNotice.orgLead": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:05:09Z",
+    "enFp": "49b03ebc13a35d2dbd3bba02b8c148f969364e98fc348e3f17ab32a122431984"
   }
 }
