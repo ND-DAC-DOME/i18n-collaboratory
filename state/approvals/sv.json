@@ -4014,6 +4014,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:08:58Z",
-    "enFp": "a2aba8e45477c5465fd58f65a11eb46f89cb2e12fe09595f0e663a7a597a69f2"
+    "enFp": "a2aba8e45477c5465fd58f65a11eb46f89cb2e12fe09595f0e663a7a597a69f2",
+    "stale": false
+  },
+  "m5.slide.onlineAbuseInSportCanAffect.body": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:10:01Z",
+    "enFp": "5252fa72232eed29fb6a64141c21a0bb20d089f33b44af492544bbf4ed161a7f"
   }
 }
