@@ -261,7 +261,7 @@
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "<strong>Korrekt!</strong> Kommentaren använder förolämpande och respektlöst språk riktat mot domaren, vilket gör detta till ett exempel på <strong>stötande tal</strong>.",
+            "text": "<strong>Korrekt!</strong> Kommentaren använder förolämpande och respektlöst språk riktat mot domaren, vilket gör detta till ett exempel på <strong>stötande språk</strong>.",
             "note": "HTML allowed"
           },
           "bad": {
