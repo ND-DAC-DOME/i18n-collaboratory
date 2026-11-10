@@ -3944,6 +3944,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:05:19Z",
-    "enFp": "8f1f289a773e777be106d59527c85d47cb8becfaac9237311f8b21d9d34d6904"
+    "enFp": "8f1f289a773e777be106d59527c85d47cb8becfaac9237311f8b21d9d34d6904",
+    "stale": false
+  },
+  "m5.takeaways.items.i4": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:05:36Z",
+    "enFp": "846f7add26ddff6f1b9d4899fa305200ee77de7769106bea566eb10da5b17c6a"
   }
 }
