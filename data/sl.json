@@ -3251,7 +3251,7 @@
         "note": "Bottom-left floater pill → support options dialog"
       },
       "regionAria": {
-        "text": "Podpora v tečaju",
+        "text": "Podpora na tečaju",
         "note": "aria-label on floater stack"
       }
     },
