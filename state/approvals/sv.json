@@ -920,6 +920,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:36:59Z",
-    "enFp": "7845bcea692ff7c0a63d203f5b8847a4d2673fb68cc4d5e2b5d4536d153a0ba3"
+    "enFp": "7845bcea692ff7c0a63d203f5b8847a4d2673fb68cc4d5e2b5d4536d153a0ba3",
+    "stale": false
+  },
+  "player.systemLabels.assessment.case_insensitive": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:39:35Z",
+    "enFp": "1679b4d55499bd049e2b19896068789ee0929be74495da0198f538752b9d221b"
   }
 }
