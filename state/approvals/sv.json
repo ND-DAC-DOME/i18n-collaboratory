@@ -2728,5 +2728,11 @@
     "at": "2026-11-10T17:24:38Z",
     "enFp": "cc20753b077d4db59472dda79667b912dc25b250dd1ccd1fe85f1f23c0c59b08",
     "stale": false
+  },
+  "summary.quiz.questions.q7.prompt": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:27:18Z",
+    "enFp": "456046bda6c5da1c1af58ae765e07e7f35d4a87d07ea0518ecb19d249577317b"
   }
 }
