@@ -1620,6 +1620,19 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:48:10Z",
-    "enFp": "dc85af8f2b1d0d6756547cd5f79557466e25e682b882f68d277bd7f125851321"
+    "enFp": "dc85af8f2b1d0d6756547cd5f79557466e25e682b882f68d277bd7f125851321",
+    "stale": false
+  },
+  "player.systemLabels.access.unable_to_verify": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:48:15Z",
+    "enFp": "6a28034b2adda647ffc6b2478adc83fc7332c17947cd584270166eab50d321cb"
+  },
+  "player.systemLabels.access.verifying": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:48:15Z",
+    "enFp": "2ec1ac7d45e8079b8410caee12456f9655d1ae809e9ec933d3a7982e1f3a5d08"
   }
 }
