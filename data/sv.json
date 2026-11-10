@@ -3938,7 +3938,7 @@
       },
       "reactions": {
         "comment_help": {
-          "text": "Kommentaren skickas med analysdata men sparas inte i återupptagningsdata.",
+          "text": "Kommentaren skickas med analysdata men sparas inte i kursdata/kursresultat.",
           "note": "ScormStack player/system label `reactions.comment_help`"
         },
         "comment_label": {
