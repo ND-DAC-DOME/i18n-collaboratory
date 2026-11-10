@@ -1823,6 +1823,19 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:56:49Z",
-    "enFp": "2107d5bbdbbae8c083a67bd7a11fdb7027ad6781bec414a5efce4091c40ccc38"
+    "enFp": "2107d5bbdbbae8c083a67bd7a11fdb7027ad6781bec414a5efce4091c40ccc38",
+    "stale": false
+  },
+  "player.systemLabels.reactions.selection_locked": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:56:55Z",
+    "enFp": "cf849ffa09813e12c97ef9ffeb678b46ad1479ec3fe99f7cc7345ba0f9ead02b"
+  },
+  "player.systemLabels.reactions.send_comment": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:56:55Z",
+    "enFp": "badd6941df1727e8ffe78a89e8584b7e11d1f8b4cf6dd72a7f0e3cf003b7b774"
   }
 }
