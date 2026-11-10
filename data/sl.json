@@ -3560,7 +3560,7 @@
           }
         },
         "submit": {
-          "text": "Pošlji",
+          "text": "Pošljite",
           "note": "ScormStack player/system label `assessment.submit`"
         },
         "submitted": {
