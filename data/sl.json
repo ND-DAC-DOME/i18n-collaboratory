@@ -4158,7 +4158,7 @@
           "note": "ScormStack player/system label `video.pause`"
         },
         "play": {
-          "text": "Predvajaj",
+          "text": "Predvajajte",
           "note": "ScormStack player/system label `video.play`"
         }
       },
