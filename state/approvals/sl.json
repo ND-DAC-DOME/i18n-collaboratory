@@ -2334,6 +2334,19 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:58:10Z",
-    "enFp": "942087cc2d41e01304b7195558d093d10c72af8e838c7556d6a02d471ee71852"
+    "enFp": "942087cc2d41e01304b7195558d093d10c72af8e838c7556d6a02d471ee71852",
+    "stale": false
+  },
+  "player.systemLabels.general.save": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:58:24Z",
+    "enFp": "1509f561f2416598629b886ad7d3c05a7e221e4e0675c84bbff4ee6d9e03913d"
+  },
+  "player.systemLabels.homepage.course_home": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:58:24Z",
+    "enFp": "3a78695388b38b5cceefaf6796b0137877514593543b91af2752d5a17e3d736c"
   }
 }
