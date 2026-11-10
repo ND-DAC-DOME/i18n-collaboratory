@@ -3493,7 +3493,7 @@
             "note": "ScormStack player/system label `assessment.numerical.tolerance`"
           },
           "type_here": {
-            "text": "Vtipkaj tukaj ...",
+            "text": "Vtipkajte tukaj ...",
             "note": "ScormStack player/system label `assessment.numerical.type_here`"
           }
         },
