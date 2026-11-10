@@ -3083,12 +3083,20 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:39:12Z",
-    "enFp": "8c8e7afa15e2c552b2b054c6c951431d0c70eafceaf3d263be93c36e72f497d1"
+    "enFp": "8c8e7afa15e2c552b2b054c6c951431d0c70eafceaf3d263be93c36e72f497d1",
+    "stale": false
   },
   "summary.slide.exit.congratulations.heading": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:39:12Z",
-    "enFp": "89eb67c761aeb66f80dd71f2227a56a990bc6a900607e01d7a7a7f2e29007495"
+    "enFp": "89eb67c761aeb66f80dd71f2227a56a990bc6a900607e01d7a7a7f2e29007495",
+    "stale": false
+  },
+  "summary.slide.exit.congratulations.body": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:39:37Z",
+    "enFp": "dc5525a4fc2dacf9594ab9e6579d9d501a02b9732f91f1d7565c5f117c392225"
   }
 }
