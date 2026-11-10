@@ -1788,12 +1788,20 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:51:16Z",
-    "enFp": "a8a57dbc076774bf9ccc791d7f0d74fada5e36e20004eb080d5de7773ba17de2"
+    "enFp": "a8a57dbc076774bf9ccc791d7f0d74fada5e36e20004eb080d5de7773ba17de2",
+    "stale": false
   },
   "player.systemLabels.assessment.next_question": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:51:16Z",
-    "enFp": "f7a9d7437e96463835a47a3a8332a40fa38870f56ff117c1cc0a041958c95beb"
+    "enFp": "f7a9d7437e96463835a47a3a8332a40fa38870f56ff117c1cc0a041958c95beb",
+    "stale": false
+  },
+  "player.systemLabels.assessment.numerical.tolerance": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:51:20Z",
+    "enFp": "f71041bb481fcfb42b6e8fd8c081fa11320ff3ce7ceae2634a285814dee860c3"
   }
 }
