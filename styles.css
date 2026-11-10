@@ -325,6 +325,18 @@ button, input, textarea, select { font: inherit; }
 @keyframes btn-spin { to { transform: rotate(360deg); } }
 
 .row.is-pending { background: #F8FBFD; }
+.row.is-save-failed { background: #FFF8F7; }
+.row-save-error {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #FDF0EF;
+  color: var(--danger);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+}
 .tr-box.editable.is-busy {
   opacity: .75; cursor: wait; background: #F7F8FA;
 }

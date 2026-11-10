@@ -31,10 +31,19 @@
     lock: null,
     canEdit: false,
     editingKey: null,
+    editingDraft: null,
+    editingDraftKey: null,
     pendingKey: null,
-    pendingAction: null, // 'save' | 'approve' | 'unapprove'
+    pendingAction: null, // 'save' | 'unapprove' — approvals do not take this lock
     filter: '',
     rowsCache: [],
+    approveQueue: {},
+    approveInflight: null,
+    approveHeld: [],
+    approveErrors: {},
+    approveFlushTimer: null,
+    approveFlushing: false,
+    approveFlushPromise: null,
   };
 
   var el = {
@@ -201,6 +210,7 @@
         headers: headers,
         body: opts.body ? JSON.stringify(opts.body) : undefined,
         cache: 'no-store',
+        keepalive: !!opts.keepalive,
         signal: ctrl ? ctrl.signal : undefined,
       }).then(function (res) {
         return res.json().catch(function () { return {}; }).then(function (data) {
@@ -229,6 +239,225 @@
     }
 
     return run(attempts);
+  }
+
+  // Debounce GitHub approval commits until a couple of seconds after the last click.
+  var APPROVE_FLUSH_MS = 2500;
+
+  function localApprovalStamp(name) {
+    return {
+      approved: true,
+      by: name || '',
+      at: new Date().toISOString().replace(/\.\d{3}Z$/, 'Z'),
+      _local: true,
+    };
+  }
+
+  function setApprovals(map) {
+    state.approvals = map || {};
+    Object.keys(state.approveQueue).forEach(function (key) {
+      var item = state.approveQueue[key];
+      if (item && item.locale === state.locale && item.entry) {
+        state.approvals[key] = item.entry;
+      }
+    });
+    state.approveHeld.forEach(function (payload) {
+      if (!payload || payload.locale !== state.locale || !payload.entries) return;
+      Object.keys(payload.entries).forEach(function (key) {
+        if (state.approveQueue[key]) return;
+        state.approvals[key] = payload.entries[key];
+      });
+    });
+  }
+
+  function forgetApprovePayload(payload) {
+    state.approveHeld = state.approveHeld.filter(function (item) { return item !== payload; });
+    if (state.approveInflight === payload) state.approveInflight = null;
+  }
+
+  function dropQueuedApprove(key) {
+    var item = state.approveQueue[key];
+    if (!item) return null;
+    delete state.approveQueue[key];
+    if (!Object.keys(state.approveQueue).length && state.approveFlushTimer) {
+      clearTimeout(state.approveFlushTimer);
+      state.approveFlushTimer = null;
+    }
+    return item;
+  }
+
+  function scheduleApproveFlush() {
+    if (state.approveFlushTimer) clearTimeout(state.approveFlushTimer);
+    state.approveFlushTimer = setTimeout(function () {
+      state.approveFlushTimer = null;
+      flushApprovals();
+    }, APPROVE_FLUSH_MS);
+  }
+
+  function drainApproveQueue() {
+    var keys = Object.keys(state.approveQueue);
+    if (!keys.length) return null;
+    var first = state.approveQueue[keys[0]];
+    var locale = first.locale;
+    var batchKeys = keys.filter(function (key) {
+      return state.approveQueue[key] && state.approveQueue[key].locale === locale;
+    });
+    var prevByKey = {};
+    var entries = {};
+    batchKeys.forEach(function (key) {
+      var item = state.approveQueue[key];
+      prevByKey[key] = item.prev;
+      entries[key] = item.entry;
+      delete state.approveQueue[key];
+    });
+    if (Object.keys(state.approveQueue).length) scheduleApproveFlush();
+    return {
+      locale: locale,
+      name: first.name,
+      sessionId: first.sessionId,
+      keys: batchKeys,
+      prevByKey: prevByKey,
+      entries: entries,
+    };
+  }
+
+  function applyApproveSuccess(payload, data) {
+    forgetApprovePayload(payload);
+    if (state.locale !== payload.locale) return;
+    var entries = (data && data.entries) || {};
+    payload.keys.forEach(function (key) {
+      if (state.approveQueue[key]) return;
+      if (entries[key]) state.approvals[key] = entries[key];
+      delete state.approveErrors[key];
+    });
+    renderModules(state.rowsCache);
+    renderRows();
+  }
+
+  function applyApproveFailure(payload, err) {
+    forgetApprovePayload(payload);
+    var msg = (err && err.message) || 'Approve failed';
+    if (state.locale === payload.locale) {
+      payload.keys.forEach(function (key) {
+        if (state.approveQueue[key]) return;
+        var prev = payload.prevByKey[key];
+        if (prev) state.approvals[key] = prev;
+        else delete state.approvals[key];
+        state.approveErrors[key] = msg;
+      });
+      renderModules(state.rowsCache);
+      renderRows();
+    }
+    var n = payload.keys.length;
+    toast(n === 1 ? (msg || 'Approve failed') : ('Could not save ' + n + ' approvals'), 'error');
+  }
+
+  function flushApprovals() {
+    if (state.approveFlushTimer) {
+      clearTimeout(state.approveFlushTimer);
+      state.approveFlushTimer = null;
+    }
+    var payload = drainApproveQueue();
+    if (!payload && !state.approveFlushing) {
+      // A batch can already be queued behind the in-flight request (approveHeld)
+      // in the moment after that request finishes and before the next one starts.
+      if (state.approveHeld.length && state.approveFlushPromise) return state.approveFlushPromise;
+      return Promise.resolve();
+    }
+    if (!payload) return state.approveFlushPromise || Promise.resolve();
+
+    state.approveHeld.push(payload);
+    var run = function () {
+      state.approveFlushing = true;
+      state.approveInflight = payload;
+      return api('/api/approve-batch', {
+        method: 'POST',
+        keepalive: true,
+        body: {
+          locale: payload.locale,
+          keys: payload.keys,
+          name: payload.name,
+          sessionId: payload.sessionId,
+        },
+      }).then(function (data) {
+        applyApproveSuccess(payload, data);
+      }).catch(function (e) {
+        applyApproveFailure(payload, e);
+      }).finally(function () {
+        state.approveFlushing = false;
+        forgetApprovePayload(payload);
+      });
+    };
+
+    if (state.approveFlushing && state.approveFlushPromise) {
+      state.approveFlushPromise = state.approveFlushPromise.then(run, run);
+    } else {
+      state.approveFlushPromise = run();
+    }
+    return state.approveFlushPromise;
+  }
+
+  function settleApproveQueue() {
+    function step() {
+      if (!Object.keys(state.approveQueue).length && !state.approveFlushing && !state.approveHeld.length) {
+        return Promise.resolve();
+      }
+      return flushApprovals().then(step);
+    }
+    return step();
+  }
+
+  function beaconQueuedApprovals() {
+    if (state.approveFlushTimer) {
+      clearTimeout(state.approveFlushTimer);
+      state.approveFlushTimer = null;
+    }
+    var payload = drainApproveQueue();
+    if (!payload) return false;
+    var body = JSON.stringify({
+      locale: payload.locale,
+      keys: payload.keys,
+      name: payload.name,
+      sessionId: payload.sessionId,
+    });
+    // text/plain is a CORS-safelisted type, so sendBeacon can reach the API
+    // from GitHub Pages without a preflight during unload.
+    var ok = false;
+    try {
+      if (navigator.sendBeacon) {
+        ok = navigator.sendBeacon(
+          API + '/api/approve-batch',
+          new Blob([body], { type: 'text/plain;charset=UTF-8' })
+        );
+      }
+    } catch (e) {
+      ok = false;
+    }
+    if (!ok) {
+      try {
+        fetch(API + '/api/approve-batch', {
+          method: 'POST',
+          headers: { 'Content-Type': 'text/plain;charset=UTF-8', 'Accept': 'application/json' },
+          body: body,
+          keepalive: true,
+          mode: 'cors',
+        });
+      } catch (e2) { /* best effort */ }
+    }
+    return true;
+  }
+
+  function beaconReleaseLock() {
+    try {
+      navigator.sendBeacon(
+        API + '/api/lock/release',
+        new Blob([JSON.stringify({
+          locale: state.locale,
+          name: state.name,
+          sessionId: state.sessionId,
+        })], { type: 'application/json' })
+      );
+    } catch (e) { /* ignore */ }
   }
 
   function leafText(node) {
@@ -388,6 +617,8 @@
     edit.addEventListener('click', function () {
       if (state.pendingKey) return;
       state.editingKey = key;
+      state.editingDraft = null;
+      state.editingDraftKey = null;
       renderRows();
       var ta = document.getElementById('edit-' + key);
       if (ta) ta.focus();
@@ -395,18 +626,12 @@
     return edit;
   }
 
-  function makeApproveButton(key, stale, pendingApprove) {
+  function makeApproveButton(key, stale) {
     var approve = document.createElement('button');
     approve.type = 'button';
-    approve.className = 'btn btn-approve' + (pendingApprove ? ' is-busy' : '');
-    approve.innerHTML = btnLabel(
-      pendingApprove ? 'Approving…' : (stale ? 'Re-approve' : 'Approve'),
-      pendingApprove
-    );
-    approve.disabled = pendingApprove;
-    approve.setAttribute('aria-busy', pendingApprove ? 'true' : 'false');
+    approve.className = 'btn btn-approve';
+    approve.textContent = stale ? 'Re-approve' : 'Approve';
     approve.addEventListener('click', function () {
-      if (state.pendingKey) return;
       approveKey(key);
     });
     return approve;
@@ -546,7 +771,20 @@
     });
   }
 
+  function snapshotEditDraft() {
+    if (!state.editingKey) return;
+    var box = document.getElementById('edit-' + state.editingKey);
+    if (!box) return;
+    if (window.UAOAMarkup && typeof box._markup === 'string') {
+      state.editingDraft = window.UAOAMarkup.readEditor(box);
+    } else if ('value' in box) {
+      state.editingDraft = box.value;
+    }
+    state.editingDraftKey = state.editingKey;
+  }
+
   function renderRows() {
+    snapshotEditDraft();
     var rows = filteredRows();
     var approved = rows.filter(function (r) { return isApproved(r.key); }).length;
     var stale = rows.filter(function (r) { return isStale(r.key); }).length;
@@ -589,12 +827,18 @@
     var editing = state.editingKey === r.key;
     var pending = state.pendingKey === r.key;
     var pendingSave = pending && state.pendingAction === 'save';
-    var pendingApprove = pending && state.pendingAction === 'approve';
     var pendingUnlock = pending && state.pendingAction === 'unapprove';
+    var saveError = state.approveErrors[r.key] || '';
     var trText = leafText(getByPath(state.tr, r.key));
+    if (editing && state.editingDraft != null && state.editingDraftKey === r.key) {
+      trText = state.editingDraft;
+    }
 
     var row = document.createElement('article');
-    row.className = 'row' + (pending ? ' is-pending' : '') + (stale ? ' is-stale' : '');
+    row.className = 'row' +
+      (pending ? ' is-pending' : '') +
+      (stale ? ' is-stale' : '') +
+      (saveError && !approved ? ' is-save-failed' : '');
     row.dataset.key = r.key;
 
     var keyEl = document.createElement('div');
@@ -674,6 +918,8 @@
       cancel.addEventListener('click', function () {
         if (state.pendingKey) return;
         state.editingKey = null;
+        state.editingDraft = null;
+        state.editingDraftKey = null;
         renderRows();
       });
       actions.appendChild(save);
@@ -696,11 +942,18 @@
         stalePill.textContent = 'Source updated — re-approve';
         actions.appendChild(stalePill);
       }
-      actions.appendChild(makeApproveButton(r.key, stale, pendingApprove));
-      actions.appendChild(makeEditButton(r.key, pendingApprove));
+      actions.appendChild(makeApproveButton(r.key, stale));
+      actions.appendChild(makeEditButton(r.key, false));
     }
 
     row.appendChild(actions);
+    if (saveError && state.canEdit && !editing && !approved) {
+      var errEl = document.createElement('p');
+      errEl.className = 'row-save-error';
+      errEl.setAttribute('role', 'alert');
+      errEl.textContent = 'Did not save (' + saveError + '). Press Approve to retry.';
+      row.appendChild(errEl);
+    }
     return row;
   }
 
@@ -765,46 +1018,71 @@
     }
   }
 
-  function approveKey(key) {
-    if (state.pendingKey) return;
-    setPending(key, 'approve');
-    renderRows();
-    api('/api/approve', {
-      method: 'POST',
-      body: {
-        locale: state.locale,
-        key: key,
-        name: state.name,
-        sessionId: state.sessionId,
-      },
-    }).then(function (data) {
-      state.approvals = data.approvals || state.approvals;
-      state.approvals[key] = data.entry || { approved: true, by: state.name };
-      clearPending();
-      toast('Approved', 'ok');
-      renderModules(state.rowsCache);
-      renderRows();
-    }).catch(function (e) {
-      clearPending();
-      toast(e.message || 'Approve failed', 'error');
-      renderRows();
+  function priorApproval(key) {
+    if (state.approveQueue[key]) return state.approveQueue[key].prev;
+    var saw = false;
+    var found = null;
+    state.approveHeld.forEach(function (payload) {
+      if (!payload || !payload.prevByKey) return;
+      if (!Object.prototype.hasOwnProperty.call(payload.prevByKey, key)) return;
+      saw = true;
+      found = payload.prevByKey[key];
     });
+    if (saw) return found;
+    var current = state.approvals[key];
+    if (current && current._local) return null;
+    return current ? Object.assign({}, current) : null;
+  }
+
+  function approveKey(key) {
+    if (!state.canEdit || !state.locale || !key) return;
+    if (state.pendingKey === key) return;
+    delete state.approveErrors[key];
+    var prev = priorApproval(key);
+    var entry = localApprovalStamp(state.name);
+    state.approvals[key] = entry;
+    state.approveQueue[key] = {
+      locale: state.locale,
+      name: state.name,
+      sessionId: state.sessionId,
+      entry: entry,
+      prev: prev,
+    };
+    scheduleApproveFlush();
+    renderModules(state.rowsCache);
+    renderRows();
   }
 
   function unapprove(key) {
     if (state.pendingKey) return;
+    var queued = dropQueuedApprove(key);
+    delete state.approveErrors[key];
+    var inflight = state.approveHeld.some(function (payload) {
+      return payload && payload.keys && payload.keys.indexOf(key) !== -1;
+    });
+    if (queued && !inflight && !queued.prev) {
+      delete state.approvals[key];
+      renderModules(state.rowsCache);
+      renderRows();
+      return;
+    }
+    var wait = inflight ? settleApproveQueue() : Promise.resolve();
     setPending(key, 'unapprove');
     renderRows();
-    api('/api/unapprove', {
-      method: 'POST',
-      body: {
-        locale: state.locale,
-        key: key,
-        name: state.name,
-        sessionId: state.sessionId,
-      },
+    wait.then(function () {
+      return api('/api/unapprove', {
+        method: 'POST',
+        body: {
+          locale: state.locale,
+          key: key,
+          name: state.name,
+          sessionId: state.sessionId,
+        },
+      });
     }).then(function (data) {
-      state.approvals = data.approvals || {};
+      setApprovals(data.approvals || {});
+      delete state.approvals[key];
+      delete state.approveErrors[key];
       clearPending();
       toast('Unapproved', 'ok');
       renderModules(state.rowsCache);
@@ -818,27 +1096,41 @@
 
   function saveEdit(key, text) {
     if (state.pendingKey) return;
+    dropQueuedApprove(key);
+    delete state.approveErrors[key];
+    var inflight = state.approveHeld.some(function (payload) {
+      return payload && payload.keys && payload.keys.indexOf(key) !== -1;
+    });
     // Keep editingKey so the row stays in edit mode until the request finishes.
     setByPathLocal(state.tr, key, text);
+    state.editingDraft = text;
+    state.editingDraftKey = key;
     setPending(key, 'save');
     renderRows();
-    api('/api/translation', {
-      method: 'PUT',
-      body: {
-        locale: state.locale,
-        key: key,
-        text: text,
-        name: state.name,
-        sessionId: state.sessionId,
-      },
+    var wait = inflight ? settleApproveQueue() : Promise.resolve();
+    wait.then(function () {
+      return api('/api/translation', {
+        method: 'PUT',
+        body: {
+          locale: state.locale,
+          key: key,
+          text: text,
+          name: state.name,
+          sessionId: state.sessionId,
+        },
+      });
     }).then(function (data) {
       if (data.catalog) state.tr = data.catalog;
       else setByPathLocal(state.tr, key, text);
       // Save clears approval for this key until they Approve again.
-      if (data.approvals) state.approvals = data.approvals;
+      if (data.approvals) setApprovals(data.approvals);
       else if (state.approvals[key]) delete state.approvals[key];
+      delete state.approvals[key];
+      delete state.approveErrors[key];
       clearPending();
       state.editingKey = null;
+      state.editingDraft = null;
+      state.editingDraftKey = null;
       toast('Saved — re-approve when ready', 'ok');
       renderModules(state.rowsCache);
       renderRows();
@@ -861,7 +1153,7 @@
     }).then(function (data) {
       state.lock = data.lock || null;
       state.canEdit = !!data.acquired;
-      if (data.approvals) state.approvals = data.approvals;
+      if (data.approvals) setApprovals(data.approvals);
       updateChrome();
       return data;
     });
@@ -908,6 +1200,9 @@
   function loadLocale(code) {
     state.locale = code;
     state.editingKey = null;
+    state.editingDraft = null;
+    state.editingDraftKey = null;
+    state.approveErrors = {};
     setUrlLocale(code);
     el.localeSelect.value = code;
 
@@ -921,7 +1216,7 @@
     }).then(function (parts) {
       state.en = parts[0].catalog;
       state.tr = parts[1].catalog;
-      state.approvals = parts[2].approvals || {};
+      setApprovals(parts[2].approvals || {});
       state.lock = parts[3].lock || null;
       state.rowsCache = flattenEn();
       if (!MODULE_ORDER.includes(state.module) ||
@@ -971,14 +1266,24 @@
     el.localeSelect.addEventListener('change', function () {
       var next = el.localeSelect.value;
       var prev = state.locale;
+      if (!next || next === prev) return;
       var go = function () {
         loadLocale(next).catch(function (e) { toast(e.message || 'Failed to load locale'); });
       };
-      if (state.canEdit && prev && prev !== next) {
-        releaseLocale().finally(go);
-      } else {
+      // Flush while this locale is still checked out, then release.
+      // A failed flush stays on the row so the reviewer can retry.
+      settleApproveQueue().then(function () {
+        if (state.locale === prev && Object.keys(state.approveErrors).length) {
+          el.localeSelect.value = prev;
+          toast('Some approvals did not save — retry the highlighted rows', 'error');
+          return;
+        }
+        if (state.canEdit && prev) return releaseLocale().finally(go);
         go();
-      }
+      }).catch(function (e) {
+        el.localeSelect.value = prev;
+        toast((e && e.message) || 'Could not save approvals before switching', 'error');
+      });
     });
 
     el.releaseBtn.addEventListener('click', function () {
@@ -1029,18 +1334,21 @@
       if (e.key === 'Enter') el.nameStart.click();
     });
 
-    window.addEventListener('beforeunload', function () {
+    var unloadHandled = false;
+    function onLeavePage() {
+      if (unloadHandled) return;
+      unloadHandled = true;
+      var sentApprovals = beaconQueuedApprovals();
       if (!state.canEdit) return;
-      try {
-        navigator.sendBeacon(
-          API + '/api/lock/release',
-          new Blob([JSON.stringify({
-            locale: state.locale,
-            name: state.name,
-            sessionId: state.sessionId,
-          })], { type: 'application/json' })
-        );
-      } catch (e) {}
+      // Skip the release beacon while a batch is still being written so the
+      // checkout check on that batch still passes. The lease expires on its own.
+      if (sentApprovals || state.approveFlushing || state.approveHeld.length) return;
+      beaconReleaseLock();
+    }
+    window.addEventListener('pagehide', onLeavePage);
+    window.addEventListener('beforeunload', onLeavePage);
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'hidden') flushApprovals();
     });
 
     setInterval(heartbeat, 120000);
