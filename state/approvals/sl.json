@@ -1858,12 +1858,38 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:52:00Z",
-    "enFp": "289aff12b04274cb04b8f7dbf486ba8b3528c6fd16b60b9a31d31ce23b339236"
+    "enFp": "289aff12b04274cb04b8f7dbf486ba8b3528c6fd16b60b9a31d31ce23b339236",
+    "stale": false
   },
   "player.systemLabels.assessment.questions": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:52:00Z",
-    "enFp": "9a72221a27476f3e907767bc2614ae6aaa0a45c60543a23f89786b571897bb75"
+    "enFp": "9a72221a27476f3e907767bc2614ae6aaa0a45c60543a23f89786b571897bb75",
+    "stale": false
+  },
+  "player.systemLabels.assessment.required": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:05Z",
+    "enFp": "4850b174b713d88cfc63de107830d5388929020e78abc91fc19bba7a6821625f"
+  },
+  "player.systemLabels.assessment.response_saved": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:05Z",
+    "enFp": "6cbe77f1c9c63f29be5fdce906b1a942adbbd3d9577957283bc0f8fa2c6030cb"
+  },
+  "player.systemLabels.assessment.results": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:05Z",
+    "enFp": "219c4a6c86a716e99d5dc9611b61e584deb11b57e972d87d4b773387ebc3cadd"
+  },
+  "player.systemLabels.assessment.review_questions": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:05Z",
+    "enFp": "e2fd5ab96d018d36e69aa3048c7522797f1730aabc8c998f7c36d584852d7c45"
   }
 }
