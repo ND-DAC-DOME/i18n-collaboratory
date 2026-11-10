@@ -1872,6 +1872,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:57:12Z",
-    "enFp": "81ce005f787a661c193f66cc05171d0b7bb388a4cb3b43cf18373371cbece2ea"
+    "enFp": "81ce005f787a661c193f66cc05171d0b7bb388a4cb3b43cf18373371cbece2ea",
+    "stale": false
+  },
+  "player.systemLabels.resume.resume_course": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:57:15Z",
+    "enFp": "f94001cc0f9ec48cabe10a2d4d42e9f3ae1a9f6cb451dcd81dac488ce9d80ae5"
   }
 }
