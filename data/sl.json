@@ -4012,7 +4012,7 @@
           "note": "ScormStack player/system label `resume.progress_saved`"
         },
         "resume_course": {
-          "text": "Nadaljuj tečaj",
+          "text": "Nadaljujte tečaj",
           "note": "ScormStack player/system label `resume.resume_course`"
         },
         "slide": {
