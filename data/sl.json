@@ -3846,7 +3846,7 @@
           "note": "ScormStack player/system label `interactive_image.close_modal`"
         },
         "close_sidebar": {
-          "text": "Zapri stransko vrstico",
+          "text": "Zaprite stransko vrstico",
           "note": "ScormStack player/system label `interactive_image.close_sidebar`"
         },
         "close_tooltip": {
