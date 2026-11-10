@@ -195,7 +195,7 @@
         "note": "Shown after ~45s if EOS not detected"
       },
       "fallbackButton": {
-        "text": "Dokončil(a) jsem průzkum",
+        "text": "Dokončil(a) jsem dotazník",
         "note": "Manual unlock when QualtricsEOS is not received"
       },
       "continue": {
