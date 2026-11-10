@@ -2,634 +2,686 @@
   "survey.preCourse.intro": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:50:14Z"
+    "at": "2026-11-10T13:50:14Z",
+    "stale": false,
+    "enFp": "8483b9b97d789bd8feaaacb682f7e11d44bb0d7e70f6771a6359487b982cbc78"
   },
   "m1.slide.onlineConversationsArePartOfSport.body": {
-    "approved": false,
+    "approved": true,
     "by": "jhendri4",
     "at": "2026-11-05T20:01:24Z",
     "enFp": "b4f986d4a53ecae650de596a733c7b753514647bdeae5918845ad05e69795f30",
-    "stale": true,
-    "staleReason": "en_source_changed",
-    "staleAt": "2026-11-08T12:33:55Z"
+    "stale": false
   },
   "m1.slide.onlineConversationsArePartOfSport.heading": {
-    "approved": false,
+    "approved": true,
     "by": "jhendri4",
     "at": "2026-11-05T20:01:24Z",
     "enFp": "bc22e9d5d864b5ba722d653102909f84ddb373b733be7bb45eded85db315b9bc",
-    "stale": true,
-    "staleReason": "en_source_changed",
-    "staleAt": "2026-11-08T12:33:55Z"
+    "stale": false
   },
   "common.checkUnderstandingHeading": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:33:33Z"
-  },
-  "common.learningActivityHeading": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:33:51Z"
+    "at": "2026-11-10T08:33:33Z",
+    "stale": false,
+    "enFp": "6c3b365da4e4f072e53bea86330e2ef281aa55010eb26484bfafcbc7d878327f"
   },
   "common.next": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:33:55Z"
+    "at": "2026-11-10T08:33:55Z",
+    "stale": false,
+    "enFp": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858"
   },
   "common.complete": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:33:59Z"
+    "at": "2026-11-10T08:33:59Z",
+    "stale": false,
+    "enFp": "143b270a32602d412babf2724ec0640dda0d5a43485e5a7520b05b53fa94b303"
   },
   "common.completed": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:34:03Z"
+    "at": "2026-11-10T08:34:03Z",
+    "stale": false,
+    "enFp": "22a970d2e5b1cc233e462be7c7b64e135a275bb09d83d87683bf4236c43113a1"
   },
   "common.tryAgain": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:34:08Z"
-  },
-  "common.activityComplete": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:34:14Z"
-  },
-  "common.activityCompleteRevisit": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:34:32Z"
+    "at": "2026-11-10T08:34:08Z",
+    "stale": false,
+    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f"
   },
   "common.answerChoicesAria": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:34:36Z"
-  },
-  "common.notQuiteReview": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:34:48Z"
+    "at": "2026-11-10T08:34:36Z",
+    "stale": false,
+    "enFp": "86cfa5c34050fff77baf26f5eb331b98c110077e25a10df0a33b9775a2a99192"
   },
   "common.previous": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:34:53Z"
+    "at": "2026-11-10T08:34:53Z",
+    "stale": false,
+    "enFp": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa"
   },
   "common.submitAnswers": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:36:13Z"
+    "at": "2026-11-10T08:36:13Z",
+    "stale": false,
+    "enFp": "1ff0f3bdfbd0fe145f2580270b6df3001a166c508499e882448c3fcc6161be41"
   },
   "common.submitted": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:39:35Z"
+    "at": "2026-11-10T08:39:35Z",
+    "stale": false,
+    "enFp": "64900440a8c9a5eda335b124b9824aa4f14f2c280097d5556498d276f60ecdf1"
   },
   "common.continue": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:39:38Z"
-  },
-  "common.correct": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:39:42Z"
-  },
-  "common.notQuite": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:39:53Z"
-  },
-  "common.selectAllThatApply": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:39:56Z"
-  },
-  "common.nSelected": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:39:59Z"
-  },
-  "common.nOfTotalSelected": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:40:05Z"
-  },
-  "common.nOfTotalExplored": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:40:12Z"
-  },
-  "common.allExplored": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:40:20Z"
-  },
-  "common.allStepsReviewed": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:40:34Z"
+    "at": "2026-11-10T08:39:38Z",
+    "stale": false,
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
   },
   "common.chooseEllipsis": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:41:08Z"
-  },
-  "common.true": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:41:13Z"
-  },
-  "common.false": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:41:18Z"
-  },
-  "common.wrongPlain": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:41:44Z"
+    "at": "2026-11-10T08:41:08Z",
+    "stale": false,
+    "enFp": "62f8ef065f909b2e4613f9d267d4853b502d6e3426684081d226ed2413470dd7"
   },
   "common.questionNavAria": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:41:49Z"
+    "at": "2026-11-10T08:41:49Z",
+    "stale": false,
+    "enFp": "52e7b6dc1c7989a97c7f9f822111a3c81fbac9987dadaf01be3dfc684ee5ea81"
   },
   "common.close": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:41:52Z"
+    "at": "2026-11-10T08:41:52Z",
+    "stale": false,
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   },
   "common.yourAnswer": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:41:56Z"
+    "at": "2026-11-10T08:41:56Z",
+    "stale": false,
+    "enFp": "adceb15c665f2cad310bd1211db8fe7a0ddf9d827d1020133ae8b42678ab9d66"
   },
   "common.correctAnswer": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:41:59Z"
+    "at": "2026-11-10T08:41:59Z",
+    "stale": false,
+    "enFp": "4d659fb1085d715b616bf45d04aea0f93daccb005f2937e00c038d5f82cf9445"
   },
   "common.scoreAllCorrect": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:42:06Z"
+    "at": "2026-11-10T08:42:06Z",
+    "stale": false,
+    "enFp": "4a3eb34e24dc3515f73b0ecf0a1e74172e5ae2d18a89da734cc855893420723c"
   },
   "common.scoreRetry": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:42:22Z"
+    "at": "2026-11-10T08:42:22Z",
+    "stale": false,
+    "enFp": "a3c09a7e0446c30ae780db723fefde1faf1387b29e722da436f0547838c8e97b"
   },
   "common.scoreGoodEffort": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:42:31Z"
+    "at": "2026-11-10T08:42:31Z",
+    "stale": false,
+    "enFp": "72b1cb080d7f132a7b769b7e70e777bf5a7b2b7e467701a9f11373a9a7b3fc11"
   },
   "common.scoreReviewContent": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:42:36Z"
-  },
-  "common.keyTakeaways": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T08:42:47Z"
+    "at": "2026-11-10T08:42:36Z",
+    "stale": false,
+    "enFp": "f2ef0cc216b485cb0110334a9cbed91e6bb5af01d3e811f108e8809c588ecfd2"
   },
   "common.questionsCorrect": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T08:42:55Z"
+    "at": "2026-11-10T08:42:55Z",
+    "stale": false,
+    "enFp": "da8e7b71ef0650cde00f4716ad47b9031279877c917b261a1e821c82258d24a8"
   },
   "course.outline.sections.uaoaCourse": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:25:43Z"
+    "at": "2026-11-10T10:25:43Z",
+    "stale": false,
+    "enFp": "dadf0f41aea8e2d19eace6036351c975e1db85abea40ef4125e525958432181b"
   },
   "course.outline.sections.introduction": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:25:46Z"
+    "at": "2026-11-10T10:25:46Z",
+    "stale": false,
+    "enFp": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
   },
   "course.outline.sections.preCourseSurvey": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:26:24Z"
+    "at": "2026-11-10T10:26:24Z",
+    "stale": false,
+    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4"
   },
   "course.outline.sections.module1": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:26:26Z"
+    "at": "2026-11-10T10:26:26Z",
+    "stale": false,
+    "enFp": "7bd758065d58bbaadaf5a04a2fed845a89e794ed30a1715bd97b3c0543679224"
   },
   "course.outline.sections.module2": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:26:30Z"
+    "at": "2026-11-10T10:26:30Z",
+    "stale": false,
+    "enFp": "6b062993c94ceb43c90aaf422aeecb4999b7211595c9da5d6f494b70ec3c43fc"
   },
   "course.outline.sections.module3": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:26:33Z"
+    "at": "2026-11-10T10:26:33Z",
+    "stale": false,
+    "enFp": "ea4daee35d3a807ec670362e563ea6403e442d5ff71b9316ea9926952adab960"
   },
   "course.outline.sections.module4": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:26:36Z"
+    "at": "2026-11-10T10:26:36Z",
+    "stale": false,
+    "enFp": "3d3e68a271a252e32e07b8fc365659307fb89ca9859afedcfac4b0ed46780e15"
   },
   "course.outline.sections.module5": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:26:39Z"
+    "at": "2026-11-10T10:26:39Z",
+    "stale": false,
+    "enFp": "27cae5af105790b28f4d793dc3824f4d8465bb43a493cc226152e89312b9cd75"
   },
   "course.outline.slides.aboutThisCourse": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:26:42Z"
+    "at": "2026-11-10T10:26:42Z",
+    "stale": false,
+    "enFp": "42bb3844d01d06a8292661620a40c76c1444ab65f4a22db9160a3d10e9be1fc6"
   },
   "course.outline.sections.summary": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:26:46Z"
+    "at": "2026-11-10T10:26:46Z",
+    "stale": false,
+    "enFp": "8e76a94ac8320d515375e625bef1829238b097ecbd33611b59eeefd4ffefebfb"
   },
   "course.outline.slides.finalQuiz": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:26:58Z"
+    "at": "2026-11-10T10:26:58Z",
+    "stale": false,
+    "enFp": "e996d74a3b491ce68cbc40dfcbd1469b724eafa38cdf0a76aed78ddc15492c89"
   },
   "course.outline.slides.preCourseSurvey": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:27:03Z"
+    "at": "2026-11-10T10:27:03Z",
+    "stale": false,
+    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4"
   },
   "course.outline.slides.postCourseSurvey": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:27:07Z"
+    "at": "2026-11-10T10:27:07Z",
+    "stale": false,
+    "enFp": "9dc40a69b0e1e03bb862cd22d9b8235b11bc088bd5fa210e507159887936dbf7"
   },
   "course.outline.slides.welcome": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:27:10Z"
+    "at": "2026-11-10T10:27:10Z",
+    "stale": false,
+    "enFp": "0e2226b5235f0ff94a276eb4d07a3bfea74b7e3b8b85e9efca6c18430f041bf8"
   },
   "course.outline.slides.exitPage": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:27:17Z"
+    "at": "2026-11-10T10:27:17Z",
+    "stale": false,
+    "enFp": "8c5a1314cafebb0a2250f1cf12b02be358a3a663173c924a314da39520e0ef69"
   },
   "course.outline.slides.module1": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:27:38Z"
+    "at": "2026-11-10T10:27:38Z",
+    "stale": false,
+    "enFp": "11cd79eac12780bcb7e1dc171fb9ee0ec7aa1904bde78b62f81313f9f07963af"
   },
   "course.outline.slides.module2": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:28:07Z"
+    "at": "2026-11-10T10:28:07Z",
+    "stale": false,
+    "enFp": "5aedc155b5d2ff063d36ab12caffd402de0b09df38fbc3583eb49faf7512d1c2"
   },
   "course.outline.slides.module3": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:28:38Z"
+    "at": "2026-11-10T10:28:38Z",
+    "stale": false,
+    "enFp": "6f215a929a87f82cf73cf1297861adc635a61d5ae57d4c5192c14d6d04cbabdd"
   },
   "course.outline.slides.module4": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:28:42Z"
+    "at": "2026-11-10T10:28:42Z",
+    "stale": false,
+    "enFp": "81acee87b82d4498f2cc1874114bdc5862f8527dc6e1b76e8fb5614c58f7c932"
   },
   "course.outline.slides.module5": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:28:46Z"
+    "at": "2026-11-10T10:28:46Z",
+    "stale": false,
+    "enFp": "65b58c082adac9399f97643b43ff463dba712e0e8a1fe1c8f6324f4496519881"
   },
   "welcome.outcomes.listAria": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:29:56Z"
+    "at": "2026-11-10T10:29:56Z",
+    "stale": false,
+    "enFp": "80ec3be6cd6c2d698e2af137b3e93fce7f1bfca343382b773ba963c3474fb1e6"
   },
   "welcome.outcomes.items.i1": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:31:09Z"
+    "at": "2026-11-10T10:31:09Z",
+    "stale": false,
+    "enFp": "d89c6a0c859db6151138c9700e0affd3ea2b270839b4665e2187b25c5ff8cf91"
   },
   "welcome.outcomes.items.i2": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:32:44Z"
+    "at": "2026-11-10T10:32:44Z",
+    "stale": false,
+    "enFp": "9d8d61b075f04bebb4c1364e0c8868f724dd42bafe397a3539ca1d0f4700d5e1"
   },
   "welcome.outcomes.items.i3": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:33:09Z"
+    "at": "2026-11-10T10:33:09Z",
+    "stale": false,
+    "enFp": "c1ae4b9c8812c6208c045282a7163ed76d62aaac1ba737e6e5612fc39bce045f"
   },
   "welcome.outcomes.items.i4": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:33:31Z"
+    "at": "2026-11-10T10:33:31Z",
+    "stale": false,
+    "enFp": "f19d90e78a5b5f52d1ff42d3787e4f9cfe278b4a4d51cb505fdc75f58049037a"
   },
   "welcome.outcomes.items.i5": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:34:13Z"
+    "at": "2026-11-10T10:34:13Z",
+    "stale": false,
+    "enFp": "3ac5b64a9296b7198f9156599c0effe78dff2149fa1617aee0dcbd61fbc99663"
   },
   "welcome.slide.whatYouWillGain": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:34:18Z"
+    "at": "2026-11-10T10:34:18Z",
+    "stale": false,
+    "enFp": "d8f615aa297c02400631c571166b104cc7400bdbcf5bc4d4218cd610495c32f0"
   },
   "welcome.slide.euDisclaimer.body": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:34:37Z"
+    "at": "2026-11-10T10:34:37Z",
+    "stale": false,
+    "enFp": "63d608e04388aac7e3be1ff8e66274a04808d5a7d7de8ee7d1484993a5d3cfdd"
   },
   "welcome.slide.sportConnectsMillionsOfPeopleAcross.body": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:36:39Z"
-  },
-  "welcome.slide.sportConnectsMillionsOfPeopleAcross.p3": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T10:36:48Z"
+    "at": "2026-11-10T10:36:39Z",
+    "stale": false,
+    "enFp": "561a8ef003f80e604f42e805dbb57f1fff7dedcd32aa916bed7a216595e27982"
   },
   "welcome.slide.welcomeTitle.heading": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:36:52Z"
+    "at": "2026-11-10T10:36:52Z",
+    "stale": false,
+    "enFp": "74dc06dab269536afab95cca4fce8171e84052902a1415570a583cc823944e14"
   },
   "welcome.slide.buildReadinessBody": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:36:56Z"
+    "at": "2026-11-10T10:36:56Z",
+    "stale": false,
+    "enFp": "d6859998f82d7296cfbdc61d7ecbc2e714d7ce15d26d395d36395f216b447973"
   },
   "welcome.slide.unitedAgainstOnlineAbuseUaoaBrings.p3": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:36:59Z"
+    "at": "2026-11-10T10:36:59Z",
+    "stale": false,
+    "enFp": "36b23fc34c99109586314a6c262b1a949dedd1ed2014cc02daf3e7d5b1086671"
   },
   "welcome.about.aboutTheCourse.body": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:37:19Z"
+    "at": "2026-11-10T10:37:19Z",
+    "stale": false,
+    "enFp": "f968b77b83514732439fa3cc27878d19e47ebc6d050f4e78a1be2bf7a99e0845"
   },
   "welcome.about.aboutTheCourse.heading": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:37:24Z"
+    "at": "2026-11-10T10:37:24Z",
+    "stale": false,
+    "enFp": "f13cd7251ee736f4b04fceabc81bf0df0d026b7ee3d288c87e035a12d1725dd4"
   },
   "welcome.about.courseTitle": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:37:54Z"
+    "at": "2026-11-10T10:37:54Z",
+    "stale": false,
+    "enFp": "9d41554bf0692013ffa80d04e31864c458d75115f03f42f3a526a283b479c297"
   },
   "welcome.about.readyToBegin.heading": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:38:39Z"
-  },
-  "welcome.about.startCourse": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T10:38:42Z"
+    "at": "2026-11-10T10:38:39Z",
+    "stale": false,
+    "enFp": "d43048bd71adbacc563f836286cb2e15f315b4ee324f37673a41abf8c4be6324"
   },
   "welcome.about.tagline.body": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:39:59Z"
+    "at": "2026-11-10T10:39:59Z",
+    "stale": false,
+    "enFp": "accb2c56e1ad966007b2d640411526b131699cfe5018d0806673dabadb19234e"
   },
   "welcome.about.tagline.heading": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:40:04Z"
+    "at": "2026-11-10T10:40:04Z",
+    "stale": false,
+    "enFp": "0b4b403fe026032576919d551c0c93a6421c9c74dfd2d3f7a0f36fe54c4735dd"
   },
   "welcome.about.whatYoullExplore.heading": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:40:14Z"
+    "at": "2026-11-10T10:40:14Z",
+    "stale": false,
+    "enFp": "37ce623a7b97eafc49f625cb921dc251f648ce4a18a5e2ec271a3db9763604c9"
   },
   "welcome.about.courseSubtitle": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:40:17Z"
+    "at": "2026-11-10T10:40:17Z",
+    "stale": false,
+    "enFp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "welcome.slide.buildReadiness": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:40:31Z"
+    "at": "2026-11-10T10:40:31Z",
+    "stale": false,
+    "enFp": "daf0d4b4a8d6779cad91236634caa60d3c224b3b43ae50d55fdf9a75874b6970"
   },
   "welcome.about.whatYoullExplore.body": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T10:46:13Z"
+    "at": "2026-11-10T10:46:13Z",
+    "stale": false,
+    "enFp": "1fd9b42bd5c58ce88256f8856923611790f90a84d1d4e697c0d8ea19b041d72d"
   },
   "welcome.partners.caption": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:46:55Z"
+    "at": "2026-11-10T13:46:55Z",
+    "stale": false,
+    "enFp": "ede43c8fea3ad387b4147525161d2a68a531a1c5e54e6ff5c6ba0142d01cfb5f"
   },
   "survey.postCourse.continue": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:47:24Z"
-  },
-  "survey.postCourse.fallbackButton": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T13:47:28Z"
-  },
-  "survey.postCourse.fallbackHint": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T13:47:34Z"
-  },
-  "survey.postCourse.completeStatus": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T13:48:35Z"
-  },
-  "survey.postCourse.waitingStatus": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T13:49:19Z"
+    "at": "2026-11-10T13:47:24Z",
+    "stale": false,
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
   },
   "survey.postCourse.iframeTitle": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:49:22Z"
+    "at": "2026-11-10T13:49:22Z",
+    "stale": false,
+    "enFp": "fc9fee4bda7b5b8be11dd1fac2702573389045fa028fcbc055c258ddd5ae1098"
   },
   "survey.preCourse.welcomeContinue": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:49:26Z"
+    "at": "2026-11-10T13:49:26Z",
+    "stale": false,
+    "enFp": "1c045d690a18dbf82775cfece26b5adb9840892dd436b3932850ae1a70661c48"
   },
   "survey.preCourse.continue": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:49:30Z"
-  },
-  "survey.preCourse.slideTitle": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T13:50:11Z"
-  },
-  "survey.preCourse.fallbackButton": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T13:50:19Z"
-  },
-  "survey.preCourse.completeStatus": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T13:50:48Z"
-  },
-  "survey.preCourse.fallbackHint": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T13:50:51Z"
-  },
-  "survey.preCourse.waitingStatus": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T13:50:55Z"
+    "at": "2026-11-10T13:49:30Z",
+    "stale": false,
+    "enFp": "69ea7dd52ed94bbdde00a81376ec05cdb968650672287d2291c9a708e18ad103"
   },
   "survey.preCourse.iframeTitle": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:50:58Z"
+    "at": "2026-11-10T13:50:58Z",
+    "stale": false,
+    "enFp": "b61a9cd3a3e9e9433a3c1d3d22efa84685d6931a411b70c9b8423a12a8b104e9"
   },
   "m1.apply.ui.choicesAria": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:51:10Z"
+    "at": "2026-11-10T13:51:10Z",
+    "stale": false,
+    "enFp": "1e80abcd49c3adc68d605317740598332e56c59ebbe5133f24ed1e1efb9a3f7e"
   },
   "m1.apply.labels.offensiveSpeech": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:51:30Z"
+    "at": "2026-11-10T13:51:30Z",
+    "stale": false,
+    "enFp": "df257f7117719e388e0478e5a97198b2dee48be33c752792d7fa65c0eae51e6c"
   },
   "m1.apply.labels.digitalHostility": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:51:52Z"
+    "at": "2026-11-10T13:51:52Z",
+    "stale": false,
+    "enFp": "46941c68b49f0f9e9cfb8de9182dcb9262d5e17f72c25fc22929e110f6a4bbce"
   },
   "m1.apply.scenarios.s1.text": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:52:17Z"
+    "at": "2026-11-10T13:52:17Z",
+    "stale": false,
+    "enFp": "351bab53ba6b6f636ecd67755061024544b43547f6bc5b79794bb8a405b70292"
   },
   "m1.apply.labels.hateSpeech": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:52:21Z"
+    "at": "2026-11-10T13:52:21Z",
+    "stale": false,
+    "enFp": "5b1a77cb089480428f8e22b22432f99fb0096ecad8688cfca4aeb5ea6ed6b43f"
   },
   "m1.apply.scenarios.s1.ok": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:55:11Z"
+    "at": "2026-11-10T13:55:11Z",
+    "stale": false,
+    "enFp": "8f2fc7a5de2b496a23a510b315a31140570b55605d694d2f353640fea532e82e"
   },
   "m1.apply.scenarios.s1.bad": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:55:32Z"
+    "at": "2026-11-10T13:55:32Z",
+    "stale": false,
+    "enFp": "c0e5993ed319207acd60ea5d96197c02bb2bf6e58fb3508d76d1247dbd406b95"
   },
   "m1.apply.scenarios.s2.text": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:55:39Z"
+    "at": "2026-11-10T13:55:39Z",
+    "stale": false,
+    "enFp": "071f2194201c83e55f84ba6a7061737d80c88119e23874e9a06d3c7557c6ebb9"
   },
   "m1.apply.scenarios.s2.ok": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:57:46Z"
+    "at": "2026-11-10T13:57:46Z",
+    "stale": false,
+    "enFp": "d9b5c6cfb8f3b4f328fe79a9a3e9524243026e5f2431f899a438342642dacd7e"
   },
   "m1.apply.scenarios.s2.bad": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:58:00Z"
+    "at": "2026-11-10T13:58:00Z",
+    "stale": false,
+    "enFp": "573a4163a728e49b53dbfe04171069b7cc5c72b1c3e599fceba224516f7c2c89"
   },
   "m1.apply.scenarios.s3.text": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:58:04Z"
+    "at": "2026-11-10T13:58:04Z",
+    "stale": false,
+    "enFp": "64b27dd56989f06cf64d761fa793b1d7c025cc8c1122e98ca82fc1b3520a710e"
   },
   "m1.apply.scenarios.s4.text": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:58:32Z"
+    "at": "2026-11-10T13:58:32Z",
+    "stale": false,
+    "enFp": "957374e4181432425da7f239f48943140b68e3b79854c01617a013a04ea309c3"
   },
   "m1.forms.ui.progress": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:59:05Z"
+    "at": "2026-11-10T13:59:05Z",
+    "stale": false,
+    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de"
   },
   "m1.forms.cards.c1.name": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T13:59:35Z"
+    "at": "2026-11-10T13:59:35Z",
+    "stale": false,
+    "enFp": "d3ba9c85091707f12fc7ee2d4d0e41082e12b8aefb6645ef617e0668e93981a1"
   },
   "m1.forms.cards.c3.front1": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:00:17Z"
+    "at": "2026-11-10T14:00:17Z",
+    "stale": false,
+    "enFp": "73bc2abb29e071e782d8aa0c801f85d6bfe67f34f5818e040d848c994a6acdf3"
   },
   "m1.forms.cards.c3.front2": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:00:43Z"
+    "at": "2026-11-10T14:00:43Z",
+    "stale": false,
+    "enFp": "57a2be45ad606af575304e03ca25df1ed76971a736ed7298be6ba7202b77b684"
   },
   "m1.protected.maritalStatus": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:02:05Z"
+    "at": "2026-11-10T14:02:05Z",
+    "stale": false,
+    "enFp": "2d2ff71974ae4def1396d94546f1f34e8978fcdcc22409c39547378ac93fab74"
   },
   "m1.protected.pregnancy": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:02:09Z"
+    "at": "2026-11-10T14:02:09Z",
+    "stale": false,
+    "enFp": "d9caea730c50507387a88f3b7d8943f606e211f5adc8000ba9bdd6b8553cc184"
   },
   "m1.protected.age": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:02:12Z"
+    "at": "2026-11-10T14:02:12Z",
+    "stale": false,
+    "enFp": "39b7370f30a361390476a93a9e57c0654e35aefeda4c0c866aa1fd0dc05cdf19"
   },
   "m1.protected.religion": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:02:16Z"
+    "at": "2026-11-10T14:02:16Z",
+    "stale": false,
+    "enFp": "f8a52d21e659b0e9b473f4e23263def011931bad06bad2146f42b1f5d09c8132"
   },
   "m1.protected.disability": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:02:22Z"
+    "at": "2026-11-10T14:02:22Z",
+    "stale": false,
+    "enFp": "6db0f2662a542d5dcf5625964fa52acca88452c46773430cf6734343cf056ef6"
   },
   "m1.protected.sexualOrientation": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:02:25Z"
+    "at": "2026-11-10T14:02:25Z",
+    "stale": false,
+    "enFp": "dc4e929048e0415e52ccbf79a1f29235af6885d8e68fd475bac134a5a8822b9b"
   },
   "m1.platforms.ui.instruction": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:02:31Z"
+    "at": "2026-11-10T14:02:31Z",
+    "stale": false,
+    "enFp": "8808618c422011e0036f030750e0759c7a9f568496c9136308fe4b3a1a3f0667"
   },
   "m1.platforms.ui.progress": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:02:34Z"
-  },
-  "m1.platforms.ui.done": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T14:02:38Z"
+    "at": "2026-11-10T14:02:34Z",
+    "stale": false,
+    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de"
   },
   "m1.slide.whatDoWeUnderstandByOnline.p3": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:06:17Z"
+    "at": "2026-11-10T14:06:17Z",
+    "stale": false,
+    "enFp": "4620b58c9900dc384481b663952fbec18f8553be2d82090d7eadf4012556367c"
   },
   "m1.slide.whenTheBehavioursOverlap.body": {
     "approved": true,
     "by": "Lisa Kaati",
-    "at": "2026-11-10T14:07:17Z"
+    "at": "2026-11-10T14:07:17Z",
+    "stale": false,
+    "enFp": "25266a4c39e8bc5f5747891474075513451b9f1d36853e9bdedfdfbc1d2726aa"
+  },
+  "player.systemLabels.access.choose_nickname": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:27:16Z",
+    "enFp": "609118ef7029897d6c545df6bf60e1e3830931695de710cd4d53b34e81e5690a"
   }
 }
