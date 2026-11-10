@@ -2928,7 +2928,7 @@
         },
         "q9": {
           "prompt": {
-            "text": "<strong>Organisationer har också en roll.</strong> Flera personer i en idrottsorganisation har rapporterat onlineövergrepp.<br>Vad skulle ge den starkaste insatsen från organisationen?",
+            "text": "<strong>Organisationer har också en roll.</strong> Flera personer i en idrottsorganisation har rapporterat onlineövergrepp.<br>Vad skulle vara den starkaste responsen från organisationen?",
             "note": "HTML allowed"
           },
           "choices": {
