@@ -2943,12 +2943,26 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:06:11Z",
-    "enFp": "4664827f8e89019280ba99cd889f9ea31eaeecf6fc1bb7541c4a0e546685599f"
+    "enFp": "4664827f8e89019280ba99cd889f9ea31eaeecf6fc1bb7541c4a0e546685599f",
+    "stale": false
   },
   "player.systemLabels.web_simulation.restart": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:06:11Z",
-    "enFp": "6b983a81e5e8099e4e23a368e72636e31f029f2e691e5be714106b8cf59d70a7"
+    "enFp": "6b983a81e5e8099e4e23a368e72636e31f029f2e691e5be714106b8cf59d70a7",
+    "stale": false
+  },
+  "player.systemLabels.web_simulation.start": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:09:26Z",
+    "enFp": "e4bb9f1ece9af9264a3b9e3913bbdb2cf497457167b14ced5f85688bfde74644"
+  },
+  "player.systemLabels.web_simulation.step": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:09:26Z",
+    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4"
   }
 }
