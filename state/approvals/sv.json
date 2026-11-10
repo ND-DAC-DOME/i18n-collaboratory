@@ -4154,6 +4154,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:13:18Z",
-    "enFp": "7fb1854346bf4ef334592d232e7a6d148db5b86f96a20afaca5b2047b1bd2603"
+    "enFp": "7fb1854346bf4ef334592d232e7a6d148db5b86f96a20afaca5b2047b1bd2603",
+    "stale": false
+  },
+  "m4.duties.orgs.i4.verb": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:16:24Z",
+    "enFp": "991b0ff072e12a7ddee85fd5450f37beb460c684f4b392174deeb0d922db2be4"
   }
 }
