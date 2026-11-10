@@ -3410,7 +3410,7 @@
           "note": "ScormStack player/system label `assessment.assessment_passed`"
         },
         "assessment_results": {
-          "text": "Bedömningsresultat",
+          "text": "Resultat av bedömning",
           "note": "ScormStack player/system label `assessment.assessment_results`"
         },
         "attempts": {
