@@ -3850,7 +3850,7 @@
           "note": "ScormStack player/system label `interactive_image.close_sidebar`"
         },
         "close_tooltip": {
-          "text": "Zapri opis orodja",
+          "text": "Zaprite opis orodja",
           "note": "ScormStack player/system label `interactive_image.close_tooltip`"
         },
         "hotspot": {
