@@ -2775,18 +2775,57 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:05:02Z",
-    "enFp": "d03d4e29c8c07795f00cd0ef305990114273976a61885ddb6908891ca21e2787"
+    "enFp": "d03d4e29c8c07795f00cd0ef305990114273976a61885ddb6908891ca21e2787",
+    "stale": false
   },
   "player.systemLabels.sorting.position_for": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:05:02Z",
-    "enFp": "3b572d3e14e1e310cf173e0879075ae1c0afd1657e825b2970ecc8c0ecfde858"
+    "enFp": "3b572d3e14e1e310cf173e0879075ae1c0afd1657e825b2970ecc8c0ecfde858",
+    "stale": false
   },
   "player.systemLabels.tabs.more": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:05:02Z",
-    "enFp": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189"
+    "enFp": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189",
+    "stale": false
+  },
+  "player.systemLabels.time_requirements.completed": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:12Z",
+    "enFp": "4f0994cc6119c9fde9a815c8b7aa4f9b898fbde6df031a38a847b3b8b387165f"
+  },
+  "player.systemLabels.time_requirements.done": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:12Z",
+    "enFp": "11a6767d5674c7e45f7e00dc525762275b3a48491ad6045427d2609cc496c516"
+  },
+  "player.systemLabels.time_requirements.elapsed": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:12Z",
+    "enFp": "97f4ebf295406067547d55d337ab0ca5a72202dcd27ae066223cc9eb266f8ffe"
+  },
+  "player.systemLabels.time_requirements.minute": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:12Z",
+    "enFp": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c"
+  },
+  "player.systemLabels.time_requirements.minutes": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:12Z",
+    "enFp": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
+  },
+  "player.systemLabels.time_requirements.remaining": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:12Z",
+    "enFp": "41855492921277b112b27515a21646fd8c30f4c9d19374425ad4c0e01c6eb698"
   }
 }
