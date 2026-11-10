@@ -187,7 +187,7 @@
         "note": "Status while waiting for QualtricsEOS"
       },
       "completeStatus": {
-        "text": "Průzkum dokončen – můžete pokračovat.",
+        "text": "Dotazník dokončen – můžete pokračovat.",
         "note": "Status after QualtricsEOS / manual confirm"
       },
       "fallbackHint": {
