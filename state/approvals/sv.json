@@ -1480,6 +1480,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:47:52Z",
-    "enFp": "8e81edca3b1f254a792812e3dbc9ecf0b16af7ca8475f849de5ee5367e7ae801"
+    "enFp": "8e81edca3b1f254a792812e3dbc9ecf0b16af7ca8475f849de5ee5367e7ae801",
+    "stale": false
+  },
+  "player.systemLabels.flashcard.showing_front": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:47:55Z",
+    "enFp": "0f3311f09b021c943a9cb9ef52d4913f01a38fb5ea8b5cb3f82267075350e7db"
   }
 }
