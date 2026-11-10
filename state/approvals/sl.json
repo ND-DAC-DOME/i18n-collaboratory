@@ -1984,24 +1984,40 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:53:06Z",
-    "enFp": "2141a0e25a04924263828140257c44cc760f796956416805b8fcdf6d56c23480"
+    "enFp": "2141a0e25a04924263828140257c44cc760f796956416805b8fcdf6d56c23480",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.you_need": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:53:06Z",
-    "enFp": "cae78796053546d24f0d19fdf6ab09a59bf4f6170c00fd397e331504c806b5f7"
+    "enFp": "cae78796053546d24f0d19fdf6ab09a59bf4f6170c00fd397e331504c806b5f7",
+    "stale": false
   },
   "player.systemLabels.assessment.total_point_possible": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:53:06Z",
-    "enFp": "ffadc34faea315fca248b9e0657387a65fca0d6832e5925fcfe3f7939ca1caba"
+    "enFp": "ffadc34faea315fca248b9e0657387a65fca0d6832e5925fcfe3f7939ca1caba",
+    "stale": false
   },
   "player.systemLabels.assessment.total_points_possible": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:53:06Z",
-    "enFp": "a4c08944b936cd1c5151cb1e7c8ad8af3dcec3cd678c3df550234313c0a06461"
+    "enFp": "a4c08944b936cd1c5151cb1e7c8ad8af3dcec3cd678c3df550234313c0a06461",
+    "stale": false
+  },
+  "player.systemLabels.assessment.try_again": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:53:20Z",
+    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f"
+  },
+  "player.systemLabels.assessment.ungraded_submitted": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:53:20Z",
+    "enFp": "5962e4c3f208707fc6f325c86b23642ca51674b54fe623b8680133714c00ee52"
   }
 }
