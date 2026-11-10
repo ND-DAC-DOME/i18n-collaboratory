@@ -1641,6 +1641,25 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:51:18Z",
-    "enFp": "fc2f41ef3ea609689e4c2ed68537f5fbad8aaea4d0354c2093e10f7fe28f52ee"
+    "enFp": "fc2f41ef3ea609689e4c2ed68537f5fbad8aaea4d0354c2093e10f7fe28f52ee",
+    "stale": false
+  },
+  "player.systemLabels.matching.pairedItemsAriaLabel": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:51:24Z",
+    "enFp": "634afc496ada2184d791d1430ace6bb27868fe1a7a6412f996b1ba2e5bad6a8a"
+  },
+  "player.systemLabels.media.alt_text": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:51:24Z",
+    "enFp": "42d964c12dfe09efd83691e1684def060924a89eeca894990a87a2b290dd6791"
+  },
+  "player.systemLabels.media.caption": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:51:24Z",
+    "enFp": "87d296ec94898c86baf805dbcc47af48e618ec25df0441f7471c60a7d6b05b4e"
   }
 }
