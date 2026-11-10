@@ -3720,12 +3720,20 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T18:07:47Z",
-    "enFp": "e73ce53c2a4058280dc04a81c6881a4a772ce742473808fcf4206748e29947d0"
+    "enFp": "e73ce53c2a4058280dc04a81c6881a4a772ce742473808fcf4206748e29947d0",
+    "stale": false
   },
   "m5.flow3.steps.s1.title": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T18:07:47Z",
-    "enFp": "512ab3c6b9869577bd4474c56b88f9e3f1c40c54d18e8e5a2329821254d362d2"
+    "enFp": "512ab3c6b9869577bd4474c56b88f9e3f1c40c54d18e8e5a2329821254d362d2",
+    "stale": false
+  },
+  "m5.flow3.steps.s1.body": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T18:08:05Z",
+    "enFp": "b405a483d712d5cd1ebee712f1593799a947bb866b51eccc4e410c5309867e56"
   }
 }
