@@ -3138,7 +3138,7 @@
       "finalQuiz": {
         "summaryScoredQuiz": {
           "body": {
-            "text": "<p><span style=\"color: #091324\">Preverite, kaj ste se naučili v tečaju. Odgovorite na vsako vprašanje in nato preglejte svoje rezultate.</span></p>",
+            "text": "<p><span style=\"color: #091324\">Preverite, kaj ste se naučili na tečaju. Odgovorite na vsako vprašanje in nato preglejte svoje rezultate.</span></p>",
             "note": "Native text body on Final Quiz"
           },
           "heading": {
