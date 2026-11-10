@@ -179,7 +179,7 @@
     },
     "postCourse": {
       "iframeTitle": {
-        "text": "Průzkum po kurzu",
+        "text": "Výstupní dotazník",
         "note": "iframe title for Qualtrics embed after final quiz"
       },
       "waitingStatus": {
