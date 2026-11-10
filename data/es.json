@@ -9,10 +9,6 @@
       "text": "Comprueba tu comprensión",
       "note": "Learning-section pill before knowledge-check widgets (slate #323F53 / lavender border #C5CCDF / cyan dot #21B7CB / white label)"
     },
-    "learningActivityHeading": {
-      "text": "Actividad de aprendizaje",
-      "note": "Learning-section pill before interactives (same shell as checkUnderstandingHeading)"
-    },
     "next": {
       "text": "Siguiente",
       "note": "Primary forward button on series / quiz widgets"
@@ -29,21 +25,9 @@
       "text": "Inténtalo de nuevo",
       "note": "Retry full activity"
     },
-    "activityComplete": {
-      "text": "Actividad completada",
-      "note": "Short done banner"
-    },
-    "activityCompleteRevisit": {
-      "text": "Actividad completada. Puedes volver a consultar las preguntas cuando quieras.",
-      "note": "Done banner with revisit hint (knowledge-check style)"
-    },
     "answerChoicesAria": {
       "text": "Opciones de respuesta",
       "note": "aria-label on radiogroup / options"
-    },
-    "notQuiteReview": {
-      "text": "<strong>No del todo. Revisa las opciones e inténtalo de nuevo.</strong>",
-      "note": "Shared incorrect feedback; HTML allowed"
     },
     "previous": {
       "text": "Anterior",
@@ -61,36 +45,6 @@
       "text": "Continuar",
       "note": "End-of-activity or scroll continue"
     },
-    "correct": {
-      "text": "<strong>¡Correcto!</strong>",
-      "note": "Short correct prefix; HTML allowed"
-    },
-    "notQuite": {
-      "text": "<strong>No del todo. Revisa las opciones e inténtalo de nuevo.</strong>",
-      "note": "Shared incorrect; HTML allowed"
-    },
-    "selectAllThatApply": {
-      "text": "Selecciona todas las opciones que correspondan y, a continuación, envía tus respuestas."
-    },
-    "nSelected": {
-      "text": "{n} seleccionados",
-      "note": "Count label; {n} = number"
-    },
-    "nOfTotalSelected": {
-      "text": "{n} de {total} seleccionados",
-      "note": "Count label; {n}/{total}"
-    },
-    "nOfTotalExplored": {
-      "text": "{n} de {total} explorados",
-      "note": "Flip progress"
-    },
-    "allExplored": {
-      "text": "Todas las plataformas exploradas",
-      "note": "Flip done — platforms; override per widget if needed"
-    },
-    "allStepsReviewed": {
-      "text": "Se han revisado todos los pasos."
-    },
     "questionsCorrect": {
       "text": "preguntas correctas",
       "note": "Score footer under X/Y"
@@ -98,20 +52,6 @@
     "chooseEllipsis": {
       "text": "elegir…",
       "note": "Blank dropdown placeholder"
-    },
-    "true": {
-      "text": "Verdadero"
-    },
-    "false": {
-      "text": "Falso"
-    },
-    "keyTakeaways": {
-      "text": "Conclusiones clave",
-      "note": "Native takeaways heading"
-    },
-    "wrongPlain": {
-      "text": "No del todo. Revisa las opciones e inténtalo de nuevo.",
-      "note": "uaoa_common.WRONG — plain, no HTML"
     },
     "questionNavAria": {
       "text": "Navegación de preguntas"
@@ -144,26 +84,6 @@
         "text": "Encuesta previa al curso",
         "note": "iframe title for Qualtrics embed between Welcome and Module 1"
       },
-      "waitingStatus": {
-        "text": "Completa la encuesta a continuación. Al finalizar, podrás continuar.",
-        "note": "Status while waiting for QualtricsEOS"
-      },
-      "completeStatus": {
-        "text": "Encuesta completada: puedes continuar.",
-        "note": "Status after QualtricsEOS / manual confirm"
-      },
-      "fallbackHint": {
-        "text": "Si has terminado la encuesta pero el botón «Continuar» sigue bloqueado, confírmalo a continuación.",
-        "note": "Shown after ~45s if EOS not detected"
-      },
-      "fallbackButton": {
-        "text": "He terminado la encuesta",
-        "note": "Manual unlock when QualtricsEOS is not received"
-      },
-      "slideTitle": {
-        "text": "Encuesta previa al curso",
-        "note": "Slide / section title between Welcome and Module 1"
-      },
       "intro": {
         "text": "<p><span style=\"color: #091324\">Antes de empezar, esta breve encuesta te ayudará a reflexionar sobre tus conocimientos, tu confianza y tu preparación actuales para abordar el abuso en línea. No hay respuestas correctas ni incorrectas. Tus respuestas serán un punto de partida para reflexionar sobre tu progreso a lo largo del curso.</span></p>",
         "note": "Pre-course survey intro HTML"
@@ -181,22 +101,6 @@
       "iframeTitle": {
         "text": "Encuesta posterior al curso",
         "note": "iframe title for Qualtrics embed after final quiz"
-      },
-      "waitingStatus": {
-        "text": "Completa la encuesta a continuación. Al finalizar, podrás continuar.",
-        "note": "Status while waiting for QualtricsEOS"
-      },
-      "completeStatus": {
-        "text": "Encuesta completada: puedes continuar.",
-        "note": "Status after QualtricsEOS / manual confirm"
-      },
-      "fallbackHint": {
-        "text": "Si has terminado la encuesta pero el botón «Continuar» sigue bloqueado, confírmalo a continuación.",
-        "note": "Shown after ~45s if EOS not detected"
-      },
-      "fallbackButton": {
-        "text": "He terminado la encuesta",
-        "note": "Manual unlock when QualtricsEOS is not received"
       },
       "continue": {
         "text": "Continuar",
@@ -290,9 +194,6 @@
         "progress": {
           "text": "{n} de {total} explorados",
           "note": "Flip progress counter"
-        },
-        "done": {
-          "text": "Todas las formas exploradas"
         }
       },
       "cards": {
@@ -401,9 +302,6 @@
         },
         "progress": {
           "text": "{n} de {total} explorados"
-        },
-        "done": {
-          "text": "Todos los grupos explorados"
         }
       },
       "groups": {
@@ -521,35 +419,12 @@
     },
     "check": {
       "ui": {
-        "instructionComplete": {
-          "text": "Completa la oración."
-        },
-        "instructionBlanks": {
-          "text": "Elige una palabra para cada espacio en blanco. Cada palabra se usa una sola vez."
-        },
         "instructionMulti": {
           "text": "Seleccione todas las opciones que correspondan."
-        },
-        "instructionPair": {
-          "text": "Elige el par de palabras que complete la oración."
         },
         "blankAria": {
           "text": "Espacio en blanco {n}",
           "note": "aria-label; {n} = 1-based index"
-        },
-        "questionsCorrect": {
-          "text": "preguntas correctas"
-        },
-        "scorePerfect": {
-          "text": "Perfecto, respondiste correctamente a todas las preguntas.",
-          "note": "Score message; may vary — check widget"
-        },
-        "scorePartial": {
-          "text": "Buen trabajo. Revisa a continuación cualquier elemento que hayas omitido.",
-          "note": "Fallback score message"
-        },
-        "scoreLow": {
-          "text": "Sigue adelante; inténtalo de nuevo para afianzar tu comprensión."
         }
       },
       "questions": {
@@ -874,10 +749,6 @@
             "c3": {
               "text": "Principalmente personas cuyo trabajo implica comunicarse directamente con los fans."
             }
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong> El abuso en línea puede afectar a personas de todo el ecosistema deportivo, incluidas aquellas que son directamente afectadas y otras que presencian o experimentan sus consecuencias más amplias.",
-            "note": "HTML allowed"
           }
         },
         "q2": {
@@ -898,10 +769,6 @@
             "c3": {
               "text": "Su impacto depende principalmente de la frecuencia con la que una persona utilice las redes sociales."
             }
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong> El abuso en línea puede tener repercusiones en múltiples ámbitos de la vida y el trabajo de una persona. En el deporte, puede afectar principalmente a los atletas, independientemente de su nivel, pero las consecuencias también pueden extenderse a las familias, los compañeros de trabajo, los equipos, los aficionados y las comunidades deportivas.",
-            "note": "HTML allowed"
           }
         },
         "q3": {
@@ -922,10 +789,6 @@
             "c3": {
               "text": "Los efectos del abuso en línea dependen principalmente de la frecuencia con la que una persona utiliza las redes sociales."
             }
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong> Los efectos pueden estar interconectados. El malestar emocional, el sueño, la confianza, la seguridad, el rendimiento y la participación pueden influirse mutuamente y desarrollarse con el tiempo.",
-            "note": "HTML allowed"
           }
         },
         "q4": {
@@ -946,10 +809,6 @@
             "c3": {
               "text": "Es poco probable que las personas que continúan practicando deporte se hayan visto afectadas de forma significativa."
             }
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong> El impacto del abuso en línea varía. Las investigaciones analizadas en el módulo indican que factores como la resiliencia y la autoestima pueden estar relacionados con la forma en que las personas responden, pero seguir participando no significa que alguien no se haya visto afectado.",
-            "note": "HTML allowed"
           }
         }
       }
@@ -958,9 +817,6 @@
       "ui": {
         "progress": {
           "text": "{n} de {total} explorados"
-        },
-        "done": {
-          "text": "Todos los grupos explorados"
         }
       },
       "cards": {
@@ -1016,9 +872,6 @@
     },
     "exploreImpacts": {
       "ui": {
-        "eyebrow": {
-          "text": "Explorar"
-        },
         "prompt": {
           "text": "Tras recibir repetidos mensajes abusivos en línea, un atleta comienza a publicar con menos frecuencia en las redes sociales. Su entrenador nota que parece distraído durante los entrenamientos y que recientemente ha mencionado que duerme mal y que siente ansiedad al asistir a eventos públicos."
         },
@@ -1074,9 +927,6 @@
         },
         "researchHeading": {
           "text": "Lo que muestra la investigación"
-        },
-        "done": {
-          "text": "<strong>Estos impactos pueden estar interconectados y, por tanto, cada uno de ellos es correcto.</strong> El abuso en línea puede afectar varias áreas de la vida de una persona simultáneamente, y sus efectos pueden desarrollarse o intensificarse con el tiempo. Reconocer estas señales puede ayudar a las personas en el ámbito deportivo a responder con mayor sensibilización y brindar apoyo."
         },
         "sourceLabel": {
           "text": "Fuente:"
@@ -1321,10 +1171,6 @@
         "text": "<p><span style=\"color: #091324\">El abuso en línea puede afectar a todas las personas involucradas en el deporte. Sus consecuencias varían según la persona y sus circunstancias, y algunos impactos son especialmente relevantes para los atletas. Estos efectos también pueden reforzarse mutuamente: la ansiedad puede alterar el sueño, la falta de sueño puede afectar la concentración y la confianza, y estos efectos combinados pueden influir en las actividades diarias, el rendimiento deportivo y el bienestar general.</span></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
-      "section4Body": {
-        "text": "<p><span style=\"color: #091324\">Tras recibir repetidos mensajes abusivos en línea, un atleta comienza a publicar con menos frecuencia en las redes sociales. Su entrenador nota que parece distraído durante los entrenamientos y que recientemente ha mencionado que duerme mal y que siente ansiedad al asistir a eventos públicos.</span></p>",
-        "note": "Section body on Online Abuse in Sport: The Human Impact"
-      },
       "section5Body": {
         "text": "<p><span style=\"color: #091324\">Los efectos del abuso en línea pueden <strong>trascender a los individuos</strong>, moldeando la cultura deportiva y las comunidades que la rodean. La hostilidad generalizada puede afectar a <strong>quién se siente bienvenido, seguro y capaz de participar</strong>, con implicaciones para la inclusión y la sostenibilidad de las comunidades deportivas.<br><br></span></p><p><span style=\"color: #091324\">El deporte también tiene una <strong>influencia social más amplia</strong>. Los comportamientos y actitudes expresados en los espacios deportivos pueden contribuir a normas sociales más generales. Cuando el comportamiento discriminatorio o abusivo se normaliza, puede reforzar <strong>los prejuicios, la exclusión y la hostilidad más allá del ámbito deportivo.</strong></span></p><p></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
@@ -1338,9 +1184,6 @@
   "m3": {
     "regionTabs": {
       "ui": {
-        "eyebrow": {
-          "text": "Ejemplo regional"
-        },
         "prompt": {
           "text": "Seleccione una región"
         },
@@ -1433,21 +1276,11 @@
     },
     "checklist": {
       "ui": {
-        "eyebrow": {
-          "text": "Lista de verificación"
-        },
         "title": {
           "text": "Pasos para denunciar"
         },
         "progress": {
           "text": "{n} de {total} revisados"
-        },
-        "hint": {
-          "text": "Marque cada paso a medida que lo revise. No se califica.",
-          "note": "Removed from widget UI; kept for translators / legacy"
-        },
-        "done": {
-          "text": "Se han revisado todos los pasos."
         }
       },
       "items": {
@@ -1543,10 +1376,6 @@
     },
     "sorting": {
       "ui": {
-        "eyebrow": {
-          "text": "Ordenar",
-          "note": "Removed from widget UI; kept for translators / legacy"
-        },
         "prompt": {
           "text": "1. Ordena los pasos a continuación según las recomendaciones."
         },
@@ -1590,10 +1419,6 @@
       }
     },
     "trueFalse": {
-      "bad": {
-        "text": "<strong>No del todo. Revisa la declaración e inténtalo de nuevo.</strong>",
-        "note": "HTML allowed"
-      },
       "questions": {
         "q1": {
           "prompt": {
@@ -1713,10 +1538,6 @@
         }
       },
       "exploreWhichFactorsCanInfluenceHow": {
-        "body": {
-          "text": "<p><span style=\"color: #091324\">Selecciona los tres factores que pueden influir directamente en cómo el contenido dañino se difunde y llega a nuevas audiencias en línea.</span></p>",
-          "note": "Native text body on How Online Harm Spreads"
-        },
         "heading": {
           "text": "<span style=\"color: #1c3564\">Explora: ¿Qué factores pueden influir en la difusión de contenido dañino en línea?</span>",
           "note": "Native heading on How Online Harm Spreads"
@@ -1813,6 +1634,14 @@
         "r1": {
           "text": "<strong>Generación y amplificación del daño:</strong> La IA generativa puede producir o manipular texto, imágenes, audio y vídeo de forma rápida y a gran escala.",
           "note": "HTML allowed"
+        },
+        "r2": {
+          "text": "<strong>Amplificación del acoso:</strong> Las herramientas con inteligencia artificial pueden generar y difundir mensajes abusivos de forma rápida y a gran escala, lo que aumenta el alcance y el impacto del acoso en línea.",
+          "note": "HTML allowed"
+        },
+        "r3": {
+          "text": "<strong>Difusión de desinformación y suplantación:</strong> La IA puede utilizarse para crear contenido engañoso o suplantar a personas, lo que puede dañar reputaciones y engañar al público.",
+          "note": "HTML allowed"
         }
       },
       "benefits": {
@@ -1834,27 +1663,6 @@
   "m4": {
     "lawTabs": {
       "ui": {
-        "prompt": {
-          "text": "Selecciona una vía"
-        },
-        "placeholder": {
-          "text": "Selecciona una vía"
-        },
-        "pathwaysAria": {
-          "text": "Vías legales"
-        },
-        "seeExample": {
-          "text": "Ver un ejemplo"
-        },
-        "backToPathway": {
-          "text": "Volver a la vía"
-        },
-        "returnMain": {
-          "text": "Volver a la página principal"
-        },
-        "closeAria": {
-          "text": "Cerrar"
-        },
         "forExample": {
           "text": "Por ejemplo:",
           "note": "Shown under the title on law-tabs example cards"
@@ -2063,10 +1871,6 @@
             "c3": {
               "text": "Cada plataforma de redes sociales determina qué vía legal se aplica."
             }
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong>",
-            "note": "HTML allowed"
           }
         },
         "q2": {
@@ -2086,10 +1890,6 @@
             "c3": {
               "text": "La persona debería esperar para ver si el comportamiento se agrava."
             }
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong>",
-            "note": "HTML allowed"
           }
         },
         "q3": {
@@ -2109,10 +1909,6 @@
             "c3": {
               "text": "Las organizaciones deportivas no tienen derecho a involucrar a las autoridades."
             }
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong>",
-            "note": "HTML allowed"
           }
         },
         "q4": {
@@ -2132,10 +1928,6 @@
             "c3": {
               "text": "Los países pueden aplicar leyes diferentes a la conducta en línea, y algunas legislaciones abordan explícitamente comportamientos digitales específicos."
             }
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong>",
-            "note": "HTML allowed"
           }
         }
       }
@@ -2185,10 +1977,6 @@
           "body": {
             "text": "<p><span style=\"color: #091324; font-size: 14px\"><strong>Ten en cuenta:</strong> Este módulo ofrece una visión general de las respuestas legales al abuso en línea y no constituye asesoramiento legal. Las leyes varían según la jurisdicción y pueden cambiar con el tiempo. Para obtener asesoramiento sobre una situación específica, consulte con un profesional debidamente cualificado.</span></p>",
             "note": "Callout body on Knowing Your Rights and Responsibilities"
-          },
-          "title": {
-            "text": "<span style=\"color: #1c3564\">Ten en cuenta</span>",
-            "note": "Callout title on Knowing Your Rights and Responsibilities"
           }
         }
       },
@@ -2257,19 +2045,129 @@
           "text": "<span style=\"color: #1c3564\">Dónde tienen límites las respuestas legales</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
+      }
+    },
+    "duties": {
+      "orgs": {
+        "label": {
+          "text": "Las organizaciones deportivas deben:",
+          "note": "Who can do what widget"
+        },
+        "i1": {
+          "verb": {
+            "text": "Definir",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "el abuso en línea y los códigos de conducta esperados en línea en las políticas de la organización",
+            "note": "Who can do what widget"
+          }
+        },
+        "i2": {
+          "verb": {
+            "text": "Establecer",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "procedimientos de denuncia claros y accesibles",
+            "note": "Who can do what widget"
+          }
+        },
+        "i3": {
+          "verb": {
+            "text": "Aplicar",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "consecuencias organizativas cuando se infrinjan los códigos de conducta",
+            "note": "Who can do what widget"
+          }
+        },
+        "i4": {
+          "verb": {
+            "text": "Proporcionar",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "formación sobre cómo reconocer, prevenir y responder al abuso en línea",
+            "note": "Who can do what widget"
+          }
+        },
+        "i5": {
+          "verb": {
+            "text": "Proporcionar",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "acceso a apoyo para el bienestar y la protección",
+            "note": "Who can do what widget"
+          }
+        },
+        "i6": {
+          "verb": {
+            "text": "Cooperar",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "con las plataformas, los organismos reguladores o las autoridades pertinentes cuando corresponda",
+            "note": "Who can do what widget"
+          }
+        }
       },
-      "whoCanDoWhat": {
-        "col1": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Las organizaciones deportivas deben:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Definir el abuso en línea y los códigos de conducta esperados en línea en las políticas de la organización</span></p></li><li><p><span style=\"color: #091324\">Establecer procedimientos de denuncia claros y accesibles</span></p></li><li><p><span style=\"color: #091324\">Aplicar consecuencias organizativas cuando se infrinjan los códigos de conducta</span></p></li><li><p><span style=\"color: #091324\">Proporcionar formación sobre cómo reconocer, prevenir y responder al abuso en línea</span></p></li><li><p><span style=\"color: #091324\">Proporcionar acceso a apoyo para el bienestar y la protección</span></p></li><li><p><span style=\"color: #091324\">Cooperar con las plataformas, los organismos reguladores o las autoridades pertinentes cuando corresponda</span></p></li></ul>",
-          "note": "Native text body on Knowing Your Rights and Responsibilities"
+      "everyone": {
+        "label": {
+          "text": "Todas las personas involucradas en el deporte deben:",
+          "note": "Who can do what widget"
         },
-        "col2": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Todas las personas involucradas en el deporte deben:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Seguir los códigos de conducta y las políticas asociadas a su función</span></p></li><li><p><span style=\"color: #091324\">Utilizar los canales apropiados para denunciar conductas perjudiciales</span></p></li><li><p><span style=\"color: #091324\">Evitar compartir o difundir contenido abusivo</span></p></li><li><p><span style=\"color: #091324\">Apoyar a las personas que son blanco de ataques</span></p></li><li><p><span style=\"color: #091324\">Reconocer que los estándares de respeto, juego limpio y deportividad también se aplican en los espacios digitales</span></p></li></ul>",
-          "note": "Native text body on Knowing Your Rights and Responsibilities"
+        "i1": {
+          "verb": {
+            "text": "Seguir",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "los códigos de conducta y las políticas asociadas a su función",
+            "note": "Who can do what widget"
+          }
         },
-        "heading": {
-          "text": "¿Quién puede hacer qué?",
-          "note": "Native heading on Knowing Your Rights and Responsibilities"
+        "i2": {
+          "verb": {
+            "text": "Utilizar",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "los canales apropiados para denunciar conductas perjudiciales",
+            "note": "Who can do what widget"
+          }
+        },
+        "i3": {
+          "verb": {
+            "text": "Evitar",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "compartir o difundir contenido abusivo",
+            "note": "Who can do what widget"
+          }
+        },
+        "i4": {
+          "verb": {
+            "text": "Apoyar",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "a las personas que son blanco de ataques",
+            "note": "Who can do what widget"
+          }
+        },
+        "i5": {
+          "verb": {
+            "text": "Reconocer",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "que los estándares de respeto, juego limpio y deportividad también se aplican en los espacios digitales",
+            "note": "Who can do what widget"
+          }
         }
       }
     }
@@ -2286,17 +2184,8 @@
         "backToLayers": {
           "text": "Volver a las capas"
         },
-        "done": {
-          "text": "Las tres capas exploradas"
-        },
         "openLayer": {
           "text": "Leer"
-        },
-        "overview": {
-          "text": "Descripción general"
-        },
-        "exploredOf": {
-          "text": "{n} de 3 capas exploradas"
         },
         "exploredReview": {
           "text": "Leer de nuevo"
@@ -2306,9 +2195,6 @@
         },
         "whyMatter": {
           "text": "¿Por qué importa esto?"
-        },
-        "hideWhy": {
-          "text": "Ocultar explicación"
         },
         "orpShort": {
           "text": "ORP"
@@ -2529,11 +2415,6 @@
       }
     },
     "flow1": {
-      "ui": {
-        "title": {
-          "text": "Lo que cada uno de nosotros puede hacer"
-        }
-      },
       "steps": {
         "s1": {
           "title": {
@@ -2565,11 +2446,6 @@
       }
     },
     "flow2": {
-      "ui": {
-        "title": {
-          "text": "Qué pueden hacer las organizaciones"
-        }
-      },
       "steps": {
         "s1": {
           "title": {
@@ -2619,11 +2495,6 @@
       }
     },
     "flow3": {
-      "ui": {
-        "title": {
-          "text": "¿Qué factores contribuyen a un deporte digital más seguro?"
-        }
-      },
       "steps": {
         "s1": {
           "title": {
@@ -2692,18 +2563,6 @@
     },
     "match": {
       "ui": {
-        "eyebrow": {
-          "text": "Comprueba tu comprensión"
-        },
-        "prompt": {
-          "text": "Asocia cada escenario a un nivel"
-        },
-        "hint": {
-          "text": "Arrastra cada tarjeta de nivel al escenario correspondiente de la derecha. Coloca las tres antes de enviarlas."
-        },
-        "choicesAria": {
-          "text": "Elige un nivel de acción"
-        },
         "trayAria": {
           "text": "Tarjetas de nivel"
         },
@@ -2719,10 +2578,6 @@
         },
         "feedbackBad": {
           "text": "<strong>No del todo.</strong> Revisa tus opciones e inténtalo de nuevo.",
-          "note": "HTML allowed"
-        },
-        "done": {
-          "text": "<strong>¡Exacto!</strong> Has asociado cada escenario con el nivel de acción apropiado.",
           "note": "HTML allowed"
         }
       },
@@ -2741,48 +2596,21 @@
         "s1": {
           "text": {
             "text": "Tras ver que un atleta es blanco de ataques en línea, alguien se pone en contacto con él en privado y denuncia el contenido dañino sin compartirlo con nadie más."
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong> Interesarse en privado por la persona y denunciar sin amplificar son acciones individuales.",
-            "note": "HTML allowed"
-          },
-          "bad": {
-            "text": "<strong>No exactamente.</strong> Piensa en quién está realizando esta acción en ese momento. <strong>Inténtalo de nuevo.</strong>",
-            "note": "HTML allowed"
           }
         },
         "s2": {
           "text": {
             "text": "Tras varios incidentes de abuso en línea, una federación deportiva introduce un procedimiento de denuncia, formación para el personal y medidas de protección."
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong> Los canales de denuncia, la formación y los procedimientos de protección son marcos organizativos.",
-            "note": "HTML allowed"
-          },
-          "bad": {
-            "text": "<strong>No exactamente.</strong> Piensa en qué nivel establece los marcos y procedimientos de un organismo deportivo. <strong>Inténtalo de nuevo.</strong>",
-            "note": "HTML allowed"
           }
         },
         "s3": {
           "text": {
             "text": "Las investigaciones muestran cómo se está propagando una nueva forma de abuso en línea, lo que ayuda a fundamentar la educación, la tecnología y las futuras respuestas de las políticas públicas."
-          },
-          "ok": {
-            "text": "<strong>¡Correcto!</strong> La investigación y la evidencia que sustentan la educación, la tecnología y las políticas operan a nivel de la sociedad.",
-            "note": "HTML allowed"
-          },
-          "bad": {
-            "text": "<strong>No exactamente.</strong> Piensa en qué nivel influye en la educación, la tecnología y las políticas en general. <strong>Inténtalo de nuevo.</strong>",
-            "note": "HTML allowed"
           }
         }
       }
     },
     "widerSystem": {
-      "heading": {
-        "text": "Formas parte de un sistema más amplio"
-      },
       "rows": {
         "individual": {
           "text": "<strong>Las acciones individuales</strong> pueden reducir el daño y ayudar a los demás.",
@@ -2796,13 +2624,6 @@
           "text": "En toda la <strong>sociedad</strong>, los esfuerzos coordinados en educación, políticas, tecnología, investigación y normas comunitarias pueden ayudar a crear espacios digitales más seguros en el deporte.",
           "note": "HTML allowed"
         }
-      },
-      "connectLead": {
-        "text": "UAOA ayuda a conectar estos niveles de acción."
-      },
-      "connectBody": {
-        "text": "A través de <a href=\"https://unitedagainstonlineabuse.com/about-us/\" target=\"_blank\" rel=\"noopener\">Stronger Together, la UAOA</a> reúne a personas y organizaciones de todo el deporte para fortalecer la forma en que se preparan, previenen y responden al abuso en línea, transformando el conocimiento compartido y la acción coordinada en apoyo práctico para la comunidad deportiva.",
-        "note": "HTML allowed"
       }
     },
     "takeaways": {
@@ -2840,14 +2661,6 @@
       "title": {
         "text": "Módulo 5 - Actúa: Construyendo comunidades deportivas digitales más seguras",
         "note": "slide_intro title"
-      },
-      "continueLayer2": {
-        "text": "Continuar con la capa 2",
-        "note": "Nav button label"
-      },
-      "continueLayer3": {
-        "text": "Continuar con la capa 3",
-        "note": "Nav button label"
       },
       "goToFinalQuiz": {
         "text": "Ir al cuestionario final",
@@ -3250,18 +3063,6 @@
         "choicesAria": {
           "text": "Opciones de respuesta",
           "note": "aria-label on options group"
-        },
-        "prevAria": {
-          "text": "Pregunta anterior",
-          "note": "aria-label on prev chevron"
-        },
-        "nextAria": {
-          "text": "Siguiente pregunta",
-          "note": "aria-label on next chevron when advancing"
-        },
-        "openResource": {
-          "text": "Recurso abierto",
-          "note": "Legacy; Q11 now shows masked link labels inline inside answer pills"
         }
       },
       "score": {
@@ -3281,23 +3082,11 @@
           "text": "Haz clic para obtener más detalles.",
           "note": "Flip-card modal front CTA when below pass score with retries left"
         },
-        "headline": {
-          "text": "¡Obtuviste un {pct}%!",
-          "note": "Legacy / optional; modal uses youScored + large %"
-        },
         "body": {
           "text": "Has aprendido a reconocer el abuso en línea, a comprender su impacto y a responder de forma más segura en contextos individuales, organizativos y deportivos más amplios."
         },
         "note": {
           "text": "Tu puntuación refleja tu comprensión de los conceptos clave tratados en este curso."
-        },
-        "didNotPass": {
-          "text": "Se requiere una puntuación de {pass}% o superior para aprobar. Este fue el intento {n} de {max}.",
-          "note": "Shown on score back when below pass threshold; {pass}, {n}, {max} replaced in JS"
-        },
-        "retryHint": {
-          "text": "Repasa el material del curso y vuelve a intentar el cuestionario.",
-          "note": "Score back note when retries remain"
         },
         "exhaustedBody": {
           "text": "Estás progresando en la comprensión del abuso en línea en el deporte. Se requiere una puntuación de {pass}% o superior para completar el curso y obtener el certificado.",
@@ -3306,10 +3095,6 @@
         "exhaustedNote": {
           "text": "Repasa los conceptos clave y el material de aprendizaje y, cuando estés listo/a, vuelve a intentar el cuestionario final.",
           "note": "Score back note on EVERY failed attempt; paired with Try again until they pass"
-        },
-        "attemptsExhausted": {
-          "text": "Has agotado todos tus intentos ({max}). Puedes cerrar este cuestionario y continuar.",
-          "note": "Score back note after final failed attempt; {max} replaced in JS"
         },
         "finish": {
           "text": "Cerrar",
@@ -3320,44 +3105,9 @@
         }
       }
     },
-    "furtherAction": {
-      "questions": {
-        "q1": {
-          "prompt": {
-            "text": "¿Te gustaría seguir actuando con la UAOA?"
-          },
-          "choices": {
-            "c0": {
-              "text": "Quiero tomar medidas"
-            },
-            "c1": {
-              "text": "Quiero seguir aprendiendo"
-            },
-            "c2": {
-              "text": "Quiero fortalecer mi organización"
-            },
-            "c3": {
-              "text": "Ahora mismo no."
-            }
-          },
-          "ok": {
-            "text": "<strong>Existen diferentes maneras de actuar.</strong> La UAOA reúne a personas y organizaciones de todo el deporte para fortalecer la forma en que se preparan, previenen y responden al abuso en línea.",
-            "note": "HTML allowed — legacy further-action widget; Q11 lives in summary.quiz"
-          }
-        }
-      }
-    },
     "slide": {
-      "title": {
-        "text": "Resumen: Conclusiones clave",
-        "note": "Module / summary slide title"
-      },
       "finishCourse": {
         "text": "Finalizar el curso",
-        "note": "Nav button label"
-      },
-      "postSurvey": {
-        "text": "Responde la encuesta posterior al curso",
         "note": "Nav button label"
       },
       "getCertificate": {
@@ -3378,16 +3128,6 @@
           "body": {
             "text": "<p><span style=\"color: #091324\">Has aprendido a reconocer el abuso en línea, comprender su impacto y responder con más seguridad en los contextos individual, organizativo y deportivo más amplio.</span></p>",
             "note": "Native text body on Exit Page"
-          }
-        },
-        "yourReadiness": {
-          "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>¡Tu puntuación de preparación es del <span data-uaoa-readiness-score>{{score}}</span>%!</strong></span></p><p></p><p><span style=\"color: #091324\">Has aprendido a reconocer el abuso en línea, comprender su impacto y responder de manera más segura en contextos individuales, organizativos y deportivos más amplios.</span></p><p></p><p><span style=\"color: #091324\">Tu puntuación refleja tu preparación actual para reconocer el abuso en línea y tomar decisiones informadas cuando ocurre.</span></p>",
-            "note": "Native text body on Exit Page"
-          },
-          "heading": {
-            "text": "Tu preparación",
-            "note": "Native heading on Exit Page"
           }
         },
         "image": {
@@ -3467,38 +3207,14 @@
       },
       "emergencyServicesDetail": {
         "text": "Si tú u otra persona estáis en peligro inmediato, llama al número de emergencias local."
-      },
-      "bodyM2": {
-        "text": "Este módulo aborda los efectos emocionales y psicológicos del abuso en línea. Te animamos a avanzar a tu propio ritmo y a buscar apoyo cuando lo necesites. Puedes retomar el curso cuando te sientas preparado/a.",
-        "note": "Module 2 sensitive-notice body"
-      },
-      "bodyM3": {
-        "text": "Este módulo trata sobre las formas de abuso en línea. No se muestra contenido abusivo. Tómate descansos cuando los necesites y recuerda que tienes apoyo disponible. Puedes retomar el curso cuando estés listo/a.",
-        "note": "Module 4 sensitive-notice body (forms-of-abuse wording)"
-      },
-      "bodyM4": {
-        "text": "Este módulo trata sobre el abuso en línea y cómo afrontarlo. No se muestra contenido abusivo. Tómate descansos cuando los necesites y recuerda que tienes apoyo disponible. Puedes retomar el curso cuando estés listo/a.",
-        "note": "Module 5 sensitive-notice body"
       }
     },
     "miniDictionary": {
       "teaser": {
         "text": "¿Quieres aprender sobre otras formas de abuso en línea?"
       },
-      "bodyBefore": {
-        "text": "El abuso en línea puede adoptar muchas formas más allá de los tres comportamientos presentados aquí. Explora el"
-      },
       "linkLabel": {
         "text": "Minidiccionario"
-      },
-      "bodyAfter": {
-        "text": "para consultar rápidamente otras tácticas que puedes encontrar en línea."
-      },
-      "discretionLabel": {
-        "text": "Discreción del lector:"
-      },
-      "discretion": {
-        "text": "Algunas entradas describen comportamientos dañinos o abusivos que pueden resultar delicados o perturbadores. Explora este recurso a tu discreción y regresa al curso cuando estés listo/a."
       },
       "cta": {
         "text": "Explora el minidiccionario"
@@ -3510,17 +3226,9 @@
         "text": "Volver al curso",
         "note": "Mini Dictionary dialog close button"
       },
-      "termsCount": {
-        "text": "{n} términos",
-        "note": "Section badge in Mini Dictionary; {n} = entry count"
-      },
       "title": {
         "text": "Minidiccionario: otras posibles formas de abuso en línea",
         "note": "Dictionary document title"
-      },
-      "fullText": {
-        "text": "Minidiccionario: Otras posibles formas de abuso en línea\nContenido tóxico\n* Humillación intencional - Provocar vergüenza o humillación a alguien de forma intencionada, a menudo públicamente.\n* Ciberacoso - Uso repetido de la comunicación electrónica para intimidar, asustar o avergonzar a una persona.\n* Trolling - Publicar mensajes provocativos u ofensivos para provocar reacciones fuertes o interrumpir la conversación.\n* Contenido profano u ofensivo - Lenguaje, imágenes o comunicación vulgares o irrespetuosos.\n* Amenazas de violencia - Mensajes destinados a generar miedo a sufrir daño físico.\n* Incitación - Incitar a otros a actuar de forma violenta o ilegal.\n* Acoso sexual - Insinuaciones o comentarios sexuales no deseados.\n* Contenido explícito no deseado - Compartir imágenes o mensajes sexualmente explícitos sin consentimiento.\nFiltración de contenido\n* Extorsión sexual - Chantaje que amenaza con publicar material privado si no se cumplen las exigencias.\n* Doxing - Publicar información privada o de identificación con intención maliciosa.\n* Outing - Revelación de la orientación sexual o identidad de género de una persona sin su consentimiento.\n* Deadnaming - Uso del nombre anterior de una persona transgénero o no binaria sin su consentimiento.\n* Difusión de imágenes sin consentimiento - Compartir imágenes o videos privados o íntimos sin consentimiento.\n* Filtración de chats o perfiles - Exponer conversaciones o cuentas privadas sin autorización.\nSobrecarga\n* Inundación de sistemas o cuentas - Abrumar a una persona o plataforma con contenido o solicitudes excesivas para interrumpir el servicio o silenciar la comunicación.\n* Zoombombing - Intervención no deseada en una videollamada para interrumpirla.\n* Calificaciones y reseñas negativas - Comentarios coordinados, injustos o sesgados con la intención de dañar la reputación.\nDenuncias falsas\n* Llamada falsa a la policía (Swatting) - Llamada de emergencia simulada para provocar la intervención de la policía armada en el domicilio de una persona.\n* Informe de abuso falsificado - Presentar a sabiendas un informe falso para causar daño.\n* Falsificación de denuncias de abuso - Marcar erróneamente contenido legítimo como abusivo para lograr su eliminación o censura.\nSuplantación de identidad\n* Perfiles falsificados - Cuentas falsas creadas para engañar o estafar.\n* Chats o imágenes falsificadas - Contenido fabricado o alterado que se atribuye falsamente a otra persona.\n* Pornografía sintética - Tecnología deepfake utilizada para crear contenido explícito sin consentimiento.\n* Páginas web falsificadas - Sitios web falsos creados para engañar a los usuarios o perjudicar la reputación de un competidor.\n* Comunicación interceptada - Acceso no autorizado a una cuenta o canal para difundir mensajes falsos.\nVigilancia\n* Acoso o seguimiento - Monitoreo repetido e indeseado de los movimientos o la actividad de una persona.\n* Monitoreo de cuentas - Acceso no autorizado y seguimiento de la actividad de la cuenta de alguien.\n* Monitoreo de dispositivos - Seguimiento no autorizado de la actividad en el teléfono, computadora o tableta de una persona.\n* Monitoreo de IoT - Recopilación pasiva de datos de dispositivos portátiles o inteligentes sin consentimiento.\n* Monitoreo del navegador - Seguimiento del historial o la actividad de navegación de una persona sin su conocimiento.\nBloqueo y control\n* Eliminación de contenido - Eliminación no autorizada de archivos, publicaciones o datos para suprimir información o causar daño.\n* Secuestro de navegador o dispositivo - Toma de control del navegador o los dispositivos conectados de una persona sin su consentimiento.\n* Bloqueo de cuentas - Bloqueo deliberado del acceso de una persona a sus propias cuentas o contenido.",
-        "note": "Full mini-dictionary source; HTML/markdown structure — translate carefully"
       }
     },
     "scroll": {
@@ -3528,15 +3236,8 @@
         "text": "Continuar",
         "note": "Scroll / fade continue control"
       },
-      "continueAria": {
-        "text": "Continúa para ver más contenido."
-      },
       "continueRevealAria": {
         "text": "Continúa revelando más contenido"
-      },
-      "noBlock": {
-        "text": "No se encontró ningún bloque siguiente en esta diapositiva.",
-        "note": "Dev/fallback message"
       },
       "restoreFailed": {
         "text": "No se pudo restaurar el siguiente contenido. Actualiza la página e inténtalo de nuevo."
@@ -4512,6 +4213,10 @@
   },
   "welcome": {
     "partners": {
+      "heading": {
+        "text": "Reconocimiento de nuestros socios de Erasmus+",
+        "note": "Welcome partner-acknowledgements heading"
+      },
       "caption": {
         "text": "United Against Online Abuse (UAOA) agradece las contribuciones de sus socios de Erasmus+ al desarrollo de este curso de aprendizaje electrónico: los clubes miembros de la FIA Autoklub České republiky (República Checa), Zveza za avto šport Slovenije – AŠ (Eslovenia), Real Federación Española de Automovilismo (España) y Svenska Bilsportförbundet (Suecia), junto con los socios académicos Charles University (República Checa), Prof. Matej Tušak (Eslovenia), European Sport Business School (España) y Docent Lisa Kaati, Stockholm University (Suecia).",
         "note": "Welcome partner-acknowledgements caption embed (teal italic box under video)"
@@ -4564,10 +4269,6 @@
         "body": {
           "text": "<p><span style=\"color: #091324\"><strong>El deporte conecta a millones de personas</strong> de diferentes países, culturas y generaciones a través de la pasión, el orgullo y la emoción de la competición.<br><br><strong>El abuso en línea pone en riesgo esa conexión.</strong> Cuando atletas, árbitros, voluntarios y aficionados son atacados en línea por quiénes son o por su rendimiento, las consecuencias pueden ir mucho más allá de la pantalla: hacen daño a las personas, truncan carreras y normalizan los comportamientos abusivos.<br><br><strong>United Against Online Abuse (UAOA)</strong>, fundada por el presidente de la FIA Mohammed Ben Sulayem, reúne a más de 75 gobiernos, organizaciones deportivas, instituciones académicas y plataformas tecnológicas en torno a un objetivo común: <strong>lograr que el deporte sea más seguro frente al abuso en línea.</strong> Un cambio duradero requiere la acción de instituciones, comunidades <strong>e individuos, y eso te incluye a ti.</strong></span></p><p></p><p><span style=\"color: #091324\">Desarrollado en colaboración con la Universidad de Notre Dame, este <strong>curso de aprendizaje electrónico</strong> te ayudará a reconocer las diferentes formas de abuso en línea, comprender su impacto en tu comunidad deportiva y utilizar los procedimientos de denuncia con confianza. Al completarlo, <strong>estarás mejor preparado</strong> para actuar con conocimiento y contribuir a un entorno deportivo más seguro.</span></p><p></p><p><span style=\"color: #091324\"><strong>Tu camino hacia un entorno deportivo más seguro empieza aquí.</strong></span></p>",
           "note": "Native text body on Welcome"
-        },
-        "p3": {
-          "text": "<p>United Against Online Abuse (UAOA) reúne a más de 75 gobiernos, organizaciones deportivas, instituciones académicas y plataformas tecnológicas en torno a un objetivo común: lograr que el deporte sea más seguro frente al abuso en línea. Un cambio duradero requiere la acción de instituciones, comunidades <strong>e individuos, y eso te incluye a ti.</strong></p>",
-          "note": "Native text body on Welcome"
         }
       },
       "welcomeTitle": {
@@ -4606,10 +4307,6 @@
           "text": "<div class=\"uaoa-ready-banner\" style=\"display:flex;flex-direction:row;align-items:center;gap:24px;width:100%;max-width:100%;position:relative;overflow:hidden;background:#1c3564;border-radius:16px;box-sizing:border-box;padding:16px 28px;\"><span class=\"uaoa-ready-copy\" style=\"display:block;position:relative;z-index:1;flex:1 1 auto;min-width:0;\"><span class=\"uaoa-ready-title\" style=\"display:block;color:#ffffff;font-size:36px;font-weight:700;line-height:1.15;margin:0;white-space:nowrap;\">¿Listo para comenzar?</span><span class=\"uaoa-ready-body\" style=\"display:block;color:#ffffff;font-size:16px;font-weight:400;line-height:1.35;margin:4px 0 0;\">Cinco módulos, desde comprender el abuso en línea hasta actuar en su comunidad.</span></span><button type=\"button\" class=\"uaoa-ready-cta\" style=\"position:relative;z-index:2;flex:0 0 auto;display:inline-flex;align-items:center;background-color:#21b7cb;color:#1c3564;font-size:16px;font-weight:700;line-height:1.2;padding:8px 18px;border-radius:999px;border:5px solid rgba(33,183,203,0.6);background-clip:padding-box;cursor:pointer;white-space:nowrap;\">Iniciar curso →</button><img class=\"uaoa-ready-mark\" src=\"https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/art_uaoa_individual__93c9e800-9785-4df3-8306-7fe37621e1fb.png\" alt=\"\" width=\"1024\" height=\"1024\" style=\"position:absolute;right:-72px;top:50%;transform:translateY(-50%);height:220px;width:auto;opacity:0.26;pointer-events:none;z-index:0;\" /></div>",
           "note": "Ready banner — 36px title, 16px subtitle, Start Course pill inside the bar. The next navigation_button stays next_slide and always enabled; course CSS hides it."
         }
-      },
-      "startCourse": {
-        "text": "Iniciar curso",
-        "note": "Native navigation_button on About This Course"
       },
       "tagline": {
         "body": {

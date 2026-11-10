@@ -9,10 +9,6 @@
       "text": "Kontrollera din förståelse",
       "note": "Learning-section pill before knowledge-check widgets (slate #323F53 / lavender border #C5CCDF / cyan dot #21B7CB / white label)"
     },
-    "learningActivityHeading": {
-      "text": "Aktivitet",
-      "note": "Learning-section pill before interactives (same shell as checkUnderstandingHeading)"
-    },
     "next": {
       "text": "Nästa",
       "note": "Primary forward button on series / quiz widgets"
@@ -29,21 +25,9 @@
       "text": "Försök igen",
       "note": "Retry full activity"
     },
-    "activityComplete": {
-      "text": "Aktivitet slutförd",
-      "note": "Short done banner"
-    },
-    "activityCompleteRevisit": {
-      "text": "Aktiviteten är klar. Du kan återkomma till frågorna när som helst.",
-      "note": "Done banner with revisit hint (knowledge-check style)"
-    },
     "answerChoicesAria": {
       "text": "Svarsalternativ",
       "note": "aria-label on radiogroup / options"
-    },
-    "notQuiteReview": {
-      "text": "<strong>Inte riktigt. Granska alternativen och försök igen.</strong>",
-      "note": "Shared incorrect feedback; HTML allowed"
     },
     "previous": {
       "text": "Föregående",
@@ -61,36 +45,6 @@
       "text": "Fortsätt",
       "note": "End-of-activity or scroll continue"
     },
-    "correct": {
-      "text": "<strong>Korrekt!</strong>",
-      "note": "Short correct prefix; HTML allowed"
-    },
-    "notQuite": {
-      "text": "<strong>Inte riktigt rätt. Granska alternativen och försök igen.</strong>",
-      "note": "Shared incorrect; HTML allowed"
-    },
-    "selectAllThatApply": {
-      "text": "Markera alla svar som gäller och skicka sedan in."
-    },
-    "nSelected": {
-      "text": "Valda: {n}",
-      "note": "Count label; {n} = number"
-    },
-    "nOfTotalSelected": {
-      "text": "{n} av {total} valda",
-      "note": "Count label; {n}/{total}"
-    },
-    "nOfTotalExplored": {
-      "text": "{n} av {total} utforskade",
-      "note": "Flip progress"
-    },
-    "allExplored": {
-      "text": "Alla plattformar utforskade",
-      "note": "Flip done — platforms; override per widget if needed"
-    },
-    "allStepsReviewed": {
-      "text": "Alla steg är granskade."
-    },
     "questionsCorrect": {
       "text": "frågor med rätt svar",
       "note": "Score footer under X/Y"
@@ -98,20 +52,6 @@
     "chooseEllipsis": {
       "text": "välj…",
       "note": "Blank dropdown placeholder"
-    },
-    "true": {
-      "text": "Sant"
-    },
-    "false": {
-      "text": "Falskt"
-    },
-    "keyTakeaways": {
-      "text": "Slutsatser",
-      "note": "Native takeaways heading"
-    },
-    "wrongPlain": {
-      "text": "Inte riktigt rätt. Granska alternativen och försök igen.",
-      "note": "uaoa_common.WRONG — plain, no HTML"
     },
     "questionNavAria": {
       "text": "Frågenavigering"
@@ -144,26 +84,6 @@
         "text": "Enkät inför kursen",
         "note": "iframe title for Qualtrics embed between Welcome and Module 1"
       },
-      "waitingStatus": {
-        "text": "Fyll i enkäten nedan. Fortsätt-knappen låses upp när du är klar.",
-        "note": "Status while waiting for QualtricsEOS"
-      },
-      "completeStatus": {
-        "text": "Enkäten är klar – du kan fortsätta.",
-        "note": "Status after QualtricsEOS / manual confirm"
-      },
-      "fallbackHint": {
-        "text": "Om du har fyllt i enkäten men Fortsätt-knappen fortfarande inte går att trycka på kan du bekräfta nedan.",
-        "note": "Shown after ~45s if EOS not detected"
-      },
-      "fallbackButton": {
-        "text": "Jag har fyllt i enkäten",
-        "note": "Manual unlock when QualtricsEOS is not received"
-      },
-      "slideTitle": {
-        "text": "Enkät inför kursen",
-        "note": "Slide / section title between Welcome and Module 1"
-      },
       "intro": {
         "text": "<p><span style=\"color: #091324\">Innan du börjar hjälper den här enkäten dig att reflektera över din nuvarande kunskap, tillit och beredskap att hantera övergrepp online. Det finns inga rätta eller felaktiga svar. Dina svar blir en utgångspunkt för att reflektera över din utveckling genom kursen.</span></p>",
         "note": "Pre-course survey intro HTML"
@@ -181,22 +101,6 @@
       "iframeTitle": {
         "text": "Enkät efter kursen",
         "note": "iframe title for Qualtrics embed after final quiz"
-      },
-      "waitingStatus": {
-        "text": "Fyll i enkäten nedan. När du är klar kan du trycka på Fortsätt-knappen.",
-        "note": "Status while waiting for QualtricsEOS"
-      },
-      "completeStatus": {
-        "text": "Enkäten är klar – du kan fortsätta.",
-        "note": "Status after QualtricsEOS / manual confirm"
-      },
-      "fallbackHint": {
-        "text": "Om du har fyllt i enkäten men Fortsätt fortfarande är låst kan du bekräfta nedan.",
-        "note": "Shown after ~45s if EOS not detected"
-      },
-      "fallbackButton": {
-        "text": "Jag har fyllt i enkäten",
-        "note": "Manual unlock when QualtricsEOS is not received"
       },
       "continue": {
         "text": "Fortsätt",
@@ -290,9 +194,6 @@
         "progress": {
           "text": "{n} av {total} utforskade",
           "note": "Flip progress counter"
-        },
-        "done": {
-          "text": "Alla frågor är utforskade"
         }
       },
       "cards": {
@@ -401,9 +302,6 @@
         },
         "progress": {
           "text": "{n} av {total} utforskade"
-        },
-        "done": {
-          "text": "Alla grupper utforskade"
         }
       },
       "groups": {
@@ -521,35 +419,12 @@
     },
     "check": {
       "ui": {
-        "instructionComplete": {
-          "text": "Komplettera meningen."
-        },
-        "instructionBlanks": {
-          "text": "Välj ett ord för varje tomrum. Varje ord används en gång."
-        },
         "instructionMulti": {
           "text": "Markera alla som gäller."
-        },
-        "instructionPair": {
-          "text": "Välj det ordpar som kompletterar meningen."
         },
         "blankAria": {
           "text": "Lucka {n}",
           "note": "aria-label; {n} = 1-based index"
-        },
-        "questionsCorrect": {
-          "text": "frågor rätt"
-        },
-        "scorePerfect": {
-          "text": "Perfekt – du svarade rätt på alla frågor.",
-          "note": "Score message; may vary — check widget"
-        },
-        "scorePartial": {
-          "text": "Bra jobbat – gå igenom de frågor du missade nedan.",
-          "note": "Fallback score message"
-        },
-        "scoreLow": {
-          "text": "Fortsätt – försök igen för att stärka din förståelse."
         }
       },
       "questions": {
@@ -874,10 +749,6 @@
             "c3": {
               "text": "Främst personer vars arbete innebär att kommunicera direkt med fans."
             }
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong> Övergrepp online kan drabba människor i hela idrottens ekosystem, inklusive de som är direkt utsatta och andra som bevittnar eller upplever dess bredare konsekvenser.",
-            "note": "HTML allowed"
           }
         },
         "q2": {
@@ -898,10 +769,6 @@
             "c3": {
               "text": "Dess inverkan beror främst på hur ofta någon använder sociala medier."
             }
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong> Övergrepp online kan påverka flera områden i en persons liv och arbete. Inom idrotten kan det drabba idrottare mest, oavsett nivå, men konsekvenserna kan också nå familjer, kollegor, lag, fans och idrottsgemenskaper.",
-            "note": "HTML allowed"
           }
         },
         "q3": {
@@ -922,10 +789,6 @@
             "c3": {
               "text": "Effekterna av onlineövergrepp beror främst på hur ofta en person använder sociala medier."
             }
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong> Effekterna kan vara sammankopplade. Känslomässig stress, sömn, självförtroende, trygghet, prestation och deltagande kan påverka varandra och kan utvecklas över tid.",
-            "note": "HTML allowed"
           }
         },
         "q4": {
@@ -946,10 +809,6 @@
             "c3": {
               "text": "Människor som fortsätter att idrotta har sannolikt inte påverkats nämnvärt."
             }
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong> Effekten av övergrepp online varierar. Forskning som diskuteras i modulen visar att faktorer som motståndskraft och självkänsla kan kopplas till hur människor reagerar, men att någon fortsätter delta betyder inte att hen inte har påverkats.",
-            "note": "HTML allowed"
           }
         }
       }
@@ -958,9 +817,6 @@
       "ui": {
         "progress": {
           "text": "{n} av {total} utforskade"
-        },
-        "done": {
-          "text": "Alla grupper utforskade"
         }
       },
       "cards": {
@@ -1016,9 +872,6 @@
     },
     "exploreImpacts": {
       "ui": {
-        "eyebrow": {
-          "text": "Utforska"
-        },
         "prompt": {
           "text": "Efter att ha fått upprepade kränkande meddelanden online börjar en idrottare posta mer sällan på sociala medier. Deras tränare märker att de verkar distraherade under träningen, och de har nyligen nämnt att de sover dåligt och känner sig oroliga inför att delta i offentliga evenemang."
         },
@@ -1074,9 +927,6 @@
         },
         "researchHeading": {
           "text": "Vad forskningen visar"
-        },
-        "done": {
-          "text": "<strong>Dessa effekter kan vara sammankopplade och därför är var och en av dem korrekt.</strong> Övergrepp online kan påverka flera områden i en persons liv samtidigt, och effekterna kan utvecklas eller förstärkas över tid. Att känna igen dessa tecken kan hjälpa människor inom idrotten att reagera med större medvetenhet och stöd."
         },
         "sourceLabel": {
           "text": "Källa:"
@@ -1321,10 +1171,6 @@
         "text": "<p><span style=\"color: #091324\">Nätrelaterade övergrepp kan drabba alla som är involverade i idrott. Konsekvenserna varierar beroende på individen och deras omständigheter, och vissa effekter är särskilt relevanta för idrottare. Dessa effekter kan också förstärka varandra: ångest kan störa sömnen, dålig sömn kan påverka koncentration och självförtroende, och dessa kombinerade effekter kan påverka dagliga aktiviteter, idrottsprestationer och det allmänna välbefinnandet.</span></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
-      "section4Body": {
-        "text": "<p><span style=\"color: #091324\">Efter att ha fått upprepade kränkande meddelanden online börjar en idrottare posta mer sällan på sociala medier. Deras tränare märker att de verkar distraherade under träningen, och de har nyligen nämnt att de sover dåligt och känner sig oroliga inför att delta i offentliga evenemang.</span></p>",
-        "note": "Section body on Online Abuse in Sport: The Human Impact"
-      },
       "section5Body": {
         "text": "<p><span style=\"color: #091324\">Effekterna av onlineövergrepp kan <strong>sträcka sig bortom individen</strong> och forma idrottskulturen och gemenskaperna runt den. Utbredd fientlighet kan påverka <strong>vilka som känner sig välkomna, trygga och kan delta</strong>, med konsekvenser för inkludering och idrottsgemenskapernas hållbarhet.<br><br></span></p><p><span style=\"color: #091324\">Idrotten har också ett <strong>bredare samhälleligt inflytande</strong>. De beteenden och attityder som uttrycks i idrottsmiljöer kan bidra till bredare sociala normer. När diskriminerande eller kränkande beteende normaliseras kan det förstärka <strong>fördomar, utanförskap och fientlighet bortom idrotten.</strong></span></p><p></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
@@ -1338,9 +1184,6 @@
   "m3": {
     "regionTabs": {
       "ui": {
-        "eyebrow": {
-          "text": "Regionalt exempel"
-        },
         "prompt": {
           "text": "Välj en region"
         },
@@ -1433,21 +1276,11 @@
     },
     "checklist": {
       "ui": {
-        "eyebrow": {
-          "text": "Checklista"
-        },
         "title": {
           "text": "Rapporteringssteg"
         },
         "progress": {
           "text": "{n} av {total} genomgångna"
-        },
-        "hint": {
-          "text": "Markera varje steg när du går igenom det. Inte betygsatt.",
-          "note": "Removed from widget UI; kept for translators / legacy"
-        },
-        "done": {
-          "text": "Alla steg granskade."
         }
       },
       "items": {
@@ -1543,10 +1376,6 @@
     },
     "sorting": {
       "ui": {
-        "eyebrow": {
-          "text": "Ordningsföljd",
-          "note": "Removed from widget UI; kept for translators / legacy"
-        },
         "prompt": {
           "text": "1. Ordna stegen nedan i rekommenderad ordning."
         },
@@ -1590,10 +1419,6 @@
       }
     },
     "trueFalse": {
-      "bad": {
-        "text": "<strong>Inte riktigt. Granska påståendet och försök igen.</strong>",
-        "note": "HTML allowed"
-      },
       "questions": {
         "q1": {
           "prompt": {
@@ -1713,10 +1538,6 @@
         }
       },
       "exploreWhichFactorsCanInfluenceHow": {
-        "body": {
-          "text": "<p><span style=\"color: #091324\">Välj de tre faktorer som direkt kan påverka hur skadligt innehåll sprids och når nya målgrupper online.</span></p>",
-          "note": "Native text body on How Online Harm Spreads"
-        },
         "heading": {
           "text": "<span style=\"color: #1c3564\">Utforska: Vilka faktorer kan påverka hur skadligt innehåll sprids online?</span>",
           "note": "Native heading on How Online Harm Spreads"
@@ -1813,6 +1634,14 @@
         "r1": {
           "text": "<strong>Skapa och förstärka skada:</strong> Generativ AI kan producera eller manipulera text, bilder, ljud och video snabbt och i stor skala.",
           "note": "HTML allowed"
+        },
+        "r2": {
+          "text": "<strong>Förstärka trakasserier:</strong> AI-drivna verktyg kan snabbt och i stor skala skapa och sprida kränkande meddelanden, vilket ökar räckvidden och effekten av nättrakasserier.",
+          "note": "HTML allowed"
+        },
+        "r3": {
+          "text": "<strong>Sprida desinformation och utge sig för att vara andra:</strong> AI kan användas för att skapa vilseledande innehåll eller utge sig för att vara andra personer, vilket kan skada anseenden och vilseleda mottagare.",
+          "note": "HTML allowed"
         }
       },
       "benefits": {
@@ -1834,27 +1663,6 @@
   "m4": {
     "lawTabs": {
       "ui": {
-        "prompt": {
-          "text": "Välj en väg"
-        },
-        "placeholder": {
-          "text": "Välj en väg"
-        },
-        "pathwaysAria": {
-          "text": "Rättsliga vägar"
-        },
-        "seeExample": {
-          "text": "Se ett exempel"
-        },
-        "backToPathway": {
-          "text": "Tillbaka till vägen"
-        },
-        "returnMain": {
-          "text": "Återgå till huvudsidan"
-        },
-        "closeAria": {
-          "text": "Stäng"
-        },
         "forExample": {
           "text": "Till exempel:",
           "note": "Shown under the title on law-tabs example cards"
@@ -2063,10 +1871,6 @@
             "c3": {
               "text": "Varje social medieplattform avgör vilken juridisk väg som gäller."
             }
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong>",
-            "note": "HTML allowed"
           }
         },
         "q2": {
@@ -2086,10 +1890,6 @@
             "c3": {
               "text": "Personen bör vänta och se om beteendet blir allvarligare."
             }
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong>",
-            "note": "HTML allowed"
           }
         },
         "q3": {
@@ -2109,10 +1909,6 @@
             "c3": {
               "text": "Idrottsorganisationerna har inte rätt att koppla in myndigheterna."
             }
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong>",
-            "note": "HTML allowed"
           }
         },
         "q4": {
@@ -2132,10 +1928,6 @@
             "c3": {
               "text": "Länder kan tillämpa olika befintliga lagar för beteende online, och viss lagstiftning tar uttryckligen upp specifika digitala beteenden."
             }
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong>",
-            "note": "HTML allowed"
           }
         }
       }
@@ -2185,10 +1977,6 @@
           "body": {
             "text": "<p><span style=\"color: #091324; font-size: 14px\"><strong>Observera:</strong> Denna modul ger en allmän översikt över juridiska åtgärder vid onlineövergrepp och utgör inte juridisk rådgivning. Lagar skiljer sig åt mellan olika jurisdiktioner och kan ändras över tid. För råd om en specifik situation, kontakta en lämpligt kvalificerad yrkesperson.</span></p>",
             "note": "Callout body on Knowing Your Rights and Responsibilities"
-          },
-          "title": {
-            "text": "<span style=\"color: #1c3564\">Observera</span>",
-            "note": "Callout title on Knowing Your Rights and Responsibilities"
           }
         }
       },
@@ -2257,19 +2045,129 @@
           "text": "<span style=\"color: #1c3564\">Där juridiska svar har begränsningar</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
+      }
+    },
+    "duties": {
+      "orgs": {
+        "label": {
+          "text": "Idrottsorganisationer bör:",
+          "note": "Who can do what widget"
+        },
+        "i1": {
+          "verb": {
+            "text": "Definiera",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "onlineövergrepp och förväntat uppträdande online i organisationens policyer",
+            "note": "Who can do what widget"
+          }
+        },
+        "i2": {
+          "verb": {
+            "text": "Inrätta",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "tydliga och lättillgängliga rapporteringsrutiner",
+            "note": "Who can do what widget"
+          }
+        },
+        "i3": {
+          "verb": {
+            "text": "Tillämpa",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "organisatoriska konsekvenser när uppförandekoder bryts",
+            "note": "Who can do what widget"
+          }
+        },
+        "i4": {
+          "verb": {
+            "text": "Erbjuda",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "utbildning i att känna igen, förebygga och hantera onlineövergrepp",
+            "note": "Who can do what widget"
+          }
+        },
+        "i5": {
+          "verb": {
+            "text": "Ge",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "tillgång till stöd för välmående, skydd och trygghet",
+            "note": "Who can do what widget"
+          }
+        },
+        "i6": {
+          "verb": {
+            "text": "Samarbeta",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "med plattformar, tillsynsmyndigheter eller andra berörda myndigheter när det är lämpligt",
+            "note": "Who can do what widget"
+          }
+        }
       },
-      "whoCanDoWhat": {
-        "col1": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Idrottsorganisationer bör:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Definiera onlineövergrepp och förväntat uppträdande online i organisationens policyer</span></p></li><li><p><span style=\"color: #091324\">Inrätta tydliga och lättillgängliga rapporteringsrutiner</span></p></li><li><p><span style=\"color: #091324\">Tillämpa organisatoriska konsekvenser när uppförandekoder bryts</span></p></li><li><p><span style=\"color: #091324\">Erbjuda utbildning i att känna igen, förebygga och hantera onlineövergrepp</span></p></li><li><p><span style=\"color: #091324\">Ge tillgång till stöd för välmående, skydd och trygghet</span></p></li><li><p><span style=\"color: #091324\">Samarbeta med plattformar, tillsynsmyndigheter eller andra berörda myndigheter när det är lämpligt</span></p></li></ul>",
-          "note": "Native text body on Knowing Your Rights and Responsibilities"
+      "everyone": {
+        "label": {
+          "text": "Alla inom idrotten bör:",
+          "note": "Who can do what widget"
         },
-        "col2": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Alla inom idrotten bör:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Följa de uppförandekoder och policyer som gäller för deras roll</span></p></li><li><p><span style=\"color: #091324\">Använda lämpliga kanaler för att rapportera skadligt beteende</span></p></li><li><p><span style=\"color: #091324\">Undvika att dela eller sprida kränkande innehåll</span></p></li><li><p><span style=\"color: #091324\">Stötta personer som utsätts</span></p></li><li><p><span style=\"color: #091324\">Komma ihåg att normer för respekt, fair play och gott idrottsmannaskap även gäller i digitala miljöer</span></p></li></ul>",
-          "note": "Native text body on Knowing Your Rights and Responsibilities"
+        "i1": {
+          "verb": {
+            "text": "Följa",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "de uppförandekoder och policyer som gäller för deras roll",
+            "note": "Who can do what widget"
+          }
         },
-        "heading": {
-          "text": "Vem kan göra vad",
-          "note": "Native heading on Knowing Your Rights and Responsibilities"
+        "i2": {
+          "verb": {
+            "text": "Använda",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "lämpliga kanaler för att rapportera skadligt beteende",
+            "note": "Who can do what widget"
+          }
+        },
+        "i3": {
+          "verb": {
+            "text": "Undvika",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "att dela eller sprida kränkande innehåll",
+            "note": "Who can do what widget"
+          }
+        },
+        "i4": {
+          "verb": {
+            "text": "Stötta",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "personer som utsätts",
+            "note": "Who can do what widget"
+          }
+        },
+        "i5": {
+          "verb": {
+            "text": "Komma ihåg",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "att normer för respekt, fair play och gott idrottsmannaskap även gäller i digitala miljöer",
+            "note": "Who can do what widget"
+          }
         }
       }
     }
@@ -2286,17 +2184,8 @@
         "backToLayers": {
           "text": "Tillbaka till nivåerna"
         },
-        "done": {
-          "text": "Alla tre nivåer utforskade"
-        },
         "openLayer": {
           "text": "Läs"
-        },
-        "overview": {
-          "text": "Översikt"
-        },
-        "exploredOf": {
-          "text": "{n} av 3 nivåer utforskade"
         },
         "exploredReview": {
           "text": "Läs igen"
@@ -2306,9 +2195,6 @@
         },
         "whyMatter": {
           "text": "Varför spelar detta roll?"
-        },
-        "hideWhy": {
-          "text": "Dölj förklaring"
         },
         "orpShort": {
           "text": "ORP"
@@ -2529,11 +2415,6 @@
       }
     },
     "flow1": {
-      "ui": {
-        "title": {
-          "text": "Vad var och en av oss kan göra"
-        }
-      },
       "steps": {
         "s1": {
           "title": {
@@ -2565,11 +2446,6 @@
       }
     },
     "flow2": {
-      "ui": {
-        "title": {
-          "text": "Vad organisationer kan göra"
-        }
-      },
       "steps": {
         "s1": {
           "title": {
@@ -2619,11 +2495,6 @@
       }
     },
     "flow3": {
-      "ui": {
-        "title": {
-          "text": "Vad som formar en säkrare digital idrott"
-        }
-      },
       "steps": {
         "s1": {
           "title": {
@@ -2692,18 +2563,6 @@
     },
     "match": {
       "ui": {
-        "eyebrow": {
-          "text": "Kontrollera din förståelse"
-        },
-        "prompt": {
-          "text": "Matcha varje scenario till en nivå"
-        },
-        "hint": {
-          "text": "Dra varje nivåkort till matchande scenario till höger. Placera alla tre innan du skickar in dem."
-        },
-        "choicesAria": {
-          "text": "Välj en åtgärdsnivå"
-        },
         "trayAria": {
           "text": "Nivåkort"
         },
@@ -2719,10 +2578,6 @@
         },
         "feedbackBad": {
           "text": "<strong>Inte riktigt.</strong> Gå igenom dina val och försök igen.",
-          "note": "HTML allowed"
-        },
-        "done": {
-          "text": "<strong>Det stämmer!</strong> Du har matchat varje scenario med rätt åtgärdsnivå.",
           "note": "HTML allowed"
         }
       },
@@ -2741,48 +2596,21 @@
         "s1": {
           "text": {
             "text": "Efter att ha sett en idrottare bli måltavla online, checkar någon in privat och rapporterar det skadliga innehållet utan att dela det vidare."
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong> Att höra av sig privat och rapportera utan att sprida vidare är individuella handlingar.",
-            "note": "HTML allowed"
-          },
-          "bad": {
-            "text": "<strong>Inte riktigt.</strong> Tänk på vem som vidtar åtgärden i stunden. <strong>Försök igen.</strong>",
-            "note": "HTML allowed"
           }
         },
         "s2": {
           "text": {
             "text": "Efter flera incidenter av övergrepp online inför ett idrottsförbund en rapporteringsväg, personalutbildning och skyddsrutiner."
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong> Rapporteringsvägar, utbildning och skyddsrutiner är organisatoriska ramverk.",
-            "note": "HTML allowed"
-          },
-          "bad": {
-            "text": "<strong>Inte riktigt.</strong> Fundera på vilken nivå som fastställer ramverk och rutiner för en idrottsorganisation. <strong>Försök igen.</strong>",
-            "note": "HTML allowed"
           }
         },
         "s3": {
           "text": {
             "text": "Forskning visar hur en ny form av onlineövergrepp sprids, vilket bidrar till att informera utbildning, teknik och framtida politiska åtgärder."
-          },
-          "ok": {
-            "text": "<strong>Korrekt!</strong> Forskning och kunskap som ligger till grund för utbildning, teknik och policy verkar på samhällsnivå.",
-            "note": "HTML allowed"
-          },
-          "bad": {
-            "text": "<strong>Inte riktigt.</strong> Fundera på vilken nivå som formar utbildning, teknik och policy i ett bredare perspektiv. <strong>Försök igen.</strong>",
-            "note": "HTML allowed"
           }
         }
       }
     },
     "widerSystem": {
-      "heading": {
-        "text": "Du är en del av ett större system"
-      },
       "rows": {
         "individual": {
           "text": "<strong>Individuella</strong> handlingar kan minska skada och stötta andra.",
@@ -2796,13 +2624,6 @@
           "text": "I hela <strong>samhället</strong> kan sammankopplade insatser inom utbildning, policy, teknik, forskning och gemensamma normer bidra till säkrare digitala miljöer inom idrotten.",
           "note": "HTML allowed"
         }
-      },
-      "connectLead": {
-        "text": "UAOA hjälper till att koppla samman dessa åtgärdsnivåer."
-      },
-      "connectBody": {
-        "text": "Genom <a href=\"https://unitedagainstonlineabuse.com/about-us/\" target=\"_blank\" rel=\"noopener\">Stronger Together samlar UAOA</a> människor och organisationer inom idrotten för att stärka hur de förbereder sig för, förebygger och hanterar onlineövergrepp – och omsätter gemensam kunskap och samordnade åtgärder i praktiskt stöd för idrottsgemenskapen.",
-        "note": "HTML allowed"
       }
     },
     "takeaways": {
@@ -2840,14 +2661,6 @@
       "title": {
         "text": "Modul 5 - Agera: Bygg säkrare digitala idrottsgemenskaper",
         "note": "slide_intro title"
-      },
-      "continueLayer2": {
-        "text": "Fortsätt till nivå 2",
-        "note": "Nav button label"
-      },
-      "continueLayer3": {
-        "text": "Fortsätt till nivå 3",
-        "note": "Nav button label"
       },
       "goToFinalQuiz": {
         "text": "Gå till slutquiz",
@@ -3249,18 +3062,6 @@
         "choicesAria": {
           "text": "Svarsalternativ",
           "note": "aria-label on options group"
-        },
-        "prevAria": {
-          "text": "Föregående fråga",
-          "note": "aria-label on prev chevron"
-        },
-        "nextAria": {
-          "text": "Nästa fråga",
-          "note": "aria-label on next chevron when advancing"
-        },
-        "openResource": {
-          "text": "Öppna resursen",
-          "note": "Legacy; Q11 now shows masked link labels inline inside answer pills"
         }
       },
       "score": {
@@ -3280,23 +3081,11 @@
           "text": "Klicka för detaljer",
           "note": "Flip-card modal front CTA when below pass score with retries left"
         },
-        "headline": {
-          "text": "Du fick {pct}%!",
-          "note": "Legacy / optional; modal uses youScored + large %"
-        },
         "body": {
           "text": "Du har lärt dig att känna igen övergrepp online, förstå dess inverkan och agera säkrare i individuella, organisatoriska och bredare idrottsliga sammanhang."
         },
         "note": {
           "text": "Ditt resultat återspeglar din förståelse av de viktigaste begreppen som behandlas i den här kursen."
-        },
-        "didNotPass": {
-          "text": "Ett resultat på {pass}% eller högre krävs för att bli godkänd. Detta var försök {n} av {max}.",
-          "note": "Shown on score back when below pass threshold; {pass}, {n}, {max} replaced in JS"
-        },
-        "retryHint": {
-          "text": "Gå igenom kursmaterialet och försök sedan göra testet igen.",
-          "note": "Score back note when retries remain"
         },
         "exhaustedBody": {
           "text": "Du gör framsteg i din förståelse av onlineövergrepp inom idrotten. Ett resultat på {pass}% eller högre krävs för att slutföra kursen och få ditt certifikat.",
@@ -3305,10 +3094,6 @@
         "exhaustedNote": {
           "text": "Gå igenom nyckelbegreppen och läromaterialet och försök sedan göra det sista testet igen när du är redo.",
           "note": "Score back note on EVERY failed attempt; paired with Try again until they pass"
-        },
-        "attemptsExhausted": {
-          "text": "Du har använt alla {max} försök. Du kan stänga det här testet och fortsätta.",
-          "note": "Score back note after final failed attempt; {max} replaced in JS"
         },
         "finish": {
           "text": "Stäng",
@@ -3319,44 +3104,9 @@
         }
       }
     },
-    "furtherAction": {
-      "questions": {
-        "q1": {
-          "prompt": {
-            "text": "Vill du vidta ytterligare åtgärder med UAOA?"
-          },
-          "choices": {
-            "c0": {
-              "text": "Jag vill vidta åtgärder"
-            },
-            "c1": {
-              "text": "Jag vill fortsätta lära mig"
-            },
-            "c2": {
-              "text": "Jag vill stärka min organisation"
-            },
-            "c3": {
-              "text": "Inte just nu"
-            }
-          },
-          "ok": {
-            "text": "<strong>Det finns olika sätt att agera.</strong> UAOA samlar människor och organisationer inom idrotten för att stärka hur de förbereder sig för, förebygger och hanterar onlineövergrepp.",
-            "note": "HTML allowed — legacy further-action widget; Q11 lives in summary.quiz"
-          }
-        }
-      }
-    },
     "slide": {
-      "title": {
-        "text": "Sammanfattning: Viktiga slutsatser",
-        "note": "Module / summary slide title"
-      },
       "finishCourse": {
         "text": "Avsluta kursen",
-        "note": "Nav button label"
-      },
-      "postSurvey": {
-        "text": "Gör enkäten efter kursen",
         "note": "Nav button label"
       },
       "getCertificate": {
@@ -3377,16 +3127,6 @@
           "body": {
             "text": "<p><span style=\"color: #091324\">Du har lärt dig att känna igen onlineövergrepp, förstå deras påverkan och agera säkrare i individuella, organisatoriska och vidare idrottsliga sammanhang.</span></p>",
             "note": "Native text body on Exit Page"
-          }
-        },
-        "yourReadiness": {
-          "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Din beredskapspoäng är <span data-uaoa-readiness-score>{{score}}</span> %!</strong></span></p><p></p><p><span style=\"color: #091324\">Du har lärt dig att känna igen onlineövergrepp, förstå dess konsekvenser och agera säkrare i individuella, organisatoriska och bredare idrottsliga sammanhang.</span></p><p></p><p><span style=\"color: #091324\">Din poäng visar din nuvarande beredskap att känna igen onlineövergrepp och fatta välgrundade beslut när det inträffar.</span></p>",
-            "note": "Native text body on Exit Page"
-          },
-          "heading": {
-            "text": "Din beredskap",
-            "note": "Native heading on Exit Page"
           }
         },
         "image": {
@@ -3466,38 +3206,14 @@
       },
       "emergencyServicesDetail": {
         "text": "Om du eller någon annan är i omedelbar fara, kontakta ditt lokala nödnummer."
-      },
-      "bodyM2": {
-        "text": "Den här modulen diskuterar de emotionella och psykologiska effekterna av onlineövergrepp. Du uppmuntras att arbeta dig igenom materialet i en takt som känns lämplig och att söka stöd där det behövs. Du kan återvända till kursen när du är redo.",
-        "note": "Module 2 sensitive-notice body"
-      },
-      "bodyM3": {
-        "text": "Den här modulen handlar om former av onlineövergrepp. Inget kränkande innehåll visas. Ta pauser när du behöver dem och kom ihåg att stöd finns tillgängligt. Du kan återgå till kursen när du är redo.",
-        "note": "Module 4 sensitive-notice body (forms-of-abuse wording)"
-      },
-      "bodyM4": {
-        "text": "Den här modulen diskuterar kränkningar online och hur man hanterar dem. Inget kränkande innehåll visas. Ta pauser när du behöver dem och kom ihåg att stöd finns tillgängligt. Du kan återgå till kursen när du är redo.",
-        "note": "Module 5 sensitive-notice body"
       }
     },
     "miniDictionary": {
       "teaser": {
         "text": "Vill du lära dig om andra former av onlineövergrepp?"
       },
-      "bodyBefore": {
-        "text": "Onlineövergrepp kan ta sig många former utöver de tre beteenden som presenteras här. Utforska"
-      },
       "linkLabel": {
         "text": "Miniordbok"
-      },
-      "bodyAfter": {
-        "text": "för en snabb referens till andra taktiker du kan stöta på online."
-      },
-      "discretionLabel": {
-        "text": "Läsarens bedömning:"
-      },
-      "discretion": {
-        "text": "Vissa inlägg beskriver skadliga eller kränkande beteenden som kan vara känsliga eller upprörande. Utforska denna resurs efter eget gottfinnande och återvänd till kursen när du är redo."
       },
       "cta": {
         "text": "Utforska miniordboken"
@@ -3509,17 +3225,9 @@
         "text": "Tillbaka till kursen",
         "note": "Mini Dictionary dialog close button"
       },
-      "termsCount": {
-        "text": "{n} termer",
-        "note": "Section badge in Mini Dictionary; {n} = entry count"
-      },
       "title": {
         "text": "Miniordbok: Andra möjliga former av onlineövergrepp",
         "note": "Dictionary document title"
-      },
-      "fullText": {
-        "text": "Miniordbok: Andra möjliga former av onlineövergrepp\nGiftigt innehåll\n* Avsiktlig förlägenhet - Att avsiktligt orsaka någon skam eller förödmjukelse, ofta offentligt.\n* Cybermobbning - Upprepad användning av elektronisk kommunikation för att skrämma, skrämma eller skämma ut en person.\n* Trolling - Att publicera provocerande eller stötande meddelanden för att utlösa starka reaktioner eller störa diskussionen.\n* Svordomar eller stötande innehåll - Vulgärt eller respektlöst språk, bilder eller kommunikation.\n* Hot om våld - Meddelanden avsedda att skapa rädsla för fysisk skada.\n* Uppvigling - Att uppmana andra att agera våldsamt eller olagligt.\n* Sexuella trakasserier - Oönskade sexuella närmanden eller kommentarer.\n* Oönskat explicit innehåll - Att dela sexuellt explicita bilder eller meddelanden utan samtycke.\n\nInnehållsläckage\n* Sextortion - Utpressning som hotar att släppa privat material om inte krav uppfylls.\n* Doxxing - Att publicera privat eller identifierande information med illvillig avsikt.\n* Outing - Att avslöja någons sexualitet eller könsidentitet utan tillstånd.\n* Deadnaming - Att använda en transperson eller icke-binär persons tidigare namn utan samtycke.\n* Bildexponering utan samtycke - Dela privata eller intima bilder eller videor utan samtycke.\n* Läckta chattar eller profiler - Exponera privata konversationer eller konton utan tillstånd.\n\nÖverbelastning\n* System- eller kontoöversvämning - Överväldiga en person eller plattform med överdrivet innehåll eller förfrågningar om att störa tjänsten eller tysta tal.\n* Zoombombning - Oönskat intrång i ett videosamtal för att störa det.\n* Negativa betyg och recensioner - Samordnad orättvis eller partisk feedback avsedd att skada ett rykte.\n\nFalsk rapportering\n* Swatting - Ett falskt nödsamtal avsett att utlösa en beväpnad polisinsats på någons plats.\n* Förfalskad missbruksrapport - Medvetet lämna in en falsk rapport för att orsaka skada.\n* Förfalskad missbruksflagga - Felaktigt flagga legitimt innehåll som kränkande för att få det borttaget eller censurerat.\n\nImitation\n* Imiterade profiler - Falska konton skapade för att lura eller bedra.\n* Imiterade chattar eller bilder - Fabricerat eller förändrat innehåll som falskeligen tillskrivs någon.\n* Syntetisk pornografi - Deepfake-teknik som används för att skapa explicit innehåll utan samtycke.\n* Personifierade webbsidor - Förfalskade webbplatser byggda för att lura användare eller skada en konkurrents ställning.\n* Kapad kommunikation - Obehörigt övertagande av ett konto eller en kanal för att sprida falska meddelanden.\n\nÖvervakning\n* Stalking eller spårning - Upprepad, oönskad övervakning av en persons rörelser eller aktivitet.\n* Kontoövervakning - Obehörig åtkomst till och spårning av någons kontoaktivitet.\n* Enhetsövervakning - Obehörig spårning av aktivitet på en persons telefon, dator eller surfplatta.\n* IoT-övervakning - Passiv datainsamling från bärbara enheter eller smarta enheter utan samtycke.\n* Webbläsarövervakning - Spårning av någons webbhistorik eller aktivitet utan deras vetskap.\n\nUtlåsning och kontroll\n* Innehållsradering - Obehörig borttagning av filer, inlägg eller data för att undertrycka information eller orsaka skada.\n* Kapning av webbläsare eller enheter - Ta kontroll över någons webbläsare eller anslutna enheter utan samtycke.\n* Kontoutlåsningar - Avsiktligt blockera en person från att komma åt sina egna konton eller innehåll.",
-        "note": "Full mini-dictionary source; HTML/markdown structure — translate carefully"
       }
     },
     "scroll": {
@@ -3527,15 +3235,8 @@
         "text": "Fortsätt",
         "note": "Scroll / fade continue control"
       },
-      "continueAria": {
-        "text": "Fortsätt till mer innehåll"
-      },
       "continueRevealAria": {
         "text": "Fortsätt för att visa mer innehåll"
-      },
-      "noBlock": {
-        "text": "Inget följande block hittades på den här sidan.",
-        "note": "Dev/fallback message"
       },
       "restoreFailed": {
         "text": "Det gick inte att återställa följande innehåll. Uppdatera sidan och försök igen."
@@ -4511,6 +4212,10 @@
   },
   "welcome": {
     "partners": {
+      "heading": {
+        "text": "Ett erkännande av våra Erasmus+-partner",
+        "note": "Welcome partner-acknowledgements heading"
+      },
       "caption": {
         "text": "United Against Online Abuse (UAOA) tackar sina Erasmus+-partner för deras bidrag till utvecklingen av denna e-lärandekurs: FIA:s medlemsklubbar Autoklub České republiky (Tjeckien), Zveza za avto šport Slovenije – AŠ (Slovenien), Real Federación Española de Automovilismo (Spanien), Svenska Bilsportförbundet (Sverige), samt de akademiska partnerna Charles University (Tjeckien), Prof. Matej Tušak (Slovenien), European Sport Business School (Spanien) och Docent Lisa Kaati, Stockholm University (Sverige).",
         "note": "Welcome partner-acknowledgements caption embed (teal italic box under video)"
@@ -4563,10 +4268,6 @@
         "body": {
           "text": "<p><span style=\"color: #091324\"><strong>Idrotten förenar miljontals människor</strong> över länder, kulturer och generationer genom passion, stolthet och tävlingens spänning.<br><br><strong>Övergrepp online sätter den gemenskapen på spel.</strong> När idrottare, domare, volontärer och fans angrips online för vilka de är eller hur de presterar kan konsekvenserna sträcka sig långt bortom skärmen – de skadar människor, skadar karriärer och normaliserar kränkande beteenden.<br><br><strong>United Against Online Abuse (UAOA)</strong>, som grundades av FIA:s ordförande Mohammed Ben Sulayem, samlar fler än 75 regeringar, idrottsorganisationer, akademiska institutioner och teknikplattformar kring ett gemensamt mål: <strong>att skydda idrotten bättre mot övergrepp online.</strong> Varaktig förändring kräver insatser från institutioner, gemenskaper <strong>och individer – och det inkluderar dig.</strong></span></p><p></p><p><span style=\"color: #091324\">Med denna <strong>e-lärandekurs</strong>, utvecklad i samarbete med University of Notre Dame hjälper den här kursen dig att känna igen olika former av övergrepp online, förstå hur de påverkar din idrottsgemenskap och hur du kan använda rapporteringsrutiner. När du har slutfört kursen <strong>är du bättre förberedd</strong> att vidta välgrundade åtgärder och bidra till en säkrare idrottsmiljö.</span></p><p></p><p><span style=\"color: #091324\"><strong>Din resa mot en säkrare idrottsmiljö börjar här.</strong></span></p>",
           "note": "Native text body on Welcome"
-        },
-        "p3": {
-          "text": "<p>United Against Online Abuse (UAOA) sammanför fler än 75 regeringar, sporter, akademiker och teknikplattformar kring ett gemensamt mål: att skydda idrotten bättre mot onlineövergrepp. Varaktig förändring kräver handling från institutioner, samhällen <strong>och individer, och det inkluderar dig.</strong></p>",
-          "note": "Native text body on Welcome"
         }
       },
       "welcomeTitle": {
@@ -4605,10 +4306,6 @@
           "text": "<div class=\"uaoa-ready-banner\" style=\"display:flex;flex-direction:row;align-items:center;gap:24px;width:100%;max-width:100%;position:relative;overflow:hidden;background:#1c3564;border-radius:16px;box-sizing:border-box;padding:16px 28px;\"><span class=\"uaoa-ready-copy\" style=\"display:block;position:relative;z-index:1;flex:1 1 auto;min-width:0;\"><span class=\"uaoa-ready-title\" style=\"display:block;color:#ffffff;font-size:36px;font-weight:700;line-height:1.15;margin:0;white-space:nowrap;\">Redo att börja?</span><span class=\"uaoa-ready-body\" style=\"display:block;color:#ffffff;font-size:16px;font-weight:400;line-height:1.35;margin:4px 0 0;\">Fem moduler, från att förstå övergrepp och trakasserier online till hur du kan agera i din gemenskap.</span></span><button type=\"button\" class=\"uaoa-ready-cta\" style=\"position:relative;z-index:2;flex:0 0 auto;display:inline-flex;align-items:center;background-color:#21b7cb;color:#1c3564;font-size:16px;font-weight:700;line-height:1.2;padding:8px 18px;border-radius:999px;border:5px solid rgba(33,183,203,0.6);background-clip:padding-box;cursor:pointer;white-space:nowrap;\">Starta kursen →</button><img class=\"uaoa-ready-mark\" src=\"https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/art_uaoa_individual__93c9e800-9785-4df3-8306-7fe37621e1fb.png\" alt=\"\" width=\"1024\" height=\"1024\" style=\"position:absolute;right:-72px;top:50%;transform:translateY(-50%);height:220px;width:auto;opacity:0.26;pointer-events:none;z-index:0;\" /></div>",
           "note": "Ready banner — 36px title, 16px subtitle, Start Course pill inside the bar. The next navigation_button stays next_slide and always enabled; course CSS hides it."
         }
-      },
-      "startCourse": {
-        "text": "Starta kursen",
-        "note": "Native navigation_button on About This Course"
       },
       "tagline": {
         "body": {

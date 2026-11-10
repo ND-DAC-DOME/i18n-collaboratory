@@ -619,14 +619,29 @@ class Handler(SimpleHTTPRequestHandler):
             name = (body.get('name') or '').strip()
             session_id = (body.get('sessionId') or '').strip()
             keys = _approval_keys_from_body(body, many=True)
+            if locale not in LOCALES:
+                raise ValueError(f'unsupported locale: {locale}')
+            require_holder(load_lock(locale), session_id)
+            en_map = en_text_map()
+            known = [key for key in keys if key in en_map]
+            unknown = [key for key in keys if key not in en_map]
+            if not known:
+                raise ValueError('unknown English key')
+            # Unknown keys are reported on their own. They do not roll back the rest.
             entries, _approvals = approve_keys(
                 locale,
-                keys,
+                known,
                 name,
                 session_id,
-                message=f'i18n-review: approve {locale} {len(keys)} strings',
+                message=f'i18n-review: approve {locale} {len(known)} strings',
             )
-            send_json(self, 200, {'ok': True, 'locale': locale, 'entries': entries})
+            errors = {key: 'unknown English key' for key in unknown}
+            send_json(self, 200, {
+                'ok': True,
+                'locale': locale,
+                'entries': entries,
+                'errors': errors,
+            })
             return
 
         if path == '/api/approve' and method == 'POST':

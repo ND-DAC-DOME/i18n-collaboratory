@@ -44,6 +44,8 @@
     approveFlushTimer: null,
     approveFlushing: false,
     approveFlushPromise: null,
+    // null until the first batch response: true if POST /api/approve-batch exists.
+    approveBatchSupported: null,
   };
 
   var el = {
@@ -325,13 +327,97 @@
     forgetApprovePayload(payload);
     if (state.locale !== payload.locale) return;
     var entries = (data && data.entries) || {};
+    var errors = (data && data.errors) || {};
+    var failedKeys = [];
     payload.keys.forEach(function (key) {
       if (state.approveQueue[key]) return;
+      // A miss on one key must not clear or relabel a key that did save.
+      if (errors[key]) {
+        failedKeys.push(key);
+        var prev = payload.prevByKey[key];
+        if (prev) state.approvals[key] = prev;
+        else delete state.approvals[key];
+        state.approveErrors[key] = errors[key];
+        return;
+      }
       if (entries[key]) state.approvals[key] = entries[key];
       delete state.approveErrors[key];
     });
     renderModules(state.rowsCache);
     renderRows();
+    if (failedKeys.length === 1) {
+      toast(errors[failedKeys[0]] || 'Approve failed', 'error');
+    } else if (failedKeys.length) {
+      toast('Could not save ' + failedKeys.length + ' approvals', 'error');
+    }
+  }
+
+  function approveRequestBody(payload, key) {
+    var body = {
+      locale: payload.locale,
+      name: payload.name,
+      sessionId: payload.sessionId,
+    };
+    if (key) body.key = key;
+    else body.keys = payload.keys;
+    return body;
+  }
+
+  function approveOne(payload, key) {
+    return api('/api/approve', {
+      method: 'POST',
+      keepalive: true,
+      body: approveRequestBody(payload, key),
+    }).then(function (data) {
+      var entry = data && (data.entry || (data.entries && data.entries[key]));
+      var out = { entries: {}, errors: {} };
+      if (entry) out.entries[key] = entry;
+      return out;
+    }).catch(function (e) {
+      var out = { entries: {}, errors: {} };
+      out.errors[key] = (e && e.message) || 'Approve failed';
+      return out;
+    });
+  }
+
+  // One GitHub commit per key. Used when the batch route is not deployed (HTTP 404)
+  // and when a batch reports per-key misses. Failures stay on that key only.
+  function approveSequential(payload) {
+    var entries = {};
+    var errors = {};
+    var chain = Promise.resolve();
+    payload.keys.forEach(function (key) {
+      chain = chain.then(function () {
+        return approveOne(payload, key).then(function (part) {
+          Object.keys(part.entries).forEach(function (k) { entries[k] = part.entries[k]; });
+          Object.keys(part.errors).forEach(function (k) { errors[k] = part.errors[k]; });
+        });
+      });
+    });
+    return chain.then(function () {
+      return { entries: entries, errors: errors };
+    });
+  }
+
+  function postApprovals(payload) {
+    if (state.approveBatchSupported === false) return approveSequential(payload);
+    return api('/api/approve-batch', {
+      method: 'POST',
+      keepalive: true,
+      body: approveRequestBody(payload),
+    }).then(function (data) {
+      state.approveBatchSupported = true;
+      return {
+        entries: (data && data.entries) || {},
+        errors: (data && data.errors) || {},
+      };
+    }).catch(function (e) {
+      if (e && e.status === 404) {
+        state.approveBatchSupported = false;
+        return approveSequential(payload);
+      }
+      throw e;
+    });
   }
 
   function applyApproveFailure(payload, err) {
@@ -370,16 +456,7 @@
     var run = function () {
       state.approveFlushing = true;
       state.approveInflight = payload;
-      return api('/api/approve-batch', {
-        method: 'POST',
-        keepalive: true,
-        body: {
-          locale: payload.locale,
-          keys: payload.keys,
-          name: payload.name,
-          sessionId: payload.sessionId,
-        },
-      }).then(function (data) {
+      return postApprovals(payload).then(function (data) {
         applyApproveSuccess(payload, data);
       }).catch(function (e) {
         applyApproveFailure(payload, e);
@@ -414,35 +491,40 @@
     }
     var payload = drainApproveQueue();
     if (!payload) return false;
-    var body = JSON.stringify({
-      locale: payload.locale,
-      keys: payload.keys,
-      name: payload.name,
-      sessionId: payload.sessionId,
-    });
-    // text/plain is a CORS-safelisted type, so sendBeacon can reach the API
-    // from GitHub Pages without a preflight during unload.
-    var ok = false;
-    try {
-      if (navigator.sendBeacon) {
-        ok = navigator.sendBeacon(
-          API + '/api/approve-batch',
-          new Blob([body], { type: 'text/plain;charset=UTF-8' })
-        );
-      }
-    } catch (e) {
-      ok = false;
-    }
-    if (!ok) {
+    // Until a batch save has succeeded, unload uses the single-key route that
+    // the deployed API already has. sendBeacon cannot see a 404 and fall back.
+    var useBatch = state.approveBatchSupported === true;
+    function beaconJson(path, obj) {
+      var raw = JSON.stringify(obj);
+      var sent = false;
       try {
-        fetch(API + '/api/approve-batch', {
-          method: 'POST',
-          headers: { 'Content-Type': 'text/plain;charset=UTF-8', 'Accept': 'application/json' },
-          body: body,
-          keepalive: true,
-          mode: 'cors',
-        });
-      } catch (e2) { /* best effort */ }
+        if (navigator.sendBeacon) {
+          sent = navigator.sendBeacon(
+            API + path,
+            new Blob([raw], { type: 'text/plain;charset=UTF-8' })
+          );
+        }
+      } catch (e) {
+        sent = false;
+      }
+      if (!sent) {
+        try {
+          fetch(API + path, {
+            method: 'POST',
+            headers: { 'Content-Type': 'text/plain;charset=UTF-8', 'Accept': 'application/json' },
+            body: raw,
+            keepalive: true,
+            mode: 'cors',
+          });
+        } catch (e2) { /* best effort */ }
+      }
+    }
+    if (useBatch) {
+      beaconJson('/api/approve-batch', approveRequestBody(payload));
+    } else {
+      payload.keys.forEach(function (key) {
+        beaconJson('/api/approve', approveRequestBody(payload, key));
+      });
     }
     return true;
   }

@@ -9,10 +9,6 @@
       "text": "Preverite svoje razumevanje",
       "note": "Learning-section pill before knowledge-check widgets (slate #323F53 / lavender border #C5CCDF / cyan dot #21B7CB / white label)"
     },
-    "learningActivityHeading": {
-      "text": "Učna dejavnost",
-      "note": "Learning-section pill before interactives (same shell as checkUnderstandingHeading)"
-    },
     "next": {
       "text": "Naprej",
       "note": "Primary forward button on series / quiz widgets"
@@ -29,21 +25,9 @@
       "text": "Poskusi znova",
       "note": "Retry full activity"
     },
-    "activityComplete": {
-      "text": "Dejavnost končana",
-      "note": "Short done banner"
-    },
-    "activityCompleteRevisit": {
-      "text": "Dejavnost je končana. Vprašanja si lahko kadar koli ogledate znova.",
-      "note": "Done banner with revisit hint (knowledge-check style)"
-    },
     "answerChoicesAria": {
       "text": "Možnosti odgovorov",
       "note": "aria-label on radiogroup / options"
-    },
-    "notQuiteReview": {
-      "text": "<strong>Ne čisto. Preglejte možnosti in poskusite znova.</strong>",
-      "note": "Shared incorrect feedback; HTML allowed"
     },
     "previous": {
       "text": "Prejšnji",
@@ -61,36 +45,6 @@
       "text": "Nadaljujte",
       "note": "End-of-activity or scroll continue"
     },
-    "correct": {
-      "text": "<strong>Pravilno!</strong>",
-      "note": "Short correct prefix; HTML allowed"
-    },
-    "notQuite": {
-      "text": "<strong>Ne čisto. Preglejte možnosti in poskusite znova.</strong>",
-      "note": "Shared incorrect; HTML allowed"
-    },
-    "selectAllThatApply": {
-      "text": "Izberite vse, kar velja, in nato oddajte."
-    },
-    "nSelected": {
-      "text": "{n} izbranih",
-      "note": "Count label; {n} = number"
-    },
-    "nOfTotalSelected": {
-      "text": "Izbranih je {n} od {total}",
-      "note": "Count label; {n}/{total}"
-    },
-    "nOfTotalExplored": {
-      "text": "{n} od {total} raziskanih",
-      "note": "Flip progress"
-    },
-    "allExplored": {
-      "text": "Vse platforme raziskane",
-      "note": "Flip done — platforms; override per widget if needed"
-    },
-    "allStepsReviewed": {
-      "text": "Vsi koraki pregledani."
-    },
     "questionsCorrect": {
       "text": "pravilna vprašanja",
       "note": "Score footer under X/Y"
@@ -98,20 +52,6 @@
     "chooseEllipsis": {
       "text": "izberite…",
       "note": "Blank dropdown placeholder"
-    },
-    "true": {
-      "text": "Pravilno"
-    },
-    "false": {
-      "text": "Napačno"
-    },
-    "keyTakeaways": {
-      "text": "Ključne ugotovitve",
-      "note": "Native takeaways heading"
-    },
-    "wrongPlain": {
-      "text": "Ne čisto. Preglejte možnosti in poskusite znova.",
-      "note": "uaoa_common.WRONG — plain, no HTML"
     },
     "questionNavAria": {
       "text": "Navigacija po vprašanjih"
@@ -144,26 +84,6 @@
         "text": "Anketa pred tečajem",
         "note": "iframe title for Qualtrics embed between Welcome and Module 1"
       },
-      "waitingStatus": {
-        "text": "Izpolnite spodnjo anketo. Gumb »Nadaljuj« se odklene, ko končate.",
-        "note": "Status while waiting for QualtricsEOS"
-      },
-      "completeStatus": {
-        "text": "Anketa je končana – lahko nadaljujete.",
-        "note": "Status after QualtricsEOS / manual confirm"
-      },
-      "fallbackHint": {
-        "text": "Če ste anketo izpolnili, vendar je možnost »Nadaljuj« še vedno zaklenjena, potrdite spodaj.",
-        "note": "Shown after ~45s if EOS not detected"
-      },
-      "fallbackButton": {
-        "text": "Anketo sem končal/a",
-        "note": "Manual unlock when QualtricsEOS is not received"
-      },
-      "slideTitle": {
-        "text": "Anketa pred tečajem",
-        "note": "Slide / section title between Welcome and Module 1"
-      },
       "intro": {
         "text": "<p><span style=\"color: #091324\">Preden začnete, vam bo ta kratka anketa pomagala razmisliti o vašem trenutnem znanju, zaupanju in pripravljenosti za obravnavo spletne zlorabe. Ni pravilnih ali napačnih odgovorov. Vaši odgovori bodo izhodišče za razmislek o napredku tekom tečaja.</span></p>",
         "note": "Pre-course survey intro HTML"
@@ -181,22 +101,6 @@
       "iframeTitle": {
         "text": "Anketa po tečaju",
         "note": "iframe title for Qualtrics embed after final quiz"
-      },
-      "waitingStatus": {
-        "text": "Izpolnite spodnjo anketo. Gumb »Nadaljuj« se odklene, ko končate.",
-        "note": "Status while waiting for QualtricsEOS"
-      },
-      "completeStatus": {
-        "text": "Anketa je končana – lahko nadaljujete.",
-        "note": "Status after QualtricsEOS / manual confirm"
-      },
-      "fallbackHint": {
-        "text": "Če ste anketo izpolnili, vendar je možnost »Nadaljuj« še vedno zaklenjena, potrdite spodaj.",
-        "note": "Shown after ~45s if EOS not detected"
-      },
-      "fallbackButton": {
-        "text": "Anketo sem končal/a",
-        "note": "Manual unlock when QualtricsEOS is not received"
       },
       "continue": {
         "text": "Nadaljujte",
@@ -290,9 +194,6 @@
         "progress": {
           "text": "{n} od {total} raziskanih",
           "note": "Flip progress counter"
-        },
-        "done": {
-          "text": "Vse oblike raziskane"
         }
       },
       "cards": {
@@ -401,9 +302,6 @@
         },
         "progress": {
           "text": "{n} od {total} raziskanih"
-        },
-        "done": {
-          "text": "Vse skupine raziskane"
         }
       },
       "groups": {
@@ -521,35 +419,12 @@
     },
     "check": {
       "ui": {
-        "instructionComplete": {
-          "text": "Dopolnite stavek."
-        },
-        "instructionBlanks": {
-          "text": "Za vsako prazno polje izberite besedo. Vsaka beseda se uporabi enkrat."
-        },
         "instructionMulti": {
           "text": "Izberite vse, kar velja."
-        },
-        "instructionPair": {
-          "text": "Izberite par besed, ki dopolni stavek."
         },
         "blankAria": {
           "text": "Prazno {n}",
           "note": "aria-label; {n} = 1-based index"
-        },
-        "questionsCorrect": {
-          "text": "vprašanja pravilna"
-        },
-        "scorePerfect": {
-          "text": "Odlično – pravilno ste odgovorili na vsa vprašanja.",
-          "note": "Score message; may vary — check widget"
-        },
-        "scorePartial": {
-          "text": "Dobro delo – spodaj preglejte vse spregledane elemente.",
-          "note": "Fallback score message"
-        },
-        "scoreLow": {
-          "text": "Nadaljujte – poskusite znova, da okrepite svoje razumevanje."
         }
       },
       "questions": {
@@ -874,10 +749,6 @@
             "c3": {
               "text": "Predvsem ljudje, katerih delo vključuje neposredno komunikacijo z navijači."
             }
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong> Spletna zloraba lahko vpliva na ljudi v celotnem športnem ekosistemu, vključno s tistimi, ki so neposredno tarče, in drugimi, ki so priča njenim širšim posledicam ali jih doživljajo.",
-            "note": "HTML allowed"
           }
         },
         "q2": {
@@ -898,10 +769,6 @@
             "c3": {
               "text": "Njen vpliv je odvisen predvsem od tega, kako pogosto nekdo uporablja družbena omrežja."
             }
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong> Spletna zloraba lahko vpliva na več področij človekovega življenja in dela. V športu lahko najbolj prizadene športnike, ne glede na njihovo raven, vendar se lahko posledice razširijo tudi na družine, sodelavce, ekipe, navijače in športne skupnosti.",
-            "note": "HTML allowed"
           }
         },
         "q3": {
@@ -922,10 +789,6 @@
             "c3": {
               "text": "Posledice spletne zlorabe so odvisne predvsem od tega, kako pogosto oseba uporablja družbena omrežja."
             }
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong> Učinki so lahko medsebojno povezani. Čustvena stiska, spanec, samozavest, varnost, uspešnost in sodelovanje lahko vplivajo drug na drugega in se lahko sčasoma razvijejo.",
-            "note": "HTML allowed"
           }
         },
         "q4": {
@@ -946,10 +809,6 @@
             "c3": {
               "text": "Ljudje, ki se še naprej ukvarjajo s športom, verjetno niso bili bistveno prizadeti."
             }
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong> Vpliv spletne zlorabe se razlikuje. Raziskave, o katerih smo razpravljali v modulu, kažejo, da so dejavniki, kot sta odpornost in samozavest, lahko povezani z odzivom ljudi, vendar nadaljnje sodelovanje ne pomeni, da nekdo ni bil prizadet.",
-            "note": "HTML allowed"
           }
         }
       }
@@ -958,9 +817,6 @@
       "ui": {
         "progress": {
           "text": "{n} od {total} raziskanih"
-        },
-        "done": {
-          "text": "Vse skupine raziskane"
         }
       },
       "cards": {
@@ -1016,9 +872,6 @@
     },
     "exploreImpacts": {
       "ui": {
-        "eyebrow": {
-          "text": "Raziščite"
-        },
         "prompt": {
           "text": "Potem ko je na spletu prejel večkratna žaljiva sporočila, je športnik začel manj pogosto objavljati na družbenih omrežjih. Njegov trener je opazil, da se med treningom zdi raztresen, pred kratkim pa je omenil, da slabo spi in da je tesnoben zaradi udeležbe na javnih dogodkih."
         },
@@ -1074,9 +927,6 @@
         },
         "researchHeading": {
           "text": "Kaj kaže raziskava"
-        },
-        "done": {
-          "text": "<strong>Ti vplivi so lahko medsebojno povezani, zato je vsak od njih pravilen.</strong> Spletna zloraba lahko hkrati vpliva na več področij človekovega življenja, učinki pa se lahko sčasoma razvijejo ali okrepijo. Prepoznavanje teh znakov lahko ljudem v športu pomaga, da se odzovejo z večjo ozaveščenostjo in podporo."
         },
         "sourceLabel": {
           "text": "Vir:"
@@ -1321,10 +1171,6 @@
         "text": "<p><span style=\"color: #091324\">Spletna zloraba lahko prizadene vse, ki se ukvarjajo s športom. Njene posledice se razlikujejo glede na posameznika in njegove okoliščine, pri čemer so nekateri vplivi še posebej pomembni za športnike. Ti učinki se lahko tudi medsebojno krepijo: tesnoba lahko moti spanec, slab spanec lahko vpliva na koncentracijo in samozavest, ti kombinirani učinki pa lahko vplivajo na vsakodnevne aktivnosti, športno uspešnost in splošno dobro počutje.</span></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
       },
-      "section4Body": {
-        "text": "<p><span style=\"color: #091324\">Potem ko je na spletu prejel večkratna žaljiva sporočila, je športnik začel manj pogosto objavljati na družbenih omrežjih. Njegov trener je opazil, da se med treningom zdi raztresen, pred kratkim pa je omenil, da slabo spi in da je tesnoben zaradi udeležbe na javnih dogodkih.</span></p>",
-        "note": "Section body on Online Abuse in Sport: The Human Impact"
-      },
       "section5Body": {
         "text": "<p><span style=\"color: #091324\">Posledice spletne zlorabe lahko <strong>segajo dlje od posameznikov</strong> ter oblikujejo kulturo športa in skupnosti okoli njega. Široko razširjena sovražnost lahko vpliva na to, <strong>kdo se počuti dobrodošlo, varno in sposobno sodelovati</strong>, kar ima posledice za vključenost in trajnost športnih skupnosti.<br><br></span></p><p><span style=\"color: #091324\">Šport ima tudi <strong>širši družbeni vpliv</strong>. Vedenja in stališča, izražena v športnih prostorih, lahko prispevajo k širšim družbenim normam. Ko diskriminatorno ali zlorabno vedenje postane normalizirano, lahko okrepi <strong>predsodke, izključenost in sovražnost zunaj športa.</strong></span></p><p></p>",
         "note": "Section body on Online Abuse in Sport: The Human Impact"
@@ -1338,9 +1184,6 @@
   "m3": {
     "regionTabs": {
       "ui": {
-        "eyebrow": {
-          "text": "Regionalni primer"
-        },
         "prompt": {
           "text": "Izberite regijo"
         },
@@ -1433,21 +1276,11 @@
     },
     "checklist": {
       "ui": {
-        "eyebrow": {
-          "text": "Kontrolni seznam"
-        },
         "title": {
           "text": "Koraki prijave"
         },
         "progress": {
           "text": "{n} od {total} pregledanih"
-        },
-        "hint": {
-          "text": "Označite vsak korak, ko ga pregledate. Ni ocenjeno.",
-          "note": "Removed from widget UI; kept for translators / legacy"
-        },
-        "done": {
-          "text": "Vsi koraki pregledani."
         }
       },
       "items": {
@@ -1543,10 +1376,6 @@
     },
     "sorting": {
       "ui": {
-        "eyebrow": {
-          "text": "Razvrščanje",
-          "note": "Removed from widget UI; kept for translators / legacy"
-        },
         "prompt": {
           "text": "1. Spodaj navedene korake razvrstite v priporočenem vrstnem redu."
         },
@@ -1590,10 +1419,6 @@
       }
     },
     "trueFalse": {
-      "bad": {
-        "text": "<strong>Ne čisto. Preglejte izjavo in poskusite znova.</strong>",
-        "note": "HTML allowed"
-      },
       "questions": {
         "q1": {
           "prompt": {
@@ -1713,10 +1538,6 @@
         }
       },
       "exploreWhichFactorsCanInfluenceHow": {
-        "body": {
-          "text": "<p><span style=\"color: #091324\">Izberite tri dejavnike, ki lahko neposredno vplivajo na to, kako se škodljiva vsebina širi in dosega novo občinstvo na spletu.</span></p>",
-          "note": "Native text body on How Online Harm Spreads"
-        },
         "heading": {
           "text": "<span style=\"color: #1c3564\">Raziščite: Kateri dejavniki lahko vplivajo na to, kako se škodljiva vsebina širi po spletu?</span>",
           "note": "Native heading on How Online Harm Spreads"
@@ -1813,6 +1634,14 @@
         "r1": {
           "text": "<strong>Ustvarjanje in krepitev škode:</strong> Generativna umetna inteligenca lahko hitro in v velikem obsegu ustvarja ali manipulira z besedilom, slikami, zvokom in videoposnetki.",
           "note": "HTML allowed"
+        },
+        "r2": {
+          "text": "<strong>Krepitev nadlegovanja:</strong> Orodja, ki jih poganja umetna inteligenca, lahko hitro in v velikem obsegu ustvarjajo ter širijo zlorabna sporočila in tako povečujejo doseg in vpliv spletnega nadlegovanja.",
+          "note": "HTML allowed"
+        },
+        "r3": {
+          "text": "<strong>Širjenje dezinformacij in lažno predstavljanje:</strong> Umetno inteligenco je mogoče uporabiti za ustvarjanje zavajajoče vsebine ali za lažno predstavljanje oseb, kar lahko škodi ugledu in zavede občinstvo.",
+          "note": "HTML allowed"
         }
       },
       "benefits": {
@@ -1834,27 +1663,6 @@
   "m4": {
     "lawTabs": {
       "ui": {
-        "prompt": {
-          "text": "Izberite pot"
-        },
-        "placeholder": {
-          "text": "Izberite pot"
-        },
-        "pathwaysAria": {
-          "text": "Pravne poti"
-        },
-        "seeExample": {
-          "text": "Oglejte si primer"
-        },
-        "backToPathway": {
-          "text": "Nazaj na pot"
-        },
-        "returnMain": {
-          "text": "Nazaj na glavno stran"
-        },
-        "closeAria": {
-          "text": "Zapri"
-        },
         "forExample": {
           "text": "Na primer:",
           "note": "Shown under the title on law-tabs example cards"
@@ -2063,10 +1871,6 @@
             "c3": {
               "text": "Vsaka platforma družbenih medijev določa, katera pravna pot velja."
             }
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong>",
-            "note": "HTML allowed"
           }
         },
         "q2": {
@@ -2086,10 +1890,6 @@
             "c3": {
               "text": "Oseba naj počaka, da vidi, ali bo vedenje postalo resnejše."
             }
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong>",
-            "note": "HTML allowed"
           }
         },
         "q3": {
@@ -2109,10 +1909,6 @@
             "c3": {
               "text": "Športne organizacije nimajo pravice vključiti oblasti."
             }
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong>",
-            "note": "HTML allowed"
           }
         },
         "q4": {
@@ -2132,10 +1928,6 @@
             "c3": {
               "text": "Države lahko za spletno ravnanje uporabljajo različne obstoječe zakone, nekateri zakoni pa izrecno obravnavajo določena digitalna vedenja."
             }
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong>",
-            "note": "HTML allowed"
           }
         }
       }
@@ -2185,10 +1977,6 @@
           "body": {
             "text": "<p><span style=\"color: #091324; font-size: 14px\"><strong>Upoštevajte:</strong> Ta modul ponuja splošen pregled pravnih odzivov na spletne zlorabe in ne predstavlja pravnega nasveta. Zakoni se med jurisdikcijami razlikujejo in se lahko sčasoma spreminjajo. Za nasvet o določeni situaciji se posvetujte z ustrezno usposobljenim strokovnjakom.</span></p>",
             "note": "Callout body on Knowing Your Rights and Responsibilities"
-          },
-          "title": {
-            "text": "<span style=\"color: #1c3564\">Prosimo, upoštevajte</span>",
-            "note": "Callout title on Knowing Your Rights and Responsibilities"
           }
         }
       },
@@ -2257,19 +2045,129 @@
           "text": "<span style=\"color: #1c3564\">Kjer imajo pravni odzivi omejitve</span>",
           "note": "Native heading on Knowing Your Rights and Responsibilities"
         }
+      }
+    },
+    "duties": {
+      "orgs": {
+        "label": {
+          "text": "Športne organizacije bi morale:",
+          "note": "Who can do what widget"
+        },
+        "i1": {
+          "verb": {
+            "text": "Opredeliti",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "spletno zlorabo in pričakovana pravila spletnega ravnanja v organizacijskih politikah",
+            "note": "Who can do what widget"
+          }
+        },
+        "i2": {
+          "verb": {
+            "text": "Vzpostaviti",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "jasne in dostopne postopke prijave",
+            "note": "Who can do what widget"
+          }
+        },
+        "i3": {
+          "verb": {
+            "text": "Uporabiti",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "organizacijske posledice, kadar so kršeni kodeksi ravnanja",
+            "note": "Who can do what widget"
+          }
+        },
+        "i4": {
+          "verb": {
+            "text": "Zagotoviti",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "izobraževanje o prepoznavanju, preprečevanju in odzivanju na spletno zlorabo",
+            "note": "Who can do what widget"
+          }
+        },
+        "i5": {
+          "verb": {
+            "text": "Zagotoviti",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "dostop do podpore za dobro počutje in zaščito",
+            "note": "Who can do what widget"
+          }
+        },
+        "i6": {
+          "verb": {
+            "text": "Sodelovati",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "s platformami, regulatorji ali pristojnimi organi, kadar je to potrebno",
+            "note": "Who can do what widget"
+          }
+        }
       },
-      "whoCanDoWhat": {
-        "col1": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Športne organizacije bi morale:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">V organizacijskih politikah opredeliti spletno zlorabo in pričakovana pravila spletnega ravnanja</span></p></li><li><p><span style=\"color: #091324\">Vzpostaviti jasne in dostopne postopke prijave</span></p></li><li><p><span style=\"color: #091324\">Uporabiti organizacijske posledice, kadar so kršeni kodeksi ravnanja</span></p></li><li><p><span style=\"color: #091324\">Zagotoviti izobraževanje o prepoznavanju, preprečevanju in odzivanju na spletno zlorabo</span></p></li><li><p><span style=\"color: #091324\">Zagotoviti dostop do podpore za dobro počutje in zaščito</span></p></li><li><p><span style=\"color: #091324\">Po potrebi sodelovati s platformami, regulatorji ali pristojnimi organi</span></p></li></ul>",
-          "note": "Native text body on Knowing Your Rights and Responsibilities"
+      "everyone": {
+        "label": {
+          "text": "Vsakdo v športu bi moral:",
+          "note": "Who can do what widget"
         },
-        "col2": {
-          "text": "<h4 class=\"course-block-heading\"><span style=\"color: #091324\">Vsakdo v športu bi moral:</span></h4><ul style=\"margin-left: 10px; padding-left: 1.25em;\"><li><p><span style=\"color: #091324\">Upoštevati kodekse ravnanja in politike, povezane s svojo vlogo</span></p></li><li><p><span style=\"color: #091324\">Uporabljati ustrezne kanale za prijavo škodljivega vedenja</span></p></li><li><p><span style=\"color: #091324\">Izogibati se deljenju ali širjenju zlorabne vsebine</span></p></li><li><p><span style=\"color: #091324\">Podpirati ljudi, ki so tarče</span></p></li><li><p><span style=\"color: #091324\">Zavedati se, da standardi spoštovanja, poštene igre in športnega vedenja veljajo tudi v digitalnih prostorih</span></p></li></ul>",
-          "note": "Native text body on Knowing Your Rights and Responsibilities"
+        "i1": {
+          "verb": {
+            "text": "Upoštevati",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "kodekse ravnanja in politike, povezane s svojo vlogo",
+            "note": "Who can do what widget"
+          }
         },
-        "heading": {
-          "text": "Kdo lahko kaj naredi",
-          "note": "Native heading on Knowing Your Rights and Responsibilities"
+        "i2": {
+          "verb": {
+            "text": "Uporabljati",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "ustrezne kanale za prijavo škodljivega vedenja",
+            "note": "Who can do what widget"
+          }
+        },
+        "i3": {
+          "verb": {
+            "text": "Izogibati se",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "deljenju ali širjenju zlorabne vsebine",
+            "note": "Who can do what widget"
+          }
+        },
+        "i4": {
+          "verb": {
+            "text": "Podpirati",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "ljudi, ki so tarče",
+            "note": "Who can do what widget"
+          }
+        },
+        "i5": {
+          "verb": {
+            "text": "Zavedati se",
+            "note": "Who can do what widget"
+          },
+          "rest": {
+            "text": "da standardi spoštovanja, poštene igre in športnega vedenja veljajo tudi v digitalnih prostorih",
+            "note": "Who can do what widget"
+          }
         }
       }
     }
@@ -2286,17 +2184,8 @@
         "backToLayers": {
           "text": "Nazaj k plastem"
         },
-        "done": {
-          "text": "Vse tri plasti so bile raziskane"
-        },
         "openLayer": {
           "text": "Preberi"
-        },
-        "overview": {
-          "text": "Pregled"
-        },
-        "exploredOf": {
-          "text": "{n} od 3 raziskanih plasti"
         },
         "exploredReview": {
           "text": "Preberi znova"
@@ -2306,9 +2195,6 @@
         },
         "whyMatter": {
           "text": "Zakaj je to pomembno?"
-        },
-        "hideWhy": {
-          "text": "Skrij razlago"
         },
         "orpShort": {
           "text": "ORP"
@@ -2529,11 +2415,6 @@
       }
     },
     "flow1": {
-      "ui": {
-        "title": {
-          "text": "Kaj lahko stori vsak od nas"
-        }
-      },
       "steps": {
         "s1": {
           "title": {
@@ -2565,11 +2446,6 @@
       }
     },
     "flow2": {
-      "ui": {
-        "title": {
-          "text": "Kaj lahko organizacije storijo"
-        }
-      },
       "steps": {
         "s1": {
           "title": {
@@ -2619,11 +2495,6 @@
       }
     },
     "flow3": {
-      "ui": {
-        "title": {
-          "text": "Kaj oblikuje varnejši digitalni šport"
-        }
-      },
       "steps": {
         "s1": {
           "title": {
@@ -2692,18 +2563,6 @@
     },
     "match": {
       "ui": {
-        "eyebrow": {
-          "text": "Preverite svoje razumevanje"
-        },
-        "prompt": {
-          "text": "Vsak scenarij povežite z ustrezno ravnjo"
-        },
-        "hint": {
-          "text": "Vsako kartico z ravnjo povlecite k ustreznemu scenariju na desni. Pred oddajo postavite vse tri."
-        },
-        "choicesAria": {
-          "text": "Izberite raven ukrepanja"
-        },
         "trayAria": {
           "text": "Kartice ravni"
         },
@@ -2719,10 +2578,6 @@
         },
         "feedbackBad": {
           "text": "<strong>Ne čisto.</strong> Preglejte svoje izbire in poskusite znova.",
-          "note": "HTML allowed"
-        },
-        "done": {
-          "text": "<strong>Tako je!</strong> Vsak scenarij ste povezali z ustrezno ravnjo ukrepanja.",
           "note": "HTML allowed"
         }
       },
@@ -2741,48 +2596,21 @@
         "s1": {
           "text": {
             "text": "Ko nekdo na spletu opazi, da je športnik tarča napadov, zasebno preveri, kako je, in prijavi škodljivo vsebino, ne da bi jo delil naprej."
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong> Zasebno preverjanje, kako je oseba, in prijava brez širjenja vsebine sta individualni dejanji.",
-            "note": "HTML allowed"
-          },
-          "bad": {
-            "text": "<strong>Ne čisto.</strong> Pomislite, kdo v tem trenutku izvaja to dejanje. <strong>Poskusite znova.</strong>",
-            "note": "HTML allowed"
           }
         },
         "s2": {
           "text": {
             "text": "Po več primerih spletne zlorabe športna zveza uvede pot prijave, usposabljanje osebja in zaščitne postopke."
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong> Poti prijave, usposabljanje in zaščitni postopki so organizacijski okviri.",
-            "note": "HTML allowed"
-          },
-          "bad": {
-            "text": "<strong>Ne čisto.</strong> Razmislite, katera raven določa okvire in postopke za športno organizacijo. <strong>Poskusite znova.</strong>",
-            "note": "HTML allowed"
           }
         },
         "s3": {
           "text": {
             "text": "Raziskave kažejo, kako se širi nova oblika spletne zlorabe, kar pomaga pri oblikovanju izobraževanja, tehnologije in prihodnjih odzivov javne politike."
-          },
-          "ok": {
-            "text": "<strong>Pravilno!</strong> Raziskave in dokazi, ki vplivajo na izobraževanje, tehnologijo in politiko, delujejo na ravni družbe.",
-            "note": "HTML allowed"
-          },
-          "bad": {
-            "text": "<strong>Ne čisto.</strong> Razmislite, katera raven oblikuje širše izobraževanje, tehnologijo in politiko. <strong>Poskusite znova.</strong>",
-            "note": "HTML allowed"
           }
         }
       }
     },
     "widerSystem": {
-      "heading": {
-        "text": "Ste del širšega sistema"
-      },
       "rows": {
         "individual": {
           "text": "<strong>Posamezniki</strong> lahko s svojimi dejanji zmanjšajo škodo in podprejo druge.",
@@ -2796,13 +2624,6 @@
           "text": "V celotni <strong>družbi</strong> lahko povezana prizadevanja na področju izobraževanja, politike, tehnologije, raziskav in skupnostnih standardov pomagajo ustvariti varnejše digitalne prostore v športu.",
           "note": "HTML allowed"
         }
-      },
-      "connectLead": {
-        "text": "UAOA pomaga povezati te ravni delovanja."
-      },
-      "connectBody": {
-        "text": "S pobudo <a href=\"https://unitedagainstonlineabuse.com/about-us/\" target=\"_blank\" rel=\"noopener\">Stronger Together (Skupaj močnejši) UAOA</a> združuje ljudi in organizacije iz različnih športov, da bi okrepili svoje priprave na spletne zlorabe, njihovo preprečevanje in odzivanje nanje, s čimer skupno znanje in usklajene ukrepe spreminjajo v praktično podporo športni skupnosti.",
-        "note": "HTML allowed"
       }
     },
     "takeaways": {
@@ -2840,14 +2661,6 @@
       "title": {
         "text": "Modul 5 – Ukrepajte: Gradimo varnejše digitalne športne skupnosti",
         "note": "slide_intro title"
-      },
-      "continueLayer2": {
-        "text": "Nadaljujte na 2. plast",
-        "note": "Nav button label"
-      },
-      "continueLayer3": {
-        "text": "Nadaljujte na 3. plast",
-        "note": "Nav button label"
       },
       "goToFinalQuiz": {
         "text": "Pojdi na končni kviz",
@@ -3249,18 +3062,6 @@
         "choicesAria": {
           "text": "Možnosti odgovorov",
           "note": "aria-label on options group"
-        },
-        "prevAria": {
-          "text": "Prejšnje vprašanje",
-          "note": "aria-label on prev chevron"
-        },
-        "nextAria": {
-          "text": "Naslednje vprašanje",
-          "note": "aria-label on next chevron when advancing"
-        },
-        "openResource": {
-          "text": "Odpri vir",
-          "note": "Legacy; Q11 now shows masked link labels inline inside answer pills"
         }
       },
       "score": {
@@ -3280,23 +3081,11 @@
           "text": "Kliknite za podrobnosti",
           "note": "Flip-card modal front CTA when below pass score with retries left"
         },
-        "headline": {
-          "text": "Dosegli ste {pct} %!",
-          "note": "Legacy / optional; modal uses youScored + large %"
-        },
         "body": {
           "text": "Naučili ste se prepoznati spletno zlorabo, razumeti njen vpliv in se varneje odzvati v individualnem, organizacijskem in širšem športnem kontekstu."
         },
         "note": {
           "text": "Vaš rezultat odraža vaše razumevanje ključnih konceptov, obravnavanih v tem tečaju."
-        },
-        "didNotPass": {
-          "text": "Za uspeh je potreben rezultat {pass} % ali več. To je bil poskus {n} od {max}.",
-          "note": "Shown on score back when below pass threshold; {pass}, {n}, {max} replaced in JS"
-        },
-        "retryHint": {
-          "text": "Preglejte snov tečaja in nato poskusite znova rešiti kviz.",
-          "note": "Score back note when retries remain"
         },
         "exhaustedBody": {
           "text": "Napredujete v razumevanju spletne zlorabe v športu. Za dokončanje tečaja in pridobitev certifikata je potreben rezultat {pass} % ali več.",
@@ -3305,10 +3094,6 @@
         "exhaustedNote": {
           "text": "Preglejte ključne koncepte in učno gradivo ter nato znova poskusite rešiti zaključni kviz, ko boste pripravljeni.",
           "note": "Score back note on EVERY failed attempt; paired with Try again until they pass"
-        },
-        "attemptsExhausted": {
-          "text": "Izkoristili ste vseh {max} poskusov. Kviz lahko zaprete in nadaljujete.",
-          "note": "Score back note after final failed attempt; {max} replaced in JS"
         },
         "finish": {
           "text": "Zapri",
@@ -3319,44 +3104,9 @@
         }
       }
     },
-    "furtherAction": {
-      "questions": {
-        "q1": {
-          "prompt": {
-            "text": "Bi želeli nadalje ukrepati z UAOA?"
-          },
-          "choices": {
-            "c0": {
-              "text": "Želim ukrepati"
-            },
-            "c1": {
-              "text": "Želim se še naprej učiti"
-            },
-            "c2": {
-              "text": "Želim okrepiti svojo organizacijo"
-            },
-            "c3": {
-              "text": "Ne zdaj"
-            }
-          },
-          "ok": {
-            "text": "<strong>Obstajajo različni načini ukrepanja.</strong> UAOA združuje ljudi in organizacije iz različnih športov, da bi okrepili, kako se pripravljajo na spletno zlorabo, jo preprečujejo in se nanjo odzivajo.",
-            "note": "HTML allowed — legacy further-action widget; Q11 lives in summary.quiz"
-          }
-        }
-      }
-    },
     "slide": {
-      "title": {
-        "text": "Povzetek: Ključne ugotovitve",
-        "note": "Module / summary slide title"
-      },
       "finishCourse": {
         "text": "Zaključi tečaj",
-        "note": "Nav button label"
-      },
-      "postSurvey": {
-        "text": "Izpolnite anketo po tečaju",
         "note": "Nav button label"
       },
       "getCertificate": {
@@ -3377,16 +3127,6 @@
           "body": {
             "text": "<p><span style=\"color: #091324\">Naučili ste se prepoznati spletno zlorabo, razumeti njen vpliv in se varneje odzvati v posameznem, organizacijskem in širšem športnem kontekstu.</span></p>",
             "note": "Native text body on Exit Page"
-          }
-        },
-        "yourReadiness": {
-          "body": {
-            "text": "<p><span style=\"color: #091324; font-size: 30px\"><strong>Vaša ocena pripravljenosti je <span data-uaoa-readiness-score>{{score}}</span> %!</strong></span></p><p></p><p><span style=\"color: #091324\">Naučili ste se prepoznati spletno zlorabo, razumeti njen vpliv in se varneje odzvati v individualnem, organizacijskem in širšem športnem kontekstu.</span></p><p></p><p><span style=\"color: #091324\">Vaša ocena odraža vašo trenutno pripravljenost za prepoznavanje spletne zlorabe in sprejemanje premišljenih odločitev, ko do nje pride.</span></p>",
-            "note": "Native text body on Exit Page"
-          },
-          "heading": {
-            "text": "Vaša pripravljenost",
-            "note": "Native heading on Exit Page"
           }
         },
         "image": {
@@ -3466,38 +3206,14 @@
       },
       "emergencyServicesDetail": {
         "text": "Če ste vi ali kdo drug v neposredni nevarnosti, pokličite lokalno številko za klic v sili."
-      },
-      "bodyM2": {
-        "text": "Ta modul obravnava čustvene in psihološke učinke spletne zlorabe. Spodbujamo vas, da gradivo predelujete v tempu, ki se vam zdi primeren, in da po potrebi poiščete podporo. K tečaju se lahko vrnete, kadar koli boste pripravljeni.",
-        "note": "Module 2 sensitive-notice body"
-      },
-      "bodyM3": {
-        "text": "Ta modul se nanaša na oblike spletne zlorabe. Žaljive vsebine niso prikazane. Vzemite si odmore, ko jih potrebujete, in ne pozabite, da je na voljo podpora. K tečaju se lahko vrnete, kadar koli boste pripravljeni.",
-        "note": "Module 4 sensitive-notice body (forms-of-abuse wording)"
-      },
-      "bodyM4": {
-        "text": "Ta modul obravnava spletno zlorabo in odzive nanjo. Žaljive vsebine niso prikazane. Vzemite si odmore, ko jih potrebujete, in ne pozabite, da je na voljo podpora. K tečaju se lahko vrnete, kadar koli boste pripravljeni.",
-        "note": "Module 5 sensitive-notice body"
       }
     },
     "miniDictionary": {
       "teaser": {
         "text": "Želite izvedeti več o drugih oblikah spletne zlorabe?"
       },
-      "bodyBefore": {
-        "text": "Spletna zloraba se lahko kaže v številnih oblikah, ki presegajo tri tukaj predstavljene oblike vedenja. Raziščite"
-      },
       "linkLabel": {
         "text": "Mini slovar"
-      },
-      "bodyAfter": {
-        "text": "za hiter pregled drugih taktik, na katere lahko naletite na spletu."
-      },
-      "discretionLabel": {
-        "text": "Presoja bralca:"
-      },
-      "discretion": {
-        "text": "Nekateri vnosi opisujejo škodljivo ali zlorabno vedenje, ki je lahko občutljivo ali vznemirljivo. Raziščite ta vir po lastni presoji in se vrnite k tečaju, ko boste pripravljeni."
       },
       "cta": {
         "text": "Raziščite mini slovar"
@@ -3509,17 +3225,9 @@
         "text": "Nazaj na tečaj",
         "note": "Mini Dictionary dialog close button"
       },
-      "termsCount": {
-        "text": "{n} izrazov",
-        "note": "Section badge in Mini Dictionary; {n} = entry count"
-      },
       "title": {
         "text": "Mini slovar: Druge možne oblike spletne zlorabe",
         "note": "Dictionary document title"
-      },
-      "fullText": {
-        "text": "Mini slovar: Druge možne oblike spletne zlorabe\nStrupena vsebina\n* Namerno zasramovanje - Namerno povzročanje sramu ali ponižanja nekomu, pogosto javno.\n* Kibernetsko ustrahovanje - Ponavljajoča se uporaba elektronske komunikacije za ustrahovanje, prestraševanje ali sramotenje osebe.\n* Trolanje - Objavljanje provokativnih ali žaljivih sporočil za sprožitev močnih reakcij ali motenje razprave.\n* Prostaška ali žaljiva vsebina - Vulgaren ali nespoštljiv jezik, slike ali komunikacija.\n* Grožnje z nasiljem - Sporočila, namenjena ustvarjanju strahu pred telesno poškodbo.\n* Hujskanje - Spodbujanje drugih k nasilnemu ali nezakonitemu ravnanju.\n* Spolno nadlegovanje - Neželeno spolno približevanje ali komentarji.\n* Neželene eksplicitne vsebine - Deljenje spolno eksplicitnih slik ali sporočil brez privolitve.\nUhajanje vsebine\n* Spolno izsiljevanje - Izsiljevanje z grožnjo, da bo zasebno gradivo objavljeno, če zahteve ne bodo izpolnjene.\n* Doksiranje - Objavljanje zasebnih ali identifikacijskih podatkov z zlonamernim namenom.\n* Razkrivanje (outing) - Razkritje spolne usmerjenosti ali spolne identitete nekoga brez dovoljenja.\n* Deadnaming - Uporaba prejšnjega imena transspolne ali nebinarne osebe brez njenega soglasja.\n* Razkrivanje slik brez privolitve - Deljenje zasebnih ali intimnih slik ali videoposnetkov brez privolitve.\n* Razkritje klepetov ali profilov - Razkrivanje zasebnih pogovorov ali računov brez dovoljenja.\nPreobremenitev\n* Poplavljanje sistema ali računa - Preobremenitev osebe ali platforme s prekomerno vsebino ali zahtevami, da se prekine storitev ali utiša govor.\n* Zoombombing - Nepovabljen vdor v videoklic z namenom, da se ga zmoti.\n* Negativne ocene in mnenja - Usklajene nepoštene ali pristranske povratne informacije, namenjene škodovanju ugledu.\nLažno prijavljanje\n* Swatting - Lažni klic v sili, namenjen sprožitvi oborožene policijske intervencije na lokaciji osebe.\n* Lažna prijava zlorabe - Zavestna oddaja lažne prijave z namenom povzročitve škode.\n* Lažna oznaka zlorabe - Napačno označevanje legitimne vsebine kot zlorabe, da bi jo odstranili ali cenzurirali.\nLažno predstavljanje\n* Lažni profili - Lažni računi, ustvarjeni za zavajanje ali goljufijo.\n* Ponarejeni klepeti ali slike - Izmišljena ali spremenjena vsebina, ki je lažno pripisana nekomu.\n* Sintetična pornografija - Tehnologija globokih ponaredkov, ki se uporablja za ustvarjanje eksplicitne vsebine brez privolitve.\n* Ponarejene spletne strani - Ponarejena spletna mesta, zgrajena za zavajanje uporabnikov ali škodovanje ugledu konkurenta.\n* Ugrabitev komunikacije - Nepooblaščen prevzem računa ali kanala za širjenje lažnih sporočil.\nNadzor\n* Zalezovanje ali sledenje - Ponavljajoče se, neželeno spremljanje gibanja ali dejavnosti osebe.\n* Spremljanje računa - Nepooblaščen dostop do dejavnosti računa nekoga in sledenje tej dejavnosti.\n* Spremljanje naprav - Nepooblaščeno sledenje dejavnosti na telefonu, računalniku ali tablici osebe.\n* Spremljanje interneta stvari - Pasivno zbiranje podatkov iz nosljivih ali pametnih naprav brez privolitve.\n* Spremljanje brskalnika - Sledenje zgodovini brskanja ali dejavnosti nekoga brez njegove vednosti.\nZaklepanje in nadzor\n* Brisanje vsebine - Nepooblaščeno odstranjevanje datotek, objav ali podatkov za zatiranje informacij ali povzročanje škode.\n* Ugrabitev brskalnika ali naprave - Prevzem nadzora nad brskalnikom nekoga ali povezanimi napravami brez privolitve.\n* Zaklepanje računov - Namerno blokiranje dostopa osebe do njenih lastnih računov ali vsebine.",
-        "note": "Full mini-dictionary source; HTML/markdown structure — translate carefully"
       }
     },
     "scroll": {
@@ -3527,15 +3235,8 @@
         "text": "Nadaljuj",
         "note": "Scroll / fade continue control"
       },
-      "continueAria": {
-        "text": "Nadaljujte z več vsebinami"
-      },
       "continueRevealAria": {
         "text": "Nadaljujte z razkrivanjem več vsebine"
-      },
-      "noBlock": {
-        "text": "Na tem diapozitivu ni bilo mogoče najti naslednjega bloka.",
-        "note": "Dev/fallback message"
       },
       "restoreFailed": {
         "text": "Naslednje vsebine ni bilo mogoče obnoviti. Osvežite stran in poskusite znova."
@@ -4511,6 +4212,10 @@
   },
   "welcome": {
     "partners": {
+      "heading": {
+        "text": "Priznanje našim partnerjem programa Erasmus+",
+        "note": "Welcome partner-acknowledgements heading"
+      },
       "caption": {
         "text": "United Against Online Abuse (UAOA) se iskreno zahvaljuje partnerjem programa Erasmus+ za prispevek k razvoju tega e-učnega tečaja: klubom članicam FIA Autoklub České republiky (Češka), Zveza za avto šport Slovenije – AŠ (Slovenija), Real Federación Española de Automovilismo (Španija) in Svenska Bilsportförbundet (Švedska), skupaj z akademskimi partnerji Charles University (Češka), Prof. Dr. Matej Tušak (Slovenija), European Sport Business School (Španija) in Docent Lisa Kaati, Stockholm University (Švedska).",
         "note": "Welcome partner-acknowledgements caption embed (teal italic box under video)"
@@ -4563,10 +4268,6 @@
         "body": {
           "text": "<p><span style=\"color: #091324\"><strong>Šport povezuje milijone ljudi</strong> iz različnih držav, kultur in generacij s strastjo, ponosom in vznemirjenjem tekmovanja.<br><br><strong>Spletna zloraba to povezavo ogroža.</strong> Ko so športniki, sodniki in športni funkcionarji, prostovoljci in navijači na spletu napadeni zaradi tega, kdo so ali kako nastopajo, lahko posledice segajo daleč onkraj zaslona – prizadenejo ljudi, uničijo kariere in normalizirajo zlorabno vedenje.<br><br><strong>United Against Online Abuse (UAOA)</strong>, ki jo je ustanovil predsednik FIA Mohammed Ben Sulayem, združuje več kot 75 vlad, športnih organizacij, akademskih institucij in tehnoloških platform okoli skupnega cilja: <strong>narediti šport varnejši pred spletno zlorabo.</strong> Trajne spremembe zahtevajo ukrepanje institucij, skupnosti <strong>in posameznikov, kar vključuje tudi vas.</strong></span></p><p></p><p><span style=\"color: #091324\">Glavni cilj pobude UAOA s tem <strong>tečajem e-učenja</strong>, razvitim v sodelovanju z Univerzo Notre Dame vam ta e-učni tečaj pomaga prepoznati različne oblike spletne zlorabe, razumeti njihov vpliv na vašo športno skupnost in samozavestno uporabljati postopke prijave. Ko ga boste zaključili, <strong>boste bolje pripravljeni</strong> na premišljeno ukrepanje in prispevanje k varnejšemu športnemu okolju.</span></p><p></p><p><span style=\"color: #091324\"><strong>Vaša pot do varnejšega športnega okolja se začne tukaj.</strong></span></p>",
           "note": "Native text body on Welcome"
-        },
-        "p3": {
-          "text": "<p>United Against Online Abuse (UAOA) združuje več kot 75 vlad, športnih organizacij, akademikov in tehnoloških platform okoli skupnega cilja: narediti šport varnejši pred spletno zlorabo. Trajne spremembe zahtevajo ukrepanje institucij, skupnosti <strong>in posameznikov, kar vključuje tudi vas.</strong></p>",
-          "note": "Native text body on Welcome"
         }
       },
       "welcomeTitle": {
@@ -4605,10 +4306,6 @@
           "text": "<div class=\"uaoa-ready-banner\" style=\"display:flex;flex-direction:row;align-items:center;gap:24px;width:100%;max-width:100%;position:relative;overflow:hidden;background:#1c3564;border-radius:16px;box-sizing:border-box;padding:16px 28px;\"><span class=\"uaoa-ready-copy\" style=\"display:block;position:relative;z-index:1;flex:1 1 auto;min-width:0;\"><span class=\"uaoa-ready-title\" style=\"display:block;color:#ffffff;font-size:36px;font-weight:700;line-height:1.15;margin:0;white-space:nowrap;\">Ste pripravljeni začeti?</span><span class=\"uaoa-ready-body\" style=\"display:block;color:#ffffff;font-size:16px;font-weight:400;line-height:1.35;margin:4px 0 0;\">Pet modulov, od razumevanja spletne zlorabe do ukrepanja v vaši skupnosti.</span></span><button type=\"button\" class=\"uaoa-ready-cta\" style=\"position:relative;z-index:2;flex:0 0 auto;display:inline-flex;align-items:center;background-color:#21b7cb;color:#1c3564;font-size:16px;font-weight:700;line-height:1.2;padding:8px 18px;border-radius:999px;border:5px solid rgba(33,183,203,0.6);background-clip:padding-box;cursor:pointer;white-space:nowrap;\">Začni tečaj →</button><img class=\"uaoa-ready-mark\" src=\"https://preview.scormstack.io/medias/courses/428b8e0e-9238-4608-a1a3-962afd799ccf/art_uaoa_individual__93c9e800-9785-4df3-8306-7fe37621e1fb.png\" alt=\"\" width=\"1024\" height=\"1024\" style=\"position:absolute;right:-72px;top:50%;transform:translateY(-50%);height:220px;width:auto;opacity:0.26;pointer-events:none;z-index:0;\" /></div>",
           "note": "Ready banner — 36px title, 16px subtitle, Start Course pill inside the bar. The next navigation_button stays next_slide and always enabled; course CSS hides it."
         }
-      },
-      "startCourse": {
-        "text": "Začni tečaj",
-        "note": "Native navigation_button on About This Course"
       },
       "tagline": {
         "body": {
