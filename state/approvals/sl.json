@@ -1431,6 +1431,13 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:26:33Z",
-    "enFp": "2d6a7ce5ccde24e27814364f54963ec0b0d006c9259e9cd980c9f1cdb6ca4416"
+    "enFp": "2d6a7ce5ccde24e27814364f54963ec0b0d006c9259e9cd980c9f1cdb6ca4416",
+    "stale": false
+  },
+  "embeds.disclaimerModal.logoAria": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:26:37Z",
+    "enFp": "4ce3c2d66d5e5e9f6bcdb2ec8e7c3080a7e9db49af1624005a8d89a2ca703ac0"
   }
 }
