@@ -2,1204 +2,1365 @@
   "survey.preCourse.intro": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:52:31Z"
+    "at": "2026-11-10T14:52:31Z",
+    "stale": false,
+    "enFp": "8483b9b97d789bd8feaaacb682f7e11d44bb0d7e70f6771a6359487b982cbc78"
   },
   "m1.slide.onlineConversationsArePartOfSport.body": {
-    "approved": false,
+    "approved": true,
     "by": "jhendri4",
     "at": "2026-11-05T20:01:24Z",
     "enFp": "b4f986d4a53ecae650de596a733c7b753514647bdeae5918845ad05e69795f30",
-    "stale": true,
-    "staleReason": "en_source_changed",
-    "staleAt": "2026-11-08T12:33:55Z"
+    "stale": false
   },
   "m1.slide.onlineConversationsArePartOfSport.heading": {
-    "approved": false,
+    "approved": true,
     "by": "jhendri4",
     "at": "2026-11-05T20:01:24Z",
     "enFp": "bc22e9d5d864b5ba722d653102909f84ddb373b733be7bb45eded85db315b9bc",
-    "stale": true,
-    "staleReason": "en_source_changed",
-    "staleAt": "2026-11-08T12:33:55Z"
+    "stale": false
   },
   "common.checkUnderstandingHeading": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:07:21Z"
-  },
-  "common.learningActivityHeading": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:08:03Z"
+    "at": "2026-11-10T14:07:21Z",
+    "stale": false,
+    "enFp": "6c3b365da4e4f072e53bea86330e2ef281aa55010eb26484bfafcbc7d878327f"
   },
   "common.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:08:17Z"
+    "at": "2026-11-10T14:08:17Z",
+    "stale": false,
+    "enFp": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858"
   },
   "common.tryAgain": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:21:57Z"
-  },
-  "common.activityComplete": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:22:14Z"
-  },
-  "common.activityCompleteRevisit": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:22:26Z"
+    "at": "2026-11-10T14:21:57Z",
+    "stale": false,
+    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f"
   },
   "common.answerChoicesAria": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:22:33Z"
-  },
-  "common.notQuiteReview": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:22:49Z"
+    "at": "2026-11-10T14:22:33Z",
+    "stale": false,
+    "enFp": "86cfa5c34050fff77baf26f5eb331b98c110077e25a10df0a33b9775a2a99192"
   },
   "common.previous": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:22:54Z"
+    "at": "2026-11-10T14:22:54Z",
+    "stale": false,
+    "enFp": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa"
   },
   "common.submitAnswers": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:23:00Z"
+    "at": "2026-11-10T14:23:00Z",
+    "stale": false,
+    "enFp": "1ff0f3bdfbd0fe145f2580270b6df3001a166c508499e882448c3fcc6161be41"
   },
   "common.submitted": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:23:06Z"
+    "at": "2026-11-10T14:23:06Z",
+    "stale": false,
+    "enFp": "64900440a8c9a5eda335b124b9824aa4f14f2c280097d5556498d276f60ecdf1"
   },
   "common.continue": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:23:11Z"
-  },
-  "common.correct": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:23:16Z"
-  },
-  "common.notQuite": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:23:22Z"
-  },
-  "common.selectAllThatApply": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:24:12Z"
-  },
-  "common.nSelected": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:24:19Z"
-  },
-  "common.nOfTotalSelected": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:24:25Z"
-  },
-  "common.nOfTotalExplored": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:24:31Z"
-  },
-  "common.allExplored": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:24:38Z"
-  },
-  "common.allStepsReviewed": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:24:44Z"
+    "at": "2026-11-10T14:23:11Z",
+    "stale": false,
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
   },
   "common.chooseEllipsis": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:25:18Z"
-  },
-  "common.true": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:25:38Z"
-  },
-  "common.false": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:25:42Z"
-  },
-  "common.keyTakeaways": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:26:44Z"
-  },
-  "common.wrongPlain": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:26:51Z"
+    "at": "2026-11-10T14:25:18Z",
+    "stale": false,
+    "enFp": "62f8ef065f909b2e4613f9d267d4853b502d6e3426684081d226ed2413470dd7"
   },
   "common.questionNavAria": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:26:59Z"
+    "at": "2026-11-10T14:26:59Z",
+    "stale": false,
+    "enFp": "52e7b6dc1c7989a97c7f9f822111a3c81fbac9987dadaf01be3dfc684ee5ea81"
   },
   "common.yourAnswer": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:27:18Z"
+    "at": "2026-11-10T14:27:18Z",
+    "stale": false,
+    "enFp": "adceb15c665f2cad310bd1211db8fe7a0ddf9d827d1020133ae8b42678ab9d66"
   },
   "common.correctAnswer": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:27:22Z"
+    "at": "2026-11-10T14:27:22Z",
+    "stale": false,
+    "enFp": "4d659fb1085d715b616bf45d04aea0f93daccb005f2937e00c038d5f82cf9445"
   },
   "common.scoreAllCorrect": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:27:34Z"
+    "at": "2026-11-10T14:27:34Z",
+    "stale": false,
+    "enFp": "4a3eb34e24dc3515f73b0ecf0a1e74172e5ae2d18a89da734cc855893420723c"
   },
   "common.scoreRetry": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:27:42Z"
+    "at": "2026-11-10T14:27:42Z",
+    "stale": false,
+    "enFp": "a3c09a7e0446c30ae780db723fefde1faf1387b29e722da436f0547838c8e97b"
   },
   "common.scoreGoodEffort": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:27:59Z"
+    "at": "2026-11-10T14:27:59Z",
+    "stale": false,
+    "enFp": "72b1cb080d7f132a7b769b7e70e777bf5a7b2b7e467701a9f11373a9a7b3fc11"
   },
   "common.scoreReviewContent": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:28:09Z"
+    "at": "2026-11-10T14:28:09Z",
+    "stale": false,
+    "enFp": "f2ef0cc216b485cb0110334a9cbed91e6bb5af01d3e811f108e8809c588ecfd2"
   },
   "course.outline.sections.uaoaCourse": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:30:40Z"
+    "at": "2026-11-10T14:30:40Z",
+    "stale": false,
+    "enFp": "dadf0f41aea8e2d19eace6036351c975e1db85abea40ef4125e525958432181b"
   },
   "course.outline.sections.introduction": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:30:44Z"
+    "at": "2026-11-10T14:30:44Z",
+    "stale": false,
+    "enFp": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
   },
   "course.outline.sections.preCourseSurvey": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:30:51Z"
+    "at": "2026-11-10T14:30:51Z",
+    "stale": false,
+    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4"
   },
   "course.outline.sections.module1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:30:54Z"
+    "at": "2026-11-10T14:30:54Z",
+    "stale": false,
+    "enFp": "7bd758065d58bbaadaf5a04a2fed845a89e794ed30a1715bd97b3c0543679224"
   },
   "course.outline.sections.module2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:30:59Z"
+    "at": "2026-11-10T14:30:59Z",
+    "stale": false,
+    "enFp": "6b062993c94ceb43c90aaf422aeecb4999b7211595c9da5d6f494b70ec3c43fc"
   },
   "course.outline.sections.module3": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:31:03Z"
+    "at": "2026-11-10T14:31:03Z",
+    "stale": false,
+    "enFp": "ea4daee35d3a807ec670362e563ea6403e442d5ff71b9316ea9926952adab960"
   },
   "course.outline.sections.module4": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:31:09Z"
+    "at": "2026-11-10T14:31:09Z",
+    "stale": false,
+    "enFp": "3d3e68a271a252e32e07b8fc365659307fb89ca9859afedcfac4b0ed46780e15"
   },
   "course.outline.sections.module5": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:31:13Z"
+    "at": "2026-11-10T14:31:13Z",
+    "stale": false,
+    "enFp": "27cae5af105790b28f4d793dc3824f4d8465bb43a493cc226152e89312b9cd75"
   },
   "course.outline.sections.summary": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:31:17Z"
+    "at": "2026-11-10T14:31:17Z",
+    "stale": false,
+    "enFp": "8e76a94ac8320d515375e625bef1829238b097ecbd33611b59eeefd4ffefebfb"
   },
   "course.outline.slides.finalQuiz": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:31:43Z"
+    "at": "2026-11-10T14:31:43Z",
+    "stale": false,
+    "enFp": "e996d74a3b491ce68cbc40dfcbd1469b724eafa38cdf0a76aed78ddc15492c89"
   },
   "course.outline.slides.preCourseSurvey": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:31:47Z"
+    "at": "2026-11-10T14:31:47Z",
+    "stale": false,
+    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4"
   },
   "course.outline.slides.postCourseSurvey": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:31:51Z"
+    "at": "2026-11-10T14:31:51Z",
+    "stale": false,
+    "enFp": "9dc40a69b0e1e03bb862cd22d9b8235b11bc088bd5fa210e507159887936dbf7"
   },
   "course.outline.slides.welcome": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:31:55Z"
+    "at": "2026-11-10T14:31:55Z",
+    "stale": false,
+    "enFp": "0e2226b5235f0ff94a276eb4d07a3bfea74b7e3b8b85e9efca6c18430f041bf8"
   },
   "course.outline.slides.exitPage": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:33:10Z"
+    "at": "2026-11-10T14:33:10Z",
+    "stale": false,
+    "enFp": "8c5a1314cafebb0a2250f1cf12b02be358a3a663173c924a314da39520e0ef69"
   },
   "course.outline.slides.module1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:33:17Z"
+    "at": "2026-11-10T14:33:17Z",
+    "stale": false,
+    "enFp": "11cd79eac12780bcb7e1dc171fb9ee0ec7aa1904bde78b62f81313f9f07963af"
   },
   "course.outline.slides.module2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:33:23Z"
+    "at": "2026-11-10T14:33:23Z",
+    "stale": false,
+    "enFp": "5aedc155b5d2ff063d36ab12caffd402de0b09df38fbc3583eb49faf7512d1c2"
   },
   "course.outline.slides.module3": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:35:10Z"
+    "at": "2026-11-10T14:35:10Z",
+    "stale": false,
+    "enFp": "6f215a929a87f82cf73cf1297861adc635a61d5ae57d4c5192c14d6d04cbabdd"
   },
   "course.outline.slides.module4": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:35:47Z"
+    "at": "2026-11-10T14:35:47Z",
+    "stale": false,
+    "enFp": "81acee87b82d4498f2cc1874114bdc5862f8527dc6e1b76e8fb5614c58f7c932"
   },
   "course.outline.slides.module5": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:35:54Z"
+    "at": "2026-11-10T14:35:54Z",
+    "stale": false,
+    "enFp": "65b58c082adac9399f97643b43ff463dba712e0e8a1fe1c8f6324f4496519881"
   },
   "welcome.outcomes.listAria": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:37:14Z"
+    "at": "2026-11-10T14:37:14Z",
+    "stale": false,
+    "enFp": "80ec3be6cd6c2d698e2af137b3e93fce7f1bfca343382b773ba963c3474fb1e6"
   },
   "welcome.outcomes.items.i1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:37:29Z"
+    "at": "2026-11-10T14:37:29Z",
+    "stale": false,
+    "enFp": "d89c6a0c859db6151138c9700e0affd3ea2b270839b4665e2187b25c5ff8cf91"
   },
   "welcome.outcomes.items.i2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:37:45Z"
+    "at": "2026-11-10T14:37:45Z",
+    "stale": false,
+    "enFp": "9d8d61b075f04bebb4c1364e0c8868f724dd42bafe397a3539ca1d0f4700d5e1"
   },
   "welcome.outcomes.items.i3": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:38:11Z"
+    "at": "2026-11-10T14:38:11Z",
+    "stale": false,
+    "enFp": "c1ae4b9c8812c6208c045282a7163ed76d62aaac1ba737e6e5612fc39bce045f"
   },
   "welcome.outcomes.items.i5": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:38:49Z"
+    "at": "2026-11-10T14:38:49Z",
+    "stale": false,
+    "enFp": "3ac5b64a9296b7198f9156599c0effe78dff2149fa1617aee0dcbd61fbc99663"
   },
   "welcome.slide.whatYouWillGain": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:38:58Z"
+    "at": "2026-11-10T14:38:58Z",
+    "stale": false,
+    "enFp": "d8f615aa297c02400631c571166b104cc7400bdbcf5bc4d4218cd610495c32f0"
   },
   "welcome.slide.buildReadiness": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:39:02Z"
+    "at": "2026-11-10T14:39:02Z",
+    "stale": false,
+    "enFp": "daf0d4b4a8d6779cad91236634caa60d3c224b3b43ae50d55fdf9a75874b6970"
   },
   "welcome.slide.euDisclaimer.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:39:11Z"
-  },
-  "welcome.slide.sportConnectsMillionsOfPeopleAcross.p3": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:44:53Z"
+    "at": "2026-11-10T14:39:11Z",
+    "stale": false,
+    "enFp": "63d608e04388aac7e3be1ff8e66274a04808d5a7d7de8ee7d1484993a5d3cfdd"
   },
   "welcome.slide.welcomeTitle.heading": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:45:05Z"
+    "at": "2026-11-10T14:45:05Z",
+    "stale": false,
+    "enFp": "74dc06dab269536afab95cca4fce8171e84052902a1415570a583cc823944e14"
   },
   "welcome.slide.buildReadinessBody": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:45:20Z"
+    "at": "2026-11-10T14:45:20Z",
+    "stale": false,
+    "enFp": "d6859998f82d7296cfbdc61d7ecbc2e714d7ce15d26d395d36395f216b447973"
   },
   "welcome.slide.unitedAgainstOnlineAbuseUaoaBrings.p3": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:45:29Z"
+    "at": "2026-11-10T14:45:29Z",
+    "stale": false,
+    "enFp": "36b23fc34c99109586314a6c262b1a949dedd1ed2014cc02daf3e7d5b1086671"
   },
   "welcome.about.aboutTheCourse.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:47:29Z"
+    "at": "2026-11-10T14:47:29Z",
+    "stale": false,
+    "enFp": "f968b77b83514732439fa3cc27878d19e47ebc6d050f4e78a1be2bf7a99e0845"
   },
   "welcome.about.aboutTheCourse.heading": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:47:35Z"
+    "at": "2026-11-10T14:47:35Z",
+    "stale": false,
+    "enFp": "f13cd7251ee736f4b04fceabc81bf0df0d026b7ee3d288c87e035a12d1725dd4"
   },
   "welcome.about.readyToBegin.heading": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:47:45Z"
-  },
-  "welcome.about.startCourse": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:47:50Z"
+    "at": "2026-11-10T14:47:45Z",
+    "stale": false,
+    "enFp": "d43048bd71adbacc563f836286cb2e15f315b4ee324f37673a41abf8c4be6324"
   },
   "welcome.about.tagline.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:48:06Z"
+    "at": "2026-11-10T14:48:06Z",
+    "stale": false,
+    "enFp": "accb2c56e1ad966007b2d640411526b131699cfe5018d0806673dabadb19234e"
   },
   "welcome.about.tagline.heading": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:48:12Z"
+    "at": "2026-11-10T14:48:12Z",
+    "stale": false,
+    "enFp": "0b4b403fe026032576919d551c0c93a6421c9c74dfd2d3f7a0f36fe54c4735dd"
   },
   "welcome.about.whatYoullExplore.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:49:26Z"
+    "at": "2026-11-10T14:49:26Z",
+    "stale": false,
+    "enFp": "1fd9b42bd5c58ce88256f8856923611790f90a84d1d4e697c0d8ea19b041d72d"
   },
   "welcome.about.whatYoullExplore.heading": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:50:40Z"
+    "at": "2026-11-10T14:50:40Z",
+    "stale": false,
+    "enFp": "37ce623a7b97eafc49f625cb921dc251f648ce4a18a5e2ec271a3db9763604c9"
   },
   "welcome.about.courseSubtitle": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:50:46Z"
+    "at": "2026-11-10T14:50:46Z",
+    "stale": false,
+    "enFp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "welcome.about.courseTitle": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:50:58Z"
+    "at": "2026-11-10T14:50:58Z",
+    "stale": false,
+    "enFp": "9d41554bf0692013ffa80d04e31864c458d75115f03f42f3a526a283b479c297"
   },
   "survey.preCourse.iframeTitle": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:51:34Z"
-  },
-  "survey.preCourse.waitingStatus": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:51:45Z"
-  },
-  "survey.preCourse.completeStatus": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:51:50Z"
-  },
-  "survey.preCourse.fallbackHint": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:52:01Z"
-  },
-  "survey.preCourse.fallbackButton": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:52:06Z"
-  },
-  "survey.preCourse.slideTitle": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:52:10Z"
+    "at": "2026-11-10T14:51:34Z",
+    "stale": false,
+    "enFp": "b61a9cd3a3e9e9433a3c1d3d22efa84685d6931a411b70c9b8423a12a8b104e9"
   },
   "survey.preCourse.continue": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:52:44Z"
+    "at": "2026-11-10T14:52:44Z",
+    "stale": false,
+    "enFp": "69ea7dd52ed94bbdde00a81376ec05cdb968650672287d2291c9a708e18ad103"
   },
   "survey.preCourse.welcomeContinue": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:52:49Z"
+    "at": "2026-11-10T14:52:49Z",
+    "stale": false,
+    "enFp": "1c045d690a18dbf82775cfece26b5adb9840892dd436b3932850ae1a70661c48"
   },
   "survey.postCourse.iframeTitle": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:52:54Z"
-  },
-  "survey.postCourse.waitingStatus": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:52:58Z"
-  },
-  "survey.postCourse.completeStatus": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:53:02Z"
-  },
-  "survey.postCourse.fallbackHint": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:53:11Z"
-  },
-  "survey.postCourse.fallbackButton": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:53:15Z"
+    "at": "2026-11-10T14:52:54Z",
+    "stale": false,
+    "enFp": "fc9fee4bda7b5b8be11dd1fac2702573389045fa028fcbc055c258ddd5ae1098"
   },
   "summary.exitScore.heading": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:54:19Z"
+    "at": "2026-11-10T14:54:19Z",
+    "stale": false,
+    "enFp": "62c590392c375751cd9c31c53e4fc59b4ddc958f915a41112e19c6f95be1634e"
   },
   "summary.exitScore.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:54:29Z"
+    "at": "2026-11-10T14:54:29Z",
+    "stale": false,
+    "enFp": "832757bb9534f8d6910498799514e972cdedcdef1a768a29a369a6e489e51939"
   },
   "summary.exitThankyou.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:54:42Z"
+    "at": "2026-11-10T14:54:42Z",
+    "stale": false,
+    "enFp": "f55b423e41a8702f9b11c0c8ecbeabe909d81b9bbf6fc76510ed668a32a607fe"
   },
   "summary.exitThankyou.quote1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:54:48Z"
+    "at": "2026-11-10T14:54:48Z",
+    "stale": false,
+    "enFp": "3e436cb58911fc9cdab8e276c921d1648d86011cd98b7afa2f149e20b4fc247a"
   },
   "summary.exitThankyou.quote2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:54:57Z"
+    "at": "2026-11-10T14:54:57Z",
+    "stale": false,
+    "enFp": "d1384b2f4510210099d1832c4cf905e6f90492fe43f0cb072d953c4020ef9d00"
   },
   "summary.quiz.questions.q1.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:55:06Z"
+    "at": "2026-11-10T14:55:06Z",
+    "stale": false,
+    "enFp": "9db8a4f800ccb98f69d880bb5ed56c475f0347ee56a57c67b2daacd2715c30c8"
   },
   "summary.quiz.questions.q1.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:55:12Z"
+    "at": "2026-11-10T14:55:12Z",
+    "stale": false,
+    "enFp": "ebef845a5484f781253ed7d13e8ee966422ee74596b685459c21dc6b67fcee5d"
   },
   "summary.quiz.questions.q1.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:55:17Z"
+    "at": "2026-11-10T14:55:17Z",
+    "stale": false,
+    "enFp": "e22b8882532c1f11a347b13a9550f10d3180697456fb9d11aab8ca09e66fe86b"
   },
   "summary.quiz.questions.q1.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:55:22Z"
+    "at": "2026-11-10T14:55:22Z",
+    "stale": false,
+    "enFp": "c23680ed2c201fb8845c00a0dd8e06299849f567077d2e1741ebc038070724f4"
   },
   "summary.quiz.questions.q1.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:55:29Z"
+    "at": "2026-11-10T14:55:29Z",
+    "stale": false,
+    "enFp": "cc0083da55aa9a231302616b26b2738d3da1a71243ce060d303c6c4fee900804"
   },
   "summary.quiz.questions.q1.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:55:35Z"
+    "at": "2026-11-10T14:55:35Z",
+    "stale": false,
+    "enFp": "ade79cdfd278a72cda03821509a61961e7d292404ebebc38b224315a769ac973"
   },
   "summary.quiz.questions.q2.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:55:41Z"
+    "at": "2026-11-10T14:55:41Z",
+    "stale": false,
+    "enFp": "fe6ad19e0e23dd822db714d1a43794e928dc2b859f12eb8bbcc4fefa2a771eed"
   },
   "summary.quiz.questions.q2.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:55:46Z"
+    "at": "2026-11-10T14:55:46Z",
+    "stale": false,
+    "enFp": "1d3fc73f3f60a8b16e5d422844781e244790abf7bf7f3500829b1b4de5ec317b"
   },
   "summary.quiz.questions.q2.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:55:50Z"
+    "at": "2026-11-10T14:55:50Z",
+    "stale": false,
+    "enFp": "334c7e11c35da9ce38ca5d29bca15bdcd0190cc43bcdd81b87404bfefd1430f6"
   },
   "summary.quiz.questions.q2.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:55:56Z"
+    "at": "2026-11-10T14:55:56Z",
+    "stale": false,
+    "enFp": "e1894ed5740b9aee942d49860f89b49a177acae44a430e75f2d705db488bcfd3"
   },
   "summary.quiz.questions.q2.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:56:08Z"
+    "at": "2026-11-10T14:56:08Z",
+    "stale": false,
+    "enFp": "74caabe7fcd572afd2f28132996ba0dc1c456eb8aa6bf4ca7a617bc2b99374e3"
   },
   "summary.quiz.questions.q2.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:56:14Z"
+    "at": "2026-11-10T14:56:14Z",
+    "stale": false,
+    "enFp": "9bd8bf06c7d59e027f94d22c068163be57427eeca81cc4e85dfba77216fa5228"
   },
   "summary.quiz.questions.q3.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:56:20Z"
+    "at": "2026-11-10T14:56:20Z",
+    "stale": false,
+    "enFp": "7ac83df1fb3c009fef754a338f705e83dcbfdc4a71c74a4f47722dc1915201c9"
   },
   "summary.quiz.questions.q3.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:56:27Z"
+    "at": "2026-11-10T14:56:27Z",
+    "stale": false,
+    "enFp": "a1ccfe7d4a3f04317f1791cdc1bd5fd009903c8f06e75e28aebb59aa255d355d"
   },
   "summary.quiz.questions.q3.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:56:31Z"
+    "at": "2026-11-10T14:56:31Z",
+    "stale": false,
+    "enFp": "955ac28246c642f93834f11a2e4aeafc458175809a3ea5ecaea080c13b8636f3"
   },
   "summary.quiz.questions.q3.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:56:35Z"
+    "at": "2026-11-10T14:56:35Z",
+    "stale": false,
+    "enFp": "b6c1d862f9f75ec31eb9829b6a5968eb291dc8785e7fb59d4bc6ef00f292d3f7"
   },
   "summary.quiz.questions.q3.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:56:42Z"
+    "at": "2026-11-10T14:56:42Z",
+    "stale": false,
+    "enFp": "785c70df460edaed31f5a1252871b40de1d010eab5af11e7c3aa4eb3aac78354"
   },
   "summary.quiz.questions.q3.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:56:46Z"
+    "at": "2026-11-10T14:56:46Z",
+    "stale": false,
+    "enFp": "fe342c76255f368219cb29fe6ded99ff0e764bec0aa7bcbbd5f01568533fa551"
   },
   "summary.quiz.questions.q4.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:56:55Z"
+    "at": "2026-11-10T14:56:55Z",
+    "stale": false,
+    "enFp": "40e37f3ba1504896617d35f24a235bfab8fe81f25a85cce95a9889488f38f528"
   },
   "summary.quiz.questions.q4.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:57:00Z"
+    "at": "2026-11-10T14:57:00Z",
+    "stale": false,
+    "enFp": "741b2cba8ae81c99cab47f5c4d2ab62db2133e26ce297f8a864bea2730a53314"
   },
   "summary.quiz.questions.q4.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:57:07Z"
+    "at": "2026-11-10T14:57:07Z",
+    "stale": false,
+    "enFp": "99cd03af785a406ebd73583db48eaf02dbcb82fc303d453dbd27132272658203"
   },
   "summary.quiz.questions.q4.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:57:11Z"
+    "at": "2026-11-10T14:57:11Z",
+    "stale": false,
+    "enFp": "ba39b21cf43d6d61126cd2479a65f06da89fa2688b19655895a64be52528cb23"
   },
   "summary.quiz.questions.q4.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:57:35Z"
+    "at": "2026-11-10T14:57:35Z",
+    "stale": false,
+    "enFp": "153ed003113b183dd5d0d115dcdfe00c2e557d10cd111cda452a9c107a0f6d10"
   },
   "summary.quiz.questions.q4.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:57:41Z"
+    "at": "2026-11-10T14:57:41Z",
+    "stale": false,
+    "enFp": "05cb9d6a9d34cdb29d3f9d7b35b9370920581306de02db40ff128926b62648fc"
   },
   "summary.quiz.questions.q5.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:57:55Z"
+    "at": "2026-11-10T14:57:55Z",
+    "stale": false,
+    "enFp": "e3dfaa36404eb04a1371a050eedbc02b7658cfbde6641c952abf8c20499d78d6"
   },
   "summary.quiz.questions.q5.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:58:01Z"
+    "at": "2026-11-10T14:58:01Z",
+    "stale": false,
+    "enFp": "1048a17550e815ff9b25699b44b41145ca0fee9ffb573d80d8c10245d041f8f4"
   },
   "summary.quiz.questions.q5.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:58:08Z"
+    "at": "2026-11-10T14:58:08Z",
+    "stale": false,
+    "enFp": "8f1d610ee7296187dcc8c0a54e2228dd90064783882a10bf89414a2e353c3b88"
   },
   "summary.quiz.questions.q5.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:58:13Z"
+    "at": "2026-11-10T14:58:13Z",
+    "stale": false,
+    "enFp": "b34c8c233be0a5d1bdb7a8ad452601c267c5b7d90582636b2b3a99cd4322f106"
   },
   "summary.quiz.questions.q5.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:58:28Z"
+    "at": "2026-11-10T14:58:28Z",
+    "stale": false,
+    "enFp": "94f51d9c3882b8e3d4ef8cca91ec9027418ef3dd30c0852a35d81235e4756518"
   },
   "summary.quiz.questions.q5.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:58:34Z"
+    "at": "2026-11-10T14:58:34Z",
+    "stale": false,
+    "enFp": "9d7fd0e0bd0ac15500730fda0e9103d7e4c7dbcdadff9a2db43f262ff1e24d38"
   },
   "summary.quiz.questions.q6.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:58:41Z"
+    "at": "2026-11-10T14:58:41Z",
+    "stale": false,
+    "enFp": "1b229b0182c93d2c52ec2d68fa042149c2c05ff1221f991809943f3abf6af72d"
   },
   "summary.quiz.questions.q6.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:58:47Z"
+    "at": "2026-11-10T14:58:47Z",
+    "stale": false,
+    "enFp": "a70bf8f38956d09ca99595c9c3d5f14e0e3ea69c7181a1c92faf84324066629d"
   },
   "summary.quiz.questions.q6.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:58:52Z"
+    "at": "2026-11-10T14:58:52Z",
+    "stale": false,
+    "enFp": "f4132b562beef3fe18e668405a08cb0b8445544c39e70e401cbbb8e1560bf99b"
   },
   "summary.quiz.questions.q6.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T14:58:58Z"
+    "at": "2026-11-10T14:58:58Z",
+    "stale": false,
+    "enFp": "0c52306a016a0b36051fb58e42ca83104add62a4a2a9df3b3b40ef56c4c35f9b"
   },
   "summary.quiz.questions.q6.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:00:54Z"
+    "at": "2026-11-10T15:00:54Z",
+    "stale": false,
+    "enFp": "c03a84202587b12a59fcea043c1c37c0bd48a6e05cfa9ebcccd13c18c928363f"
   },
   "summary.quiz.questions.q6.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:00:58Z"
+    "at": "2026-11-10T15:00:58Z",
+    "stale": false,
+    "enFp": "dc711515d2672d79cc401e7fe5f1b422284a743b8a04904a97fb65c96520d3e9"
   },
   "summary.quiz.questions.q7.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:01:08Z"
+    "at": "2026-11-10T15:01:08Z",
+    "stale": false,
+    "enFp": "456046bda6c5da1c1af58ae765e07e7f35d4a87d07ea0518ecb19d249577317b"
   },
   "summary.quiz.questions.q7.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:01:15Z"
+    "at": "2026-11-10T15:01:15Z",
+    "stale": false,
+    "enFp": "929fefe02898f50d6d1d5eb50e7180bd479534787ad24eb5e8700e5808a55c7c"
   },
   "summary.quiz.questions.q7.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:01:20Z"
+    "at": "2026-11-10T15:01:20Z",
+    "stale": false,
+    "enFp": "bd7154dcf479a13956f8566d79c0755e2f642f21954603ceee1dd055abb7cd61"
   },
   "summary.quiz.questions.q7.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:01:26Z"
+    "at": "2026-11-10T15:01:26Z",
+    "stale": false,
+    "enFp": "cc20753b077d4db59472dda79667b912dc25b250dd1ccd1fe85f1f23c0c59b08"
   },
   "summary.quiz.questions.q7.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:01:35Z"
+    "at": "2026-11-10T15:01:35Z",
+    "stale": false,
+    "enFp": "89eff531044582d6d5737ac21ba96da0c83b8be967e593750db05c0598424409"
   },
   "summary.quiz.questions.q7.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:01:40Z"
+    "at": "2026-11-10T15:01:40Z",
+    "stale": false,
+    "enFp": "d42aaa9b0abd805f8e568802e1c13484590305d50ba8bc3bd8e2174d7e46f36d"
   },
   "summary.quiz.questions.q8.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:01:45Z"
+    "at": "2026-11-10T15:01:45Z",
+    "stale": false,
+    "enFp": "20679a2975daee48ff85b3e78465ae8ea61ba316c105a1077cbe2b63ce2fd447"
   },
   "summary.quiz.questions.q8.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:01:49Z"
+    "at": "2026-11-10T15:01:49Z",
+    "stale": false,
+    "enFp": "25c77e15db25e96c4df42337d80dc73049318e080e3e0f8a3c1aa90a5af72237"
   },
   "summary.quiz.questions.q8.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:01:55Z"
+    "at": "2026-11-10T15:01:55Z",
+    "stale": false,
+    "enFp": "3bebbe60a799de5af16f1c6d85f8e6ac864c90c32c198e8e7e0665c215847c56"
   },
   "summary.quiz.questions.q8.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:06:10Z"
+    "at": "2026-11-10T15:06:10Z",
+    "stale": false,
+    "enFp": "892fa20627f3274c6ce78116acba0389429e6a59f4c9fd52774991f153fc2d98"
   },
   "summary.quiz.questions.q8.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:06:16Z"
+    "at": "2026-11-10T15:06:16Z",
+    "stale": false,
+    "enFp": "25cd4c9121f904cc0d79a911811b1198a0c8013dc82b82aee568f9afb8f1c17f"
   },
   "summary.quiz.questions.q8.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:06:24Z"
+    "at": "2026-11-10T15:06:24Z",
+    "stale": false,
+    "enFp": "d42f5c105229a240b95b90d07a6f3e74834175bea43efd451ef3cf42fbc32912"
   },
   "summary.quiz.questions.q9.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:06:32Z"
+    "at": "2026-11-10T15:06:32Z",
+    "stale": false,
+    "enFp": "fa9fd89d6bad05c7ab7900d17eff3c98a40e305a8cdc26c1b7398e4bf8cb09c5"
   },
   "summary.quiz.questions.q9.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:06:37Z"
+    "at": "2026-11-10T15:06:37Z",
+    "stale": false,
+    "enFp": "23b6001366d3ec2ee5b45038c19cf6b7d5fcadaccf3fa08766834908ba32de20"
   },
   "summary.quiz.questions.q9.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:06:41Z"
+    "at": "2026-11-10T15:06:41Z",
+    "stale": false,
+    "enFp": "15aaf754db119a52a1733b7bb74c57b834123b82f9efd4aac80831743176dd8e"
   },
   "summary.quiz.questions.q9.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:07:31Z"
+    "at": "2026-11-10T15:07:31Z",
+    "stale": false,
+    "enFp": "cc95e2199d2756a5b4e4e6bfdbfd5671f071f3ad2f22af68015c397ceb0ddb14"
   },
   "summary.quiz.questions.q9.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:07:41Z"
+    "at": "2026-11-10T15:07:41Z",
+    "stale": false,
+    "enFp": "1963ae9efcda13e12d5d3c24ea444eb5dcff1fd5dca6113f90d9a34273e8b1c0"
   },
   "summary.quiz.questions.q9.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:07:49Z"
+    "at": "2026-11-10T15:07:49Z",
+    "stale": false,
+    "enFp": "ee9701212c9057f969b38de72f7c9351da98a915826be48ab71bf10a65336bfd"
   },
   "summary.quiz.questions.q10.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:08:01Z"
+    "at": "2026-11-10T15:08:01Z",
+    "stale": false,
+    "enFp": "befa330f61991fef5323ebc255edef26f74a59bf01cd70946f04f97f94c74e18"
   },
   "summary.quiz.questions.q10.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:08:10Z"
+    "at": "2026-11-10T15:08:10Z",
+    "stale": false,
+    "enFp": "e9ee61bc1eb6c3852197bab99c0a0978784bb79a354c17b6ff47f1b37091b57b"
   },
   "summary.quiz.questions.q10.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:08:14Z"
+    "at": "2026-11-10T15:08:14Z",
+    "stale": false,
+    "enFp": "6ee6af3b68f80b923c3fbbcb59d4d8a97b7f32e33c3f9767dc16ac6a50ad68d7"
   },
   "summary.quiz.questions.q10.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:08:18Z"
+    "at": "2026-11-10T15:08:18Z",
+    "stale": false,
+    "enFp": "4ce61561f894764358f5a0a2065ac834382ef1db870b9f0437742ab2f922e062"
   },
   "summary.quiz.questions.q10.choices.c3": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:08:23Z"
+    "at": "2026-11-10T15:08:23Z",
+    "stale": false,
+    "enFp": "ddc823f21f0a63b528464ac635527d2fb14a91965f11faf75bad1790f0ecb134"
   },
   "summary.quiz.questions.q10.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:08:34Z"
+    "at": "2026-11-10T15:08:34Z",
+    "stale": false,
+    "enFp": "b4b222725fc589bca9f46846e1c0f2788ec0b176278bcdbb1e7c4f0305b5f9ff"
   },
   "summary.quiz.questions.q10.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:08:39Z"
+    "at": "2026-11-10T15:08:39Z",
+    "stale": false,
+    "enFp": "f534885a4a3957d20e38ea64d2a509d77cc6e72573bbb3bbe90902b066c07c6f"
   },
   "summary.quiz.questions.q11.prompt": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:08:49Z"
+    "at": "2026-11-10T15:08:49Z",
+    "stale": false,
+    "enFp": "802dcd3819788e6fd452fa33494223cc5fd9464e6ddf6e1745d996dded447fbe"
   },
   "summary.quiz.questions.q11.hint": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:08:54Z"
+    "at": "2026-11-10T15:08:54Z",
+    "stale": false,
+    "enFp": "177c0b84ba4a65c65e479c70801eb044ba063ff74f15728d1e9be71658f4b6ea"
   },
   "summary.quiz.questions.q11.choices.c0": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:08:59Z"
+    "at": "2026-11-10T15:08:59Z",
+    "stale": false,
+    "enFp": "bc73c38b238a3b523ba5a9188d5e61eaa9d2d92c16855b34d66534b127c7b49b"
   },
   "summary.quiz.questions.q11.choices.c1": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:09:03Z"
+    "at": "2026-11-10T15:09:03Z",
+    "stale": false,
+    "enFp": "f8a7648692492794108d229e9786b82b223977bae79bf2626743b01a16eb9fcc"
   },
   "summary.quiz.questions.q11.choices.c2": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:09:09Z"
+    "at": "2026-11-10T15:09:09Z",
+    "stale": false,
+    "enFp": "bace7632bf4b792208c38f5bb6547d2e35ed60e0fbe2675ede4be54080c8acd5"
   },
   "summary.quiz.questions.q11.choices.c3": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:09:17Z"
+    "at": "2026-11-10T15:09:17Z",
+    "stale": false,
+    "enFp": "0c17d7fb35d53b163cfe68fe8a17ed0ba5513b1b3699b0f8846f56739b4faff6"
   },
   "summary.quiz.questions.q11.reveal": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:09:32Z"
+    "at": "2026-11-10T15:09:32Z",
+    "stale": false,
+    "enFp": "67ad7f398dd0c9306afd0d10afc82c5c4bcbb90f56aec5e514aa6b16cba5b78b"
   },
   "summary.quiz.questions.q11.next": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:09:37Z"
+    "at": "2026-11-10T15:09:37Z",
+    "stale": false,
+    "enFp": "64bc1e433c5176fc7da038fd0bc24a1fdfcf60cec1840e725cc91e946f1295d6"
   },
   "summary.quiz.questions.q11.links.act.items.0.text": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:09:42Z"
+    "at": "2026-11-10T15:09:42Z",
+    "stale": false,
+    "enFp": "4dd77d3ae0c4dd3f77c1803a2f837ea91ecd1bb8549826eaf458dc5f14b1ccbb"
   },
   "summary.quiz.questions.q11.links.act.items.1.text": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:09:47Z"
+    "at": "2026-11-10T15:09:47Z",
+    "stale": false,
+    "enFp": "f0fdfddd9c224e50b133eeb3d93701a9b62fee4bb616415e17f258d4ff32bf77"
   },
   "summary.quiz.questions.q11.links.learn.text": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:09:53Z"
+    "at": "2026-11-10T15:09:53Z",
+    "stale": false,
+    "enFp": "51cca8b24d2031ce8590a9844ec96e9a9c621c6eb2024795d1a5b8ec832b9686"
   },
   "summary.quiz.questions.q11.links.org.text": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:10:12Z"
+    "at": "2026-11-10T15:10:12Z",
+    "stale": false,
+    "enFp": "200e5fddc2807e53e9f677acde8599f29f67c89827caccbf4bf1e4ede2ebf4f6"
   },
   "summary.quiz.ui.chooseOne": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:10:17Z"
+    "at": "2026-11-10T15:10:17Z",
+    "stale": false,
+    "enFp": "8f695363bc6dff27de47104b9041d2c9fe8db0bb28f2e33c772067e4f99071c1"
   },
   "summary.quiz.ui.ok": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:10:20Z"
+    "at": "2026-11-10T15:10:20Z",
+    "stale": false,
+    "enFp": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
   },
   "summary.quiz.ui.pressEnter": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:10:27Z"
+    "at": "2026-11-10T15:10:27Z",
+    "stale": false,
+    "enFp": "bf3e22e1ae84821dd16dfeb849d8101b2d20234d03dd8c7467377b2483daa88a"
   },
   "summary.quiz.ui.questionOf": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:10:31Z"
+    "at": "2026-11-10T15:10:31Z",
+    "stale": false,
+    "enFp": "1eec1410325cef764b75e430b38afffc5779817cabcc31627694296cd9bbba03"
   },
   "summary.quiz.ui.choicesAria": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:10:36Z"
-  },
-  "summary.quiz.ui.prevAria": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:10:41Z"
-  },
-  "summary.quiz.ui.nextAria": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:10:47Z"
-  },
-  "summary.quiz.ui.openResource": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:10:53Z"
+    "at": "2026-11-10T15:10:36Z",
+    "stale": false,
+    "enFp": "86cfa5c34050fff77baf26f5eb331b98c110077e25a10df0a33b9775a2a99192"
   },
   "summary.quiz.score.youScored": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:10:59Z"
+    "at": "2026-11-10T15:10:59Z",
+    "stale": false,
+    "enFp": "606abb981af155e65aa2e0e098a2e3a83f92696d6305b9c6d91593e0d22f6b82"
   },
   "summary.quiz.score.yourScore": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:11:04Z"
+    "at": "2026-11-10T15:11:04Z",
+    "stale": false,
+    "enFp": "5f49fcc8ddf7cde23eaaaf70b2f470cc982c6fe64a4f2fcbd246ef52baea6200"
   },
   "summary.quiz.score.clickToComplete": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:11:09Z"
+    "at": "2026-11-10T15:11:09Z",
+    "stale": false,
+    "enFp": "f21a865363326ed4869fc19d15f32f204472a1307061f0e603e7cf4fce18e6e7"
   },
   "summary.quiz.score.clickForDetails": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:11:15Z"
-  },
-  "summary.quiz.score.headline": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:11:20Z"
+    "at": "2026-11-10T15:11:15Z",
+    "stale": false,
+    "enFp": "32947c4832578cd85317dae79e4981ee0abec381771d226fd9e7af3440eadef8"
   },
   "summary.quiz.score.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:11:25Z"
+    "at": "2026-11-10T15:11:25Z",
+    "stale": false,
+    "enFp": "140c6f133dff0965821e105b3bffdb6ccb85c917cd8fc2c62ab8a3368536aa1b"
   },
   "summary.quiz.score.note": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:11:30Z"
-  },
-  "summary.quiz.score.didNotPass": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:11:39Z"
-  },
-  "summary.quiz.score.retryHint": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:11:44Z"
+    "at": "2026-11-10T15:11:30Z",
+    "stale": false,
+    "enFp": "75c48984569de61eda3a87f37cbd12121c4f49189a3c8f40ddcecde3d5a028c6"
   },
   "summary.quiz.score.exhaustedBody": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:11:49Z"
+    "at": "2026-11-10T15:11:49Z",
+    "stale": false,
+    "enFp": "d2132f257e910e02051c7e412f14dd8fcfa8081fc34e87577c7fcb17974374db"
   },
   "summary.quiz.score.exhaustedNote": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:11:53Z"
-  },
-  "summary.quiz.score.attemptsExhausted": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:12:13Z"
+    "at": "2026-11-10T15:11:53Z",
+    "stale": false,
+    "enFp": "d623965ba62cbe654ed61bb670a4b576307b3b6d79e9f0efbdb8a7078e351511"
   },
   "summary.quiz.score.finish": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:12:18Z"
+    "at": "2026-11-10T15:12:18Z",
+    "stale": false,
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   },
   "summary.quiz.score.cardAria": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:12:23Z"
-  },
-  "summary.furtherAction.questions.q1.prompt": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:12:30Z"
-  },
-  "summary.furtherAction.questions.q1.choices.c0": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:12:35Z"
-  },
-  "summary.furtherAction.questions.q1.choices.c1": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:12:40Z"
-  },
-  "summary.furtherAction.questions.q1.choices.c2": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:12:47Z"
-  },
-  "summary.furtherAction.questions.q1.choices.c3": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:12:58Z"
-  },
-  "summary.furtherAction.questions.q1.ok": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:13:04Z"
-  },
-  "summary.slide.title": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:13:10Z"
+    "at": "2026-11-10T15:12:23Z",
+    "stale": false,
+    "enFp": "59a99677b65e335ff6d99058491556e6ae7137bfc1ab4c35f72b4a17b317b23f"
   },
   "summary.slide.finishCourse": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:13:17Z"
-  },
-  "summary.slide.postSurvey": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:13:21Z"
+    "at": "2026-11-10T15:13:17Z",
+    "stale": false,
+    "enFp": "4e612028e09a71f4020f2e52efeff8a27729d9fc27fa3f7d3a5956c091624636"
   },
   "summary.slide.getCertificate": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:13:26Z"
+    "at": "2026-11-10T15:13:26Z",
+    "stale": false,
+    "enFp": "8c8e7afa15e2c552b2b054c6c951431d0c70eafceaf3d263be93c36e72f497d1"
   },
   "summary.slide.exit.congratulations.heading": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:13:31Z"
+    "at": "2026-11-10T15:13:31Z",
+    "stale": false,
+    "enFp": "89eb67c761aeb66f80dd71f2227a56a990bc6a900607e01d7a7a7f2e29007495"
   },
   "summary.slide.exit.congratulations.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:13:45Z"
+    "at": "2026-11-10T15:13:45Z",
+    "stale": false,
+    "enFp": "dc5525a4fc2dacf9594ab9e6579d9d501a02b9732f91f1d7565c5f117c392225"
   },
   "summary.slide.exit.youAreNowBetterPreparedTo.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:13:52Z"
-  },
-  "summary.slide.exit.yourReadiness.body": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:13:57Z"
-  },
-  "summary.slide.exit.yourReadiness.heading": {
-    "approved": true,
-    "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:14:07Z"
+    "at": "2026-11-10T15:13:52Z",
+    "stale": false,
+    "enFp": "293abb724b127539da6875d9088d2782ae217b741a0d9d7188daeb282267b1f1"
   },
   "summary.slide.exit.image.thankYouForCompletingTheUaoa": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:15:16Z"
+    "at": "2026-11-10T15:15:16Z",
+    "stale": false,
+    "enFp": "4d0397118586f03bb7079de0ac23c5393795233374f3d327045cdf11e5d7f889"
   },
   "summary.slide.finalQuiz.summaryScoredQuiz.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:15:33Z"
+    "at": "2026-11-10T15:15:33Z",
+    "stale": false,
+    "enFp": "478e933b8eeb506238a4cae75815b2e23f90e14f89479457f6332b766c41f092"
   },
   "summary.slide.finalQuiz.summaryScoredQuiz.heading": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:15:38Z"
+    "at": "2026-11-10T15:15:38Z",
+    "stale": false,
+    "enFp": "09fcf8f70d02c865be44c7ffcaf23c727b3f706fa52c5942a8916522cc0aff1c"
   },
   "summary.slide.finalQuiz.youAreReadyToActAgainst.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:15:51Z"
+    "at": "2026-11-10T15:15:51Z",
+    "stale": false,
+    "enFp": "1f6c97ebff88ba6c690cf902fbc89f4e94161a634170dd05cb9e67b727338cf6"
   },
   "summary.slide.finalQuiz.youAreReadyToActAgainst.heading": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:16:00Z"
+    "at": "2026-11-10T15:16:00Z",
+    "stale": false,
+    "enFp": "ce1fd127ef2be46810d30aa963d573d6a9d3cb53f64794c4465665a54b4a797b"
   },
   "common.complete": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:16:37Z"
+    "at": "2026-11-10T15:16:37Z",
+    "stale": false,
+    "enFp": "143b270a32602d412babf2724ec0640dda0d5a43485e5a7520b05b53fa94b303"
   },
   "common.completed": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:16:42Z"
+    "at": "2026-11-10T15:16:42Z",
+    "stale": false,
+    "enFp": "22a970d2e5b1cc233e462be7c7b64e135a275bb09d83d87683bf4236c43113a1"
   },
   "common.questionsCorrect": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:16:58Z"
+    "at": "2026-11-10T15:16:58Z",
+    "stale": false,
+    "enFp": "da8e7b71ef0650cde00f4716ad47b9031279877c917b261a1e821c82258d24a8"
   },
   "common.close": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:17:06Z"
+    "at": "2026-11-10T15:17:06Z",
+    "stale": false,
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   },
   "course.outline.slides.aboutThisCourse": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:17:30Z"
+    "at": "2026-11-10T15:17:30Z",
+    "stale": false,
+    "enFp": "42bb3844d01d06a8292661620a40c76c1444ab65f4a22db9160a3d10e9be1fc6"
   },
   "welcome.slide.sportConnectsMillionsOfPeopleAcross.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:17:50Z"
+    "at": "2026-11-10T15:17:50Z",
+    "stale": false,
+    "enFp": "561a8ef003f80e604f42e805dbb57f1fff7dedcd32aa916bed7a216595e27982"
   },
   "welcome.outcomes.items.i4": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:18:26Z"
+    "at": "2026-11-10T15:18:26Z",
+    "stale": false,
+    "enFp": "f19d90e78a5b5f52d1ff42d3787e4f9cfe278b4a4d51cb505fdc75f58049037a"
   },
   "welcome.partners.caption": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:18:39Z"
+    "at": "2026-11-10T15:18:39Z",
+    "stale": false,
+    "enFp": "ede43c8fea3ad387b4147525161d2a68a531a1c5e54e6ff5c6ba0142d01cfb5f"
   },
   "survey.postCourse.continue": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:19:02Z"
+    "at": "2026-11-10T15:19:02Z",
+    "stale": false,
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
   },
   "embeds.sensitiveNotice.title": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:19:35Z"
+    "at": "2026-11-10T15:19:35Z",
+    "stale": false,
+    "enFp": "7ac041f54921143a500e990c84e33cf536bd5864ed5daaaf70135caa7247071c"
   },
   "embeds.sensitiveNotice.body": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:19:44Z"
+    "at": "2026-11-10T15:19:44Z",
+    "stale": false,
+    "enFp": "6cb64ecd13b5d407a9f813b5f4f100c846830916eb9a0ddb3887a158bfb02450"
   },
   "embeds.sensitiveNotice.viewSupport": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:19:51Z"
+    "at": "2026-11-10T15:19:51Z",
+    "stale": false,
+    "enFp": "979526b999048a86454f567949f2eb1a2cd05599036a31e2af4cd38e597e22d7"
   },
   "embeds.sensitiveNotice.supportTitle": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:19:56Z"
+    "at": "2026-11-10T15:19:56Z",
+    "stale": false,
+    "enFp": "de7efdd7a64919a8f9a23779888e447a55a51d16b83e81f0c68b69e98088ff63"
   },
   "embeds.sensitiveNotice.supportIntro": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:20:02Z"
+    "at": "2026-11-10T15:20:02Z",
+    "stale": false,
+    "enFp": "c3ea06786596972346c9aa3574dafba02af72104726e714c19e139b2b9c55759"
   },
   "embeds.sensitiveNotice.someoneTrusted": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:20:08Z"
+    "at": "2026-11-10T15:20:08Z",
+    "stale": false,
+    "enFp": "c271e6d926b7bb24e90aa90d0282cd3f1ec753c4b4339b56a7339f1725dfd052"
   },
   "embeds.sensitiveNotice.someoneTrustedDetail": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:20:13Z"
+    "at": "2026-11-10T15:20:13Z",
+    "stale": false,
+    "enFp": "556cac87a22dfe557830bcd01ca14e17169608d6af8c15703bbfe8507541306a"
   },
   "embeds.sensitiveNotice.orgLead": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:20:21Z"
+    "at": "2026-11-10T15:20:21Z",
+    "stale": false,
+    "enFp": "49b03ebc13a35d2dbd3bba02b8c148f969364e98fc348e3f17ab32a122431984"
   },
   "embeds.sensitiveNotice.closeAria": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:20:33Z"
+    "at": "2026-11-10T15:20:33Z",
+    "stale": false,
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   },
   "embeds.sensitiveNotice.close": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:20:51Z"
+    "at": "2026-11-10T15:20:51Z",
+    "stale": false,
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   },
   "embeds.sensitiveNotice.orgLeadDetail": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:20:55Z"
+    "at": "2026-11-10T15:20:55Z",
+    "stale": false,
+    "enFp": "94c8b6d7a55a7ed49a9a6d8154f0418d8ceb155e8b9d10d400c217e63709c7a9"
   },
   "embeds.sensitiveNotice.platformReporting": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:21:03Z"
+    "at": "2026-11-10T15:21:03Z",
+    "stale": false,
+    "enFp": "c59cbe275b112caa7058f0095115be0df247b8d1a64b7ad177f28efa9efd05ab"
   },
   "embeds.sensitiveNotice.platformReportingDetail": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:21:08Z"
+    "at": "2026-11-10T15:21:08Z",
+    "stale": false,
+    "enFp": "cea4b61d2c52ce8825f4075fc87ca482e889776fea600f178b5b4f9a6e5af901"
   },
   "embeds.sensitiveNotice.emergencyServices": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:21:13Z"
+    "at": "2026-11-10T15:21:13Z",
+    "stale": false,
+    "enFp": "72de9732532395031147176a7d011e5e3ceb88a55aff568efbbcd74b611286fc"
   },
   "embeds.sensitiveNotice.emergencyServicesDetail": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:21:24Z"
+    "at": "2026-11-10T15:21:24Z",
+    "stale": false,
+    "enFp": "20bd84bf566fda4fc356cd80ffe602029d44a12f95680bd72d07dd2ba0b28f66"
   },
   "embeds.miniDictionary.teaser": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:23:59Z"
+    "at": "2026-11-10T15:23:59Z",
+    "stale": false,
+    "enFp": "3030d206b671d1f951459de9217f4c504eb5d3b75dd3c3a6f2095efcb5176393"
   },
   "embeds.miniDictionary.linkLabel": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:24:07Z"
+    "at": "2026-11-10T15:24:07Z",
+    "stale": false,
+    "enFp": "637e4aab899ea4d8e98942d5a55486db74a94589c7d3fe9d72ada595a8c5ee38"
   },
   "embeds.miniDictionary.cta": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:24:14Z"
+    "at": "2026-11-10T15:24:14Z",
+    "stale": false,
+    "enFp": "f647dc2a31e9e85660843bf459a473e7789a48b659f683c8cf577d311d0d2bda"
   },
   "embeds.miniDictionary.closeAria": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:24:31Z"
+    "at": "2026-11-10T15:24:31Z",
+    "stale": false,
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   },
   "embeds.miniDictionary.backToCourse": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:24:36Z"
+    "at": "2026-11-10T15:24:36Z",
+    "stale": false,
+    "enFp": "fa7dcce95a411284dbbd7e4939feb5e8b5cbba5e805a097248ea21f23f24a548"
   },
   "embeds.miniDictionary.title": {
     "approved": true,
     "by": "Gabrijela Jerman",
-    "at": "2026-11-10T15:24:49Z"
+    "at": "2026-11-10T15:24:53Z",
+    "enFp": "c12b37ea38c754a84a75befe1f4d29c7f3b4ad90f1a0c862ddd4f4392dc9c529"
   }
 }
