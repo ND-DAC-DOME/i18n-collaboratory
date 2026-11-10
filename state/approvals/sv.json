@@ -3792,5 +3792,11 @@
     "at": "2026-11-10T18:17:24Z",
     "enFp": "708b65f7b8f5a0e5af32e60dbe99ccf7804d1b8e1297b56f2d61c0a86615c447",
     "stale": false
+  },
+  "m5.flow3.steps.s4.body": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T18:22:19Z",
+    "enFp": "aca508d503c8c263a991345b526295297549791d23a07cd932870247fa65bada"
   }
 }
