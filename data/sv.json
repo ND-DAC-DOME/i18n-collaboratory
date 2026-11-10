@@ -275,7 +275,7 @@
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "<strong>Korrekt!</strong> Kommentarerna använder förolämpande och nedvärderande språk med fokus på idrottarens prestation, vilket gör detta till ett exempel på <strong>stötande tal</strong>. Kvinnor kan utsättas för en större mängd övergrepp online på grund av sitt kön, även när enskilda meddelanden inte uttryckligen riktar sig mot kön som en skyddad egenskap.",
+            "text": "<strong>Korrekt!</strong> Kommentarerna använder förolämpande och nedvärderande språk med fokus på idrottarens prestation, vilket gör detta till ett exempel på <strong>stötande språk</strong>. Kvinnor kan utsättas för en större mängd övergrepp online på grund av sitt kön, även när enskilda meddelanden inte uttryckligen riktar sig mot kön. ",
             "note": "HTML allowed"
           },
           "bad": {
