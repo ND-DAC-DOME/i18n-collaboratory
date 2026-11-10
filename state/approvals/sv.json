@@ -1,12 +1,8 @@
 {
   "survey.preCourse.intro": {
-    "approved": false,
-    "by": "jhendri4",
-    "at": "2026-11-05T19:59:18Z",
-    "enFp": "8483b9b97d789bd8feaaacb682f7e11d44bb0d7e70f6771a6359487b982cbc78",
-    "stale": true,
-    "staleReason": "en_source_changed",
-    "staleAt": "2026-11-08T12:33:55Z"
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-10T13:50:14Z"
   },
   "m1.slide.onlineConversationsArePartOfSport.body": {
     "approved": false,
