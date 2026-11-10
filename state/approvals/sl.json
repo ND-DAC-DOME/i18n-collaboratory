@@ -1655,6 +1655,25 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:49:55Z",
-    "enFp": "be6eb1fc3b05bf9dceebad2eac7841d1b2f40bda9aa2da34df8ca22af02bc3ed"
+    "enFp": "be6eb1fc3b05bf9dceebad2eac7841d1b2f40bda9aa2da34df8ca22af02bc3ed",
+    "stale": false
+  },
+  "player.systemLabels.assessment.assessment_passed": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:50:03Z",
+    "enFp": "19416bb6ec4c8582e7e68e7bb8e43fc6fe9441600f74f0ba062a5a2cc998cc1c"
+  },
+  "player.systemLabels.assessment.assessment_results": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:50:03Z",
+    "enFp": "92cffcc846b8e0520df4ae9df48389e100e504c4943d2bfa47da637888bac89d"
+  },
+  "player.systemLabels.assessment.attempts": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:50:03Z",
+    "enFp": "06e70139fcf5e5c7d86a965b24b3cec519c1a1679b5dde917114925594726371"
   }
 }
