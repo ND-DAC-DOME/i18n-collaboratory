@@ -10,7 +10,7 @@
       "note": "Learning-section pill before knowledge-check widgets (slate #323F53 / lavender border #C5CCDF / cyan dot #21B7CB / white label)"
     },
     "learningActivityHeading": {
-      "text": "Lärandeaktivitet",
+      "text": "Aktivitet",
       "note": "Learning-section pill before interactives (same shell as checkUnderstandingHeading)"
     },
     "next": {
