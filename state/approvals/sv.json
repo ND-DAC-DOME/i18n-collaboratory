@@ -2894,12 +2894,20 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:35:54Z",
-    "enFp": "177c0b84ba4a65c65e479c70801eb044ba063ff74f15728d1e9be71658f4b6ea"
+    "enFp": "177c0b84ba4a65c65e479c70801eb044ba063ff74f15728d1e9be71658f4b6ea",
+    "stale": false
   },
   "summary.quiz.questions.q11.choices.c0": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:35:54Z",
-    "enFp": "bc73c38b238a3b523ba5a9188d5e61eaa9d2d92c16855b34d66534b127c7b49b"
+    "enFp": "bc73c38b238a3b523ba5a9188d5e61eaa9d2d92c16855b34d66534b127c7b49b",
+    "stale": false
+  },
+  "summary.quiz.questions.q11.choices.c1": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:35:58Z",
+    "enFp": "f8a7648692492794108d229e9786b82b223977bae79bf2626743b01a16eb9fcc"
   }
 }
