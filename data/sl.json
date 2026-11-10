@@ -3798,7 +3798,7 @@
           "note": "ScormStack player/system label `general.cancel`"
         },
         "close": {
-          "text": "Zapri",
+          "text": "Zaprite",
           "note": "ScormStack player/system label `general.close`"
         },
         "download": {
