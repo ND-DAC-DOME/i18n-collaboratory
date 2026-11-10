@@ -3904,7 +3904,7 @@
           "note": "ScormStack player/system label `navigation.completed`"
         },
         "continue": {
-          "text": "Nadaljuj",
+          "text": "Nadaljujte",
           "note": "ScormStack player/system label `navigation.continue`"
         },
         "current_page": {
