@@ -2530,6 +2530,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:13:44Z",
-    "enFp": "74caabe7fcd572afd2f28132996ba0dc1c456eb8aa6bf4ca7a617bc2b99374e3"
+    "enFp": "74caabe7fcd572afd2f28132996ba0dc1c456eb8aa6bf4ca7a617bc2b99374e3",
+    "stale": false
+  },
+  "summary.quiz.questions.q2.next": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:13:47Z",
+    "enFp": "9bd8bf06c7d59e027f94d22c068163be57427eeca81cc4e85dfba77216fa5228"
   }
 }
