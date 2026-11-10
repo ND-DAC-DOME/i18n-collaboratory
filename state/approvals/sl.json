@@ -2215,6 +2215,13 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:55:52Z",
-    "enFp": "8d236466cfaa59f779e7b8cf8d57e71b56c521e6e3c58794bf5a2162008eeb40"
+    "enFp": "8d236466cfaa59f779e7b8cf8d57e71b56c521e6e3c58794bf5a2162008eeb40",
+    "stale": false
+  },
+  "player.systemLabels.flashcard.card_number": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:55:55Z",
+    "enFp": "be3702e3f1af559a8df03568294283934a2558521fd8895f68eda09e3ce4f8a3"
   }
 }
