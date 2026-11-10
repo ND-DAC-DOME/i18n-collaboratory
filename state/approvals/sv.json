@@ -1312,6 +1312,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:45:46Z",
-    "enFp": "c4b2896a2081395e282313d6683f07c81e3339ef8b9d2b5a299ea5b626a0998f"
+    "enFp": "c4b2896a2081395e282313d6683f07c81e3339ef8b9d2b5a299ea5b626a0998f",
+    "stale": false
+  },
+  "player.systemLabels.click_on_image.click_to_place_areas_up_to_start": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:45:50Z",
+    "enFp": "bf0042b51497c04d8215f5226bf3137b6a13b0c41b5a029936b73d9a3314c8b6"
   }
 }
