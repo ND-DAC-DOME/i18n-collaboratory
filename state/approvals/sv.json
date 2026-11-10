@@ -2371,5 +2371,17 @@
     "at": "2026-11-10T17:05:09Z",
     "enFp": "49b03ebc13a35d2dbd3bba02b8c148f969364e98fc348e3f17ab32a122431984",
     "stale": false
+  },
+  "embeds.sensitiveNotice.someoneTrustedDetail": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:06:13Z",
+    "enFp": "556cac87a22dfe557830bcd01ca14e17169608d6af8c15703bbfe8507541306a"
+  },
+  "embeds.sensitiveNotice.someoneTrusted": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:06:13Z",
+    "enFp": "c271e6d926b7bb24e90aa90d0282cd3f1ec753c4b4339b56a7339f1725dfd052"
   }
 }
