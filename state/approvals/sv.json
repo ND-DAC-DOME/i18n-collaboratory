@@ -906,6 +906,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:36:33Z",
-    "enFp": "98725673c1bf713dc103b10ba83bb79752f4a23cdf12d43326fb3c5b078f37ec"
+    "enFp": "98725673c1bf713dc103b10ba83bb79752f4a23cdf12d43326fb3c5b078f37ec",
+    "stale": false
+  },
+  "player.systemLabels.assessment.attempts_per_question": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:36:44Z",
+    "enFp": "f2bad37936c1fac1bd978ad702aa083227a48798f54cf9b969ebf828e1ba9bf3"
   }
 }
