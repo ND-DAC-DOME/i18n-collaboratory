@@ -1753,6 +1753,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:56:03Z",
-    "enFp": "72efa4c87ce782165d2e91591caaae8e21ce26c85388e53f68c706c0bc9c54a9"
+    "enFp": "72efa4c87ce782165d2e91591caaae8e21ce26c85388e53f68c706c0bc9c54a9",
+    "stale": false
+  },
+  "player.systemLabels.reactions.comment_label": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:56:12Z",
+    "enFp": "f1f5ddaf664e92085e8def0bc7f59bb89ee5e51db2d382950f1e834fd5be8ad3"
   }
 }
