@@ -1991,6 +1991,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:58:29Z",
-    "enFp": "934397722f4bee912b3f281d566054d5e96338dbf3176671ead04404a0eb0dff"
+    "enFp": "934397722f4bee912b3f281d566054d5e96338dbf3176671ead04404a0eb0dff",
+    "stale": false
+  },
+  "player.systemLabels.sorting.move_previous": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:58:33Z",
+    "enFp": "d03d4e29c8c07795f00cd0ef305990114273976a61885ddb6908891ca21e2787"
   }
 }
