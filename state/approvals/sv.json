@@ -1788,18 +1788,33 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:56:42Z",
-    "enFp": "8e2fc8f7692b9e130c992160edd2822ef6276dd4b5496602f1fe99d6329ab965"
+    "enFp": "8e2fc8f7692b9e130c992160edd2822ef6276dd4b5496602f1fe99d6329ab965",
+    "stale": false
   },
   "player.systemLabels.reactions.like": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:56:42Z",
-    "enFp": "8776ab16f8cbd32750f33d1dca96cac2cd86087da0879c824844411fe8703110"
+    "enFp": "8776ab16f8cbd32750f33d1dca96cac2cd86087da0879c824844411fe8703110",
+    "stale": false
   },
   "player.systemLabels.reactions.not_up_to_date": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:56:42Z",
-    "enFp": "f506de0740f26327bd8e46bcb807f46d96de319d31da38cf8fc7e46e4d03b60a"
+    "enFp": "f506de0740f26327bd8e46bcb807f46d96de319d31da38cf8fc7e46e4d03b60a",
+    "stale": false
+  },
+  "player.systemLabels.reactions.prompt": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:56:47Z",
+    "enFp": "e8552b365ea7cab98afd83f1000b89c349bf729e95aa4b30f495f5088a92342d"
+  },
+  "player.systemLabels.reactions.question": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:56:47Z",
+    "enFp": "2cfcf9ff2690c3b6e91d44d16605503d31b54ca397b5134abdaa4a5110b35d58"
   }
 }
