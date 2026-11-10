@@ -839,7 +839,7 @@
       },
       "whenTheBehavioursOverlap": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\">Tänk dig att en spelare får en kränkande kommentar efter en förlust. Liknande meddelanden översvämmar sedan hens konto i flera dagar. Vissa angriper också hens etnicitet.<br><br>Det kränkande språket är <strong>stötande språk</strong>. Den upprepade aggressionen på en eller flera sociala medieplattformar skapar <strong>fientlighet</strong>. Den rasistiska måltavlan betraktas som <strong>hatfulla kommentarer</strong>. </span></p>",
+          "text": "<p style=\"text-align: left\"><span style=\"color: #091324\">Tänk dig att en spelare får en kränkande kommentar efter en förlust. Liknande meddelanden översvämmar sedan hens konto i flera dagar. Vissa angriper också hens etnicitet.<br><br>Det kränkande språket är <strong>stötande språk</strong>. Den upprepade aggressionen på en eller flera sociala medieplattformar skapar <strong>fientlighet</strong>. Det rasistiska uttrycken betraktas som <strong>hatfulla kommentarer </strong>. </span></p>",
           "note": "Native text body on Understanding Online Abuse"
         },
         "heading": {
