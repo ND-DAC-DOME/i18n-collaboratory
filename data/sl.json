@@ -4200,7 +4200,7 @@
           "note": "ScormStack player/system label `web_simulation.restart`"
         },
         "start": {
-          "text": "Začni",
+          "text": "Začnite",
           "note": "ScormStack player/system label `web_simulation.start`"
         },
         "step": {
