@@ -22,7 +22,7 @@
       "note": "Last-card action on series widgets; becomes the completed checkbox"
     },
     "completed": {
-      "text": "Dokončano",
+      "text": "Zaključeno",
       "note": "Replaces Next after the last step on some widgets"
     },
     "tryAgain": {
