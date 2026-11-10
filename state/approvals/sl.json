@@ -1781,6 +1781,19 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:51:11Z",
-    "enFp": "8cbff9ea966c2720f8f11eeed5f8c562716f84914e14e9c7c2599e077956295b"
+    "enFp": "8cbff9ea966c2720f8f11eeed5f8c562716f84914e14e9c7c2599e077956295b",
+    "stale": false
+  },
+  "player.systemLabels.assessment.incorrect": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:51:16Z",
+    "enFp": "a8a57dbc076774bf9ccc791d7f0d74fada5e36e20004eb080d5de7773ba17de2"
+  },
+  "player.systemLabels.assessment.next_question": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:51:16Z",
+    "enFp": "f7a9d7437e96463835a47a3a8332a40fa38870f56ff117c1cc0a041958c95beb"
   }
 }
