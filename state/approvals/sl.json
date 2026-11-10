@@ -2551,12 +2551,32 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:02:38Z",
-    "enFp": "c5d097b50675f55d2dd40faec994d4748c463a42287757348aa1e00df9d375bc"
+    "enFp": "c5d097b50675f55d2dd40faec994d4748c463a42287757348aa1e00df9d375bc",
+    "stale": false
   },
   "player.systemLabels.reactions.complete_above": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:02:38Z",
-    "enFp": "f8df3020b398e4c3105cd37b1861a7ddb9d3ddad661a122851a4fa2fc10e5585"
+    "enFp": "f8df3020b398e4c3105cd37b1861a7ddb9d3ddad661a122851a4fa2fc10e5585",
+    "stale": false
+  },
+  "player.systemLabels.reactions.learned_something": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:02:44Z",
+    "enFp": "8e2fc8f7692b9e130c992160edd2822ef6276dd4b5496602f1fe99d6329ab965"
+  },
+  "player.systemLabels.reactions.like": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:02:44Z",
+    "enFp": "8776ab16f8cbd32750f33d1dca96cac2cd86087da0879c824844411fe8703110"
+  },
+  "player.systemLabels.reactions.not_up_to_date": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:02:44Z",
+    "enFp": "f506de0740f26327bd8e46bcb807f46d96de319d31da38cf8fc7e46e4d03b60a"
   }
 }
