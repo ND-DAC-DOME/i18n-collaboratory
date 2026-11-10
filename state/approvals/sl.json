@@ -2880,6 +2880,37 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:05:41Z",
-    "enFp": "858e4ba7a29fd38b630ed73a79e2738333b3fc6778fafa90252f5556c1262fdc"
+    "enFp": "858e4ba7a29fd38b630ed73a79e2738333b3fc6778fafa90252f5556c1262fdc",
+    "stale": false
+  },
+  "player.systemLabels.video.play": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:59Z",
+    "enFp": "436e61016e26fcb773b9725745cbbf0afe7f001ea26041a814a7712c2925c442"
+  },
+  "player.systemLabels.web_simulation.area": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:59Z",
+    "enFp": "4a91ee5f0106c2b35c11c168352f0abfbf4fc86165c62d6fb51b5232dfc692e6"
+  },
+  "player.systemLabels.web_simulation.click_on_image": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:59Z",
+    "enFp": "fd59b1bd508e8364047c17509d33eb71cfa9836716f02f5f67163bd991a37c29"
+  },
+  "player.systemLabels.web_simulation.failed_to_load_image": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:59Z",
+    "enFp": "af2035a4175034ba526fb3d7c91eae3de5fb5bdb76f8b5ae897bb7db6e420c7f"
+  },
+  "player.systemLabels.web_simulation.loading": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:59Z",
+    "enFp": "1e969de6ce23ff65674d57c1bd6d4530aba7dd8eb85367c0d82e2e06c9c5676f"
   }
 }
