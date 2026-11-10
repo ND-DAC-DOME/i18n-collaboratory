@@ -2089,36 +2089,48 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:59:28Z",
-    "enFp": "964015471ad69a6169a286a513cbb9567188d233207650f76a89b04d042b860c"
+    "enFp": "964015471ad69a6169a286a513cbb9567188d233207650f76a89b04d042b860c",
+    "stale": false
   },
   "player.systemLabels.video.loading": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:59:28Z",
-    "enFp": "adcf41fd1fe17674f087270dab76a5c920cddde53371af3ac7a089c6d6bff40c"
+    "enFp": "adcf41fd1fe17674f087270dab76a5c920cddde53371af3ac7a089c6d6bff40c",
+    "stale": false
   },
   "player.systemLabels.video.pause": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:59:28Z",
-    "enFp": "858e4ba7a29fd38b630ed73a79e2738333b3fc6778fafa90252f5556c1262fdc"
+    "enFp": "858e4ba7a29fd38b630ed73a79e2738333b3fc6778fafa90252f5556c1262fdc",
+    "stale": false
   },
   "player.systemLabels.video.play": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:59:28Z",
-    "enFp": "436e61016e26fcb773b9725745cbbf0afe7f001ea26041a814a7712c2925c442"
+    "enFp": "436e61016e26fcb773b9725745cbbf0afe7f001ea26041a814a7712c2925c442",
+    "stale": false
   },
   "player.systemLabels.web_simulation.area": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:59:28Z",
-    "enFp": "4a91ee5f0106c2b35c11c168352f0abfbf4fc86165c62d6fb51b5232dfc692e6"
+    "enFp": "4a91ee5f0106c2b35c11c168352f0abfbf4fc86165c62d6fb51b5232dfc692e6",
+    "stale": false
   },
   "player.systemLabels.web_simulation.click_on_image": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:59:28Z",
-    "enFp": "fd59b1bd508e8364047c17509d33eb71cfa9836716f02f5f67163bd991a37c29"
+    "enFp": "fd59b1bd508e8364047c17509d33eb71cfa9836716f02f5f67163bd991a37c29",
+    "stale": false
+  },
+  "player.systemLabels.web_simulation.failed_to_load_image": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:59:31Z",
+    "enFp": "af2035a4175034ba526fb3d7c91eae3de5fb5bdb76f8b5ae897bb7db6e420c7f"
   }
 }
