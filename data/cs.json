@@ -145,7 +145,7 @@
         "note": "iframe title for Qualtrics embed between Welcome and Module 1"
       },
       "waitingStatus": {
-        "text": "Vyplňte níže uvedený průzkum. Po dokončení se odemkne pokračování.",
+        "text": "Vyplňte dotazník níže. Po dokončení se odemkne pokračování.",
         "note": "Status while waiting for QualtricsEOS"
       },
       "completeStatus": {
