@@ -199,7 +199,7 @@
         "note": "Manual unlock when QualtricsEOS is not received"
       },
       "continue": {
-        "text": "Nadaljuj",
+        "text": "Nadaljujte",
         "note": "Nav CTA after post-course survey embed"
       }
     }
