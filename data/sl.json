@@ -3614,7 +3614,7 @@
           "note": "ScormStack player/system label `assessment.total_points_possible`"
         },
         "try_again": {
-          "text": "Poskusi znova",
+          "text": "Poskusite znova",
           "note": "ScormStack player/system label `assessment.try_again`"
         },
         "ungraded_submitted": {
