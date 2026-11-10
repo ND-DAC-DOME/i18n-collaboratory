@@ -3902,6 +3902,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:01:15Z",
-    "enFp": "b45c3d54b49d33a20b2327afcdf48eee13f0d1f083a235aedf52268e360f7d0d"
+    "enFp": "b45c3d54b49d33a20b2327afcdf48eee13f0d1f083a235aedf52268e360f7d0d",
+    "stale": false
+  },
+  "m5.widerSystem.rows.organisations": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:01:22Z",
+    "enFp": "0c49388af654ea4339fdf85e3bd817d4242510c0f834a1cf589f41c9682b38f5"
   }
 }
