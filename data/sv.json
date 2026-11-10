@@ -183,7 +183,7 @@
         "note": "iframe title for Qualtrics embed after final quiz"
       },
       "waitingStatus": {
-        "text": "Fyll i enkäten nedan. Fortsätt-knappen låses upp när du är klar.",
+        "text": "Fyll i enkäten nedan. När du är klar kan du trycka på Fortsätt-knappen.",
         "note": "Status while waiting for QualtricsEOS"
       },
       "completeStatus": {
