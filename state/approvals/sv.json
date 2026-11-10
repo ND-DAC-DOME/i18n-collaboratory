@@ -3167,36 +3167,48 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:46:32Z",
-    "enFp": "9b9a8d05a7ec353bda84f9c1bb3178c299de3001b5e970508ddc889c487f92ca"
+    "enFp": "9b9a8d05a7ec353bda84f9c1bb3178c299de3001b5e970508ddc889c487f92ca",
+    "stale": false
   },
   "m5.layers.ui.exploredReview": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:46:32Z",
-    "enFp": "de54f3893059fade90fa515dffbc5d9a1b100032a0654836e9117f19c9956d0b"
+    "enFp": "de54f3893059fade90fa515dffbc5d9a1b100032a0654836e9117f19c9956d0b",
+    "stale": false
   },
   "m5.layers.ui.startExploring": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:46:32Z",
-    "enFp": "ad8ee84c4e962f5f03e6fc444e4d8966f3c4d57d3b73cb39d2ea770734b6c0f2"
+    "enFp": "ad8ee84c4e962f5f03e6fc444e4d8966f3c4d57d3b73cb39d2ea770734b6c0f2",
+    "stale": false
   },
   "m5.layers.ui.whyMatter": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:46:32Z",
-    "enFp": "896b3fc7f7d4808b9b4867f28aa36211b8f2cc0cf9a03f666489ef9e8e8cd1ec"
+    "enFp": "896b3fc7f7d4808b9b4867f28aa36211b8f2cc0cf9a03f666489ef9e8e8cd1ec",
+    "stale": false
   },
   "m5.layers.ui.orpShort": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:46:32Z",
-    "enFp": "858240b16e7440d44066bb8df81bc5b57cf565e22e3f9861d24e0c1639497fa3"
+    "enFp": "858240b16e7440d44066bb8df81bc5b57cf565e22e3f9861d24e0c1639497fa3",
+    "stale": false
   },
   "m5.layers.ui.clickToReveal": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:46:32Z",
-    "enFp": "dca25e981717f2ec2e991db72e946ea7f8224dc8475c04d9626544615e0390eb"
+    "enFp": "dca25e981717f2ec2e991db72e946ea7f8224dc8475c04d9626544615e0390eb",
+    "stale": false
+  },
+  "m5.layers.ui.nextPrefix": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:46:35Z",
+    "enFp": "5693e770dd678bffd158319aca27ed013d23127d2b5c21d992ee0b8998ff09ca"
   }
 }
