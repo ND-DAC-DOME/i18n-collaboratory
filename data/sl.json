@@ -3986,7 +3986,7 @@
           "note": "ScormStack player/system label `reactions.selection_locked`"
         },
         "send_comment": {
-          "text": "Pošlji komentar",
+          "text": "Pošljit komentar",
           "note": "ScormStack player/system label `reactions.send_comment`"
         }
       },
