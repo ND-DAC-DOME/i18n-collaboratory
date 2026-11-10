@@ -3912,7 +3912,7 @@
           "note": "ScormStack player/system label `navigation.current_page`"
         },
         "finish": {
-          "text": "Končaj",
+          "text": "Končajte",
           "note": "ScormStack player/system label `navigation.finish`"
         },
         "go_to_card": {
