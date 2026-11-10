@@ -3056,7 +3056,7 @@
           "note": "Keyboard hint beside OK"
         },
         "questionOf": {
-          "text": "Fråga {n} av {total}",
+          "text": "Fråga {n} av {totalt}",
           "note": "Footer progress; {n} and {total} are replaced in JS"
         },
         "choicesAria": {
