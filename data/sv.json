@@ -2849,7 +2849,7 @@
             }
           },
           "reveal": {
-            "text": "<strong>Agera säkert och använd rätt rapporteringskanaler.</strong><br>Bedöm om beteendet eskalerar eller om någon kan vara i fara, undvik osäker kontakt, spara relevanta bevis och rapportera via plattformens eller organisationens kanaler. Sök mer stöd vid behov.",
+            "text": "<strong>Agera säkert utan onödigt risktagande och använd rätt rapporteringskanaler.</strong><br>Bedöm om beteendet eskalerar eller om någon kan vara i fara, undvik osäker risktagande kontakt, spara relevanta bevis och rapportera via plattformens eller organisationens kanaler. Sök mer stöd vid behov.",
             "note": "HTML allowed"
           },
           "next": {
