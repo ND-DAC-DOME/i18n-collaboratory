@@ -2390,6 +2390,13 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:59:31Z",
-    "enFp": "a1aba9f5e6b74a4dc8988db4bbfc87af5f50b5490aef8c92581e403452035c07"
+    "enFp": "a1aba9f5e6b74a4dc8988db4bbfc87af5f50b5490aef8c92581e403452035c07",
+    "stale": false
+  },
+  "player.systemLabels.interactive_image.hotspot": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:59:51Z",
+    "enFp": "8bec5674491ad8c8aef17f3845a01fea023744286405fccd5ab99cab047415c9"
   }
 }
