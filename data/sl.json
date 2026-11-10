@@ -3758,7 +3758,7 @@
           "note": "ScormStack player/system label `flashcard.click_to_flip_back`"
         },
         "no_flashcards": {
-          "text": "Ni na voljo kartic za učenje",
+          "text": "Kartice za učenje niso na voljo.",
           "note": "ScormStack player/system label `flashcard.no_flashcards`"
         },
         "press_to_flip": {
