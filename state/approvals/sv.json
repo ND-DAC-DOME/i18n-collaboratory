@@ -4105,12 +4105,20 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:12:50Z",
-    "enFp": "61f31e94d1f43124ffba65f12e236c58e45dc944912eb6637da6cded80c3bf59"
+    "enFp": "61f31e94d1f43124ffba65f12e236c58e45dc944912eb6637da6cded80c3bf59",
+    "stale": false
   },
   "m4.duties.everyone.i1.verb": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:12:50Z",
-    "enFp": "641d1ef657bdfd9fa2064ab5ae3f0e44186e5161dcd36b63839f3a76a79883bc"
+    "enFp": "641d1ef657bdfd9fa2064ab5ae3f0e44186e5161dcd36b63839f3a76a79883bc",
+    "stale": false
+  },
+  "m4.duties.everyone.label": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:12:54Z",
+    "enFp": "06b859961e4312acb3d40cfe121161a11dc0c4c8fd00b4f2edf3307adefcc158"
   }
 }
