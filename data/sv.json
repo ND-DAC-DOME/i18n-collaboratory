@@ -3434,7 +3434,7 @@
           "note": "ScormStack player/system label `assessment.case_insensitive`"
         },
         "case_sensitive": {
-          "text": "Skiftlägeskänsligt",
+          "text": "Skiftlägeskänsligt (skilj mellan stora och små bokstäver)",
           "note": "ScormStack player/system label `assessment.case_sensitive`"
         },
         "complete_assessment": {
