@@ -4154,7 +4154,7 @@
           "note": "ScormStack player/system label `video.loading`"
         },
         "pause": {
-          "text": "Začasno ustavi",
+          "text": "Začasno ustavite",
           "note": "ScormStack player/system label `video.pause`"
         },
         "play": {
