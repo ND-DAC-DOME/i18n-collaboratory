@@ -738,6 +738,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:28:25Z",
-    "enFp": "7e29b879d2bc191578495f43a471bd93e21e86dd82e9231b8b5995fe891d9c7d"
+    "enFp": "7e29b879d2bc191578495f43a471bd93e21e86dd82e9231b8b5995fe891d9c7d",
+    "stale": false
+  },
+  "player.systemLabels.access.field_required": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:28:29Z",
+    "enFp": "6876f12ea673f6b1e07fadbe778bd5fa77e3e6014e23cc34d56d5579d071b5d9"
   }
 }
