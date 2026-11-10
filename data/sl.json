@@ -4082,7 +4082,7 @@
           "note": "ScormStack player/system label `sorting.item`"
         },
         "move_next": {
-          "text": "Premakni naprej",
+          "text": "Premaknite naprej",
           "note": "ScormStack player/system label `sorting.move_next`"
         },
         "move_previous": {
