@@ -2397,6 +2397,19 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:59:51Z",
-    "enFp": "8bec5674491ad8c8aef17f3845a01fea023744286405fccd5ab99cab047415c9"
+    "enFp": "8bec5674491ad8c8aef17f3845a01fea023744286405fccd5ab99cab047415c9",
+    "stale": false
+  },
+  "player.systemLabels.interactive_image.press_escape_close": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:59:58Z",
+    "enFp": "27d4fe423560b18cb554aef8f5c72bd0b06d4d39a5206aab059b6ec223ef67a1"
+  },
+  "player.systemLabels.interactive_image.press_to_view": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:59:58Z",
+    "enFp": "6682060f2cb81a17dcd856bc86e9c752b8688fa084abd48acf330debab5e6275"
   }
 }
