@@ -3842,7 +3842,7 @@
           "note": "ScormStack player/system label `interactive_image.click_to_view`"
         },
         "close_modal": {
-          "text": "Zapri modalno okno",
+          "text": "Zaprite modalno okno",
           "note": "ScormStack player/system label `interactive_image.close_modal`"
         },
         "close_sidebar": {
