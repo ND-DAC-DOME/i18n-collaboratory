@@ -3013,6 +3013,19 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:37:13Z",
-    "enFp": "5f49fcc8ddf7cde23eaaaf70b2f470cc982c6fe64a4f2fcbd246ef52baea6200"
+    "enFp": "5f49fcc8ddf7cde23eaaaf70b2f470cc982c6fe64a4f2fcbd246ef52baea6200",
+    "stale": false
+  },
+  "summary.quiz.score.clickToComplete": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:37:19Z",
+    "enFp": "f21a865363326ed4869fc19d15f32f204472a1307061f0e603e7cf4fce18e6e7"
+  },
+  "summary.quiz.score.clickForDetails": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:37:19Z",
+    "enFp": "32947c4832578cd85317dae79e4981ee0abec381771d226fd9e7af3440eadef8"
   }
 }
