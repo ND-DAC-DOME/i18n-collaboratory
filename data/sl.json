@@ -3794,7 +3794,7 @@
       },
       "general": {
         "cancel": {
-          "text": "Prekliči",
+          "text": "Prekličite",
           "note": "ScormStack player/system label `general.cancel`"
         },
         "close": {
