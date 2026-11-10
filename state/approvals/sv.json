@@ -3503,24 +3503,34 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:52:42Z",
-    "enFp": "d1498cb2d48250facbcb645aaf8d570b79fc0824d546a3cd7263a06ff0c933d9"
+    "enFp": "d1498cb2d48250facbcb645aaf8d570b79fc0824d546a3cd7263a06ff0c933d9",
+    "stale": false
   },
   "m5.layers.tracks.t2.who.media.title": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:52:42Z",
-    "enFp": "bb80b07dadbb23b89998d721cbc49ad96e224d4ce6b139568a6f92b884a01bf7"
+    "enFp": "bb80b07dadbb23b89998d721cbc49ad96e224d4ce6b139568a6f92b884a01bf7",
+    "stale": false
   },
   "m5.layers.tracks.t2.who.media.body": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:52:42Z",
-    "enFp": "0b871b144dd7c3fda78a5dbff6e6c3e8baaf2bda51d6e23625c1848aec9d97de"
+    "enFp": "0b871b144dd7c3fda78a5dbff6e6c3e8baaf2bda51d6e23625c1848aec9d97de",
+    "stale": false
   },
   "m5.layers.tracks.t2.who.advocacy.title": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:52:42Z",
-    "enFp": "532c906c8e8c4b16b4f71eef26da52459f685623439b1f46653f2b8b5e117cb1"
+    "enFp": "532c906c8e8c4b16b4f71eef26da52459f685623439b1f46653f2b8b5e117cb1",
+    "stale": false
+  },
+  "m5.layers.tracks.t2.who.advocacy.body": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:52:44Z",
+    "enFp": "1431605247bd47a4bebbe622b8f069550b57a537b8db46b69a00ac2751ea041a"
   }
 }
