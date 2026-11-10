@@ -2733,30 +2733,41 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:04:31Z",
-    "enFp": "a468e313c7985a973a1b1f8d7f903b8bb628ef868931e7e6711925db2224f60c"
+    "enFp": "a468e313c7985a973a1b1f8d7f903b8bb628ef868931e7e6711925db2224f60c",
+    "stale": false
   },
   "player.systemLabels.sorting.correct_order": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:04:31Z",
-    "enFp": "507550a0d981d39f07c05a6278530e8a18c24ccc2727efaa8a100b2892ef831a"
+    "enFp": "507550a0d981d39f07c05a6278530e8a18c24ccc2727efaa8a100b2892ef831a",
+    "stale": false
   },
   "player.systemLabels.sorting.correct_position": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:04:31Z",
-    "enFp": "847d6873841b42ee22daa5b255f3f6ae1ff5025bf92fbf5edf25edfab8d6146f"
+    "enFp": "847d6873841b42ee22daa5b255f3f6ae1ff5025bf92fbf5edf25edfab8d6146f",
+    "stale": false
   },
   "player.systemLabels.sorting.drag_item": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:04:31Z",
-    "enFp": "d4dab120aa0e487b1c6435e5138105ac3bc329c6f72ae7262ee9b9e2cbac8cd3"
+    "enFp": "d4dab120aa0e487b1c6435e5138105ac3bc329c6f72ae7262ee9b9e2cbac8cd3",
+    "stale": false
   },
   "player.systemLabels.sorting.item": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:04:31Z",
-    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733"
+    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733",
+    "stale": false
+  },
+  "player.systemLabels.sorting.move_next": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:04:45Z",
+    "enFp": "934397722f4bee912b3f281d566054d5e96338dbf3176671ead04404a0eb0dff"
   }
 }
