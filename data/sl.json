@@ -3776,7 +3776,7 @@
       },
       "flow": {
         "begin": {
-          "text": "Začni",
+          "text": "Začnite",
           "note": "ScormStack player/system label `flow.begin`"
         },
         "of": {
