@@ -1550,12 +1550,20 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:48:20Z",
-    "enFp": "47d2a515ef2f05b87d688656286a61e4f743da4b878684c7654969db17711c40"
+    "enFp": "47d2a515ef2f05b87d688656286a61e4f743da4b878684c7654969db17711c40",
+    "stale": false
   },
   "player.systemLabels.general.retry": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:48:20Z",
-    "enFp": "942087cc2d41e01304b7195558d093d10c72af8e838c7556d6a02d471ee71852"
+    "enFp": "942087cc2d41e01304b7195558d093d10c72af8e838c7556d6a02d471ee71852",
+    "stale": false
+  },
+  "player.systemLabels.general.save": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:48:23Z",
+    "enFp": "1509f561f2416598629b886ad7d3c05a7e221e4e0675c84bbff4ee6d9e03913d"
   }
 }
