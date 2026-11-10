@@ -2285,6 +2285,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:02:44Z",
-    "enFp": "fa7dcce95a411284dbbd7e4939feb5e8b5cbba5e805a097248ea21f23f24a548"
+    "enFp": "fa7dcce95a411284dbbd7e4939feb5e8b5cbba5e805a097248ea21f23f24a548",
+    "stale": false
+  },
+  "embeds.miniDictionary.closeAria": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:02:48Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   }
 }
