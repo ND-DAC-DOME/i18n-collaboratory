@@ -2768,6 +2768,25 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:04:45Z",
-    "enFp": "934397722f4bee912b3f281d566054d5e96338dbf3176671ead04404a0eb0dff"
+    "enFp": "934397722f4bee912b3f281d566054d5e96338dbf3176671ead04404a0eb0dff",
+    "stale": false
+  },
+  "player.systemLabels.sorting.move_previous": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:02Z",
+    "enFp": "d03d4e29c8c07795f00cd0ef305990114273976a61885ddb6908891ca21e2787"
+  },
+  "player.systemLabels.sorting.position_for": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:02Z",
+    "enFp": "3b572d3e14e1e310cf173e0879075ae1c0afd1657e825b2970ecc8c0ecfde858"
+  },
+  "player.systemLabels.tabs.more": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:05:02Z",
+    "enFp": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189"
   }
 }
