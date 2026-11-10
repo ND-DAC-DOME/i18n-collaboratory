@@ -4224,6 +4224,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:24:58Z",
-    "enFp": "3670b07a4bfb9e1cdd026133b47a336a522a96900ef492dcac9f394e76d48b04"
+    "enFp": "3670b07a4bfb9e1cdd026133b47a336a522a96900ef492dcac9f394e76d48b04",
+    "stale": false
+  },
+  "m4.slide.threeLegalPathways.heading": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:25:02Z",
+    "enFp": "812813540faf2971a191863fbf80eed0eb053bf1d1feae08a0a80151b3110661"
   }
 }
