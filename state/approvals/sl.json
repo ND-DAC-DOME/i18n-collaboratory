@@ -2670,6 +2670,19 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:04:03Z",
-    "enFp": "09d37c7e0dc6a6681afcf28faf312bc52e93800f6c3d23bb2412320a847ea6a1"
+    "enFp": "09d37c7e0dc6a6681afcf28faf312bc52e93800f6c3d23bb2412320a847ea6a1",
+    "stale": false
+  },
+  "player.systemLabels.resume.welcome_back": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:04:07Z",
+    "enFp": "346181d6c9954315e3fcdd7ac2d9a49f47e779e480f4025072f87ab45d688ef3"
+  },
+  "player.systemLabels.separator.section_break": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T16:04:07Z",
+    "enFp": "66f41a831f779cc7184ea4cb68ad765313c760c5e9c004bc2db5acde5c6b6591"
   }
 }
