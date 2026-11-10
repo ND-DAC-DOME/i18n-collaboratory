@@ -1935,6 +1935,25 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:52:39Z",
-    "enFp": "039815db6a2d40153e892989e6941236457b6d13843c0755861557990a1ef73f"
+    "enFp": "039815db6a2d40153e892989e6941236457b6d13843c0755861557990a1ef73f",
+    "stale": false
+  },
+  "player.systemLabels.assessment.success_meter.continue_with_extra_questions": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:47Z",
+    "enFp": "b0edff7669c11122c83571b6381d2574bd0d5a82189cdcf67ea99e51f7237aee"
+  },
+  "player.systemLabels.assessment.success_meter.extra_question": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:47Z",
+    "enFp": "5bac36699b53373a20c2c2ed1746b8e53411da7ba0bc43300e71f39674495efa"
+  },
+  "player.systemLabels.assessment.success_meter.lets_try_a_few_more_questions_to_boost_your_score": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:47Z",
+    "enFp": "2cb206455db6b03471e5b409c594650e79de4e03f7b2de4caa032e03975a493a"
   }
 }
