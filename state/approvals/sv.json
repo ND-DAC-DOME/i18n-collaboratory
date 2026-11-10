@@ -3279,6 +3279,37 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:47:19Z",
-    "enFp": "d0ecf45d1c2eb0b67cfa90eea81e1ce2f6fdb44854146672cca6eec0b6ba4898"
+    "enFp": "d0ecf45d1c2eb0b67cfa90eea81e1ce2f6fdb44854146672cca6eec0b6ba4898",
+    "stale": false
+  },
+  "m5.layers.tracks.t1.headline": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:47:29Z",
+    "enFp": "bcc2ef43a27eb8abe61013dd365317a2c5802569c506960e7da8cf4cacfcffa8"
+  },
+  "m5.layers.tracks.t1.prompt": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:47:29Z",
+    "enFp": "02ee9e6f6c74402df07b690725ba33199554bf87de72b7f08258a814c2cf7fe9"
+  },
+  "m5.layers.tracks.t1.labels.l1": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:47:29Z",
+    "enFp": "dc42436fbac9aeb2072732d1a5c112266f36540a483930d73ab4b5ef0fb5c70d"
+  },
+  "m5.layers.tracks.t1.labels.l2": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:47:29Z",
+    "enFp": "be64c9fb320c05c255bd2d368662b58fd0b2eb53509c0d80998d840f5059080f"
+  },
+  "m5.layers.tracks.t1.labels.l3": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:47:29Z",
+    "enFp": "49c788ca50f9acf933807eed523ab03b91b7c5dba50ed3b77f0276c0fdcd7576"
   }
 }
