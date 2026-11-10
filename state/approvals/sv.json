@@ -2708,13 +2708,6 @@
     "enFp": "dc711515d2672d79cc401e7fe5f1b422284a743b8a04904a97fb65c96520d3e9",
     "stale": false
   },
-  "summary.quiz.questions.q7.prompt": {
-    "approved": true,
-    "by": "Mikael Norén",
-    "at": "2026-11-10T17:24:20Z",
-    "enFp": "456046bda6c5da1c1af58ae765e07e7f35d4a87d07ea0518ecb19d249577317b",
-    "stale": false
-  },
   "summary.quiz.questions.q7.choices.c0": {
     "approved": true,
     "by": "Mikael Norén",
@@ -2726,12 +2719,14 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:24:38Z",
-    "enFp": "bd7154dcf479a13956f8566d79c0755e2f642f21954603ceee1dd055abb7cd61"
+    "enFp": "bd7154dcf479a13956f8566d79c0755e2f642f21954603ceee1dd055abb7cd61",
+    "stale": false
   },
   "summary.quiz.questions.q7.choices.c2": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:24:38Z",
-    "enFp": "cc20753b077d4db59472dda79667b912dc25b250dd1ccd1fe85f1f23c0c59b08"
+    "enFp": "cc20753b077d4db59472dda79667b912dc25b250dd1ccd1fe85f1f23c0c59b08",
+    "stale": false
   }
 }
