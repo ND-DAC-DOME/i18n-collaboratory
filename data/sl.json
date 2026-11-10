@@ -3632,7 +3632,7 @@
       },
       "audio": {
         "show_transcript": {
-          "text": "Prikaži prepis",
+          "text": "Prikažite prepis",
           "note": "ScormStack player/system label `audio.show_transcript`"
         }
       },
