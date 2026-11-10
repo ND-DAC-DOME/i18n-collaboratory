@@ -2845,6 +2845,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:30:00Z",
-    "enFp": "e9ee61bc1eb6c3852197bab99c0a0978784bb79a354c17b6ff47f1b37091b57b"
+    "enFp": "e9ee61bc1eb6c3852197bab99c0a0978784bb79a354c17b6ff47f1b37091b57b",
+    "stale": false
+  },
+  "summary.quiz.questions.q10.choices.c1": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:30:05Z",
+    "enFp": "6ee6af3b68f80b923c3fbbcb59d4d8a97b7f32e33c3f9767dc16ac6a50ad68d7"
   }
 }
