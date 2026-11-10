@@ -3828,7 +3828,7 @@
           "note": "ScormStack player/system label `homepage.course_home`"
         },
         "start_course": {
-          "text": "Začni tečaj",
+          "text": "Začnite tečaj",
           "note": "ScormStack player/system label `homepage.start_course`"
         },
         "table_of_contents": {
