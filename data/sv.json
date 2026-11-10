@@ -70,7 +70,7 @@
       "note": "Shared incorrect; HTML allowed"
     },
     "selectAllThatApply": {
-      "text": "Markera alla som gäller och skicka sedan in."
+      "text": "Markera alla svar som gäller och skicka sedan in."
     },
     "nSelected": {
       "text": "Valda: {n}",
