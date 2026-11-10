@@ -50,7 +50,7 @@
       "note": "Back / previous step button"
     },
     "submitAnswers": {
-      "text": "Pošlji odgovore",
+      "text": "Pošljite odgovore",
       "note": "Primary submit on multi-select / sorting"
     },
     "submitted": {
