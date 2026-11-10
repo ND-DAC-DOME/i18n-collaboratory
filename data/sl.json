@@ -3682,7 +3682,7 @@
           "note": "ScormStack player/system label `completion.completed_title`"
         },
         "continue_reviewing": {
-          "text": "Nadaljuj s pregledovanjem",
+          "text": "Nadaljujt s pregledovanjem",
           "note": "ScormStack player/system label `completion.continue_reviewing`"
         },
         "debug_info": {
