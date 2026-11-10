@@ -1914,6 +1914,19 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T15:52:24Z",
-    "enFp": "8cbff9ea966c2720f8f11eeed5f8c562716f84914e14e9c7c2599e077956295b"
+    "enFp": "8cbff9ea966c2720f8f11eeed5f8c562716f84914e14e9c7c2599e077956295b",
+    "stale": false
+  },
+  "player.systemLabels.assessment.submit": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:35Z",
+    "enFp": "155f816c0407310c0dab222493370773e045ee7fe04e6c9a951b07f495531264"
+  },
+  "player.systemLabels.assessment.submitted": {
+    "approved": true,
+    "by": "Gabrijela Jerman",
+    "at": "2026-11-10T15:52:35Z",
+    "enFp": "9555f28f097c7ed24a23e60a72599a0cab60db5b85003c2543f66a6aabed0d4d"
   }
 }
