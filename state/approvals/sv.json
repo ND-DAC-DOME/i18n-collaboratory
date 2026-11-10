@@ -2460,18 +2460,27 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:12:18Z",
-    "enFp": "9db8a4f800ccb98f69d880bb5ed56c475f0347ee56a57c67b2daacd2715c30c8"
+    "enFp": "9db8a4f800ccb98f69d880bb5ed56c475f0347ee56a57c67b2daacd2715c30c8",
+    "stale": false
   },
   "summary.quiz.questions.q1.choices.c0": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:12:18Z",
-    "enFp": "ebef845a5484f781253ed7d13e8ee966422ee74596b685459c21dc6b67fcee5d"
+    "enFp": "ebef845a5484f781253ed7d13e8ee966422ee74596b685459c21dc6b67fcee5d",
+    "stale": false
   },
   "summary.quiz.questions.q1.choices.c1": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T17:12:18Z",
-    "enFp": "e22b8882532c1f11a347b13a9550f10d3180697456fb9d11aab8ca09e66fe86b"
+    "enFp": "e22b8882532c1f11a347b13a9550f10d3180697456fb9d11aab8ca09e66fe86b",
+    "stale": false
+  },
+  "summary.quiz.questions.q1.choices.c2": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T17:12:21Z",
+    "enFp": "c23680ed2c201fb8845c00a0dd8e06299849f567077d2e1741ebc038070724f4"
   }
 }
