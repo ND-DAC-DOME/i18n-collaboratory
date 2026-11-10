@@ -4126,12 +4126,26 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:13:06Z",
-    "enFp": "c9b36931c0ef18a876039cd89d5cbac8fcee0ff6e6c890608f7c1b337e03b320"
+    "enFp": "c9b36931c0ef18a876039cd89d5cbac8fcee0ff6e6c890608f7c1b337e03b320",
+    "stale": false
   },
   "m4.duties.orgs.i6.verb": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:13:06Z",
-    "enFp": "2d7168407e26303544481e4d265b3ceb6d2b7f8ab97d0cfac67f313f4b100c3f"
+    "enFp": "2d7168407e26303544481e4d265b3ceb6d2b7f8ab97d0cfac67f313f4b100c3f",
+    "stale": false
+  },
+  "m4.duties.orgs.i5.rest": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:13:14Z",
+    "enFp": "29ff696098d08670ae6af41586cec66b8fd49a104129548cbb3350ce04720c77"
+  },
+  "m4.duties.orgs.i5.verb": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T19:13:14Z",
+    "enFp": "991b0ff072e12a7ddee85fd5450f37beb460c684f4b392174deeb0d922db2be4"
   }
 }
