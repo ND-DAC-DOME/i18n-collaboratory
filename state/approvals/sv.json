@@ -1088,12 +1088,26 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:42:18Z",
-    "enFp": "9a72221a27476f3e907767bc2614ae6aaa0a45c60543a23f89786b571897bb75"
+    "enFp": "9a72221a27476f3e907767bc2614ae6aaa0a45c60543a23f89786b571897bb75",
+    "stale": false
   },
   "player.systemLabels.assessment.required": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T16:42:18Z",
-    "enFp": "4850b174b713d88cfc63de107830d5388929020e78abc91fc19bba7a6821625f"
+    "enFp": "4850b174b713d88cfc63de107830d5388929020e78abc91fc19bba7a6821625f",
+    "stale": false
+  },
+  "player.systemLabels.assessment.response_saved": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:42:23Z",
+    "enFp": "6cbe77f1c9c63f29be5fdce906b1a942adbbd3d9577957283bc0f8fa2c6030cb"
+  },
+  "player.systemLabels.assessment.results": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-10T16:42:23Z",
+    "enFp": "219c4a6c86a716e99d5dc9611b61e584deb11b57e972d87d4b773387ebc3cadd"
   }
 }
