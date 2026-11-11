@@ -6786,6 +6786,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:33:06Z",
-    "enFp": "832e0eb5812f4e9fd6085bc23425691c3984bb53a61201a4540024171cb25826"
+    "enFp": "832e0eb5812f4e9fd6085bc23425691c3984bb53a61201a4540024171cb25826",
+    "stale": false
+  },
+  "m3.slide.aiAndOnlineHarm.heading": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:33:29Z",
+    "enFp": "bd1e0c2e94d8b5ca24d0f47d5479aaa630251938b6278a5f248f09d54d62ab40"
   }
 }
