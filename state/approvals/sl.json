@@ -5939,6 +5939,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:59:21Z",
-    "enFp": "b78332de8404f26b37cbcf8b1be185c1406ccc3028f9fd2ae27ee38d8769ee7b"
+    "enFp": "b78332de8404f26b37cbcf8b1be185c1406ccc3028f9fd2ae27ee38d8769ee7b",
+    "stale": false
+  },
+  "m4.slide.howCanLegalResponsesDifferBy.body": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:59:25Z",
+    "enFp": "f05882dca428ac0b08aae21566d8881a31e40a3b9fea38480ac32b36a06d6039"
   }
 }
