@@ -654,18 +654,39 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:43:21Z",
-    "enFp": "e71ff7420ac50771652ec69bb045a7b141a7221cffb80de9d847b744e3d5b373"
+    "enFp": "e71ff7420ac50771652ec69bb045a7b141a7221cffb80de9d847b744e3d5b373",
+    "stale": false
   },
   "m1.forms.cards.c2.front2": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:43:21Z",
-    "enFp": "bb43f71076e9515b9ded0864282f04b3485441627e837b6167a3d900509769e2"
+    "enFp": "bb43f71076e9515b9ded0864282f04b3485441627e837b6167a3d900509769e2",
+    "stale": false
   },
   "m1.forms.cards.c3.name": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:43:21Z",
-    "enFp": "9c66ba196636cf58a7953dfa0f27087d0a6c12f158ee7bc8f531a97c050f8c7e"
+    "enFp": "9c66ba196636cf58a7953dfa0f27087d0a6c12f158ee7bc8f531a97c050f8c7e",
+    "stale": false
+  },
+  "m1.forms.cards.c3.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:43:29Z",
+    "enFp": "84de1dbe8aef530f37e10017e06b26ab195c1feaa573dd651c88de4b2d02ef58"
+  },
+  "m1.forms.cards.c3.front1": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:43:29Z",
+    "enFp": "73bc2abb29e071e782d8aa0c801f85d6bfe67f34f5818e040d848c994a6acdf3"
+  },
+  "m1.forms.cards.c3.front2": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:43:29Z",
+    "enFp": "57a2be45ad606af575304e03ca25df1ed76971a736ed7298be6ba7202b77b684"
   }
 }
