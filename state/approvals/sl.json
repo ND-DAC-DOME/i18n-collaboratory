@@ -5981,12 +5981,20 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:59:43Z",
-    "enFp": "eb6f9ecb22d6d5ece183aff54251a847ab166c3d43ef768b28d670b9147885b4"
+    "enFp": "eb6f9ecb22d6d5ece183aff54251a847ab166c3d43ef768b28d670b9147885b4",
+    "stale": false
   },
   "m4.slide.threeLegalPathways.heading": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:59:43Z",
-    "enFp": "812813540faf2971a191863fbf80eed0eb053bf1d1feae08a0a80151b3110661"
+    "enFp": "812813540faf2971a191863fbf80eed0eb053bf1d1feae08a0a80151b3110661",
+    "stale": false
+  },
+  "m4.slide.whenOnlineAbuseOccursImportantQuestions.body": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:59:53Z",
+    "enFp": "3670b07a4bfb9e1cdd026133b47a336a522a96900ef492dcac9f394e76d48b04"
   }
 }
