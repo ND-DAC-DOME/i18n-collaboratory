@@ -1963,36 +1963,66 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:14:19Z",
-    "enFp": "fc9fee4bda7b5b8be11dd1fac2702573389045fa028fcbc055c258ddd5ae1098"
+    "enFp": "fc9fee4bda7b5b8be11dd1fac2702573389045fa028fcbc055c258ddd5ae1098",
+    "stale": false
   },
   "survey.postCourse.continue": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:14:19Z",
-    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8",
+    "stale": false
   },
   "survey.preCourse.welcomeContinue": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:14:19Z",
-    "enFp": "1c045d690a18dbf82775cfece26b5adb9840892dd436b3932850ae1a70661c48"
+    "enFp": "1c045d690a18dbf82775cfece26b5adb9840892dd436b3932850ae1a70661c48",
+    "stale": false
   },
   "survey.preCourse.intro": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:14:19Z",
-    "enFp": "8483b9b97d789bd8feaaacb682f7e11d44bb0d7e70f6771a6359487b982cbc78"
+    "enFp": "8483b9b97d789bd8feaaacb682f7e11d44bb0d7e70f6771a6359487b982cbc78",
+    "stale": false
   },
   "survey.preCourse.iframeTitle": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:14:19Z",
-    "enFp": "b61a9cd3a3e9e9433a3c1d3d22efa84685d6931a411b70c9b8423a12a8b104e9"
+    "enFp": "b61a9cd3a3e9e9433a3c1d3d22efa84685d6931a411b70c9b8423a12a8b104e9",
+    "stale": false
   },
   "survey.preCourse.continue": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:14:19Z",
-    "enFp": "69ea7dd52ed94bbdde00a81376ec05cdb968650672287d2291c9a708e18ad103"
+    "enFp": "69ea7dd52ed94bbdde00a81376ec05cdb968650672287d2291c9a708e18ad103",
+    "stale": false
+  },
+  "m1.apply.ui.choicesAria": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:14:31Z",
+    "enFp": "1e80abcd49c3adc68d605317740598332e56c59ebbe5133f24ed1e1efb9a3f7e"
+  },
+  "m1.apply.labels.offensiveSpeech": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:14:31Z",
+    "enFp": "df257f7117719e388e0478e5a97198b2dee48be33c752792d7fa65c0eae51e6c"
+  },
+  "m1.apply.labels.digitalHostility": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:14:31Z",
+    "enFp": "46941c68b49f0f9e9cfb8de9182dcb9262d5e17f72c25fc22929e110f6a4bbce"
+  },
+  "m1.apply.labels.hateSpeech": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:14:31Z",
+    "enFp": "5b1a77cb089480428f8e22b22432f99fb0096ecad8688cfca4aeb5ea6ed6b43f"
   }
 }
