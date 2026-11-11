@@ -423,6 +423,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:37:16Z",
-    "enFp": "0b4b403fe026032576919d551c0c93a6421c9c74dfd2d3f7a0f36fe54c4735dd"
+    "enFp": "0b4b403fe026032576919d551c0c93a6421c9c74dfd2d3f7a0f36fe54c4735dd",
+    "stale": false
+  },
+  "welcome.about.whatYoullExplore.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:37:31Z",
+    "enFp": "1fd9b42bd5c58ce88256f8856923611790f90a84d1d4e697c0d8ea19b041d72d"
   }
 }
