@@ -4840,12 +4840,20 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:15:54Z",
-    "enFp": "55853e82212419b3b9552b36cd274c88dd85cb71d80540d9015649a517b98583"
+    "enFp": "55853e82212419b3b9552b36cd274c88dd85cb71d80540d9015649a517b98583",
+    "stale": false
   },
   "m3.checklist.ui.progress": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:15:54Z",
-    "enFp": "1dc03e9a9e202dc43fea83f67ad910dc5732afcdd1235852d78f48357608ee97"
+    "enFp": "1dc03e9a9e202dc43fea83f67ad910dc5732afcdd1235852d78f48357608ee97",
+    "stale": false
+  },
+  "m3.regionTabs.tabs.t1.subs.spain.html": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:17:58Z",
+    "enFp": "694d7868305e72b02993187c63855239ff53deb5da111e7c9a37f24e3ab2926c"
   }
 }
