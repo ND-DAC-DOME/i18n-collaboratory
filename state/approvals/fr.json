@@ -304,6 +304,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:30:26Z",
-    "enFp": "d89c6a0c859db6151138c9700e0affd3ea2b270839b4665e2187b25c5ff8cf91"
+    "enFp": "d89c6a0c859db6151138c9700e0affd3ea2b270839b4665e2187b25c5ff8cf91",
+    "stale": false
+  },
+  "welcome.outcomes.items.i2": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:30:43Z",
+    "enFp": "9d8d61b075f04bebb4c1364e0c8868f724dd42bafe397a3539ca1d0f4700d5e1"
   }
 }
