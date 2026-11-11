@@ -2012,6 +2012,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:21:26Z",
-    "enFp": "d5acfd8330f5caaee7d1421788c912dc9c5da654bbc226a904798d1a30de9953"
+    "enFp": "d5acfd8330f5caaee7d1421788c912dc9c5da654bbc226a904798d1a30de9953",
+    "stale": false
+  },
+  "m5.layers.tracks.t3.eyebrow": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:21:46Z",
+    "enFp": "0b1354db09ccff88d59289b6d85252da3edc200b26c306b7c2d5fb3b99f13f30"
+  },
+  "m5.layers.tracks.t3.headline": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:21:46Z",
+    "enFp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }
