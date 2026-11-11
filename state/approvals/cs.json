@@ -3825,6 +3825,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:37:57Z",
-    "enFp": "8f2fc7a5de2b496a23a510b315a31140570b55605d694d2f353640fea532e82e"
+    "enFp": "8f2fc7a5de2b496a23a510b315a31140570b55605d694d2f353640fea532e82e",
+    "stale": false
+  },
+  "m1.apply.scenarios.s2.text": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:38:07Z",
+    "enFp": "071f2194201c83e55f84ba6a7061737d80c88119e23874e9a06d3c7557c6ebb9"
   }
 }
