@@ -766,12 +766,26 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:44:55Z",
-    "enFp": "d9caea730c50507387a88f3b7d8943f606e211f5adc8000ba9bdd6b8553cc184"
+    "enFp": "d9caea730c50507387a88f3b7d8943f606e211f5adc8000ba9bdd6b8553cc184",
+    "stale": false
   },
   "m1.protected.maritalStatus": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:44:55Z",
-    "enFp": "2d2ff71974ae4def1396d94546f1f34e8978fcdcc22409c39547378ac93fab74"
+    "enFp": "2d2ff71974ae4def1396d94546f1f34e8978fcdcc22409c39547378ac93fab74",
+    "stale": false
+  },
+  "m1.platforms.ui.instruction": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:45:24Z",
+    "enFp": "8808618c422011e0036f030750e0759c7a9f568496c9136308fe4b3a1a3f0667"
+  },
+  "m1.platforms.ui.progress": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:45:24Z",
+    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de"
   }
 }
