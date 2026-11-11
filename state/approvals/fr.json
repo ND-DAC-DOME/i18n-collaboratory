@@ -5232,6 +5232,13 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:57:16Z",
-    "enFp": "59a99677b65e335ff6d99058491556e6ae7137bfc1ab4c35f72b4a17b317b23f"
+    "enFp": "59a99677b65e335ff6d99058491556e6ae7137bfc1ab4c35f72b4a17b317b23f",
+    "stale": false
+  },
+  "summary.slide.finishCourse": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:57:31Z",
+    "enFp": "4e612028e09a71f4020f2e52efeff8a27729d9fc27fa3f7d3a5956c091624636"
   }
 }
