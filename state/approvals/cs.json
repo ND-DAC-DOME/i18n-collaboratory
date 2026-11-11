@@ -1606,6 +1606,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:06:02Z",
-    "enFp": "0436b95937b89f9c2b367469e5a0ba5a600170d784f1ac848901213ee88b648d"
+    "enFp": "0436b95937b89f9c2b367469e5a0ba5a600170d784f1ac848901213ee88b648d",
+    "stale": false
+  },
+  "m5.layers.ui.backToLayers": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:06:48Z",
+    "enFp": "8053eb250ccf110b832ff3e617b54ed46ee60872c34d4068f15afd3eaaf2dd4b"
   }
 }
