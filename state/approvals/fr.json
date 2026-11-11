@@ -899,6 +899,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:48:28Z",
-    "enFp": "f187809c9632d2e8e5c0b363cf761b7a071f991f6e179b93e24cae48c1ac2e8d"
+    "enFp": "f187809c9632d2e8e5c0b363cf761b7a071f991f6e179b93e24cae48c1ac2e8d",
+    "stale": false
+  },
+  "m1.factors.ui.hint": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:48:37Z",
+    "enFp": "f09c94f3bbac7256823bb02e1a91a39abb72de6f07895d5223e92b260b689d7e"
   }
 }
