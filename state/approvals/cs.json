@@ -4525,12 +4525,38 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:22:56Z",
-    "enFp": "01eb40590df62664dc22c66bd99c78ed6385cbec283fe220a89e2cc511c16287"
+    "enFp": "01eb40590df62664dc22c66bd99c78ed6385cbec283fe220a89e2cc511c16287",
+    "stale": false
   },
   "m1.matteo.cards.c4.alt": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:22:56Z",
-    "enFp": "e76a35b82a3bd29fa91fe7d26ad5ad4ad7bc049994c925460b76dda37238701d"
+    "enFp": "e76a35b82a3bd29fa91fe7d26ad5ad4ad7bc049994c925460b76dda37238701d",
+    "stale": false
+  },
+  "m1.matteo.cards.c4.html": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:05Z",
+    "enFp": "9c3d6f49b9c271157ff5f0bd7171780087b8a07df36d633858db09669d951d46"
+  },
+  "m1.takeaways.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:05Z",
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
+  },
+  "m1.takeaways.items.i2": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:05Z",
+    "enFp": "a497e0a3739dfb2ac0c7eb316be0ad4238c18c43c3d16d338fae9b0c041c2df5"
+  },
+  "m1.takeaways.items.i3": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:05Z",
+    "enFp": "27179b333abdb0f3f42b601d64827d9e51878acb876ccf3482d68b3a73e207a3"
   }
 }
