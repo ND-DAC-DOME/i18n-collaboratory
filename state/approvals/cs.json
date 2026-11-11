@@ -1473,6 +1473,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:01:08Z",
-    "enFp": "88fee8685b050ced8f73b40b1a2c181659d197501301b78a4a481874bef3ceea"
+    "enFp": "88fee8685b050ced8f73b40b1a2c181659d197501301b78a4a481874bef3ceea",
+    "stale": false
+  },
+  "embeds.scroll.previewOnly": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:10Z",
+    "enFp": "51ca3511df7b5d6a13049f87883f1b24027e18ff47ee25301f221363b9fd6f4e"
   }
 }
