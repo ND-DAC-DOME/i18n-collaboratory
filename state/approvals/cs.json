@@ -1956,12 +1956,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:18:40Z",
-    "enFp": "d1498cb2d48250facbcb645aaf8d570b79fc0824d546a3cd7263a06ff0c933d9"
+    "enFp": "d1498cb2d48250facbcb645aaf8d570b79fc0824d546a3cd7263a06ff0c933d9",
+    "stale": false
   },
   "m5.layers.tracks.t2.who.media.title": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:18:40Z",
-    "enFp": "bb80b07dadbb23b89998d721cbc49ad96e224d4ce6b139568a6f92b884a01bf7"
+    "enFp": "bb80b07dadbb23b89998d721cbc49ad96e224d4ce6b139568a6f92b884a01bf7",
+    "stale": false
+  },
+  "m5.layers.tracks.t2.who.advocacy.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:19:43Z",
+    "enFp": "532c906c8e8c4b16b4f71eef26da52459f685623439b1f46653f2b8b5e117cb1"
   }
 }
