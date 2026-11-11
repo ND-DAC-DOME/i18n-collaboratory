@@ -6828,12 +6828,20 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:34:44Z",
-    "enFp": "aa654490aa233efeaca886b2f30debc63a51af7572f71795f1b73618eead1297"
+    "enFp": "aa654490aa233efeaca886b2f30debc63a51af7572f71795f1b73618eead1297",
+    "stale": false
   },
   "m3.slide.howPlatformsHelpReduceOnlineAbuse.heading": {
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:34:44Z",
-    "enFp": "13542ce3d3d9fff860f1e1813377e0bea8f49954cb9d4bdfb86abcdbbf2a63d2"
+    "enFp": "13542ce3d3d9fff860f1e1813377e0bea8f49954cb9d4bdfb86abcdbbf2a63d2",
+    "stale": false
+  },
+  "m3.slide.humanJudgementRemainsEssentialLanguageContext.body": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:35:46Z",
+    "enFp": "8d4281bdc9841697422ae3a90b15d73ae90a3711fce9940947a1d4f54de0e5c0"
   }
 }
