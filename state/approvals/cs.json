@@ -843,6 +843,37 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:41:36Z",
-    "enFp": "64bc1e433c5176fc7da038fd0bc24a1fdfcf60cec1840e725cc91e946f1295d6"
+    "enFp": "64bc1e433c5176fc7da038fd0bc24a1fdfcf60cec1840e725cc91e946f1295d6",
+    "stale": false
+  },
+  "summary.quiz.questions.q11.reveal": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:41:50Z",
+    "enFp": "67ad7f398dd0c9306afd0d10afc82c5c4bcbb90f56aec5e514aa6b16cba5b78b"
+  },
+  "summary.quiz.questions.q11.choices.c3": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:41:50Z",
+    "enFp": "0c17d7fb35d53b163cfe68fe8a17ed0ba5513b1b3699b0f8846f56739b4faff6"
+  },
+  "summary.quiz.questions.q11.choices.c2": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:41:50Z",
+    "enFp": "bace7632bf4b792208c38f5bb6547d2e35ed60e0fbe2675ede4be54080c8acd5"
+  },
+  "summary.quiz.questions.q11.choices.c1": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:41:50Z",
+    "enFp": "f8a7648692492794108d229e9786b82b223977bae79bf2626743b01a16eb9fcc"
+  },
+  "summary.quiz.questions.q11.choices.c0": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:41:50Z",
+    "enFp": "bc73c38b238a3b523ba5a9188d5e61eaa9d2d92c16855b34d66534b127c7b49b"
   }
 }
