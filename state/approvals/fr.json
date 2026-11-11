@@ -997,6 +997,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:52:37Z",
-    "enFp": "7e9a0a266ac7fe65af60a3a16f7bbdd5bd9b90d239d91fde28c9d978de0e2a8d"
+    "enFp": "7e9a0a266ac7fe65af60a3a16f7bbdd5bd9b90d239d91fde28c9d978de0e2a8d",
+    "stale": false
+  },
+  "m1.check.ui.blankAria": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:52:39Z",
+    "enFp": "6294d51dd3995cab5f64b32263f5fecf2a42ba5ed2d1daea5c7d30f2101b0c69"
   }
 }
