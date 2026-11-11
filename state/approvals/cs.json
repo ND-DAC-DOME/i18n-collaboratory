@@ -2418,18 +2418,27 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:03:25Z",
-    "enFp": "5252fa72232eed29fb6a64141c21a0bb20d089f33b44af492544bbf4ed161a7f"
+    "enFp": "5252fa72232eed29fb6a64141c21a0bb20d089f33b44af492544bbf4ed161a7f",
+    "stale": false
   },
   "m5.slide.onlineAbuseCanBeAddressedAt.body": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:03:25Z",
-    "enFp": "a2aba8e45477c5465fd58f65a11eb46f89cb2e12fe09595f0e663a7a597a69f2"
+    "enFp": "a2aba8e45477c5465fd58f65a11eb46f89cb2e12fe09595f0e663a7a597a69f2",
+    "stale": false
   },
   "m5.slide.introSubtitle": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:03:25Z",
-    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0",
+    "stale": false
+  },
+  "m5.slide.image.throughStrongerTogetherUaoaBringsPeople": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:03:29Z",
+    "enFp": "f3559027a269a032a6c34302a0d4c3a85126dccf4af92639be3ecdd23bbb718b"
   }
 }
