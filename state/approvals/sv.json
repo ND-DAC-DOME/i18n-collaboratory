@@ -5561,6 +5561,31 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T06:54:27Z",
-    "enFp": "1c87f3c39b0585aab450f6658543a7962c4c815017ee68f219be0897ff45afc0"
+    "enFp": "1c87f3c39b0585aab450f6658543a7962c4c815017ee68f219be0897ff45afc0",
+    "stale": false
+  },
+  "m2.impacts.cards.c3.research": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:55:37Z",
+    "enFp": "9861da8b4d160326c0e17a32c3f498d7d7462a88f6ae619486c0ef05b48cce5e"
+  },
+  "m2.impacts.cards.c3.source": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:55:37Z",
+    "enFp": "a74e755c0702d1c11c87c8bfdc7abdfc640f00c15fe52b9418d2a4cf4f04bf17"
+  },
+  "m2.impacts.cards.c4.title": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:55:37Z",
+    "enFp": "0a61e3c250fc0769f4b68ace22ac881ab04883c016cde2506ba4c2b1188f27b1"
+  },
+  "m2.impacts.cards.c4.short": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:55:37Z",
+    "enFp": "726d11bd5b230253cc5f795cfcb3268117267cb11fee8df060a472e6448abc56"
   }
 }
