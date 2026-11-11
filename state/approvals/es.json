@@ -5316,90 +5316,117 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "fe6ad19e0e23dd822db714d1a43794e928dc2b859f12eb8bbcc4fefa2a771eed"
+    "enFp": "fe6ad19e0e23dd822db714d1a43794e928dc2b859f12eb8bbcc4fefa2a771eed",
+    "stale": false
   },
   "summary.quiz.questions.q2.choices.c0": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "1d3fc73f3f60a8b16e5d422844781e244790abf7bf7f3500829b1b4de5ec317b"
+    "enFp": "1d3fc73f3f60a8b16e5d422844781e244790abf7bf7f3500829b1b4de5ec317b",
+    "stale": false
   },
   "summary.quiz.questions.q2.choices.c1": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "334c7e11c35da9ce38ca5d29bca15bdcd0190cc43bcdd81b87404bfefd1430f6"
+    "enFp": "334c7e11c35da9ce38ca5d29bca15bdcd0190cc43bcdd81b87404bfefd1430f6",
+    "stale": false
   },
   "summary.quiz.questions.q2.choices.c2": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "e1894ed5740b9aee942d49860f89b49a177acae44a430e75f2d705db488bcfd3"
+    "enFp": "e1894ed5740b9aee942d49860f89b49a177acae44a430e75f2d705db488bcfd3",
+    "stale": false
   },
   "summary.quiz.questions.q2.reveal": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "74caabe7fcd572afd2f28132996ba0dc1c456eb8aa6bf4ca7a617bc2b99374e3"
+    "enFp": "74caabe7fcd572afd2f28132996ba0dc1c456eb8aa6bf4ca7a617bc2b99374e3",
+    "stale": false
   },
   "summary.quiz.questions.q2.next": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "9bd8bf06c7d59e027f94d22c068163be57427eeca81cc4e85dfba77216fa5228"
+    "enFp": "9bd8bf06c7d59e027f94d22c068163be57427eeca81cc4e85dfba77216fa5228",
+    "stale": false
   },
   "summary.quiz.questions.q3.prompt": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "7ac83df1fb3c009fef754a338f705e83dcbfdc4a71c74a4f47722dc1915201c9"
+    "enFp": "7ac83df1fb3c009fef754a338f705e83dcbfdc4a71c74a4f47722dc1915201c9",
+    "stale": false
   },
   "summary.quiz.questions.q3.choices.c0": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "a1ccfe7d4a3f04317f1791cdc1bd5fd009903c8f06e75e28aebb59aa255d355d"
+    "enFp": "a1ccfe7d4a3f04317f1791cdc1bd5fd009903c8f06e75e28aebb59aa255d355d",
+    "stale": false
   },
   "summary.quiz.questions.q3.choices.c1": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "955ac28246c642f93834f11a2e4aeafc458175809a3ea5ecaea080c13b8636f3"
+    "enFp": "955ac28246c642f93834f11a2e4aeafc458175809a3ea5ecaea080c13b8636f3",
+    "stale": false
   },
   "summary.quiz.questions.q3.choices.c2": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "b6c1d862f9f75ec31eb9829b6a5968eb291dc8785e7fb59d4bc6ef00f292d3f7"
+    "enFp": "b6c1d862f9f75ec31eb9829b6a5968eb291dc8785e7fb59d4bc6ef00f292d3f7",
+    "stale": false
   },
   "summary.quiz.questions.q3.reveal": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "785c70df460edaed31f5a1252871b40de1d010eab5af11e7c3aa4eb3aac78354"
+    "enFp": "785c70df460edaed31f5a1252871b40de1d010eab5af11e7c3aa4eb3aac78354",
+    "stale": false
   },
   "summary.quiz.questions.q4.choices.c0": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "741b2cba8ae81c99cab47f5c4d2ab62db2133e26ce297f8a864bea2730a53314"
+    "enFp": "741b2cba8ae81c99cab47f5c4d2ab62db2133e26ce297f8a864bea2730a53314",
+    "stale": false
   },
   "summary.quiz.questions.q4.prompt": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "40e37f3ba1504896617d35f24a235bfab8fe81f25a85cce95a9889488f38f528"
+    "enFp": "40e37f3ba1504896617d35f24a235bfab8fe81f25a85cce95a9889488f38f528",
+    "stale": false
   },
   "summary.quiz.questions.q3.next": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "fe342c76255f368219cb29fe6ded99ff0e764bec0aa7bcbbd5f01568533fa551"
+    "enFp": "fe342c76255f368219cb29fe6ded99ff0e764bec0aa7bcbbd5f01568533fa551",
+    "stale": false
   },
   "summary.quiz.questions.q4.choices.c1": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:10Z",
-    "enFp": "99cd03af785a406ebd73583db48eaf02dbcb82fc303d453dbd27132272658203"
+    "enFp": "99cd03af785a406ebd73583db48eaf02dbcb82fc303d453dbd27132272658203",
+    "stale": false
+  },
+  "summary.exitThankyou.body": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T12:38:36Z",
+    "enFp": "f55b423e41a8702f9b11c0c8ecbeabe909d81b9bbf6fc76510ed668a32a607fe"
+  },
+  "summary.exitThankyou.quote1": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T12:38:36Z",
+    "enFp": "3e436cb58911fc9cdab8e276c921d1648d86011cd98b7afa2f149e20b4fc247a"
   }
 }
