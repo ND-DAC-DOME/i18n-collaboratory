@@ -2677,18 +2677,33 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:16:21Z",
-    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624"
+    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
+    "stale": false
   },
   "player.systemLabels.web_simulation.no_image_configured": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:16:21Z",
-    "enFp": "385ecc872a0e1db834146356da8127dea334b45286e98a7405ee8422a94e1520"
+    "enFp": "385ecc872a0e1db834146356da8127dea334b45286e98a7405ee8422a94e1520",
+    "stale": false
   },
   "player.systemLabels.web_simulation.navigate_to": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:16:21Z",
-    "enFp": "5060552031a7d1daea9e1476b1251715946500a6863d3f8a95de9920b4e7cb1b"
+    "enFp": "5060552031a7d1daea9e1476b1251715946500a6863d3f8a95de9920b4e7cb1b",
+    "stale": false
+  },
+  "player.systemLabels.web_simulation.loading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:16:27Z",
+    "enFp": "1e969de6ce23ff65674d57c1bd6d4530aba7dd8eb85367c0d82e2e06c9c5676f"
+  },
+  "player.systemLabels.web_simulation.failed_to_load_image": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:16:27Z",
+    "enFp": "af2035a4175034ba526fb3d7c91eae3de5fb5bdb76f8b5ae897bb7db6e420c7f"
   }
 }
