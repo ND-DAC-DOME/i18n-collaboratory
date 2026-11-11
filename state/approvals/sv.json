@@ -6982,6 +6982,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:42:24Z",
-    "enFp": "021fb430b8dd8749e508b0987a1c8171711ef9108b8181329016244e5b4017cd"
+    "enFp": "021fb430b8dd8749e508b0987a1c8171711ef9108b8181329016244e5b4017cd",
+    "stale": false
+  },
+  "m4.lawTabs.ui.prevAria": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:42:44Z",
+    "enFp": "262c8b0402993ff91eae78c6e0319a7211bb4742fbd15045258374e25916730f"
   }
 }
