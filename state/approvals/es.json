@@ -682,24 +682,154 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:58:41Z",
-    "enFp": "7845bcea692ff7c0a63d203f5b8847a4d2673fb68cc4d5e2b5d4536d153a0ba3"
+    "enFp": "7845bcea692ff7c0a63d203f5b8847a4d2673fb68cc4d5e2b5d4536d153a0ba3",
+    "stale": false
   },
   "player.systemLabels.assessment.case_insensitive": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:58:41Z",
-    "enFp": "1679b4d55499bd049e2b19896068789ee0929be74495da0198f538752b9d221b"
+    "enFp": "1679b4d55499bd049e2b19896068789ee0929be74495da0198f538752b9d221b",
+    "stale": false
   },
   "player.systemLabels.assessment.case_sensitive": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:58:41Z",
-    "enFp": "e124ba47cb3f7cda5e3560d22403ef03864f208fd4c77f42ede19e9647ffe6dd"
+    "enFp": "e124ba47cb3f7cda5e3560d22403ef03864f208fd4c77f42ede19e9647ffe6dd",
+    "stale": false
   },
   "player.systemLabels.assessment.complete_assessment": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:58:41Z",
-    "enFp": "572e01d9de084605b894fedc00534f39114ff51d0c026f79382fa3c915b5ff1a"
+    "enFp": "572e01d9de084605b894fedc00534f39114ff51d0c026f79382fa3c915b5ff1a",
+    "stale": false
+  },
+  "player.systemLabels.assessment.correct": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "aca01a1a3a27d35c264a8104b0f2817aa31a8a29f8eec1e6cceddc6ac208c723"
+  },
+  "player.systemLabels.assessment.continue_assessment": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "b9d69d529c4dea5b9af52684314e6b98c1237660e5c5520c54548894078b0611"
+  },
+  "player.systemLabels.assessment.correct_answer": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "fb019d338b4305efe54477d99324fd5bf8d81299562d3f09a344ea259568ff76"
+  },
+  "player.systemLabels.assessment.empty_description": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "957fc8d32164d2383d6011b857b1193aef6cfad80f32803eaaedd9fb6e2265ac"
+  },
+  "player.systemLabels.assessment.edit_response": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "f26154509d8898ca7f9b1cbd33a03462e1e7743c4b855a35d9eb401dc6c5cf2e"
+  },
+  "player.systemLabels.assessment.enter_response": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "f8e2b1cee09f0a0d1588b76845d04184edb7c66b8697f1dbd6f8d7d4ce6ebab1"
+  },
+  "player.systemLabels.assessment.fill_in_blank.choose": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "895ba517a993c95a933624b2689aa1b46335872a3a024a402924b51e6cdfa527"
+  },
+  "player.systemLabels.assessment.explanation": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "16ee4625bce919a2ec1a3ac9e3168a9e2c5d04a3159fd30539788f175e44b3ba"
+  },
+  "player.systemLabels.assessment.incorrect": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "a8a57dbc076774bf9ccc791d7f0d74fada5e36e20004eb080d5de7773ba17de2"
+  },
+  "player.systemLabels.assessment.fill_in_blank.type_here": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "8cbff9ea966c2720f8f11eeed5f8c562716f84914e14e9c7c2599e077956295b"
+  },
+  "player.systemLabels.assessment.next_question": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "f7a9d7437e96463835a47a3a8332a40fa38870f56ff117c1cc0a041958c95beb"
+  },
+  "player.systemLabels.assessment.numerical.tolerance": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "f71041bb481fcfb42b6e8fd8c081fa11320ff3ce7ceae2634a285814dee860c3"
+  },
+  "player.systemLabels.assessment.of": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624"
+  },
+  "player.systemLabels.assessment.numerical.type_here": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "8cbff9ea966c2720f8f11eeed5f8c562716f84914e14e9c7c2599e077956295b"
+  },
+  "player.systemLabels.assessment.overview": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "d4b1ea5708dd532930a85188b45aff6f0a3ed458500c7577e0127a538eb0d100"
+  },
+  "player.systemLabels.assessment.partially_correct": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "addceff4a9aaf9578f442ec178548ff040b395354c5a588243ea9a3c8ac1cf03"
+  },
+  "player.systemLabels.assessment.points_possible": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "7a13bab06d9358d4a15a429d08e6f02878261aee0f873ab0b63fd2558a27f221"
+  },
+  "player.systemLabels.assessment.progress": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "4664827f8e89019280ba99cd889f9ea31eaeecf6fc1bb7541c4a0e546685599f"
+  },
+  "player.systemLabels.assessment.previous": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa"
+  },
+  "player.systemLabels.assessment.question": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "289aff12b04274cb04b8f7dbf486ba8b3528c6fd16b60b9a31d31ce23b339236"
+  },
+  "player.systemLabels.assessment.questions": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:06Z",
+    "enFp": "9a72221a27476f3e907767bc2614ae6aaa0a45c60543a23f89786b571897bb75"
   }
 }
