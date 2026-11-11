@@ -118,7 +118,7 @@
       },
       "labels": {
         "offensiveSpeech": {
-          "text": "Urážlivé projevy",
+          "text": "Urážlivý projev",
           "note": "Choice button; answer index 0"
         },
         "digitalHostility": {
