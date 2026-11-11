@@ -80,6 +80,19 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:20:47Z",
-    "enFp": "62f8ef065f909b2e4613f9d267d4853b502d6e3426684081d226ed2413470dd7"
+    "enFp": "62f8ef065f909b2e4613f9d267d4853b502d6e3426684081d226ed2413470dd7",
+    "stale": false
+  },
+  "common.questionNavAria": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:21:33Z",
+    "enFp": "52e7b6dc1c7989a97c7f9f822111a3c81fbac9987dadaf01be3dfc684ee5ea81"
+  },
+  "common.close": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:21:33Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   }
 }
