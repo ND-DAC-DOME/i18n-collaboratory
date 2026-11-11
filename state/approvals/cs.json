@@ -1788,6 +1788,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:17:22Z",
-    "enFp": "7bd34abba2aec0c6f00b4b111402581d36f7cfaeb310164f06ce85792ac34b64"
+    "enFp": "7bd34abba2aec0c6f00b4b111402581d36f7cfaeb310164f06ce85792ac34b64",
+    "stale": false
+  },
+  "m5.layers.tracks.t2.eyebrow": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:17:47Z",
+    "enFp": "43b586fbfdc4444d87885323f5c2dd441a218826ea2e808e5e630b618933a839"
   }
 }
