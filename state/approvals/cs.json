@@ -2502,6 +2502,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:08:26Z",
-    "enFp": "f05882dca428ac0b08aae21566d8881a31e40a3b9fea38480ac32b36a06d6039"
+    "enFp": "f05882dca428ac0b08aae21566d8881a31e40a3b9fea38480ac32b36a06d6039",
+    "stale": false
+  },
+  "m4.slide.howCanLegalResponsesDifferBy.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:08:43Z",
+    "enFp": "05fe2bba783a050d82992c0c9be216678ea30cb0a06f1abe55cabce0e2e5a9f1"
   }
 }
