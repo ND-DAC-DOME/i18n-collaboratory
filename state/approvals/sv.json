@@ -6814,6 +6814,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:33:58Z",
-    "enFp": "5051d671b5197604b3756500dc4d2814e1bd556b6ece5ed0502f839645f323a5"
+    "enFp": "5051d671b5197604b3756500dc4d2814e1bd556b6ece5ed0502f839645f323a5",
+    "stale": false
+  },
+  "m3.slide.howPlatformsHelpReduceOnlineAbuse.body": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:34:21Z",
+    "enFp": "4ae7d2b670a83a2c4fe4030c59f2f5cf095d2dcb85da1c592c3ce42c356efa8c"
   }
 }
