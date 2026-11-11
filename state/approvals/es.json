@@ -2131,6 +2131,31 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:15:34Z",
-    "enFp": "49ed2d6d182e8a084e0c12b51ceadc5c15b2c44c466fcfe5af77721269c90a92"
+    "enFp": "49ed2d6d182e8a084e0c12b51ceadc5c15b2c44c466fcfe5af77721269c90a92",
+    "stale": false
+  },
+  "m1.forms.cards.c1.body": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:15:46Z",
+    "enFp": "8c3ac8a2abb7e48df5417e051b45d94d9328acda6398405104ef458ecbdbacaa"
+  },
+  "m1.forms.cards.c1.front2": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:15:46Z",
+    "enFp": "57a2be45ad606af575304e03ca25df1ed76971a736ed7298be6ba7202b77b684"
+  },
+  "m1.forms.cards.c2.name": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:15:46Z",
+    "enFp": "7f24d5daf3a95fd71e7013dcf5255f0fd2013f82d8d272e5f4a1109c39fa9679"
+  },
+  "m1.forms.cards.c2.body": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:15:46Z",
+    "enFp": "9ce77337491d9fc83b34ff86b79697b4d8764280f7e8a22656cb45a34b595b3f"
   }
 }
