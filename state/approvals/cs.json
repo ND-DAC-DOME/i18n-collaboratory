@@ -1977,6 +1977,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:21:04Z",
-    "enFp": "0b871b144dd7c3fda78a5dbff6e6c3e8baaf2bda51d6e23625c1848aec9d97de"
+    "enFp": "0b871b144dd7c3fda78a5dbff6e6c3e8baaf2bda51d6e23625c1848aec9d97de",
+    "stale": false
+  },
+  "m5.layers.tracks.t2.who.advocacy.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:21:12Z",
+    "enFp": "1431605247bd47a4bebbe622b8f069550b57a537b8db46b69a00ac2751ea041a"
+  },
+  "m5.layers.tracks.t2.orpTitle": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:21:12Z",
+    "enFp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }
