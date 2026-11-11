@@ -2530,6 +2530,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:10:17Z",
-    "enFp": "f73d5bc42e2a3139877eb57857d688c840d3e9610e60455073292d9d42a59d99"
+    "enFp": "f73d5bc42e2a3139877eb57857d688c840d3e9610e60455073292d9d42a59d99",
+    "stale": false
+  },
+  "m4.slide.responsibilitiesBeyondTheLaw.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:10:24Z",
+    "enFp": "6e6db98bf9b7ccae60f36a7f26f55628ec0fca728c2c090552bf289bb16193d7"
   }
 }
