@@ -6681,6 +6681,25 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:28:58Z",
-    "enFp": "edfb8f94022e2a314c330a4cc221fa0e51def4055bcafebd5e0a8633076f08ec"
+    "enFp": "edfb8f94022e2a314c330a4cc221fa0e51def4055bcafebd5e0a8633076f08ec",
+    "stale": false
+  },
+  "m3.trueFalse.questions.q3.prompt": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:29:04Z",
+    "enFp": "bfbbb5198620682cd1e74286c699ca361295c76db00d0397c360dbd598de7f8e"
+  },
+  "m3.trueFalse.questions.q3.choices.c0": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:29:04Z",
+    "enFp": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18"
+  },
+  "m3.trueFalse.questions.q3.choices.c1": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:29:04Z",
+    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
   }
 }
