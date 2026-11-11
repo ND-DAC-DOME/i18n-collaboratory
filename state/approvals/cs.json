@@ -962,6 +962,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:54:19Z",
-    "enFp": "021fb430b8dd8749e508b0987a1c8171711ef9108b8181329016244e5b4017cd"
+    "enFp": "021fb430b8dd8749e508b0987a1c8171711ef9108b8181329016244e5b4017cd",
+    "stale": false
+  },
+  "m4.lawTabs.ui.navAria": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:54:25Z",
+    "enFp": "370dcc558d9b26f34a0d4d2674d94e52734241d8a91cfa8c1353fee569ab5138"
+  },
+  "m4.lawTabs.ui.prevAria": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:54:25Z",
+    "enFp": "262c8b0402993ff91eae78c6e0319a7211bb4742fbd15045258374e25916730f"
   }
 }
