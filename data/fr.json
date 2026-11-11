@@ -81,7 +81,7 @@
   "survey": {
     "preCourse": {
       "iframeTitle": {
-        "text": "Enquête préalable au cours",
+        "text": "Enquête préalable à la formation",
         "note": "iframe title for Qualtrics embed between Welcome and Module 1"
       },
       "intro": {
