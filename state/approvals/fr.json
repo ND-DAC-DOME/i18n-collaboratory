@@ -1508,6 +1508,19 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:08:57Z",
-    "enFp": "6b95e310f8e823e61d90080b62fba17d3974f9139c02e537955aa170faf76a5c"
+    "enFp": "6b95e310f8e823e61d90080b62fba17d3974f9139c02e537955aa170faf76a5c",
+    "stale": false
+  },
+  "m2.check.questions.q1.choices.c3": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:09:03Z",
+    "enFp": "7f19172296d71e539e931f2a1db991d770d42440900d07f0bb8b746a2fee940a"
+  },
+  "m2.check.questions.q2.prompt": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:09:03Z",
+    "enFp": "9dc3c7e41a26c26a064f5ac7fa8700302c366791b6d11dcdfac54f5a1ea13b6f"
   }
 }
