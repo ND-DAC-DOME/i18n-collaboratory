@@ -3867,6 +3867,19 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:05:49Z",
-    "enFp": "bc22e9d5d864b5ba722d653102909f84ddb373b733be7bb45eded85db315b9bc"
+    "enFp": "bc22e9d5d864b5ba722d653102909f84ddb373b733be7bb45eded85db315b9bc",
+    "stale": false
+  },
+  "m1.slide.whatDoWeUnderstandByOnline.body": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:06:07Z",
+    "enFp": "c01924929b36c46bd63e64fe81bb262804cbe594a0a610e9d796ea7d6246033c"
+  },
+  "m1.slide.whatDoWeUnderstandByOnline.heading": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:06:07Z",
+    "enFp": "93d6a0e7862e8ce7f08b1e141b1795c6b89e0f90e71a0971a8c463563c35124a"
   }
 }
