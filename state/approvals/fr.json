@@ -2782,18 +2782,27 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:37Z",
-    "enFp": "765d9a73b2a94ebb6452a9552a71e9915a829974060823efa5d07d09faac604c"
+    "enFp": "765d9a73b2a94ebb6452a9552a71e9915a829974060823efa5d07d09faac604c",
+    "stale": false
   },
   "m3.slide.exploreReportingSystemsInYourCountry.heading": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:37Z",
-    "enFp": "0337b9aab3606c464c1a34dc671fe19cf361fbb5425e34bb54f4e7461a71a803"
+    "enFp": "0337b9aab3606c464c1a34dc671fe19cf361fbb5425e34bb54f4e7461a71a803",
+    "stale": false
   },
   "m3.slide.exploreWhichFactorsCanInfluenceHow.heading": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:37Z",
-    "enFp": "5051d671b5197604b3756500dc4d2814e1bd556b6ece5ed0502f839645f323a5"
+    "enFp": "5051d671b5197604b3756500dc4d2814e1bd556b6ece5ed0502f839645f323a5",
+    "stale": false
+  },
+  "m3.slide.howPlatformsHelpReduceOnlineAbuse.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:35:40Z",
+    "enFp": "4ae7d2b670a83a2c4fe4030c59f2f5cf095d2dcb85da1c592c3ce42c356efa8c"
   }
 }
