@@ -360,6 +360,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:33:22Z",
-    "enFp": "561a8ef003f80e604f42e805dbb57f1fff7dedcd32aa916bed7a216595e27982"
+    "enFp": "561a8ef003f80e604f42e805dbb57f1fff7dedcd32aa916bed7a216595e27982",
+    "stale": false
+  },
+  "welcome.slide.welcomeTitle.heading": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:33:37Z",
+    "enFp": "74dc06dab269536afab95cca4fce8171e84052902a1415570a583cc823944e14"
   }
 }
