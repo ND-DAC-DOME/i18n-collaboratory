@@ -7080,6 +7080,13 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:13:03Z",
-    "enFp": "528016affaa599203fbe8089bed38528e15f7c4b9860f403dfcee7f282b82232"
+    "enFp": "528016affaa599203fbe8089bed38528e15f7c4b9860f403dfcee7f282b82232",
+    "stale": false
+  },
+  "m2.affected.cards.c6.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:13:15Z",
+    "enFp": "9fa98713efe7c544edd3e017c70308468402b1ff8b69c3a763c1f661d2e07487"
   }
 }
