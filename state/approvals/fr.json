@@ -206,6 +206,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:25:43Z",
-    "enFp": "42bb3844d01d06a8292661620a40c76c1444ab65f4a22db9160a3d10e9be1fc6"
+    "enFp": "42bb3844d01d06a8292661620a40c76c1444ab65f4a22db9160a3d10e9be1fc6",
+    "stale": false
+  },
+  "course.outline.slides.finalQuiz": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:25:46Z",
+    "enFp": "e996d74a3b491ce68cbc40dfcbd1469b724eafa38cdf0a76aed78ddc15492c89"
   }
 }
