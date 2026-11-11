@@ -1655,102 +1655,143 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "301b843724f10ba740cee6f3a1c67ec9828e73e12f9f84017b8188ec6115541d"
+    "enFp": "301b843724f10ba740cee6f3a1c67ec9828e73e12f9f84017b8188ec6115541d",
+    "stale": false
   },
   "player.systemLabels.separator.section_break": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "66f41a831f779cc7184ea4cb68ad765313c760c5e9c004bc2db5acde5c6b6591"
+    "enFp": "66f41a831f779cc7184ea4cb68ad765313c760c5e9c004bc2db5acde5c6b6591",
+    "stale": false
   },
   "player.systemLabels.slide_intro.minute": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c"
+    "enFp": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c",
+    "stale": false
   },
   "player.systemLabels.slide_intro.lesson": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "6e2b26d9de4033b952bd242f69b798420ee887151b937f394efc23252c78af74"
+    "enFp": "6e2b26d9de4033b952bd242f69b798420ee887151b937f394efc23252c78af74",
+    "stale": false
   },
   "player.systemLabels.slide_intro.minutes": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
+    "enFp": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985",
+    "stale": false
   },
   "player.systemLabels.slide_intro.of": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624"
+    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
+    "stale": false
   },
   "player.systemLabels.slide_intro.table_of_contents": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "e331da0741fb6d0552bc27483ba0720778440c520b59be917613781679ede70f"
+    "enFp": "e331da0741fb6d0552bc27483ba0720778440c520b59be917613781679ede70f",
+    "stale": false
   },
   "player.systemLabels.slide_intro.untitled_lesson": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "a468e313c7985a973a1b1f8d7f903b8bb628ef868931e7e6711925db2224f60c"
+    "enFp": "a468e313c7985a973a1b1f8d7f903b8bb628ef868931e7e6711925db2224f60c",
+    "stale": false
   },
   "player.systemLabels.sorting.correct_order": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "507550a0d981d39f07c05a6278530e8a18c24ccc2727efaa8a100b2892ef831a"
+    "enFp": "507550a0d981d39f07c05a6278530e8a18c24ccc2727efaa8a100b2892ef831a",
+    "stale": false
   },
   "player.systemLabels.sorting.drag_item": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "d4dab120aa0e487b1c6435e5138105ac3bc329c6f72ae7262ee9b9e2cbac8cd3"
+    "enFp": "d4dab120aa0e487b1c6435e5138105ac3bc329c6f72ae7262ee9b9e2cbac8cd3",
+    "stale": false
   },
   "player.systemLabels.sorting.correct_position": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "847d6873841b42ee22daa5b255f3f6ae1ff5025bf92fbf5edf25edfab8d6146f"
+    "enFp": "847d6873841b42ee22daa5b255f3f6ae1ff5025bf92fbf5edf25edfab8d6146f",
+    "stale": false
   },
   "player.systemLabels.sorting.item": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733"
+    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733",
+    "stale": false
   },
   "player.systemLabels.sorting.move_next": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "934397722f4bee912b3f281d566054d5e96338dbf3176671ead04404a0eb0dff"
+    "enFp": "934397722f4bee912b3f281d566054d5e96338dbf3176671ead04404a0eb0dff",
+    "stale": false
   },
   "player.systemLabels.sorting.position_for": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "3b572d3e14e1e310cf173e0879075ae1c0afd1657e825b2970ecc8c0ecfde858"
+    "enFp": "3b572d3e14e1e310cf173e0879075ae1c0afd1657e825b2970ecc8c0ecfde858",
+    "stale": false
   },
   "player.systemLabels.sorting.move_previous": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "d03d4e29c8c07795f00cd0ef305990114273976a61885ddb6908891ca21e2787"
+    "enFp": "d03d4e29c8c07795f00cd0ef305990114273976a61885ddb6908891ca21e2787",
+    "stale": false
   },
   "player.systemLabels.tabs.more": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189"
+    "enFp": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189",
+    "stale": false
   },
   "player.systemLabels.time_requirements.completed": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:11:23Z",
-    "enFp": "4f0994cc6119c9fde9a815c8b7aa4f9b898fbde6df031a38a847b3b8b387165f"
+    "enFp": "4f0994cc6119c9fde9a815c8b7aa4f9b898fbde6df031a38a847b3b8b387165f",
+    "stale": false
+  },
+  "player.systemLabels.time_requirements.elapsed": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:11:35Z",
+    "enFp": "97f4ebf295406067547d55d337ab0ca5a72202dcd27ae066223cc9eb266f8ffe"
+  },
+  "player.systemLabels.time_requirements.done": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:11:35Z",
+    "enFp": "11a6767d5674c7e45f7e00dc525762275b3a48491ad6045427d2609cc496c516"
+  },
+  "player.systemLabels.time_requirements.minute": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:11:35Z",
+    "enFp": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c"
+  },
+  "player.systemLabels.time_requirements.remaining": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:11:35Z",
+    "enFp": "41855492921277b112b27515a21646fd8c30f4c9d19374425ad4c0e01c6eb698"
   }
 }
