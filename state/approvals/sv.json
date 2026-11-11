@@ -5869,12 +5869,44 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:41:18Z",
-    "enFp": "f40438fe1673cfc4003ef6ed06134ded9f433337e052c3007edca493931604bc"
+    "enFp": "f40438fe1673cfc4003ef6ed06134ded9f433337e052c3007edca493931604bc",
+    "stale": false
   },
   "m3.trueFalse.questions.q1.ok": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:41:18Z",
-    "enFp": "31c6917d1bc715a2e85c2e3ebe85c9719a0eb5f8f85786bbc610c4e12db0f39f"
+    "enFp": "31c6917d1bc715a2e85c2e3ebe85c9719a0eb5f8f85786bbc610c4e12db0f39f",
+    "stale": false
+  },
+  "m3.regionTabs.ui.prompt": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:41:35Z",
+    "enFp": "fd1e61d37a805aecddbbe8110abdbad355b3c54f92b920c09eecf44033a28259"
+  },
+  "m3.regionTabs.ui.placeholder": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:41:35Z",
+    "enFp": "a260b617957ce2a7d6a2fccfdb0703ee9b80a681e128d22b4e1182d238db4e89"
+  },
+  "m3.regionTabs.ui.regionsAria": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:41:35Z",
+    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004"
+  },
+  "m3.regionTabs.ui.close": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:41:35Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+  },
+  "m3.regionTabs.ui.closeAria": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:41:35Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   }
 }
