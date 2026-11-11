@@ -3559,6 +3559,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:25:44Z",
-    "enFp": "49b03ebc13a35d2dbd3bba02b8c148f969364e98fc348e3f17ab32a122431984"
+    "enFp": "49b03ebc13a35d2dbd3bba02b8c148f969364e98fc348e3f17ab32a122431984",
+    "stale": false
+  },
+  "embeds.sensitiveNotice.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:25:48Z",
+    "enFp": "7ac041f54921143a500e990c84e33cf536bd5864ed5daaaf70135caa7247071c"
   }
 }
