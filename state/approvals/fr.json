@@ -2215,6 +2215,13 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:32:12Z",
-    "enFp": "815aed4716abb0b5699db8cb0c1a2a1895170d643f11c0319a6e774370e9cbd0"
+    "enFp": "815aed4716abb0b5699db8cb0c1a2a1895170d643f11c0319a6e774370e9cbd0",
+    "stale": false
+  },
+  "m2.slide.section5Body3": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:32:15Z",
+    "enFp": "4e132bea4e8af41f6badb2dcb779164cda6c707d1b6c05839910aa1972f5dfba"
   }
 }
