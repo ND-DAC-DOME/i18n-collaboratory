@@ -2215,6 +2215,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:27:22Z",
-    "enFp": "8d3173bca0b09f5e45d6d73b949b357459f53d73bf8d1d2879e73df0b684c12b"
+    "enFp": "8d3173bca0b09f5e45d6d73b949b357459f53d73bf8d1d2879e73df0b684c12b",
+    "stale": false
+  },
+  "m5.flow3.steps.s4.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:28:53Z",
+    "enFp": "aca508d503c8c263a991345b526295297549791d23a07cd932870247fa65bada"
   }
 }
