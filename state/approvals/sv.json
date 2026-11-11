@@ -335,13 +335,6 @@
     "stale": false,
     "enFp": "d8f615aa297c02400631c571166b104cc7400bdbcf5bc4d4218cd610495c32f0"
   },
-  "welcome.slide.euDisclaimer.body": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T10:34:37Z",
-    "stale": false,
-    "enFp": "63d608e04388aac7e3be1ff8e66274a04808d5a7d7de8ee7d1484993a5d3cfdd"
-  },
   "welcome.slide.sportConnectsMillionsOfPeopleAcross.body": {
     "approved": true,
     "by": "Lisa Kaati",
@@ -7087,6 +7080,7 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:48:21Z",
-    "enFp": "ceb3ce17801cf7f93878c17ba76e427ff2a2bd9aa68e9059801e061101357234"
+    "enFp": "ceb3ce17801cf7f93878c17ba76e427ff2a2bd9aa68e9059801e061101357234",
+    "stale": false
   }
 }
