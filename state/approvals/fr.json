@@ -1354,6 +1354,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:57:07Z",
-    "enFp": "6955d7bd898f5657eef3604ee094d52e2d4d77fc328903b2fb2560d3cc1e86f6"
+    "enFp": "6955d7bd898f5657eef3604ee094d52e2d4d77fc328903b2fb2560d3cc1e86f6",
+    "stale": false
+  },
+  "m1.slide.applyWhatDoYouSee.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:57:09Z",
+    "enFp": "82e38f2773499fd93ebc541d91af31612ce2468c3c7d6ba66fb92135074d828c"
   }
 }
