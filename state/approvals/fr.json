@@ -143,6 +143,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:24:57Z",
-    "enFp": "dadf0f41aea8e2d19eace6036351c975e1db85abea40ef4125e525958432181b"
+    "enFp": "dadf0f41aea8e2d19eace6036351c975e1db85abea40ef4125e525958432181b",
+    "stale": false
+  },
+  "course.outline.sections.introduction": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:25:00Z",
+    "enFp": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
   }
 }
