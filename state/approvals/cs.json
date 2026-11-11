@@ -1641,12 +1641,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:07:00Z",
-    "enFp": "896b3fc7f7d4808b9b4867f28aa36211b8f2cc0cf9a03f666489ef9e8e8cd1ec"
+    "enFp": "896b3fc7f7d4808b9b4867f28aa36211b8f2cc0cf9a03f666489ef9e8e8cd1ec",
+    "stale": false
   },
   "m5.layers.ui.orpShort": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:07:00Z",
-    "enFp": "858240b16e7440d44066bb8df81bc5b57cf565e22e3f9861d24e0c1639497fa3"
+    "enFp": "858240b16e7440d44066bb8df81bc5b57cf565e22e3f9861d24e0c1639497fa3",
+    "stale": false
+  },
+  "m5.layers.ui.clickToReveal": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:07:03Z",
+    "enFp": "dca25e981717f2ec2e991db72e946ea7f8224dc8475c04d9626544615e0390eb"
   }
 }
