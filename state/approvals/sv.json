@@ -6954,6 +6954,19 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:40:57Z",
-    "enFp": "42fa9a618d51c6f441ac1ed0e49069fafe67468d4d899e0af2836f5cb7c4abdb"
+    "enFp": "42fa9a618d51c6f441ac1ed0e49069fafe67468d4d899e0af2836f5cb7c4abdb",
+    "stale": false
+  },
+  "m3.risksBenefits.benefits.b2": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:41:03Z",
+    "enFp": "dbc28323f0f30a1fcdd115e6f3a601a6a1dcaad14d7ddd5ecf91ada6736a94cf"
+  },
+  "m3.risksBenefits.benefits.b3": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:41:03Z",
+    "enFp": "8d5e54fb828fed4e03df77a2e769de11f07ea5d456d8ed96d95df5ae66e7646c"
   }
 }
