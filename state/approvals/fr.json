@@ -1830,12 +1830,26 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:34Z",
-    "enFp": "8bcd965bb580ccbfbc14bf0ac179c991d972b23753ade7c9b9d67392b17cf1f2"
+    "enFp": "8bcd965bb580ccbfbc14bf0ac179c991d972b23753ade7c9b9d67392b17cf1f2",
+    "stale": false
   },
   "m2.impacts.cards.c1.short": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:34Z",
-    "enFp": "ae55ea403754bb91e40ed699bacb8564f99748bff0047d969da1c67eeeb4f7e6"
+    "enFp": "ae55ea403754bb91e40ed699bacb8564f99748bff0047d969da1c67eeeb4f7e6",
+    "stale": false
+  },
+  "m2.impacts.cards.c1.alt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:29:44Z",
+    "enFp": "d002d0d1a2fc032ac03ee4afe6d391e061cde7cac5148de8874c0cb329b70be0"
+  },
+  "m2.impacts.cards.c1.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:29:44Z",
+    "enFp": "e18b394017d91caaf1409041a478a4e5cd8d7684cd7956cded6f5454f0d33502"
   }
 }
