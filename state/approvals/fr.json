@@ -1711,6 +1711,13 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:28:40Z",
-    "enFp": "5a213fbcd265498751d464e299a1712ac16311cc78e6aa7171c3d99ac6bc215a"
+    "enFp": "5a213fbcd265498751d464e299a1712ac16311cc78e6aa7171c3d99ac6bc215a",
+    "stale": false
+  },
+  "m2.exploreImpacts.ui.hint": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:28:53Z",
+    "enFp": "3052a7fd67f68b0c2306ffec29d5f6611ac703cd386c7ac54d3613e9fdc6f521"
   }
 }
