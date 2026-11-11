@@ -7073,6 +7073,13 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:12:06Z",
-    "enFp": "c4cb4c4d70c27a3c2e87391221754c4b7d4bc78423bc632b0b86732ed7dd52b7"
+    "enFp": "c4cb4c4d70c27a3c2e87391221754c4b7d4bc78423bc632b0b86732ed7dd52b7",
+    "stale": false
+  },
+  "m2.takeaways.items.i2": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:13:03Z",
+    "enFp": "528016affaa599203fbe8089bed38528e15f7c4b9860f403dfcee7f282b82232"
   }
 }
