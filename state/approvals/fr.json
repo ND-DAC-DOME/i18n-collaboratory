@@ -5316,18 +5316,117 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:11Z",
-    "enFp": "979526b999048a86454f567949f2eb1a2cd05599036a31e2af4cd38e597e22d7"
+    "enFp": "979526b999048a86454f567949f2eb1a2cd05599036a31e2af4cd38e597e22d7",
+    "stale": false
   },
   "embeds.sensitiveNotice.supportTitle": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:11Z",
-    "enFp": "de7efdd7a64919a8f9a23779888e447a55a51d16b83e81f0c68b69e98088ff63"
+    "enFp": "de7efdd7a64919a8f9a23779888e447a55a51d16b83e81f0c68b69e98088ff63",
+    "stale": false
   },
   "embeds.sensitiveNotice.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:11Z",
-    "enFp": "6cb64ecd13b5d407a9f813b5f4f100c846830916eb9a0ddb3887a158bfb02450"
+    "enFp": "6cb64ecd13b5d407a9f813b5f4f100c846830916eb9a0ddb3887a158bfb02450",
+    "stale": false
+  },
+  "embeds.sensitiveNotice.supportIntro": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "c3ea06786596972346c9aa3574dafba02af72104726e714c19e139b2b9c55759"
+  },
+  "embeds.sensitiveNotice.someoneTrusted": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "c271e6d926b7bb24e90aa90d0282cd3f1ec753c4b4339b56a7339f1725dfd052"
+  },
+  "embeds.sensitiveNotice.someoneTrustedDetail": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "556cac87a22dfe557830bcd01ca14e17169608d6af8c15703bbfe8507541306a"
+  },
+  "embeds.sensitiveNotice.orgLead": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "49b03ebc13a35d2dbd3bba02b8c148f969364e98fc348e3f17ab32a122431984"
+  },
+  "embeds.sensitiveNotice.closeAria": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+  },
+  "embeds.sensitiveNotice.close": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+  },
+  "embeds.sensitiveNotice.orgLeadDetail": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "94c8b6d7a55a7ed49a9a6d8154f0418d8ceb155e8b9d10d400c217e63709c7a9"
+  },
+  "embeds.sensitiveNotice.platformReporting": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "c59cbe275b112caa7058f0095115be0df247b8d1a64b7ad177f28efa9efd05ab"
+  },
+  "embeds.sensitiveNotice.platformReportingDetail": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "cea4b61d2c52ce8825f4075fc87ca482e889776fea600f178b5b4f9a6e5af901"
+  },
+  "embeds.sensitiveNotice.emergencyServices": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "72de9732532395031147176a7d011e5e3ceb88a55aff568efbbcd74b611286fc"
+  },
+  "embeds.sensitiveNotice.emergencyServicesDetail": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "20bd84bf566fda4fc356cd80ffe602029d44a12f95680bd72d07dd2ba0b28f66"
+  },
+  "embeds.miniDictionary.teaser": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "3030d206b671d1f951459de9217f4c504eb5d3b75dd3c3a6f2095efcb5176393"
+  },
+  "embeds.miniDictionary.linkLabel": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "637e4aab899ea4d8e98942d5a55486db74a94589c7d3fe9d72ada595a8c5ee38"
+  },
+  "embeds.miniDictionary.cta": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "f647dc2a31e9e85660843bf459a473e7789a48b659f683c8cf577d311d0d2bda"
+  },
+  "embeds.miniDictionary.closeAria": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+  },
+  "embeds.miniDictionary.backToCourse": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:34Z",
+    "enFp": "fa7dcce95a411284dbbd7e4939feb5e8b5cbba5e805a097248ea21f23f24a548"
   }
 }
