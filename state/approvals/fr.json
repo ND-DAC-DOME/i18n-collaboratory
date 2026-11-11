@@ -1704,6 +1704,13 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:28:24Z",
-    "enFp": "91a76248c08500216483cf4090979effad7b4b1f2d2b42d7dbd8e1695832c289"
+    "enFp": "91a76248c08500216483cf4090979effad7b4b1f2d2b42d7dbd8e1695832c289",
+    "stale": false
+  },
+  "m2.exploreImpacts.ui.prompt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:28:40Z",
+    "enFp": "5a213fbcd265498751d464e299a1712ac16311cc78e6aa7171c3d99ac6bc215a"
   }
 }
