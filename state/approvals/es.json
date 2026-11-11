@@ -311,6 +311,13 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:55:21Z",
-    "enFp": "9d8d61b075f04bebb4c1364e0c8868f724dd42bafe397a3539ca1d0f4700d5e1"
+    "enFp": "9d8d61b075f04bebb4c1364e0c8868f724dd42bafe397a3539ca1d0f4700d5e1",
+    "stale": false
+  },
+  "welcome.outcomes.items.i4": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:56:13Z",
+    "enFp": "f19d90e78a5b5f52d1ff42d3787e4f9cfe278b4a4d51cb505fdc75f58049037a"
   }
 }
