@@ -732,7 +732,7 @@
       "questions": {
         "q1": {
           "prompt": {
-            "text": "Vilket alternativ återspeglar bäst spektrumet av personer som kan drabbas av onlineövergrepp inom idrotten?",
+            "text": "Vilket alternativ återspeglar bäst de personer som kan drabbas av övergrepp online inom idrotten?",
             "note": "MCQ stem"
           },
           "choices": {
