@@ -374,6 +374,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:34:22Z",
-    "enFp": "d6859998f82d7296cfbdc61d7ecbc2e714d7ce15d26d395d36395f216b447973"
+    "enFp": "d6859998f82d7296cfbdc61d7ecbc2e714d7ce15d26d395d36395f216b447973",
+    "stale": false
+  },
+  "welcome.slide.unitedAgainstOnlineAbuseUaoaBrings.p3": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:34:34Z",
+    "enFp": "36b23fc34c99109586314a6c262b1a949dedd1ed2014cc02daf3e7d5b1086671"
   }
 }
