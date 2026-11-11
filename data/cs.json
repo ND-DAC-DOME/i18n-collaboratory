@@ -3686,7 +3686,7 @@
           "note": "ScormStack player/system label `completion.continue_reviewing`"
         },
         "debug_info": {
-          "text": "Informace o ladění",
+          "text": "Ladicí informace",
           "note": "ScormStack player/system label `completion.debug_info`"
         },
         "exit_course": {
