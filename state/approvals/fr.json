@@ -2838,24 +2838,52 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:54Z",
-    "enFp": "9a782b08ec9a5b06639334c03d021ffec0605c6631ee8662dd2bd5f6770d3960"
+    "enFp": "9a782b08ec9a5b06639334c03d021ffec0605c6631ee8662dd2bd5f6770d3960",
+    "stale": false
   },
   "m3.slide.introSubtitle": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:54Z",
-    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0",
+    "stale": false
   },
   "m3.slide.lookingAhead.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:54Z",
-    "enFp": "7230eb73123c1f9715e792af2bc0cf2ae475feb98022e190c4f80641d395fa09"
+    "enFp": "7230eb73123c1f9715e792af2bc0cf2ae475feb98022e190c4f80641d395fa09",
+    "stale": false
   },
   "m3.slide.lookingAhead.heading": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:54Z",
-    "enFp": "ecfcc5b640010da8e3c9e01bbbf39311a163f90ce616b62239d511cd6c92c513"
+    "enFp": "ecfcc5b640010da8e3c9e01bbbf39311a163f90ce616b62239d511cd6c92c513",
+    "stale": false
+  },
+  "m3.slide.onlineAbuseCanSpreadQuicklyAnd.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:02Z",
+    "enFp": "b8b68c4a506b98f75623cb0ec5709109af2b7d76e6b09d7be19291d79bd4237b"
+  },
+  "m3.slide.reportingOnlineAbuseOnSocialMedia.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:02Z",
+    "enFp": "997b8a239baeb56cf01f3e61d6cf1817b187c67b8c467546b4a0a4a51b2996f4"
+  },
+  "m3.slide.reportingOnlineAbuseOnSocialMedia.heading": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:02Z",
+    "enFp": "0550e94a41b3e755586a8bb7883ae347bf076440ee03007353c5af639449a8b6"
+  },
+  "m3.slide.selectARegionToLearnMore.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:02Z",
+    "enFp": "857f8607fa808eb2c53d8780992ea3726ff0b9e5ae6feb174982690babba1945"
   }
 }
