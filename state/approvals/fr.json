@@ -66,6 +66,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:20:42Z",
-    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8",
+    "stale": false
+  },
+  "common.questionsCorrect": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:20:44Z",
+    "enFp": "da8e7b71ef0650cde00f4716ad47b9031279877c917b261a1e821c82258d24a8"
   }
 }
