@@ -332,12 +332,20 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:56:23Z",
-    "enFp": "3ac5b64a9296b7198f9156599c0effe78dff2149fa1617aee0dcbd61fbc99663"
+    "enFp": "3ac5b64a9296b7198f9156599c0effe78dff2149fa1617aee0dcbd61fbc99663",
+    "stale": false
   },
   "welcome.slide.whatYouWillGain": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:56:23Z",
-    "enFp": "d8f615aa297c02400631c571166b104cc7400bdbcf5bc4d4218cd610495c32f0"
+    "enFp": "d8f615aa297c02400631c571166b104cc7400bdbcf5bc4d4218cd610495c32f0",
+    "stale": false
+  },
+  "welcome.slide.buildReadiness": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:56:25Z",
+    "enFp": "daf0d4b4a8d6779cad91236634caa60d3c224b3b43ae50d55fdf9a75874b6970"
   }
 }
