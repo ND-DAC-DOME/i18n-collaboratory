@@ -3790,6 +3790,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:32:02Z",
-    "enFp": "df257f7117719e388e0478e5a97198b2dee48be33c752792d7fa65c0eae51e6c"
+    "enFp": "df257f7117719e388e0478e5a97198b2dee48be33c752792d7fa65c0eae51e6c",
+    "stale": false
+  },
+  "m1.apply.scenarios.s1.ok": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:35:45Z",
+    "enFp": "8f2fc7a5de2b496a23a510b315a31140570b55605d694d2f353640fea532e82e"
   }
 }
