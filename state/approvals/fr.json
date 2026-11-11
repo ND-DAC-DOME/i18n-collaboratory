@@ -1816,6 +1816,13 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:22Z",
-    "enFp": "f9455929bfc155000e80ab0f626453f0964857297528670f7b1b7e1ff5710674"
+    "enFp": "f9455929bfc155000e80ab0f626453f0964857297528670f7b1b7e1ff5710674",
+    "stale": false
+  },
+  "m2.impacts.ui.sourceLabel": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:29:28Z",
+    "enFp": "c707ee4ecc24044266322a90cf1a23752824f57a628facc169ddbe215ada4adb"
   }
 }
