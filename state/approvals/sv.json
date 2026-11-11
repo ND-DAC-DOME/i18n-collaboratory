@@ -5330,6 +5330,25 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T06:51:10Z",
-    "enFp": "9fa98713efe7c544edd3e017c70308468402b1ff8b69c3a763c1f661d2e07487"
+    "enFp": "9fa98713efe7c544edd3e017c70308468402b1ff8b69c3a763c1f661d2e07487",
+    "stale": false
+  },
+  "m2.exploreImpacts.ui.prompt": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:51:17Z",
+    "enFp": "5a213fbcd265498751d464e299a1712ac16311cc78e6aa7171c3d99ac6bc215a"
+  },
+  "m2.exploreImpacts.ui.hint": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:51:17Z",
+    "enFp": "3052a7fd67f68b0c2306ffec29d5f6611ac703cd386c7ac54d3613e9fdc6f521"
+  },
+  "m2.exploreImpacts.ui.count": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:51:17Z",
+    "enFp": "4e80dbeacae4812287f8e0789d5051c33241f082957c44c40130473b393b735b"
   }
 }
