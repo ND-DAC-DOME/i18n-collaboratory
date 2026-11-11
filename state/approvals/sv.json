@@ -5470,6 +5470,13 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T06:53:04Z",
-    "enFp": "d002d0d1a2fc032ac03ee4afe6d391e061cde7cac5148de8874c0cb329b70be0"
+    "enFp": "d002d0d1a2fc032ac03ee4afe6d391e061cde7cac5148de8874c0cb329b70be0",
+    "stale": false
+  },
+  "m2.impacts.cards.c1.body": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:53:08Z",
+    "enFp": "e18b394017d91caaf1409041a478a4e5cd8d7684cd7956cded6f5454f0d33502"
   }
 }
