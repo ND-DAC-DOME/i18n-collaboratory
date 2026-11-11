@@ -2754,6 +2754,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:16:41Z",
-    "enFp": "f36524f539bc30c9db9b25be6e159a784d8f79cc5e79519c6c143a81ba394121"
+    "enFp": "f36524f539bc30c9db9b25be6e159a784d8f79cc5e79519c6c143a81ba394121",
+    "stale": false
+  },
+  "player.systemLabels.time_requirements.spend_at_least": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:16:44Z",
+    "enFp": "ab24e7c0019b0b290535cb991cd6b0cea7061506c5b2624af793c583b7cc5442"
   }
 }
