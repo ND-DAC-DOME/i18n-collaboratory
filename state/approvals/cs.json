@@ -1609,13 +1609,6 @@
     "enFp": "0436b95937b89f9c2b367469e5a0ba5a600170d784f1ac848901213ee88b648d",
     "stale": false
   },
-  "m5.layers.ui.backToLayers": {
-    "approved": true,
-    "by": "Veronika",
-    "at": "2026-11-11T14:06:48Z",
-    "enFp": "8053eb250ccf110b832ff3e617b54ed46ee60872c34d4068f15afd3eaaf2dd4b",
-    "stale": false
-  },
   "m5.layers.ui.openLayer": {
     "approved": true,
     "by": "Veronika",
@@ -1697,12 +1690,14 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:07:27Z",
-    "enFp": "4e46712ae703940fb86be49b6176ee1836de54d246ddec1b2e901f508d7f655a"
+    "enFp": "4e46712ae703940fb86be49b6176ee1836de54d246ddec1b2e901f508d7f655a",
+    "stale": false
   },
   "m5.layers.ui.exploredAria": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:07:27Z",
-    "enFp": "3f3406368e194f4e87e391d73f413dc0e298cba4ded10180b72e3803f4cf42e4"
+    "enFp": "3f3406368e194f4e87e391d73f413dc0e298cba4ded10180b72e3803f4cf42e4",
+    "stale": false
   }
 }
