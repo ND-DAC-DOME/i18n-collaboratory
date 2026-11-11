@@ -5869,6 +5869,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:58:04Z",
-    "enFp": "6931ac49d283ada745058d14fe4556d4991fc1ea5f35e122f4e77c7ad592ea4b"
+    "enFp": "6931ac49d283ada745058d14fe4556d4991fc1ea5f35e122f4e77c7ad592ea4b",
+    "stale": false
+  },
+  "m4.regions.items.i5.html": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:58:27Z",
+    "enFp": "ceb3ce17801cf7f93878c17ba76e427ff2a2bd9aa68e9059801e061101357234"
   }
 }
