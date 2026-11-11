@@ -4567,6 +4567,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:08Z",
-    "enFp": "2be507436656e8b5eca995b8231876d130760410f519bf8570983489f6b85561"
+    "enFp": "2be507436656e8b5eca995b8231876d130760410f519bf8570983489f6b85561",
+    "stale": false
+  },
+  "m1.takeaways.items.i5": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:13Z",
+    "enFp": "7b855ed65c4cb66a2cf127ff44de585960b8c77950a110643a38f7a0afc72996"
+  },
+  "m1.takeaways.items.i1": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:13Z",
+    "enFp": "39af4a4d2d1cff39ebb91f96d50f1609ad4ff6a294b816c5662fd5e8fb2c3e5d"
   }
 }
