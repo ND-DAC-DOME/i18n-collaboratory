@@ -2943,12 +2943,20 @@
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:09:26Z",
-    "enFp": "e4bb9f1ece9af9264a3b9e3913bbdb2cf497457167b14ced5f85688bfde74644"
+    "enFp": "e4bb9f1ece9af9264a3b9e3913bbdb2cf497457167b14ced5f85688bfde74644",
+    "stale": false
   },
   "player.systemLabels.web_simulation.step": {
     "approved": true,
     "by": "Gabrijela Jerman",
     "at": "2026-11-10T16:09:26Z",
-    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4"
+    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4",
+    "stale": false
+  },
+  "m1.apply.scenarios.s1.text": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T10:48:46Z",
+    "enFp": "351bab53ba6b6f636ecd67755061024544b43547f6bc5b79794bb8a405b70292"
   }
 }
