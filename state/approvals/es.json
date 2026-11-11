@@ -2607,12 +2607,20 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:19:23Z",
-    "enFp": "c7df4e906d1437d43e2ff8caae3a1a18207f987039d01b35d162a5251752cb3b"
+    "enFp": "c7df4e906d1437d43e2ff8caae3a1a18207f987039d01b35d162a5251752cb3b",
+    "stale": false
   },
   "m1.check.questions.q2.sentenceMid2": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:19:23Z",
-    "enFp": "44359e21492d788147966d8c0bc5beb2f4f4d0d05dd36f3ff36a0cd36a349907"
+    "enFp": "44359e21492d788147966d8c0bc5beb2f4f4d0d05dd36f3ff36a0cd36a349907",
+    "stale": false
+  },
+  "m1.check.questions.q3.choices.religion": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:26Z",
+    "enFp": "f8a52d21e659b0e9b473f4e23263def011931bad06bad2146f42b1f5d09c8132"
   }
 }
