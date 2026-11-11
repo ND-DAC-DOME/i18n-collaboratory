@@ -2355,6 +2355,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:02:07Z",
-    "enFp": "48e1e346a998e4cdf94ea0247b69a0b0924e94dbde7994dd7161f4984ff2dea1"
+    "enFp": "48e1e346a998e4cdf94ea0247b69a0b0924e94dbde7994dd7161f4984ff2dea1",
+    "stale": false
+  },
+  "m5.widerSystem.rows.organisations": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:02:23Z",
+    "enFp": "0c49388af654ea4339fdf85e3bd817d4242510c0f834a1cf589f41c9682b38f5"
   }
 }
