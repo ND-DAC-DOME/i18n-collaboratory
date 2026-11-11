@@ -3100,7 +3100,7 @@
           "note": "Closes readiness flip modal on the back face"
         },
         "cardAria": {
-          "text": "Carte du score de préparation"
+          "text": "Carte d'évaluation du niveau de préparation"
         }
       }
     },
