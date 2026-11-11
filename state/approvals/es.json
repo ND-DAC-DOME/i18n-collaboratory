@@ -4630,78 +4630,97 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18"
+    "enFp": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18",
+    "stale": false
   },
   "m3.trueFalse.questions.q3.choices.c0": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18"
+    "enFp": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18",
+    "stale": false
   },
   "m3.trueFalse.questions.q3.choices.c1": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe",
+    "stale": false
   },
   "m3.trueFalse.questions.q3.prompt": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "bfbbb5198620682cd1e74286c699ca361295c76db00d0397c360dbd598de7f8e"
+    "enFp": "bfbbb5198620682cd1e74286c699ca361295c76db00d0397c360dbd598de7f8e",
+    "stale": false
   },
   "m3.trueFalse.questions.q3.ok": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "e0de7f37bd4fa5c372d42882095b9f4097b905019c5029d631e5f88bccb84137"
+    "enFp": "e0de7f37bd4fa5c372d42882095b9f4097b905019c5029d631e5f88bccb84137",
+    "stale": false
   },
   "m3.takeaways.heading": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45",
+    "stale": false
   },
   "m3.takeaways.items.i1": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "d5ce3f22518dfb9e452a40f83d73fbb801f1a6ec7b65902c9e3ba2ae6e11cb81"
+    "enFp": "d5ce3f22518dfb9e452a40f83d73fbb801f1a6ec7b65902c9e3ba2ae6e11cb81",
+    "stale": false
   },
   "m3.takeaways.items.i2": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "d6d65e91544e3eb8c517d4c9f98a7935413a09bbe540bd62a6f77b125bedd2a7"
+    "enFp": "d6d65e91544e3eb8c517d4c9f98a7935413a09bbe540bd62a6f77b125bedd2a7",
+    "stale": false
   },
   "m3.takeaways.items.i3": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "882601c1d278c1c9ebac57a32d95dc329ebdb44cf18942a635c3846f92c2f5e3"
+    "enFp": "882601c1d278c1c9ebac57a32d95dc329ebdb44cf18942a635c3846f92c2f5e3",
+    "stale": false
   },
   "m3.takeaways.items.i4": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "99315dd0f8375fa024b1c3f431bcf209a44506d5497bd8779cc9624089483caa"
+    "enFp": "99315dd0f8375fa024b1c3f431bcf209a44506d5497bd8779cc9624089483caa",
+    "stale": false
   },
   "m3.takeaways.items.i5": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "1a5cbcd1e488bbee2ab07d0cccfcc4728bcfaf41e87aec3192ca3ba272ec6749"
+    "enFp": "1a5cbcd1e488bbee2ab07d0cccfcc4728bcfaf41e87aec3192ca3ba272ec6749",
+    "stale": false
   },
   "m3.takeaways.items.i6": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "68782be788584529c0944c5cbaf4187f2c88eb09bf6ec6d36e56236cd9607ab4"
+    "enFp": "68782be788584529c0944c5cbaf4187f2c88eb09bf6ec6d36e56236cd9607ab4",
+    "stale": false
   },
   "m3.takeaways.items.i7": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:35Z",
-    "enFp": "a1ec8428212fefd310a97723e0c2f92493f3b5ca05ae7dac7518ff4c252ad105"
+    "enFp": "a1ec8428212fefd310a97723e0c2f92493f3b5ca05ae7dac7518ff4c252ad105",
+    "stale": false
+  },
+  "m3.reportingSystems.ui.placeholder": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T12:34:55Z",
+    "enFp": "987e56551009a40fa80e35374d5c693c0ea28560cf07c2b5b583d672537a6e67"
   }
 }
