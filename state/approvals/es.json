@@ -283,6 +283,19 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:54:56Z",
-    "enFp": "e421ad16deb67aaff24966953c47b238bc4042f1f0f64dc0856a2cc5b397e0e3"
+    "enFp": "e421ad16deb67aaff24966953c47b238bc4042f1f0f64dc0856a2cc5b397e0e3",
+    "stale": false
+  },
+  "welcome.partners.caption": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:55:07Z",
+    "enFp": "ede43c8fea3ad387b4147525161d2a68a531a1c5e54e6ff5c6ba0142d01cfb5f"
+  },
+  "welcome.outcomes.listAria": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:55:07Z",
+    "enFp": "80ec3be6cd6c2d698e2af137b3e93fce7f1bfca343382b773ba963c3474fb1e6"
   }
 }
