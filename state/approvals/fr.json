@@ -52,6 +52,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:20:33Z",
-    "enFp": "1ff0f3bdfbd0fe145f2580270b6df3001a166c508499e882448c3fcc6161be41"
+    "enFp": "1ff0f3bdfbd0fe145f2580270b6df3001a166c508499e882448c3fcc6161be41",
+    "stale": false
+  },
+  "common.submitted": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:20:37Z",
+    "enFp": "64900440a8c9a5eda335b124b9824aa4f14f2c280097d5556498d276f60ecdf1"
   }
 }
