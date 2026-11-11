@@ -2061,12 +2061,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:24:22Z",
-    "enFp": "749eff04ee565c0345fe361ffc030bc4a3b64154342cdba3c1ab1ac50fc317de"
+    "enFp": "749eff04ee565c0345fe361ffc030bc4a3b64154342cdba3c1ab1ac50fc317de",
+    "stale": false
   },
   "m5.flow1.steps.s1.title": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:24:22Z",
-    "enFp": "dc42436fbac9aeb2072732d1a5c112266f36540a483930d73ab4b5ef0fb5c70d"
+    "enFp": "dc42436fbac9aeb2072732d1a5c112266f36540a483930d73ab4b5ef0fb5c70d",
+    "stale": false
+  },
+  "m5.flow1.steps.s1.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:24:37Z",
+    "enFp": "d943f502d450f75b96b0e70f100917ded9e787c86120aa6e6098f5485906af48"
   }
 }
