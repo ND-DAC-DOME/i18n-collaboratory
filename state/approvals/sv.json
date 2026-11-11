@@ -6016,12 +6016,26 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:46:17Z",
-    "enFp": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd"
+    "enFp": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd",
+    "stale": false
   },
   "m3.regionTabs.tabs.t3.html": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:46:17Z",
-    "enFp": "c393629d60a07a32dbcd1da0ea94ceafce8fa59fa7e9df88824efed9d5c68433"
+    "enFp": "c393629d60a07a32dbcd1da0ea94ceafce8fa59fa7e9df88824efed9d5c68433",
+    "stale": false
+  },
+  "m3.checklist.ui.title": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:46:22Z",
+    "enFp": "55853e82212419b3b9552b36cd274c88dd85cb71d80540d9015649a517b98583"
+  },
+  "m3.checklist.ui.progress": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:46:22Z",
+    "enFp": "1dc03e9a9e202dc43fea83f67ad910dc5732afcdd1235852d78f48357608ee97"
   }
 }
