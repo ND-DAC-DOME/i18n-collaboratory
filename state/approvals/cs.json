@@ -3188,66 +3188,95 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "6cbe77f1c9c63f29be5fdce906b1a942adbbd3d9577957283bc0f8fa2c6030cb"
+    "enFp": "6cbe77f1c9c63f29be5fdce906b1a942adbbd3d9577957283bc0f8fa2c6030cb",
+    "stale": false
   },
   "player.systemLabels.assessment.results": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "219c4a6c86a716e99d5dc9611b61e584deb11b57e972d87d4b773387ebc3cadd"
+    "enFp": "219c4a6c86a716e99d5dc9611b61e584deb11b57e972d87d4b773387ebc3cadd",
+    "stale": false
   },
   "player.systemLabels.assessment.review_questions": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "e2fd5ab96d018d36e69aa3048c7522797f1730aabc8c998f7c36d584852d7c45"
+    "enFp": "e2fd5ab96d018d36e69aa3048c7522797f1730aabc8c998f7c36d584852d7c45",
+    "stale": false
   },
   "player.systemLabels.assessment.score": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "38e5a46cbc5ad32842ac60a4f1425ac9b31c06bac685f446a06ab72b87de31ed"
+    "enFp": "38e5a46cbc5ad32842ac60a4f1425ac9b31c06bac685f446a06ab72b87de31ed",
+    "stale": false
   },
   "player.systemLabels.assessment.start_assessment": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "be3b4a3de7d59a1c27aa6cf6d45afeb77740116b4d759df15f0ccdb8d05bb86f"
+    "enFp": "be3b4a3de7d59a1c27aa6cf6d45afeb77740116b4d759df15f0ccdb8d05bb86f",
+    "stale": false
   },
   "player.systemLabels.assessment.submit": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "155f816c0407310c0dab222493370773e045ee7fe04e6c9a951b07f495531264"
+    "enFp": "155f816c0407310c0dab222493370773e045ee7fe04e6c9a951b07f495531264",
+    "stale": false
   },
   "player.systemLabels.assessment.string.type_here": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "8cbff9ea966c2720f8f11eeed5f8c562716f84914e14e9c7c2599e077956295b"
+    "enFp": "8cbff9ea966c2720f8f11eeed5f8c562716f84914e14e9c7c2599e077956295b",
+    "stale": false
   },
   "player.systemLabels.assessment.submitted": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "9555f28f097c7ed24a23e60a72599a0cab60db5b85003c2543f66a6aabed0d4d"
+    "enFp": "9555f28f097c7ed24a23e60a72599a0cab60db5b85003c2543f66a6aabed0d4d",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.checkpoint_reached": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "039815db6a2d40153e892989e6941236457b6d13843c0755861557990a1ef73f"
+    "enFp": "039815db6a2d40153e892989e6941236457b6d13843c0755861557990a1ef73f",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.continue_with_extra_questions": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "b0edff7669c11122c83571b6381d2574bd0d5a82189cdcf67ea99e51f7237aee"
+    "enFp": "b0edff7669c11122c83571b6381d2574bd0d5a82189cdcf67ea99e51f7237aee",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.extra_question": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:07Z",
-    "enFp": "5bac36699b53373a20c2c2ed1746b8e53411da7ba0bc43300e71f39674495efa"
+    "enFp": "5bac36699b53373a20c2c2ed1746b8e53411da7ba0bc43300e71f39674495efa",
+    "stale": false
+  },
+  "player.systemLabels.assessment.success_meter.lets_try_a_few_more_questions_to_boost_your_score": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:13Z",
+    "enFp": "2cb206455db6b03471e5b409c594650e79de4e03f7b2de4caa032e03975a493a"
+  },
+  "player.systemLabels.assessment.success_meter.maximum_attempts_reached": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:13Z",
+    "enFp": "c00bc93746c403d8ab2f28a1ec1b9b21cb796dd092eed7df083fbdce06732e6d"
+  },
+  "player.systemLabels.assessment.success_meter.performance_level": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:13Z",
+    "enFp": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3"
   }
 }
