@@ -1186,6 +1186,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:57:35Z",
-    "enFp": "853637136575897a73cba3c5fb085e8c8a2627df22983d2bbe9ff158d11351b4"
+    "enFp": "853637136575897a73cba3c5fb085e8c8a2627df22983d2bbe9ff158d11351b4",
+    "stale": false
+  },
+  "m4.regions.items.i5.html": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:57:42Z",
+    "enFp": "ceb3ce17801cf7f93878c17ba76e427ff2a2bd9aa68e9059801e061101357234"
+  },
+  "m4.regions.items.i6.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:57:42Z",
+    "enFp": "56059e7fb4e9ddfa1470a50a43ac2f05509cb802757e68d35d9033232b097e58"
   }
 }
