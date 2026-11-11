@@ -2411,6 +2411,25 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:03:18Z",
-    "enFp": "8abdda894f40977a83ad3d60ecb5d7e6ce74da153fd55fd3536b92ca24055003"
+    "enFp": "8abdda894f40977a83ad3d60ecb5d7e6ce74da153fd55fd3536b92ca24055003",
+    "stale": false
+  },
+  "m5.slide.onlineAbuseInSportCanAffect.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:03:25Z",
+    "enFp": "5252fa72232eed29fb6a64141c21a0bb20d089f33b44af492544bbf4ed161a7f"
+  },
+  "m5.slide.onlineAbuseCanBeAddressedAt.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:03:25Z",
+    "enFp": "a2aba8e45477c5465fd58f65a11eb46f89cb2e12fe09595f0e663a7a597a69f2"
+  },
+  "m5.slide.introSubtitle": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:03:25Z",
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
   }
 }
