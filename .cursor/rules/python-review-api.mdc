@@ -1,0 +1,18 @@
+---
+description: Conventions for the review API and approval helpers
+globs: "**/*.py"
+alwaysApply: false
+---
+
+# Review API
+
+`api/server.py` serves static files and `/api/*` from the stdlib HTTP server. `approval_util.py` is the approval rules; do not duplicate fingerprint or leaf logic in the handler.
+
+- A catalog leaf is `{text: str, note?: str}`. Objects with extra keys are walked, not treated as one string. Skip keys starting with `_`.
+- `enFp` is `hashlib.sha256(text.encode("utf-8")).hexdigest()`. Missing legacy `enFp` is backfilled from current English and kept approved.
+- Writes that change a locale (approve, unapprove, save) require `lock.sessionId` to match. Reads do not.
+- Saving a translation deletes that key’s approval in the same response.
+- On GitHub 409 for approvals, drop the cached blob SHA and retry the same key updates once.
+- `scripts/sync_catalogs.py` uses `parents[3] / source/i18n` from the monorepo layout. In this repo the script lives at `scripts/`, so fix that path before running it here.
+
+New Supabase persistence should store the same approval and lease fields. Do not write a git commit on heartbeat.

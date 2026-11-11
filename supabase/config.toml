@@ -1,0 +1,42 @@
+# Supabase local / deploy config for the i18n translation hub.
+# Link a remote project with: npx supabase link --project-ref <ref>
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 15
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+enabled = true
+site_url = "http://127.0.0.1:8787"
+additional_redirect_urls = ["http://127.0.0.1:8787", "http://localhost:8787"]
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+enable_confirmations = false
+
+[auth.external.github]
+enabled = true
+client_id = "env(GITHUB_CLIENT_ID)"
+secret = "env(GITHUB_CLIENT_SECRET)"
+redirect_uri = "http://127.0.0.1:54321/auth/v1/callback"
+
+[functions.ingest]
+verify_jwt = false
+
+[functions.credentials]
+verify_jwt = true
+
+[functions.push]
+verify_jwt = true

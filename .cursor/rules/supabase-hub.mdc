@@ -1,0 +1,15 @@
+---
+description: Supabase schema, RLS, and Edge Function conventions
+globs: supabase/**/*
+alwaysApply: false
+---
+
+# Supabase hub
+
+- Authorization lives in `project_members` / `hub_admins`, never in `user_metadata`.
+- Helper functions stay in schema `app` (not exposed on the Data API).
+- `project_credentials` has no SELECT for `authenticated`; only Edge Functions with the service role read it.
+- `ingest` uses `verify_jwt = false` and a hashed per-project push secret.
+- First ingest honors `initialApproval` (`approved`|`unapproved`, default `unapproved`) only when `head_version_hash` is null.
+- Later ingest keeps sticky `en_fp` approvals; changed English marks translations stale and stores `previous_text` on source strings.
+- Encrypt GitHub tokens with `CREDENTIALS_ENCRYPTION_KEY` before writing `project_credentials`.

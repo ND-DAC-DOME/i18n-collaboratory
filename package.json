@@ -1,0 +1,13 @@
+{
+  "name": "i18n-collaboratory",
+  "private": true,
+  "type": "module",
+  "description": "Multi-project translation review hub (GitHub Pages + Supabase)",
+  "scripts": {
+    "import:local": "node scripts/import_local_catalogs.mjs",
+    "test:markup": "node markup.test.js"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.49.1"
+  }
+}

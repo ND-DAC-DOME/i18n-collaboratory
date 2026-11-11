@@ -3,38 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UAOA Translation Review</title>
-  <link rel="stylesheet" href="styles.css?v=36">
+  <title>i18n Collaboratory</title>
+  <link rel="stylesheet" href="styles.css?v=40">
 </head>
 <body>
   <header class="app-header">
     <div class="brand">
-      <h1>UAOA Translation Review</h1>
+      <h1>i18n Collaboratory</h1>
       <p>English left · translation right · approve to stamp</p>
     </div>
     <div class="header-controls">
-      <label>
+      <label id="projectLabel" hidden>
+        Project
+        <select id="projectSelect" aria-label="Project"></select>
+      </label>
+      <label id="localeLabel" hidden>
         Locale
         <select id="localeSelect" aria-label="Locale"></select>
       </label>
-      <span class="pill" id="reviewerPill">Reviewer…</span>
-      <span class="pill" id="lockPill">Lock…</span>
+      <span class="pill" id="reviewerPill">Signed out</span>
+      <span class="pill" id="lockPill" hidden>Lock…</span>
       <button type="button" class="btn btn-ghost btn-checkout" id="checkoutBtn" hidden aria-label="Start Review">
-        <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <rect x="5" y="11" width="14" height="10" rx="2" stroke="currentColor" stroke-width="2"/>
-          <path d="M8 11V8a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          <circle cx="12" cy="16" r="1.5" fill="currentColor"/>
-        </svg>
         <span>Start Review</span>
       </button>
       <button type="button" class="btn btn-ghost btn-release" id="releaseBtn" hidden aria-label="Release locale">
-        <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M8 11V8a4 4 0 0 1 7.5-2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          <rect x="5" y="11" width="14" height="10" rx="2" stroke="currentColor" stroke-width="2"/>
-          <circle cx="12" cy="16" r="1.5" fill="currentColor"/>
-        </svg>
         <span>Release</span>
       </button>
+      <button type="button" class="btn btn-ghost" id="adminBtn" hidden>Admin</button>
+      <button type="button" class="btn btn-ghost" id="downloadBtn" hidden>Download</button>
+      <button type="button" class="btn btn-ghost" id="signOutBtn" hidden>Sign out</button>
     </div>
   </header>
 
@@ -42,13 +39,34 @@
     <div class="wake-banner-inner">
       <span class="wake-spinner" aria-hidden="true"></span>
       <div class="wake-banner-copy">
-        <strong id="wakeBannerTitle">Server is waking up</strong>
-        <p id="wakeBannerBody">Please wait up to 1 minute for the server to resume from hibernation.</p>
+        <strong id="wakeBannerTitle">Database is starting</strong>
+        <p id="wakeBannerBody">Please wait a moment and retry. A daily keep-alive workflow resumes a paused free project.</p>
       </div>
     </div>
   </div>
 
-  <div class="layout">
+  <div id="authScreen" class="auth-screen" hidden>
+    <div class="auth-card">
+      <h2>Sign in to review</h2>
+      <p>Use GitHub, or an email magic link once custom SMTP is configured on the Supabase project.</p>
+      <button type="button" class="btn btn-approve" id="githubSignIn">Continue with GitHub</button>
+      <div class="auth-divider">or</div>
+      <label class="auth-email">
+        Email
+        <input id="magicEmail" type="email" autocomplete="email" placeholder="you@example.com">
+      </label>
+      <button type="button" class="btn btn-ghost" id="magicSignIn">Send magic link</button>
+      <p class="auth-note" id="authNote" hidden></p>
+    </div>
+  </div>
+
+  <div id="emptyHub" class="empty-hub" hidden>
+    <h2>No projects yet</h2>
+    <p>You are signed in, but you are not a member of any translation project. Ask a project admin for an invite.</p>
+    <p id="hubAdminHint" hidden>You are a hub admin — open Admin to create the first project.</p>
+  </div>
+
+  <div id="appLayout" class="layout" hidden>
     <aside class="sidebar">
       <h2>Modules</h2>
       <div class="mod-list" id="modList"></div>
@@ -64,20 +82,23 @@
     </main>
   </div>
 
-  <div class="modal-backdrop" id="nameModal" hidden>
-    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="nameTitle">
-      <h2 id="nameTitle">Who’s reviewing?</h2>
-      <p>Enter your name so we can check out a locale for you and record approvals. No account required.</p>
-      <input id="nameInput" type="text" maxlength="80" placeholder="Your name" autocomplete="name">
+  <div class="modal-backdrop" id="adminModal" hidden>
+    <div class="modal modal-wide" role="dialog" aria-modal="true" aria-labelledby="adminTitle">
+      <h2 id="adminTitle">Project admin</h2>
+      <div id="adminBody" class="admin-body"></div>
       <div class="row-actions">
-        <button type="button" class="btn btn-approve" id="nameStart">Start reviewing</button>
+        <button type="button" class="btn btn-cancel" id="adminClose">Close</button>
       </div>
     </div>
   </div>
 
   <div class="toast" id="toast" role="status"></div>
-  <script src="config.js?v=36"></script>
-  <script src="markup.js?v=36"></script>
-  <script src="app.js?v=36"></script>
+
+  <script src="vendor/supabase.min.js?v=40"></script>
+  <script src="vendor/jszip.min.js?v=40"></script>
+  <script src="config.js?v=40"></script>
+  <script src="hub.js?v=40"></script>
+  <script src="markup.js?v=40"></script>
+  <script src="app.js?v=40"></script>
 </body>
 </html>

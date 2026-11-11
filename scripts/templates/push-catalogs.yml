@@ -1,0 +1,42 @@
+# Copy into a site repo as .github/workflows/push-catalogs.yml
+# Secrets on the site repo:
+#   I18N_INGEST_URL   — https://<ref>.supabase.co/functions/v1/ingest
+#   I18N_PUSH_SECRET  — per-project push secret from the hub Admin UI
+# Optional env:
+#   INITIAL_APPROVAL  — approved | unapproved (first push only; default unapproved)
+#   SOURCE_LOCALE     — default en
+#   LOCALES_DIR       — default locales
+
+name: push-i18n-catalogs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'locales/**'
+      - '.github/workflows/push-catalogs.yml'
+  workflow_dispatch:
+    inputs:
+      initial_approval:
+        description: 'First push only: approved or unapproved'
+        required: false
+        default: 'unapproved'
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Push catalogs to i18n hub
+        env:
+          INGEST_URL: ${{ secrets.I18N_INGEST_URL }}
+          I18N_PUSH_SECRET: ${{ secrets.I18N_PUSH_SECRET }}
+          VERSION_HASH: ${{ github.sha }}
+          PROJECT_SLUG: ${{ vars.I18N_PROJECT_SLUG }}
+          SOURCE_LOCALE: en
+          LOCALES_DIR: locales
+          INITIAL_APPROVAL: ${{ github.event.inputs.initial_approval || 'unapproved' }}
+        run: node scripts/push-catalogs.mjs

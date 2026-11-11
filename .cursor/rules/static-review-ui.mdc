@@ -1,0 +1,25 @@
+---
+description: Conventions for the static translation review client
+globs: index.html,app.js,markup.js,markup.test.js,config.js,styles.css
+alwaysApply: false
+---
+
+# Static review UI
+
+Vanilla files only. No bundler. `app.js` is one IIFE. Configuration is `window.UAOA_I18N_REVIEW` in `config.js`.
+
+- Bump the `?v=` query on every script tag in `index.html` when `config.js`, `markup.js`, or `app.js` changes.
+- Locale list in `config.js` must match the API’s review locales: `es`, `cs`, `sl`, `sv`, `fr`.
+- Module order is `common`, `course`, `welcome`, `survey`, `m1`–`m5`, `summary`, `embeds`, `player`. Widget id is the first two key segments, except `player.*` (first three).
+- Do not render anchors as links. Join saved text through `UAOAMarkup.readEditor` so the English template is restored.
+- Approvals stay optimistic: queue about 2.5s, then `POST /api/approve-batch`, and fall back to `POST /api/approve` if batch is unavailable. A failed row stays visible for retry.
+- Colors live as `:root` tokens (`--navy` `#1C3564`, `--teal` `#21B7CB`). Sidebar stacks at 860px; a row stacks at 900px.
+
+```javascript
+// ❌ BAD — reviewer can wipe English tags
+textarea.value = translationHtml;
+
+// ✅ GOOD — segments in, English markup reapplied on read
+box._markup = aligned.markup;
+UAOAMarkup.readEditor(box);
+```

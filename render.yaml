@@ -1,3 +1,7 @@
+# Legacy Render blueprint (upstream uaoa-i18n-review).
+# Production for this fork is GitHub Pages + Supabase — see docs/DEPLOY.md.
+# Kept only as a reference for the old Python API path.
+
 services:
   - type: web
     name: uaoa-i18n-review-api
