@@ -3552,6 +3552,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:25:41Z",
-    "enFp": "556cac87a22dfe557830bcd01ca14e17169608d6af8c15703bbfe8507541306a"
+    "enFp": "556cac87a22dfe557830bcd01ca14e17169608d6af8c15703bbfe8507541306a",
+    "stale": false
+  },
+  "embeds.sensitiveNotice.orgLead": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:25:44Z",
+    "enFp": "49b03ebc13a35d2dbd3bba02b8c148f969364e98fc348e3f17ab32a122431984"
   }
 }
