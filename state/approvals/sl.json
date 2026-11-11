@@ -7038,6 +7038,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T14:09:01Z",
-    "enFp": "d6f49e5149fd1f06a9bd9081c18451353ef4cdbb8c266d57f9a490a8f9d8fa62"
+    "enFp": "d6f49e5149fd1f06a9bd9081c18451353ef4cdbb8c266d57f9a490a8f9d8fa62",
+    "stale": false
+  },
+  "m5.slide.exploreTheThreeLayersOfAction.heading": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T14:09:04Z",
+    "enFp": "8dc371885119b932f78eb2dcf108e3a879d246ba7b9056a76c38512b28ffaf60"
   }
 }
