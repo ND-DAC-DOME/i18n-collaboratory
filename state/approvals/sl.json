@@ -4728,48 +4728,62 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:14:48Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   },
   "m3.regionTabs.ui.closeAria": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:14:48Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   },
   "m3.regionTabs.ui.subCountriesAria": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:14:48Z",
-    "enFp": "034b634c4eaf9ea913406ec4ed99e1a010e791c728b47920a4c285d0f8189ef5"
+    "enFp": "034b634c4eaf9ea913406ec4ed99e1a010e791c728b47920a4c285d0f8189ef5",
+    "stale": false
   },
   "m3.regionTabs.ui.overview": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:14:48Z",
-    "enFp": "d4b1ea5708dd532930a85188b45aff6f0a3ed458500c7577e0127a538eb0d100"
+    "enFp": "d4b1ea5708dd532930a85188b45aff6f0a3ed458500c7577e0127a538eb0d100",
+    "stale": false
   },
   "m3.regionTabs.tabs.t1.title": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:14:48Z",
-    "enFp": "7fe24f2b7ba5e4553152d419a942666808849d1da2d54eea7c3e361436b61ab4"
+    "enFp": "7fe24f2b7ba5e4553152d419a942666808849d1da2d54eea7c3e361436b61ab4",
+    "stale": false
   },
   "m3.regionTabs.tabs.t1.subs.slovenia.title": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:14:48Z",
-    "enFp": "56059e7fb4e9ddfa1470a50a43ac2f05509cb802757e68d35d9033232b097e58"
+    "enFp": "56059e7fb4e9ddfa1470a50a43ac2f05509cb802757e68d35d9033232b097e58",
+    "stale": false
   },
   "m3.regionTabs.tabs.t1.subs.slovenia.html": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:14:48Z",
-    "enFp": "965831ee609d0200d0037eee911dd1dae7645eace8c0b2c7d2bedfc6fb70e01b"
+    "enFp": "965831ee609d0200d0037eee911dd1dae7645eace8c0b2c7d2bedfc6fb70e01b",
+    "stale": false
   },
   "m3.regionTabs.tabs.t1.subs.sweden.title": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:14:48Z",
-    "enFp": "853637136575897a73cba3c5fb085e8c8a2627df22983d2bbe9ff158d11351b4"
+    "enFp": "853637136575897a73cba3c5fb085e8c8a2627df22983d2bbe9ff158d11351b4",
+    "stale": false
+  },
+  "m3.regionTabs.tabs.t1.subs.czechia.title": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:14:50Z",
+    "enFp": "ecfa967e901a86b132554041d686ac4273fc4c194d16eeeac1fe7244f8002973"
   }
 }
