@@ -5806,6 +5806,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:56:11Z",
-    "enFp": "1251a90a59e09144455c1cd908ae1885fa829ae5cc7a6827d33c0627a4217620"
+    "enFp": "1251a90a59e09144455c1cd908ae1885fa829ae5cc7a6827d33c0627a4217620",
+    "stale": false
+  },
+  "m4.check.questions.q4.choices.c3": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:56:18Z",
+    "enFp": "259babde3a00468b932c740ce6d1d4b6e517f5130ac4e07d99102bba1854a019"
   }
 }
