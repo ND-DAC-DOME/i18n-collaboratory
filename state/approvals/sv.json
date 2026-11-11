@@ -6688,18 +6688,33 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:29:04Z",
-    "enFp": "bfbbb5198620682cd1e74286c699ca361295c76db00d0397c360dbd598de7f8e"
+    "enFp": "bfbbb5198620682cd1e74286c699ca361295c76db00d0397c360dbd598de7f8e",
+    "stale": false
   },
   "m3.trueFalse.questions.q3.choices.c0": {
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:29:04Z",
-    "enFp": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18"
+    "enFp": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18",
+    "stale": false
   },
   "m3.trueFalse.questions.q3.choices.c1": {
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:29:04Z",
-    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe",
+    "stale": false
+  },
+  "m3.trueFalse.questions.q3.ok": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:29:11Z",
+    "enFp": "e0de7f37bd4fa5c372d42882095b9f4097b905019c5029d631e5f88bccb84137"
+  },
+  "m3.takeaways.heading": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:29:11Z",
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
   }
 }
