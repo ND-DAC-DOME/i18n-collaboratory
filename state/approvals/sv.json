@@ -6331,12 +6331,20 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-11T09:42:15Z",
-    "enFp": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19"
+    "enFp": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19",
+    "stale": false
   },
   "m4.regions.ui.countriesAria": {
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-11T09:42:15Z",
-    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004"
+    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004",
+    "stale": false
+  },
+  "m4.regions.ui.placeholder": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-11T09:42:21Z",
+    "enFp": "89a8238dcaaf62554ddbb4ae37aff5cd00fcdae2fcb5eb6d74261f8ca0d53d1f"
   }
 }
