@@ -161,7 +161,7 @@
         },
         "s3": {
           "text": {
-            "text": "Po odločitvi sodnik prejme komentar z žaljivim in nespoštljivim jezikom od skupine navijačev, ki z njegovo končno sodbo niso bili zadovoljni.",
+            "text": "Po odločitvi sodnik prejme komentar z žaljivimi in nespoštljivimi izrazi od skupine navijačev, ki z njegovo končno sodbo niso bili zadovoljni.",
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
