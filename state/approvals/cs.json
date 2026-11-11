@@ -2082,6 +2082,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:24:41Z",
-    "enFp": "be64c9fb320c05c255bd2d368662b58fd0b2eb53509c0d80998d840f5059080f"
+    "enFp": "be64c9fb320c05c255bd2d368662b58fd0b2eb53509c0d80998d840f5059080f",
+    "stale": false
+  },
+  "m5.flow1.steps.s2.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:24:47Z",
+    "enFp": "200c729ec82523b3cdf4a6e5fbaad2d8c03d09be00ec0ad4d27280a70936505e"
+  },
+  "m5.flow1.steps.s3.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:24:47Z",
+    "enFp": "49c788ca50f9acf933807eed523ab03b91b7c5dba50ed3b77f0276c0fdcd7576"
   }
 }
