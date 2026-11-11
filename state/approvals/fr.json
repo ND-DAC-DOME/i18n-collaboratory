@@ -283,6 +283,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:29:53Z",
-    "enFp": "e421ad16deb67aaff24966953c47b238bc4042f1f0f64dc0856a2cc5b397e0e3"
+    "enFp": "e421ad16deb67aaff24966953c47b238bc4042f1f0f64dc0856a2cc5b397e0e3",
+    "stale": false
+  },
+  "welcome.partners.caption": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:30:16Z",
+    "enFp": "ede43c8fea3ad387b4147525161d2a68a531a1c5e54e6ff5c6ba0142d01cfb5f"
   }
 }
