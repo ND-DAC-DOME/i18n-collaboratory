@@ -3769,6 +3769,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:29:21Z",
-    "enFp": "58080b1582e4d12810afd7a2414c9658b2eaff2f92ff4dedb9639a2cd3dcdf84"
+    "enFp": "58080b1582e4d12810afd7a2414c9658b2eaff2f92ff4dedb9639a2cd3dcdf84",
+    "stale": false
+  },
+  "welcome.partners.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:30:19Z",
+    "enFp": "e421ad16deb67aaff24966953c47b238bc4042f1f0f64dc0856a2cc5b397e0e3"
   }
 }
