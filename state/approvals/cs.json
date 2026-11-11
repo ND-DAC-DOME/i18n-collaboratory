@@ -4735,12 +4735,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:24:41Z",
-    "enFp": "25c77e15db25e96c4df42337d80dc73049318e080e3e0f8a3c1aa90a5af72237"
+    "enFp": "25c77e15db25e96c4df42337d80dc73049318e080e3e0f8a3c1aa90a5af72237",
+    "stale": false
   },
   "summary.quiz.questions.q8.choices.c1": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:24:41Z",
-    "enFp": "3bebbe60a799de5af16f1c6d85f8e6ac864c90c32c198e8e7e0665c215847c56"
+    "enFp": "3bebbe60a799de5af16f1c6d85f8e6ac864c90c32c198e8e7e0665c215847c56",
+    "stale": false
+  },
+  "summary.quiz.questions.q6.next": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:24:48Z",
+    "enFp": "dc711515d2672d79cc401e7fe5f1b422284a743b8a04904a97fb65c96520d3e9"
   }
 }
