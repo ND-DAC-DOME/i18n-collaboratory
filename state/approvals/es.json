@@ -1522,18 +1522,63 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:10:31Z",
-    "enFp": "f8df3020b398e4c3105cd37b1861a7ddb9d3ddad661a122851a4fa2fc10e5585"
+    "enFp": "f8df3020b398e4c3105cd37b1861a7ddb9d3ddad661a122851a4fa2fc10e5585",
+    "stale": false
   },
   "player.systemLabels.reactions.comment_sent": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:10:31Z",
-    "enFp": "c5d097b50675f55d2dd40faec994d4748c463a42287757348aa1e00df9d375bc"
+    "enFp": "c5d097b50675f55d2dd40faec994d4748c463a42287757348aa1e00df9d375bc",
+    "stale": false
   },
   "player.systemLabels.reactions.comment_placeholder": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:10:31Z",
-    "enFp": "8631a2088baaa0db11c699d6ecb6fe8f454db642539f6a22b549ed09b391dab5"
+    "enFp": "8631a2088baaa0db11c699d6ecb6fe8f454db642539f6a22b549ed09b391dab5",
+    "stale": false
+  },
+  "player.systemLabels.reactions.like": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:10:44Z",
+    "enFp": "8776ab16f8cbd32750f33d1dca96cac2cd86087da0879c824844411fe8703110"
+  },
+  "player.systemLabels.reactions.learned_something": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:10:44Z",
+    "enFp": "8e2fc8f7692b9e130c992160edd2822ef6276dd4b5496602f1fe99d6329ab965"
+  },
+  "player.systemLabels.reactions.not_up_to_date": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:10:44Z",
+    "enFp": "f506de0740f26327bd8e46bcb807f46d96de319d31da38cf8fc7e46e4d03b60a"
+  },
+  "player.systemLabels.reactions.prompt": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:10:44Z",
+    "enFp": "e8552b365ea7cab98afd83f1000b89c349bf729e95aa4b30f495f5088a92342d"
+  },
+  "player.systemLabels.reactions.question": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:10:44Z",
+    "enFp": "2cfcf9ff2690c3b6e91d44d16605503d31b54ca397b5134abdaa4a5110b35d58"
+  },
+  "player.systemLabels.reactions.selection_locked": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:10:44Z",
+    "enFp": "cf849ffa09813e12c97ef9ffeb678b46ad1479ec3fe99f7cc7345ba0f9ead02b"
+  },
+  "player.systemLabels.reactions.rating_prompt": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:10:44Z",
+    "enFp": "2107d5bbdbbae8c083a67bd7a11fdb7027ad6781bec414a5efce4091c40ccc38"
   }
 }
