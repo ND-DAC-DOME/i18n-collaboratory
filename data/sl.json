@@ -4260,7 +4260,7 @@
       },
       "euDisclaimer": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Financira Evropska unija. Izražena stališča in mnenja pa so zgolj stališča avtorja(-jev) in ne odražajo nujno stališč Evropske unije ali Izvajalske agencije za izobraževanje in kulturo (EACEA). Niti Evropska unija niti EACEA ne moreta biti odgovorni zanje.</em></span></p>",
+          "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Financirano s strani Evropske unije. Izražena stališča in mnenja so zgolj stališča in mnenja avtorja(-ev) in ni nujno, da odražajo stališča in mnenja Evropske unije ali Evropske izvajalske agencije za izobraževanje in kulturo (EACEA). Zanje ne moreta biti odgovorna niti Evropska unija niti EACEA.</em></span></p>",
           "note": "Native text body on Welcome"
         }
       },
