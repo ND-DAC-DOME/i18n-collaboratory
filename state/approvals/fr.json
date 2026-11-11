@@ -4448,60 +4448,94 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:19Z",
-    "enFp": "48e1e346a998e4cdf94ea0247b69a0b0924e94dbde7994dd7161f4984ff2dea1"
+    "enFp": "48e1e346a998e4cdf94ea0247b69a0b0924e94dbde7994dd7161f4984ff2dea1",
+    "stale": false
   },
   "m5.widerSystem.rows.organisations": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:19Z",
-    "enFp": "0c49388af654ea4339fdf85e3bd817d4242510c0f834a1cf589f41c9682b38f5"
+    "enFp": "0c49388af654ea4339fdf85e3bd817d4242510c0f834a1cf589f41c9682b38f5",
+    "stale": false
   },
   "m5.widerSystem.rows.society": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:19Z",
-    "enFp": "97802fe5cadbbadd65e13f065069891837b495645a0e5b972640ece5106cec39"
+    "enFp": "97802fe5cadbbadd65e13f065069891837b495645a0e5b972640ece5106cec39",
+    "stale": false
   },
   "m5.takeaways.heading": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:19Z",
-    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45",
+    "stale": false
   },
   "m5.takeaways.items.i1": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:19Z",
-    "enFp": "63d6d516d05b142fd1f0c438f3a52bab9eac89b579ad126ab3c2ff1a537d1f1e"
+    "enFp": "63d6d516d05b142fd1f0c438f3a52bab9eac89b579ad126ab3c2ff1a537d1f1e",
+    "stale": false
   },
   "m5.takeaways.items.i2": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:19Z",
-    "enFp": "59f7653328519d7ef2d923e5b64f844a8d0c59b533ec9690207b8310c6447202"
+    "enFp": "59f7653328519d7ef2d923e5b64f844a8d0c59b533ec9690207b8310c6447202",
+    "stale": false
   },
   "m5.takeaways.items.i3": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:19Z",
-    "enFp": "8f1f289a773e777be106d59527c85d47cb8becfaac9237311f8b21d9d34d6904"
+    "enFp": "8f1f289a773e777be106d59527c85d47cb8becfaac9237311f8b21d9d34d6904",
+    "stale": false
   },
   "m5.takeaways.items.i4": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:19Z",
-    "enFp": "846f7add26ddff6f1b9d4899fa305200ee77de7769106bea566eb10da5b17c6a"
+    "enFp": "846f7add26ddff6f1b9d4899fa305200ee77de7769106bea566eb10da5b17c6a",
+    "stale": false
   },
   "m5.takeaways.items.i5": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:19Z",
-    "enFp": "d6f49e5149fd1f06a9bd9081c18451353ef4cdbb8c266d57f9a490a8f9d8fa62"
+    "enFp": "d6f49e5149fd1f06a9bd9081c18451353ef4cdbb8c266d57f9a490a8f9d8fa62",
+    "stale": false
   },
   "m5.takeaways.items.i6": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:19Z",
-    "enFp": "d53168c7c263d159b01cd60c646242d11369269ceb978a1a1b61995a9379d0b8"
+    "enFp": "d53168c7c263d159b01cd60c646242d11369269ceb978a1a1b61995a9379d0b8",
+    "stale": false
+  },
+  "m5.slide.title": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:50:25Z",
+    "enFp": "897a84716ffb5805dd9a701ff0e6d44f13efbc863a774fd9f44cbb60b7b939d8"
+  },
+  "m5.slide.goToFinalQuiz": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:50:25Z",
+    "enFp": "34e443787ab76a55019bb3b959d4200d4e3b8f24fd2c766523dd722f3546198d"
+  },
+  "m5.slide.exploreTheThreeLayersOfAction.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:50:25Z",
+    "enFp": "e9a0a165925790db1bd30f1e794cf136c3ffd0e239b7f6f3e7bcf4e25df98fca"
+  },
+  "m5.slide.exploreTheThreeLayersOfAction.heading": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:50:25Z",
+    "enFp": "8dc371885119b932f78eb2dcf108e3a879d246ba7b9056a76c38512b28ffaf60"
   }
 }
