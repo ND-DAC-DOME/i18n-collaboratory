@@ -6905,6 +6905,25 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:37:24Z",
-    "enFp": "f678a6a6d236433ad5935b2aa9ed8dbc8ba1e85197a977a906cffdda3c6ce4b9"
+    "enFp": "f678a6a6d236433ad5935b2aa9ed8dbc8ba1e85197a977a906cffdda3c6ce4b9",
+    "stale": false
+  },
+  "m3.slide.noteTheseActionsProvidePracticalGuidance.body": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:37:27Z",
+    "enFp": "965e5bf6e734e77108e6fd8b08fc454b0c08613e5c0ae492a3c8af4d3163e3a0"
+  },
+  "m3.risksBenefits.risksHeading": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:37:27Z",
+    "enFp": "e6fba4e339da3550d80a261c5bc51b12504c3e347b8dc2737670a97c2025659c"
+  },
+  "m3.risksBenefits.benefitsHeading": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:37:27Z",
+    "enFp": "0f2ae66d356cc4bb7d26b4c70669e23e5d2f5ff54e7adfbd7d819ddd6a78e730"
   }
 }
