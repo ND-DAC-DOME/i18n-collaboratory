@@ -2299,12 +2299,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:32:07Z",
-    "enFp": "64f615267bc72203a3e6a6809e8f76aa489cd48e861a4bb36399bb3d08f935fa"
+    "enFp": "64f615267bc72203a3e6a6809e8f76aa489cd48e861a4bb36399bb3d08f935fa",
+    "stale": false
   },
   "m5.match.labels.l0": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:32:07Z",
-    "enFp": "d64d3d9970aad6dd6d030970ede387d195a969a78984a13908c4369ba8aa86fa"
+    "enFp": "d64d3d9970aad6dd6d030970ede387d195a969a78984a13908c4369ba8aa86fa",
+    "stale": false
+  },
+  "m5.match.labels.l1": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:32:10Z",
+    "enFp": "7bd34abba2aec0c6f00b4b111402581d36f7cfaeb310164f06ce85792ac34b64"
   }
 }
