@@ -3776,6 +3776,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:30:19Z",
-    "enFp": "e421ad16deb67aaff24966953c47b238bc4042f1f0f64dc0856a2cc5b397e0e3"
+    "enFp": "e421ad16deb67aaff24966953c47b238bc4042f1f0f64dc0856a2cc5b397e0e3",
+    "stale": false
+  },
+  "m1.apply.labels.digitalHostility": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:31:59Z",
+    "enFp": "46941c68b49f0f9e9cfb8de9182dcb9262d5e17f72c25fc22929e110f6a4bbce"
   }
 }
