@@ -4868,6 +4868,19 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:48:34Z",
-    "enFp": "e76a35b82a3bd29fa91fe7d26ad5ad4ad7bc049994c925460b76dda37238701d"
+    "enFp": "e76a35b82a3bd29fa91fe7d26ad5ad4ad7bc049994c925460b76dda37238701d",
+    "stale": false
+  },
+  "m1.matteo.cards.c4.html": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:49:06Z",
+    "enFp": "9c3d6f49b9c271157ff5f0bd7171780087b8a07df36d633858db09669d951d46"
+  },
+  "m1.takeaways.heading": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:49:06Z",
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
   }
 }
