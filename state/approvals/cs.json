@@ -1424,12 +1424,32 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:59:51Z",
-    "enFp": "8cdce997a152baec51fa9514b9bec0dfb1f2baa45b635b8e0845f785c0a71f97"
+    "enFp": "8cdce997a152baec51fa9514b9bec0dfb1f2baa45b635b8e0845f785c0a71f97",
+    "stale": false
   },
   "embeds.disclaimerModal.logoAria": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:59:51Z",
-    "enFp": "4ce3c2d66d5e5e9f6bcdb2ec8e7c3080a7e9db49af1624005a8d89a2ca703ac0"
+    "enFp": "4ce3c2d66d5e5e9f6bcdb2ec8e7c3080a7e9db49af1624005a8d89a2ca703ac0",
+    "stale": false
+  },
+  "embeds.disclaimerModal.coFunded": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:59:58Z",
+    "enFp": "2d6a7ce5ccde24e27814364f54963ec0b0d006c9259e9cd980c9f1cdb6ca4416"
+  },
+  "embeds.disclaimerModal.understand": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:59:58Z",
+    "enFp": "860296446ec43c52d0ecbc689617af38c1af2c26ab5b61f37efa5523dd1b08c1"
+  },
+  "embeds.disclaimerModal.confirm": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:59:58Z",
+    "enFp": "381353b9b3d48bf8dfb8af5d19dd936d037975aaf7410899794d29e692f152aa"
   }
 }
