@@ -5183,6 +5183,13 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:55:39Z",
-    "enFp": "b1fe195090b8044ef5cb93625ccea442921bab913071e8806a5db72661d12fac"
+    "enFp": "b1fe195090b8044ef5cb93625ccea442921bab913071e8806a5db72661d12fac",
+    "stale": false
+  },
+  "m2.check.questions.q3.choices.c1": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:55:42Z",
+    "enFp": "d4c00f2b8ececc85aef579b2a3edfe226831a63dca99a119e832b5ef8f49b8bd"
   }
 }
