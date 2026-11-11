@@ -1529,6 +1529,25 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:09:10Z",
-    "enFp": "b0ab5a4f9aa91aa61ed398e551992a61cf65aeca00566eeb44255caf7b704491"
+    "enFp": "b0ab5a4f9aa91aa61ed398e551992a61cf65aeca00566eeb44255caf7b704491",
+    "stale": false
+  },
+  "m2.check.questions.q2.choices.c1": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:10:07Z",
+    "enFp": "1d82ee83e3eb65df297ad6728f0bf9af3bd8cc25185715a0ad1022f16278c866"
+  },
+  "m2.check.questions.q2.choices.c2": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:10:07Z",
+    "enFp": "01e5ae3cc7da148e4a0c945f32f3c65eba1ed638b2a43e3610e556031dccd76c"
+  },
+  "m2.check.questions.q2.choices.c3": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:10:07Z",
+    "enFp": "f177d67e03e794ef2b86efc24eef97b96c3bc99e47e23f61b2243b2473182668"
   }
 }
