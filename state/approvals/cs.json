@@ -2908,6 +2908,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:17:49Z",
-    "enFp": "a468e313c7985a973a1b1f8d7f903b8bb628ef868931e7e6711925db2224f60c"
+    "enFp": "a468e313c7985a973a1b1f8d7f903b8bb628ef868931e7e6711925db2224f60c",
+    "stale": false
+  },
+  "player.systemLabels.sorting.correct_order": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:02Z",
+    "enFp": "507550a0d981d39f07c05a6278530e8a18c24ccc2727efaa8a100b2892ef831a"
   }
 }
