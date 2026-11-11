@@ -3707,7 +3707,7 @@
           "note": "ScormStack player/system label `completion.passed_title`"
         },
         "passing": {
-          "text": "Para aprobar",
+          "text": "Aprobando",
           "note": "ScormStack player/system label `completion.passing`"
         },
         "score": {
