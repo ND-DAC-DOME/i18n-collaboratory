@@ -1942,6 +1942,13 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:13:28Z",
-    "enFp": "f2bad37936c1fac1bd978ad702aa083227a48798f54cf9b969ebf828e1ba9bf3"
+    "enFp": "f2bad37936c1fac1bd978ad702aa083227a48798f54cf9b969ebf828e1ba9bf3",
+    "stale": false
+  },
+  "player.systemLabels.assessment.start_assessment": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:13:36Z",
+    "enFp": "be3b4a3de7d59a1c27aa6cf6d45afeb77740116b4d759df15f0ccdb8d05bb86f"
   }
 }
