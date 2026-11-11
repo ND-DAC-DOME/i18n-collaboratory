@@ -10,6 +10,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:19:49Z",
-    "enFp": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858"
+    "enFp": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858",
+    "stale": false
+  },
+  "common.complete": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:19:53Z",
+    "enFp": "143b270a32602d412babf2724ec0640dda0d5a43485e5a7520b05b53fa94b303"
   }
 }
