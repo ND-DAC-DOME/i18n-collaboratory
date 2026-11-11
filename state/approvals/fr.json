@@ -1655,24 +1655,46 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:27:27Z",
-    "enFp": "93baa3ac139c399fd038a98b36f8f308987826d4bebed5c04ca01f9eddc4aba9"
+    "enFp": "93baa3ac139c399fd038a98b36f8f308987826d4bebed5c04ca01f9eddc4aba9",
+    "stale": false
   },
   "m2.affected.cards.c3.name": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:27:27Z",
-    "enFp": "5d49338043cd6071b768d6d41f4563b769ad3079b6523065c901f214469fcc52"
+    "enFp": "5d49338043cd6071b768d6d41f4563b769ad3079b6523065c901f214469fcc52",
+    "stale": false
   },
   "m2.affected.cards.c4.name": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:27:27Z",
-    "enFp": "c228686116b5ad40607a830f02df985bf7b41c7a415db8505d01d1bfb6df3570"
+    "enFp": "c228686116b5ad40607a830f02df985bf7b41c7a415db8505d01d1bfb6df3570",
+    "stale": false
   },
   "m2.affected.cards.c3.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:27:27Z",
-    "enFp": "6c6e86fa04dead9428614b175b85c106de4b99f3a39f2db37272b98120b8eac3"
+    "enFp": "6c6e86fa04dead9428614b175b85c106de4b99f3a39f2db37272b98120b8eac3",
+    "stale": false
+  },
+  "m2.affected.cards.c4.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:27:37Z",
+    "enFp": "51cd65393262d89a6b00b720174d4cc57ae286bc80820fd6195f7b7a1e01b11e"
+  },
+  "m2.affected.cards.c5.name": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:27:37Z",
+    "enFp": "e23e043568998f9bcf7f7ef3784aeabb150ce153f37db8673fc549103a6b18fc"
+  },
+  "m2.affected.cards.c5.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:27:37Z",
+    "enFp": "6b92d5226bd67327fbc3699e80c005ef0f49283cdb7ca7a9c65878e1350b07dc"
   }
 }
