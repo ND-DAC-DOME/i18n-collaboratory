@@ -1501,6 +1501,61 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:01:20Z",
-    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8",
+    "stale": false
+  },
+  "embeds.miniDictionary.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:35Z",
+    "enFp": "c12b37ea38c754a84a75befe1f4d29c7f3b4ad90f1a0c862ddd4f4392dc9c529"
+  },
+  "embeds.miniDictionary.backToCourse": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:35Z",
+    "enFp": "fa7dcce95a411284dbbd7e4939feb5e8b5cbba5e805a097248ea21f23f24a548"
+  },
+  "embeds.miniDictionary.closeAria": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:35Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+  },
+  "embeds.miniDictionary.cta": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:35Z",
+    "enFp": "f647dc2a31e9e85660843bf459a473e7789a48b659f683c8cf577d311d0d2bda"
+  },
+  "embeds.miniDictionary.linkLabel": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:35Z",
+    "enFp": "637e4aab899ea4d8e98942d5a55486db74a94589c7d3fe9d72ada595a8c5ee38"
+  },
+  "embeds.miniDictionary.teaser": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:35Z",
+    "enFp": "3030d206b671d1f951459de9217f4c504eb5d3b75dd3c3a6f2095efcb5176393"
+  },
+  "embeds.sensitiveNotice.emergencyServicesDetail": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:35Z",
+    "enFp": "20bd84bf566fda4fc356cd80ffe602029d44a12f95680bd72d07dd2ba0b28f66"
+  },
+  "embeds.sensitiveNotice.emergencyServices": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:35Z",
+    "enFp": "72de9732532395031147176a7d011e5e3ceb88a55aff568efbbcd74b611286fc"
+  },
+  "embeds.sensitiveNotice.platformReportingDetail": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:35Z",
+    "enFp": "cea4b61d2c52ce8825f4075fc87ca482e889776fea600f178b5b4f9a6e5af901"
   }
 }
