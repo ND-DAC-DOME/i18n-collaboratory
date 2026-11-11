@@ -1668,7 +1668,7 @@
           "note": "Shown under the title on law-tabs example cards"
         },
         "navAria": {
-          "text": "Kortnavigering",
+          "text": "Navigering",
           "note": "aria-label on law-tabs card navigation"
         },
         "prevAria": {
