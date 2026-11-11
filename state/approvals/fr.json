@@ -1893,42 +1893,85 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:30:19Z",
-    "enFp": "cdb510f42a2940037865eea24f99fcfbc3e40012a689230fee498fcb6c8e06d0"
+    "enFp": "cdb510f42a2940037865eea24f99fcfbc3e40012a689230fee498fcb6c8e06d0",
+    "stale": false
   },
   "m2.impacts.cards.c2.research": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:30:19Z",
-    "enFp": "281ae0eacb331b143314ed0debd75c18c31f2d9837afb06d4aa8c1eb569106c6"
+    "enFp": "281ae0eacb331b143314ed0debd75c18c31f2d9837afb06d4aa8c1eb569106c6",
+    "stale": false
   },
   "m2.impacts.cards.c2.source": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:30:19Z",
-    "enFp": "dd63119693fc9bda08764d7d46c371084a5a6b6d8467d63f1769db121db452f7"
+    "enFp": "dd63119693fc9bda08764d7d46c371084a5a6b6d8467d63f1769db121db452f7",
+    "stale": false
   },
   "m2.impacts.cards.c3.title": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:30:19Z",
-    "enFp": "ec4efc34ca55e6c58bd574c679f7ba386e7c7433d7e08d3f66265e2651077998"
+    "enFp": "ec4efc34ca55e6c58bd574c679f7ba386e7c7433d7e08d3f66265e2651077998",
+    "stale": false
   },
   "m2.impacts.cards.c3.short": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:30:19Z",
-    "enFp": "6422e3e78f5e5f5a15e92cc57ed7114adb289339251031ccb526d9249437dc82"
+    "enFp": "6422e3e78f5e5f5a15e92cc57ed7114adb289339251031ccb526d9249437dc82",
+    "stale": false
   },
   "m2.impacts.cards.c3.alt": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:30:19Z",
-    "enFp": "06173bd1736390336595e4e6a655d66b32f747a02fecd895d29822455b30b3fb"
+    "enFp": "06173bd1736390336595e4e6a655d66b32f747a02fecd895d29822455b30b3fb",
+    "stale": false
   },
   "m2.impacts.cards.c3.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:30:19Z",
-    "enFp": "1c87f3c39b0585aab450f6658543a7962c4c815017ee68f219be0897ff45afc0"
+    "enFp": "1c87f3c39b0585aab450f6658543a7962c4c815017ee68f219be0897ff45afc0",
+    "stale": false
+  },
+  "m2.impacts.cards.c3.research": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:30:33Z",
+    "enFp": "9861da8b4d160326c0e17a32c3f498d7d7462a88f6ae619486c0ef05b48cce5e"
+  },
+  "m2.impacts.cards.c3.source": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:30:33Z",
+    "enFp": "a74e755c0702d1c11c87c8bfdc7abdfc640f00c15fe52b9418d2a4cf4f04bf17"
+  },
+  "m2.impacts.cards.c4.title": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:30:33Z",
+    "enFp": "0a61e3c250fc0769f4b68ace22ac881ab04883c016cde2506ba4c2b1188f27b1"
+  },
+  "m2.impacts.cards.c4.short": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:30:33Z",
+    "enFp": "726d11bd5b230253cc5f795cfcb3268117267cb11fee8df060a472e6448abc56"
+  },
+  "m2.impacts.cards.c4.alt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:30:33Z",
+    "enFp": "1e10a73bb4e4be200a160dde7af24d9083cf1c8dba96a06d4a73822dab9a3437"
+  },
+  "m2.impacts.cards.c4.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:30:33Z",
+    "enFp": "72d3f5144acf27069eccd5323b6846a2a56cfe3bfdaaee546e2406b9fd9a106d"
   }
 }
