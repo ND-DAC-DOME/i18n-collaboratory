@@ -5925,12 +5925,20 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:59:16Z",
-    "enFp": "a42f88a76c25d7900143b3f6ac41ebf2f05d84c46f5c78caa1679874bf08229e"
+    "enFp": "a42f88a76c25d7900143b3f6ac41ebf2f05d84c46f5c78caa1679874bf08229e",
+    "stale": false
   },
   "m4.slide.howCanLegalResponsesDifferBy.heading": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:59:16Z",
-    "enFp": "05fe2bba783a050d82992c0c9be216678ea30cb0a06f1abe55cabce0e2e5a9f1"
+    "enFp": "05fe2bba783a050d82992c0c9be216678ea30cb0a06f1abe55cabce0e2e5a9f1",
+    "stale": false
+  },
+  "m4.slide.internationalFederationsNationalGoverningBodiesClubs.body": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:59:21Z",
+    "enFp": "b78332de8404f26b37cbcf8b1be185c1406ccc3028f9fd2ae27ee38d8769ee7b"
   }
 }
