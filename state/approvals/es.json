@@ -1032,6 +1032,19 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:59:59Z",
-    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733"
+    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733",
+    "stale": false
+  },
+  "player.systemLabels.click_on_image.click_to_place_area": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:00:04Z",
+    "enFp": "73d0bbbfdfab7c1dc607ba7b071e2352cd70b7982c37fa00c56af87268bb72b6"
+  },
+  "player.systemLabels.click_on_image.click_to_place_area_to_remove": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:00:04Z",
+    "enFp": "89cb379a05fc1be2f6cefdade54c51fc5e837ea9a2e63ac0bcca10b422fda9db"
   }
 }
