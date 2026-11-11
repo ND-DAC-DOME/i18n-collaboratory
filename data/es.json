@@ -4261,7 +4261,7 @@
       },
       "euDisclaimer": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Finansieras av Europeiska unionen. De synpunkter och åsikter som uttrycks är endast upphovsmannens [upphovsmännens] och utgör inte Europeiska unionens eller Europeiska genomförandeorganet för utbildning och kulturs (EACEA) officiella ståndpunkt. Varken Europeiska unionen eller EACEA tar något ansvar för dessa.</em></span></p>",
+          "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Financiado por la Unión Europea. Las opiniones y puntos de vista expresados solo comprometen a su(s) autor(es) y no reflejan necesariamente los de la Unión Europea o los de la Agencia Ejecutiva Europea de Educación y Cultura (EACEA). Ni la Unión Europea ni la EACEA pueden ser considerados responsables de ellos.</em></span></p>",
           "note": "Native text body on Welcome"
         }
       },
