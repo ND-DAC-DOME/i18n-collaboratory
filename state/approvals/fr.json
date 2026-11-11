@@ -297,6 +297,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:30:21Z",
-    "enFp": "80ec3be6cd6c2d698e2af137b3e93fce7f1bfca343382b773ba963c3474fb1e6"
+    "enFp": "80ec3be6cd6c2d698e2af137b3e93fce7f1bfca343382b773ba963c3474fb1e6",
+    "stale": false
+  },
+  "welcome.outcomes.items.i1": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:30:26Z",
+    "enFp": "d89c6a0c859db6151138c9700e0affd3ea2b270839b4665e2187b25c5ff8cf91"
   }
 }
