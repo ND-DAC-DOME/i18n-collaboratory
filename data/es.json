@@ -4135,7 +4135,7 @@
           "note": "ScormStack player/system label `time_requirements.seconds`"
         },
         "spend_at_least": {
-          "text": "Dedica al menos {time} a esta sección.",
+          "text": "Dedica al menos {tiempo} a esta sección.",
           "note": "ScormStack player/system label `time_requirements.spend_at_least`"
         }
       },
