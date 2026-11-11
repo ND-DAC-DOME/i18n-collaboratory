@@ -1494,12 +1494,20 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:08:54Z",
-    "enFp": "f17df01df0e16a1792f3b0c90cab0dbdc5b351fcb16c2e049ebb185dc5383cba"
+    "enFp": "f17df01df0e16a1792f3b0c90cab0dbdc5b351fcb16c2e049ebb185dc5383cba",
+    "stale": false
   },
   "m2.check.questions.q1.choices.c1": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:08:54Z",
-    "enFp": "b6eb15a7d951fb8dedbdd29e8c5ed9705f9e31dbd7b36d97c83adb7a81e9fb66"
+    "enFp": "b6eb15a7d951fb8dedbdd29e8c5ed9705f9e31dbd7b36d97c83adb7a81e9fb66",
+    "stale": false
+  },
+  "m2.check.questions.q1.choices.c2": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:08:57Z",
+    "enFp": "6b95e310f8e823e61d90080b62fba17d3974f9139c02e537955aa170faf76a5c"
   }
 }
