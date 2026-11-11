@@ -5442,6 +5442,25 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:52Z",
-    "enFp": "fa7dcce95a411284dbbd7e4939feb5e8b5cbba5e805a097248ea21f23f24a548"
+    "enFp": "fa7dcce95a411284dbbd7e4939feb5e8b5cbba5e805a097248ea21f23f24a548",
+    "stale": false
+  },
+  "embeds.miniDictionary.title": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:59Z",
+    "enFp": "c12b37ea38c754a84a75befe1f4d29c7f3b4ad90f1a0c862ddd4f4392dc9c529"
+  },
+  "embeds.scroll.continue": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:59Z",
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+  },
+  "embeds.scroll.continueRevealAria": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:00:59Z",
+    "enFp": "c6b802ad032348991a45c2ae3d19f0b38ad2a98b8ea84c66808ef2017db92c07"
   }
 }
