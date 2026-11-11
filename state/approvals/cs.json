@@ -2943,36 +2943,78 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:32Z",
-    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624"
+    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
+    "stale": false
   },
   "player.systemLabels.resume.please_wait": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:32Z",
-    "enFp": "f81e93847ed622e66cf2dcfc568076cc6f521824ca56db8272a709c568ebe17b"
+    "enFp": "f81e93847ed622e66cf2dcfc568076cc6f521824ca56db8272a709c568ebe17b",
+    "stale": false
   },
   "player.systemLabels.resume.progress_saved": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:32Z",
-    "enFp": "81ce005f787a661c193f66cc05171d0b7bb388a4cb3b43cf18373371cbece2ea"
+    "enFp": "81ce005f787a661c193f66cc05171d0b7bb388a4cb3b43cf18373371cbece2ea",
+    "stale": false
   },
   "player.systemLabels.resume.resume_course": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:32Z",
-    "enFp": "f94001cc0f9ec48cabe10a2d4d42e9f3ae1a9f6cb451dcd81dac488ce9d80ae5"
+    "enFp": "f94001cc0f9ec48cabe10a2d4d42e9f3ae1a9f6cb451dcd81dac488ce9d80ae5",
+    "stale": false
   },
   "player.systemLabels.resume.slide": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:32Z",
-    "enFp": "6bb4c1177681ec4eb53bb315e71185f702e52f845cc7ff3ae114c41464f67510"
+    "enFp": "6bb4c1177681ec4eb53bb315e71185f702e52f845cc7ff3ae114c41464f67510",
+    "stale": false
   },
   "player.systemLabels.resume.start_over": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:32Z",
-    "enFp": "09d37c7e0dc6a6681afcf28faf312bc52e93800f6c3d23bb2412320a847ea6a1"
+    "enFp": "09d37c7e0dc6a6681afcf28faf312bc52e93800f6c3d23bb2412320a847ea6a1",
+    "stale": false
+  },
+  "player.systemLabels.resume.loading_course": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:50Z",
+    "enFp": "e9ee79f5522ac8046155df4a7776d024891c4f6e6f4a72c5d40fe105e79cf6f6"
+  },
+  "player.systemLabels.resume.last_on": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:50Z",
+    "enFp": "3a226c6acc2cfbe684aef78425d1e8028c8567900bcec2f156bfadc22a127318"
+  },
+  "player.systemLabels.reactions.send_comment": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:50Z",
+    "enFp": "badd6941df1727e8ffe78a89e8584b7e11d1f8b4cf6dd72a7f0e3cf003b7b774"
+  },
+  "player.systemLabels.reactions.selection_locked": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:50Z",
+    "enFp": "cf849ffa09813e12c97ef9ffeb678b46ad1479ec3fe99f7cc7345ba0f9ead02b"
+  },
+  "player.systemLabels.reactions.rating_prompt": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:50Z",
+    "enFp": "2107d5bbdbbae8c083a67bd7a11fdb7027ad6781bec414a5efce4091c40ccc38"
+  },
+  "player.systemLabels.reactions.question": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:50Z",
+    "enFp": "2cfcf9ff2690c3b6e91d44d16605503d31b54ca397b5134abdaa4a5110b35d58"
   }
 }
