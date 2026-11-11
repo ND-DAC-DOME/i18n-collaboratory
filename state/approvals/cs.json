@@ -500,6 +500,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:36:08Z",
-    "enFp": "94f51d9c3882b8e3d4ef8cca91ec9027418ef3dd30c0852a35d81235e4756518"
+    "enFp": "94f51d9c3882b8e3d4ef8cca91ec9027418ef3dd30c0852a35d81235e4756518",
+    "stale": false
+  },
+  "summary.quiz.questions.q6.prompt": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:36:20Z",
+    "enFp": "1b229b0182c93d2c52ec2d68fa042149c2c05ff1221f991809943f3abf6af72d"
+  },
+  "summary.quiz.questions.q6.choices.c0": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:36:20Z",
+    "enFp": "a70bf8f38956d09ca99595c9c3d5f14e0e3ea69c7181a1c92faf84324066629d"
   }
 }
