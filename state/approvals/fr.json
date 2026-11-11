@@ -1613,12 +1613,26 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:11:06Z",
-    "enFp": "9e6d75e64c7235bfe26303abfa33994ab318752884a14b00c06a0cdf871fbcbc"
+    "enFp": "9e6d75e64c7235bfe26303abfa33994ab318752884a14b00c06a0cdf871fbcbc",
+    "stale": false
   },
   "m2.check.questions.q4.choices.c3": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:11:06Z",
-    "enFp": "a5315c76efd4334ac31cfe9c23e7fb7cee5fbbb13e75dd59e05f12fd84b0f412"
+    "enFp": "a5315c76efd4334ac31cfe9c23e7fb7cee5fbbb13e75dd59e05f12fd84b0f412",
+    "stale": false
+  },
+  "m2.affected.ui.progress": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:11:10Z",
+    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de"
+  },
+  "m2.affected.cards.c1.name": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:11:10Z",
+    "enFp": "39822ba817e81af88dfbc6848df83dffee60baec63f0fd87221f984e171f9b6b"
   }
 }
