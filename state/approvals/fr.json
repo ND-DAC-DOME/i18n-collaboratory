@@ -5302,6 +5302,13 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:58:47Z",
-    "enFp": "ce1fd127ef2be46810d30aa963d573d6a9d3cb53f64794c4465665a54b4a797b"
+    "enFp": "ce1fd127ef2be46810d30aa963d573d6a9d3cb53f64794c4465665a54b4a797b",
+    "stale": false
+  },
+  "embeds.sensitiveNotice.title": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:59:47Z",
+    "enFp": "7ac041f54921143a500e990c84e33cf536bd5864ed5daaaf70135caa7247071c"
   }
 }
