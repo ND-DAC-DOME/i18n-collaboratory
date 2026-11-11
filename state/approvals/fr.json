@@ -6303,54 +6303,225 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:05:09Z",
-    "enFp": "a6c7a84baa6750fce33f7512acd6793e53def1d228b5f2efb8074b42648424fc"
+    "enFp": "a6c7a84baa6750fce33f7512acd6793e53def1d228b5f2efb8074b42648424fc",
+    "stale": false
   },
   "player.systemLabels.navigation.go_to_card": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:05:09Z",
-    "enFp": "6bc0035e6792c5527435a4ff79faafd2137367c836b86864e8ddab0adde392af"
+    "enFp": "6bc0035e6792c5527435a4ff79faafd2137367c836b86864e8ddab0adde392af",
+    "stale": false
   },
   "player.systemLabels.navigation.go_to_page": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:05:09Z",
-    "enFp": "e8f7e31bda03f5012a333327760618fba6b0e83eac9aea1d9e424e1542cb9305"
+    "enFp": "e8f7e31bda03f5012a333327760618fba6b0e83eac9aea1d9e424e1542cb9305",
+    "stale": false
   },
   "player.systemLabels.navigation.next": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:05:09Z",
-    "enFp": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858"
+    "enFp": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858",
+    "stale": false
   },
   "player.systemLabels.navigation.of": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:05:09Z",
-    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624"
+    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
+    "stale": false
   },
   "player.systemLabels.navigation.previous": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:05:09Z",
-    "enFp": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa"
+    "enFp": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa",
+    "stale": false
   },
   "player.systemLabels.reactions.comment_help": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:05:09Z",
-    "enFp": "72efa4c87ce782165d2e91591caaae8e21ce26c85388e53f68c706c0bc9c54a9"
+    "enFp": "72efa4c87ce782165d2e91591caaae8e21ce26c85388e53f68c706c0bc9c54a9",
+    "stale": false
   },
   "player.systemLabels.reactions.comment_label": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:05:09Z",
-    "enFp": "f1f5ddaf664e92085e8def0bc7f59bb89ee5e51db2d382950f1e834fd5be8ad3"
+    "enFp": "f1f5ddaf664e92085e8def0bc7f59bb89ee5e51db2d382950f1e834fd5be8ad3",
+    "stale": false
   },
   "player.systemLabels.reactions.comment_placeholder": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:05:09Z",
-    "enFp": "8631a2088baaa0db11c699d6ecb6fe8f454db642539f6a22b549ed09b391dab5"
+    "enFp": "8631a2088baaa0db11c699d6ecb6fe8f454db642539f6a22b549ed09b391dab5",
+    "stale": false
+  },
+  "player.systemLabels.reactions.comment_sent": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "c5d097b50675f55d2dd40faec994d4748c463a42287757348aa1e00df9d375bc"
+  },
+  "player.systemLabels.reactions.complete_above": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "f8df3020b398e4c3105cd37b1861a7ddb9d3ddad661a122851a4fa2fc10e5585"
+  },
+  "player.systemLabels.reactions.learned_something": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "8e2fc8f7692b9e130c992160edd2822ef6276dd4b5496602f1fe99d6329ab965"
+  },
+  "player.systemLabels.reactions.like": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "8776ab16f8cbd32750f33d1dca96cac2cd86087da0879c824844411fe8703110"
+  },
+  "player.systemLabels.reactions.not_up_to_date": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "f506de0740f26327bd8e46bcb807f46d96de319d31da38cf8fc7e46e4d03b60a"
+  },
+  "player.systemLabels.reactions.prompt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "e8552b365ea7cab98afd83f1000b89c349bf729e95aa4b30f495f5088a92342d"
+  },
+  "player.systemLabels.reactions.question": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "2cfcf9ff2690c3b6e91d44d16605503d31b54ca397b5134abdaa4a5110b35d58"
+  },
+  "player.systemLabels.reactions.rating_prompt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "2107d5bbdbbae8c083a67bd7a11fdb7027ad6781bec414a5efce4091c40ccc38"
+  },
+  "player.systemLabels.reactions.selection_locked": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "cf849ffa09813e12c97ef9ffeb678b46ad1479ec3fe99f7cc7345ba0f9ead02b"
+  },
+  "player.systemLabels.reactions.send_comment": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "badd6941df1727e8ffe78a89e8584b7e11d1f8b4cf6dd72a7f0e3cf003b7b774"
+  },
+  "player.systemLabels.resume.last_on": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "3a226c6acc2cfbe684aef78425d1e8028c8567900bcec2f156bfadc22a127318"
+  },
+  "player.systemLabels.resume.loading_course": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "e9ee79f5522ac8046155df4a7776d024891c4f6e6f4a72c5d40fe105e79cf6f6"
+  },
+  "player.systemLabels.resume.of": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624"
+  },
+  "player.systemLabels.resume.please_wait": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "f81e93847ed622e66cf2dcfc568076cc6f521824ca56db8272a709c568ebe17b"
+  },
+  "player.systemLabels.resume.progress_saved": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "81ce005f787a661c193f66cc05171d0b7bb388a4cb3b43cf18373371cbece2ea"
+  },
+  "player.systemLabels.resume.resume_course": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "f94001cc0f9ec48cabe10a2d4d42e9f3ae1a9f6cb451dcd81dac488ce9d80ae5"
+  },
+  "player.systemLabels.resume.slide": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "6bb4c1177681ec4eb53bb315e71185f702e52f845cc7ff3ae114c41464f67510"
+  },
+  "player.systemLabels.resume.start_over": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "09d37c7e0dc6a6681afcf28faf312bc52e93800f6c3d23bb2412320a847ea6a1"
+  },
+  "player.systemLabels.resume.welcome_back": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "346181d6c9954315e3fcdd7ac2d9a49f47e779e480f4025072f87ab45d688ef3"
+  },
+  "player.systemLabels.separator.section_break": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "66f41a831f779cc7184ea4cb68ad765313c760c5e9c004bc2db5acde5c6b6591"
+  },
+  "player.systemLabels.slide_intro.learning_objectives": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "301b843724f10ba740cee6f3a1c67ec9828e73e12f9f84017b8188ec6115541d"
+  },
+  "player.systemLabels.slide_intro.lesson": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "6e2b26d9de4033b952bd242f69b798420ee887151b937f394efc23252c78af74"
+  },
+  "player.systemLabels.slide_intro.minute": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c"
+  },
+  "player.systemLabels.slide_intro.minutes": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
+  },
+  "player.systemLabels.slide_intro.of": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624"
+  },
+  "player.systemLabels.slide_intro.table_of_contents": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "e331da0741fb6d0552bc27483ba0720778440c520b59be917613781679ede70f"
+  },
+  "player.systemLabels.slide_intro.untitled_lesson": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:05:42Z",
+    "enFp": "a468e313c7985a973a1b1f8d7f903b8bb628ef868931e7e6711925db2224f60c"
   }
 }
