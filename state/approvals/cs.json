@@ -983,18 +983,27 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:54:32Z",
-    "enFp": "0dd24f765cf2aa89c68f30f1abb96665e3e561e3e36b542625016eb8998dee57"
+    "enFp": "0dd24f765cf2aa89c68f30f1abb96665e3e561e3e36b542625016eb8998dee57",
+    "stale": false
   },
   "m4.lawTabs.tabs.t1.title": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:54:32Z",
-    "enFp": "37d3ffac26bf75b7ce260094cd1d5fb84e93470b5b114f29961c96fc41efe638"
+    "enFp": "37d3ffac26bf75b7ce260094cd1d5fb84e93470b5b114f29961c96fc41efe638",
+    "stale": false
   },
   "m4.lawTabs.tabs.t1.imageAlt": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:54:32Z",
-    "enFp": "edcb0630603bfba5a6e0c28a1b4d7fde575abd1bb2d72de48704a9b360acfa22"
+    "enFp": "edcb0630603bfba5a6e0c28a1b4d7fde575abd1bb2d72de48704a9b360acfa22",
+    "stale": false
+  },
+  "m4.lawTabs.tabs.t1.pathway": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:54:35Z",
+    "enFp": "10012cda95e1288a12bcfb26d8e4b77aca5b6b0c499908b562e1e33e059de083"
   }
 }
