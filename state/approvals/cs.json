@@ -661,6 +661,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:40:11Z",
-    "enFp": "478e933b8eeb506238a4cae75815b2e23f90e14f89479457f6332b766c41f092"
+    "enFp": "478e933b8eeb506238a4cae75815b2e23f90e14f89479457f6332b766c41f092",
+    "stale": false
+  },
+  "summary.slide.exit.image.thankYouForCompletingTheUaoa": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:40:14Z",
+    "enFp": "4d0397118586f03bb7079de0ac23c5393795233374f3d327045cdf11e5d7f889"
   }
 }
