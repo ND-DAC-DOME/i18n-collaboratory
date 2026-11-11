@@ -4123,7 +4123,7 @@
           "note": "ScormStack player/system label `time_requirements.minutes`"
         },
         "remaining": {
-          "text": "{time} restante",
+          "text": "{tiempo} restante",
           "note": "ScormStack player/system label `time_requirements.remaining`"
         },
         "second": {
