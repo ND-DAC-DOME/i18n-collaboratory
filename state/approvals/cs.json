@@ -745,36 +745,60 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:41:04Z",
-    "enFp": "140c6f133dff0965821e105b3bffdb6ccb85c917cd8fc2c62ab8a3368536aa1b"
+    "enFp": "140c6f133dff0965821e105b3bffdb6ccb85c917cd8fc2c62ab8a3368536aa1b",
+    "stale": false
   },
   "summary.quiz.score.clickForDetails": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:41:04Z",
-    "enFp": "32947c4832578cd85317dae79e4981ee0abec381771d226fd9e7af3440eadef8"
+    "enFp": "32947c4832578cd85317dae79e4981ee0abec381771d226fd9e7af3440eadef8",
+    "stale": false
   },
   "summary.quiz.score.clickToComplete": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:41:04Z",
-    "enFp": "f21a865363326ed4869fc19d15f32f204472a1307061f0e603e7cf4fce18e6e7"
+    "enFp": "f21a865363326ed4869fc19d15f32f204472a1307061f0e603e7cf4fce18e6e7",
+    "stale": false
   },
   "summary.quiz.score.yourScore": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:41:04Z",
-    "enFp": "5f49fcc8ddf7cde23eaaaf70b2f470cc982c6fe64a4f2fcbd246ef52baea6200"
+    "enFp": "5f49fcc8ddf7cde23eaaaf70b2f470cc982c6fe64a4f2fcbd246ef52baea6200",
+    "stale": false
   },
   "summary.quiz.score.youScored": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:41:04Z",
-    "enFp": "606abb981af155e65aa2e0e098a2e3a83f92696d6305b9c6d91593e0d22f6b82"
+    "enFp": "606abb981af155e65aa2e0e098a2e3a83f92696d6305b9c6d91593e0d22f6b82",
+    "stale": false
   },
   "summary.quiz.ui.choicesAria": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:41:04Z",
-    "enFp": "86cfa5c34050fff77baf26f5eb331b98c110077e25a10df0a33b9775a2a99192"
+    "enFp": "86cfa5c34050fff77baf26f5eb331b98c110077e25a10df0a33b9775a2a99192",
+    "stale": false
+  },
+  "summary.quiz.ui.questionOf": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:41:11Z",
+    "enFp": "1eec1410325cef764b75e430b38afffc5779817cabcc31627694296cd9bbba03"
+  },
+  "summary.quiz.ui.pressEnter": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:41:11Z",
+    "enFp": "bf3e22e1ae84821dd16dfeb849d8101b2d20234d03dd8c7467377b2483daa88a"
+  },
+  "summary.quiz.ui.ok": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:41:11Z",
+    "enFp": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
   }
 }
