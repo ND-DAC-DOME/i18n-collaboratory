@@ -147,7 +147,7 @@
         },
         "s2": {
           "text": {
-            "text": "Športnik prejme žaljiv komentar, ki posebej napada njegovo vero.",
+            "text": "Športnik prejme žaljiv komentar, ki posebej napada njegovo veroizpoved.",
             "note": "Scenario prompt; answer = hate speech"
           },
           "ok": {
