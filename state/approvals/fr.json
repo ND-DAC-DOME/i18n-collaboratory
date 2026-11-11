@@ -6786,120 +6786,248 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "572e01d9de084605b894fedc00534f39114ff51d0c026f79382fa3c915b5ff1a"
+    "enFp": "572e01d9de084605b894fedc00534f39114ff51d0c026f79382fa3c915b5ff1a",
+    "stale": false
   },
   "player.systemLabels.assessment.case_sensitive": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "e124ba47cb3f7cda5e3560d22403ef03864f208fd4c77f42ede19e9647ffe6dd"
+    "enFp": "e124ba47cb3f7cda5e3560d22403ef03864f208fd4c77f42ede19e9647ffe6dd",
+    "stale": false
   },
   "player.systemLabels.assessment.case_insensitive": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "1679b4d55499bd049e2b19896068789ee0929be74495da0198f538752b9d221b"
+    "enFp": "1679b4d55499bd049e2b19896068789ee0929be74495da0198f538752b9d221b",
+    "stale": false
   },
   "player.systemLabels.assessment.blanks": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "7845bcea692ff7c0a63d203f5b8847a4d2673fb68cc4d5e2b5d4536d153a0ba3"
+    "enFp": "7845bcea692ff7c0a63d203f5b8847a4d2673fb68cc4d5e2b5d4536d153a0ba3",
+    "stale": false
   },
   "player.systemLabels.assessment.attempts_per_question": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "f2bad37936c1fac1bd978ad702aa083227a48798f54cf9b969ebf828e1ba9bf3"
+    "enFp": "f2bad37936c1fac1bd978ad702aa083227a48798f54cf9b969ebf828e1ba9bf3",
+    "stale": false
   },
   "player.systemLabels.assessment.attempts_available": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "98725673c1bf713dc103b10ba83bb79752f4a23cdf12d43326fb3c5b078f37ec"
+    "enFp": "98725673c1bf713dc103b10ba83bb79752f4a23cdf12d43326fb3c5b078f37ec",
+    "stale": false
   },
   "player.systemLabels.assessment.attempts": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "06e70139fcf5e5c7d86a965b24b3cec519c1a1679b5dde917114925594726371"
+    "enFp": "06e70139fcf5e5c7d86a965b24b3cec519c1a1679b5dde917114925594726371",
+    "stale": false
   },
   "player.systemLabels.assessment.assessment_results": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "92cffcc846b8e0520df4ae9df48389e100e504c4943d2bfa47da637888bac89d"
+    "enFp": "92cffcc846b8e0520df4ae9df48389e100e504c4943d2bfa47da637888bac89d",
+    "stale": false
   },
   "player.systemLabels.assessment.assessment_passed": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "19416bb6ec4c8582e7e68e7bb8e43fc6fe9441600f74f0ba062a5a2cc998cc1c"
+    "enFp": "19416bb6ec4c8582e7e68e7bb8e43fc6fe9441600f74f0ba062a5a2cc998cc1c",
+    "stale": false
   },
   "player.systemLabels.assessment.assessment_not_passed": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "5d5c327662e32a3e15e2317bfc1044a1898f4f212d170e123e4517f4e51a1108"
+    "enFp": "5d5c327662e32a3e15e2317bfc1044a1898f4f212d170e123e4517f4e51a1108",
+    "stale": false
   },
   "player.systemLabels.accordion.expand": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "07548c2c6511d4d1780564de8a237a1966cf9c99a97cf5c8a185e6c2aeacff09"
+    "enFp": "07548c2c6511d4d1780564de8a237a1966cf9c99a97cf5c8a185e6c2aeacff09",
+    "stale": false
   },
   "player.systemLabels.accordion.collapse": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "be6eb1fc3b05bf9dceebad2eac7841d1b2f40bda9aa2da34df8ca22af02bc3ed"
+    "enFp": "be6eb1fc3b05bf9dceebad2eac7841d1b2f40bda9aa2da34df8ca22af02bc3ed",
+    "stale": false
   },
   "player.systemLabels.access.verifying": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "2ec1ac7d45e8079b8410caee12456f9655d1ae809e9ec933d3a7982e1f3a5d08"
+    "enFp": "2ec1ac7d45e8079b8410caee12456f9655d1ae809e9ec933d3a7982e1f3a5d08",
+    "stale": false
   },
   "player.systemLabels.access.unable_to_verify": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "6a28034b2adda647ffc6b2478adc83fc7332c17947cd584270166eab50d321cb"
+    "enFp": "6a28034b2adda647ffc6b2478adc83fc7332c17947cd584270166eab50d321cb",
+    "stale": false
   },
   "player.systemLabels.access.saving": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "dc85af8f2b1d0d6756547cd5f79557466e25e682b882f68d277bd7f125851321"
+    "enFp": "dc85af8f2b1d0d6756547cd5f79557466e25e682b882f68d277bd7f125851321",
+    "stale": false
   },
   "player.systemLabels.access.saved": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "ed9b760289e614c9dc8776e7280abe870be0a85019a32220b35acc54c0ecfbc1"
+    "enFp": "ed9b760289e614c9dc8776e7280abe870be0a85019a32220b35acc54c0ecfbc1",
+    "stale": false
   },
   "player.systemLabels.access.progress_tracked": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "ba9698867f4a2f330cf2f027dff1642be25b3f32e767ff47225c904afa0c21f3"
+    "enFp": "ba9698867f4a2f330cf2f027dff1642be25b3f32e767ff47225c904afa0c21f3",
+    "stale": false
   },
   "player.systemLabels.access.password_required": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "8cfe20dcdbf5837af3580f4b1d2ee57d07ed301abd8f9b031a990254e8b2e2ad"
+    "enFp": "8cfe20dcdbf5837af3580f4b1d2ee57d07ed301abd8f9b031a990254e8b2e2ad",
+    "stale": false
   },
   "player.systemLabels.access.password_not_configured": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "0aaf9b18132cfe46dd7a9a9e5a841f85b92cd71c0a0fcf932daf50205cc19023"
+    "enFp": "0aaf9b18132cfe46dd7a9a9e5a841f85b92cd71c0a0fcf932daf50205cc19023",
+    "stale": false
   },
   "player.systemLabels.access.password_description": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:56Z",
-    "enFp": "8ed8f25d0ec0b36dc680466bcdf74bf2255547b04422520d96d48bf7f270d6a7"
+    "enFp": "8ed8f25d0ec0b36dc680466bcdf74bf2255547b04422520d96d48bf7f270d6a7",
+    "stale": false
+  },
+  "player.systemLabels.access.nickname_placeholder": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "6fcb754570dd77d6694dd74b27ddd63829f29cab358c297dea33ce8265170083"
+  },
+  "player.systemLabels.access.nickname_description": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "5d2c907559bb29d8b07b0ce841aa3f88bd7ddaf758947062018d2f65e62a6530"
+  },
+  "player.systemLabels.access.name_description": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "562a75104a4eaa5621891f65ff753f59bb235d6ccd74c6a9a0761bda6766f0de"
+  },
+  "player.systemLabels.access.name_placeholder": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "2c564dcbcbde8eda7118f677c0c1d7a2806e305d3c199b01839d6659d18e4ed2"
+  },
+  "player.systemLabels.access.min_length": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "dd2a698b350f8b0d8fd08a67ed22bf5f752eccb18def3414a840b43782730659"
+  },
+  "player.systemLabels.access.max_length": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "02cc5797643f3f2734cea530b6c6b22699a3060c1efa1d604aedd68fc740a379"
+  },
+  "player.systemLabels.access.invalid_email": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "b00f7e3ae5e87365f3f63356a77f02245b82fea828b51d3279e6a490a351e7d1"
+  },
+  "player.systemLabels.access.incorrect_password": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "78fa607c01bc6f41ea21803a7820389dc658b272a4dfb4cf7e1539fcd09176c0"
+  },
+  "player.systemLabels.access.field_required": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "6876f12ea673f6b1e07fadbe778bd5fa77e3e6014e23cc34d56d5579d071b5d9"
+  },
+  "player.systemLabels.access.failed_to_save": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "7e29b879d2bc191578495f43a471bd93e21e86dd82e9231b8b5995fe891d9c7d"
+  },
+  "player.systemLabels.access.enter_password": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "7014aff13517c4071a9de8a8d338ac3ca12ae8ecf6589941d84170aa47cdcac3"
+  },
+  "player.systemLabels.access.enter_name": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "951ab65190399b2ee372d243b19ce78e2251feb5baed01d78f92431e027b9313"
+  },
+  "player.systemLabels.access.enter_email_placeholder": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "97af051a28d9808c72ba34c39e22223ddd0d9166eab7eb13dd6621228976e0e3"
+  },
+  "player.systemLabels.access.enter_email_description": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "62ec43f798807e469d678eda83e62c232efaed911c663330130e4973a3dd38c4"
+  },
+  "player.systemLabels.access.choose_nickname": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "609118ef7029897d6c545df6bf60e1e3830931695de710cd4d53b34e81e5690a"
+  },
+  "player.systemLabels.access.contact_provider": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "64743df1562b62f101b06126a3a13ce55fff11b0c427bcbd54a9671472c9d7bf"
+  },
+  "player.systemLabels.access.continue": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+  },
+  "player.systemLabels.access.enter_email": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:07:19Z",
+    "enFp": "7d8c7d88745736ea354e12671aa268cf84adccffd567e82d35d0cd4bd674fa0b"
   }
 }
