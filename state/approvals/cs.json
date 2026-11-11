@@ -2404,6 +2404,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:03:08Z",
-    "enFp": "3c73edc246e94c1f10274a1156ccbfddfa5de5d0aba9fe7d82aa603af9d85d64"
+    "enFp": "3c73edc246e94c1f10274a1156ccbfddfa5de5d0aba9fe7d82aa603af9d85d64",
+    "stale": false
+  },
+  "m5.slide.onlineAbuseInSportCanAffect.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:03:18Z",
+    "enFp": "8abdda894f40977a83ad3d60ecb5d7e6ce74da153fd55fd3536b92ca24055003"
   }
 }
