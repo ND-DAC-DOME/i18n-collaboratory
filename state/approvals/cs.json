@@ -1151,12 +1151,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:57:16Z",
-    "enFp": "01408c23ec9b74dd60d3a2a62473b031f0ec1bb507a0d1b35e0044f9e1648fb1"
+    "enFp": "01408c23ec9b74dd60d3a2a62473b031f0ec1bb507a0d1b35e0044f9e1648fb1",
+    "stale": false
   },
   "m4.regions.items.i3.title": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:57:16Z",
-    "enFp": "ecfa967e901a86b132554041d686ac4273fc4c194d16eeeac1fe7244f8002973"
+    "enFp": "ecfa967e901a86b132554041d686ac4273fc4c194d16eeeac1fe7244f8002973",
+    "stale": false
+  },
+  "m4.regions.items.i3.html": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:57:26Z",
+    "enFp": "c890cdb757b2b173bd29ba927e364086ed732d3f99c8f5bfcc4c9181ce70f6f0"
   }
 }
