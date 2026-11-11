@@ -4315,6 +4315,25 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:21:36Z",
-    "enFp": "c7b2050486086c38b4807e87e256f12bf7e9b5b67513c2384900f657d771faf3"
+    "enFp": "c7b2050486086c38b4807e87e256f12bf7e9b5b67513c2384900f657d771faf3",
+    "stale": false
+  },
+  "m1.check.questions.q2.sentenceMid2": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:21:51Z",
+    "enFp": "44359e21492d788147966d8c0bc5beb2f4f4d0d05dd36f3ff36a0cd36a349907"
+  },
+  "m1.check.questions.q2.sentenceAfter": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:21:51Z",
+    "enFp": "c7df4e906d1437d43e2ff8caae3a1a18207f987039d01b35d162a5251752cb3b"
+  },
+  "m1.check.questions.q2.choices.language": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:21:51Z",
+    "enFp": "a4ef304ba42a200bafd78b046e0869af9183f6eee5524aead5dcb3a5ab5f8f3f"
   }
 }
