@@ -1214,12 +1214,32 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:55:20Z",
-    "enFp": "f1047e4f6a722324001a2d4e74b09f63f815a33ed178eeca93d1926c376c13a2"
+    "enFp": "f1047e4f6a722324001a2d4e74b09f63f815a33ed178eeca93d1926c376c13a2",
+    "stale": false
   },
   "m1.matteo.cards.c1.alt": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:55:20Z",
-    "enFp": "8edfc5aaf9744b180ba1eaf7719d3dd0144dd11506a5ba381ad5e6ec52047a9e"
+    "enFp": "8edfc5aaf9744b180ba1eaf7719d3dd0144dd11506a5ba381ad5e6ec52047a9e",
+    "stale": false
+  },
+  "m1.matteo.cards.c1.html": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:55:38Z",
+    "enFp": "d7f1e45f9eed326df5688dde801ed201499cca0dd5bd91116900870bd3cc987d"
+  },
+  "m1.matteo.cards.c2.title": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:55:38Z",
+    "enFp": "7db4fa9de40f1875c65fa24d89ede17aafa83eff52a5cd72d0e5053a94e048ed"
+  },
+  "m1.matteo.cards.c2.alt": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:55:38Z",
+    "enFp": "4cd8008981426c979728883bac7d11affd4514fa528ce7961ff1bb8742bb37be"
   }
 }
