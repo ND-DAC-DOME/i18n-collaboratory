@@ -5064,6 +5064,19 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:52:10Z",
-    "enFp": "a04630ef8bc3da8c864af0161fde9d42cc9c801a27228b3cf7c07237dec5a612"
+    "enFp": "a04630ef8bc3da8c864af0161fde9d42cc9c801a27228b3cf7c07237dec5a612",
+    "stale": false
+  },
+  "m1.apply.scenarios.s4.bad": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:52:21Z",
+    "enFp": "2e04da08212e41ea99b50e536f860d772fc82a3216d79f3c1812dbcd82711869"
+  },
+  "m1.apply.scenarios.s4.ok": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:52:21Z",
+    "enFp": "9e463dcbb1d61e05ba3635f39124822722a038952a6c76acf828ec967b758f82"
   }
 }
