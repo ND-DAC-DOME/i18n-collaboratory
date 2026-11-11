@@ -3706,6 +3706,25 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:28:58Z",
-    "enFp": "61f31e94d1f43124ffba65f12e236c58e45dc944912eb6637da6cded80c3bf59"
+    "enFp": "61f31e94d1f43124ffba65f12e236c58e45dc944912eb6637da6cded80c3bf59",
+    "stale": false
+  },
+  "m4.duties.everyone.i2.verb": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:29:05Z",
+    "enFp": "c36d819e7bc6d2b7da51394411c733db89c395987885ca6770167a3b9bc45c3c"
+  },
+  "m4.duties.everyone.i2.rest": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:29:05Z",
+    "enFp": "65fe8e8b887eb154b3af99315c874d7877dddedd6e8e024546a714210fa23c6e"
+  },
+  "m4.duties.everyone.i3.verb": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:29:05Z",
+    "enFp": "5cf9734d8a0f10f9b9a59ce6868eade9f947dc0eb6fd66c744067d06eb03d96b"
   }
 }
