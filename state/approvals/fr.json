@@ -1641,6 +1641,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:11:12Z",
-    "enFp": "261c1c94ef0cd52a4b6a3dc1c56ae5f93c28159d08a2d045c616bf1faaae0cf2"
+    "enFp": "261c1c94ef0cd52a4b6a3dc1c56ae5f93c28159d08a2d045c616bf1faaae0cf2",
+    "stale": false
+  },
+  "m2.affected.cards.c2.name": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:27:18Z",
+    "enFp": "a6299cad2f437e90fe7ad451197e73e479efe918aabcac1759173e64133f8f70"
   }
 }
