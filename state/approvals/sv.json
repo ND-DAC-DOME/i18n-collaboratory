@@ -4373,5 +4373,11 @@
     "at": "2026-11-11T04:40:24Z",
     "enFp": "8fb1b6a148c218138d7ce8a6c9babf02e3b63fdff61ab066107299ea212d338e",
     "stale": false
+  },
+  "m1.protected.race": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:41:28Z",
+    "enFp": "73134ce128291dc366b5bf3cf75c167846a2823f56705437694879de7b336e9a"
   }
 }
