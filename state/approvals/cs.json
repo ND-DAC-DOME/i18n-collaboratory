@@ -2985,36 +2985,54 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:50Z",
-    "enFp": "e9ee79f5522ac8046155df4a7776d024891c4f6e6f4a72c5d40fe105e79cf6f6"
+    "enFp": "e9ee79f5522ac8046155df4a7776d024891c4f6e6f4a72c5d40fe105e79cf6f6",
+    "stale": false
   },
   "player.systemLabels.resume.last_on": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:50Z",
-    "enFp": "3a226c6acc2cfbe684aef78425d1e8028c8567900bcec2f156bfadc22a127318"
+    "enFp": "3a226c6acc2cfbe684aef78425d1e8028c8567900bcec2f156bfadc22a127318",
+    "stale": false
   },
   "player.systemLabels.reactions.send_comment": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:50Z",
-    "enFp": "badd6941df1727e8ffe78a89e8584b7e11d1f8b4cf6dd72a7f0e3cf003b7b774"
+    "enFp": "badd6941df1727e8ffe78a89e8584b7e11d1f8b4cf6dd72a7f0e3cf003b7b774",
+    "stale": false
   },
   "player.systemLabels.reactions.selection_locked": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:50Z",
-    "enFp": "cf849ffa09813e12c97ef9ffeb678b46ad1479ec3fe99f7cc7345ba0f9ead02b"
+    "enFp": "cf849ffa09813e12c97ef9ffeb678b46ad1479ec3fe99f7cc7345ba0f9ead02b",
+    "stale": false
   },
   "player.systemLabels.reactions.rating_prompt": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:50Z",
-    "enFp": "2107d5bbdbbae8c083a67bd7a11fdb7027ad6781bec414a5efce4091c40ccc38"
+    "enFp": "2107d5bbdbbae8c083a67bd7a11fdb7027ad6781bec414a5efce4091c40ccc38",
+    "stale": false
   },
   "player.systemLabels.reactions.question": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:50Z",
-    "enFp": "2cfcf9ff2690c3b6e91d44d16605503d31b54ca397b5134abdaa4a5110b35d58"
+    "enFp": "2cfcf9ff2690c3b6e91d44d16605503d31b54ca397b5134abdaa4a5110b35d58",
+    "stale": false
+  },
+  "player.systemLabels.reactions.prompt": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:54Z",
+    "enFp": "e8552b365ea7cab98afd83f1000b89c349bf729e95aa4b30f495f5088a92342d"
+  },
+  "player.systemLabels.reactions.not_up_to_date": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:54Z",
+    "enFp": "f506de0740f26327bd8e46bcb807f46d96de319d31da38cf8fc7e46e4d03b60a"
   }
 }
