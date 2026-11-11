@@ -2957,6 +2957,79 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:36:22Z",
-    "enFp": "8d5e54fb828fed4e03df77a2e769de11f07ea5d456d8ed96d95df5ae66e7646c"
+    "enFp": "8d5e54fb828fed4e03df77a2e769de11f07ea5d456d8ed96d95df5ae66e7646c",
+    "stale": false
+  },
+  "m4.lawTabs.ui.forExample": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "021fb430b8dd8749e508b0987a1c8171711ef9108b8181329016244e5b4017cd"
+  },
+  "m4.lawTabs.ui.navAria": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "370dcc558d9b26f34a0d4d2674d94e52734241d8a91cfa8c1353fee569ab5138"
+  },
+  "m4.lawTabs.ui.prevAria": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "262c8b0402993ff91eae78c6e0319a7211bb4742fbd15045258374e25916730f"
+  },
+  "m4.lawTabs.ui.nextAria": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "0dd24f765cf2aa89c68f30f1abb96665e3e561e3e36b542625016eb8998dee57"
+  },
+  "m4.lawTabs.tabs.t1.title": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "37d3ffac26bf75b7ce260094cd1d5fb84e93470b5b114f29961c96fc41efe638"
+  },
+  "m4.lawTabs.tabs.t1.imageAlt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "edcb0630603bfba5a6e0c28a1b4d7fde575abd1bb2d72de48704a9b360acfa22"
+  },
+  "m4.lawTabs.tabs.t1.pathway": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "10012cda95e1288a12bcfb26d8e4b77aca5b6b0c499908b562e1e33e059de083"
+  },
+  "m4.lawTabs.tabs.t1.example": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "6b0f72294a41e2afa8d1f9278984b385acde1fdbc149eb7845a799ba0cbb00b4"
+  },
+  "m4.lawTabs.tabs.t2.title": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "4574818641dfd061b479f76b3fe954ed4ca569720f7603fe541c95b383fe38ee"
+  },
+  "m4.lawTabs.tabs.t2.imageAlt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "68e32397b477e5f0b310276b8034b8ac5a23d1f1794981eb7462ea52950b53a3"
+  },
+  "m4.lawTabs.tabs.t2.pathway": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "fcff1d7ef2baa20dfd658ee7e6df88e605123a1b319ef7bead701c8f045b7f49"
+  },
+  "m4.lawTabs.tabs.t2.example": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:46Z",
+    "enFp": "e1964e4a90b2265a013e56b8df8277a88d259b068d7946f01c1c4ae8cbcccce9"
   }
 }
