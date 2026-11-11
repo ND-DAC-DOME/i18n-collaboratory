@@ -801,6 +801,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:46:37Z",
-    "enFp": "a30892198a34e532627d25b0a39fd84b535b1183b95e7fce158c7d5ff23f4b27"
+    "enFp": "a30892198a34e532627d25b0a39fd84b535b1183b95e7fce158c7d5ff23f4b27",
+    "stale": false
+  },
+  "m1.platforms.groups.g1.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:46:50Z",
+    "enFp": "8e940b0d57f8b07540da3977e646853900f03e1348a4662424b96a6690c83857"
   }
 }
