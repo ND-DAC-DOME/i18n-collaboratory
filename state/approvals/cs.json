@@ -3463,5 +3463,41 @@
     "at": "2026-11-11T15:24:19Z",
     "enFp": "6c0d016a5452b61a7c929c0bef4560833a63a5d7380a87d36a507fa7bf80193b",
     "stale": false
+  },
+  "player.systemLabels.continue.button_text": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:25:03Z",
+    "enFp": "de217b1f0cbfb55cf2361e04b4abc3fea5921488a85754fe4b772dd658edbe69"
+  },
+  "player.systemLabels.continue.continue": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:25:03Z",
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+  },
+  "player.systemLabels.flashcard.card": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:25:03Z",
+    "enFp": "8d236466cfaa59f779e7b8cf8d57e71b56c521e6e3c58794bf5a2162008eeb40"
+  },
+  "player.systemLabels.flashcard.card_number": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:25:03Z",
+    "enFp": "be3702e3f1af559a8df03568294283934a2558521fd8895f68eda09e3ce4f8a3"
+  },
+  "player.systemLabels.flashcard.click_to_flip": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:25:03Z",
+    "enFp": "e0bd1dd7cb66d8fc9929319816653f0d58cc156262e3e427b4b7dd2570f20b44"
+  },
+  "player.systemLabels.flashcard.click_to_flip_back": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:25:03Z",
+    "enFp": "eb803e84bc7ae111703e64f559f080af375dc170cfea289b92ebae90376af8b6"
   }
 }
