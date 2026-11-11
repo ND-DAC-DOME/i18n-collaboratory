@@ -1774,18 +1774,27 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:12Z",
-    "enFp": "295b36477968e13f4b7832ef5e8606d58d901ad2efb6b2e6af1d41eb1b849175"
+    "enFp": "295b36477968e13f4b7832ef5e8606d58d901ad2efb6b2e6af1d41eb1b849175",
+    "stale": false
   },
   "m2.exploreImpacts.labels.c5": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:12Z",
-    "enFp": "e67f858b00976191a3b871c395293f92e7e74775e92b66325fb1c80a973e4135"
+    "enFp": "e67f858b00976191a3b871c395293f92e7e74775e92b66325fb1c80a973e4135",
+    "stale": false
   },
   "m2.impacts.ui.pathwayAria": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:12Z",
-    "enFp": "5a9cf33f57f00a6520968dbd16f68c3f3a2d9e20a357fc147e100cf92fe3057b"
+    "enFp": "5a9cf33f57f00a6520968dbd16f68c3f3a2d9e20a357fc147e100cf92fe3057b",
+    "stale": false
+  },
+  "m2.impacts.ui.navAria": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:29:15Z",
+    "enFp": "83752fce7d6d9ed9f85feda31483c4152f13042c2f37399165d3f378de4a2204"
   }
 }
