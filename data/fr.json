@@ -4272,7 +4272,7 @@
       },
       "welcomeTitle": {
         "heading": {
-          "text": "<span style=\"color: #1c3564\">Bienvenue : merci de rejoindre la mission de l’UAOA !</span>",
+          "text": "<span style=\"color: #1c3564\">Bienvenue : merci de rejoindre la mission d'UAOA !</span>",
           "note": "Native heading on Welcome"
         }
       },
