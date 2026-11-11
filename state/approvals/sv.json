@@ -4903,6 +4903,13 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:49:18Z",
-    "enFp": "27179b333abdb0f3f42b601d64827d9e51878acb876ccf3482d68b3a73e207a3"
+    "enFp": "27179b333abdb0f3f42b601d64827d9e51878acb876ccf3482d68b3a73e207a3",
+    "stale": false
+  },
+  "m1.takeaways.items.i4": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:49:21Z",
+    "enFp": "2be507436656e8b5eca995b8231876d130760410f519bf8570983489f6b85561"
   }
 }
