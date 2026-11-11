@@ -493,6 +493,19 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:39:36Z",
-    "enFp": "1e80abcd49c3adc68d605317740598332e56c59ebbe5133f24ed1e1efb9a3f7e"
+    "enFp": "1e80abcd49c3adc68d605317740598332e56c59ebbe5133f24ed1e1efb9a3f7e",
+    "stale": false
+  },
+  "m1.apply.labels.offensiveSpeech": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:39:41Z",
+    "enFp": "df257f7117719e388e0478e5a97198b2dee48be33c752792d7fa65c0eae51e6c"
+  },
+  "m1.apply.labels.digitalHostility": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:39:41Z",
+    "enFp": "46941c68b49f0f9e9cfb8de9182dcb9262d5e17f72c25fc22929e110f6a4bbce"
   }
 }
