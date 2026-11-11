@@ -2516,6 +2516,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:10:06Z",
-    "enFp": "b78332de8404f26b37cbcf8b1be185c1406ccc3028f9fd2ae27ee38d8769ee7b"
+    "enFp": "b78332de8404f26b37cbcf8b1be185c1406ccc3028f9fd2ae27ee38d8769ee7b",
+    "stale": false
+  },
+  "m4.slide.introSubtitle": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:10:09Z",
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
   }
 }
