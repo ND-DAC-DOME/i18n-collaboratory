@@ -1602,13 +1602,6 @@
     "enFp": "483a4130c92fe57febd4d1739dfc799e3a4ac94f7bbd0cc54e6c506a687c8b86",
     "stale": false
   },
-  "m5.layers.ui.tracksAria": {
-    "approved": true,
-    "by": "Veronika",
-    "at": "2026-11-11T14:06:02Z",
-    "enFp": "0436b95937b89f9c2b367469e5a0ba5a600170d784f1ac848901213ee88b648d",
-    "stale": false
-  },
   "m5.layers.ui.openLayer": {
     "approved": true,
     "by": "Veronika",
@@ -1704,6 +1697,7 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:08:42Z",
-    "enFp": "8053eb250ccf110b832ff3e617b54ed46ee60872c34d4068f15afd3eaaf2dd4b"
+    "enFp": "8053eb250ccf110b832ff3e617b54ed46ee60872c34d4068f15afd3eaaf2dd4b",
+    "stale": false
   }
 }
