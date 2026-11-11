@@ -1487,6 +1487,19 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:08:18Z",
-    "enFp": "79158a806fb93124ebcee37054e525550f3716ce4d74c3851c61a70ce3676b25"
+    "enFp": "79158a806fb93124ebcee37054e525550f3716ce4d74c3851c61a70ce3676b25",
+    "stale": false
+  },
+  "m2.check.questions.q1.choices.c0": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:08:54Z",
+    "enFp": "f17df01df0e16a1792f3b0c90cab0dbdc5b351fcb16c2e049ebb185dc5383cba"
+  },
+  "m2.check.questions.q1.choices.c1": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:08:54Z",
+    "enFp": "b6eb15a7d951fb8dedbdd29e8c5ed9705f9e31dbd7b36d97c83adb7a81e9fb66"
   }
 }
