@@ -1193,18 +1193,33 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:55:16Z",
-    "enFp": "370dcc558d9b26f34a0d4d2674d94e52734241d8a91cfa8c1353fee569ab5138"
+    "enFp": "370dcc558d9b26f34a0d4d2674d94e52734241d8a91cfa8c1353fee569ab5138",
+    "stale": false
   },
   "m1.matteo.ui.prevAria": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:55:16Z",
-    "enFp": "262c8b0402993ff91eae78c6e0319a7211bb4742fbd15045258374e25916730f"
+    "enFp": "262c8b0402993ff91eae78c6e0319a7211bb4742fbd15045258374e25916730f",
+    "stale": false
   },
   "m1.matteo.ui.nextAria": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:55:16Z",
-    "enFp": "0dd24f765cf2aa89c68f30f1abb96665e3e561e3e36b542625016eb8998dee57"
+    "enFp": "0dd24f765cf2aa89c68f30f1abb96665e3e561e3e36b542625016eb8998dee57",
+    "stale": false
+  },
+  "m1.matteo.cards.c1.title": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:55:20Z",
+    "enFp": "f1047e4f6a722324001a2d4e74b09f63f815a33ed178eeca93d1926c376c13a2"
+  },
+  "m1.matteo.cards.c1.alt": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:55:20Z",
+    "enFp": "8edfc5aaf9744b180ba1eaf7719d3dd0144dd11506a5ba381ad5e6ec52047a9e"
   }
 }
