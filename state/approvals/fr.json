@@ -353,6 +353,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:33:13Z",
-    "enFp": "63d608e04388aac7e3be1ff8e66274a04808d5a7d7de8ee7d1484993a5d3cfdd"
+    "enFp": "63d608e04388aac7e3be1ff8e66274a04808d5a7d7de8ee7d1484993a5d3cfdd",
+    "stale": false
+  },
+  "welcome.slide.sportConnectsMillionsOfPeopleAcross.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:33:22Z",
+    "enFp": "561a8ef003f80e604f42e805dbb57f1fff7dedcd32aa916bed7a216595e27982"
   }
 }
