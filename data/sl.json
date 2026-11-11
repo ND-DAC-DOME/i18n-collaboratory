@@ -179,7 +179,7 @@
             "note": "Scenario prompt; answer = offensive speech"
           },
           "ok": {
-            "text": "<strong>Pravilno!</strong> Komentarji uporabljajo žaljivo in ponižujoče izrazoslovje, osredotočeno na športnikovo uspešnost, zaradi česar je to primer <strong>žaljivega govora</strong>. Ženske so lahko zaradi svojega spola bolj izpostavljene spletnim zlorabam, tudi če posamezna sporočila spola ne opredeljujejo kot zaščitene značilnosti.",
+            "text": "<strong>Pravilno!</strong> Komentarji uporabljajo žaljivo in ponižujoče izrazoslovje, osredotočeno na športnikovo uspešnost, zaradi česar je to primer <strong>žaljivega govora</strong>Ženske so lahko zaradi svojega spola pogosteje izpostavljene spletnim zlorabam, tudi kadar posamezna sporočila izrecno ne ciljajo na spol kot varovano osebno okoliščino.",
             "note": "HTML allowed"
           },
           "bad": {
