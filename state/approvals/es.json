@@ -3538,6 +3538,13 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:47:01Z",
-    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45",
+    "stale": false
+  },
+  "m2.impacts.cards.c6.source": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:47:04Z",
+    "enFp": "e4aed349acb07c9b5459b35255cf6f91c5eb0141351ecfd4f75d3ac9814092ec"
   }
 }
