@@ -4343,36 +4343,54 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:22:03Z",
-    "enFp": "f8a52d21e659b0e9b473f4e23263def011931bad06bad2146f42b1f5d09c8132"
+    "enFp": "f8a52d21e659b0e9b473f4e23263def011931bad06bad2146f42b1f5d09c8132",
+    "stale": false
   },
   "m1.check.questions.q3.label": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:22:03Z",
-    "enFp": "f6ab35d1394c5ca1ce73d677321a252f8bdc8097b682ca8dd7f98559872a9def"
+    "enFp": "f6ab35d1394c5ca1ce73d677321a252f8bdc8097b682ca8dd7f98559872a9def",
+    "stale": false
   },
   "m1.check.questions.q2.choices.pattern": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:22:03Z",
-    "enFp": "1fd38d5cbd2a997b91f725cb1cb0a710849db30dac491ee42e92443fd8e3c1a2"
+    "enFp": "1fd38d5cbd2a997b91f725cb1cb0a710849db30dac491ee42e92443fd8e3c1a2",
+    "stale": false
   },
   "m1.check.questions.q2.choices.target": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:22:03Z",
-    "enFp": "34a04005bcaf206eec990bd9637d9fdb6725e0a0c0d4aebf003f17f4c956eb5c"
+    "enFp": "34a04005bcaf206eec990bd9637d9fdb6725e0a0c0d4aebf003f17f4c956eb5c",
+    "stale": false
   },
   "m1.check.questions.q3.choices.performance": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:22:03Z",
-    "enFp": "a1d5dbbce28ee5d9c365460b5cf6cf5bffe14d7a398f4de0992b8fa46d2a72a2"
+    "enFp": "a1d5dbbce28ee5d9c365460b5cf6cf5bffe14d7a398f4de0992b8fa46d2a72a2",
+    "stale": false
   },
   "m1.check.questions.q3.choices.disability": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:22:03Z",
-    "enFp": "6db0f2662a542d5dcf5625964fa52acca88452c46773430cf6734343cf056ef6"
+    "enFp": "6db0f2662a542d5dcf5625964fa52acca88452c46773430cf6734343cf056ef6",
+    "stale": false
+  },
+  "m1.check.questions.q3.choices.position": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:22:06Z",
+    "enFp": "2e945403777698db72275b0f8ee3f9459ab5f463536509f9bd49f645ee564a14"
+  },
+  "m1.check.questions.q3.choices.ethnicity": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:22:06Z",
+    "enFp": "2a0bdd7ccfd0aa7ff3c5641d728368ddcce614efeae9676eac6a480ed2e73c89"
   }
 }
