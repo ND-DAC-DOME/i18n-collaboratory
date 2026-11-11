@@ -1627,12 +1627,20 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:11:10Z",
-    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de"
+    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de",
+    "stale": false
   },
   "m2.affected.cards.c1.name": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:11:10Z",
-    "enFp": "39822ba817e81af88dfbc6848df83dffee60baec63f0fd87221f984e171f9b6b"
+    "enFp": "39822ba817e81af88dfbc6848df83dffee60baec63f0fd87221f984e171f9b6b",
+    "stale": false
+  },
+  "m2.affected.cards.c1.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:11:12Z",
+    "enFp": "261c1c94ef0cd52a4b6a3dc1c56ae5f93c28159d08a2d045c616bf1faaae0cf2"
   }
 }
