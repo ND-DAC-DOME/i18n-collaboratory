@@ -4910,36 +4910,132 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:52:39Z",
-    "enFp": "89eff531044582d6d5737ac21ba96da0c83b8be967e593750db05c0598424409"
+    "enFp": "89eff531044582d6d5737ac21ba96da0c83b8be967e593750db05c0598424409",
+    "stale": false
   },
   "summary.quiz.questions.q7.next": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:52:39Z",
-    "enFp": "d42aaa9b0abd805f8e568802e1c13484590305d50ba8bc3bd8e2174d7e46f36d"
+    "enFp": "d42aaa9b0abd805f8e568802e1c13484590305d50ba8bc3bd8e2174d7e46f36d",
+    "stale": false
   },
   "summary.quiz.questions.q8.prompt": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:52:39Z",
-    "enFp": "20679a2975daee48ff85b3e78465ae8ea61ba316c105a1077cbe2b63ce2fd447"
+    "enFp": "20679a2975daee48ff85b3e78465ae8ea61ba316c105a1077cbe2b63ce2fd447",
+    "stale": false
   },
   "summary.quiz.questions.q8.choices.c0": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:52:39Z",
-    "enFp": "25c77e15db25e96c4df42337d80dc73049318e080e3e0f8a3c1aa90a5af72237"
+    "enFp": "25c77e15db25e96c4df42337d80dc73049318e080e3e0f8a3c1aa90a5af72237",
+    "stale": false
   },
   "summary.quiz.questions.q8.choices.c1": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:52:39Z",
-    "enFp": "3bebbe60a799de5af16f1c6d85f8e6ac864c90c32c198e8e7e0665c215847c56"
+    "enFp": "3bebbe60a799de5af16f1c6d85f8e6ac864c90c32c198e8e7e0665c215847c56",
+    "stale": false
   },
   "summary.quiz.questions.q8.choices.c2": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:52:39Z",
-    "enFp": "892fa20627f3274c6ce78116acba0389429e6a59f4c9fd52774991f153fc2d98"
+    "enFp": "892fa20627f3274c6ce78116acba0389429e6a59f4c9fd52774991f153fc2d98",
+    "stale": false
+  },
+  "summary.quiz.questions.q8.reveal": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "25cd4c9121f904cc0d79a911811b1198a0c8013dc82b82aee568f9afb8f1c17f"
+  },
+  "summary.quiz.questions.q8.next": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "d42f5c105229a240b95b90d07a6f3e74834175bea43efd451ef3cf42fbc32912"
+  },
+  "summary.quiz.questions.q9.prompt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "fa9fd89d6bad05c7ab7900d17eff3c98a40e305a8cdc26c1b7398e4bf8cb09c5"
+  },
+  "summary.quiz.questions.q9.choices.c0": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "23b6001366d3ec2ee5b45038c19cf6b7d5fcadaccf3fa08766834908ba32de20"
+  },
+  "summary.quiz.questions.q9.choices.c1": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "15aaf754db119a52a1733b7bb74c57b834123b82f9efd4aac80831743176dd8e"
+  },
+  "summary.quiz.questions.q9.choices.c2": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "cc95e2199d2756a5b4e4e6bfdbfd5671f071f3ad2f22af68015c397ceb0ddb14"
+  },
+  "summary.quiz.questions.q9.reveal": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "1963ae9efcda13e12d5d3c24ea444eb5dcff1fd5dca6113f90d9a34273e8b1c0"
+  },
+  "summary.quiz.questions.q9.next": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "ee9701212c9057f969b38de72f7c9351da98a915826be48ab71bf10a65336bfd"
+  },
+  "summary.quiz.questions.q10.prompt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "befa330f61991fef5323ebc255edef26f74a59bf01cd70946f04f97f94c74e18"
+  },
+  "summary.quiz.questions.q10.choices.c0": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "e9ee61bc1eb6c3852197bab99c0a0978784bb79a354c17b6ff47f1b37091b57b"
+  },
+  "summary.quiz.questions.q10.choices.c1": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "6ee6af3b68f80b923c3fbbcb59d4d8a97b7f32e33c3f9767dc16ac6a50ad68d7"
+  },
+  "summary.quiz.questions.q10.choices.c2": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "4ce61561f894764358f5a0a2065ac834382ef1db870b9f0437742ab2f922e062"
+  },
+  "summary.quiz.questions.q10.choices.c3": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "ddc823f21f0a63b528464ac635527d2fb14a91965f11faf75bad1790f0ecb134"
+  },
+  "summary.quiz.questions.q10.reveal": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "b4b222725fc589bca9f46846e1c0f2788ec0b176278bcdbb1e7c4f0305b5f9ff"
+  },
+  "summary.quiz.questions.q10.next": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:53:02Z",
+    "enFp": "f534885a4a3957d20e38ea64d2a509d77cc6e72573bbb3bbe90902b066c07c6f"
   }
 }
