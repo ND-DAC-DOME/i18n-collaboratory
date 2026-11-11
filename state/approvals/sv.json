@@ -5323,6 +5323,13 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T06:50:45Z",
-    "enFp": "6b92d5226bd67327fbc3699e80c005ef0f49283cdb7ca7a9c65878e1350b07dc"
+    "enFp": "6b92d5226bd67327fbc3699e80c005ef0f49283cdb7ca7a9c65878e1350b07dc",
+    "stale": false
+  },
+  "m2.affected.cards.c6.body": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:51:10Z",
+    "enFp": "9fa98713efe7c544edd3e017c70308468402b1ff8b69c3a763c1f661d2e07487"
   }
 }
