@@ -3727,18 +3727,27 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:03:12Z",
-    "enFp": "9c3d6f49b9c271157ff5f0bd7171780087b8a07df36d633858db09669d951d46"
+    "enFp": "9c3d6f49b9c271157ff5f0bd7171780087b8a07df36d633858db09669d951d46",
+    "stale": false
   },
   "m1.takeaways.heading": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:03:12Z",
-    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45",
+    "stale": false
   },
   "m1.takeaways.items.i1": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:03:12Z",
-    "enFp": "39af4a4d2d1cff39ebb91f96d50f1609ad4ff6a294b816c5662fd5e8fb2c3e5d"
+    "enFp": "39af4a4d2d1cff39ebb91f96d50f1609ad4ff6a294b816c5662fd5e8fb2c3e5d",
+    "stale": false
+  },
+  "m1.takeaways.items.i2": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:03:20Z",
+    "enFp": "a497e0a3739dfb2ac0c7eb316be0ad4238c18c43c3d16d338fae9b0c041c2df5"
   }
 }
