@@ -4310,5 +4310,11 @@
     "at": "2026-11-11T15:52:40Z",
     "enFp": "224302552c8a3d2e55a5cada0000880533436e0c7f62c90ce9325936233f2c9a",
     "stale": false
+  },
+  "m1.check.questions.q2.sentenceBefore": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:55:35Z",
+    "enFp": "cac532b20efde815824fe32ad01534c3a27128ea68995276d7acdd7b4ad3c28c"
   }
 }
