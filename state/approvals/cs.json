@@ -1658,13 +1658,6 @@
     "enFp": "8651fa3b245e7c64c84b843751d405a374b701ebfc181c508ffa9daadbcc8944",
     "stale": false
   },
-  "m5.layers.ui.actionLevelOf": {
-    "approved": true,
-    "by": "Veronika",
-    "at": "2026-11-11T14:07:16Z",
-    "enFp": "577be8299b1f3e9743bdf28893ded9f828592148316a895208d465c248227886",
-    "stale": false
-  },
   "m5.layers.ui.layerOf": {
     "approved": true,
     "by": "Veronika",
@@ -1704,6 +1697,7 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:09:53Z",
-    "enFp": "0436b95937b89f9c2b367469e5a0ba5a600170d784f1ac848901213ee88b648d"
+    "enFp": "0436b95937b89f9c2b367469e5a0ba5a600170d784f1ac848901213ee88b648d",
+    "stale": false
   }
 }
