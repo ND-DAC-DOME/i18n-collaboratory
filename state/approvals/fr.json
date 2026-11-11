@@ -2376,36 +2376,48 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:33:11Z",
-    "enFp": "55853e82212419b3b9552b36cd274c88dd85cb71d80540d9015649a517b98583"
+    "enFp": "55853e82212419b3b9552b36cd274c88dd85cb71d80540d9015649a517b98583",
+    "stale": false
   },
   "m3.checklist.ui.progress": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:33:11Z",
-    "enFp": "1dc03e9a9e202dc43fea83f67ad910dc5732afcdd1235852d78f48357608ee97"
+    "enFp": "1dc03e9a9e202dc43fea83f67ad910dc5732afcdd1235852d78f48357608ee97",
+    "stale": false
   },
   "m3.checklist.items.i1": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:33:11Z",
-    "enFp": "cb5c8f4ce2b2da96188327f8adaa119881d6779e9ab4622116b8d94c75f43d60"
+    "enFp": "cb5c8f4ce2b2da96188327f8adaa119881d6779e9ab4622116b8d94c75f43d60",
+    "stale": false
   },
   "m3.checklist.items.i2": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:33:11Z",
-    "enFp": "26010613788b9d7d1e747187a75595546b1a7f27ce280532d9ddde61799b5fdd"
+    "enFp": "26010613788b9d7d1e747187a75595546b1a7f27ce280532d9ddde61799b5fdd",
+    "stale": false
   },
   "m3.checklist.items.i3": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:33:11Z",
-    "enFp": "a976a623f701177f891d4007a19f7b4212e8ec96df681671a423dd50f3c1f2b2"
+    "enFp": "a976a623f701177f891d4007a19f7b4212e8ec96df681671a423dd50f3c1f2b2",
+    "stale": false
   },
   "m3.checklist.items.i4": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:33:11Z",
-    "enFp": "2bb72e3674411a8d1212ee98d899498f04ceeb3f28fed83b66e8cea6bf89cb49"
+    "enFp": "2bb72e3674411a8d1212ee98d899498f04ceeb3f28fed83b66e8cea6bf89cb49",
+    "stale": false
+  },
+  "m3.checklist.items.i5": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:33:14Z",
+    "enFp": "aceea0406570a812c077392e68d8599dc85ab5955528eee317e1658c5bf45df3"
   }
 }
