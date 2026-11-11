@@ -3888,6 +3888,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:39:08Z",
-    "enFp": "7f24d5daf3a95fd71e7013dcf5255f0fd2013f82d8d272e5f4a1109c39fa9679"
+    "enFp": "7f24d5daf3a95fd71e7013dcf5255f0fd2013f82d8d272e5f4a1109c39fa9679",
+    "stale": false
+  },
+  "m1.forms.cards.c2.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:39:11Z",
+    "enFp": "9ce77337491d9fc83b34ff86b79697b4d8764280f7e8a22656cb45a34b595b3f"
   }
 }
