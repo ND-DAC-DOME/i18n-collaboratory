@@ -1123,12 +1123,26 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:56:55Z",
-    "enFp": "89a8238dcaaf62554ddbb4ae37aff5cd00fcdae2fcb5eb6d74261f8ca0d53d1f"
+    "enFp": "89a8238dcaaf62554ddbb4ae37aff5cd00fcdae2fcb5eb6d74261f8ca0d53d1f",
+    "stale": false
   },
   "m4.regions.ui.countriesAria": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:56:55Z",
-    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004"
+    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004",
+    "stale": false
+  },
+  "m4.regions.items.i1.html": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:57:07Z",
+    "enFp": "207f0a14e33509f568d827a4990aae534200206ab800ce6d9421902d6915595b"
+  },
+  "m4.regions.items.i2.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:57:07Z",
+    "enFp": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd"
   }
 }
