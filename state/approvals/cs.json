@@ -4679,18 +4679,33 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:53Z",
-    "enFp": "bc22e9d5d864b5ba722d653102909f84ddb373b733be7bb45eded85db315b9bc"
+    "enFp": "bc22e9d5d864b5ba722d653102909f84ddb373b733be7bb45eded85db315b9bc",
+    "stale": false
   },
   "m1.slide.whatDoWeUnderstandByOnline.body": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:53Z",
-    "enFp": "c01924929b36c46bd63e64fe81bb262804cbe594a0a610e9d796ea7d6246033c"
+    "enFp": "c01924929b36c46bd63e64fe81bb262804cbe594a0a610e9d796ea7d6246033c",
+    "stale": false
   },
   "m1.slide.whatDoWeUnderstandByOnline.heading": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:53Z",
-    "enFp": "93d6a0e7862e8ce7f08b1e141b1795c6b89e0f90e71a0971a8c463563c35124a"
+    "enFp": "93d6a0e7862e8ce7f08b1e141b1795c6b89e0f90e71a0971a8c463563c35124a",
+    "stale": false
+  },
+  "m1.slide.whatDoWeUnderstandByOnline.p3": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:58Z",
+    "enFp": "4620b58c9900dc384481b663952fbec18f8553be2d82090d7eadf4012556367c"
+  },
+  "m1.slide.whenTheBehavioursOverlap.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:58Z",
+    "enFp": "25266a4c39e8bc5f5747891474075513451b9f1d36853e9bdedfdfbc1d2726aa"
   }
 }
