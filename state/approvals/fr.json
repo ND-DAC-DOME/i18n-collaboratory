@@ -5134,6 +5134,25 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:06Z",
-    "enFp": "8f695363bc6dff27de47104b9041d2c9fe8db0bb28f2e33c772067e4f99071c1"
+    "enFp": "8f695363bc6dff27de47104b9041d2c9fe8db0bb28f2e33c772067e4f99071c1",
+    "stale": false
+  },
+  "summary.quiz.ui.ok": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:56:14Z",
+    "enFp": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+  },
+  "summary.quiz.ui.pressEnter": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:56:14Z",
+    "enFp": "bf3e22e1ae84821dd16dfeb849d8101b2d20234d03dd8c7467377b2483daa88a"
+  },
+  "summary.quiz.ui.questionOf": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:56:14Z",
+    "enFp": "1eec1410325cef764b75e430b38afffc5779817cabcc31627694296cd9bbba03"
   }
 }
