@@ -955,6 +955,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:49:05Z",
-    "enFp": "6b95e310f8e823e61d90080b62fba17d3974f9139c02e537955aa170faf76a5c"
+    "enFp": "6b95e310f8e823e61d90080b62fba17d3974f9139c02e537955aa170faf76a5c",
+    "stale": false
+  },
+  "m4.lawTabs.ui.forExample": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:54:19Z",
+    "enFp": "021fb430b8dd8749e508b0987a1c8171711ef9108b8181329016244e5b4017cd"
   }
 }
