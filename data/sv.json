@@ -1519,7 +1519,7 @@
       },
       "aiAndOnlineHarm": {
         "body": {
-          "text": "<p><span style=\"color: #091324\">Artificiell intelligens (AI) förändrar hur skada på nätet skapas och sprids. AI kan möjliggöra nya former av övergrepp, men kan också hjälpa till att upptäcka skadligt innehåll, stödja moderering och ge verktyg för säkerhet på nätet.</span></p>",
+          "text": "<p><span style=\"color: #091324\">Artificiell intelligens (AI) förändrar hur skadligt innehåll på nätet skapas och sprids. AI kan möjliggöra nya former av övergrepp, men kan också hjälpa till att upptäcka skadligt innehåll, stödja moderering och ge verktyg för säkerhet på nätet.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         },
         "heading": {
