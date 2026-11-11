@@ -1347,6 +1347,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:56:55Z",
-    "enFp": "d584e576b443994382b14f8d9b63db502621445906b80d148ddc5b310cdec165"
+    "enFp": "d584e576b443994382b14f8d9b63db502621445906b80d148ddc5b310cdec165",
+    "stale": false
+  },
+  "m1.slide.continueToModule2": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:57:07Z",
+    "enFp": "6955d7bd898f5657eef3604ee094d52e2d4d77fc328903b2fb2560d3cc1e86f6"
   }
 }
