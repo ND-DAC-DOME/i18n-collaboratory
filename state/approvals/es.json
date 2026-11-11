@@ -2383,78 +2383,169 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "88feee9df5df98ed9f44aa945393cbc8ca601777b286c01f5047e405bbf2f17d"
+    "enFp": "88feee9df5df98ed9f44aa945393cbc8ca601777b286c01f5047e405bbf2f17d",
+    "stale": false
   },
   "m1.platforms.groups.g5.title": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "295ee1827f9020ce4f79c09ef61442198b6304856859d66ab03b049c99f10398"
+    "enFp": "295ee1827f9020ce4f79c09ef61442198b6304856859d66ab03b049c99f10398",
+    "stale": false
   },
   "m1.platforms.groups.g5.platforms": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "0918466373bba5959d79a3c1cdb58a8e92937682c8913faec4b96d3ae01aec0c"
+    "enFp": "0918466373bba5959d79a3c1cdb58a8e92937682c8913faec4b96d3ae01aec0c",
+    "stale": false
   },
   "m1.platforms.groups.g5.body": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "928576d09080c3697ae3e74b13dec795dbf1d58165571a3b8fdc5e3284c85528"
+    "enFp": "928576d09080c3697ae3e74b13dec795dbf1d58165571a3b8fdc5e3284c85528",
+    "stale": false
   },
   "m1.factors.ui.hint": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "f09c94f3bbac7256823bb02e1a91a39abb72de6f07895d5223e92b260b689d7e"
+    "enFp": "f09c94f3bbac7256823bb02e1a91a39abb72de6f07895d5223e92b260b689d7e",
+    "stale": false
   },
   "m1.factors.ui.prompt": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "f187809c9632d2e8e5c0b363cf761b7a071f991f6e179b93e24cae48c1ac2e8d"
+    "enFp": "f187809c9632d2e8e5c0b363cf761b7a071f991f6e179b93e24cae48c1ac2e8d",
+    "stale": false
   },
   "m1.factors.ui.hintReady": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "590659ba28ebe10ecfc5e03fc3f7128abd896e2374527e71e82c12b6e1ca6dc4"
+    "enFp": "590659ba28ebe10ecfc5e03fc3f7128abd896e2374527e71e82c12b6e1ca6dc4",
+    "stale": false
   },
   "m1.factors.ui.hintDone": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "37515cd1748cb606de97f0935b66b3486f271719cb47be1c7f3ee5318d743e14"
+    "enFp": "37515cd1748cb606de97f0935b66b3486f271719cb47be1c7f3ee5318d743e14",
+    "stale": false
   },
   "m1.factors.ui.choicesAria": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "d585c36b31a4944947525761c2e1a2c772acd3ebcaff4a105cd990fa2ac682b2"
+    "enFp": "d585c36b31a4944947525761c2e1a2c772acd3ebcaff4a105cd990fa2ac682b2",
+    "stale": false
   },
   "m1.factors.ui.count": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "43ce3a43ec621b631b1f1c45732205e13291e7b27458953744b273744cf16542"
+    "enFp": "43ce3a43ec621b631b1f1c45732205e13291e7b27458953744b273744cf16542",
+    "stale": false
   },
   "m1.factors.ui.ok": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "8cb00c96d14c59f4b87d03650c55307c05f87746f47d2b30de2eee95921f5a33"
+    "enFp": "8cb00c96d14c59f4b87d03650c55307c05f87746f47d2b30de2eee95921f5a33",
+    "stale": false
   },
   "m1.factors.ui.bad": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "9f561d13436c675479b1154bffc6d50fd868e7d09bbd3c2d4cee26e1b754ee5e"
+    "enFp": "9f561d13436c675479b1154bffc6d50fd868e7d09bbd3c2d4cee26e1b754ee5e",
+    "stale": false
   },
   "m1.factors.labels.a": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:18:50Z",
-    "enFp": "69e097e8003b1de0845f826a01264d0b914a7b282082fc4ec24466f85f20d4c7"
+    "enFp": "69e097e8003b1de0845f826a01264d0b914a7b282082fc4ec24466f85f20d4c7",
+    "stale": false
+  },
+  "m1.factors.labels.d": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "b55671096dd9c37e49185942338f915f4f96345fa24c08daaa58b9e5683f5672"
+  },
+  "m1.factors.labels.b": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "91b3b27784fafc804625977f34d1c1d9bf4d9527342785ad877de7eed98874c6"
+  },
+  "m1.factors.labels.c": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "2e055f7ba2a9d3cb8076bb110149abee458d1d05819c13543ef7bbc489ce2552"
+  },
+  "m1.factors.labels.e": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "e0bfddc43086fe4f42a98b493a34a85e833fe81f9944db8c1286dfecd9376d97"
+  },
+  "m1.factors.labels.f": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "573c8237f05f4becb76f7f5d48eacf3c63740649b6dfdceeedb877ca45541bd3"
+  },
+  "m1.check.ui.instructionMulti": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "7e9a0a266ac7fe65af60a3a16f7bbdd5bd9b90d239d91fde28c9d978de0e2a8d"
+  },
+  "m1.check.ui.blankAria": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "6294d51dd3995cab5f64b32263f5fecf2a42ba5ed2d1daea5c7d30f2101b0c69"
+  },
+  "m1.check.questions.q1.label": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "8a0f3b0d8193bb78bc985e3b80f9a60616049b684df474b6126e5deff9019106"
+  },
+  "m1.check.questions.q1.choices.a": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "d92ca5f0a43c03b2e1ec48fb9c097a793e3e516757eee0eb12304ea61f7bd98c"
+  },
+  "m1.check.questions.q1.prompt": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "4085d966389e9535a099ca597654bc0572154d6a1a53b1b6a9d5f984b89356bd"
+  },
+  "m1.check.questions.q1.choices.b": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "fff992bb074d9d2a2f190d66ae05ea470a5827b50ac000abd22857ec93b0a161"
+  },
+  "m1.check.questions.q1.choices.c": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "313a073fdf0dd7b994e8cc02582d5ef2a8ced7fd4c5e457ae143466fb888dd3f"
+  },
+  "m1.check.questions.q1.choices.d": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:06Z",
+    "enFp": "6c402afeec5d31caf2ee1522d0631f3ac3f3028d8910aad7558336a6cb56cc83"
   }
 }
