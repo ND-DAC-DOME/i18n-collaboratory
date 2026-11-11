@@ -3106,7 +3106,7 @@
     },
     "slide": {
       "finishCourse": {
-        "text": "Terminer le cours",
+        "text": "Terminer la formation",
         "note": "Nav button label"
       },
       "getCertificate": {
