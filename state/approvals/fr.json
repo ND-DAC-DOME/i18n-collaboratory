@@ -73,6 +73,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:20:44Z",
-    "enFp": "da8e7b71ef0650cde00f4716ad47b9031279877c917b261a1e821c82258d24a8"
+    "enFp": "da8e7b71ef0650cde00f4716ad47b9031279877c917b261a1e821c82258d24a8",
+    "stale": false
+  },
+  "common.chooseEllipsis": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:20:47Z",
+    "enFp": "62f8ef065f909b2e4613f9d267d4853b502d6e3426684081d226ed2413470dd7"
   }
 }
