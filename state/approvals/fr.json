@@ -4595,24 +4595,58 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:51:25Z",
-    "enFp": "62c590392c375751cd9c31c53e4fc59b4ddc958f915a41112e19c6f95be1634e"
+    "enFp": "62c590392c375751cd9c31c53e4fc59b4ddc958f915a41112e19c6f95be1634e",
+    "stale": false
   },
   "summary.exitScore.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:51:25Z",
-    "enFp": "832757bb9534f8d6910498799514e972cdedcdef1a768a29a369a6e489e51939"
+    "enFp": "832757bb9534f8d6910498799514e972cdedcdef1a768a29a369a6e489e51939",
+    "stale": false
   },
   "summary.exitThankyou.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:51:25Z",
-    "enFp": "f55b423e41a8702f9b11c0c8ecbeabe909d81b9bbf6fc76510ed668a32a607fe"
+    "enFp": "f55b423e41a8702f9b11c0c8ecbeabe909d81b9bbf6fc76510ed668a32a607fe",
+    "stale": false
   },
   "summary.exitThankyou.quote1": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:51:25Z",
-    "enFp": "3e436cb58911fc9cdab8e276c921d1648d86011cd98b7afa2f149e20b4fc247a"
+    "enFp": "3e436cb58911fc9cdab8e276c921d1648d86011cd98b7afa2f149e20b4fc247a",
+    "stale": false
+  },
+  "summary.exitThankyou.quote2": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:51:34Z",
+    "enFp": "d1384b2f4510210099d1832c4cf905e6f90492fe43f0cb072d953c4020ef9d00"
+  },
+  "summary.quiz.questions.q1.prompt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:51:34Z",
+    "enFp": "9db8a4f800ccb98f69d880bb5ed56c475f0347ee56a57c67b2daacd2715c30c8"
+  },
+  "summary.quiz.questions.q1.choices.c0": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:51:34Z",
+    "enFp": "ebef845a5484f781253ed7d13e8ee966422ee74596b685459c21dc6b67fcee5d"
+  },
+  "summary.quiz.questions.q1.choices.c1": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:51:34Z",
+    "enFp": "e22b8882532c1f11a347b13a9550f10d3180697456fb9d11aab8ca09e66fe86b"
+  },
+  "summary.quiz.questions.q1.choices.c2": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:51:34Z",
+    "enFp": "c23680ed2c201fb8845c00a0dd8e06299849f567077d2e1741ebc038070724f4"
   }
 }
