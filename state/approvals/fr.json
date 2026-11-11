@@ -31,6 +31,19 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:19:59Z",
-    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f"
+    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f",
+    "stale": false
+  },
+  "common.answerChoicesAria": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:20:08Z",
+    "enFp": "86cfa5c34050fff77baf26f5eb331b98c110077e25a10df0a33b9775a2a99192"
+  },
+  "common.previous": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:20:08Z",
+    "enFp": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa"
   }
 }
