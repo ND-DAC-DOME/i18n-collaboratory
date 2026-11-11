@@ -3733,7 +3733,7 @@
           "note": "ScormStack player/system label `continue.auto_progress`"
         },
         "button_text": {
-          "text": "Texto del botón",
+          "text": "Botón de Texto",
           "note": "ScormStack player/system label `continue.button_text`"
         },
         "continue": {
