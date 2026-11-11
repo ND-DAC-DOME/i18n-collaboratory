@@ -136,6 +136,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:24:24Z",
-    "enFp": "f2ef0cc216b485cb0110334a9cbed91e6bb5af01d3e811f108e8809c588ecfd2"
+    "enFp": "f2ef0cc216b485cb0110334a9cbed91e6bb5af01d3e811f108e8809c588ecfd2",
+    "stale": false
+  },
+  "course.outline.sections.uaoaCourse": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:24:57Z",
+    "enFp": "dadf0f41aea8e2d19eace6036351c975e1db85abea40ef4125e525958432181b"
   }
 }
