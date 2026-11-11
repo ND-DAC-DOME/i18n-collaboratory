@@ -416,30 +416,65 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:25Z",
-    "enFp": "0b4b403fe026032576919d551c0c93a6421c9c74dfd2d3f7a0f36fe54c4735dd"
+    "enFp": "0b4b403fe026032576919d551c0c93a6421c9c74dfd2d3f7a0f36fe54c4735dd",
+    "stale": false
   },
   "welcome.about.whatYoullExplore.body": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:25Z",
-    "enFp": "1fd9b42bd5c58ce88256f8856923611790f90a84d1d4e697c0d8ea19b041d72d"
+    "enFp": "1fd9b42bd5c58ce88256f8856923611790f90a84d1d4e697c0d8ea19b041d72d",
+    "stale": false
   },
   "welcome.about.tagline.body": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:25Z",
-    "enFp": "accb2c56e1ad966007b2d640411526b131699cfe5018d0806673dabadb19234e"
+    "enFp": "accb2c56e1ad966007b2d640411526b131699cfe5018d0806673dabadb19234e",
+    "stale": false
   },
   "welcome.about.whatYoullExplore.heading": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:25Z",
-    "enFp": "37ce623a7b97eafc49f625cb921dc251f648ce4a18a5e2ec271a3db9763604c9"
+    "enFp": "37ce623a7b97eafc49f625cb921dc251f648ce4a18a5e2ec271a3db9763604c9",
+    "stale": false
   },
   "welcome.about.courseSubtitle": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:25Z",
-    "enFp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    "enFp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stale": false
+  },
+  "player.systemLabels.access.choose_nickname": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:57:40Z",
+    "enFp": "609118ef7029897d6c545df6bf60e1e3830931695de710cd4d53b34e81e5690a"
+  },
+  "player.systemLabels.access.contact_provider": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:57:40Z",
+    "enFp": "64743df1562b62f101b06126a3a13ce55fff11b0c427bcbd54a9671472c9d7bf"
+  },
+  "player.systemLabels.access.continue": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:57:40Z",
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+  },
+  "player.systemLabels.access.enter_email": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:57:40Z",
+    "enFp": "7d8c7d88745736ea354e12671aa268cf84adccffd567e82d35d0cd4bd674fa0b"
+  },
+  "player.systemLabels.access.enter_email_description": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:57:40Z",
+    "enFp": "62ec43f798807e469d678eda83e62c232efaed911c663330130e4973a3dd38c4"
   }
 }
