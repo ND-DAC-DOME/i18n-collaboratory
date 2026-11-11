@@ -1396,12 +1396,20 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:58:31Z",
-    "enFp": "1502c784c68377f32d6e73067dd466deb4d8a33323abdd726fd192afc392a049"
+    "enFp": "1502c784c68377f32d6e73067dd466deb4d8a33323abdd726fd192afc392a049",
+    "stale": false
   },
   "m1.slide.introSubtitle": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:58:31Z",
-    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0",
+    "stale": false
+  },
+  "m1.slide.languageWhatIsBeingSaidOr.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:58:37Z",
+    "enFp": "17f7541fef9867c0bf321f53bf8d9900ba0947ad91d65ec208117886d4f52c80"
   }
 }
