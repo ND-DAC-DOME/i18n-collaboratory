@@ -542,6 +542,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:40:29Z",
-    "enFp": "071f2194201c83e55f84ba6a7061737d80c88119e23874e9a06d3c7557c6ebb9"
+    "enFp": "071f2194201c83e55f84ba6a7061737d80c88119e23874e9a06d3c7557c6ebb9",
+    "stale": false
+  },
+  "m1.apply.scenarios.s2.ok": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:40:34Z",
+    "enFp": "d9b5c6cfb8f3b4f328fe79a9a3e9524243026e5f2431f899a438342642dacd7e"
   }
 }
