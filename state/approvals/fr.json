@@ -451,6 +451,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:37:45Z",
-    "enFp": "69ea7dd52ed94bbdde00a81376ec05cdb968650672287d2291c9a708e18ad103"
+    "enFp": "69ea7dd52ed94bbdde00a81376ec05cdb968650672287d2291c9a708e18ad103",
+    "stale": false
+  },
+  "survey.preCourse.welcomeContinue": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:37:48Z",
+    "enFp": "1c045d690a18dbf82775cfece26b5adb9840892dd436b3932850ae1a70661c48"
   }
 }
