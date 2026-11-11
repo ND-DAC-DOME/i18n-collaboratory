@@ -2747,30 +2747,53 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:29Z",
-    "enFp": "a1ec8428212fefd310a97723e0c2f92493f3b5ca05ae7dac7518ff4c252ad105"
+    "enFp": "a1ec8428212fefd310a97723e0c2f92493f3b5ca05ae7dac7518ff4c252ad105",
+    "stale": false
   },
   "m3.slide.title": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:29Z",
-    "enFp": "f0282a75f5d9c9befc7ea3a7eb7bf966186e89fb34d9d584b1113e4d70e1d2a9"
+    "enFp": "f0282a75f5d9c9befc7ea3a7eb7bf966186e89fb34d9d584b1113e4d70e1d2a9",
+    "stale": false
   },
   "m3.slide.continueToModule4": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:29Z",
-    "enFp": "0bfeb6f714724934355bcf7c1400123212609ea3c2964577969202500bb7bf51"
+    "enFp": "0bfeb6f714724934355bcf7c1400123212609ea3c2964577969202500bb7bf51",
+    "stale": false
   },
   "m3.slide.aiAndOnlineHarm.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:29Z",
-    "enFp": "832e0eb5812f4e9fd6085bc23425691c3984bb53a61201a4540024171cb25826"
+    "enFp": "832e0eb5812f4e9fd6085bc23425691c3984bb53a61201a4540024171cb25826",
+    "stale": false
   },
   "m3.slide.aiAndOnlineHarm.heading": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:35:29Z",
-    "enFp": "bd1e0c2e94d8b5ca24d0f47d5479aaa630251938b6278a5f248f09d54d62ab40"
+    "enFp": "bd1e0c2e94d8b5ca24d0f47d5479aaa630251938b6278a5f248f09d54d62ab40",
+    "stale": false
+  },
+  "m3.slide.exploreReportingSystemsInYourCountry.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:35:37Z",
+    "enFp": "765d9a73b2a94ebb6452a9552a71e9915a829974060823efa5d07d09faac604c"
+  },
+  "m3.slide.exploreReportingSystemsInYourCountry.heading": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:35:37Z",
+    "enFp": "0337b9aab3606c464c1a34dc671fe19cf361fbb5425e34bb54f4e7461a71a803"
+  },
+  "m3.slide.exploreWhichFactorsCanInfluenceHow.heading": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:35:37Z",
+    "enFp": "5051d671b5197604b3756500dc4d2814e1bd556b6ece5ed0502f839645f323a5"
   }
 }
