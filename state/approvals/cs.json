@@ -4714,6 +4714,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:24:04Z",
-    "enFp": "13ceb06f047421df148d5de2b8d7db35fe6ce64c866be6cc056299acf1c4549d"
+    "enFp": "13ceb06f047421df148d5de2b8d7db35fe6ce64c866be6cc056299acf1c4549d",
+    "stale": false
+  },
+  "m1.protectedAria": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:24:07Z",
+    "enFp": "a7a0f2d44be1c9943dff73bc3970bdb438e9c0a43007cc3ff9c5ccc9f22d5a66"
   }
 }
