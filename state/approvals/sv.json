@@ -6520,6 +6520,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:26:19Z",
-    "enFp": "06f756dda22cc3b531c42bbf6936ff45ecfcb60513f6ca4f9fc2d49a0c03ba91"
+    "enFp": "06f756dda22cc3b531c42bbf6936ff45ecfcb60513f6ca4f9fc2d49a0c03ba91",
+    "stale": false
+  },
+  "m3.reportingSystems.items.se.title": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:26:23Z",
+    "enFp": "853637136575897a73cba3c5fb085e8c8a2627df22983d2bbe9ff158d11351b4"
   }
 }
