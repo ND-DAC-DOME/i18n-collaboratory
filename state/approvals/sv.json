@@ -4483,6 +4483,25 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:43:30Z",
-    "enFp": "928576d09080c3697ae3e74b13dec795dbf1d58165571a3b8fdc5e3284c85528"
+    "enFp": "928576d09080c3697ae3e74b13dec795dbf1d58165571a3b8fdc5e3284c85528",
+    "stale": false
+  },
+  "m1.factors.ui.prompt": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:43:41Z",
+    "enFp": "f187809c9632d2e8e5c0b363cf761b7a071f991f6e179b93e24cae48c1ac2e8d"
+  },
+  "m1.factors.ui.hint": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:43:41Z",
+    "enFp": "f09c94f3bbac7256823bb02e1a91a39abb72de6f07895d5223e92b260b689d7e"
+  },
+  "m1.factors.ui.hintReady": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:43:41Z",
+    "enFp": "590659ba28ebe10ecfc5e03fc3f7128abd896e2374527e71e82c12b6e1ca6dc4"
   }
 }
