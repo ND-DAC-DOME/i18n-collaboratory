@@ -5421,6 +5421,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:43:10Z",
-    "enFp": "d28a7a47fe2c50f9e696447599d214bda1a39d148cfecb62fda8a7871f68465d"
+    "enFp": "d28a7a47fe2c50f9e696447599d214bda1a39d148cfecb62fda8a7871f68465d",
+    "stale": false
+  },
+  "m3.risksBenefits.benefits.b1": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:43:13Z",
+    "enFp": "42fa9a618d51c6f441ac1ed0e49069fafe67468d4d899e0af2836f5cb7c4abdb"
   }
 }
