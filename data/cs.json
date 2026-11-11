@@ -3938,7 +3938,7 @@
       },
       "reactions": {
         "comment_help": {
-          "text": "Tento komentář je odeslán s analytickými údaji, ale není uložen v datech životopisu.",
+          "text": "Tento komentář se odesílá spolu s analytickými údaji, ale neukládá se do dat umožňujících obnovení rozpracované práce.",
           "note": "ScormStack player/system label `reactions.comment_help`"
         },
         "comment_label": {
