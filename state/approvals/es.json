@@ -5435,12 +5435,26 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:41Z",
-    "enFp": "62c590392c375751cd9c31c53e4fc59b4ddc958f915a41112e19c6f95be1634e"
+    "enFp": "62c590392c375751cd9c31c53e4fc59b4ddc958f915a41112e19c6f95be1634e",
+    "stale": false
   },
   "summary.exitScore.body": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:38:41Z",
-    "enFp": "832757bb9534f8d6910498799514e972cdedcdef1a768a29a369a6e489e51939"
+    "enFp": "832757bb9534f8d6910498799514e972cdedcdef1a768a29a369a6e489e51939",
+    "stale": false
+  },
+  "m5.layers.ui.tracksAria": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T12:42:49Z",
+    "enFp": "0436b95937b89f9c2b367469e5a0ba5a600170d784f1ac848901213ee88b648d"
+  },
+  "m5.layers.ui.prompt": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T12:42:49Z",
+    "enFp": "7f162191a14c9a2204ea33353d8d2845f80e880f947a7ceab8aca34a43fe5ac7"
   }
 }
