@@ -4399,6 +4399,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:11:00Z",
-    "enFp": "06173bd1736390336595e4e6a655d66b32f747a02fecd895d29822455b30b3fb"
+    "enFp": "06173bd1736390336595e4e6a655d66b32f747a02fecd895d29822455b30b3fb",
+    "stale": false
+  },
+  "m2.impacts.cards.c3.body": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:11:03Z",
+    "enFp": "1c87f3c39b0585aab450f6658543a7962c4c815017ee68f219be0897ff45afc0"
   }
 }
