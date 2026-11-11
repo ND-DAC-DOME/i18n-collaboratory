@@ -2425,24 +2425,40 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:33:23Z",
-    "enFp": "cfa19890d7ce1cc30c2b3323ce8c76bcd958f71adf1a9c99d9836d57bff08b02"
+    "enFp": "cfa19890d7ce1cc30c2b3323ce8c76bcd958f71adf1a9c99d9836d57bff08b02",
+    "stale": false
   },
   "m3.reportingSystems.ui.placeholder": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:33:23Z",
-    "enFp": "987e56551009a40fa80e35374d5c693c0ea28560cf07c2b5b583d672537a6e67"
+    "enFp": "987e56551009a40fa80e35374d5c693c0ea28560cf07c2b5b583d672537a6e67",
+    "stale": false
   },
   "m3.reportingSystems.ui.closeAria": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:33:23Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   },
   "m3.reportingSystems.items.uk.title": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:33:23Z",
-    "enFp": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19"
+    "enFp": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19",
+    "stale": false
+  },
+  "m3.reportingSystems.items.uk.html": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:33:27Z",
+    "enFp": "bfe8aefda467d052a7635b99f7109a01c6d16f5f077dc2feefc8fcdeb64ed988"
+  },
+  "m3.reportingSystems.items.us.title": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:33:27Z",
+    "enFp": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd"
   }
 }
