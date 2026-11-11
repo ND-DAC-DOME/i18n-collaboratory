@@ -2327,6 +2327,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:01:26Z",
-    "enFp": "d5acfd8330f5caaee7d1421788c912dc9c5da654bbc226a904798d1a30de9953"
+    "enFp": "d5acfd8330f5caaee7d1421788c912dc9c5da654bbc226a904798d1a30de9953",
+    "stale": false
+  },
+  "m5.match.scenarios.s1.text": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:01:35Z",
+    "enFp": "bfee62f06d758f9806b234f9e4cf64fe41efec5a60b4f2475eb4b85e20b8b987"
   }
 }
