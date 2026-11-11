@@ -5008,6 +5008,13 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:50:58Z",
-    "enFp": "b4f986d4a53ecae650de596a733c7b753514647bdeae5918845ad05e69795f30"
+    "enFp": "b4f986d4a53ecae650de596a733c7b753514647bdeae5918845ad05e69795f30",
+    "stale": false
+  },
+  "m1.slide.onlineConversationsArePartOfSport.heading": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:51:01Z",
+    "enFp": "bc22e9d5d864b5ba722d653102909f84ddb373b733be7bb45eded85db315b9bc"
   }
 }
