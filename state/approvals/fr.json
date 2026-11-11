@@ -1585,18 +1585,27 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:10:24Z",
-    "enFp": "286c422cb23f9fc6f1f57fc662788c77589dff9f8db182d4bcf3c96d02c3b259"
+    "enFp": "286c422cb23f9fc6f1f57fc662788c77589dff9f8db182d4bcf3c96d02c3b259",
+    "stale": false
   },
   "m2.check.questions.q4.prompt": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:10:24Z",
-    "enFp": "8faccfd0fb49e5ed6176b64387cd71a7120215d4955e7314da13717b14facb67"
+    "enFp": "8faccfd0fb49e5ed6176b64387cd71a7120215d4955e7314da13717b14facb67",
+    "stale": false
   },
   "m2.check.questions.q4.choices.c0": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:10:24Z",
-    "enFp": "1a63491b58351674822043fe2f7f79ce3e247249fa0089905777a65739f821f1"
+    "enFp": "1a63491b58351674822043fe2f7f79ce3e247249fa0089905777a65739f821f1",
+    "stale": false
+  },
+  "m2.check.questions.q4.choices.c1": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:10:31Z",
+    "enFp": "5e4fdf79aca455901e2d7ed166b2f3ef410cc4df0d5ded04b6366fe6a3d7e51c"
   }
 }
