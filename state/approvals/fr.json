@@ -5470,12 +5470,7 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:01:03Z",
-    "enFp": "df7921f43e3fc4912cafbf5333b345e21b39b808dfb46790c80939e21578e3f7"
-  },
-  "embeds.scroll.previewOnly": {
-    "approved": true,
-    "by": "ella",
-    "at": "2026-11-11T16:01:03Z",
-    "enFp": "51ca3511df7b5d6a13049f87883f1b24027e18ff47ee25301f221363b9fd6f4e"
+    "enFp": "df7921f43e3fc4912cafbf5333b345e21b39b808dfb46790c80939e21578e3f7",
+    "stale": false
   }
 }
