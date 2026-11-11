@@ -4350,30 +4350,28 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:40:24Z",
-    "enFp": "567b93ccd0d9d1c913939442fd428aa56ee677c275c33724be33170f708ab623"
+    "enFp": "567b93ccd0d9d1c913939442fd428aa56ee677c275c33724be33170f708ab623",
+    "stale": false
   },
   "m1.formsOverlap.line2": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:40:24Z",
-    "enFp": "296623c38a00218ae7244f59af35d757d45258ca84f9617f38c055833c1224ee"
-  },
-  "m1.protected.race": {
-    "approved": true,
-    "by": "LIsa Kaati",
-    "at": "2026-11-11T04:40:24Z",
-    "enFp": "73134ce128291dc366b5bf3cf75c167846a2823f56705437694879de7b336e9a"
+    "enFp": "296623c38a00218ae7244f59af35d757d45258ca84f9617f38c055833c1224ee",
+    "stale": false
   },
   "m1.protected.ethnicity": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:40:24Z",
-    "enFp": "2a0bdd7ccfd0aa7ff3c5641d728368ddcce614efeae9676eac6a480ed2e73c89"
+    "enFp": "2a0bdd7ccfd0aa7ff3c5641d728368ddcce614efeae9676eac6a480ed2e73c89",
+    "stale": false
   },
   "m1.protected.nationality": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:40:24Z",
-    "enFp": "8fb1b6a148c218138d7ce8a6c9babf02e3b63fdff61ab066107299ea212d338e"
+    "enFp": "8fb1b6a148c218138d7ce8a6c9babf02e3b63fdff61ab066107299ea212d338e",
+    "stale": false
   }
 }
