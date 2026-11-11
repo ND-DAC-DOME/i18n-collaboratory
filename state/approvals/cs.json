@@ -1179,6 +1179,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:57:32Z",
-    "enFp": "6931ac49d283ada745058d14fe4556d4991fc1ea5f35e122f4e77c7ad592ea4b"
+    "enFp": "6931ac49d283ada745058d14fe4556d4991fc1ea5f35e122f4e77c7ad592ea4b",
+    "stale": false
+  },
+  "m4.regions.items.i5.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:57:35Z",
+    "enFp": "853637136575897a73cba3c5fb085e8c8a2627df22983d2bbe9ff158d11351b4"
   }
 }
