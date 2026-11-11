@@ -395,6 +395,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:35:40Z",
-    "enFp": "f13cd7251ee736f4b04fceabc81bf0df0d026b7ee3d288c87e035a12d1725dd4"
+    "enFp": "f13cd7251ee736f4b04fceabc81bf0df0d026b7ee3d288c87e035a12d1725dd4",
+    "stale": false
+  },
+  "welcome.about.courseTitle": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:36:27Z",
+    "enFp": "9d41554bf0692013ffa80d04e31864c458d75115f03f42f3a526a283b479c297"
   }
 }
