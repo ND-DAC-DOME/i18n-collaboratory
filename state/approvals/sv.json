@@ -6653,24 +6653,34 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:28:55Z",
-    "enFp": "c7f9402f96221e85e7cf790676e15be7207e7f51fbabfd3ec52a2efb99f85e0e"
+    "enFp": "c7f9402f96221e85e7cf790676e15be7207e7f51fbabfd3ec52a2efb99f85e0e",
+    "stale": false
   },
   "m3.trueFalse.questions.q1.choices.c0": {
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:28:55Z",
-    "enFp": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18"
+    "enFp": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18",
+    "stale": false
   },
   "m3.trueFalse.questions.q1.choices.c1": {
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:28:55Z",
-    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe",
+    "stale": false
   },
   "m3.trueFalse.questions.q2.choices.c1": {
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:28:55Z",
-    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe",
+    "stale": false
+  },
+  "m3.trueFalse.questions.q2.ok": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:28:58Z",
+    "enFp": "edfb8f94022e2a314c330a4cc221fa0e51def4055bcafebd5e0a8633076f08ec"
   }
 }
