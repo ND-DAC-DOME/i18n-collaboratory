@@ -87,12 +87,26 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:21:33Z",
-    "enFp": "52e7b6dc1c7989a97c7f9f822111a3c81fbac9987dadaf01be3dfc684ee5ea81"
+    "enFp": "52e7b6dc1c7989a97c7f9f822111a3c81fbac9987dadaf01be3dfc684ee5ea81",
+    "stale": false
   },
   "common.close": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:21:33Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
+  },
+  "common.yourAnswer": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:21:38Z",
+    "enFp": "adceb15c665f2cad310bd1211db8fe7a0ddf9d827d1020133ae8b42678ab9d66"
+  },
+  "common.correctAnswer": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:21:38Z",
+    "enFp": "4d659fb1085d715b616bf45d04aea0f93daccb005f2937e00c038d5f82cf9445"
   }
 }
