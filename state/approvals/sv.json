@@ -6849,6 +6849,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:36:09Z",
-    "enFp": "9a782b08ec9a5b06639334c03d021ffec0605c6631ee8662dd2bd5f6770d3960"
+    "enFp": "9a782b08ec9a5b06639334c03d021ffec0605c6631ee8662dd2bd5f6770d3960",
+    "stale": false
+  },
+  "m3.slide.introSubtitle": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:36:31Z",
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
   }
 }
