@@ -2446,6 +2446,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:03:50Z",
-    "enFp": "8dc371885119b932f78eb2dcf108e3a879d246ba7b9056a76c38512b28ffaf60"
+    "enFp": "8dc371885119b932f78eb2dcf108e3a879d246ba7b9056a76c38512b28ffaf60",
+    "stale": false
+  },
+  "m5.slide.exploreTheThreeLayersOfAction.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:05:33Z",
+    "enFp": "e9a0a165925790db1bd30f1e794cf136c3ffd0e239b7f6f3e7bcf4e25df98fca"
   }
 }
