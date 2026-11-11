@@ -5743,6 +5743,31 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:55:11Z",
-    "enFp": "e1bf86fd35e61bec046d578ca2d1b27b16ea2474c179919a2eced1269a5fef0a"
+    "enFp": "e1bf86fd35e61bec046d578ca2d1b27b16ea2474c179919a2eced1269a5fef0a",
+    "stale": false
+  },
+  "m4.check.questions.q4.prompt": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:55:21Z",
+    "enFp": "99475c774832de9820da4bd5f6984a3b35d3d90507f4eed8fc4f297ecc3d1ad3"
+  },
+  "m4.check.questions.q4.choices.c1": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:55:21Z",
+    "enFp": "789999c2f9fe86eb4578a4646d2c732bda780e75be0d4dd146cc0fe770a35801"
+  },
+  "m4.check.questions.q4.choices.c2": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:55:21Z",
+    "enFp": "9c825f601b9c2fafb119300bf87855961d606726c2ead82ee8f8ec0996511cf0"
+  },
+  "m4.takeaways.heading": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:55:21Z",
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
   }
 }
