@@ -3531,6 +3531,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:25:28Z",
-    "enFp": "c59cbe275b112caa7058f0095115be0df247b8d1a64b7ad177f28efa9efd05ab"
+    "enFp": "c59cbe275b112caa7058f0095115be0df247b8d1a64b7ad177f28efa9efd05ab",
+    "stale": false
+  },
+  "embeds.sensitiveNotice.supportIntro": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:25:39Z",
+    "enFp": "c3ea06786596972346c9aa3574dafba02af72104726e714c19e139b2b9c55759"
+  },
+  "embeds.sensitiveNotice.someoneTrusted": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:25:39Z",
+    "enFp": "c271e6d926b7bb24e90aa90d0282cd3f1ec753c4b4339b56a7339f1725dfd052"
   }
 }
