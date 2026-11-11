@@ -151,7 +151,7 @@
             "note": "Scenario prompt; answer = hate speech"
           },
           "ok": {
-            "text": "<strong>Pravilno!</strong> Komentar cilja na športnika na podlagi njegove vere, zaščitene značilnosti, zaradi česar je to primer <strong>sovražnega govora</strong>.",
+            "text": "<strong>Pravilno!</strong> Komentar cilja na športnika na podlagi njegove veroizpovedi, ki bi morala biti varovana osebna značilnost, zaradi česar je to primer <strong>sovražnega govora</strong>.",
             "note": "HTML allowed"
           },
           "bad": {
