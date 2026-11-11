@@ -2558,12 +2558,74 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:34:23Z",
-    "enFp": "7cc9593e674084a608516cc2456947b52c39433cb665473147b9c3fe423b642e"
+    "enFp": "7cc9593e674084a608516cc2456947b52c39433cb665473147b9c3fe423b642e",
+    "stale": false
   },
   "m3.sorting.ui.bad": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:34:23Z",
-    "enFp": "9f561d13436c675479b1154bffc6d50fd868e7d09bbd3c2d4cee26e1b754ee5e"
+    "enFp": "9f561d13436c675479b1154bffc6d50fd868e7d09bbd3c2d4cee26e1b754ee5e",
+    "stale": false
+  },
+  "m3.sorting.items.i1": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:41Z",
+    "enFp": "9d0f565eba7c53e98e9b65a168c6d5571adbd8f8474c594f5546578968513339"
+  },
+  "m3.sorting.items.i2": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:41Z",
+    "enFp": "0a1c45baa4e5b43559e9bb6c113ada2a9220277e3dd9a459f16ad7979ab211d2"
+  },
+  "m3.sorting.items.i3": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:41Z",
+    "enFp": "46d54474a0adf6e41779d971b6f59a48fe56101c0fd981069023328ad859062d"
+  },
+  "m3.sorting.items.i4": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:41Z",
+    "enFp": "198db9e1e12b1b075739c2377412008de0e8cd6a80cc908f45c39ba944165ac3"
+  },
+  "m3.sorting.items.i5": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:41Z",
+    "enFp": "92ce5adb33046cb36ff2b01c0fef3442165a9bca6d3d6f95a49b15751d7fece0"
+  },
+  "m3.sorting.items.i6": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:41Z",
+    "enFp": "b4834b48f06f05fed9a551afa407fac2b3eff7f8ff9fe0a377adf24823a5338e"
+  },
+  "m3.trueFalse.questions.q1.prompt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:41Z",
+    "enFp": "c7f9402f96221e85e7cf790676e15be7207e7f51fbabfd3ec52a2efb99f85e0e"
+  },
+  "m3.trueFalse.questions.q1.choices.c0": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:41Z",
+    "enFp": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18"
+  },
+  "m3.trueFalse.questions.q1.choices.c1": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:41Z",
+    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+  },
+  "m3.trueFalse.questions.q1.ok": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:41Z",
+    "enFp": "31c6917d1bc715a2e85c2e3ebe85c9719a0eb5f8f85786bbc610c4e12db0f39f"
   }
 }
