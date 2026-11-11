@@ -6940,6 +6940,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:40:11Z",
-    "enFp": "50233a96025595d4ded9ed42e118fbd909ad9396470051d2ae07462605843218"
+    "enFp": "50233a96025595d4ded9ed42e118fbd909ad9396470051d2ae07462605843218",
+    "stale": false
+  },
+  "m3.risksBenefits.risks.r3": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:40:41Z",
+    "enFp": "d28a7a47fe2c50f9e696447599d214bda1a39d148cfecb62fda8a7871f68465d"
   }
 }
