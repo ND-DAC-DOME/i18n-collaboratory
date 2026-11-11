@@ -990,6 +990,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:52:21Z",
-    "enFp": "573c8237f05f4becb76f7f5d48eacf3c63740649b6dfdceeedb877ca45541bd3"
+    "enFp": "573c8237f05f4becb76f7f5d48eacf3c63740649b6dfdceeedb877ca45541bd3",
+    "stale": false
+  },
+  "m1.check.ui.instructionMulti": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:52:37Z",
+    "enFp": "7e9a0a266ac7fe65af60a3a16f7bbdd5bd9b90d239d91fde28c9d978de0e2a8d"
   }
 }
