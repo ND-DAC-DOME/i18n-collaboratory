@@ -5792,6 +5792,13 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T06:59:20Z",
-    "enFp": "79787745930d8c8bd7e4c05724c85843d09db93bfe0003db35ae61d2157dce76"
+    "enFp": "79787745930d8c8bd7e4c05724c85843d09db93bfe0003db35ae61d2157dce76",
+    "stale": false
+  },
+  "m2.slide.barometerCallout": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:59:23Z",
+    "enFp": "7f6f2ca795afc42a9486e19242c69fe791cadfc35c4db983d79cb9b52cffe3c1"
   }
 }
