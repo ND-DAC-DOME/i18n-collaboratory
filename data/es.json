@@ -3669,7 +3669,7 @@
           "note": "ScormStack player/system label `click_on_image.click_to_place_areas_up_to_end`"
         },
         "click_to_place_areas_up_to_start": {
-          "text": "(arriba a",
+          "text": "(hasta",
           "note": "ScormStack player/system label `click_on_image.click_to_place_areas_up_to_start`"
         }
       },
