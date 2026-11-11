@@ -6884,6 +6884,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:37:13Z",
-    "enFp": "997b8a239baeb56cf01f3e61d6cf1817b187c67b8c467546b4a0a4a51b2996f4"
+    "enFp": "997b8a239baeb56cf01f3e61d6cf1817b187c67b8c467546b4a0a4a51b2996f4",
+    "stale": false
+  },
+  "m3.slide.reportingOnlineAbuseOnSocialMedia.heading": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:37:16Z",
+    "enFp": "0550e94a41b3e755586a8bb7883ae347bf076440ee03007353c5af639449a8b6"
   }
 }
