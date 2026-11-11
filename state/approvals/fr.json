@@ -2089,6 +2089,31 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:31:14Z",
-    "enFp": "d9652110682a348066b39cc8c3871dd44d06474134fa8e8cb5da5c87087521cd"
+    "enFp": "d9652110682a348066b39cc8c3871dd44d06474134fa8e8cb5da5c87087521cd",
+    "stale": false
+  },
+  "m2.takeaways.items.i3": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:31:25Z",
+    "enFp": "dca3fad8f74cc4dc15534ee75032d44dbe98f53fafc7951650a5557dff18d503"
+  },
+  "m2.takeaways.items.i4": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:31:25Z",
+    "enFp": "4fbb8ecd7df2f9e400dfd6deb08898252f93e8151b2a590fdeb1f0a189709093"
+  },
+  "m2.takeaways.items.i5": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:31:25Z",
+    "enFp": "5752c49b0ffe67b932368ac27a39144830d961a3b6f713fe066b80c04e57a44c"
+  },
+  "m2.takeaways.items.i6": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:31:25Z",
+    "enFp": "ba8f8d4d9fe27af38394dcf85056fbcb7eda43db227603946ffa449a9ef493aa"
   }
 }
