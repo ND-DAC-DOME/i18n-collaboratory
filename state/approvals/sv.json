@@ -6807,6 +6807,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:33:54Z",
-    "enFp": "0337b9aab3606c464c1a34dc671fe19cf361fbb5425e34bb54f4e7461a71a803"
+    "enFp": "0337b9aab3606c464c1a34dc671fe19cf361fbb5425e34bb54f4e7461a71a803",
+    "stale": false
+  },
+  "m3.slide.exploreWhichFactorsCanInfluenceHow.heading": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:33:58Z",
+    "enFp": "5051d671b5197604b3756500dc4d2814e1bd556b6ece5ed0502f839645f323a5"
   }
 }
