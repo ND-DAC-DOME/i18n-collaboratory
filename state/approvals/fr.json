@@ -213,6 +213,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:25:46Z",
-    "enFp": "e996d74a3b491ce68cbc40dfcbd1469b724eafa38cdf0a76aed78ddc15492c89"
+    "enFp": "e996d74a3b491ce68cbc40dfcbd1469b724eafa38cdf0a76aed78ddc15492c89",
+    "stale": false
+  },
+  "course.outline.slides.preCourseSurvey": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:26:05Z",
+    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4"
   }
 }
