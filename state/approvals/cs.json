@@ -1487,6 +1487,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:01:14Z",
-    "enFp": "df7921f43e3fc4912cafbf5333b345e21b39b808dfb46790c80939e21578e3f7"
+    "enFp": "df7921f43e3fc4912cafbf5333b345e21b39b808dfb46790c80939e21578e3f7",
+    "stale": false
+  },
+  "embeds.scroll.continueRevealAria": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:01:17Z",
+    "enFp": "c6b802ad032348991a45c2ae3d19f0b38ad2a98b8ea84c66808ef2017db92c07"
   }
 }
