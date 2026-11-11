@@ -4959,12 +4959,32 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:49:53Z",
-    "enFp": "2062df1afba4975a650ac2e122f53a3f586d0fd33ce610fe811090700f1904cc"
+    "enFp": "2062df1afba4975a650ac2e122f53a3f586d0fd33ce610fe811090700f1904cc",
+    "stale": false
   },
   "m1.slide.contextMatters.heading": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:49:53Z",
-    "enFp": "21d05d4271176d75b8e79f8eaacc4d2a0f1e999c2a33195f1f8e4108d1e469cd"
+    "enFp": "21d05d4271176d75b8e79f8eaacc4d2a0f1e999c2a33195f1f8e4108d1e469cd",
+    "stale": false
+  },
+  "m1.slide.exploreHowCanOnlineAbuseEvolve.body": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:50:03Z",
+    "enFp": "15a9d0941a0503f7a189fb12f65ae23dfff7424aeb8fdde000f2955984d02252"
+  },
+  "m1.slide.exploreHowCanOnlineAbuseEvolve.heading": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:50:03Z",
+    "enFp": "1502c784c68377f32d6e73067dd466deb4d8a33323abdd726fd192afc392a049"
+  },
+  "m1.slide.introSubtitle": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:50:03Z",
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
   }
 }
