@@ -6800,6 +6800,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:33:51Z",
-    "enFp": "765d9a73b2a94ebb6452a9552a71e9915a829974060823efa5d07d09faac604c"
+    "enFp": "765d9a73b2a94ebb6452a9552a71e9915a829974060823efa5d07d09faac604c",
+    "stale": false
+  },
+  "m3.slide.exploreReportingSystemsInYourCountry.heading": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:33:54Z",
+    "enFp": "0337b9aab3606c464c1a34dc671fe19cf361fbb5425e34bb54f4e7461a71a803"
   }
 }
