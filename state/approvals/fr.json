@@ -129,6 +129,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:23:21Z",
-    "enFp": "72b1cb080d7f132a7b769b7e70e777bf5a7b2b7e467701a9f11373a9a7b3fc11"
+    "enFp": "72b1cb080d7f132a7b769b7e70e777bf5a7b2b7e467701a9f11373a9a7b3fc11",
+    "stale": false
+  },
+  "common.scoreReviewContent": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:24:24Z",
+    "enFp": "f2ef0cc216b485cb0110334a9cbed91e6bb5af01d3e811f108e8809c588ecfd2"
   }
 }
