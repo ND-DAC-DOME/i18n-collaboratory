@@ -4588,6 +4588,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:12:30Z",
-    "enFp": "5752c49b0ffe67b932368ac27a39144830d961a3b6f713fe066b80c04e57a44c"
+    "enFp": "5752c49b0ffe67b932368ac27a39144830d961a3b6f713fe066b80c04e57a44c",
+    "stale": false
+  },
+  "m2.takeaways.items.i6": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:12:33Z",
+    "enFp": "ba8f8d4d9fe27af38394dcf85056fbcb7eda43db227603946ffa449a9ef493aa"
   }
 }
