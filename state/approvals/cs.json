@@ -556,6 +556,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:36:53Z",
-    "enFp": "bd7154dcf479a13956f8566d79c0755e2f642f21954603ceee1dd055abb7cd61"
+    "enFp": "bd7154dcf479a13956f8566d79c0755e2f642f21954603ceee1dd055abb7cd61",
+    "stale": false
+  },
+  "summary.quiz.questions.q7.reveal": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:38:34Z",
+    "enFp": "89eff531044582d6d5737ac21ba96da0c83b8be967e593750db05c0598424409"
   }
 }
