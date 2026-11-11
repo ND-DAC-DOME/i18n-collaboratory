@@ -2980,5 +2980,11 @@
     "at": "2026-11-11T10:52:37Z",
     "enFp": "d9b5c6cfb8f3b4f328fe79a9a3e9524243026e5f2431f899a438342642dacd7e",
     "stale": false
+  },
+  "m1.apply.scenarios.s2.text": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T10:53:16Z",
+    "enFp": "071f2194201c83e55f84ba6a7061737d80c88119e23874e9a06d3c7557c6ebb9"
   }
 }
