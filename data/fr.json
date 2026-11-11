@@ -307,7 +307,7 @@
       "groups": {
         "g1": {
           "title": {
-            "text": "Flux de découverte et réseaux sociaux",
+            "text": "Flux de découverte et fils d'actualité des réseaux sociaux",
             "note": "Primary front-of-card label"
           },
           "platforms": {
