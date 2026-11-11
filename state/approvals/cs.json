@@ -4609,48 +4609,68 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:32Z",
-    "enFp": "82e38f2773499fd93ebc541d91af31612ce2468c3c7d6ba66fb92135074d828c"
+    "enFp": "82e38f2773499fd93ebc541d91af31612ce2468c3c7d6ba66fb92135074d828c",
+    "stale": false
   },
   "m1.slide.applyWhatDoYouSee.heading": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:32Z",
-    "enFp": "db8d834540bb4c27eb4ebe818c3373fa0c1a28a75482a80d7fdef480a4dc4495"
+    "enFp": "db8d834540bb4c27eb4ebe818c3373fa0c1a28a75482a80d7fdef480a4dc4495",
+    "stale": false
   },
   "m1.slide.contextMatters.body": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:32Z",
-    "enFp": "2062df1afba4975a650ac2e122f53a3f586d0fd33ce610fe811090700f1904cc"
+    "enFp": "2062df1afba4975a650ac2e122f53a3f586d0fd33ce610fe811090700f1904cc",
+    "stale": false
   },
   "m1.slide.contextMatters.heading": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:32Z",
-    "enFp": "21d05d4271176d75b8e79f8eaacc4d2a0f1e999c2a33195f1f8e4108d1e469cd"
+    "enFp": "21d05d4271176d75b8e79f8eaacc4d2a0f1e999c2a33195f1f8e4108d1e469cd",
+    "stale": false
   },
   "m1.slide.exploreHowCanOnlineAbuseEvolve.body": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:32Z",
-    "enFp": "15a9d0941a0503f7a189fb12f65ae23dfff7424aeb8fdde000f2955984d02252"
+    "enFp": "15a9d0941a0503f7a189fb12f65ae23dfff7424aeb8fdde000f2955984d02252",
+    "stale": false
   },
   "m1.slide.exploreHowCanOnlineAbuseEvolve.heading": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:32Z",
-    "enFp": "1502c784c68377f32d6e73067dd466deb4d8a33323abdd726fd192afc392a049"
+    "enFp": "1502c784c68377f32d6e73067dd466deb4d8a33323abdd726fd192afc392a049",
+    "stale": false
   },
   "m1.slide.introSubtitle": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:32Z",
-    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0",
+    "stale": false
   },
   "m1.slide.languageWhatIsBeingSaidOr.body": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:32Z",
-    "enFp": "17f7541fef9867c0bf321f53bf8d9900ba0947ad91d65ec208117886d4f52c80"
+    "enFp": "17f7541fef9867c0bf321f53bf8d9900ba0947ad91d65ec208117886d4f52c80",
+    "stale": false
+  },
+  "m1.slide.onlineAbuseDoesNotAffectEveryone.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:38Z",
+    "enFp": "587a0982afa8ea0469dc41f7e769ae6ee5f2d4a67f9c9208349d17b123750492"
+  },
+  "m1.slide.onlineConversationsArePartOfSport.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:38Z",
+    "enFp": "b4f986d4a53ecae650de596a733c7b753514647bdeae5918845ad05e69795f30"
   }
 }
