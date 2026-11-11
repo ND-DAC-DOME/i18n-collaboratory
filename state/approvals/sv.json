@@ -6415,6 +6415,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-11T09:46:58Z",
-    "enFp": "18422a24942fd4d78d6489758b2d74a1e5f8fbacf7d1ec4f6be324e1723bdc31"
+    "enFp": "18422a24942fd4d78d6489758b2d74a1e5f8fbacf7d1ec4f6be324e1723bdc31",
+    "stale": false
+  },
+  "m3.checklist.items.i1": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:19:58Z",
+    "enFp": "cb5c8f4ce2b2da96188327f8adaa119881d6779e9ab4622116b8d94c75f43d60"
   }
 }
