@@ -17,24 +17,40 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:51:49Z",
-    "enFp": "143b270a32602d412babf2724ec0640dda0d5a43485e5a7520b05b53fa94b303"
+    "enFp": "143b270a32602d412babf2724ec0640dda0d5a43485e5a7520b05b53fa94b303",
+    "stale": false
   },
   "common.completed": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:51:49Z",
-    "enFp": "22a970d2e5b1cc233e462be7c7b64e135a275bb09d83d87683bf4236c43113a1"
+    "enFp": "22a970d2e5b1cc233e462be7c7b64e135a275bb09d83d87683bf4236c43113a1",
+    "stale": false
   },
   "common.tryAgain": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:51:49Z",
-    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f"
+    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f",
+    "stale": false
   },
   "common.answerChoicesAria": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:51:49Z",
-    "enFp": "86cfa5c34050fff77baf26f5eb331b98c110077e25a10df0a33b9775a2a99192"
+    "enFp": "86cfa5c34050fff77baf26f5eb331b98c110077e25a10df0a33b9775a2a99192",
+    "stale": false
+  },
+  "common.previous": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:51:52Z",
+    "enFp": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa"
+  },
+  "common.submitAnswers": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:51:52Z",
+    "enFp": "1ff0f3bdfbd0fe145f2580270b6df3001a166c508499e882448c3fcc6161be41"
   }
 }
