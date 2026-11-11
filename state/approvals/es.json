@@ -1123,18 +1123,14 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:05:58Z",
-    "enFp": "e2f79e5b60330bba4c289962231b6ba2957d0b14e7deb3110417003c79dea635"
+    "enFp": "e2f79e5b60330bba4c289962231b6ba2957d0b14e7deb3110417003c79dea635",
+    "stale": false
   },
   "player.systemLabels.completion.passed_title": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:05:58Z",
-    "enFp": "676cd61411fcd69a94f905d1c5599da71005f3335415ee99dc668a03bd86e64d"
-  },
-  "player.systemLabels.completion.passing": {
-    "approved": true,
-    "by": "Carmen Ruano",
-    "at": "2026-11-11T11:05:58Z",
-    "enFp": "83e6fbaec303ef43ece17eaaf082334cf4ec5b3a09b63c88effdea606a5cfa5b"
+    "enFp": "676cd61411fcd69a94f905d1c5599da71005f3335415ee99dc668a03bd86e64d",
+    "stale": false
   }
 }
