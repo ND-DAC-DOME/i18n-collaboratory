@@ -3797,6 +3797,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:04:02Z",
-    "enFp": "82e38f2773499fd93ebc541d91af31612ce2468c3c7d6ba66fb92135074d828c"
+    "enFp": "82e38f2773499fd93ebc541d91af31612ce2468c3c7d6ba66fb92135074d828c",
+    "stale": false
+  },
+  "m1.slide.applyWhatDoYouSee.heading": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:04:06Z",
+    "enFp": "db8d834540bb4c27eb4ebe818c3373fa0c1a28a75482a80d7fdef480a4dc4495"
   }
 }
