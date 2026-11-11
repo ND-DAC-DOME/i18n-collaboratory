@@ -1844,12 +1844,20 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:44Z",
-    "enFp": "d002d0d1a2fc032ac03ee4afe6d391e061cde7cac5148de8874c0cb329b70be0"
+    "enFp": "d002d0d1a2fc032ac03ee4afe6d391e061cde7cac5148de8874c0cb329b70be0",
+    "stale": false
   },
   "m2.impacts.cards.c1.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:44Z",
-    "enFp": "e18b394017d91caaf1409041a478a4e5cd8d7684cd7956cded6f5454f0d33502"
+    "enFp": "e18b394017d91caaf1409041a478a4e5cd8d7684cd7956cded6f5454f0d33502",
+    "stale": false
+  },
+  "m2.impacts.cards.c1.research": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:29:50Z",
+    "enFp": "e2c436b4081ec7b2965bd84e23311b0b9640108fabfc9a24923ea12a4cb87961"
   }
 }
