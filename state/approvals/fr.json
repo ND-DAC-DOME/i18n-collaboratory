@@ -325,6 +325,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:31:07Z",
-    "enFp": "f19d90e78a5b5f52d1ff42d3787e4f9cfe278b4a4d51cb505fdc75f58049037a"
+    "enFp": "f19d90e78a5b5f52d1ff42d3787e4f9cfe278b4a4d51cb505fdc75f58049037a",
+    "stale": false
+  },
+  "welcome.outcomes.items.i5": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:31:13Z",
+    "enFp": "3ac5b64a9296b7198f9156599c0effe78dff2149fa1617aee0dcbd61fbc99663"
   }
 }
