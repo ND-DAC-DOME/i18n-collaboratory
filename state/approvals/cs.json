@@ -2453,6 +2453,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:05:33Z",
-    "enFp": "e9a0a165925790db1bd30f1e794cf136c3ffd0e239b7f6f3e7bcf4e25df98fca"
+    "enFp": "e9a0a165925790db1bd30f1e794cf136c3ffd0e239b7f6f3e7bcf4e25df98fca",
+    "stale": false
+  },
+  "m5.slide.goToFinalQuiz": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:05:37Z",
+    "enFp": "34e443787ab76a55019bb3b959d4200d4e3b8f24fd2c766523dd722f3546198d"
   }
 }
