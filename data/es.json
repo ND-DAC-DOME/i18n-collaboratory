@@ -3347,7 +3347,7 @@
           "note": "ScormStack player/system label `access.name_description`"
         },
         "name_placeholder": {
-          "text": "Por ejemplo, John Doe",
+          "text": "P.ej. , John Doe",
           "note": "ScormStack player/system label `access.name_placeholder`"
         },
         "nickname_description": {
