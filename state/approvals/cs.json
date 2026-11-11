@@ -4574,12 +4574,32 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:13Z",
-    "enFp": "7b855ed65c4cb66a2cf127ff44de585960b8c77950a110643a38f7a0afc72996"
+    "enFp": "7b855ed65c4cb66a2cf127ff44de585960b8c77950a110643a38f7a0afc72996",
+    "stale": false
   },
   "m1.takeaways.items.i1": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:13Z",
-    "enFp": "39af4a4d2d1cff39ebb91f96d50f1609ad4ff6a294b816c5662fd5e8fb2c3e5d"
+    "enFp": "39af4a4d2d1cff39ebb91f96d50f1609ad4ff6a294b816c5662fd5e8fb2c3e5d",
+    "stale": false
+  },
+  "m1.takeaways.items.i6": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:19Z",
+    "enFp": "9b9e3b9a4e818d36ddfe7a9048ef2507a011c1b09a9ff40da713faef3c09366b"
+  },
+  "m1.slide.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:19Z",
+    "enFp": "d584e576b443994382b14f8d9b63db502621445906b80d148ddc5b310cdec165"
+  },
+  "m1.slide.continueToModule2": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:19Z",
+    "enFp": "6955d7bd898f5657eef3604ee094d52e2d4d77fc328903b2fb2560d3cc1e86f6"
   }
 }
