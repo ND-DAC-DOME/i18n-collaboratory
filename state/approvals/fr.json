@@ -5211,18 +5211,27 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:32Z",
-    "enFp": "d2132f257e910e02051c7e412f14dd8fcfa8081fc34e87577c7fcb17974374db"
+    "enFp": "d2132f257e910e02051c7e412f14dd8fcfa8081fc34e87577c7fcb17974374db",
+    "stale": false
   },
   "summary.quiz.score.exhaustedNote": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:32Z",
-    "enFp": "d623965ba62cbe654ed61bb670a4b576307b3b6d79e9f0efbdb8a7078e351511"
+    "enFp": "d623965ba62cbe654ed61bb670a4b576307b3b6d79e9f0efbdb8a7078e351511",
+    "stale": false
   },
   "summary.quiz.score.finish": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:32Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
+  },
+  "summary.quiz.score.cardAria": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:57:16Z",
+    "enFp": "59a99677b65e335ff6d99058491556e6ae7137bfc1ab4c35f72b4a17b317b23f"
   }
 }
