@@ -3594,6 +3594,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:26:09Z",
-    "enFp": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19"
+    "enFp": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19",
+    "stale": false
+  },
+  "m4.limits.items.i2.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:26:15Z",
+    "enFp": "5cbf88860761cf515c16e064217d0850d0d713995d977739bef75d6c3811b4d4"
   }
 }
