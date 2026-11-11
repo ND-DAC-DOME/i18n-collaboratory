@@ -1067,12 +1067,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:55:02Z",
-    "enFp": "d69b9ac78e0f46368f5d7a70eba086eaf2989ea860a173040b8a1d988640e581"
+    "enFp": "d69b9ac78e0f46368f5d7a70eba086eaf2989ea860a173040b8a1d988640e581",
+    "stale": false
   },
   "m4.limits.items.i1.html": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:55:02Z",
-    "enFp": "62dd2124d0756800541be261ec5da0adfec07b1046f7621ebbd13f3cbd460330"
+    "enFp": "62dd2124d0756800541be261ec5da0adfec07b1046f7621ebbd13f3cbd460330",
+    "stale": false
+  },
+  "m4.limits.items.i2.html": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:55:06Z",
+    "enFp": "61baf770d25c580fd9d6ca9ecb39860bce05efe9e12fa392bca99129d1c7da9c"
   }
 }
