@@ -3,7 +3,8 @@
 
 create schema if not exists app;
 revoke all on schema app from public;
-grant usage on schema app to postgres, service_role;
+-- authenticated needs USAGE so RLS policies and public RPC wrappers can call app.* helpers.
+grant usage on schema app to postgres, service_role, authenticated;
 
 create extension if not exists pgcrypto with schema extensions;
 
