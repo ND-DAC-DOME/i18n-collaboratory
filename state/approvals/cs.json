@@ -647,12 +647,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:40:08Z",
-    "enFp": "1f6c97ebff88ba6c690cf902fbc89f4e94161a634170dd05cb9e67b727338cf6"
+    "enFp": "1f6c97ebff88ba6c690cf902fbc89f4e94161a634170dd05cb9e67b727338cf6",
+    "stale": false
   },
   "summary.slide.finalQuiz.summaryScoredQuiz.heading": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:40:08Z",
-    "enFp": "09fcf8f70d02c865be44c7ffcaf23c727b3f706fa52c5942a8916522cc0aff1c"
+    "enFp": "09fcf8f70d02c865be44c7ffcaf23c727b3f706fa52c5942a8916522cc0aff1c",
+    "stale": false
+  },
+  "summary.slide.finalQuiz.summaryScoredQuiz.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:40:11Z",
+    "enFp": "478e933b8eeb506238a4cae75815b2e23f90e14f89479457f6332b766c41f092"
   }
 }
