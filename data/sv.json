@@ -1311,7 +1311,7 @@
           "note": "aria-label on accordion list"
         },
         "placeholder": {
-          "text": "Välj ett land för att visa rapporteringssystem och supportresurser."
+          "text": "Välj ett land för att visa rapporteringssystem och tillgängliga resurser."
         },
         "closeAria": {
           "text": "Stäng"
