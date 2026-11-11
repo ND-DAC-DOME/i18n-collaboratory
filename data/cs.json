@@ -2218,7 +2218,7 @@
           "text": "Tři úrovně jednání"
         },
         "layerAria": {
-          "text": "Vrstva {n}: {title}"
+          "text": "Úroveň {n}: {title}"
         },
         "exploredAria": {
           "text": "prozkoumáno"
