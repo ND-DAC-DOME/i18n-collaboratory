@@ -5750,126 +5750,201 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "039815db6a2d40153e892989e6941236457b6d13843c0755861557990a1ef73f"
+    "enFp": "039815db6a2d40153e892989e6941236457b6d13843c0755861557990a1ef73f",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.continue_with_extra_questions": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "b0edff7669c11122c83571b6381d2574bd0d5a82189cdcf67ea99e51f7237aee"
+    "enFp": "b0edff7669c11122c83571b6381d2574bd0d5a82189cdcf67ea99e51f7237aee",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.extra_question": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "5bac36699b53373a20c2c2ed1746b8e53411da7ba0bc43300e71f39674495efa"
+    "enFp": "5bac36699b53373a20c2c2ed1746b8e53411da7ba0bc43300e71f39674495efa",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.lets_try_a_few_more_questions_to_boost_your_score": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "2cb206455db6b03471e5b409c594650e79de4e03f7b2de4caa032e03975a493a"
+    "enFp": "2cb206455db6b03471e5b409c594650e79de4e03f7b2de4caa032e03975a493a",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.maximum_attempts_reached": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "c00bc93746c403d8ab2f28a1ec1b9b21cb796dd092eed7df083fbdce06732e6d"
+    "enFp": "c00bc93746c403d8ab2f28a1ec1b9b21cb796dd092eed7df083fbdce06732e6d",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.performance_level": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3"
+    "enFp": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.points": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "77deabe238de2f6dddc88c17dbe14221918571838d8fc1228843f9387b0b69f7"
+    "enFp": "77deabe238de2f6dddc88c17dbe14221918571838d8fc1228843f9387b0b69f7",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.to_complete_the_assessment": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "2141a0e25a04924263828140257c44cc760f796956416805b8fcdf6d56c23480"
+    "enFp": "2141a0e25a04924263828140257c44cc760f796956416805b8fcdf6d56c23480",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.you_need": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "cae78796053546d24f0d19fdf6ab09a59bf4f6170c00fd397e331504c806b5f7"
+    "enFp": "cae78796053546d24f0d19fdf6ab09a59bf4f6170c00fd397e331504c806b5f7",
+    "stale": false
   },
   "player.systemLabels.assessment.total_point_possible": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "ffadc34faea315fca248b9e0657387a65fca0d6832e5925fcfe3f7939ca1caba"
+    "enFp": "ffadc34faea315fca248b9e0657387a65fca0d6832e5925fcfe3f7939ca1caba",
+    "stale": false
   },
   "player.systemLabels.assessment.total_points_possible": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "a4c08944b936cd1c5151cb1e7c8ad8af3dcec3cd678c3df550234313c0a06461"
+    "enFp": "a4c08944b936cd1c5151cb1e7c8ad8af3dcec3cd678c3df550234313c0a06461",
+    "stale": false
   },
   "player.systemLabels.assessment.try_again": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f"
+    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f",
+    "stale": false
   },
   "player.systemLabels.assessment.ungraded_submitted": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "5962e4c3f208707fc6f325c86b23642ca51674b54fe623b8680133714c00ee52"
+    "enFp": "5962e4c3f208707fc6f325c86b23642ca51674b54fe623b8680133714c00ee52",
+    "stale": false
   },
   "player.systemLabels.assessment.unlimited_attempts": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "4b8f9da6a17ba3e235c50f96519613c63096c0621266f3189a2ae7d5c886ab91"
+    "enFp": "4b8f9da6a17ba3e235c50f96519613c63096c0621266f3189a2ae7d5c886ab91",
+    "stale": false
   },
   "player.systemLabels.assessment.view_results": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "f26efd3574998b71c05297305fb371e00bf20b98aa6d3468a944040eeb168f98"
+    "enFp": "f26efd3574998b71c05297305fb371e00bf20b98aa6d3468a944040eeb168f98",
+    "stale": false
   },
   "player.systemLabels.audio.show_transcript": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "1bdd5c6251c9783e6d719ef58f38fd3a59e4434b785744d753cac3c57d7e0f3d"
+    "enFp": "1bdd5c6251c9783e6d719ef58f38fd3a59e4434b785744d753cac3c57d7e0f3d",
+    "stale": false
   },
   "player.systemLabels.categorization.drop_here": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "4034ec9f457dabd58fa7f3c60a60cfcaf5ee48c98231a4c55b99106739ea118d"
+    "enFp": "4034ec9f457dabd58fa7f3c60a60cfcaf5ee48c98231a4c55b99106739ea118d",
+    "stale": false
   },
   "player.systemLabels.categorization.item": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733"
+    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733",
+    "stale": false
   },
   "player.systemLabels.click_on_image.click_to_place_area": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "73d0bbbfdfab7c1dc607ba7b071e2352cd70b7982c37fa00c56af87268bb72b6"
+    "enFp": "73d0bbbfdfab7c1dc607ba7b071e2352cd70b7982c37fa00c56af87268bb72b6",
+    "stale": false
   },
   "player.systemLabels.click_on_image.click_to_place_area_to_remove": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "89cb379a05fc1be2f6cefdade54c51fc5e837ea9a2e63ac0bcca10b422fda9db"
+    "enFp": "89cb379a05fc1be2f6cefdade54c51fc5e837ea9a2e63ac0bcca10b422fda9db",
+    "stale": false
   },
   "player.systemLabels.click_on_image.click_to_place_areas": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:03:37Z",
-    "enFp": "d26822dda5b1f2f78fdb3a19a04a4486d5f6bd352c6f8c30b1d629748dedb6e0"
+    "enFp": "d26822dda5b1f2f78fdb3a19a04a4486d5f6bd352c6f8c30b1d629748dedb6e0",
+    "stale": false
+  },
+  "player.systemLabels.click_on_image.click_to_place_areas_to_remove": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:03:52Z",
+    "enFp": "9bd455771846d3822ee7b7da1c5a8f2f25cfa144e1d66fb7e4f861f0092ad13f"
+  },
+  "player.systemLabels.click_on_image.click_to_place_areas_up_to_end": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:03:52Z",
+    "enFp": "c4b2896a2081395e282313d6683f07c81e3339ef8b9d2b5a299ea5b626a0998f"
+  },
+  "player.systemLabels.click_on_image.click_to_place_areas_up_to_start": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:03:52Z",
+    "enFp": "bf0042b51497c04d8215f5226bf3137b6a13b0c41b5a029936b73d9a3314c8b6"
+  },
+  "player.systemLabels.completion.completed_description": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:03:52Z",
+    "enFp": "ac03dc9ad1d59f02b932a0f877c5c377244182eb7800c7bd935779b26c4fd713"
+  },
+  "player.systemLabels.completion.completed_title": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:03:52Z",
+    "enFp": "05b5e41b7953bb285713e10e927fc0d76180afef60d65aa034d97a78f5c365fc"
+  },
+  "player.systemLabels.completion.continue_reviewing": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:03:52Z",
+    "enFp": "1bb17e3a085422b80bd0917ac0eb5e2bcc38b46a81a479cd3e1c79cf29123001"
+  },
+  "player.systemLabels.completion.debug_info": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:03:52Z",
+    "enFp": "697b494157ad1a91473cc712719eefcfa98782383b5aa7bd0d41481dc3c59268"
+  },
+  "player.systemLabels.completion.exit_course": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:03:52Z",
+    "enFp": "fa14f22bfdad50a41a7ce77396cbb772fab4bd08f3d900df63cfc35b6a8db923"
+  },
+  "player.systemLabels.completion.failed_description": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:03:52Z",
+    "enFp": "3da474149b826e355fe3f92904ff7a9ef92ef8fb49ad8fb57804d999d6b9de8e"
   }
 }
