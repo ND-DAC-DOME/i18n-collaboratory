@@ -440,13 +440,6 @@
     "stale": false,
     "enFp": "1fd9b42bd5c58ce88256f8856923611790f90a84d1d4e697c0d8ea19b041d72d"
   },
-  "welcome.partners.caption": {
-    "approved": true,
-    "by": "Lisa Kaati",
-    "at": "2026-11-10T13:46:55Z",
-    "stale": false,
-    "enFp": "ede43c8fea3ad387b4147525161d2a68a531a1c5e54e6ff5c6ba0142d01cfb5f"
-  },
   "survey.postCourse.continue": {
     "approved": true,
     "by": "Lisa Kaati",
@@ -5099,6 +5092,7 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:53:41Z",
-    "enFp": "e421ad16deb67aaff24966953c47b238bc4042f1f0f64dc0856a2cc5b397e0e3"
+    "enFp": "e421ad16deb67aaff24966953c47b238bc4042f1f0f64dc0856a2cc5b397e0e3",
+    "stale": false
   }
 }
