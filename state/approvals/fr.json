@@ -2026,36 +2026,60 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:31:03Z",
-    "enFp": "26b88d25922edb4b7f86ffc9f780c116ea46696507be8c989e4b24c2a4b170ad"
+    "enFp": "26b88d25922edb4b7f86ffc9f780c116ea46696507be8c989e4b24c2a4b170ad",
+    "stale": false
   },
   "m2.impacts.cards.c5.source": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:31:03Z",
-    "enFp": "922b7d1308e9b414447a625cbd0d0cd81362b87957136a59c94f2202b29c1c14"
+    "enFp": "922b7d1308e9b414447a625cbd0d0cd81362b87957136a59c94f2202b29c1c14",
+    "stale": false
   },
   "m2.impacts.cards.c6.title": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:31:03Z",
-    "enFp": "e67f858b00976191a3b871c395293f92e7e74775e92b66325fb1c80a973e4135"
+    "enFp": "e67f858b00976191a3b871c395293f92e7e74775e92b66325fb1c80a973e4135",
+    "stale": false
   },
   "m2.impacts.cards.c6.short": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:31:03Z",
-    "enFp": "e67f858b00976191a3b871c395293f92e7e74775e92b66325fb1c80a973e4135"
+    "enFp": "e67f858b00976191a3b871c395293f92e7e74775e92b66325fb1c80a973e4135",
+    "stale": false
   },
   "m2.impacts.cards.c6.alt": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:31:03Z",
-    "enFp": "5c5d6d29bb2390d265f7a6f7f2c7df4e2f83aa7593ef0dd4a5900adaca990eeb"
+    "enFp": "5c5d6d29bb2390d265f7a6f7f2c7df4e2f83aa7593ef0dd4a5900adaca990eeb",
+    "stale": false
   },
   "m2.impacts.cards.c6.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:31:03Z",
-    "enFp": "8fc47568d2c32a620eadefbbb1d8c23e41d8089b12c1cb5ace9ccf93b81ce967"
+    "enFp": "8fc47568d2c32a620eadefbbb1d8c23e41d8089b12c1cb5ace9ccf93b81ce967",
+    "stale": false
+  },
+  "m2.impacts.cards.c6.research": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:31:11Z",
+    "enFp": "cc849e9f6018539e322d859452dae69fcb963a3da24d475e0b5f8eae6ab7de4f"
+  },
+  "m2.impacts.cards.c6.source": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:31:11Z",
+    "enFp": "e4aed349acb07c9b5459b35255cf6f91c5eb0141351ecfd4f75d3ac9814092ec"
+  },
+  "m2.takeaways.heading": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:31:11Z",
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
   }
 }
