@@ -3601,6 +3601,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:26:15Z",
-    "enFp": "5cbf88860761cf515c16e064217d0850d0d713995d977739bef75d6c3811b4d4"
+    "enFp": "5cbf88860761cf515c16e064217d0850d0d713995d977739bef75d6c3811b4d4",
+    "stale": false
+  },
+  "m4.lawTabs.tabs.t1.example": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:26:21Z",
+    "enFp": "6b0f72294a41e2afa8d1f9278984b385acde1fdbc149eb7845a799ba0cbb00b4"
   }
 }
