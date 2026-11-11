@@ -920,6 +920,19 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:50:00Z",
-    "enFp": "37515cd1748cb606de97f0935b66b3486f271719cb47be1c7f3ee5318d743e14"
+    "enFp": "37515cd1748cb606de97f0935b66b3486f271719cb47be1c7f3ee5318d743e14",
+    "stale": false
+  },
+  "m1.factors.ui.choicesAria": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:50:04Z",
+    "enFp": "d585c36b31a4944947525761c2e1a2c772acd3ebcaff4a105cd990fa2ac682b2"
+  },
+  "m1.factors.ui.count": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:50:04Z",
+    "enFp": "43ce3a43ec621b631b1f1c45732205e13291e7b27458953744b273744cf16542"
   }
 }
