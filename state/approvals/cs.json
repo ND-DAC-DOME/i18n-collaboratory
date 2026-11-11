@@ -3713,18 +3713,51 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:29:05Z",
-    "enFp": "c36d819e7bc6d2b7da51394411c733db89c395987885ca6770167a3b9bc45c3c"
+    "enFp": "c36d819e7bc6d2b7da51394411c733db89c395987885ca6770167a3b9bc45c3c",
+    "stale": false
   },
   "m4.duties.everyone.i2.rest": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:29:05Z",
-    "enFp": "65fe8e8b887eb154b3af99315c874d7877dddedd6e8e024546a714210fa23c6e"
+    "enFp": "65fe8e8b887eb154b3af99315c874d7877dddedd6e8e024546a714210fa23c6e",
+    "stale": false
   },
   "m4.duties.everyone.i3.verb": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:29:05Z",
-    "enFp": "5cf9734d8a0f10f9b9a59ce6868eade9f947dc0eb6fd66c744067d06eb03d96b"
+    "enFp": "5cf9734d8a0f10f9b9a59ce6868eade9f947dc0eb6fd66c744067d06eb03d96b",
+    "stale": false
+  },
+  "m4.duties.everyone.i3.rest": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:29:14Z",
+    "enFp": "6f1ee25541bd09547bab04c4b4d7821023b204fc4bea7c1c7b7070e68710582a"
+  },
+  "m4.duties.everyone.i4.verb": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:29:14Z",
+    "enFp": "be91940b79f469101df9a50544b6873aa5509a12f1f93f1cb5e3be3990d344b3"
+  },
+  "m4.duties.everyone.i4.rest": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:29:14Z",
+    "enFp": "b0a5ad120fe43abbd6c2a9462a45cef59ae24d1e662ed2624e10dcb2b179ea71"
+  },
+  "m4.duties.everyone.i5.verb": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:29:14Z",
+    "enFp": "38a1d509ec3c6a233519b36d00c331efaf516045f5cc97aafad1cc2e576475f7"
+  },
+  "m4.duties.everyone.i5.rest": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:29:14Z",
+    "enFp": "6c11daa0b8b439bf14c13c175e331e03f8e458a886f43d1819af0c666f0990d3"
   }
 }
