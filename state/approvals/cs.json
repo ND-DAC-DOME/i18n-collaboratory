@@ -3265,18 +3265,57 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:13Z",
-    "enFp": "2cb206455db6b03471e5b409c594650e79de4e03f7b2de4caa032e03975a493a"
+    "enFp": "2cb206455db6b03471e5b409c594650e79de4e03f7b2de4caa032e03975a493a",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.maximum_attempts_reached": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:13Z",
-    "enFp": "c00bc93746c403d8ab2f28a1ec1b9b21cb796dd092eed7df083fbdce06732e6d"
+    "enFp": "c00bc93746c403d8ab2f28a1ec1b9b21cb796dd092eed7df083fbdce06732e6d",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.performance_level": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:13Z",
-    "enFp": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3"
+    "enFp": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+    "stale": false
+  },
+  "player.systemLabels.assessment.success_meter.to_complete_the_assessment": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:28Z",
+    "enFp": "2141a0e25a04924263828140257c44cc760f796956416805b8fcdf6d56c23480"
+  },
+  "player.systemLabels.assessment.success_meter.points": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:28Z",
+    "enFp": "77deabe238de2f6dddc88c17dbe14221918571838d8fc1228843f9387b0b69f7"
+  },
+  "player.systemLabels.assessment.success_meter.you_need": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:28Z",
+    "enFp": "cae78796053546d24f0d19fdf6ab09a59bf4f6170c00fd397e331504c806b5f7"
+  },
+  "player.systemLabels.assessment.total_point_possible": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:28Z",
+    "enFp": "ffadc34faea315fca248b9e0657387a65fca0d6832e5925fcfe3f7939ca1caba"
+  },
+  "player.systemLabels.assessment.total_points_possible": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:28Z",
+    "enFp": "a4c08944b936cd1c5151cb1e7c8ad8af3dcec3cd678c3df550234313c0a06461"
+  },
+  "player.systemLabels.assessment.try_again": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:28Z",
+    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f"
   }
 }
