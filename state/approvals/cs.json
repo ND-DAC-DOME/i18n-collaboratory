@@ -1207,6 +1207,31 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:57:45Z",
-    "enFp": "fd1c430e1a4fdffaf3ebb298243b77ccc63dc0e41e9971fefed1a8949f2ffe34"
+    "enFp": "fd1c430e1a4fdffaf3ebb298243b77ccc63dc0e41e9971fefed1a8949f2ffe34",
+    "stale": false
+  },
+  "m4.check.questions.q1.prompt": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:57:56Z",
+    "enFp": "d93a10546b3d57a1aad03679a1e72421749529a507d115c8ef3f77853fe877e9"
+  },
+  "m4.check.questions.q1.choices.c0": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:57:56Z",
+    "enFp": "8515c69071714ba7368776cb7669b0bfb463a223fb3ab6f33aac1baad65b8f3e"
+  },
+  "m4.check.questions.q1.choices.c1": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:57:56Z",
+    "enFp": "c6e29b7ff0582803ee4bbe6f71a95e08399af2784c9c7d4199b9676c01107fe4"
+  },
+  "m4.check.questions.q1.choices.c2": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:57:56Z",
+    "enFp": "6279410ef052ca4a4f95571f8b6db540acdbbcec84a959bda3a2f8595c812729"
   }
 }
