@@ -1700,13 +1700,6 @@
     "enFp": "0436b95937b89f9c2b367469e5a0ba5a600170d784f1ac848901213ee88b648d",
     "stale": false
   },
-  "m5.layers.ui.actionLevelOf": {
-    "approved": true,
-    "by": "Veronika",
-    "at": "2026-11-11T14:13:37Z",
-    "enFp": "577be8299b1f3e9743bdf28893ded9f828592148316a895208d465c248227886",
-    "stale": false
-  },
   "m5.layers.tracks.t1.eyebrow": {
     "approved": true,
     "by": "Veronika",
@@ -2313,6 +2306,7 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:32:10Z",
-    "enFp": "7bd34abba2aec0c6f00b4b111402581d36f7cfaeb310164f06ce85792ac34b64"
+    "enFp": "7bd34abba2aec0c6f00b4b111402581d36f7cfaeb310164f06ce85792ac34b64",
+    "stale": false
   }
 }
