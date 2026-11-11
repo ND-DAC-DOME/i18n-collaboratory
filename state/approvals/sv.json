@@ -5414,18 +5414,14 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T06:52:20Z",
-    "enFp": "5a9cf33f57f00a6520968dbd16f68c3f3a2d9e20a357fc147e100cf92fe3057b"
+    "enFp": "5a9cf33f57f00a6520968dbd16f68c3f3a2d9e20a357fc147e100cf92fe3057b",
+    "stale": false
   },
   "m2.impacts.ui.navAria": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T06:52:20Z",
-    "enFp": "83752fce7d6d9ed9f85feda31483c4152f13042c2f37399165d3f378de4a2204"
-  },
-  "m2.impacts.ui.prevAria": {
-    "approved": true,
-    "by": "LIsa Kaati",
-    "at": "2026-11-11T06:52:20Z",
-    "enFp": "b94798806e37379d0fd0b8b82d5b919cfd554ea9800b67c775bcaf1e7ec7f306"
+    "enFp": "83752fce7d6d9ed9f85feda31483c4152f13042c2f37399165d3f378de4a2204",
+    "stale": false
   }
 }
