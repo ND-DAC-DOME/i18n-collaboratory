@@ -4455,6 +4455,25 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:42:45Z",
-    "enFp": "3f15f826e000d55616632fd5cb873bfb1dddf0e25e4beac86a9dbff91867addf"
+    "enFp": "3f15f826e000d55616632fd5cb873bfb1dddf0e25e4beac86a9dbff91867addf",
+    "stale": false
+  },
+  "m1.platforms.groups.g4.body": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:43:09Z",
+    "enFp": "88feee9df5df98ed9f44aa945393cbc8ca601777b286c01f5047e405bbf2f17d"
+  },
+  "m1.platforms.groups.g5.title": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:43:09Z",
+    "enFp": "295ee1827f9020ce4f79c09ef61442198b6304856859d66ab03b049c99f10398"
+  },
+  "m1.platforms.groups.g5.platforms": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:43:09Z",
+    "enFp": "0918466373bba5959d79a3c1cdb58a8e92937682c8913faec4b96d3ae01aec0c"
   }
 }
