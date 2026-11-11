@@ -7073,12 +7073,20 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:47:53Z",
-    "enFp": "1efb8f74f18702ffe09b1b4e56508246365ea918e1474363d542171e459867a1"
+    "enFp": "1efb8f74f18702ffe09b1b4e56508246365ea918e1474363d542171e459867a1",
+    "stale": false
   },
   "m4.lawTabs.tabs.t3.pathway": {
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:47:53Z",
-    "enFp": "3a9dca3cbc008d315e8d90909d1164223f280ad26a182afe566ed18d17168068"
+    "enFp": "3a9dca3cbc008d315e8d90909d1164223f280ad26a182afe566ed18d17168068",
+    "stale": false
+  },
+  "m4.regions.items.i5.html": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:48:21Z",
+    "enFp": "ceb3ce17801cf7f93878c17ba76e427ff2a2bd9aa68e9059801e061101357234"
   }
 }
