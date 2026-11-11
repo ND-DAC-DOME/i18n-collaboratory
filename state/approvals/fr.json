@@ -5472,5 +5472,23 @@
     "at": "2026-11-11T16:01:03Z",
     "enFp": "df7921f43e3fc4912cafbf5333b345e21b39b808dfb46790c80939e21578e3f7",
     "stale": false
+  },
+  "embeds.scroll.previewOnly": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:01:26Z",
+    "enFp": "51ca3511df7b5d6a13049f87883f1b24027e18ff47ee25301f221363b9fd6f4e"
+  },
+  "embeds.supportFloater.breakPill": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:01:26Z",
+    "enFp": "88fee8685b050ced8f73b40b1a2c181659d197501301b78a4a481874bef3ceea"
+  },
+  "embeds.supportFloater.regionAria": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:01:26Z",
+    "enFp": "a4a7ee0a5dcd533c3e4dc2bc6773a048857b4a5dd3f6ae1658920b46495dad8c"
   }
 }
