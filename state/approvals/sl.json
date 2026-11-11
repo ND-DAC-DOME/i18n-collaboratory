@@ -5960,12 +5960,20 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:59:34Z",
-    "enFp": "f73d5bc42e2a3139877eb57857d688c840d3e9610e60455073292d9d42a59d99"
+    "enFp": "f73d5bc42e2a3139877eb57857d688c840d3e9610e60455073292d9d42a59d99",
+    "stale": false
   },
   "m4.slide.responsibilitiesBeyondTheLaw.heading": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:59:34Z",
-    "enFp": "6e6db98bf9b7ccae60f36a7f26f55628ec0fca728c2c090552bf289bb16193d7"
+    "enFp": "6e6db98bf9b7ccae60f36a7f26f55628ec0fca728c2c090552bf289bb16193d7",
+    "stale": false
+  },
+  "m4.slide.selectTheBestOptionForEach.body": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:59:37Z",
+    "enFp": "1a14a583b813de55285eb3cc82bafdab74bac2cdddfdae10ac478430b5ea1acc"
   }
 }
