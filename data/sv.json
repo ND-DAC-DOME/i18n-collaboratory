@@ -1632,7 +1632,7 @@
       },
       "risks": {
         "r1": {
-          "text": "<strong>Skapa och förstärka skada:</strong> Generativ AI kan producera eller manipulera text, bilder, ljud och video snabbt och i stor skala.",
+          "text": "<strong>Skapa och förstärka skadligt innehåll:</strong> Generativ AI kan producera eller manipulera text, bilder, ljud och video snabbt och i stor skala.",
           "note": "HTML allowed"
         },
         "r2": {
