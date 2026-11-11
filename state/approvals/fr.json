@@ -115,6 +115,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:21:43Z",
-    "enFp": "4a3eb34e24dc3515f73b0ecf0a1e74172e5ae2d18a89da734cc855893420723c"
+    "enFp": "4a3eb34e24dc3515f73b0ecf0a1e74172e5ae2d18a89da734cc855893420723c",
+    "stale": false
+  },
+  "common.scoreRetry": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:22:29Z",
+    "enFp": "a3c09a7e0446c30ae780db723fefde1faf1387b29e722da436f0547838c8e97b"
   }
 }
