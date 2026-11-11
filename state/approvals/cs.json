@@ -2229,6 +2229,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:29:42Z",
-    "enFp": "bb4742cf1a32d743604b8bdc1e04551957cac3504b48f0f985954d03ab4b0fea"
+    "enFp": "bb4742cf1a32d743604b8bdc1e04551957cac3504b48f0f985954d03ab4b0fea",
+    "stale": false
+  },
+  "m5.flow3.steps.s6.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:31:23Z",
+    "enFp": "708b65f7b8f5a0e5af32e60dbe99ccf7804d1b8e1297b56f2d61c0a86615c447"
+  },
+  "m5.flow3.steps.s6.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:31:23Z",
+    "enFp": "b66b37fc0a7a20898471f2cc6893fbbce852e55920d9a79e5ee6e7cdb46fefe3"
   }
 }
