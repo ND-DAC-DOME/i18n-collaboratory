@@ -528,6 +528,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:36:29Z",
-    "enFp": "0c52306a016a0b36051fb58e42ca83104add62a4a2a9df3b3b40ef56c4c35f9b"
+    "enFp": "0c52306a016a0b36051fb58e42ca83104add62a4a2a9df3b3b40ef56c4c35f9b",
+    "stale": false
+  },
+  "summary.quiz.questions.q6.reveal": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:36:36Z",
+    "enFp": "c03a84202587b12a59fcea043c1c37c0bd48a6e05cfa9ebcccd13c18c928363f"
   }
 }
