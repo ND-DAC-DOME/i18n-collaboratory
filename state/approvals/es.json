@@ -1508,12 +1508,32 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:10:19Z",
-    "enFp": "72efa4c87ce782165d2e91591caaae8e21ce26c85388e53f68c706c0bc9c54a9"
+    "enFp": "72efa4c87ce782165d2e91591caaae8e21ce26c85388e53f68c706c0bc9c54a9",
+    "stale": false
   },
   "player.systemLabels.reactions.comment_label": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:10:19Z",
-    "enFp": "f1f5ddaf664e92085e8def0bc7f59bb89ee5e51db2d382950f1e834fd5be8ad3"
+    "enFp": "f1f5ddaf664e92085e8def0bc7f59bb89ee5e51db2d382950f1e834fd5be8ad3",
+    "stale": false
+  },
+  "player.systemLabels.reactions.complete_above": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:10:31Z",
+    "enFp": "f8df3020b398e4c3105cd37b1861a7ddb9d3ddad661a122851a4fa2fc10e5585"
+  },
+  "player.systemLabels.reactions.comment_sent": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:10:31Z",
+    "enFp": "c5d097b50675f55d2dd40faec994d4748c463a42287757348aa1e00df9d375bc"
+  },
+  "player.systemLabels.reactions.comment_placeholder": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:10:31Z",
+    "enFp": "8631a2088baaa0db11c699d6ecb6fe8f454db642539f6a22b549ed09b391dab5"
   }
 }
