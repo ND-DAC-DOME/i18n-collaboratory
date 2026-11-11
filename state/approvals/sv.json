@@ -6870,6 +6870,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:37:01Z",
-    "enFp": "ecfcc5b640010da8e3c9e01bbbf39311a163f90ce616b62239d511cd6c92c513"
+    "enFp": "ecfcc5b640010da8e3c9e01bbbf39311a163f90ce616b62239d511cd6c92c513",
+    "stale": false
+  },
+  "m3.slide.onlineAbuseCanSpreadQuicklyAnd.body": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:37:08Z",
+    "enFp": "b8b68c4a506b98f75623cb0ec5709109af2b7d76e6b09d7be19291d79bd4237b"
   }
 }
