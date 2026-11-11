@@ -332,6 +332,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:31:13Z",
-    "enFp": "3ac5b64a9296b7198f9156599c0effe78dff2149fa1617aee0dcbd61fbc99663"
+    "enFp": "3ac5b64a9296b7198f9156599c0effe78dff2149fa1617aee0dcbd61fbc99663",
+    "stale": false
+  },
+  "welcome.slide.whatYouWillGain": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:31:15Z",
+    "enFp": "d8f615aa297c02400631c571166b104cc7400bdbcf5bc4d4218cd610495c32f0"
   }
 }
