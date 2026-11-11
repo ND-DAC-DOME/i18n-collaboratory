@@ -409,6 +409,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:36:41Z",
-    "enFp": "d43048bd71adbacc563f836286cb2e15f315b4ee324f37673a41abf8c4be6324"
+    "enFp": "d43048bd71adbacc563f836286cb2e15f315b4ee324f37673a41abf8c4be6324",
+    "stale": false
+  },
+  "welcome.about.tagline.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:37:11Z",
+    "enFp": "accb2c56e1ad966007b2d640411526b131699cfe5018d0806673dabadb19234e"
   }
 }
