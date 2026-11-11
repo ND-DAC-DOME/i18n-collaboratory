@@ -4539,24 +4539,34 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:12:10Z",
-    "enFp": "cc849e9f6018539e322d859452dae69fcb963a3da24d475e0b5f8eae6ab7de4f"
+    "enFp": "cc849e9f6018539e322d859452dae69fcb963a3da24d475e0b5f8eae6ab7de4f",
+    "stale": false
   },
   "m2.impacts.cards.c6.source": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:12:10Z",
-    "enFp": "e4aed349acb07c9b5459b35255cf6f91c5eb0141351ecfd4f75d3ac9814092ec"
+    "enFp": "e4aed349acb07c9b5459b35255cf6f91c5eb0141351ecfd4f75d3ac9814092ec",
+    "stale": false
   },
   "m2.takeaways.heading": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:12:10Z",
-    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45",
+    "stale": false
   },
   "m2.takeaways.items.i1": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:12:10Z",
-    "enFp": "d9652110682a348066b39cc8c3871dd44d06474134fa8e8cb5da5c87087521cd"
+    "enFp": "d9652110682a348066b39cc8c3871dd44d06474134fa8e8cb5da5c87087521cd",
+    "stale": false
+  },
+  "m2.takeaways.items.i2": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:12:13Z",
+    "enFp": "528016affaa599203fbe8089bed38528e15f7c4b9860f403dfcee7f282b82232"
   }
 }
