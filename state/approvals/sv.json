@@ -6408,6 +6408,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-11T09:46:05Z",
-    "enFp": "d69b9ac78e0f46368f5d7a70eba086eaf2989ea860a173040b8a1d988640e581"
+    "enFp": "d69b9ac78e0f46368f5d7a70eba086eaf2989ea860a173040b8a1d988640e581",
+    "stale": false
+  },
+  "m4.lawTabs.tabs.t3.example": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-11T09:46:58Z",
+    "enFp": "18422a24942fd4d78d6489758b2d74a1e5f8fbacf7d1ec4f6be324e1723bdc31"
   }
 }
