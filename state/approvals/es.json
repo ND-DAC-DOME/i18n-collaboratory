@@ -2915,36 +2915,78 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:24:58Z",
-    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0",
+    "stale": false
   },
   "m1.slide.languageWhatIsBeingSaidOr.body": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:24:58Z",
-    "enFp": "17f7541fef9867c0bf321f53bf8d9900ba0947ad91d65ec208117886d4f52c80"
+    "enFp": "17f7541fef9867c0bf321f53bf8d9900ba0947ad91d65ec208117886d4f52c80",
+    "stale": false
   },
   "m1.slide.onlineAbuseDoesNotAffectEveryone.body": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:24:58Z",
-    "enFp": "587a0982afa8ea0469dc41f7e769ae6ee5f2d4a67f9c9208349d17b123750492"
+    "enFp": "587a0982afa8ea0469dc41f7e769ae6ee5f2d4a67f9c9208349d17b123750492",
+    "stale": false
   },
   "m1.slide.onlineConversationsArePartOfSport.body": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:24:58Z",
-    "enFp": "b4f986d4a53ecae650de596a733c7b753514647bdeae5918845ad05e69795f30"
+    "enFp": "b4f986d4a53ecae650de596a733c7b753514647bdeae5918845ad05e69795f30",
+    "stale": false
   },
   "m1.slide.onlineConversationsArePartOfSport.heading": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:24:58Z",
-    "enFp": "bc22e9d5d864b5ba722d653102909f84ddb373b733be7bb45eded85db315b9bc"
+    "enFp": "bc22e9d5d864b5ba722d653102909f84ddb373b733be7bb45eded85db315b9bc",
+    "stale": false
   },
   "m1.slide.whatDoWeUnderstandByOnline.body": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:24:58Z",
-    "enFp": "c01924929b36c46bd63e64fe81bb262804cbe594a0a610e9d796ea7d6246033c"
+    "enFp": "c01924929b36c46bd63e64fe81bb262804cbe594a0a610e9d796ea7d6246033c",
+    "stale": false
+  },
+  "m1.slide.whatDoWeUnderstandByOnline.heading": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:25:18Z",
+    "enFp": "93d6a0e7862e8ce7f08b1e141b1795c6b89e0f90e71a0971a8c463563c35124a"
+  },
+  "m1.slide.whatDoWeUnderstandByOnline.p4": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:25:18Z",
+    "enFp": "4408243562dac4a2a97c1fc2eb92a73e68934df797183c46facb7b56bed30c57"
+  },
+  "m1.slide.whatDoWeUnderstandByOnline.p3": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:25:18Z",
+    "enFp": "4620b58c9900dc384481b663952fbec18f8553be2d82090d7eadf4012556367c"
+  },
+  "m1.slide.whenTheBehavioursOverlap.heading": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:25:18Z",
+    "enFp": "13ceb06f047421df148d5de2b8d7db35fe6ce64c866be6cc056299acf1c4549d"
+  },
+  "m1.slide.whenTheBehavioursOverlap.body": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:25:18Z",
+    "enFp": "25266a4c39e8bc5f5747891474075513451b9f1d36853e9bdedfdfbc1d2726aa"
+  },
+  "m1.protectedAria": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:25:18Z",
+    "enFp": "a7a0f2d44be1c9943dff73bc3970bdb438e9c0a43007cc3ff9c5ccc9f22d5a66"
   }
 }
