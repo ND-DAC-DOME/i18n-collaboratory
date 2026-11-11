@@ -4616,6 +4616,13 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:34:15Z",
-    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+    "enFp": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe",
+    "stale": false
+  },
+  "m3.trueFalse.questions.q2.ok": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T12:34:19Z",
+    "enFp": "edfb8f94022e2a314c330a4cc221fa0e51def4055bcafebd5e0a8633076f08ec"
   }
 }
