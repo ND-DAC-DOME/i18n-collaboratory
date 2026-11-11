@@ -3930,6 +3930,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:40:12Z",
-    "enFp": "73bc2abb29e071e782d8aa0c801f85d6bfe67f34f5818e040d848c994a6acdf3"
+    "enFp": "73bc2abb29e071e782d8aa0c801f85d6bfe67f34f5818e040d848c994a6acdf3",
+    "stale": false
+  },
+  "m1.forms.cards.c3.front2": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:40:46Z",
+    "enFp": "57a2be45ad606af575304e03ca25df1ed76971a736ed7298be6ba7202b77b684"
   }
 }
