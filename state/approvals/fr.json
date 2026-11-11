@@ -4567,12 +4567,26 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:41Z",
-    "enFp": "5252fa72232eed29fb6a64141c21a0bb20d089f33b44af492544bbf4ed161a7f"
+    "enFp": "5252fa72232eed29fb6a64141c21a0bb20d089f33b44af492544bbf4ed161a7f",
+    "stale": false
   },
   "m5.slide.onlineAbuseInSportCanAffect.heading": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:50:41Z",
-    "enFp": "8abdda894f40977a83ad3d60ecb5d7e6ce74da153fd55fd3536b92ca24055003"
+    "enFp": "8abdda894f40977a83ad3d60ecb5d7e6ce74da153fd55fd3536b92ca24055003",
+    "stale": false
+  },
+  "m5.slide.uaoaHelpsConnectTheseLevelsOf.heading": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:51:01Z",
+    "enFp": "3c73edc246e94c1f10274a1156ccbfddfa5de5d0aba9fe7d82aa603af9d85d64"
+  },
+  "m5.slide.youArePartOfAWider.heading": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:51:01Z",
+    "enFp": "c3dce9b4cfb5a1a46bbca10eb591c59db91cb8e9d18f267cbb4d56d27ee22a30"
   }
 }
