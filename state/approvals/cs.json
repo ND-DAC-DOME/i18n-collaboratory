@@ -2915,6 +2915,25 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:02Z",
-    "enFp": "507550a0d981d39f07c05a6278530e8a18c24ccc2727efaa8a100b2892ef831a"
+    "enFp": "507550a0d981d39f07c05a6278530e8a18c24ccc2727efaa8a100b2892ef831a",
+    "stale": false
+  },
+  "player.systemLabels.resume.welcome_back": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:09Z",
+    "enFp": "346181d6c9954315e3fcdd7ac2d9a49f47e779e480f4025072f87ab45d688ef3"
+  },
+  "player.systemLabels.separator.section_break": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:09Z",
+    "enFp": "66f41a831f779cc7184ea4cb68ad765313c760c5e9c004bc2db5acde5c6b6591"
+  },
+  "player.systemLabels.slide_intro.learning_objectives": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:09Z",
+    "enFp": "301b843724f10ba740cee6f3a1c67ec9828e73e12f9f84017b8188ec6115541d"
   }
 }
