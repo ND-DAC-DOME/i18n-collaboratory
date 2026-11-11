@@ -2285,6 +2285,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:31:56Z",
-    "enFp": "155f816c0407310c0dab222493370773e045ee7fe04e6c9a951b07f495531264"
+    "enFp": "155f816c0407310c0dab222493370773e045ee7fe04e6c9a951b07f495531264",
+    "stale": false
+  },
+  "m5.match.ui.feedbackOk": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:32:00Z",
+    "enFp": "701bc7f9173a5ee7efd8693f0d3f9f0b24cafd3caae12b33c58c0a3a97828f47"
   }
 }
