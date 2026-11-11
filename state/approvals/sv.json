@@ -6030,12 +6030,20 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:46:22Z",
-    "enFp": "55853e82212419b3b9552b36cd274c88dd85cb71d80540d9015649a517b98583"
+    "enFp": "55853e82212419b3b9552b36cd274c88dd85cb71d80540d9015649a517b98583",
+    "stale": false
   },
   "m3.checklist.ui.progress": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:46:22Z",
-    "enFp": "1dc03e9a9e202dc43fea83f67ad910dc5732afcdd1235852d78f48357608ee97"
+    "enFp": "1dc03e9a9e202dc43fea83f67ad910dc5732afcdd1235852d78f48357608ee97",
+    "stale": false
+  },
+  "m4.slide.howCanLegalResponsesDifferBy.body": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-11T09:27:18Z",
+    "enFp": "f05882dca428ac0b08aae21566d8881a31e40a3b9fea38480ac32b36a06d6039"
   }
 }
