@@ -948,6 +948,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:42:25Z",
-    "enFp": "7f162191a14c9a2204ea33353d8d2845f80e880f947a7ceab8aca34a43fe5ac7"
+    "enFp": "7f162191a14c9a2204ea33353d8d2845f80e880f947a7ceab8aca34a43fe5ac7",
+    "stale": false
+  },
+  "m2.check.questions.q1.choices.c2": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:49:05Z",
+    "enFp": "6b95e310f8e823e61d90080b62fba17d3974f9139c02e537955aa170faf76a5c"
   }
 }
