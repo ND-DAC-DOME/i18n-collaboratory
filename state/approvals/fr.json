@@ -1326,6 +1326,19 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:56:48Z",
-    "enFp": "2be507436656e8b5eca995b8231876d130760410f519bf8570983489f6b85561"
+    "enFp": "2be507436656e8b5eca995b8231876d130760410f519bf8570983489f6b85561",
+    "stale": false
+  },
+  "m1.takeaways.items.i5": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:56:53Z",
+    "enFp": "7b855ed65c4cb66a2cf127ff44de585960b8c77950a110643a38f7a0afc72996"
+  },
+  "m1.takeaways.items.i6": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:56:53Z",
+    "enFp": "9b9e3b9a4e818d36ddfe7a9048ef2507a011c1b09a9ff40da713faef3c09366b"
   }
 }
