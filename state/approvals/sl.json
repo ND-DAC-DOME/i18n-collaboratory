@@ -7010,6 +7010,19 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T14:08:51Z",
-    "enFp": "846f7add26ddff6f1b9d4899fa305200ee77de7769106bea566eb10da5b17c6a"
+    "enFp": "846f7add26ddff6f1b9d4899fa305200ee77de7769106bea566eb10da5b17c6a",
+    "stale": false
+  },
+  "m5.slide.title": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T14:08:53Z",
+    "enFp": "897a84716ffb5805dd9a701ff0e6d44f13efbc863a774fd9f44cbb60b7b939d8"
+  },
+  "m5.slide.goToFinalQuiz": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T14:08:53Z",
+    "enFp": "34e443787ab76a55019bb3b959d4200d4e3b8f24fd2c766523dd722f3546198d"
   }
 }
