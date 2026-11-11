@@ -4260,7 +4260,7 @@
       },
       "euDisclaimer": {
         "body": {
-          "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Financé par l’Union européenne. Les opinions exprimées n’engagent que leurs auteurs et ne reflètent pas nécessairement celles de l’Union européenne ni de l’Agence exécutive européenne pour l’éducation et la culture (EACEA). Ni l’Union européenne ni l’EACEA ne sauraient en être tenues responsables.</em></span></p>",
+          "text": "<p style=\"text-align: left\"><span style=\"font-size: 11px\"><em>Financé par l’Union européenne. Les points de vue et avis exprimés n’engagent toutefois que leur(s) auteur(s) et ne reflètent pas nécessairement ceux de l’Union européenne ou de l’Agence exécutive européenne pour l’éducation et la culture (EACEA). Ni l’Union européenne ni l’EACEA ne sauraient en être tenues pour responsables.</em></span></p>",
           "note": "Native text body on Welcome"
         }
       },
