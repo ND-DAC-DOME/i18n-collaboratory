@@ -1368,6 +1368,25 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:58:19Z",
-    "enFp": "db8d834540bb4c27eb4ebe818c3373fa0c1a28a75482a80d7fdef480a4dc4495"
+    "enFp": "db8d834540bb4c27eb4ebe818c3373fa0c1a28a75482a80d7fdef480a4dc4495",
+    "stale": false
+  },
+  "m1.slide.contextMatters.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:58:25Z",
+    "enFp": "2062df1afba4975a650ac2e122f53a3f586d0fd33ce610fe811090700f1904cc"
+  },
+  "m1.slide.contextMatters.heading": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:58:25Z",
+    "enFp": "21d05d4271176d75b8e79f8eaacc4d2a0f1e999c2a33195f1f8e4108d1e469cd"
+  },
+  "m1.slide.exploreHowCanOnlineAbuseEvolve.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:58:25Z",
+    "enFp": "15a9d0941a0503f7a189fb12f65ae23dfff7424aeb8fdde000f2955984d02252"
   }
 }
