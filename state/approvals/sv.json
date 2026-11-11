@@ -6989,6 +6989,19 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:42:44Z",
-    "enFp": "262c8b0402993ff91eae78c6e0319a7211bb4742fbd15045258374e25916730f"
+    "enFp": "262c8b0402993ff91eae78c6e0319a7211bb4742fbd15045258374e25916730f",
+    "stale": false
+  },
+  "m4.lawTabs.ui.navAria": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:42:53Z",
+    "enFp": "370dcc558d9b26f34a0d4d2674d94e52734241d8a91cfa8c1353fee569ab5138"
+  },
+  "m4.lawTabs.ui.nextAria": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:42:53Z",
+    "enFp": "0dd24f765cf2aa89c68f30f1abb96665e3e561e3e36b542625016eb8998dee57"
   }
 }
