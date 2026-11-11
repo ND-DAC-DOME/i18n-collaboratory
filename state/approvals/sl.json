@@ -5519,6 +5519,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:47:54Z",
-    "enFp": "fcff1d7ef2baa20dfd658ee7e6df88e605123a1b319ef7bead701c8f045b7f49"
+    "enFp": "fcff1d7ef2baa20dfd658ee7e6df88e605123a1b319ef7bead701c8f045b7f49",
+    "stale": false
+  },
+  "m4.lawTabs.tabs.t3.title": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:48:00Z",
+    "enFp": "5e1857947f084b71745a2eb77073e2ff3cdd231302290ab0e1b1b63fcf0485d8"
   }
 }
