@@ -1790,5 +1790,17 @@
     "at": "2026-11-11T11:11:35Z",
     "enFp": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c",
     "stale": false
+  },
+  "player.systemLabels.time_requirements.remaining": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:11:56Z",
+    "enFp": "41855492921277b112b27515a21646fd8c30f4c9d19374425ad4c0e01c6eb698"
+  },
+  "player.systemLabels.time_requirements.minutes": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:11:56Z",
+    "enFp": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
   }
 }
