@@ -1865,18 +1865,27 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:30:04Z",
-    "enFp": "d0427f3606035d42edd7e4ffd339ab9e0f387c88a52fb575d0693c91d9d7cb70"
+    "enFp": "d0427f3606035d42edd7e4ffd339ab9e0f387c88a52fb575d0693c91d9d7cb70",
+    "stale": false
   },
   "m2.impacts.cards.c2.title": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:30:04Z",
-    "enFp": "d466bcf52eb6921b1e747e51bf2cc1441926455ba146ecc477bed1574e44f9c0"
+    "enFp": "d466bcf52eb6921b1e747e51bf2cc1441926455ba146ecc477bed1574e44f9c0",
+    "stale": false
   },
   "m2.impacts.cards.c2.short": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:30:04Z",
-    "enFp": "d466bcf52eb6921b1e747e51bf2cc1441926455ba146ecc477bed1574e44f9c0"
+    "enFp": "d466bcf52eb6921b1e747e51bf2cc1441926455ba146ecc477bed1574e44f9c0",
+    "stale": false
+  },
+  "m2.impacts.cards.c2.alt": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:30:07Z",
+    "enFp": "f2acf0c72c26aafd29ec0849a5c9ce84a53df812bdffb740a84c5c0e4ca80665"
   }
 }
