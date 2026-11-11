@@ -5120,12 +5120,20 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:02Z",
-    "enFp": "f0fdfddd9c224e50b133eeb3d93701a9b62fee4bb616415e17f258d4ff32bf77"
+    "enFp": "f0fdfddd9c224e50b133eeb3d93701a9b62fee4bb616415e17f258d4ff32bf77",
+    "stale": false
   },
   "summary.quiz.questions.q11.links.learn.text": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:02Z",
-    "enFp": "51cca8b24d2031ce8590a9844ec96e9a9c621c6eb2024795d1a5b8ec832b9686"
+    "enFp": "51cca8b24d2031ce8590a9844ec96e9a9c621c6eb2024795d1a5b8ec832b9686",
+    "stale": false
+  },
+  "summary.quiz.ui.chooseOne": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:56:06Z",
+    "enFp": "8f695363bc6dff27de47104b9041d2c9fe8db0bb28f2e33c772067e4f99071c1"
   }
 }
