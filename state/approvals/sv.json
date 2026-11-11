@@ -6135,6 +6135,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-11T09:33:09Z",
-    "enFp": "789999c2f9fe86eb4578a4646d2c732bda780e75be0d4dd146cc0fe770a35801"
+    "enFp": "789999c2f9fe86eb4578a4646d2c732bda780e75be0d4dd146cc0fe770a35801",
+    "stale": false
+  },
+  "m4.check.questions.q4.choices.c0": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-11T09:33:16Z",
+    "enFp": "e1bf86fd35e61bec046d578ca2d1b27b16ea2474c179919a2eced1269a5fef0a"
   }
 }
