@@ -5099,6 +5099,31 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:54:02Z",
-    "enFp": "ede43c8fea3ad387b4147525161d2a68a531a1c5e54e6ff5c6ba0142d01cfb5f"
+    "enFp": "ede43c8fea3ad387b4147525161d2a68a531a1c5e54e6ff5c6ba0142d01cfb5f",
+    "stale": false
+  },
+  "m2.check.questions.q1.prompt": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:54:35Z",
+    "enFp": "79158a806fb93124ebcee37054e525550f3716ce4d74c3851c61a70ce3676b25"
+  },
+  "m2.check.questions.q1.choices.c0": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:54:35Z",
+    "enFp": "f17df01df0e16a1792f3b0c90cab0dbdc5b351fcb16c2e049ebb185dc5383cba"
+  },
+  "m2.check.questions.q1.choices.c1": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:54:35Z",
+    "enFp": "b6eb15a7d951fb8dedbdd29e8c5ed9705f9e31dbd7b36d97c83adb7a81e9fb66"
+  },
+  "m2.check.questions.q1.choices.c2": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:54:35Z",
+    "enFp": "6b95e310f8e823e61d90080b62fba17d3974f9139c02e537955aa170faf76a5c"
   }
 }
