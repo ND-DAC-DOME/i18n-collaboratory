@@ -5253,12 +5253,20 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:58:10Z",
-    "enFp": "261c1c94ef0cd52a4b6a3dc1c56ae5f93c28159d08a2d045c616bf1faaae0cf2"
+    "enFp": "261c1c94ef0cd52a4b6a3dc1c56ae5f93c28159d08a2d045c616bf1faaae0cf2",
+    "stale": false
   },
   "m2.affected.cards.c2.name": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:58:10Z",
-    "enFp": "a6299cad2f437e90fe7ad451197e73e479efe918aabcac1759173e64133f8f70"
+    "enFp": "a6299cad2f437e90fe7ad451197e73e479efe918aabcac1759173e64133f8f70",
+    "stale": false
+  },
+  "m2.affected.cards.c2.body": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:58:42Z",
+    "enFp": "93baa3ac139c399fd038a98b36f8f308987826d4bebed5c04ca01f9eddc4aba9"
   }
 }
