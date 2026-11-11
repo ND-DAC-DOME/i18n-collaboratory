@@ -7066,6 +7066,13 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:11:47Z",
-    "enFp": "222794c6964a9b4c277bb6fec6342cb3f687a29cd60568b6e44333df3d2e2db0"
+    "enFp": "222794c6964a9b4c277bb6fec6342cb3f687a29cd60568b6e44333df3d2e2db0",
+    "stale": false
+  },
+  "m3.checklist.items.i6": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:12:06Z",
+    "enFp": "c4cb4c4d70c27a3c2e87391221754c4b7d4bc78423bc632b0b86732ed7dd52b7"
   }
 }
