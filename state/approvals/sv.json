@@ -6009,6 +6009,19 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:45:57Z",
-    "enFp": "a2b34d8442922db7e2aa2ca161f207fcf1d83ea469c5f6e1933d62b19940d338"
+    "enFp": "a2b34d8442922db7e2aa2ca161f207fcf1d83ea469c5f6e1933d62b19940d338",
+    "stale": false
+  },
+  "m3.regionTabs.tabs.t3.title": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:46:17Z",
+    "enFp": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd"
+  },
+  "m3.regionTabs.tabs.t3.html": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:46:17Z",
+    "enFp": "c393629d60a07a32dbcd1da0ea94ceafce8fa59fa7e9df88824efed9d5c68433"
   }
 }
