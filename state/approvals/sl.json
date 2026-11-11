@@ -3167,6 +3167,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T11:21:52Z",
-    "enFp": "a04630ef8bc3da8c864af0161fde9d42cc9c801a27228b3cf7c07237dec5a612"
+    "enFp": "a04630ef8bc3da8c864af0161fde9d42cc9c801a27228b3cf7c07237dec5a612",
+    "stale": false
+  },
+  "m1.protected.sexualOrientation": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T11:22:00Z",
+    "enFp": "dc4e929048e0415e52ccbf79a1f29235af6885d8e68fd475bac134a5a8822b9b"
   }
 }
