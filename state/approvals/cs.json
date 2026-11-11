@@ -563,6 +563,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:38:34Z",
-    "enFp": "89eff531044582d6d5737ac21ba96da0c83b8be967e593750db05c0598424409"
+    "enFp": "89eff531044582d6d5737ac21ba96da0c83b8be967e593750db05c0598424409",
+    "stale": false
+  },
+  "summary.quiz.questions.q7.next": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:38:37Z",
+    "enFp": "d42aaa9b0abd805f8e568802e1c13484590305d50ba8bc3bd8e2174d7e46f36d"
   }
 }
