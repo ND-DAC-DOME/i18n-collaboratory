@@ -598,6 +598,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:41:26Z",
-    "enFp": "2e04da08212e41ea99b50e536f860d772fc82a3216d79f3c1812dbcd82711869"
+    "enFp": "2e04da08212e41ea99b50e536f860d772fc82a3216d79f3c1812dbcd82711869",
+    "stale": false
+  },
+  "m1.forms.ui.progress": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:41:30Z",
+    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de"
   }
 }
