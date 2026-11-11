@@ -4721,12 +4721,20 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:46:37Z",
-    "enFp": "2e945403777698db72275b0f8ee3f9459ab5f463536509f9bd49f645ee564a14"
+    "enFp": "2e945403777698db72275b0f8ee3f9459ab5f463536509f9bd49f645ee564a14",
+    "stale": false
   },
   "m1.check.questions.q3.choices.ethnicity": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:46:37Z",
-    "enFp": "2a0bdd7ccfd0aa7ff3c5641d728368ddcce614efeae9676eac6a480ed2e73c89"
+    "enFp": "2a0bdd7ccfd0aa7ff3c5641d728368ddcce614efeae9676eac6a480ed2e73c89",
+    "stale": false
+  },
+  "m1.check.questions.q4.label": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:46:40Z",
+    "enFp": "7f41f0db940976c6a8b4efcff4deb0249c3686e1b1cbfc3debf17c301e2812f0"
   }
 }
