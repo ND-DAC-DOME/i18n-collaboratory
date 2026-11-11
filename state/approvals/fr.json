@@ -6674,96 +6674,232 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "f36524f539bc30c9db9b25be6e159a784d8f79cc5e79519c6c143a81ba394121"
+    "enFp": "f36524f539bc30c9db9b25be6e159a784d8f79cc5e79519c6c143a81ba394121",
+    "stale": false
   },
   "player.systemLabels.video.error": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "964015471ad69a6169a286a513cbb9567188d233207650f76a89b04d042b860c"
+    "enFp": "964015471ad69a6169a286a513cbb9567188d233207650f76a89b04d042b860c",
+    "stale": false
   },
   "player.systemLabels.video.loading": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "adcf41fd1fe17674f087270dab76a5c920cddde53371af3ac7a089c6d6bff40c"
+    "enFp": "adcf41fd1fe17674f087270dab76a5c920cddde53371af3ac7a089c6d6bff40c",
+    "stale": false
   },
   "player.systemLabels.video.pause": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "858e4ba7a29fd38b630ed73a79e2738333b3fc6778fafa90252f5556c1262fdc"
+    "enFp": "858e4ba7a29fd38b630ed73a79e2738333b3fc6778fafa90252f5556c1262fdc",
+    "stale": false
   },
   "player.systemLabels.video.play": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "436e61016e26fcb773b9725745cbbf0afe7f001ea26041a814a7712c2925c442"
+    "enFp": "436e61016e26fcb773b9725745cbbf0afe7f001ea26041a814a7712c2925c442",
+    "stale": false
   },
   "player.systemLabels.web_simulation.area": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "4a91ee5f0106c2b35c11c168352f0abfbf4fc86165c62d6fb51b5232dfc692e6"
+    "enFp": "4a91ee5f0106c2b35c11c168352f0abfbf4fc86165c62d6fb51b5232dfc692e6",
+    "stale": false
   },
   "player.systemLabels.web_simulation.click_on_image": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "fd59b1bd508e8364047c17509d33eb71cfa9836716f02f5f67163bd991a37c29"
+    "enFp": "fd59b1bd508e8364047c17509d33eb71cfa9836716f02f5f67163bd991a37c29",
+    "stale": false
   },
   "player.systemLabels.web_simulation.failed_to_load_image": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "af2035a4175034ba526fb3d7c91eae3de5fb5bdb76f8b5ae897bb7db6e420c7f"
+    "enFp": "af2035a4175034ba526fb3d7c91eae3de5fb5bdb76f8b5ae897bb7db6e420c7f",
+    "stale": false
   },
   "player.systemLabels.web_simulation.loading": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "1e969de6ce23ff65674d57c1bd6d4530aba7dd8eb85367c0d82e2e06c9c5676f"
+    "enFp": "1e969de6ce23ff65674d57c1bd6d4530aba7dd8eb85367c0d82e2e06c9c5676f",
+    "stale": false
   },
   "player.systemLabels.web_simulation.navigate_to": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "5060552031a7d1daea9e1476b1251715946500a6863d3f8a95de9920b4e7cb1b"
+    "enFp": "5060552031a7d1daea9e1476b1251715946500a6863d3f8a95de9920b4e7cb1b",
+    "stale": false
   },
   "player.systemLabels.web_simulation.no_image_configured": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "385ecc872a0e1db834146356da8127dea334b45286e98a7405ee8422a94e1520"
+    "enFp": "385ecc872a0e1db834146356da8127dea334b45286e98a7405ee8422a94e1520",
+    "stale": false
   },
   "player.systemLabels.web_simulation.of": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624"
+    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
+    "stale": false
   },
   "player.systemLabels.web_simulation.progress": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "4664827f8e89019280ba99cd889f9ea31eaeecf6fc1bb7541c4a0e546685599f"
+    "enFp": "4664827f8e89019280ba99cd889f9ea31eaeecf6fc1bb7541c4a0e546685599f",
+    "stale": false
   },
   "player.systemLabels.web_simulation.restart": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "6b983a81e5e8099e4e23a368e72636e31f029f2e691e5be714106b8cf59d70a7"
+    "enFp": "6b983a81e5e8099e4e23a368e72636e31f029f2e691e5be714106b8cf59d70a7",
+    "stale": false
   },
   "player.systemLabels.web_simulation.start": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "e4bb9f1ece9af9264a3b9e3913bbdb2cf497457167b14ced5f85688bfde74644"
+    "enFp": "e4bb9f1ece9af9264a3b9e3913bbdb2cf497457167b14ced5f85688bfde74644",
+    "stale": false
   },
   "player.systemLabels.web_simulation.step": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:06:21Z",
-    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4"
+    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4",
+    "stale": false
+  },
+  "player.systemLabels.assessment.complete_assessment": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "572e01d9de084605b894fedc00534f39114ff51d0c026f79382fa3c915b5ff1a"
+  },
+  "player.systemLabels.assessment.case_sensitive": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "e124ba47cb3f7cda5e3560d22403ef03864f208fd4c77f42ede19e9647ffe6dd"
+  },
+  "player.systemLabels.assessment.case_insensitive": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "1679b4d55499bd049e2b19896068789ee0929be74495da0198f538752b9d221b"
+  },
+  "player.systemLabels.assessment.blanks": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "7845bcea692ff7c0a63d203f5b8847a4d2673fb68cc4d5e2b5d4536d153a0ba3"
+  },
+  "player.systemLabels.assessment.attempts_per_question": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "f2bad37936c1fac1bd978ad702aa083227a48798f54cf9b969ebf828e1ba9bf3"
+  },
+  "player.systemLabels.assessment.attempts_available": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "98725673c1bf713dc103b10ba83bb79752f4a23cdf12d43326fb3c5b078f37ec"
+  },
+  "player.systemLabels.assessment.attempts": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "06e70139fcf5e5c7d86a965b24b3cec519c1a1679b5dde917114925594726371"
+  },
+  "player.systemLabels.assessment.assessment_results": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "92cffcc846b8e0520df4ae9df48389e100e504c4943d2bfa47da637888bac89d"
+  },
+  "player.systemLabels.assessment.assessment_passed": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "19416bb6ec4c8582e7e68e7bb8e43fc6fe9441600f74f0ba062a5a2cc998cc1c"
+  },
+  "player.systemLabels.assessment.assessment_not_passed": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "5d5c327662e32a3e15e2317bfc1044a1898f4f212d170e123e4517f4e51a1108"
+  },
+  "player.systemLabels.accordion.expand": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "07548c2c6511d4d1780564de8a237a1966cf9c99a97cf5c8a185e6c2aeacff09"
+  },
+  "player.systemLabels.accordion.collapse": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "be6eb1fc3b05bf9dceebad2eac7841d1b2f40bda9aa2da34df8ca22af02bc3ed"
+  },
+  "player.systemLabels.access.verifying": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "2ec1ac7d45e8079b8410caee12456f9655d1ae809e9ec933d3a7982e1f3a5d08"
+  },
+  "player.systemLabels.access.unable_to_verify": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "6a28034b2adda647ffc6b2478adc83fc7332c17947cd584270166eab50d321cb"
+  },
+  "player.systemLabels.access.saving": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "dc85af8f2b1d0d6756547cd5f79557466e25e682b882f68d277bd7f125851321"
+  },
+  "player.systemLabels.access.saved": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "ed9b760289e614c9dc8776e7280abe870be0a85019a32220b35acc54c0ecfbc1"
+  },
+  "player.systemLabels.access.progress_tracked": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "ba9698867f4a2f330cf2f027dff1642be25b3f32e767ff47225c904afa0c21f3"
+  },
+  "player.systemLabels.access.password_required": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "8cfe20dcdbf5837af3580f4b1d2ee57d07ed301abd8f9b031a990254e8b2e2ad"
+  },
+  "player.systemLabels.access.password_not_configured": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "0aaf9b18132cfe46dd7a9a9e5a841f85b92cd71c0a0fcf932daf50205cc19023"
+  },
+  "player.systemLabels.access.password_description": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:06:56Z",
+    "enFp": "8ed8f25d0ec0b36dc680466bcdf74bf2255547b04422520d96d48bf7f270d6a7"
   }
 }
