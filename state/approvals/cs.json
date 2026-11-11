@@ -4588,18 +4588,69 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:19Z",
-    "enFp": "9b9e3b9a4e818d36ddfe7a9048ef2507a011c1b09a9ff40da713faef3c09366b"
+    "enFp": "9b9e3b9a4e818d36ddfe7a9048ef2507a011c1b09a9ff40da713faef3c09366b",
+    "stale": false
   },
   "m1.slide.title": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:19Z",
-    "enFp": "d584e576b443994382b14f8d9b63db502621445906b80d148ddc5b310cdec165"
+    "enFp": "d584e576b443994382b14f8d9b63db502621445906b80d148ddc5b310cdec165",
+    "stale": false
   },
   "m1.slide.continueToModule2": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:23:19Z",
-    "enFp": "6955d7bd898f5657eef3604ee094d52e2d4d77fc328903b2fb2560d3cc1e86f6"
+    "enFp": "6955d7bd898f5657eef3604ee094d52e2d4d77fc328903b2fb2560d3cc1e86f6",
+    "stale": false
+  },
+  "m1.slide.applyWhatDoYouSee.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:32Z",
+    "enFp": "82e38f2773499fd93ebc541d91af31612ce2468c3c7d6ba66fb92135074d828c"
+  },
+  "m1.slide.applyWhatDoYouSee.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:32Z",
+    "enFp": "db8d834540bb4c27eb4ebe818c3373fa0c1a28a75482a80d7fdef480a4dc4495"
+  },
+  "m1.slide.contextMatters.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:32Z",
+    "enFp": "2062df1afba4975a650ac2e122f53a3f586d0fd33ce610fe811090700f1904cc"
+  },
+  "m1.slide.contextMatters.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:32Z",
+    "enFp": "21d05d4271176d75b8e79f8eaacc4d2a0f1e999c2a33195f1f8e4108d1e469cd"
+  },
+  "m1.slide.exploreHowCanOnlineAbuseEvolve.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:32Z",
+    "enFp": "15a9d0941a0503f7a189fb12f65ae23dfff7424aeb8fdde000f2955984d02252"
+  },
+  "m1.slide.exploreHowCanOnlineAbuseEvolve.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:32Z",
+    "enFp": "1502c784c68377f32d6e73067dd466deb4d8a33323abdd726fd192afc392a049"
+  },
+  "m1.slide.introSubtitle": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:32Z",
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
+  },
+  "m1.slide.languageWhatIsBeingSaidOr.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:23:32Z",
+    "enFp": "17f7541fef9867c0bf321f53bf8d9900ba0947ad91d65ec208117886d4f52c80"
   }
 }
