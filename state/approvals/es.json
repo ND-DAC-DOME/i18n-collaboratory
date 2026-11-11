@@ -514,48 +514,49 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:57Z",
-    "enFp": "b00f7e3ae5e87365f3f63356a77f02245b82fea828b51d3279e6a490a351e7d1"
+    "enFp": "b00f7e3ae5e87365f3f63356a77f02245b82fea828b51d3279e6a490a351e7d1",
+    "stale": false
   },
   "player.systemLabels.access.incorrect_password": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:57Z",
-    "enFp": "78fa607c01bc6f41ea21803a7820389dc658b272a4dfb4cf7e1539fcd09176c0"
+    "enFp": "78fa607c01bc6f41ea21803a7820389dc658b272a4dfb4cf7e1539fcd09176c0",
+    "stale": false
   },
   "player.systemLabels.access.field_required": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:57Z",
-    "enFp": "6876f12ea673f6b1e07fadbe778bd5fa77e3e6014e23cc34d56d5579d071b5d9"
+    "enFp": "6876f12ea673f6b1e07fadbe778bd5fa77e3e6014e23cc34d56d5579d071b5d9",
+    "stale": false
   },
   "player.systemLabels.access.name_description": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:57Z",
-    "enFp": "562a75104a4eaa5621891f65ff753f59bb235d6ccd74c6a9a0761bda6766f0de"
+    "enFp": "562a75104a4eaa5621891f65ff753f59bb235d6ccd74c6a9a0761bda6766f0de",
+    "stale": false
   },
   "player.systemLabels.access.min_length": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:57Z",
-    "enFp": "dd2a698b350f8b0d8fd08a67ed22bf5f752eccb18def3414a840b43782730659"
+    "enFp": "dd2a698b350f8b0d8fd08a67ed22bf5f752eccb18def3414a840b43782730659",
+    "stale": false
   },
   "player.systemLabels.access.max_length": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:57Z",
-    "enFp": "02cc5797643f3f2734cea530b6c6b22699a3060c1efa1d604aedd68fc740a379"
-  },
-  "player.systemLabels.access.name_placeholder": {
-    "approved": true,
-    "by": "Carmen Ruano",
-    "at": "2026-11-11T10:57:57Z",
-    "enFp": "2c564dcbcbde8eda7118f677c0c1d7a2806e305d3c199b01839d6659d18e4ed2"
+    "enFp": "02cc5797643f3f2734cea530b6c6b22699a3060c1efa1d604aedd68fc740a379",
+    "stale": false
   },
   "player.systemLabels.access.nickname_description": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:57:57Z",
-    "enFp": "5d2c907559bb29d8b07b0ce841aa3f88bd7ddaf758947062018d2f65e62a6530"
+    "enFp": "5d2c907559bb29d8b07b0ce841aa3f88bd7ddaf758947062018d2f65e62a6530",
+    "stale": false
   }
 }
