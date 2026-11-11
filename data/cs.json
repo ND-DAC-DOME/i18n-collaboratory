@@ -137,7 +137,7 @@
             "note": "Scenario prompt; answer = digital hostility"
           },
           "ok": {
-            "text": "<strong>Správně!</strong> Opakovaný a trvalý vzorec nepřátelských interakcí napříč digitálními platformami je formou <strong>digitálního nepřátelství</strong>.",
+            "text": "<strong>Správně!</strong>Opakované a dlouhodobé nepřátelské interakce napříč digitálními platformami představují formu<strong>nepřátelského chování v digitálním prostředí.</strong>.",
             "note": "HTML allowed"
           },
           "bad": {
