@@ -5337,96 +5337,105 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "c3ea06786596972346c9aa3574dafba02af72104726e714c19e139b2b9c55759"
+    "enFp": "c3ea06786596972346c9aa3574dafba02af72104726e714c19e139b2b9c55759",
+    "stale": false
   },
   "embeds.sensitiveNotice.someoneTrusted": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "c271e6d926b7bb24e90aa90d0282cd3f1ec753c4b4339b56a7339f1725dfd052"
+    "enFp": "c271e6d926b7bb24e90aa90d0282cd3f1ec753c4b4339b56a7339f1725dfd052",
+    "stale": false
   },
   "embeds.sensitiveNotice.someoneTrustedDetail": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "556cac87a22dfe557830bcd01ca14e17169608d6af8c15703bbfe8507541306a"
+    "enFp": "556cac87a22dfe557830bcd01ca14e17169608d6af8c15703bbfe8507541306a",
+    "stale": false
   },
   "embeds.sensitiveNotice.orgLead": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "49b03ebc13a35d2dbd3bba02b8c148f969364e98fc348e3f17ab32a122431984"
+    "enFp": "49b03ebc13a35d2dbd3bba02b8c148f969364e98fc348e3f17ab32a122431984",
+    "stale": false
   },
   "embeds.sensitiveNotice.closeAria": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   },
   "embeds.sensitiveNotice.close": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   },
   "embeds.sensitiveNotice.orgLeadDetail": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "94c8b6d7a55a7ed49a9a6d8154f0418d8ceb155e8b9d10d400c217e63709c7a9"
+    "enFp": "94c8b6d7a55a7ed49a9a6d8154f0418d8ceb155e8b9d10d400c217e63709c7a9",
+    "stale": false
   },
   "embeds.sensitiveNotice.platformReporting": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "c59cbe275b112caa7058f0095115be0df247b8d1a64b7ad177f28efa9efd05ab"
+    "enFp": "c59cbe275b112caa7058f0095115be0df247b8d1a64b7ad177f28efa9efd05ab",
+    "stale": false
   },
   "embeds.sensitiveNotice.platformReportingDetail": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "cea4b61d2c52ce8825f4075fc87ca482e889776fea600f178b5b4f9a6e5af901"
+    "enFp": "cea4b61d2c52ce8825f4075fc87ca482e889776fea600f178b5b4f9a6e5af901",
+    "stale": false
   },
   "embeds.sensitiveNotice.emergencyServices": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "72de9732532395031147176a7d011e5e3ceb88a55aff568efbbcd74b611286fc"
+    "enFp": "72de9732532395031147176a7d011e5e3ceb88a55aff568efbbcd74b611286fc",
+    "stale": false
   },
   "embeds.sensitiveNotice.emergencyServicesDetail": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "20bd84bf566fda4fc356cd80ffe602029d44a12f95680bd72d07dd2ba0b28f66"
+    "enFp": "20bd84bf566fda4fc356cd80ffe602029d44a12f95680bd72d07dd2ba0b28f66",
+    "stale": false
   },
   "embeds.miniDictionary.teaser": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "3030d206b671d1f951459de9217f4c504eb5d3b75dd3c3a6f2095efcb5176393"
+    "enFp": "3030d206b671d1f951459de9217f4c504eb5d3b75dd3c3a6f2095efcb5176393",
+    "stale": false
   },
   "embeds.miniDictionary.linkLabel": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "637e4aab899ea4d8e98942d5a55486db74a94589c7d3fe9d72ada595a8c5ee38"
+    "enFp": "637e4aab899ea4d8e98942d5a55486db74a94589c7d3fe9d72ada595a8c5ee38",
+    "stale": false
   },
   "embeds.miniDictionary.cta": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "f647dc2a31e9e85660843bf459a473e7789a48b659f683c8cf577d311d0d2bda"
+    "enFp": "f647dc2a31e9e85660843bf459a473e7789a48b659f683c8cf577d311d0d2bda",
+    "stale": false
   },
   "embeds.miniDictionary.closeAria": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:00:34Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
-  },
-  "embeds.miniDictionary.backToCourse": {
-    "approved": true,
-    "by": "ella",
-    "at": "2026-11-11T16:00:34Z",
-    "enFp": "fa7dcce95a411284dbbd7e4939feb5e8b5cbba5e805a097248ea21f23f24a548"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   }
 }
