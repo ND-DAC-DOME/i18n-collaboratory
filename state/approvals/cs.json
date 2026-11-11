@@ -2495,6 +2495,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:07:38Z",
-    "enFp": "8f1f289a773e777be106d59527c85d47cb8becfaac9237311f8b21d9d34d6904"
+    "enFp": "8f1f289a773e777be106d59527c85d47cb8becfaac9237311f8b21d9d34d6904",
+    "stale": false
+  },
+  "m4.slide.howCanLegalResponsesDifferBy.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:08:26Z",
+    "enFp": "f05882dca428ac0b08aae21566d8881a31e40a3b9fea38480ac32b36a06d6039"
   }
 }
