@@ -486,6 +486,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:39:22Z",
-    "enFp": "8483b9b97d789bd8feaaacb682f7e11d44bb0d7e70f6771a6359487b982cbc78"
+    "enFp": "8483b9b97d789bd8feaaacb682f7e11d44bb0d7e70f6771a6359487b982cbc78",
+    "stale": false
+  },
+  "m1.apply.ui.choicesAria": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:39:36Z",
+    "enFp": "1e80abcd49c3adc68d605317740598332e56c59ebbe5133f24ed1e1efb9a3f7e"
   }
 }
