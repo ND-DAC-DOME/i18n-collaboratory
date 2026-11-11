@@ -143,90 +143,111 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "dadf0f41aea8e2d19eace6036351c975e1db85abea40ef4125e525958432181b"
+    "enFp": "dadf0f41aea8e2d19eace6036351c975e1db85abea40ef4125e525958432181b",
+    "stale": false
   },
   "course.outline.sections.introduction": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e"
+    "enFp": "b605350bc00209520b7cd8f546322663356ba630708f71bbf30aead6b3dd608e",
+    "stale": false
   },
   "course.outline.sections.preCourseSurvey": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4"
+    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4",
+    "stale": false
   },
   "course.outline.sections.module1": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "7bd758065d58bbaadaf5a04a2fed845a89e794ed30a1715bd97b3c0543679224"
+    "enFp": "7bd758065d58bbaadaf5a04a2fed845a89e794ed30a1715bd97b3c0543679224",
+    "stale": false
   },
   "course.outline.sections.module2": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "6b062993c94ceb43c90aaf422aeecb4999b7211595c9da5d6f494b70ec3c43fc"
+    "enFp": "6b062993c94ceb43c90aaf422aeecb4999b7211595c9da5d6f494b70ec3c43fc",
+    "stale": false
   },
   "course.outline.sections.module3": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "ea4daee35d3a807ec670362e563ea6403e442d5ff71b9316ea9926952adab960"
+    "enFp": "ea4daee35d3a807ec670362e563ea6403e442d5ff71b9316ea9926952adab960",
+    "stale": false
   },
   "course.outline.sections.module4": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "3d3e68a271a252e32e07b8fc365659307fb89ca9859afedcfac4b0ed46780e15"
+    "enFp": "3d3e68a271a252e32e07b8fc365659307fb89ca9859afedcfac4b0ed46780e15",
+    "stale": false
   },
   "course.outline.sections.module5": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "27cae5af105790b28f4d793dc3824f4d8465bb43a493cc226152e89312b9cd75"
+    "enFp": "27cae5af105790b28f4d793dc3824f4d8465bb43a493cc226152e89312b9cd75",
+    "stale": false
   },
   "course.outline.sections.summary": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "8e76a94ac8320d515375e625bef1829238b097ecbd33611b59eeefd4ffefebfb"
+    "enFp": "8e76a94ac8320d515375e625bef1829238b097ecbd33611b59eeefd4ffefebfb",
+    "stale": false
   },
   "course.outline.slides.aboutThisCourse": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "42bb3844d01d06a8292661620a40c76c1444ab65f4a22db9160a3d10e9be1fc6"
+    "enFp": "42bb3844d01d06a8292661620a40c76c1444ab65f4a22db9160a3d10e9be1fc6",
+    "stale": false
   },
   "course.outline.slides.finalQuiz": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "e996d74a3b491ce68cbc40dfcbd1469b724eafa38cdf0a76aed78ddc15492c89"
+    "enFp": "e996d74a3b491ce68cbc40dfcbd1469b724eafa38cdf0a76aed78ddc15492c89",
+    "stale": false
   },
   "course.outline.slides.preCourseSurvey": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4"
+    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4",
+    "stale": false
   },
   "course.outline.slides.postCourseSurvey": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "9dc40a69b0e1e03bb862cd22d9b8235b11bc088bd5fa210e507159887936dbf7"
+    "enFp": "9dc40a69b0e1e03bb862cd22d9b8235b11bc088bd5fa210e507159887936dbf7",
+    "stale": false
   },
   "course.outline.slides.welcome": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "0e2226b5235f0ff94a276eb4d07a3bfea74b7e3b8b85e9efca6c18430f041bf8"
+    "enFp": "0e2226b5235f0ff94a276eb4d07a3bfea74b7e3b8b85e9efca6c18430f041bf8",
+    "stale": false
   },
   "course.outline.slides.exitPage": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:17Z",
-    "enFp": "8c5a1314cafebb0a2250f1cf12b02be358a3a663173c924a314da39520e0ef69"
+    "enFp": "8c5a1314cafebb0a2250f1cf12b02be358a3a663173c924a314da39520e0ef69",
+    "stale": false
+  },
+  "course.outline.slides.module1": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:53:29Z",
+    "enFp": "11cd79eac12780bcb7e1dc171fb9ee0ec7aa1904bde78b62f81313f9f07963af"
   }
 }
