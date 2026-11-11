@@ -1221,18 +1221,111 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:07:52Z",
-    "enFp": "837bb4525961e73d2d36e7fdd4fa12016a40cc33729fa4e97703a77eb7a8f85d"
+    "enFp": "837bb4525961e73d2d36e7fdd4fa12016a40cc33729fa4e97703a77eb7a8f85d",
+    "stale": false
   },
   "player.systemLabels.flashcard.press_to_flip": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:07:52Z",
-    "enFp": "bfd44ebb53abe680a431d15ecf2e4ed946b11caf18f0facde9832a19d89bddf5"
+    "enFp": "bfd44ebb53abe680a431d15ecf2e4ed946b11caf18f0facde9832a19d89bddf5",
+    "stale": false
   },
   "player.systemLabels.flashcard.showing_back": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:07:52Z",
-    "enFp": "8e81edca3b1f254a792812e3dbc9ecf0b16af7ca8475f849de5ee5367e7ae801"
+    "enFp": "8e81edca3b1f254a792812e3dbc9ecf0b16af7ca8475f849de5ee5367e7ae801",
+    "stale": false
+  },
+  "player.systemLabels.flashcard.showing_front": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "0f3311f09b021c943a9cb9ef52d4913f01a38fb5ea8b5cb3f82267075350e7db"
+  },
+  "player.systemLabels.flow.begin": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "09b538d1d0faee759e943120333491a6c0c394d65e836a0de6f06c45e6b0b635"
+  },
+  "player.systemLabels.flow.of": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624"
+  },
+  "player.systemLabels.flow.start_again": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "0ec6050118981a07746636d52e4fe80bc2a39cfdb3e1af386c737c8f8e09e47f"
+  },
+  "player.systemLabels.general.cancel": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27"
+  },
+  "player.systemLabels.flow.step": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "8e6a6cca7aae1d1e781d3ee04849d6b00f7aaf48f7c642f35105e4bf990a8cb4"
+  },
+  "player.systemLabels.general.close": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+  },
+  "player.systemLabels.general.error": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "54a0e8c17ebb21a11f8a25b8042786ef7efe52441e6cc87e92c67e0c4c0c6e78"
+  },
+  "player.systemLabels.general.download": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "d6eafe82359100423c93c5ce53c352c1b51ca1e699215fcec3f5c5dd9bf12d24"
+  },
+  "player.systemLabels.general.loading": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "47d2a515ef2f05b87d688656286a61e4f743da4b878684c7654969db17711c40"
+  },
+  "player.systemLabels.general.retry": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "942087cc2d41e01304b7195558d093d10c72af8e838c7556d6a02d471ee71852"
+  },
+  "player.systemLabels.general.save": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "1509f561f2416598629b886ad7d3c05a7e221e4e0675c84bbff4ee6d9e03913d"
+  },
+  "player.systemLabels.homepage.start_course": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "446dffbab8729f159afcb5e12f550fa01046d9ae7f30a7fa049e29a2a6d6246a"
+  },
+  "player.systemLabels.homepage.table_of_contents": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "e331da0741fb6d0552bc27483ba0720778440c520b59be917613781679ede70f"
+  },
+  "player.systemLabels.homepage.course_home": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:08:13Z",
+    "enFp": "3a78695388b38b5cceefaf6796b0137877514593543b91af2752d5a17e3d736c"
   }
 }
