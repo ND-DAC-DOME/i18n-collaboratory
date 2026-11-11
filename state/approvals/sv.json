@@ -5680,6 +5680,13 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T06:56:39Z",
-    "enFp": "8fc47568d2c32a620eadefbbb1d8c23e41d8089b12c1cb5ace9ccf93b81ce967"
+    "enFp": "8fc47568d2c32a620eadefbbb1d8c23e41d8089b12c1cb5ace9ccf93b81ce967",
+    "stale": false
+  },
+  "m2.impacts.cards.c6.source": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T06:56:54Z",
+    "enFp": "e4aed349acb07c9b5459b35255cf6f91c5eb0141351ecfd4f75d3ac9814092ec"
   }
 }
