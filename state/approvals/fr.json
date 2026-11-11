@@ -430,6 +430,19 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:37:31Z",
-    "enFp": "1fd9b42bd5c58ce88256f8856923611790f90a84d1d4e697c0d8ea19b041d72d"
+    "enFp": "1fd9b42bd5c58ce88256f8856923611790f90a84d1d4e697c0d8ea19b041d72d",
+    "stale": false
+  },
+  "welcome.about.whatYoullExplore.heading": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:37:37Z",
+    "enFp": "37ce623a7b97eafc49f625cb921dc251f648ce4a18a5e2ec271a3db9763604c9"
+  },
+  "welcome.about.courseSubtitle": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:37:37Z",
+    "enFp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 }
