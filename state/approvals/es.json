@@ -2166,12 +2166,7 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:15:59Z",
-    "enFp": "e71ff7420ac50771652ec69bb045a7b141a7221cffb80de9d847b744e3d5b373"
-  },
-  "m1.forms.cards.c2.front2": {
-    "approved": true,
-    "by": "Carmen Ruano",
-    "at": "2026-11-11T11:15:59Z",
-    "enFp": "bb43f71076e9515b9ded0864282f04b3485441627e837b6167a3d900509769e2"
+    "enFp": "e71ff7420ac50771652ec69bb045a7b141a7221cffb80de9d847b744e3d5b373",
+    "stale": false
   }
 }
