@@ -4742,12 +4742,32 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:46:58Z",
-    "enFp": "81c9ded8e902b9843872eb402ecbf92a2a87e4dcc106b9113ee2a5fd5ad5c4e6"
+    "enFp": "81c9ded8e902b9843872eb402ecbf92a2a87e4dcc106b9113ee2a5fd5ad5c4e6",
+    "stale": false
   },
   "m1.check.questions.q4.choices.a": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:46:58Z",
-    "enFp": "b328fe8c3882eb18f830ef5997836c28a7a3a4ccd2ee50ba069dacbfa2e6f8e4"
+    "enFp": "b328fe8c3882eb18f830ef5997836c28a7a3a4ccd2ee50ba069dacbfa2e6f8e4",
+    "stale": false
+  },
+  "m1.check.questions.q4.choices.b": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:47:07Z",
+    "enFp": "4f152c25b83b2e74b6d7c4742a0d189d9d9316d98e5690f9914ab8e0fb966d7c"
+  },
+  "m1.check.questions.q4.choices.c": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:47:07Z",
+    "enFp": "eeb75fad52e0ce2df465deb82704d66bdf7ec3525a155a60e1cad7214db32898"
+  },
+  "m1.check.questions.q4.choices.d": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:47:07Z",
+    "enFp": "3091e4548349c815083633f28668346e592535f4feb48f9ba94c722bce263437"
   }
 }
