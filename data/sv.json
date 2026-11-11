@@ -423,7 +423,7 @@
           "text": "Markera alla som gäller."
         },
         "blankAria": {
-          "text": "Lucka {n}",
+          "text": "Blankt {n}",
           "note": "aria-label; {n} = 1-based index"
         }
       },
