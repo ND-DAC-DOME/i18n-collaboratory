@@ -521,6 +521,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:36:23Z",
-    "enFp": "f4132b562beef3fe18e668405a08cb0b8445544c39e70e401cbbb8e1560bf99b"
+    "enFp": "f4132b562beef3fe18e668405a08cb0b8445544c39e70e401cbbb8e1560bf99b",
+    "stale": false
+  },
+  "summary.quiz.questions.q6.choices.c2": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:36:29Z",
+    "enFp": "0c52306a016a0b36051fb58e42ca83104add62a4a2a9df3b3b40ef56c4c35f9b"
   }
 }
