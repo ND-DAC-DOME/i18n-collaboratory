@@ -2390,6 +2390,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:02:44Z",
-    "enFp": "59f7653328519d7ef2d923e5b64f844a8d0c59b533ec9690207b8310c6447202"
+    "enFp": "59f7653328519d7ef2d923e5b64f844a8d0c59b533ec9690207b8310c6447202",
+    "stale": false
+  },
+  "m5.slide.youArePartOfAWider.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:03:04Z",
+    "enFp": "c3dce9b4cfb5a1a46bbca10eb591c59db91cb8e9d18f267cbb4d56d27ee22a30"
   }
 }
