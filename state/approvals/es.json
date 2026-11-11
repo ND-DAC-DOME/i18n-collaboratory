@@ -1956,6 +1956,43 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:14:09Z",
-    "enFp": "346181d6c9954315e3fcdd7ac2d9a49f47e779e480f4025072f87ab45d688ef3"
+    "enFp": "346181d6c9954315e3fcdd7ac2d9a49f47e779e480f4025072f87ab45d688ef3",
+    "stale": false
+  },
+  "survey.postCourse.iframeTitle": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:14:19Z",
+    "enFp": "fc9fee4bda7b5b8be11dd1fac2702573389045fa028fcbc055c258ddd5ae1098"
+  },
+  "survey.postCourse.continue": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:14:19Z",
+    "enFp": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8"
+  },
+  "survey.preCourse.welcomeContinue": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:14:19Z",
+    "enFp": "1c045d690a18dbf82775cfece26b5adb9840892dd436b3932850ae1a70661c48"
+  },
+  "survey.preCourse.intro": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:14:19Z",
+    "enFp": "8483b9b97d789bd8feaaacb682f7e11d44bb0d7e70f6771a6359487b982cbc78"
+  },
+  "survey.preCourse.iframeTitle": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:14:19Z",
+    "enFp": "b61a9cd3a3e9e9433a3c1d3d22efa84685d6931a411b70c9b8423a12a8b104e9"
+  },
+  "survey.preCourse.continue": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:14:19Z",
+    "enFp": "69ea7dd52ed94bbdde00a81376ec05cdb968650672287d2291c9a708e18ad103"
   }
 }
