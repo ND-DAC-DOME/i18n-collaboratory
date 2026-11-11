@@ -5953,6 +5953,19 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:59:28Z",
-    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0",
+    "stale": false
+  },
+  "m4.slide.responsibilitiesBeyondTheLaw.body": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:59:34Z",
+    "enFp": "f73d5bc42e2a3139877eb57857d688c840d3e9610e60455073292d9d42a59d99"
+  },
+  "m4.slide.responsibilitiesBeyondTheLaw.heading": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:59:34Z",
+    "enFp": "6e6db98bf9b7ccae60f36a7f26f55628ec0fca728c2c090552bf289bb16193d7"
   }
 }
