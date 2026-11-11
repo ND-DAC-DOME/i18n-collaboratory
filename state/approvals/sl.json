@@ -5050,6 +5050,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:20:29Z",
-    "enFp": "9f561d13436c675479b1154bffc6d50fd868e7d09bbd3c2d4cee26e1b754ee5e"
+    "enFp": "9f561d13436c675479b1154bffc6d50fd868e7d09bbd3c2d4cee26e1b754ee5e",
+    "stale": false
+  },
+  "m3.sorting.items.i1": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:20:34Z",
+    "enFp": "9d0f565eba7c53e98e9b65a168c6d5571adbd8f8474c594f5546578968513339"
   }
 }
