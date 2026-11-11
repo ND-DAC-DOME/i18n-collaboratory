@@ -1095,6 +1095,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:55:13Z",
-    "enFp": "c85f32e9c0e26f8f7710251ed4d53531a23c2394b21ca672f907a72da2623cc2"
+    "enFp": "c85f32e9c0e26f8f7710251ed4d53531a23c2394b21ca672f907a72da2623cc2",
+    "stale": false
+  },
+  "m4.limits.items.i4.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:56:33Z",
+    "enFp": "eb4e7fce632b27a5fc7308a4d904a3fe09796fb3cb668e2924d58a2d8d0c7c87"
   }
 }
