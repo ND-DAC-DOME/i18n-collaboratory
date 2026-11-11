@@ -7031,12 +7031,20 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:43:25Z",
-    "enFp": "6b0f72294a41e2afa8d1f9278984b385acde1fdbc149eb7845a799ba0cbb00b4"
+    "enFp": "6b0f72294a41e2afa8d1f9278984b385acde1fdbc149eb7845a799ba0cbb00b4",
+    "stale": false
   },
   "m4.lawTabs.tabs.t2.title": {
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:43:25Z",
-    "enFp": "4574818641dfd061b479f76b3fe954ed4ca569720f7603fe541c95b383fe38ee"
+    "enFp": "4574818641dfd061b479f76b3fe954ed4ca569720f7603fe541c95b383fe38ee",
+    "stale": false
+  },
+  "m4.lawTabs.tabs.t2.imageAlt": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:43:31Z",
+    "enFp": "68e32397b477e5f0b310276b8034b8ac5a23d1f1794981eb7462ea52950b53a3"
   }
 }
