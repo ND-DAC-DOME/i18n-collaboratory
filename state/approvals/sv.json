@@ -5197,6 +5197,13 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:56:25Z",
-    "enFp": "5001be7e8b7a5516c78f468bef5c57f8b92cf7def5b2f2febecc27fd51a28322"
+    "enFp": "5001be7e8b7a5516c78f468bef5c57f8b92cf7def5b2f2febecc27fd51a28322",
+    "stale": false
+  },
+  "m2.check.questions.q4.prompt": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:57:12Z",
+    "enFp": "8faccfd0fb49e5ed6176b64387cd71a7120215d4955e7314da13717b14facb67"
   }
 }
