@@ -4280,6 +4280,19 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-10T19:31:35Z",
-    "enFp": "05fe2bba783a050d82992c0c9be216678ea30cb0a06f1abe55cabce0e2e5a9f1"
+    "enFp": "05fe2bba783a050d82992c0c9be216678ea30cb0a06f1abe55cabce0e2e5a9f1",
+    "stale": false
+  },
+  "m1.forms.cards.c1.body": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:36:45Z",
+    "enFp": "8c3ac8a2abb7e48df5417e051b45d94d9328acda6398405104ef458ecbdbacaa"
+  },
+  "m1.forms.cards.c1.front1": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:36:45Z",
+    "enFp": "49ed2d6d182e8a084e0c12b51ceadc5c15b2c44c466fcfe5af77721269c90a92"
   }
 }
