@@ -388,6 +388,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:35:24Z",
-    "enFp": "f968b77b83514732439fa3cc27878d19e47ebc6d050f4e78a1be2bf7a99e0845"
+    "enFp": "f968b77b83514732439fa3cc27878d19e47ebc6d050f4e78a1be2bf7a99e0845",
+    "stale": false
+  },
+  "welcome.about.aboutTheCourse.heading": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:35:40Z",
+    "enFp": "f13cd7251ee736f4b04fceabc81bf0df0d026b7ee3d288c87e035a12d1725dd4"
   }
 }
