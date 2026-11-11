@@ -4791,6 +4791,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:28:55Z",
-    "enFp": "153ed003113b183dd5d0d115dcdfe00c2e557d10cd111cda452a9c107a0f6d10"
+    "enFp": "153ed003113b183dd5d0d115dcdfe00c2e557d10cd111cda452a9c107a0f6d10",
+    "stale": false
+  },
+  "summary.quiz.questions.q4.choices.c2": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:29:14Z",
+    "enFp": "ba39b21cf43d6d61126cd2479a65f06da89fa2688b19655895a64be52528cb23"
   }
 }
