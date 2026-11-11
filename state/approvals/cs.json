@@ -1823,12 +1823,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:17:58Z",
-    "enFp": "8893a44ecdec2fc47915ec860a66d1e2eb97493a187a3ceb0c87c31a846195cb"
+    "enFp": "8893a44ecdec2fc47915ec860a66d1e2eb97493a187a3ceb0c87c31a846195cb",
+    "stale": false
   },
   "m5.layers.tracks.t2.labels.l3": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:17:58Z",
-    "enFp": "6665b5365e6b9189979a9f26e511e10684c9dcd4a6596654a882db58b410bdf8"
+    "enFp": "6665b5365e6b9189979a9f26e511e10684c9dcd4a6596654a882db58b410bdf8",
+    "stale": false
+  },
+  "m5.layers.tracks.t2.intro": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:18:02Z",
+    "enFp": "b933e40b645ef4cca9bcba152f28cef3132d5e387d29471eceec49c91bddf277"
   }
 }
