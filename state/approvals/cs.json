@@ -1046,12 +1046,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:54:55Z",
-    "enFp": "1efb8f74f18702ffe09b1b4e56508246365ea918e1474363d542171e459867a1"
+    "enFp": "1efb8f74f18702ffe09b1b4e56508246365ea918e1474363d542171e459867a1",
+    "stale": false
   },
   "m4.lawTabs.tabs.t3.pathway": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:54:55Z",
-    "enFp": "3a9dca3cbc008d315e8d90909d1164223f280ad26a182afe566ed18d17168068"
+    "enFp": "3a9dca3cbc008d315e8d90909d1164223f280ad26a182afe566ed18d17168068",
+    "stale": false
+  },
+  "m4.lawTabs.tabs.t3.example": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:54:58Z",
+    "enFp": "18422a24942fd4d78d6489758b2d74a1e5f8fbacf7d1ec4f6be324e1723bdc31"
   }
 }
