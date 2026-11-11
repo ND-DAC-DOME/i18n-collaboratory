@@ -2593,6 +2593,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:11:22Z",
-    "enFp": "b5e5b05afe84613b95f3a30dc3aa424512d85d5f22f7df7623a1c7a0ec495400"
+    "enFp": "b5e5b05afe84613b95f3a30dc3aa424512d85d5f22f7df7623a1c7a0ec495400",
+    "stale": false
+  },
+  "m4.duties.orgs.i1.verb": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:11:25Z",
+    "enFp": "73a5f5b59101cf3d49582418ad82779698e2cb27781172f99cc3750011089d41"
   }
 }
