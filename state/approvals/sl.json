@@ -6716,6 +6716,19 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T14:04:55Z",
-    "enFp": "bfd043cee2bea2e92f3a8849c17928a293e0261e1551db8ff41284048d4f1617"
+    "enFp": "bfd043cee2bea2e92f3a8849c17928a293e0261e1551db8ff41284048d4f1617",
+    "stale": false
+  },
+  "m5.flow2.steps.s1.body": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T14:05:01Z",
+    "enFp": "33a9c2dd9d5d937cfac5fc5d4396b6e71ac635f0dc608765b0e45d2ccb9c4f6c"
+  },
+  "m5.flow2.steps.s2.title": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T14:05:01Z",
+    "enFp": "806c20d1d5656602d83acba61b41b5aa42b5301242464d94dc6fefc347a24182"
   }
 }
