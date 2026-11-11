@@ -5883,30 +5883,53 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:41:35Z",
-    "enFp": "fd1e61d37a805aecddbbe8110abdbad355b3c54f92b920c09eecf44033a28259"
+    "enFp": "fd1e61d37a805aecddbbe8110abdbad355b3c54f92b920c09eecf44033a28259",
+    "stale": false
   },
   "m3.regionTabs.ui.placeholder": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:41:35Z",
-    "enFp": "a260b617957ce2a7d6a2fccfdb0703ee9b80a681e128d22b4e1182d238db4e89"
+    "enFp": "a260b617957ce2a7d6a2fccfdb0703ee9b80a681e128d22b4e1182d238db4e89",
+    "stale": false
   },
   "m3.regionTabs.ui.regionsAria": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:41:35Z",
-    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004"
+    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004",
+    "stale": false
   },
   "m3.regionTabs.ui.close": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:41:35Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   },
   "m3.regionTabs.ui.closeAria": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:41:35Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
+  },
+  "m3.regionTabs.ui.subCountriesAria": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:42:05Z",
+    "enFp": "034b634c4eaf9ea913406ec4ed99e1a010e791c728b47920a4c285d0f8189ef5"
+  },
+  "m3.regionTabs.ui.overview": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:42:05Z",
+    "enFp": "d4b1ea5708dd532930a85188b45aff6f0a3ed458500c7577e0127a538eb0d100"
+  },
+  "m3.regionTabs.tabs.t1.title": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:42:05Z",
+    "enFp": "7fe24f2b7ba5e4553152d419a942666808849d1da2d54eea7c3e361436b61ab4"
   }
 }
