@@ -346,6 +346,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:31:19Z",
-    "enFp": "daf0d4b4a8d6779cad91236634caa60d3c224b3b43ae50d55fdf9a75874b6970"
+    "enFp": "daf0d4b4a8d6779cad91236634caa60d3c224b3b43ae50d55fdf9a75874b6970",
+    "stale": false
+  },
+  "welcome.slide.euDisclaimer.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:33:13Z",
+    "enFp": "63d608e04388aac7e3be1ff8e66274a04808d5a7d7de8ee7d1484993a5d3cfdd"
   }
 }
