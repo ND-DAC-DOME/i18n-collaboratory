@@ -402,6 +402,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:36:27Z",
-    "enFp": "9d41554bf0692013ffa80d04e31864c458d75115f03f42f3a526a283b479c297"
+    "enFp": "9d41554bf0692013ffa80d04e31864c458d75115f03f42f3a526a283b479c297",
+    "stale": false
+  },
+  "welcome.about.readyToBegin.heading": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:36:41Z",
+    "enFp": "d43048bd71adbacc563f836286cb2e15f315b4ee324f37673a41abf8c4be6324"
   }
 }
