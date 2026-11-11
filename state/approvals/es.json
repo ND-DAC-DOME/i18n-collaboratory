@@ -2635,36 +2635,48 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:19:41Z",
-    "enFp": "a1d5dbbce28ee5d9c365460b5cf6cf5bffe14d7a398f4de0992b8fa46d2a72a2"
+    "enFp": "a1d5dbbce28ee5d9c365460b5cf6cf5bffe14d7a398f4de0992b8fa46d2a72a2",
+    "stale": false
   },
   "m1.check.questions.q3.choices.disability": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:19:41Z",
-    "enFp": "6db0f2662a542d5dcf5625964fa52acca88452c46773430cf6734343cf056ef6"
+    "enFp": "6db0f2662a542d5dcf5625964fa52acca88452c46773430cf6734343cf056ef6",
+    "stale": false
   },
   "m1.check.questions.q3.choices.position": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:19:41Z",
-    "enFp": "2e945403777698db72275b0f8ee3f9459ab5f463536509f9bd49f645ee564a14"
+    "enFp": "2e945403777698db72275b0f8ee3f9459ab5f463536509f9bd49f645ee564a14",
+    "stale": false
   },
   "m1.check.questions.q3.choices.ethnicity": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:19:41Z",
-    "enFp": "2a0bdd7ccfd0aa7ff3c5641d728368ddcce614efeae9676eac6a480ed2e73c89"
+    "enFp": "2a0bdd7ccfd0aa7ff3c5641d728368ddcce614efeae9676eac6a480ed2e73c89",
+    "stale": false
   },
   "m1.check.questions.q4.label": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:19:41Z",
-    "enFp": "7f41f0db940976c6a8b4efcff4deb0249c3686e1b1cbfc3debf17c301e2812f0"
+    "enFp": "7f41f0db940976c6a8b4efcff4deb0249c3686e1b1cbfc3debf17c301e2812f0",
+    "stale": false
   },
   "m1.check.questions.q4.prompt": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:19:41Z",
-    "enFp": "81c9ded8e902b9843872eb402ecbf92a2a87e4dcc106b9113ee2a5fd5ad5c4e6"
+    "enFp": "81c9ded8e902b9843872eb402ecbf92a2a87e4dcc106b9113ee2a5fd5ad5c4e6",
+    "stale": false
+  },
+  "m1.check.questions.q4.choices.a": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:19:44Z",
+    "enFp": "b328fe8c3882eb18f830ef5997836c28a7a3a4ccd2ee50ba069dacbfa2e6f8e4"
   }
 }
