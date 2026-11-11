@@ -3426,24 +3426,34 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:24:11Z",
-    "enFp": "83e6fbaec303ef43ece17eaaf082334cf4ec5b3a09b63c88effdea606a5cfa5b"
+    "enFp": "83e6fbaec303ef43ece17eaaf082334cf4ec5b3a09b63c88effdea606a5cfa5b",
+    "stale": false
   },
   "player.systemLabels.completion.score": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:24:11Z",
-    "enFp": "38e5a46cbc5ad32842ac60a4f1425ac9b31c06bac685f446a06ab72b87de31ed"
+    "enFp": "38e5a46cbc5ad32842ac60a4f1425ac9b31c06bac685f446a06ab72b87de31ed",
+    "stale": false
   },
   "player.systemLabels.completion.scorm_version": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:24:11Z",
-    "enFp": "dcbc2c7989a07361976dd6d281cab6c0b3f27d770f1a8ff362f14c27af3524df"
+    "enFp": "dcbc2c7989a07361976dd6d281cab6c0b3f27d770f1a8ff362f14c27af3524df",
+    "stale": false
   },
   "player.systemLabels.completion.status": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:24:11Z",
-    "enFp": "920e413c7d411b61ef3e8c63b1cb6ad058d5f95f8b481dbafe60248387d8c355"
+    "enFp": "920e413c7d411b61ef3e8c63b1cb6ad058d5f95f8b481dbafe60248387d8c355",
+    "stale": false
+  },
+  "player.systemLabels.completion.your_score": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:24:14Z",
+    "enFp": "11f4ab01636c1215b773af8d1bb5cb0bb63a7ac65d53941d831692393771f70b"
   }
 }
