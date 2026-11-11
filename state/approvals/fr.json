@@ -1725,42 +1725,67 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:06Z",
-    "enFp": "4e80dbeacae4812287f8e0789d5051c33241f082957c44c40130473b393b735b"
+    "enFp": "4e80dbeacae4812287f8e0789d5051c33241f082957c44c40130473b393b735b",
+    "stale": false
   },
   "m2.exploreImpacts.ui.ok": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:06Z",
-    "enFp": "e58df5d2fd9434978cff8dca8d8cc8e3cf2f2ba0cd85d0af803588d9d3c04693"
+    "enFp": "e58df5d2fd9434978cff8dca8d8cc8e3cf2f2ba0cd85d0af803588d9d3c04693",
+    "stale": false
   },
   "m2.exploreImpacts.ui.bad": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:06Z",
-    "enFp": "163e203694ed9859b4e41a0ea8875a775d06eb2ebeed1255629f3f93543b6074"
+    "enFp": "163e203694ed9859b4e41a0ea8875a775d06eb2ebeed1255629f3f93543b6074",
+    "stale": false
   },
   "m2.exploreImpacts.labels.c0": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:06Z",
-    "enFp": "8bcd965bb580ccbfbc14bf0ac179c991d972b23753ade7c9b9d67392b17cf1f2"
+    "enFp": "8bcd965bb580ccbfbc14bf0ac179c991d972b23753ade7c9b9d67392b17cf1f2",
+    "stale": false
   },
   "m2.exploreImpacts.labels.c1": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:06Z",
-    "enFp": "bf9379b27efca09b68b36cad55eb8a1b11287447b77d989a452c1a5f75a02fd2"
+    "enFp": "bf9379b27efca09b68b36cad55eb8a1b11287447b77d989a452c1a5f75a02fd2",
+    "stale": false
   },
   "m2.exploreImpacts.labels.c2": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:06Z",
-    "enFp": "13b24fa88eb877e7af5bfde9530f2448f5d5483a58866291cb549277b6aff23c"
+    "enFp": "13b24fa88eb877e7af5bfde9530f2448f5d5483a58866291cb549277b6aff23c",
+    "stale": false
   },
   "m2.exploreImpacts.labels.c3": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:06Z",
-    "enFp": "0a61e3c250fc0769f4b68ace22ac881ab04883c016cde2506ba4c2b1188f27b1"
+    "enFp": "0a61e3c250fc0769f4b68ace22ac881ab04883c016cde2506ba4c2b1188f27b1",
+    "stale": false
+  },
+  "m2.exploreImpacts.labels.c4": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:29:12Z",
+    "enFp": "295b36477968e13f4b7832ef5e8606d58d901ad2efb6b2e6af1d41eb1b849175"
+  },
+  "m2.exploreImpacts.labels.c5": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:29:12Z",
+    "enFp": "e67f858b00976191a3b871c395293f92e7e74775e92b66325fb1c80a973e4135"
+  },
+  "m2.impacts.ui.pathwayAria": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:29:12Z",
+    "enFp": "5a9cf33f57f00a6520968dbd16f68c3f3a2d9e20a357fc147e100cf92fe3057b"
   }
 }
