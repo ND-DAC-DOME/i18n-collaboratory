@@ -4196,72 +4196,96 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "853637136575897a73cba3c5fb085e8c8a2627df22983d2bbe9ff158d11351b4"
+    "enFp": "853637136575897a73cba3c5fb085e8c8a2627df22983d2bbe9ff158d11351b4",
+    "stale": false
   },
   "m3.regionTabs.tabs.t1.subs.slovenia.html": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "965831ee609d0200d0037eee911dd1dae7645eace8c0b2c7d2bedfc6fb70e01b"
+    "enFp": "965831ee609d0200d0037eee911dd1dae7645eace8c0b2c7d2bedfc6fb70e01b",
+    "stale": false
   },
   "m3.regionTabs.tabs.t1.subs.slovenia.title": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "56059e7fb4e9ddfa1470a50a43ac2f05509cb802757e68d35d9033232b097e58"
+    "enFp": "56059e7fb4e9ddfa1470a50a43ac2f05509cb802757e68d35d9033232b097e58",
+    "stale": false
   },
   "m3.regionTabs.tabs.t1.html": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "13b11a7d2d987adb9b3e9cd4dff628e4886cd285031bb957f384e0897c1129e4"
+    "enFp": "13b11a7d2d987adb9b3e9cd4dff628e4886cd285031bb957f384e0897c1129e4",
+    "stale": false
   },
   "m3.regionTabs.tabs.t1.title": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "7fe24f2b7ba5e4553152d419a942666808849d1da2d54eea7c3e361436b61ab4"
+    "enFp": "7fe24f2b7ba5e4553152d419a942666808849d1da2d54eea7c3e361436b61ab4",
+    "stale": false
   },
   "m3.regionTabs.ui.subCountriesAria": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "034b634c4eaf9ea913406ec4ed99e1a010e791c728b47920a4c285d0f8189ef5"
+    "enFp": "034b634c4eaf9ea913406ec4ed99e1a010e791c728b47920a4c285d0f8189ef5",
+    "stale": false
   },
   "m3.regionTabs.ui.closeAria": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   },
   "m3.regionTabs.ui.overview": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "d4b1ea5708dd532930a85188b45aff6f0a3ed458500c7577e0127a538eb0d100"
+    "enFp": "d4b1ea5708dd532930a85188b45aff6f0a3ed458500c7577e0127a538eb0d100",
+    "stale": false
   },
   "m3.regionTabs.ui.prompt": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "fd1e61d37a805aecddbbe8110abdbad355b3c54f92b920c09eecf44033a28259"
+    "enFp": "fd1e61d37a805aecddbbe8110abdbad355b3c54f92b920c09eecf44033a28259",
+    "stale": false
   },
   "m3.regionTabs.ui.placeholder": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "a260b617957ce2a7d6a2fccfdb0703ee9b80a681e128d22b4e1182d238db4e89"
+    "enFp": "a260b617957ce2a7d6a2fccfdb0703ee9b80a681e128d22b4e1182d238db4e89",
+    "stale": false
   },
   "m3.regionTabs.ui.close": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+    "stale": false
   },
   "m3.regionTabs.ui.regionsAria": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T12:31:52Z",
-    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004"
+    "enFp": "610c65d84510bef5d54a2dbbb0db7272ecde19fb7ee52307ec6a6d6094695004",
+    "stale": false
+  },
+  "m3.regionTabs.tabs.t1.subs.sweden.html": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T12:31:57Z",
+    "enFp": "2eb9a35c4b7e10ca5cff953ac202b1888886bbb5e1f900871c9c29995a3f439b"
+  },
+  "m3.regionTabs.tabs.t1.subs.czechia.title": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T12:31:57Z",
+    "enFp": "ecfa967e901a86b132554041d686ac4273fc4c194d16eeeac1fe7244f8002973"
   }
 }
