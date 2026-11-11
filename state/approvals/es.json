@@ -276,6 +276,13 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:53:54Z",
-    "enFp": "65b58c082adac9399f97643b43ff463dba712e0e8a1fe1c8f6324f4496519881"
+    "enFp": "65b58c082adac9399f97643b43ff463dba712e0e8a1fe1c8f6324f4496519881",
+    "stale": false
+  },
+  "welcome.partners.heading": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:54:56Z",
+    "enFp": "e421ad16deb67aaff24966953c47b238bc4042f1f0f64dc0856a2cc5b397e0e3"
   }
 }
