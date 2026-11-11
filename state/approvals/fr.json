@@ -5519,12 +5519,20 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:01:53Z",
-    "enFp": "2d6a7ce5ccde24e27814364f54963ec0b0d006c9259e9cd980c9f1cdb6ca4416"
+    "enFp": "2d6a7ce5ccde24e27814364f54963ec0b0d006c9259e9cd980c9f1cdb6ca4416",
+    "stale": false
   },
   "embeds.disclaimerModal.logoAria": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T16:01:53Z",
-    "enFp": "4ce3c2d66d5e5e9f6bcdb2ec8e7c3080a7e9db49af1624005a8d89a2ca703ac0"
+    "enFp": "4ce3c2d66d5e5e9f6bcdb2ec8e7c3080a7e9db49af1624005a8d89a2ca703ac0",
+    "stale": false
+  },
+  "embeds.disclaimerModal.fia": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T16:02:14Z",
+    "enFp": "8cdce997a152baec51fa9514b9bec0dfb1f2baa45b635b8e0845f785c0a71f97"
   }
 }
