@@ -227,6 +227,19 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:26:10Z",
-    "enFp": "9dc40a69b0e1e03bb862cd22d9b8235b11bc088bd5fa210e507159887936dbf7"
+    "enFp": "9dc40a69b0e1e03bb862cd22d9b8235b11bc088bd5fa210e507159887936dbf7",
+    "stale": false
+  },
+  "course.outline.slides.welcome": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:26:25Z",
+    "enFp": "0e2226b5235f0ff94a276eb4d07a3bfea74b7e3b8b85e9efca6c18430f041bf8"
+  },
+  "course.outline.slides.exitPage": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:26:25Z",
+    "enFp": "8c5a1314cafebb0a2250f1cf12b02be358a3a663173c924a314da39520e0ef69"
   }
 }
