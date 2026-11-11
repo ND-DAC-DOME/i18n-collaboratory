@@ -3734,30 +3734,41 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:29:14Z",
-    "enFp": "6f1ee25541bd09547bab04c4b4d7821023b204fc4bea7c1c7b7070e68710582a"
+    "enFp": "6f1ee25541bd09547bab04c4b4d7821023b204fc4bea7c1c7b7070e68710582a",
+    "stale": false
   },
   "m4.duties.everyone.i4.verb": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:29:14Z",
-    "enFp": "be91940b79f469101df9a50544b6873aa5509a12f1f93f1cb5e3be3990d344b3"
+    "enFp": "be91940b79f469101df9a50544b6873aa5509a12f1f93f1cb5e3be3990d344b3",
+    "stale": false
   },
   "m4.duties.everyone.i4.rest": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:29:14Z",
-    "enFp": "b0a5ad120fe43abbd6c2a9462a45cef59ae24d1e662ed2624e10dcb2b179ea71"
+    "enFp": "b0a5ad120fe43abbd6c2a9462a45cef59ae24d1e662ed2624e10dcb2b179ea71",
+    "stale": false
   },
   "m4.duties.everyone.i5.verb": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:29:14Z",
-    "enFp": "38a1d509ec3c6a233519b36d00c331efaf516045f5cc97aafad1cc2e576475f7"
+    "enFp": "38a1d509ec3c6a233519b36d00c331efaf516045f5cc97aafad1cc2e576475f7",
+    "stale": false
   },
   "m4.duties.everyone.i5.rest": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:29:14Z",
-    "enFp": "6c11daa0b8b439bf14c13c175e331e03f8e458a886f43d1819af0c666f0990d3"
+    "enFp": "6c11daa0b8b439bf14c13c175e331e03f8e458a886f43d1819af0c666f0990d3",
+    "stale": false
+  },
+  "m4.duties.orgs.i2.rest": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:29:21Z",
+    "enFp": "58080b1582e4d12810afd7a2414c9658b2eaff2f92ff4dedb9639a2cd3dcdf84"
   }
 }
