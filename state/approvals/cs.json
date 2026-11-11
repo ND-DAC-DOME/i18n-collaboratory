@@ -4490,6 +4490,31 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:22:43Z",
-    "enFp": "4cd8008981426c979728883bac7d11affd4514fa528ce7961ff1bb8742bb37be"
+    "enFp": "4cd8008981426c979728883bac7d11affd4514fa528ce7961ff1bb8742bb37be",
+    "stale": false
+  },
+  "m1.matteo.cards.c2.html": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:22:51Z",
+    "enFp": "2cffb81f29d3b48e14b87e56313eb64572d9f04acd85a30e31b719a6b7523ba6"
+  },
+  "m1.matteo.cards.c3.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:22:51Z",
+    "enFp": "6078759a149182f13521bdd2d7661e66d8c1d56094ac1d1571ad06e1e8dd950c"
+  },
+  "m1.matteo.cards.c3.alt": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:22:51Z",
+    "enFp": "8917a0dc435d785b7ce1f91c38ecc15d97edaa3bdbddb63941b58c981ca8a303"
+  },
+  "m1.matteo.cards.c3.html": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:22:51Z",
+    "enFp": "522688223a0441765503c2704de3e9dece90bc4cfbbac2a528efe66cba30d289"
   }
 }
