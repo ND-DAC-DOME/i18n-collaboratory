@@ -2894,12 +2894,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:17:44Z",
-    "enFp": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c"
+    "enFp": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c",
+    "stale": false
   },
   "player.systemLabels.time_requirements.minutes": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:17:44Z",
-    "enFp": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985"
+    "enFp": "90e63d85fa1ab2c8ed65222f3ebd794b1e524b4b7cf84bec451542d0451b2985",
+    "stale": false
+  },
+  "player.systemLabels.slide_intro.untitled_lesson": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:17:49Z",
+    "enFp": "a468e313c7985a973a1b1f8d7f903b8bb628ef868931e7e6711925db2224f60c"
   }
 }
