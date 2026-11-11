@@ -4798,6 +4798,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:14:59Z",
-    "enFp": "8ef41e6f4b07432a0cb4eb7a8774e7a3878fd3e385f49aa09b406768467db228"
+    "enFp": "8ef41e6f4b07432a0cb4eb7a8774e7a3878fd3e385f49aa09b406768467db228",
+    "stale": false
+  },
+  "m3.regionTabs.tabs.t1.subs.czechia.html": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:15:05Z",
+    "enFp": "dabc1b8c875050d9ff29caf7a3c3f426473d8863d129d3c15f8f266ed3ecd8e3"
   }
 }
