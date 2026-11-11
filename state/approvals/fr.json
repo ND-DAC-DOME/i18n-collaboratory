@@ -290,6 +290,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:30:16Z",
-    "enFp": "ede43c8fea3ad387b4147525161d2a68a531a1c5e54e6ff5c6ba0142d01cfb5f"
+    "enFp": "ede43c8fea3ad387b4147525161d2a68a531a1c5e54e6ff5c6ba0142d01cfb5f",
+    "stale": false
+  },
+  "welcome.outcomes.listAria": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:30:21Z",
+    "enFp": "80ec3be6cd6c2d698e2af137b3e93fce7f1bfca343382b773ba963c3474fb1e6"
   }
 }
