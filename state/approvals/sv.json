@@ -4861,6 +4861,13 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:48:30Z",
-    "enFp": "522688223a0441765503c2704de3e9dece90bc4cfbbac2a528efe66cba30d289"
+    "enFp": "522688223a0441765503c2704de3e9dece90bc4cfbbac2a528efe66cba30d289",
+    "stale": false
+  },
+  "m1.matteo.cards.c4.alt": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:48:34Z",
+    "enFp": "e76a35b82a3bd29fa91fe7d26ad5ad4ad7bc049994c925460b76dda37238701d"
   }
 }
