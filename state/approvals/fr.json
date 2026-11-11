@@ -780,12 +780,20 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:45:24Z",
-    "enFp": "8808618c422011e0036f030750e0759c7a9f568496c9136308fe4b3a1a3f0667"
+    "enFp": "8808618c422011e0036f030750e0759c7a9f568496c9136308fe4b3a1a3f0667",
+    "stale": false
   },
   "m1.platforms.ui.progress": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:45:24Z",
-    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de"
+    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de",
+    "stale": false
+  },
+  "m1.platforms.groups.g1.title": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:46:29Z",
+    "enFp": "5d1c2dcb14493100e13329c79583d1311545522fda7219401d749b26dd9a6ee5"
   }
 }
