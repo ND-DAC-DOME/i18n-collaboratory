@@ -1676,7 +1676,7 @@
           "note": "aria-label on previous card"
         },
         "nextAria": {
-          "text": "Nästa kort",
+          "text": "Nästa ",
           "note": "aria-label on next card"
         }
       },
