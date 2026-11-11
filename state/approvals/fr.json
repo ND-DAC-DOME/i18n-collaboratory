@@ -1165,6 +1165,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:54:58Z",
-    "enFp": "b328fe8c3882eb18f830ef5997836c28a7a3a4ccd2ee50ba069dacbfa2e6f8e4"
+    "enFp": "b328fe8c3882eb18f830ef5997836c28a7a3a4ccd2ee50ba069dacbfa2e6f8e4",
+    "stale": false
+  },
+  "m1.check.questions.q4.choices.b": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:55:03Z",
+    "enFp": "4f152c25b83b2e74b6d7c4742a0d189d9d9316d98e5690f9914ab8e0fb966d7c"
   }
 }
