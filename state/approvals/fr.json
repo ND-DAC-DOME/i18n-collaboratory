@@ -2544,12 +2544,26 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:34:17Z",
-    "enFp": "c66feb5eb8f217c76bfb0f1b41e3ee73ab41cb9959fae8284911bd3ad3816086"
+    "enFp": "c66feb5eb8f217c76bfb0f1b41e3ee73ab41cb9959fae8284911bd3ad3816086",
+    "stale": false
   },
   "m3.sorting.ui.moveDown": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:34:17Z",
-    "enFp": "40bb50da160cdc21d6029a927b68f92b07fd450688e609826cbc70d202db96da"
+    "enFp": "40bb50da160cdc21d6029a927b68f92b07fd450688e609826cbc70d202db96da",
+    "stale": false
+  },
+  "m3.sorting.ui.ok": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:23Z",
+    "enFp": "7cc9593e674084a608516cc2456947b52c39433cb665473147b9c3fe423b642e"
+  },
+  "m3.sorting.ui.bad": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:34:23Z",
+    "enFp": "9f561d13436c675479b1154bffc6d50fd868e7d09bbd3c2d4cee26e1b754ee5e"
   }
 }
