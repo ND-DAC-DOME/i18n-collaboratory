@@ -1565,7 +1565,7 @@
       },
       "humanJudgementRemainsEssentialLanguageContext": {
         "body": {
-          "text": "<p><span style=\"color: #091324\"><strong>Človeška presoja ostaja bistvena.</strong> Sistemi UI lahko težko natančno razberejo jezik, kontekst, kulturne razlike in spreminjajoče se taktike zlorabe. Človeški nadzor je zato pomemben pri oceni škodljive vsebine in odločitvi, kako se odzvati. Z širšo uporabo UI se razvija tudi regulacija, da naslovi nova tveganja in vzpostavi varovala v različnih jurisdikcijah.</span></p>",
+          "text": "<p><span style=\"color: #091324\"><strong>Človeška presoja ostaja bistvena.</strong> Sistemi UI lahko težko natančno razberejo jezik, kontekst, kulturne razlike in spreminjajoče se taktike zlorabe. Človeški nadzor je zato pomemben pri oceni škodljive vsebine in odločitvi, kako se odzvati. S širšo uporabo UI se razvija tudi regulacija, da naslovi nova tveganja in vzpostavi varovala v različnih jurisdikcijah.</span></p>",
           "note": "Native text body on How Online Harm Spreads"
         }
       },
