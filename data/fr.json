@@ -3251,7 +3251,7 @@
         "note": "Bottom-left floater pill → support options dialog"
       },
       "regionAria": {
-        "text": "Assistance du cours",
+        "text": "Assistance de la formation",
         "note": "aria-label on floater stack"
       }
     },
