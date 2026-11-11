@@ -6072,6 +6072,13 @@
     "approved": true,
     "by": "Mikael Norén",
     "at": "2026-11-11T09:28:24Z",
-    "enFp": "b897a28ca51fab8325d9afba6017aca8450e30ef599a3562682e5de2bf2a1fbd"
+    "enFp": "b897a28ca51fab8325d9afba6017aca8450e30ef599a3562682e5de2bf2a1fbd",
+    "stale": false
+  },
+  "m4.takeaways.items.i5": {
+    "approved": true,
+    "by": "Mikael Norén",
+    "at": "2026-11-11T09:28:37Z",
+    "enFp": "9b8bc76f3ea1e109cb56f4a683c017f664812701649e911bd5446ef714d2ab38"
   }
 }
