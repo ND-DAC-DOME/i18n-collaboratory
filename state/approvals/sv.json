@@ -5939,6 +5939,31 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:42:11Z",
-    "enFp": "13b11a7d2d987adb9b3e9cd4dff628e4886cd285031bb957f384e0897c1129e4"
+    "enFp": "13b11a7d2d987adb9b3e9cd4dff628e4886cd285031bb957f384e0897c1129e4",
+    "stale": false
+  },
+  "m3.regionTabs.tabs.t1.subs.slovenia.title": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:42:20Z",
+    "enFp": "56059e7fb4e9ddfa1470a50a43ac2f05509cb802757e68d35d9033232b097e58"
+  },
+  "m3.regionTabs.tabs.t1.subs.slovenia.html": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:42:20Z",
+    "enFp": "965831ee609d0200d0037eee911dd1dae7645eace8c0b2c7d2bedfc6fb70e01b"
+  },
+  "m3.regionTabs.tabs.t1.subs.sweden.title": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:42:20Z",
+    "enFp": "853637136575897a73cba3c5fb085e8c8a2627df22983d2bbe9ff158d11351b4"
+  },
+  "m3.regionTabs.tabs.t1.subs.sweden.html": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:42:20Z",
+    "enFp": "2eb9a35c4b7e10ca5cff953ac202b1888886bbb5e1f900871c9c29995a3f439b"
   }
 }
