@@ -4042,6 +4042,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:42:55Z",
-    "enFp": "5d1c2dcb14493100e13329c79583d1311545522fda7219401d749b26dd9a6ee5"
+    "enFp": "5d1c2dcb14493100e13329c79583d1311545522fda7219401d749b26dd9a6ee5",
+    "stale": false
+  },
+  "m1.platforms.groups.g1.platforms": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:42:58Z",
+    "enFp": "a30892198a34e532627d25b0a39fd84b535b1183b95e7fce158c7d5ff23f4b27"
   }
 }
