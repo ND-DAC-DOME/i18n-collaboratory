@@ -5078,6 +5078,25 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:37:03Z",
-    "enFp": "198db9e1e12b1b075739c2377412008de0e8cd6a80cc908f45c39ba944165ac3"
+    "enFp": "198db9e1e12b1b075739c2377412008de0e8cd6a80cc908f45c39ba944165ac3",
+    "stale": false
+  },
+  "m3.sorting.items.i5": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:37:11Z",
+    "enFp": "92ce5adb33046cb36ff2b01c0fef3442165a9bca6d3d6f95a49b15751d7fece0"
+  },
+  "m3.sorting.items.i6": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:37:11Z",
+    "enFp": "b4834b48f06f05fed9a551afa407fac2b3eff7f8ff9fe0a377adf24823a5338e"
+  },
+  "m3.trueFalse.questions.q1.prompt": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:37:11Z",
+    "enFp": "c7f9402f96221e85e7cf790676e15be7207e7f51fbabfd3ec52a2efb99f85e0e"
   }
 }
