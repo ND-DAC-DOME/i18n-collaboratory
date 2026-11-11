@@ -5253,12 +5253,20 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:39:20Z",
-    "enFp": "832e0eb5812f4e9fd6085bc23425691c3984bb53a61201a4540024171cb25826"
+    "enFp": "832e0eb5812f4e9fd6085bc23425691c3984bb53a61201a4540024171cb25826",
+    "stale": false
   },
   "m3.slide.aiAndOnlineHarm.heading": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:39:20Z",
-    "enFp": "bd1e0c2e94d8b5ca24d0f47d5479aaa630251938b6278a5f248f09d54d62ab40"
+    "enFp": "bd1e0c2e94d8b5ca24d0f47d5479aaa630251938b6278a5f248f09d54d62ab40",
+    "stale": false
+  },
+  "m3.slide.exploreReportingSystemsInYourCountry.body": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:39:27Z",
+    "enFp": "765d9a73b2a94ebb6452a9552a71e9915a829974060823efa5d07d09faac604c"
   }
 }
