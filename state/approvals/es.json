@@ -990,36 +990,48 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:59:56Z",
-    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f"
+    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f",
+    "stale": false
   },
   "player.systemLabels.assessment.unlimited_attempts": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:59:56Z",
-    "enFp": "4b8f9da6a17ba3e235c50f96519613c63096c0621266f3189a2ae7d5c886ab91"
+    "enFp": "4b8f9da6a17ba3e235c50f96519613c63096c0621266f3189a2ae7d5c886ab91",
+    "stale": false
   },
   "player.systemLabels.assessment.ungraded_submitted": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:59:56Z",
-    "enFp": "5962e4c3f208707fc6f325c86b23642ca51674b54fe623b8680133714c00ee52"
+    "enFp": "5962e4c3f208707fc6f325c86b23642ca51674b54fe623b8680133714c00ee52",
+    "stale": false
   },
   "player.systemLabels.assessment.view_results": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:59:56Z",
-    "enFp": "f26efd3574998b71c05297305fb371e00bf20b98aa6d3468a944040eeb168f98"
+    "enFp": "f26efd3574998b71c05297305fb371e00bf20b98aa6d3468a944040eeb168f98",
+    "stale": false
   },
   "player.systemLabels.categorization.drop_here": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:59:56Z",
-    "enFp": "4034ec9f457dabd58fa7f3c60a60cfcaf5ee48c98231a4c55b99106739ea118d"
+    "enFp": "4034ec9f457dabd58fa7f3c60a60cfcaf5ee48c98231a4c55b99106739ea118d",
+    "stale": false
   },
   "player.systemLabels.audio.show_transcript": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:59:56Z",
-    "enFp": "1bdd5c6251c9783e6d719ef58f38fd3a59e4434b785744d753cac3c57d7e0f3d"
+    "enFp": "1bdd5c6251c9783e6d719ef58f38fd3a59e4434b785744d753cac3c57d7e0f3d",
+    "stale": false
+  },
+  "player.systemLabels.categorization.item": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:59:59Z",
+    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733"
   }
 }
