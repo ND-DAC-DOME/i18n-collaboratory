@@ -3860,24 +3860,112 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:48:05Z",
-    "enFp": "bf9379b27efca09b68b36cad55eb8a1b11287447b77d989a452c1a5f75a02fd2"
+    "enFp": "bf9379b27efca09b68b36cad55eb8a1b11287447b77d989a452c1a5f75a02fd2",
+    "stale": false
   },
   "m2.exploreImpacts.labels.c2": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:48:05Z",
-    "enFp": "13b24fa88eb877e7af5bfde9530f2448f5d5483a58866291cb549277b6aff23c"
+    "enFp": "13b24fa88eb877e7af5bfde9530f2448f5d5483a58866291cb549277b6aff23c",
+    "stale": false
   },
   "m2.exploreImpacts.labels.c0": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:48:05Z",
-    "enFp": "8bcd965bb580ccbfbc14bf0ac179c991d972b23753ade7c9b9d67392b17cf1f2"
+    "enFp": "8bcd965bb580ccbfbc14bf0ac179c991d972b23753ade7c9b9d67392b17cf1f2",
+    "stale": false
   },
   "m2.exploreImpacts.ui.bad": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:48:05Z",
-    "enFp": "163e203694ed9859b4e41a0ea8875a775d06eb2ebeed1255629f3f93543b6074"
+    "enFp": "163e203694ed9859b4e41a0ea8875a775d06eb2ebeed1255629f3f93543b6074",
+    "stale": false
+  },
+  "m2.check.questions.q3.choices.c0": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "b1fe195090b8044ef5cb93625ccea442921bab913071e8806a5db72661d12fac"
+  },
+  "m2.check.questions.q3.choices.c1": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "d4c00f2b8ececc85aef579b2a3edfe226831a63dca99a119e832b5ef8f49b8bd"
+  },
+  "m2.check.questions.q3.choices.c2": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "5001be7e8b7a5516c78f468bef5c57f8b92cf7def5b2f2febecc27fd51a28322"
+  },
+  "m2.check.questions.q3.prompt": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "3a3ae9d10a93dd0962581451758d915b5573978ffcad16ddb1401b4e7eb6e39e"
+  },
+  "m2.check.questions.q2.choices.c3": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "f177d67e03e794ef2b86efc24eef97b96c3bc99e47e23f61b2243b2473182668"
+  },
+  "m2.check.questions.q2.choices.c2": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "01e5ae3cc7da148e4a0c945f32f3c65eba1ed638b2a43e3610e556031dccd76c"
+  },
+  "m2.check.questions.q2.choices.c1": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "1d82ee83e3eb65df297ad6728f0bf9af3bd8cc25185715a0ad1022f16278c866"
+  },
+  "m2.check.questions.q2.choices.c0": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "b0ab5a4f9aa91aa61ed398e551992a61cf65aeca00566eeb44255caf7b704491"
+  },
+  "m2.check.questions.q2.prompt": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "9dc3c7e41a26c26a064f5ac7fa8700302c366791b6d11dcdfac54f5a1ea13b6f"
+  },
+  "m2.check.questions.q1.choices.c3": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "7f19172296d71e539e931f2a1db991d770d42440900d07f0bb8b746a2fee940a"
+  },
+  "m2.check.questions.q1.choices.c2": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "6b95e310f8e823e61d90080b62fba17d3974f9139c02e537955aa170faf76a5c"
+  },
+  "m2.check.questions.q1.choices.c1": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "b6eb15a7d951fb8dedbdd29e8c5ed9705f9e31dbd7b36d97c83adb7a81e9fb66"
+  },
+  "m2.check.questions.q1.prompt": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "79158a806fb93124ebcee37054e525550f3716ce4d74c3851c61a70ce3676b25"
+  },
+  "m2.check.questions.q1.choices.c0": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:48:24Z",
+    "enFp": "f17df01df0e16a1792f3b0c90cab0dbdc5b351fcb16c2e049ebb185dc5383cba"
   }
 }
