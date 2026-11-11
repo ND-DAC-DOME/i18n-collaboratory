@@ -6618,12 +6618,20 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:28:05Z",
-    "enFp": "0a1c45baa4e5b43559e9bb6c113ada2a9220277e3dd9a459f16ad7979ab211d2"
+    "enFp": "0a1c45baa4e5b43559e9bb6c113ada2a9220277e3dd9a459f16ad7979ab211d2",
+    "stale": false
   },
   "m3.sorting.items.i3": {
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:28:05Z",
-    "enFp": "46d54474a0adf6e41779d971b6f59a48fe56101c0fd981069023328ad859062d"
+    "enFp": "46d54474a0adf6e41779d971b6f59a48fe56101c0fd981069023328ad859062d",
+    "stale": false
+  },
+  "m3.sorting.items.i4": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:28:09Z",
+    "enFp": "198db9e1e12b1b075739c2377412008de0e8cd6a80cc908f45c39ba944165ac3"
   }
 }
