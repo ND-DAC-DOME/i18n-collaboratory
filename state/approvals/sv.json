@@ -6569,6 +6569,25 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:27:23Z",
-    "enFp": "8b3d7ef4a99475442b8265626fdcf2442a239b0a88f56d960a596f66bcf00834"
+    "enFp": "8b3d7ef4a99475442b8265626fdcf2442a239b0a88f56d960a596f66bcf00834",
+    "stale": false
+  },
+  "m3.sorting.ui.hint": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:27:49Z",
+    "enFp": "bc08a04fe8f20dceaffb337c905aefe96deb0f8362a1c6d0cc277c8aee8501f6"
+  },
+  "m3.sorting.ui.moveUp": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:27:49Z",
+    "enFp": "c66feb5eb8f217c76bfb0f1b41e3ee73ab41cb9959fae8284911bd3ad3816086"
+  },
+  "m3.sorting.ui.moveDown": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:27:49Z",
+    "enFp": "40bb50da160cdc21d6029a927b68f92b07fd450688e609826cbc70d202db96da"
   }
 }
