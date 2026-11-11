@@ -577,6 +577,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:38:56Z",
-    "enFp": "20679a2975daee48ff85b3e78465ae8ea61ba316c105a1077cbe2b63ce2fd447"
+    "enFp": "20679a2975daee48ff85b3e78465ae8ea61ba316c105a1077cbe2b63ce2fd447",
+    "stale": false
+  },
+  "summary.quiz.questions.q8.choices.c2": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:39:16Z",
+    "enFp": "892fa20627f3274c6ce78116acba0389429e6a59f4c9fd52774991f153fc2d98"
   }
 }
