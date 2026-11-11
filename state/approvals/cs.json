@@ -1333,6 +1333,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:58:33Z",
-    "enFp": "9c825f601b9c2fafb119300bf87855961d606726c2ead82ee8f8ec0996511cf0"
+    "enFp": "9c825f601b9c2fafb119300bf87855961d606726c2ead82ee8f8ec0996511cf0",
+    "stale": false
+  },
+  "m4.takeaways.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:58:41Z",
+    "enFp": "cc3f7f0f4513969e418b56fb93ec0876fd96dd6498395b04301f70dbddff8a45"
+  },
+  "m4.check.questions.q4.choices.c3": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:58:41Z",
+    "enFp": "259babde3a00468b932c740ce6d1d4b6e517f5130ac4e07d99102bba1854a019"
   }
 }
