@@ -1466,6 +1466,19 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:59:39Z",
-    "enFp": "25266a4c39e8bc5f5747891474075513451b9f1d36853e9bdedfdfbc1d2726aa"
+    "enFp": "25266a4c39e8bc5f5747891474075513451b9f1d36853e9bdedfdfbc1d2726aa",
+    "stale": false
+  },
+  "m1.slide.whenTheBehavioursOverlap.heading": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:59:47Z",
+    "enFp": "13ceb06f047421df148d5de2b8d7db35fe6ce64c866be6cc056299acf1c4549d"
+  },
+  "m1.protectedAria": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:59:47Z",
+    "enFp": "a7a0f2d44be1c9943dff73bc3970bdb438e9c0a43007cc3ff9c5ccc9f22d5a66"
   }
 }
