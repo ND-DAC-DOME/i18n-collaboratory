@@ -5239,12 +5239,26 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:57:56Z",
-    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de"
+    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de",
+    "stale": false
   },
   "m2.affected.cards.c1.name": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T04:57:56Z",
-    "enFp": "39822ba817e81af88dfbc6848df83dffee60baec63f0fd87221f984e171f9b6b"
+    "enFp": "39822ba817e81af88dfbc6848df83dffee60baec63f0fd87221f984e171f9b6b",
+    "stale": false
+  },
+  "m2.affected.cards.c1.body": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:58:10Z",
+    "enFp": "261c1c94ef0cd52a4b6a3dc1c56ae5f93c28159d08a2d045c616bf1faaae0cf2"
+  },
+  "m2.affected.cards.c2.name": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T04:58:10Z",
+    "enFp": "a6299cad2f437e90fe7ad451197e73e479efe918aabcac1759173e64133f8f70"
   }
 }
