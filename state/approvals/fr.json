@@ -1305,18 +1305,27 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:56:34Z",
-    "enFp": "39af4a4d2d1cff39ebb91f96d50f1609ad4ff6a294b816c5662fd5e8fb2c3e5d"
+    "enFp": "39af4a4d2d1cff39ebb91f96d50f1609ad4ff6a294b816c5662fd5e8fb2c3e5d",
+    "stale": false
   },
   "m1.takeaways.items.i2": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:56:34Z",
-    "enFp": "a497e0a3739dfb2ac0c7eb316be0ad4238c18c43c3d16d338fae9b0c041c2df5"
+    "enFp": "a497e0a3739dfb2ac0c7eb316be0ad4238c18c43c3d16d338fae9b0c041c2df5",
+    "stale": false
   },
   "m1.takeaways.items.i3": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:56:34Z",
-    "enFp": "27179b333abdb0f3f42b601d64827d9e51878acb876ccf3482d68b3a73e207a3"
+    "enFp": "27179b333abdb0f3f42b601d64827d9e51878acb876ccf3482d68b3a73e207a3",
+    "stale": false
+  },
+  "m1.takeaways.items.i4": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:56:48Z",
+    "enFp": "2be507436656e8b5eca995b8231876d130760410f519bf8570983489f6b85561"
   }
 }
