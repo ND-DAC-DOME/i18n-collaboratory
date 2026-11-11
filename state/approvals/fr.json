@@ -570,12 +570,20 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:40:53Z",
-    "enFp": "483a4130c92fe57febd4d1739dfc799e3a4ac94f7bbd0cc54e6c506a687c8b86"
+    "enFp": "483a4130c92fe57febd4d1739dfc799e3a4ac94f7bbd0cc54e6c506a687c8b86",
+    "stale": false
   },
   "m1.apply.scenarios.s3.bad": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:40:53Z",
-    "enFp": "573a4163a728e49b53dbfe04171069b7cc5c72b1c3e599fceba224516f7c2c89"
+    "enFp": "573a4163a728e49b53dbfe04171069b7cc5c72b1c3e599fceba224516f7c2c89",
+    "stale": false
+  },
+  "m1.apply.scenarios.s4.text": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:41:04Z",
+    "enFp": "957374e4181432425da7f239f48943140b68e3b79854c01617a013a04ea309c3"
   }
 }
