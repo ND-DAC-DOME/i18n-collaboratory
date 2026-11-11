@@ -3832,6 +3832,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:38:07Z",
-    "enFp": "071f2194201c83e55f84ba6a7061737d80c88119e23874e9a06d3c7557c6ebb9"
+    "enFp": "071f2194201c83e55f84ba6a7061737d80c88119e23874e9a06d3c7557c6ebb9",
+    "stale": false
+  },
+  "m1.forms.ui.progress": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:38:16Z",
+    "enFp": "d51d851005d900717c692148cbcea2759228350324da9554c0fea2c96aa569de"
+  },
+  "m1.apply.scenarios.s4.bad": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:38:16Z",
+    "enFp": "2e04da08212e41ea99b50e536f860d772fc82a3216d79f3c1812dbcd82711869"
   }
 }
