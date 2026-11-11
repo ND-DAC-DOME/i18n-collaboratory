@@ -3286,36 +3286,66 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:28Z",
-    "enFp": "2141a0e25a04924263828140257c44cc760f796956416805b8fcdf6d56c23480"
+    "enFp": "2141a0e25a04924263828140257c44cc760f796956416805b8fcdf6d56c23480",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.points": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:28Z",
-    "enFp": "77deabe238de2f6dddc88c17dbe14221918571838d8fc1228843f9387b0b69f7"
+    "enFp": "77deabe238de2f6dddc88c17dbe14221918571838d8fc1228843f9387b0b69f7",
+    "stale": false
   },
   "player.systemLabels.assessment.success_meter.you_need": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:28Z",
-    "enFp": "cae78796053546d24f0d19fdf6ab09a59bf4f6170c00fd397e331504c806b5f7"
+    "enFp": "cae78796053546d24f0d19fdf6ab09a59bf4f6170c00fd397e331504c806b5f7",
+    "stale": false
   },
   "player.systemLabels.assessment.total_point_possible": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:28Z",
-    "enFp": "ffadc34faea315fca248b9e0657387a65fca0d6832e5925fcfe3f7939ca1caba"
+    "enFp": "ffadc34faea315fca248b9e0657387a65fca0d6832e5925fcfe3f7939ca1caba",
+    "stale": false
   },
   "player.systemLabels.assessment.total_points_possible": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:28Z",
-    "enFp": "a4c08944b936cd1c5151cb1e7c8ad8af3dcec3cd678c3df550234313c0a06461"
+    "enFp": "a4c08944b936cd1c5151cb1e7c8ad8af3dcec3cd678c3df550234313c0a06461",
+    "stale": false
   },
   "player.systemLabels.assessment.try_again": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:21:28Z",
-    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f"
+    "enFp": "d8b8392e2c542950ca64867168e4ef87d4ad606882d5898f826b51c6d553988f",
+    "stale": false
+  },
+  "player.systemLabels.assessment.ungraded_submitted": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:38Z",
+    "enFp": "5962e4c3f208707fc6f325c86b23642ca51674b54fe623b8680133714c00ee52"
+  },
+  "player.systemLabels.assessment.unlimited_attempts": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:38Z",
+    "enFp": "4b8f9da6a17ba3e235c50f96519613c63096c0621266f3189a2ae7d5c886ab91"
+  },
+  "player.systemLabels.assessment.view_results": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:38Z",
+    "enFp": "f26efd3574998b71c05297305fb371e00bf20b98aa6d3468a944040eeb168f98"
+  },
+  "player.systemLabels.audio.show_transcript": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:21:38Z",
+    "enFp": "1bdd5c6251c9783e6d719ef58f38fd3a59e4434b785744d753cac3c57d7e0f3d"
   }
 }
