@@ -1417,6 +1417,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:58:52Z",
-    "enFp": "587a0982afa8ea0469dc41f7e769ae6ee5f2d4a67f9c9208349d17b123750492"
+    "enFp": "587a0982afa8ea0469dc41f7e769ae6ee5f2d4a67f9c9208349d17b123750492",
+    "stale": false
+  },
+  "m1.slide.onlineConversationsArePartOfSport.body": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:59:03Z",
+    "enFp": "b4f986d4a53ecae650de596a733c7b753514647bdeae5918845ad05e69795f30"
   }
 }
