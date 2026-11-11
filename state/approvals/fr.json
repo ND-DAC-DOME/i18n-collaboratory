@@ -2866,24 +2866,82 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:36:02Z",
-    "enFp": "b8b68c4a506b98f75623cb0ec5709109af2b7d76e6b09d7be19291d79bd4237b"
+    "enFp": "b8b68c4a506b98f75623cb0ec5709109af2b7d76e6b09d7be19291d79bd4237b",
+    "stale": false
   },
   "m3.slide.reportingOnlineAbuseOnSocialMedia.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:36:02Z",
-    "enFp": "997b8a239baeb56cf01f3e61d6cf1817b187c67b8c467546b4a0a4a51b2996f4"
+    "enFp": "997b8a239baeb56cf01f3e61d6cf1817b187c67b8c467546b4a0a4a51b2996f4",
+    "stale": false
   },
   "m3.slide.reportingOnlineAbuseOnSocialMedia.heading": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:36:02Z",
-    "enFp": "0550e94a41b3e755586a8bb7883ae347bf076440ee03007353c5af639449a8b6"
+    "enFp": "0550e94a41b3e755586a8bb7883ae347bf076440ee03007353c5af639449a8b6",
+    "stale": false
   },
   "m3.slide.selectARegionToLearnMore.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:36:02Z",
-    "enFp": "857f8607fa808eb2c53d8780992ea3726ff0b9e5ae6feb174982690babba1945"
+    "enFp": "857f8607fa808eb2c53d8780992ea3726ff0b9e5ae6feb174982690babba1945",
+    "stale": false
+  },
+  "m3.slide.selectARegionToLearnMore.heading": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:17Z",
+    "enFp": "f678a6a6d236433ad5935b2aa9ed8dbc8ba1e85197a977a906cffdda3c6ce4b9"
+  },
+  "m3.slide.noteTheseActionsProvidePracticalGuidance.body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:17Z",
+    "enFp": "965e5bf6e734e77108e6fd8b08fc454b0c08613e5c0ae492a3c8af4d3163e3a0"
+  },
+  "m3.risksBenefits.risksHeading": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:17Z",
+    "enFp": "e6fba4e339da3550d80a261c5bc51b12504c3e347b8dc2737670a97c2025659c"
+  },
+  "m3.risksBenefits.benefitsHeading": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:17Z",
+    "enFp": "0f2ae66d356cc4bb7d26b4c70669e23e5d2f5ff54e7adfbd7d819ddd6a78e730"
+  },
+  "m3.risksBenefits.risks.r1": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:17Z",
+    "enFp": "0e17eb6532c5816cde6b65992a413a3a1dc0a8a1cb28c929151fd065a76f253a"
+  },
+  "m3.risksBenefits.risks.r2": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:17Z",
+    "enFp": "50233a96025595d4ded9ed42e118fbd909ad9396470051d2ae07462605843218"
+  },
+  "m3.risksBenefits.risks.r3": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:17Z",
+    "enFp": "d28a7a47fe2c50f9e696447599d214bda1a39d148cfecb62fda8a7871f68465d"
+  },
+  "m3.risksBenefits.benefits.b1": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:17Z",
+    "enFp": "42fa9a618d51c6f441ac1ed0e49069fafe67468d4d899e0af2836f5cb7c4abdb"
+  },
+  "m3.risksBenefits.benefits.b2": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:36:17Z",
+    "enFp": "dbc28323f0f30a1fcdd115e6f3a601a6a1dcaad14d7ddd5ecf91ada6736a94cf"
   }
 }
