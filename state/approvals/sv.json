@@ -6723,6 +6723,13 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:29:15Z",
-    "enFp": "d5ce3f22518dfb9e452a40f83d73fbb801f1a6ec7b65902c9e3ba2ae6e11cb81"
+    "enFp": "d5ce3f22518dfb9e452a40f83d73fbb801f1a6ec7b65902c9e3ba2ae6e11cb81",
+    "stale": false
+  },
+  "m3.takeaways.items.i2": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:29:18Z",
+    "enFp": "d6d65e91544e3eb8c517d4c9f98a7935413a09bbe540bd62a6f77b125bedd2a7"
   }
 }
