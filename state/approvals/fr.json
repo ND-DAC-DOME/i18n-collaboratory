@@ -1823,6 +1823,19 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:29:28Z",
-    "enFp": "c707ee4ecc24044266322a90cf1a23752824f57a628facc169ddbe215ada4adb"
+    "enFp": "c707ee4ecc24044266322a90cf1a23752824f57a628facc169ddbe215ada4adb",
+    "stale": false
+  },
+  "m2.impacts.cards.c1.title": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:29:34Z",
+    "enFp": "8bcd965bb580ccbfbc14bf0ac179c991d972b23753ade7c9b9d67392b17cf1f2"
+  },
+  "m2.impacts.cards.c1.short": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:29:34Z",
+    "enFp": "ae55ea403754bb91e40ed699bacb8564f99748bff0047d969da1c67eeeb4f7e6"
   }
 }
