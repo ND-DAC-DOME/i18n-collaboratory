@@ -433,7 +433,7 @@
             "text": "1. Komplettera meningen: Vad definierar övergrepp online?"
           },
           "prompt": {
-            "text": "Onlineövergrepp innebär skadligt beteende riktat mot en person eller grupp genom __________."
+            "text": "övergrepp online innebär skadligt beteende riktat mot en person eller grupp genom __________."
           },
           "choices": {
             "a": {
