@@ -563,18 +563,33 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:58:16Z",
-    "enFp": "2c564dcbcbde8eda7118f677c0c1d7a2806e305d3c199b01839d6659d18e4ed2"
+    "enFp": "2c564dcbcbde8eda7118f677c0c1d7a2806e305d3c199b01839d6659d18e4ed2",
+    "stale": false
   },
   "player.systemLabels.access.nickname_placeholder": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:58:16Z",
-    "enFp": "6fcb754570dd77d6694dd74b27ddd63829f29cab358c297dea33ce8265170083"
+    "enFp": "6fcb754570dd77d6694dd74b27ddd63829f29cab358c297dea33ce8265170083",
+    "stale": false
   },
   "player.systemLabels.access.password_description": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:58:16Z",
-    "enFp": "8ed8f25d0ec0b36dc680466bcdf74bf2255547b04422520d96d48bf7f270d6a7"
+    "enFp": "8ed8f25d0ec0b36dc680466bcdf74bf2255547b04422520d96d48bf7f270d6a7",
+    "stale": false
+  },
+  "player.systemLabels.access.password_required": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:58:20Z",
+    "enFp": "8cfe20dcdbf5837af3580f4b1d2ee57d07ed301abd8f9b031a990254e8b2e2ad"
+  },
+  "player.systemLabels.access.progress_tracked": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:58:20Z",
+    "enFp": "ba9698867f4a2f330cf2f027dff1642be25b3f32e767ff47225c904afa0c21f3"
   }
 }
