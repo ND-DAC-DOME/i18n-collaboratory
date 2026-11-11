@@ -1613,6 +1613,25 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:06:48Z",
-    "enFp": "8053eb250ccf110b832ff3e617b54ed46ee60872c34d4068f15afd3eaaf2dd4b"
+    "enFp": "8053eb250ccf110b832ff3e617b54ed46ee60872c34d4068f15afd3eaaf2dd4b",
+    "stale": false
+  },
+  "m5.layers.ui.openLayer": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:06:56Z",
+    "enFp": "9b9a8d05a7ec353bda84f9c1bb3178c299de3001b5e970508ddc889c487f92ca"
+  },
+  "m5.layers.ui.exploredReview": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:06:56Z",
+    "enFp": "de54f3893059fade90fa515dffbc5d9a1b100032a0654836e9117f19c9956d0b"
+  },
+  "m5.layers.ui.startExploring": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:06:56Z",
+    "enFp": "ad8ee84c4e962f5f03e6fc444e4d8966f3c4d57d3b73cb39d2ea770734b6c0f2"
   }
 }
