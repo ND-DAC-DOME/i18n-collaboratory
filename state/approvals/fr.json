@@ -1515,12 +1515,20 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:09:03Z",
-    "enFp": "7f19172296d71e539e931f2a1db991d770d42440900d07f0bb8b746a2fee940a"
+    "enFp": "7f19172296d71e539e931f2a1db991d770d42440900d07f0bb8b746a2fee940a",
+    "stale": false
   },
   "m2.check.questions.q2.prompt": {
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T15:09:03Z",
-    "enFp": "9dc3c7e41a26c26a064f5ac7fa8700302c366791b6d11dcdfac54f5a1ea13b6f"
+    "enFp": "9dc3c7e41a26c26a064f5ac7fa8700302c366791b6d11dcdfac54f5a1ea13b6f",
+    "stale": false
+  },
+  "m2.check.questions.q2.choices.c0": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T15:09:10Z",
+    "enFp": "b0ab5a4f9aa91aa61ed398e551992a61cf65aeca00566eeb44255caf7b704491"
   }
 }
