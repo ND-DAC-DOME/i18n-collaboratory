@@ -584,6 +584,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:39:16Z",
-    "enFp": "892fa20627f3274c6ce78116acba0389429e6a59f4c9fd52774991f153fc2d98"
+    "enFp": "892fa20627f3274c6ce78116acba0389429e6a59f4c9fd52774991f153fc2d98",
+    "stale": false
+  },
+  "summary.quiz.questions.q8.reveal": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:39:27Z",
+    "enFp": "25cd4c9121f904cc0d79a911811b1198a0c8013dc82b82aee568f9afb8f1c17f"
+  },
+  "summary.quiz.questions.q8.next": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:39:27Z",
+    "enFp": "d42f5c105229a240b95b90d07a6f3e74834175bea43efd451ef3cf42fbc32912"
   }
 }
