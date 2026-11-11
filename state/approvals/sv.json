@@ -6772,12 +6772,20 @@
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:32:45Z",
-    "enFp": "f0282a75f5d9c9befc7ea3a7eb7bf966186e89fb34d9d584b1113e4d70e1d2a9"
+    "enFp": "f0282a75f5d9c9befc7ea3a7eb7bf966186e89fb34d9d584b1113e4d70e1d2a9",
+    "stale": false
   },
   "m3.slide.continueToModule4": {
     "approved": true,
     "by": "Lisa Kaati",
     "at": "2026-11-11T12:32:45Z",
-    "enFp": "0bfeb6f714724934355bcf7c1400123212609ea3c2964577969202500bb7bf51"
+    "enFp": "0bfeb6f714724934355bcf7c1400123212609ea3c2964577969202500bb7bf51",
+    "stale": false
+  },
+  "m3.slide.aiAndOnlineHarm.body": {
+    "approved": true,
+    "by": "Lisa Kaati",
+    "at": "2026-11-11T12:33:06Z",
+    "enFp": "832e0eb5812f4e9fd6085bc23425691c3984bb53a61201a4540024171cb25826"
   }
 }
