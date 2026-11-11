@@ -2922,18 +2922,27 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:09Z",
-    "enFp": "346181d6c9954315e3fcdd7ac2d9a49f47e779e480f4025072f87ab45d688ef3"
+    "enFp": "346181d6c9954315e3fcdd7ac2d9a49f47e779e480f4025072f87ab45d688ef3",
+    "stale": false
   },
   "player.systemLabels.separator.section_break": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:09Z",
-    "enFp": "66f41a831f779cc7184ea4cb68ad765313c760c5e9c004bc2db5acde5c6b6591"
+    "enFp": "66f41a831f779cc7184ea4cb68ad765313c760c5e9c004bc2db5acde5c6b6591",
+    "stale": false
   },
   "player.systemLabels.slide_intro.learning_objectives": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:18:09Z",
-    "enFp": "301b843724f10ba740cee6f3a1c67ec9828e73e12f9f84017b8188ec6115541d"
+    "enFp": "301b843724f10ba740cee6f3a1c67ec9828e73e12f9f84017b8188ec6115541d",
+    "stale": false
+  },
+  "player.systemLabels.resume.please_wait": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:18:15Z",
+    "enFp": "f81e93847ed622e66cf2dcfc568076cc6f521824ca56db8272a709c568ebe17b"
   }
 }
