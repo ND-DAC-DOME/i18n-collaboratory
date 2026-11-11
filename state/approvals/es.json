@@ -122,6 +122,13 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:52:16Z",
-    "enFp": "a3c09a7e0446c30ae780db723fefde1faf1387b29e722da436f0547838c8e97b"
+    "enFp": "a3c09a7e0446c30ae780db723fefde1faf1387b29e722da436f0547838c8e97b",
+    "stale": false
+  },
+  "common.scoreGoodEffort": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:52:44Z",
+    "enFp": "72b1cb080d7f132a7b769b7e70e777bf5a7b2b7e467701a9f11373a9a7b3fc11"
   }
 }
