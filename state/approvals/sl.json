@@ -5351,6 +5351,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:41:08Z",
-    "enFp": "b8b68c4a506b98f75623cb0ec5709109af2b7d76e6b09d7be19291d79bd4237b"
+    "enFp": "b8b68c4a506b98f75623cb0ec5709109af2b7d76e6b09d7be19291d79bd4237b",
+    "stale": false
+  },
+  "m3.slide.reportingOnlineAbuseOnSocialMedia.heading": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:41:11Z",
+    "enFp": "0550e94a41b3e755586a8bb7883ae347bf076440ee03007353c5af639449a8b6"
   }
 }
