@@ -101,12 +101,20 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:52:10Z",
-    "enFp": "adceb15c665f2cad310bd1211db8fe7a0ddf9d827d1020133ae8b42678ab9d66"
+    "enFp": "adceb15c665f2cad310bd1211db8fe7a0ddf9d827d1020133ae8b42678ab9d66",
+    "stale": false
   },
   "common.correctAnswer": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:52:10Z",
-    "enFp": "4d659fb1085d715b616bf45d04aea0f93daccb005f2937e00c038d5f82cf9445"
+    "enFp": "4d659fb1085d715b616bf45d04aea0f93daccb005f2937e00c038d5f82cf9445",
+    "stale": false
+  },
+  "common.scoreAllCorrect": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:52:13Z",
+    "enFp": "4a3eb34e24dc3515f73b0ecf0a1e74172e5ae2d18a89da734cc855893420723c"
   }
 }
