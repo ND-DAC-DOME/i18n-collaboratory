@@ -1921,30 +1921,47 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:18:36Z",
-    "enFp": "b45a5efd82e8f8d5bf8d20f0ecfafbfe61d12477d8fdeff5be7a156903aee10a"
+    "enFp": "b45a5efd82e8f8d5bf8d20f0ecfafbfe61d12477d8fdeff5be7a156903aee10a",
+    "stale": false
   },
   "m5.layers.tracks.t2.who.federations.body": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:18:36Z",
-    "enFp": "60c8c55cf7159e0e1081f84bf675ced6894f394221b19eb510618ea79cfc940f"
+    "enFp": "60c8c55cf7159e0e1081f84bf675ced6894f394221b19eb510618ea79cfc940f",
+    "stale": false
   },
   "m5.layers.tracks.t2.who.federations.title": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:18:36Z",
-    "enFp": "7998e8df18de3aeccce9df384a01b30004874b550ff36e32645a6f7a1f55a8ec"
+    "enFp": "7998e8df18de3aeccce9df384a01b30004874b550ff36e32645a6f7a1f55a8ec",
+    "stale": false
   },
   "m5.layers.tracks.t2.who.clubs.body": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:18:36Z",
-    "enFp": "9bd78fd71ec945701f504b5e9d68894db4bde7d4ab9022c9b0113f72bfe0081a"
+    "enFp": "9bd78fd71ec945701f504b5e9d68894db4bde7d4ab9022c9b0113f72bfe0081a",
+    "stale": false
   },
   "m5.layers.tracks.t2.who.clubs.title": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T14:18:36Z",
-    "enFp": "98348a90362db8bb804d8e25334657b7a01f17c44f210ed87ec99845d54a9b81"
+    "enFp": "98348a90362db8bb804d8e25334657b7a01f17c44f210ed87ec99845d54a9b81",
+    "stale": false
+  },
+  "m5.layers.tracks.t2.who.platforms.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:18:40Z",
+    "enFp": "d1498cb2d48250facbcb645aaf8d570b79fc0824d546a3cd7263a06ff0c933d9"
+  },
+  "m5.layers.tracks.t2.who.media.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T14:18:40Z",
+    "enFp": "bb80b07dadbb23b89998d721cbc49ad96e224d4ce6b139568a6f92b884a01bf7"
   }
 }
