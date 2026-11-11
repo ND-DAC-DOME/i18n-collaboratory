@@ -3986,18 +3986,39 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:41:03Z",
-    "enFp": "dc4e929048e0415e52ccbf79a1f29235af6885d8e68fd475bac134a5a8822b9b"
+    "enFp": "dc4e929048e0415e52ccbf79a1f29235af6885d8e68fd475bac134a5a8822b9b",
+    "stale": false
   },
   "m1.protected.disability": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:41:03Z",
-    "enFp": "6db0f2662a542d5dcf5625964fa52acca88452c46773430cf6734343cf056ef6"
+    "enFp": "6db0f2662a542d5dcf5625964fa52acca88452c46773430cf6734343cf056ef6",
+    "stale": false
   },
   "m1.protected.religion": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:41:03Z",
-    "enFp": "f8a52d21e659b0e9b473f4e23263def011931bad06bad2146f42b1f5d09c8132"
+    "enFp": "f8a52d21e659b0e9b473f4e23263def011931bad06bad2146f42b1f5d09c8132",
+    "stale": false
+  },
+  "m1.protected.age": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:41:08Z",
+    "enFp": "39b7370f30a361390476a93a9e57c0654e35aefeda4c0c866aa1fd0dc05cdf19"
+  },
+  "m1.protected.pregnancy": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:41:08Z",
+    "enFp": "d9caea730c50507387a88f3b7d8943f606e211f5adc8000ba9bdd6b8553cc184"
+  },
+  "m1.protected.maritalStatus": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:41:08Z",
+    "enFp": "2d2ff71974ae4def1396d94546f1f34e8978fcdcc22409c39547378ac93fab74"
   }
 }
