@@ -2544,6 +2544,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:10:31Z",
-    "enFp": "1a14a583b813de55285eb3cc82bafdab74bac2cdddfdae10ac478430b5ea1acc"
+    "enFp": "1a14a583b813de55285eb3cc82bafdab74bac2cdddfdae10ac478430b5ea1acc",
+    "stale": false
+  },
+  "m4.slide.threeLegalPathways.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:10:38Z",
+    "enFp": "eb6f9ecb22d6d5ece183aff54251a847ab166c3d43ef768b28d670b9147885b4"
   }
 }
