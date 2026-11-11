@@ -2166,24 +2166,46 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:32:00Z",
-    "enFp": "7f6f2ca795afc42a9486e19242c69fe791cadfc35c4db983d79cb9b52cffe3c1"
+    "enFp": "7f6f2ca795afc42a9486e19242c69fe791cadfc35c4db983d79cb9b52cffe3c1",
+    "stale": false
   },
   "m2.slide.continueToModule3": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:32:00Z",
-    "enFp": "79787745930d8c8bd7e4c05724c85843d09db93bfe0003db35ae61d2157dce76"
+    "enFp": "79787745930d8c8bd7e4c05724c85843d09db93bfe0003db35ae61d2157dce76",
+    "stale": false
   },
   "m2.slide.checkYourUnderstandingOfTheKey.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:32:00Z",
-    "enFp": "8cf6f1a8c00e5639e5eff7d8af1dd7d2078373ccbea2c81c4dcaae5c4475229f"
+    "enFp": "8cf6f1a8c00e5639e5eff7d8af1dd7d2078373ccbea2c81c4dcaae5c4475229f",
+    "stale": false
   },
   "m2.slide.introSubtitle": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:32:00Z",
-    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0"
+    "enFp": "a1ebd1a98010e392dd9a0df991e05c02112235d88c1009d3af7be741035407e0",
+    "stale": false
+  },
+  "m2.slide.section1Body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:32:07Z",
+    "enFp": "ef8893b6dfd49225abf267a4af126d21934cc68cc9c62d003a114abc632689b4"
+  },
+  "m2.slide.section2Body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:32:07Z",
+    "enFp": "855fe5a7c5ae00fd6e48ae3cae804e608e13c8e582b21c6f0d518b1ebf9c18bb"
+  },
+  "m2.slide.section3Body": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:32:07Z",
+    "enFp": "d5c9c41d5461f8dcb7cb376fd25f4ef5f14cc63b7f6f47619facffcdc432ffd2"
   }
 }
