@@ -157,6 +157,43 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:25:18Z",
-    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4"
+    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4",
+    "stale": false
+  },
+  "course.outline.sections.module1": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:25:28Z",
+    "enFp": "7bd758065d58bbaadaf5a04a2fed845a89e794ed30a1715bd97b3c0543679224"
+  },
+  "course.outline.sections.module2": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:25:28Z",
+    "enFp": "6b062993c94ceb43c90aaf422aeecb4999b7211595c9da5d6f494b70ec3c43fc"
+  },
+  "course.outline.sections.module3": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:25:28Z",
+    "enFp": "ea4daee35d3a807ec670362e563ea6403e442d5ff71b9316ea9926952adab960"
+  },
+  "course.outline.sections.module4": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:25:28Z",
+    "enFp": "3d3e68a271a252e32e07b8fc365659307fb89ca9859afedcfac4b0ed46780e15"
+  },
+  "course.outline.sections.module5": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:25:28Z",
+    "enFp": "27cae5af105790b28f4d793dc3824f4d8465bb43a493cc226152e89312b9cd75"
+  },
+  "course.outline.sections.summary": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:25:28Z",
+    "enFp": "8e76a94ac8320d515375e625bef1829238b097ecbd33611b59eeefd4ffefebfb"
   }
 }
