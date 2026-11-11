@@ -1403,12 +1403,20 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:59:16Z",
-    "enFp": "5ce3d50e8c7708baacde905025c80d49b7e313e46f254842c81f7b56f066eeec"
+    "enFp": "5ce3d50e8c7708baacde905025c80d49b7e313e46f254842c81f7b56f066eeec",
+    "stale": false
   },
   "m4.slide.callout.pleaseNote.body": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:59:16Z",
-    "enFp": "a42f88a76c25d7900143b3f6ac41ebf2f05d84c46f5c78caa1679874bf08229e"
+    "enFp": "a42f88a76c25d7900143b3f6ac41ebf2f05d84c46f5c78caa1679874bf08229e",
+    "stale": false
+  },
+  "summary.slide.finalQuiz.youAreReadyToActAgainst.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:59:32Z",
+    "enFp": "ce1fd127ef2be46810d30aa963d573d6a9d3cb53f64794c4465665a54b4a797b"
   }
 }
