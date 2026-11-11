@@ -3085,5 +3085,11 @@
     "at": "2026-11-11T15:19:08Z",
     "enFp": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa",
     "stale": false
+  },
+  "player.systemLabels.reactions.comment_help": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:20:14Z",
+    "enFp": "72efa4c87ce782165d2e91591caaae8e21ce26c85388e53f68c706c0bc9c54a9"
   }
 }
