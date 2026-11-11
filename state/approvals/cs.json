@@ -1032,6 +1032,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:54:45Z",
-    "enFp": "e1964e4a90b2265a013e56b8df8277a88d259b068d7946f01c1c4ae8cbcccce9"
+    "enFp": "e1964e4a90b2265a013e56b8df8277a88d259b068d7946f01c1c4ae8cbcccce9",
+    "stale": false
+  },
+  "m4.lawTabs.tabs.t3.title": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:54:48Z",
+    "enFp": "5e1857947f084b71745a2eb77073e2ff3cdd231302290ab0e1b1b63fcf0485d8"
   }
 }
