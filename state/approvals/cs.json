@@ -4721,6 +4721,13 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T16:24:07Z",
-    "enFp": "a7a0f2d44be1c9943dff73bc3970bdb438e9c0a43007cc3ff9c5ccc9f22d5a66"
+    "enFp": "a7a0f2d44be1c9943dff73bc3970bdb438e9c0a43007cc3ff9c5ccc9f22d5a66",
+    "stale": false
+  },
+  "m1.slide.whatDoWeUnderstandByOnline.p4": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T16:24:14Z",
+    "enFp": "4408243562dac4a2a97c1fc2eb92a73e68934df797183c46facb7b56bed30c57"
   }
 }
