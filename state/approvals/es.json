@@ -2194,6 +2194,49 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:16:22Z",
-    "enFp": "73bc2abb29e071e782d8aa0c801f85d6bfe67f34f5818e040d848c994a6acdf3"
+    "enFp": "73bc2abb29e071e782d8aa0c801f85d6bfe67f34f5818e040d848c994a6acdf3",
+    "stale": false
+  },
+  "m1.forms.cards.c3.front2": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:16:47Z",
+    "enFp": "57a2be45ad606af575304e03ca25df1ed76971a736ed7298be6ba7202b77b684"
+  },
+  "m1.formsOverlap.line1": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:16:47Z",
+    "enFp": "567b93ccd0d9d1c913939442fd428aa56ee677c275c33724be33170f708ab623"
+  },
+  "m1.formsOverlap.line2": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:16:47Z",
+    "enFp": "296623c38a00218ae7244f59af35d757d45258ca84f9617f38c055833c1224ee"
+  },
+  "m1.protected.race": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:16:47Z",
+    "enFp": "73134ce128291dc366b5bf3cf75c167846a2823f56705437694879de7b336e9a"
+  },
+  "m1.protected.ethnicity": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:16:47Z",
+    "enFp": "2a0bdd7ccfd0aa7ff3c5641d728368ddcce614efeae9676eac6a480ed2e73c89"
+  },
+  "m1.protected.nationality": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:16:47Z",
+    "enFp": "8fb1b6a148c218138d7ce8a6c9babf02e3b63fdff61ab066107299ea212d338e"
+  },
+  "m1.protected.gender": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:16:47Z",
+    "enFp": "a04630ef8bc3da8c864af0161fde9d42cc9c801a27228b3cf7c07237dec5a612"
   }
 }
