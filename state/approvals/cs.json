@@ -633,12 +633,26 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:39:52Z",
-    "enFp": "1963ae9efcda13e12d5d3c24ea444eb5dcff1fd5dca6113f90d9a34273e8b1c0"
+    "enFp": "1963ae9efcda13e12d5d3c24ea444eb5dcff1fd5dca6113f90d9a34273e8b1c0",
+    "stale": false
   },
   "summary.quiz.questions.q9.next": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T13:39:52Z",
-    "enFp": "ee9701212c9057f969b38de72f7c9351da98a915826be48ab71bf10a65336bfd"
+    "enFp": "ee9701212c9057f969b38de72f7c9351da98a915826be48ab71bf10a65336bfd",
+    "stale": false
+  },
+  "summary.slide.finalQuiz.youAreReadyToActAgainst.body": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:40:08Z",
+    "enFp": "1f6c97ebff88ba6c690cf902fbc89f4e94161a634170dd05cb9e67b727338cf6"
+  },
+  "summary.slide.finalQuiz.summaryScoredQuiz.heading": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:40:08Z",
+    "enFp": "09fcf8f70d02c865be44c7ffcaf23c727b3f706fa52c5942a8916522cc0aff1c"
   }
 }
