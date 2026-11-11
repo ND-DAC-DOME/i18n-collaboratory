@@ -3188,12 +3188,26 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T11:22:07Z",
-    "enFp": "f8a52d21e659b0e9b473f4e23263def011931bad06bad2146f42b1f5d09c8132"
+    "enFp": "f8a52d21e659b0e9b473f4e23263def011931bad06bad2146f42b1f5d09c8132",
+    "stale": false
   },
   "m1.protected.age": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T11:22:07Z",
-    "enFp": "39b7370f30a361390476a93a9e57c0654e35aefeda4c0c866aa1fd0dc05cdf19"
+    "enFp": "39b7370f30a361390476a93a9e57c0654e35aefeda4c0c866aa1fd0dc05cdf19",
+    "stale": false
+  },
+  "m1.protected.pregnancy": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T11:22:16Z",
+    "enFp": "d9caea730c50507387a88f3b7d8943f606e211f5adc8000ba9bdd6b8553cc184"
+  },
+  "m1.protected.maritalStatus": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T11:22:16Z",
+    "enFp": "2d2ff71974ae4def1396d94546f1f34e8978fcdcc22409c39547378ac93fab74"
   }
 }
