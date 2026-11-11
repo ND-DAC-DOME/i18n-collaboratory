@@ -5981,24 +5981,34 @@
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:45:55Z",
-    "enFp": "dabc1b8c875050d9ff29caf7a3c3f426473d8863d129d3c15f8f266ed3ecd8e3"
+    "enFp": "dabc1b8c875050d9ff29caf7a3c3f426473d8863d129d3c15f8f266ed3ecd8e3",
+    "stale": false
   },
   "m3.regionTabs.tabs.t1.subs.spain.title": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:45:55Z",
-    "enFp": "8ef41e6f4b07432a0cb4eb7a8774e7a3878fd3e385f49aa09b406768467db228"
+    "enFp": "8ef41e6f4b07432a0cb4eb7a8774e7a3878fd3e385f49aa09b406768467db228",
+    "stale": false
   },
   "m3.regionTabs.tabs.t1.subs.spain.html": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:45:55Z",
-    "enFp": "694d7868305e72b02993187c63855239ff53deb5da111e7c9a37f24e3ab2926c"
+    "enFp": "694d7868305e72b02993187c63855239ff53deb5da111e7c9a37f24e3ab2926c",
+    "stale": false
   },
   "m3.regionTabs.tabs.t2.title": {
     "approved": true,
     "by": "LIsa Kaati",
     "at": "2026-11-11T08:45:55Z",
-    "enFp": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19"
+    "enFp": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19",
+    "stale": false
+  },
+  "m3.regionTabs.tabs.t2.html": {
+    "approved": true,
+    "by": "LIsa Kaati",
+    "at": "2026-11-11T08:45:57Z",
+    "enFp": "a2b34d8442922db7e2aa2ca161f207fcf1d83ea469c5f6e1933d62b19940d338"
   }
 }
