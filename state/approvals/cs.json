@@ -2607,12 +2607,38 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:15:44Z",
-    "enFp": "9bd455771846d3822ee7b7da1c5a8f2f25cfa144e1d66fb7e4f861f0092ad13f"
+    "enFp": "9bd455771846d3822ee7b7da1c5a8f2f25cfa144e1d66fb7e4f861f0092ad13f",
+    "stale": false
   },
   "player.systemLabels.click_on_image.click_to_place_areas": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:15:44Z",
-    "enFp": "d26822dda5b1f2f78fdb3a19a04a4486d5f6bd352c6f8c30b1d629748dedb6e0"
+    "enFp": "d26822dda5b1f2f78fdb3a19a04a4486d5f6bd352c6f8c30b1d629748dedb6e0",
+    "stale": false
+  },
+  "player.systemLabels.click_on_image.click_to_place_area_to_remove": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:15:52Z",
+    "enFp": "89cb379a05fc1be2f6cefdade54c51fc5e837ea9a2e63ac0bcca10b422fda9db"
+  },
+  "player.systemLabels.click_on_image.click_to_place_area": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:15:52Z",
+    "enFp": "73d0bbbfdfab7c1dc607ba7b071e2352cd70b7982c37fa00c56af87268bb72b6"
+  },
+  "player.systemLabels.categorization.item": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:15:52Z",
+    "enFp": "652bcc3a478428893cc505ae19f847b49be52f861bedc64bb192ceed409fa733"
+  },
+  "player.systemLabels.categorization.drop_here": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:15:52Z",
+    "enFp": "4034ec9f457dabd58fa7f3c60a60cfcaf5ee48c98231a4c55b99106739ea118d"
   }
 }
