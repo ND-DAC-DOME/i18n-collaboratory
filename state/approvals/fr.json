@@ -17,6 +17,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:19:53Z",
-    "enFp": "143b270a32602d412babf2724ec0640dda0d5a43485e5a7520b05b53fa94b303"
+    "enFp": "143b270a32602d412babf2724ec0640dda0d5a43485e5a7520b05b53fa94b303",
+    "stale": false
+  },
+  "common.completed": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:19:55Z",
+    "enFp": "22a970d2e5b1cc233e462be7c7b64e135a275bb09d83d87683bf4236c43113a1"
   }
 }
