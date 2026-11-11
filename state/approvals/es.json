@@ -1347,66 +1347,95 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "98963e7abd89811c5a937a3d58b054ba6325ad6050f54c8db5113ac488601d26"
+    "enFp": "98963e7abd89811c5a937a3d58b054ba6325ad6050f54c8db5113ac488601d26",
+    "stale": false
   },
   "player.systemLabels.interactive_image.close_modal": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "207bd886add536b45844d8e8db68ef17ba2a95064041da141c23d5486c70443c"
+    "enFp": "207bd886add536b45844d8e8db68ef17ba2a95064041da141c23d5486c70443c",
+    "stale": false
   },
   "player.systemLabels.interactive_image.close_sidebar": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "17e28e2302175d33308a4706042528db0f8605f7ec27b2dff8cc51bc65fa2096"
+    "enFp": "17e28e2302175d33308a4706042528db0f8605f7ec27b2dff8cc51bc65fa2096",
+    "stale": false
   },
   "player.systemLabels.interactive_image.close_tooltip": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "a1aba9f5e6b74a4dc8988db4bbfc87af5f50b5490aef8c92581e403452035c07"
+    "enFp": "a1aba9f5e6b74a4dc8988db4bbfc87af5f50b5490aef8c92581e403452035c07",
+    "stale": false
   },
   "player.systemLabels.interactive_image.hotspot": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "8bec5674491ad8c8aef17f3845a01fea023744286405fccd5ab99cab047415c9"
+    "enFp": "8bec5674491ad8c8aef17f3845a01fea023744286405fccd5ab99cab047415c9",
+    "stale": false
   },
   "player.systemLabels.interactive_image.press_escape_close": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "27d4fe423560b18cb554aef8f5c72bd0b06d4d39a5206aab059b6ec223ef67a1"
+    "enFp": "27d4fe423560b18cb554aef8f5c72bd0b06d4d39a5206aab059b6ec223ef67a1",
+    "stale": false
   },
   "player.systemLabels.interactive_image.press_to_view": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "6682060f2cb81a17dcd856bc86e9c752b8688fa084abd48acf330debab5e6275"
+    "enFp": "6682060f2cb81a17dcd856bc86e9c752b8688fa084abd48acf330debab5e6275",
+    "stale": false
   },
   "player.systemLabels.matching.pairedItems": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "fc2f41ef3ea609689e4c2ed68537f5fbad8aaea4d0354c2093e10f7fe28f52ee"
+    "enFp": "fc2f41ef3ea609689e4c2ed68537f5fbad8aaea4d0354c2093e10f7fe28f52ee",
+    "stale": false
   },
   "player.systemLabels.matching.pairedItemsAriaLabel": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "634afc496ada2184d791d1430ace6bb27868fe1a7a6412f996b1ba2e5bad6a8a"
+    "enFp": "634afc496ada2184d791d1430ace6bb27868fe1a7a6412f996b1ba2e5bad6a8a",
+    "stale": false
   },
   "player.systemLabels.media.alt_text": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "42d964c12dfe09efd83691e1684def060924a89eeca894990a87a2b290dd6791"
+    "enFp": "42d964c12dfe09efd83691e1684def060924a89eeca894990a87a2b290dd6791",
+    "stale": false
   },
   "player.systemLabels.media.caption": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:09:34Z",
-    "enFp": "87d296ec94898c86baf805dbcc47af48e618ec25df0441f7471c60a7d6b05b4e"
+    "enFp": "87d296ec94898c86baf805dbcc47af48e618ec25df0441f7471c60a7d6b05b4e",
+    "stale": false
+  },
+  "player.systemLabels.media.error": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:09:39Z",
+    "enFp": "13708bb33ec512461a7cbea88ee8eff811ea528c00b7152c8d439723ba99856c"
+  },
+  "player.systemLabels.media.loading": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:09:39Z",
+    "enFp": "035a75fff1802407a8527e89c00da98e06e6bc0009716b11a2fe8bf8703c6aff"
+  },
+  "player.systemLabels.navigation.back": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:09:39Z",
+    "enFp": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769"
   }
 }
