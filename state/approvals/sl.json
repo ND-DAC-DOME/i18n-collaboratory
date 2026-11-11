@@ -3902,18 +3902,39 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:06:34Z",
-    "enFp": "25266a4c39e8bc5f5747891474075513451b9f1d36853e9bdedfdfbc1d2726aa"
+    "enFp": "25266a4c39e8bc5f5747891474075513451b9f1d36853e9bdedfdfbc1d2726aa",
+    "stale": false
   },
   "m1.slide.whenTheBehavioursOverlap.heading": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:06:34Z",
-    "enFp": "13ceb06f047421df148d5de2b8d7db35fe6ce64c866be6cc056299acf1c4549d"
+    "enFp": "13ceb06f047421df148d5de2b8d7db35fe6ce64c866be6cc056299acf1c4549d",
+    "stale": false
   },
   "m1.protectedAria": {
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:06:34Z",
-    "enFp": "a7a0f2d44be1c9943dff73bc3970bdb438e9c0a43007cc3ff9c5ccc9f22d5a66"
+    "enFp": "a7a0f2d44be1c9943dff73bc3970bdb438e9c0a43007cc3ff9c5ccc9f22d5a66",
+    "stale": false
+  },
+  "m1.apply.labels.offensiveSpeech": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:07:21Z",
+    "enFp": "df257f7117719e388e0478e5a97198b2dee48be33c752792d7fa65c0eae51e6c"
+  },
+  "m1.apply.labels.digitalHostility": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:07:21Z",
+    "enFp": "46941c68b49f0f9e9cfb8de9182dcb9262d5e17f72c25fc22929e110f6a4bbce"
+  },
+  "m1.apply.labels.hateSpeech": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:07:21Z",
+    "enFp": "5b1a77cb089480428f8e22b22432f99fb0096ecad8688cfca4aeb5ea6ed6b43f"
   }
 }
