@@ -5099,6 +5099,19 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:54:12Z",
-    "enFp": "67ad7f398dd0c9306afd0d10afc82c5c4bcbb90f56aec5e514aa6b16cba5b78b"
+    "enFp": "67ad7f398dd0c9306afd0d10afc82c5c4bcbb90f56aec5e514aa6b16cba5b78b",
+    "stale": false
+  },
+  "summary.quiz.questions.q11.next": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:54:16Z",
+    "enFp": "64bc1e433c5176fc7da038fd0bc24a1fdfcf60cec1840e725cc91e946f1295d6"
+  },
+  "summary.quiz.questions.q11.links.act.items.0.text": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:54:16Z",
+    "enFp": "4dd77d3ae0c4dd3f77c1803a2f837ea91ecd1bb8549826eaf458dc5f14b1ccbb"
   }
 }
