@@ -5162,42 +5162,67 @@
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:26Z",
-    "enFp": "86cfa5c34050fff77baf26f5eb331b98c110077e25a10df0a33b9775a2a99192"
+    "enFp": "86cfa5c34050fff77baf26f5eb331b98c110077e25a10df0a33b9775a2a99192",
+    "stale": false
   },
   "summary.quiz.score.youScored": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:26Z",
-    "enFp": "606abb981af155e65aa2e0e098a2e3a83f92696d6305b9c6d91593e0d22f6b82"
+    "enFp": "606abb981af155e65aa2e0e098a2e3a83f92696d6305b9c6d91593e0d22f6b82",
+    "stale": false
   },
   "summary.quiz.score.yourScore": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:26Z",
-    "enFp": "5f49fcc8ddf7cde23eaaaf70b2f470cc982c6fe64a4f2fcbd246ef52baea6200"
+    "enFp": "5f49fcc8ddf7cde23eaaaf70b2f470cc982c6fe64a4f2fcbd246ef52baea6200",
+    "stale": false
   },
   "summary.quiz.score.clickToComplete": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:26Z",
-    "enFp": "f21a865363326ed4869fc19d15f32f204472a1307061f0e603e7cf4fce18e6e7"
+    "enFp": "f21a865363326ed4869fc19d15f32f204472a1307061f0e603e7cf4fce18e6e7",
+    "stale": false
   },
   "summary.quiz.score.clickForDetails": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:26Z",
-    "enFp": "32947c4832578cd85317dae79e4981ee0abec381771d226fd9e7af3440eadef8"
+    "enFp": "32947c4832578cd85317dae79e4981ee0abec381771d226fd9e7af3440eadef8",
+    "stale": false
   },
   "summary.quiz.score.body": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:26Z",
-    "enFp": "140c6f133dff0965821e105b3bffdb6ccb85c917cd8fc2c62ab8a3368536aa1b"
+    "enFp": "140c6f133dff0965821e105b3bffdb6ccb85c917cd8fc2c62ab8a3368536aa1b",
+    "stale": false
   },
   "summary.quiz.score.note": {
     "approved": true,
     "by": "ella",
     "at": "2026-11-11T15:56:26Z",
-    "enFp": "75c48984569de61eda3a87f37cbd12121c4f49189a3c8f40ddcecde3d5a028c6"
+    "enFp": "75c48984569de61eda3a87f37cbd12121c4f49189a3c8f40ddcecde3d5a028c6",
+    "stale": false
+  },
+  "summary.quiz.score.exhaustedBody": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:56:32Z",
+    "enFp": "d2132f257e910e02051c7e412f14dd8fcfa8081fc34e87577c7fcb17974374db"
+  },
+  "summary.quiz.score.exhaustedNote": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:56:32Z",
+    "enFp": "d623965ba62cbe654ed61bb670a4b576307b3b6d79e9f0efbdb8a7078e351511"
+  },
+  "summary.quiz.score.finish": {
+    "approved": true,
+    "by": "ella",
+    "at": "2026-11-11T15:56:32Z",
+    "enFp": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed"
   }
 }
