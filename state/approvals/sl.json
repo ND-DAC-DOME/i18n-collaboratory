@@ -4784,6 +4784,13 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:14:50Z",
-    "enFp": "ecfa967e901a86b132554041d686ac4273fc4c194d16eeeac1fe7244f8002973"
+    "enFp": "ecfa967e901a86b132554041d686ac4273fc4c194d16eeeac1fe7244f8002973",
+    "stale": false
+  },
+  "m3.regionTabs.tabs.t1.subs.sweden.html": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T13:14:56Z",
+    "enFp": "2eb9a35c4b7e10ca5cff953ac202b1888886bbb5e1f900871c9c29995a3f439b"
   }
 }
