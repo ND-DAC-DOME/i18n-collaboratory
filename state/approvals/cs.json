@@ -4245,18 +4245,57 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:52:12Z",
-    "enFp": "7e9a0a266ac7fe65af60a3a16f7bbdd5bd9b90d239d91fde28c9d978de0e2a8d"
+    "enFp": "7e9a0a266ac7fe65af60a3a16f7bbdd5bd9b90d239d91fde28c9d978de0e2a8d",
+    "stale": false
   },
   "m1.check.ui.blankAria": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:52:12Z",
-    "enFp": "6294d51dd3995cab5f64b32263f5fecf2a42ba5ed2d1daea5c7d30f2101b0c69"
+    "enFp": "6294d51dd3995cab5f64b32263f5fecf2a42ba5ed2d1daea5c7d30f2101b0c69",
+    "stale": false
   },
   "m1.check.questions.q1.label": {
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:52:12Z",
-    "enFp": "8a0f3b0d8193bb78bc985e3b80f9a60616049b684df474b6126e5deff9019106"
+    "enFp": "8a0f3b0d8193bb78bc985e3b80f9a60616049b684df474b6126e5deff9019106",
+    "stale": false
+  },
+  "m1.check.questions.q1.prompt": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:52:24Z",
+    "enFp": "4085d966389e9535a099ca597654bc0572154d6a1a53b1b6a9d5f984b89356bd"
+  },
+  "m1.check.questions.q1.choices.a": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:52:24Z",
+    "enFp": "d92ca5f0a43c03b2e1ec48fb9c097a793e3e516757eee0eb12304ea61f7bd98c"
+  },
+  "m1.check.questions.q1.choices.b": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:52:24Z",
+    "enFp": "fff992bb074d9d2a2f190d66ae05ea470a5827b50ac000abd22857ec93b0a161"
+  },
+  "m1.check.questions.q1.choices.d": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:52:24Z",
+    "enFp": "6c402afeec5d31caf2ee1522d0631f3ac3f3028d8910aad7558336a6cb56cc83"
+  },
+  "m1.check.questions.q1.choices.c": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:52:24Z",
+    "enFp": "313a073fdf0dd7b994e8cc02582d5ef2a8ced7fd4c5e457ae143466fb888dd3f"
+  },
+  "m1.check.questions.q2.label": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:52:24Z",
+    "enFp": "e71407e777d4005d4e5eae7dc673759a4b585ed304dc66e1c5ea0e1c05d9fb62"
   }
 }
