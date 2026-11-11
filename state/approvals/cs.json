@@ -488,5 +488,11 @@
     "at": "2026-11-10T15:13:14Z",
     "stale": false,
     "enFp": "1e80abcd49c3adc68d605317740598332e56c59ebbe5133f24ed1e1efb9a3f7e"
+  },
+  "summary.quiz.questions.q5.next": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T13:35:45Z",
+    "enFp": "9d7fd0e0bd0ac15500730fda0e9103d7e4c7dbcdadff9a2db43f262ff1e24d38"
   }
 }
