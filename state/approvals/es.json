@@ -360,12 +360,20 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:56:40Z",
-    "enFp": "74dc06dab269536afab95cca4fce8171e84052902a1415570a583cc823944e14"
+    "enFp": "74dc06dab269536afab95cca4fce8171e84052902a1415570a583cc823944e14",
+    "stale": false
   },
   "welcome.slide.sportConnectsMillionsOfPeopleAcross.body": {
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:56:40Z",
-    "enFp": "561a8ef003f80e604f42e805dbb57f1fff7dedcd32aa916bed7a216595e27982"
+    "enFp": "561a8ef003f80e604f42e805dbb57f1fff7dedcd32aa916bed7a216595e27982",
+    "stale": false
+  },
+  "welcome.slide.buildReadinessBody": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:56:45Z",
+    "enFp": "d6859998f82d7296cfbdc61d7ecbc2e714d7ce15d26d395d36395f216b447973"
   }
 }
