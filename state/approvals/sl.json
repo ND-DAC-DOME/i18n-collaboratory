@@ -5995,6 +5995,19 @@
     "approved": true,
     "by": "Matej Tušak",
     "at": "2026-11-11T13:59:53Z",
-    "enFp": "3670b07a4bfb9e1cdd026133b47a336a522a96900ef492dcac9f394e76d48b04"
+    "enFp": "3670b07a4bfb9e1cdd026133b47a336a522a96900ef492dcac9f394e76d48b04",
+    "stale": false
+  },
+  "m4.slide.whenOnlineAbuseOccursImportantQuestions.heading": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T14:00:04Z",
+    "enFp": "65bca0b3a8e7d9bbcbf4f71c69b4cf2ea9822d6c225c83cf3fdc7093ba38a6af"
+  },
+  "m4.slide.whereLegalResponsesHaveLimits.body": {
+    "approved": true,
+    "by": "Matej Tušak",
+    "at": "2026-11-11T14:00:04Z",
+    "enFp": "8a5aabbdaad611f73c98e70c45f74999fdc294bb89e77242bf92d5cd94ee9496"
   }
 }
