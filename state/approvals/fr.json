@@ -220,6 +220,13 @@
     "approved": true,
     "by": "Ella",
     "at": "2026-11-11T14:26:05Z",
-    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4"
+    "enFp": "175c3ff9db5ffad8a4d70819f727c1e4afa2a4c6babfb90cea6c594b6be743b4",
+    "stale": false
+  },
+  "course.outline.slides.postCourseSurvey": {
+    "approved": true,
+    "by": "Ella",
+    "at": "2026-11-11T14:26:10Z",
+    "enFp": "9dc40a69b0e1e03bb862cd22d9b8235b11bc088bd5fa210e507159887936dbf7"
   }
 }
