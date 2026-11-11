@@ -381,6 +381,13 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T10:56:50Z",
-    "enFp": "36b23fc34c99109586314a6c262b1a949dedd1ed2014cc02daf3e7d5b1086671"
+    "enFp": "36b23fc34c99109586314a6c262b1a949dedd1ed2014cc02daf3e7d5b1086671",
+    "stale": false
+  },
+  "welcome.about.aboutTheCourse.body": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T10:57:08Z",
+    "enFp": "f968b77b83514732439fa3cc27878d19e47ebc6d050f4e78a1be2bf7a99e0845"
   }
 }
