@@ -3615,6 +3615,19 @@
     "approved": true,
     "by": "Veronika",
     "at": "2026-11-11T15:27:56Z",
-    "enFp": "b1b094086cc787bdd05db0135b10fb3dec1a104999fbe98de2bad5b656afdd04"
+    "enFp": "b1b094086cc787bdd05db0135b10fb3dec1a104999fbe98de2bad5b656afdd04",
+    "stale": false
+  },
+  "m4.duties.orgs.i1.rest": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:28:31Z",
+    "enFp": "98ea48f2d62d8b340984ebe6b50b3b4f3e5764b553c21a968e219e4a736af8d9"
+  },
+  "m4.duties.orgs.i2.verb": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:28:31Z",
+    "enFp": "c9c16188809705ba32556a31d9c1f070960c64527217847b0bee5813a7dfcbf8"
   }
 }
