@@ -1214,6 +1214,25 @@
     "approved": true,
     "by": "Carmen Ruano",
     "at": "2026-11-11T11:07:46Z",
-    "enFp": "eb803e84bc7ae111703e64f559f080af375dc170cfea289b92ebae90376af8b6"
+    "enFp": "eb803e84bc7ae111703e64f559f080af375dc170cfea289b92ebae90376af8b6",
+    "stale": false
+  },
+  "player.systemLabels.flashcard.no_flashcards": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:07:52Z",
+    "enFp": "837bb4525961e73d2d36e7fdd4fa12016a40cc33729fa4e97703a77eb7a8f85d"
+  },
+  "player.systemLabels.flashcard.press_to_flip": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:07:52Z",
+    "enFp": "bfd44ebb53abe680a431d15ecf2e4ed946b11caf18f0facde9832a19d89bddf5"
+  },
+  "player.systemLabels.flashcard.showing_back": {
+    "approved": true,
+    "by": "Carmen Ruano",
+    "at": "2026-11-11T11:07:52Z",
+    "enFp": "8e81edca3b1f254a792812e3dbc9ecf0b16af7ca8475f849de5ee5367e7ae801"
   }
 }
