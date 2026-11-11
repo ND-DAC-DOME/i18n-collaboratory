@@ -2847,5 +2847,23 @@
     "at": "2026-11-11T15:17:16Z",
     "enFp": "4f0994cc6119c9fde9a815c8b7aa4f9b898fbde6df031a38a847b3b8b387165f",
     "stale": false
+  },
+  "player.systemLabels.tabs.more": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:17:35Z",
+    "enFp": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189"
+  },
+  "player.systemLabels.time_requirements.done": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:17:35Z",
+    "enFp": "11a6767d5674c7e45f7e00dc525762275b3a48491ad6045427d2609cc496c516"
+  },
+  "player.systemLabels.time_requirements.elapsed": {
+    "approved": true,
+    "by": "Veronika",
+    "at": "2026-11-11T15:17:35Z",
+    "enFp": "97f4ebf295406067547d55d337ab0ca5a72202dcd27ae066223cc9eb266f8ffe"
   }
 }
