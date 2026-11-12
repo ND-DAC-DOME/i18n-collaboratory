@@ -1027,6 +1027,14 @@
     });
   }
 
+  function rememberProject(project) {
+    if (!project) return;
+    var idx = state.projects.findIndex(function (row) { return row.id === project.id; });
+    if (idx >= 0) state.projects[idx] = project;
+    else state.projects.push(project);
+    if (state.project && state.project.id === project.id) state.project = project;
+  }
+
   function loadProject(slug) {
     var project = state.projects.find(function (p) { return p.slug === slug; }) || state.projects[0];
     if (!project) {
@@ -1338,7 +1346,7 @@
           github_branch: document.getElementById('admBranch').value.trim() || 'main',
           locales_path: document.getElementById('admPath').value.trim() || 'locales',
         }).then(function (updated) {
-          state.project = updated;
+          rememberProject(updated);
           return Hub.setLocales(p.id, locales);
         }).then(function () {
           toast('Project saved', 'ok');
@@ -1350,9 +1358,21 @@
     var pushBtn = document.getElementById('pushRepoBtn');
     if (pushBtn) {
       pushBtn.addEventListener('click', function () {
-        if (!window.confirm('Push current locale files to ' + (p.github_repo || 'repo') + '?')) return;
-        Hub.pushToRepo(p.id).then(function (data) {
-          toast('Pushed to ' + data.repo, 'ok');
+        var typedPath = (document.getElementById('admPath').value || '').trim() || 'locales';
+        Hub.getProject(p.id).then(function (fresh) {
+          rememberProject(fresh);
+          var path = fresh.locales_path || 'locales';
+          var repo = fresh.github_repo || 'repo';
+          var branch = fresh.github_branch || 'main';
+          var prompt = 'Push current locale files to ' + repo + ' (' + branch + ') at ' + path + '?';
+          if (typedPath !== path) {
+            prompt += '\n\nThe locales path in the form (' + typedPath +
+              ') is not saved. This push uses the saved path.';
+          }
+          if (!window.confirm(prompt)) return null;
+          return Hub.pushToRepo(fresh.id).then(function (data) {
+            toast('Pushed to ' + data.repo + ' at ' + (data.path || path), 'ok');
+          });
         }).catch(function (e) { toast(e.message || 'Push failed', 'error'); });
       });
     }
@@ -1542,7 +1562,18 @@
 
     el.adminBtn.addEventListener('click', function () {
       el.adminModal.hidden = false;
-      renderAdmin();
+      var current = state.project;
+      if (!current || !Hub.getProject) {
+        renderAdmin();
+        return;
+      }
+      Hub.getProject(current.id).then(function (fresh) {
+        rememberProject(fresh);
+        renderAdmin();
+      }).catch(function (e) {
+        renderAdmin();
+        toast(e.message || 'Could not reload project settings', 'error');
+      });
     });
     el.adminClose.addEventListener('click', function () {
       el.adminModal.hidden = true;

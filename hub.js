@@ -115,6 +115,13 @@
     return result.data || [];
   }
 
+  async function getProject(projectId) {
+    var c = sb();
+    var result = await c.from('projects').select('*').eq('id', projectId).single();
+    if (result.error) throw result.error;
+    return result.data;
+  }
+
   async function getMembership(projectId) {
     var c = sb();
     var user = await getUser();
@@ -503,6 +510,7 @@
     acceptInvites: acceptInvites,
     isHubAdmin: isHubAdmin,
     listMyProjects: listMyProjects,
+    getProject: getProject,
     getMembership: getMembership,
     listLocales: listLocales,
     loadSourceStrings: loadSourceStrings,
