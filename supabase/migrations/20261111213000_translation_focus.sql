@@ -15,6 +15,8 @@ create index translation_focus_project_locale_idx
 
 alter table public.translation_focus enable row level security;
 
+grant select, insert, update, delete on public.translation_focus to authenticated;
+
 create policy translation_focus_select on public.translation_focus
   for select to authenticated
   using (app.is_project_member(project_id, auth.uid()) or app.is_hub_admin(auth.uid()));
