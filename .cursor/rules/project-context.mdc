@@ -1,0 +1,18 @@
+---
+description: What this fork is and the GitHub Pages plus Supabase direction
+alwaysApply: true
+---
+
+# i18n-collaboratory
+
+Multi-project translation review hub. English is read-only on the left; one locale is on the right. Reviewers sign in with GitHub or magic link. Roles are per project: `admin` or `reviewer` (with assigned languages). One browser user may hold a locale lease.
+
+Keep these behaviors when changing the backend:
+
+- Approve stamps `approved_by`, `approved_at`, and `en_fp` (SHA-256 hex of the English UTF-8 text). Unchanged English keeps the stamp. Changed English is `stale` / `en_source_changed` until re-approve; the UI shows previous vs new English. Saving a translation clears that key’s approval.
+- One live lease per project locale. Default 15 minutes, clamp 5–180. Heartbeat while the tab is open. Release returns to read-only.
+- Editors change words only when `rich_text` is on. English HTML tags and link targets are reapplied on save (`markup.js`).
+
+Host: GitHub Pages for the static UI (public site; this Team-plan repo may stay private) and Supabase for Auth, RLS data, and Edge Functions (`ingest`, `credentials`, `push`). Do not treat Render or commit-per-heartbeat as the production path.
+
+Durable notes live in the project wiki (`.llm-wiki/`, its own git repo). Start at `Home_i18n-collaboratory.md`. Update the wiki when architecture lands.

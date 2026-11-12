@@ -414,3 +414,83 @@ button, input, textarea, select { font: inherit; }
   animation: btn-spin 0.8s linear infinite;
 }
 .wake-banner.is-failed .wake-spinner { display: none; }
+
+
+/* Auth + hub */
+.auth-screen, .empty-hub {
+  max-width: 420px;
+  margin: 48px auto;
+  padding: 0 16px;
+}
+.auth-card, .empty-hub {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+.auth-card h2, .empty-hub h2 { margin: 0 0 8px; color: var(--navy); }
+.auth-card p, .empty-hub p { color: var(--muted); font-size: 14px; }
+.auth-divider {
+  margin: 16px 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+.auth-email {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--navy);
+}
+.auth-email input, .admin-body input, .admin-body select {
+  padding: 8px 10px;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  width: 100%;
+}
+.auth-note { margin-top: 12px; color: var(--ok); font-size: 13px; }
+
+.modal-wide { max-width: 640px; width: calc(100vw - 32px); }
+.admin-body { max-height: 60vh; overflow: auto; }
+.admin-section {
+  border-top: 1px solid var(--line);
+  padding: 14px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.admin-section:first-child { border-top: 0; padding-top: 0; }
+.admin-section h3 { margin: 0; color: var(--navy); font-size: 15px; }
+.secret-out {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: auto;
+  font-size: 12px;
+}
+.invite-row { font-size: 13px; color: var(--muted); }
+
+.en-diff {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.en-diff .panel-label { grid-column: 1 / -1; }
+.en-diff .note { grid-column: 1 / -1; }
+.diff-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.en-box.muted { opacity: 0.75; background: #F8FAFC; }
+@media (max-width: 900px) {
+  .en-diff { grid-template-columns: 1fr; }
+}

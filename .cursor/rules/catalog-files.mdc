@@ -1,0 +1,21 @@
+---
+description: Shape of locale catalogs, approvals, and locks
+globs: data/**/*.json,state/**/*.json
+alwaysApply: false
+---
+
+# Catalog and state files
+
+`data/{en,es,cs,sl,sv,fr}.json` is the string catalog. `state/approvals/{locale}.json` maps a dotted key to an approval object. `state/locks/{locale}.json` is one lease or JSON `null`.
+
+```json
+{ "text": "Next", "note": "Primary forward button" }
+```
+
+```json
+{ "approved": true, "by": "Name", "at": "2026-11-11T10:51:40Z", "enFp": "<sha256 hex>", "stale": false }
+```
+
+- Keep `note` when updating `text`. A value that is already a plain string stays a plain string.
+- Do not add approval rows for URL-only leaves (key ending in `.url`, `.href`, or `.image`). The UI hides those.
+- English (`data/en.json`) is the fingerprint source. Do not rewrite it from the review UI.

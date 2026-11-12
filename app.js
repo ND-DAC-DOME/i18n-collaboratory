@@ -2,8 +2,7 @@
   'use strict';
 
   var CFG = window.UAOA_I18N_REVIEW || {};
-  var API = (CFG.apiBase || '').replace(/\/$/, '');
-  var LOCALES = CFG.locales || [];
+  var Hub = window.I18nHub;
   var MODULE_ORDER = ['common', 'course', 'welcome', 'survey', 'm1', 'm2', 'm3', 'm4', 'm5', 'summary', 'embeds', 'player'];
   var MODULE_LABELS = {
     common: 'Common UI',
@@ -21,39 +20,46 @@
   };
 
   var state = {
-    name: sessionStorage.getItem('uaoa.reviewer') || '',
-    sessionId: sessionStorage.getItem('uaoa.sessionId') || '',
+    user: null,
+    hubAdmin: false,
+    projects: [],
+    project: null,
+    membership: null,
+    locales: [],
     locale: '',
     module: 'common',
-    en: null,
-    tr: null,
-    approvals: {},
+    sourceRows: [],
+    translations: {},
     lock: null,
     canEdit: false,
+    isAdmin: false,
     editingKey: null,
     editingDraft: null,
     editingDraftKey: null,
     pendingKey: null,
-    pendingAction: null, // 'save' | 'unapprove' — approvals do not take this lock
+    pendingAction: null,
     filter: '',
     rowsCache: [],
     approveQueue: {},
-    approveInflight: null,
     approveHeld: [],
     approveErrors: {},
     approveFlushTimer: null,
     approveFlushing: false,
     approveFlushPromise: null,
-    // null until the first batch response: true if POST /api/approve-batch exists.
-    approveBatchSupported: null,
   };
 
   var el = {
+    projectSelect: document.getElementById('projectSelect'),
+    projectLabel: document.getElementById('projectLabel'),
     localeSelect: document.getElementById('localeSelect'),
+    localeLabel: document.getElementById('localeLabel'),
     reviewerPill: document.getElementById('reviewerPill'),
     lockPill: document.getElementById('lockPill'),
     checkoutBtn: document.getElementById('checkoutBtn'),
     releaseBtn: document.getElementById('releaseBtn'),
+    adminBtn: document.getElementById('adminBtn'),
+    downloadBtn: document.getElementById('downloadBtn'),
+    signOutBtn: document.getElementById('signOutBtn'),
     modList: document.getElementById('modList'),
     rows: document.getElementById('rows'),
     stats: document.getElementById('stats'),
@@ -62,22 +68,19 @@
     wakeBanner: document.getElementById('wakeBanner'),
     wakeTitle: document.getElementById('wakeBannerTitle'),
     wakeBody: document.getElementById('wakeBannerBody'),
-    nameModal: document.getElementById('nameModal'),
-    nameInput: document.getElementById('nameInput'),
-    nameStart: document.getElementById('nameStart'),
+    authScreen: document.getElementById('authScreen'),
+    emptyHub: document.getElementById('emptyHub'),
+    hubAdminHint: document.getElementById('hubAdminHint'),
+    appLayout: document.getElementById('appLayout'),
+    githubSignIn: document.getElementById('githubSignIn'),
+    magicSignIn: document.getElementById('magicSignIn'),
+    magicEmail: document.getElementById('magicEmail'),
+    authNote: document.getElementById('authNote'),
+    adminModal: document.getElementById('adminModal'),
+    adminBody: document.getElementById('adminBody'),
+    adminClose: document.getElementById('adminClose'),
     toast: document.getElementById('toast'),
   };
-
-  // Render free-tier cold starts often take 30–60s.
-  var WAKE_SLOW_MS = 2500;
-  var WAKE_PING_TIMEOUT_MS = 55000;
-  var WAKE_MAX_ATTEMPTS = 6;
-  var WAKE_RETRY_GAP_MS = 2000;
-  var wakePromise = null;
-
-  function uid() {
-    return 's-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
-  }
 
   function toast(msg, kind) {
     el.toast.textContent = msg;
@@ -85,7 +88,32 @@
     clearTimeout(toast._t);
     toast._t = setTimeout(function () {
       el.toast.classList.remove('show');
-    }, 2400);
+    }, 2800);
+  }
+
+  function showWake(failed, detail) {
+    if (!el.wakeBanner) return;
+    el.wakeBanner.hidden = false;
+    el.wakeBanner.classList.toggle('is-failed', !!failed);
+    if (el.wakeTitle) {
+      el.wakeTitle.textContent = failed ? 'Database unavailable' : 'Database is starting';
+    }
+    if (el.wakeBody) {
+      el.wakeBody.textContent = detail ||
+        'Please wait a moment and retry. A daily keep-alive workflow resumes a paused free project.';
+    }
+  }
+
+  function hideWake() {
+    if (!el.wakeBanner) return;
+    el.wakeBanner.hidden = true;
+    el.wakeBanner.classList.remove('is-failed');
+  }
+
+  function displayName(user) {
+    if (!user) return '';
+    var meta = user.user_metadata || {};
+    return meta.full_name || meta.name || meta.user_name || user.email || user.id.slice(0, 8);
   }
 
   function setPending(key, action) {
@@ -103,491 +131,21 @@
     return '<span class="btn-spinner" aria-hidden="true"></span><span>' + text + '</span>';
   }
 
-  function isLocalTunnel(base) {
-    return /\.loca\.lt$/i.test(String(base || '').replace(/^https?:\/\//i, '').split('/')[0] || '');
+  function escapeHtml(s) {
+    return String(s || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
   }
 
-  function delay(ms) {
-    return new Promise(function (resolve) { setTimeout(resolve, ms); });
-  }
-
-  function showWakeBanner(opts) {
-    opts = opts || {};
-    if (!el.wakeBanner) return;
-    el.wakeBanner.hidden = false;
-    el.wakeBanner.classList.toggle('is-failed', !!opts.failed);
-    if (el.wakeTitle) {
-      el.wakeTitle.textContent = opts.title || 'Server is waking up';
-    }
-    if (el.wakeBody) {
-      el.wakeBody.textContent = opts.body ||
-        'Please wait up to 1 minute for the server to resume from hibernation.';
-    }
-  }
-
-  function hideWakeBanner() {
-    if (!el.wakeBanner) return;
-    el.wakeBanner.hidden = true;
-    el.wakeBanner.classList.remove('is-failed');
-  }
-
-  function showWakeFailed(detail) {
-    showWakeBanner({
-      failed: true,
-      title: 'API still unavailable',
-      body: detail ||
-        'The review server did not wake in time. Refresh this page to try again, or check that the Render API is up.',
-    });
-  }
-
-  /**
-   * Probe /api/health until the Render service responds (or attempts are exhausted).
-   * Shows a hibernation notice when the first ping is slow, times out, or fails.
-   * Dedupes concurrent callers onto one in-flight wake cycle.
-   */
-  function ensureApiAwake() {
-    if (wakePromise) return wakePromise;
-
-    var attempt = 0;
-    var slowTimer = setTimeout(function () {
-      showWakeBanner();
-    }, WAKE_SLOW_MS);
-
-    function clearSlowTimer() {
-      if (slowTimer) {
-        clearTimeout(slowTimer);
-        slowTimer = null;
-      }
-    }
-
-    function tryPing() {
-      attempt += 1;
-      var started = Date.now();
-      return api('/api/health', {
-        retries: 0,
-        timeoutMs: WAKE_PING_TIMEOUT_MS,
-      }).then(function (data) {
-        var elapsed = Date.now() - started;
-        clearSlowTimer();
-        // Cold start / retries: keep the notice until catalogs finish loading.
-        if (elapsed >= WAKE_SLOW_MS || attempt > 1) {
-          showWakeBanner();
-        }
-        return data;
-      }).catch(function (err) {
-        showWakeBanner();
-        if (attempt >= WAKE_MAX_ATTEMPTS) {
-          clearSlowTimer();
-          throw err;
-        }
-        return delay(WAKE_RETRY_GAP_MS).then(tryPing);
-      });
-    }
-
-    wakePromise = tryPing().catch(function (err) {
-      wakePromise = null;
-      throw err;
-    });
-
-    return wakePromise;
-  }
-
-  function api(path, opts) {
-    opts = opts || {};
-    var headers = Object.assign({
-      'Accept': 'application/json',
-    }, opts.headers || {});
-    // Only for localtunnel — custom header forces CORS preflight; Render must allow it.
-    if (isLocalTunnel(API)) headers['Bypass-Tunnel-Reminder'] = 'true';
-    if (opts.body && !headers['Content-Type']) headers['Content-Type'] = 'application/json';
-
-    var attempts = typeof opts.retries === 'number' ? opts.retries : 2;
-    var timeoutMs = typeof opts.timeoutMs === 'number' ? opts.timeoutMs : 45000;
-
-    function once() {
-      var ctrl = typeof AbortController !== 'undefined' ? new AbortController() : null;
-      var timer = ctrl ? setTimeout(function () { ctrl.abort(); }, timeoutMs) : null;
-      return fetch(API + path, {
-        method: opts.method || 'GET',
-        headers: headers,
-        body: opts.body ? JSON.stringify(opts.body) : undefined,
-        cache: 'no-store',
-        keepalive: !!opts.keepalive,
-        signal: ctrl ? ctrl.signal : undefined,
-      }).then(function (res) {
-        return res.json().catch(function () { return {}; }).then(function (data) {
-          if (!res.ok) {
-            var err = new Error((data && data.error) || ('HTTP ' + res.status));
-            err.status = res.status;
-            err.data = data;
-            throw err;
-          }
-          return data;
-        });
-      }).finally(function () {
-        if (timer) clearTimeout(timer);
-      });
-    }
-
-    function run(left) {
-      return once().catch(function (e) {
-        var retriable = !e.status || e.status >= 500 || e.name === 'AbortError' ||
-          /Failed to fetch|NetworkError|timeout/i.test(String(e.message || e));
-        if (left <= 0 || !retriable) throw e;
-        return new Promise(function (r) { setTimeout(r, 1500); }).then(function () {
-          return run(left - 1);
-        });
-      });
-    }
-
-    return run(attempts);
-  }
-
-  // Debounce GitHub approval commits until a couple of seconds after the last click.
-  var APPROVE_FLUSH_MS = 2500;
-
-  function localApprovalStamp(name) {
-    return {
-      approved: true,
-      by: name || '',
-      at: new Date().toISOString().replace(/\.\d{3}Z$/, 'Z'),
-      _local: true,
-    };
-  }
-
-  function setApprovals(map) {
-    state.approvals = map || {};
-    Object.keys(state.approveQueue).forEach(function (key) {
-      var item = state.approveQueue[key];
-      if (item && item.locale === state.locale && item.entry) {
-        state.approvals[key] = item.entry;
-      }
-    });
-    state.approveHeld.forEach(function (payload) {
-      if (!payload || payload.locale !== state.locale || !payload.entries) return;
-      Object.keys(payload.entries).forEach(function (key) {
-        if (state.approveQueue[key]) return;
-        state.approvals[key] = payload.entries[key];
-      });
-    });
-  }
-
-  function forgetApprovePayload(payload) {
-    state.approveHeld = state.approveHeld.filter(function (item) { return item !== payload; });
-    if (state.approveInflight === payload) state.approveInflight = null;
-  }
-
-  function dropQueuedApprove(key) {
-    var item = state.approveQueue[key];
-    if (!item) return null;
-    delete state.approveQueue[key];
-    if (!Object.keys(state.approveQueue).length && state.approveFlushTimer) {
-      clearTimeout(state.approveFlushTimer);
-      state.approveFlushTimer = null;
-    }
-    return item;
-  }
-
-  function scheduleApproveFlush() {
-    if (state.approveFlushTimer) clearTimeout(state.approveFlushTimer);
-    state.approveFlushTimer = setTimeout(function () {
-      state.approveFlushTimer = null;
-      flushApprovals();
-    }, APPROVE_FLUSH_MS);
-  }
-
-  function drainApproveQueue() {
-    var keys = Object.keys(state.approveQueue);
-    if (!keys.length) return null;
-    var first = state.approveQueue[keys[0]];
-    var locale = first.locale;
-    var batchKeys = keys.filter(function (key) {
-      return state.approveQueue[key] && state.approveQueue[key].locale === locale;
-    });
-    var prevByKey = {};
-    var entries = {};
-    batchKeys.forEach(function (key) {
-      var item = state.approveQueue[key];
-      prevByKey[key] = item.prev;
-      entries[key] = item.entry;
-      delete state.approveQueue[key];
-    });
-    if (Object.keys(state.approveQueue).length) scheduleApproveFlush();
-    return {
-      locale: locale,
-      name: first.name,
-      sessionId: first.sessionId,
-      keys: batchKeys,
-      prevByKey: prevByKey,
-      entries: entries,
-    };
-  }
-
-  function applyApproveSuccess(payload, data) {
-    forgetApprovePayload(payload);
-    if (state.locale !== payload.locale) return;
-    var entries = (data && data.entries) || {};
-    var errors = (data && data.errors) || {};
-    var failedKeys = [];
-    payload.keys.forEach(function (key) {
-      if (state.approveQueue[key]) return;
-      // A miss on one key must not clear or relabel a key that did save.
-      if (errors[key]) {
-        failedKeys.push(key);
-        var prev = payload.prevByKey[key];
-        if (prev) state.approvals[key] = prev;
-        else delete state.approvals[key];
-        state.approveErrors[key] = errors[key];
-        return;
-      }
-      if (entries[key]) state.approvals[key] = entries[key];
-      delete state.approveErrors[key];
-    });
-    renderModules(state.rowsCache);
-    renderRows();
-    if (failedKeys.length === 1) {
-      toast(errors[failedKeys[0]] || 'Approve failed', 'error');
-    } else if (failedKeys.length) {
-      toast('Could not save ' + failedKeys.length + ' approvals', 'error');
-    }
-  }
-
-  function approveRequestBody(payload, key) {
-    var body = {
-      locale: payload.locale,
-      name: payload.name,
-      sessionId: payload.sessionId,
-    };
-    if (key) body.key = key;
-    else body.keys = payload.keys;
-    return body;
-  }
-
-  function approveOne(payload, key) {
-    return api('/api/approve', {
-      method: 'POST',
-      keepalive: true,
-      body: approveRequestBody(payload, key),
-    }).then(function (data) {
-      var entry = data && (data.entry || (data.entries && data.entries[key]));
-      var out = { entries: {}, errors: {} };
-      if (entry) out.entries[key] = entry;
-      return out;
-    }).catch(function (e) {
-      var out = { entries: {}, errors: {} };
-      out.errors[key] = (e && e.message) || 'Approve failed';
-      return out;
-    });
-  }
-
-  // One GitHub commit per key. Used when the batch route is not deployed (HTTP 404)
-  // and when a batch reports per-key misses. Failures stay on that key only.
-  function approveSequential(payload) {
-    var entries = {};
-    var errors = {};
-    var chain = Promise.resolve();
-    payload.keys.forEach(function (key) {
-      chain = chain.then(function () {
-        return approveOne(payload, key).then(function (part) {
-          Object.keys(part.entries).forEach(function (k) { entries[k] = part.entries[k]; });
-          Object.keys(part.errors).forEach(function (k) { errors[k] = part.errors[k]; });
-        });
-      });
-    });
-    return chain.then(function () {
-      return { entries: entries, errors: errors };
-    });
-  }
-
-  function postApprovals(payload) {
-    if (state.approveBatchSupported === false) return approveSequential(payload);
-    return api('/api/approve-batch', {
-      method: 'POST',
-      keepalive: true,
-      body: approveRequestBody(payload),
-    }).then(function (data) {
-      state.approveBatchSupported = true;
-      return {
-        entries: (data && data.entries) || {},
-        errors: (data && data.errors) || {},
-      };
-    }).catch(function (e) {
-      if (e && e.status === 404) {
-        state.approveBatchSupported = false;
-        return approveSequential(payload);
-      }
-      throw e;
-    });
-  }
-
-  function applyApproveFailure(payload, err) {
-    forgetApprovePayload(payload);
-    var msg = (err && err.message) || 'Approve failed';
-    if (state.locale === payload.locale) {
-      payload.keys.forEach(function (key) {
-        if (state.approveQueue[key]) return;
-        var prev = payload.prevByKey[key];
-        if (prev) state.approvals[key] = prev;
-        else delete state.approvals[key];
-        state.approveErrors[key] = msg;
-      });
-      renderModules(state.rowsCache);
-      renderRows();
-    }
-    var n = payload.keys.length;
-    toast(n === 1 ? (msg || 'Approve failed') : ('Could not save ' + n + ' approvals'), 'error');
-  }
-
-  function flushApprovals() {
-    if (state.approveFlushTimer) {
-      clearTimeout(state.approveFlushTimer);
-      state.approveFlushTimer = null;
-    }
-    var payload = drainApproveQueue();
-    if (!payload && !state.approveFlushing) {
-      // A batch can already be queued behind the in-flight request (approveHeld)
-      // in the moment after that request finishes and before the next one starts.
-      if (state.approveHeld.length && state.approveFlushPromise) return state.approveFlushPromise;
-      return Promise.resolve();
-    }
-    if (!payload) return state.approveFlushPromise || Promise.resolve();
-
-    state.approveHeld.push(payload);
-    var run = function () {
-      state.approveFlushing = true;
-      state.approveInflight = payload;
-      return postApprovals(payload).then(function (data) {
-        applyApproveSuccess(payload, data);
-      }).catch(function (e) {
-        applyApproveFailure(payload, e);
-      }).finally(function () {
-        state.approveFlushing = false;
-        forgetApprovePayload(payload);
-      });
-    };
-
-    if (state.approveFlushing && state.approveFlushPromise) {
-      state.approveFlushPromise = state.approveFlushPromise.then(run, run);
-    } else {
-      state.approveFlushPromise = run();
-    }
-    return state.approveFlushPromise;
-  }
-
-  function settleApproveQueue() {
-    function step() {
-      if (!Object.keys(state.approveQueue).length && !state.approveFlushing && !state.approveHeld.length) {
-        return Promise.resolve();
-      }
-      return flushApprovals().then(step);
-    }
-    return step();
-  }
-
-  function beaconQueuedApprovals() {
-    if (state.approveFlushTimer) {
-      clearTimeout(state.approveFlushTimer);
-      state.approveFlushTimer = null;
-    }
-    var payload = drainApproveQueue();
-    if (!payload) return false;
-    // Until a batch save has succeeded, unload uses the single-key route that
-    // the deployed API already has. sendBeacon cannot see a 404 and fall back.
-    var useBatch = state.approveBatchSupported === true;
-    function beaconJson(path, obj) {
-      var raw = JSON.stringify(obj);
-      var sent = false;
-      try {
-        if (navigator.sendBeacon) {
-          sent = navigator.sendBeacon(
-            API + path,
-            new Blob([raw], { type: 'text/plain;charset=UTF-8' })
-          );
-        }
-      } catch (e) {
-        sent = false;
-      }
-      if (!sent) {
-        try {
-          fetch(API + path, {
-            method: 'POST',
-            headers: { 'Content-Type': 'text/plain;charset=UTF-8', 'Accept': 'application/json' },
-            body: raw,
-            keepalive: true,
-            mode: 'cors',
-          });
-        } catch (e2) { /* best effort */ }
-      }
-    }
-    if (useBatch) {
-      beaconJson('/api/approve-batch', approveRequestBody(payload));
-    } else {
-      payload.keys.forEach(function (key) {
-        beaconJson('/api/approve', approveRequestBody(payload, key));
-      });
-    }
-    return true;
-  }
-
-  function beaconReleaseLock() {
-    try {
-      navigator.sendBeacon(
-        API + '/api/lock/release',
-        new Blob([JSON.stringify({
-          locale: state.locale,
-          name: state.name,
-          sessionId: state.sessionId,
-        })], { type: 'application/json' })
-      );
-    } catch (e) { /* ignore */ }
-  }
-
-  function leafText(node) {
-    if (node == null) return '';
-    if (typeof node === 'string') return node;
-    if (typeof node === 'object' && typeof node.text === 'string') return node.text;
-    return '';
-  }
-
-  function leafNote(node) {
-    if (node && typeof node === 'object' && node.note) return String(node.note);
-    return '';
-  }
-
-  function isLeafEntry(v) {
-    // Catalog leaf = { text: string, note?: string }. Nested groups that
-    // contain a `text` child (scenarios with ok/bad, etc.) must be walked.
-    if (!v || typeof v !== 'object' || Array.isArray(v)) return false;
-    if (typeof v.text !== 'string') return false;
-    return Object.keys(v).every(function (k) { return k === 'text' || k === 'note'; });
-  }
-
-  function walk(obj, prefix, out) {
-    // Arrays are walked by index (links.act.items.0.text); a string `note`
-    // beside other fields is a translator note, not a learner string.
-    if (!obj || typeof obj !== 'object') return;
-    Object.keys(obj).forEach(function (k) {
-      if (k.charAt(0) === '_') return;
-      var path = prefix ? prefix + '.' + k : k;
-      var v = obj[k];
-      if (isLeafEntry(v)) {
-        out.push({ key: path, text: leafText(v), note: leafNote(v) });
-      } else if (v && typeof v === 'object') {
-        walk(v, path, out);
-      } else if (typeof v === 'string' && k !== 'note') {
-        out.push({ key: path, text: v, note: '' });
-      }
-    });
-  }
-
-  function getByPath(root, key) {
-    var cur = root;
-    var parts = key.split('.');
-    for (var i = 0; i < parts.length; i++) {
-      if (!cur || typeof cur !== 'object') return null;
-      cur = cur[parts[i]];
-    }
-    return cur;
+  function isUrlOnlyString(key, text) {
+    var k = String(key || '');
+    if (/\.(url|href|image)$/i.test(k)) return true;
+    var plain = window.UAOAMarkup
+      ? window.UAOAMarkup.plainText(text || '').trim()
+      : String(text || '').replace(/<[^>]+>/g, '').trim();
+    return /^https?:\/\/\S+$/i.test(plain);
   }
 
   function moduleOf(key) {
@@ -601,25 +159,8 @@
     return parts.slice(0, 2).join('.');
   }
 
-  function isUrlOnlyString(key, text) {
-    var k = String(key || '');
-    if (/\.(url|href|image)$/i.test(k)) return true;
-    var plain = window.UAOAMarkup
-      ? window.UAOAMarkup.plainText(text || '').trim()
-      : String(text || '').replace(/<[^>]+>/g, '').trim();
-    return /^https?:\/\/\S+$/i.test(plain);
-  }
-
-  function flattenEn() {
-    var out = [];
-    walk(state.en, '', out);
-    // URLs / media paths are not translated — omit from the review list.
-    return out.filter(function (r) { return !isUrlOnlyString(r.key, r.text); });
-  }
-
-  /** Sticky approval: valid only while EN source fingerprint still matches. */
   function approvalEntry(key) {
-    return state.approvals[key] || null;
+    return state.translations[key] || null;
   }
 
   function isApproved(key) {
@@ -644,115 +185,42 @@
     }
   }
 
-  /** Approved stamp: by + at. Optional Unapprove when canEdit. */
-  function makeStamp(entry, opts) {
-    opts = opts || {};
-    var stamp = document.createElement('div');
-    stamp.className = 'approval-stamp';
-    stamp.setAttribute('role', 'status');
-
-    var mark = document.createElement('div');
-    mark.className = 'approval-stamp-mark';
-    mark.textContent = 'Approved';
-    stamp.appendChild(mark);
-
-    var meta = document.createElement('div');
-    meta.className = 'approval-stamp-meta';
-    var by = (entry && entry.by) || '—';
-    var at = formatStampAt(entry && entry.at);
-    meta.innerHTML =
-      '<span class="approval-stamp-by">by ' + escapeHtml(by) + '</span>' +
-      (at ? '<span class="approval-stamp-at">' + escapeHtml(at) + '</span>' : '');
-    stamp.appendChild(meta);
-
-    if (opts.canUnapprove && opts.onUnapprove) {
-      var un = document.createElement('button');
-      un.type = 'button';
-      un.className = 'btn-stamp-unapprove' + (opts.pending ? ' is-busy' : '');
-      un.innerHTML = btnLabel(opts.pending ? '…' : 'Unapprove', !!opts.pending);
-      un.disabled = !!opts.pending || !!opts.disabled;
-      un.setAttribute('aria-busy', opts.pending ? 'true' : 'false');
-      un.title = 'Clear approval for this string';
-      un.addEventListener('click', function () {
-        if (state.pendingKey) return;
-        opts.onUnapprove();
+  function rebuildRowsCache() {
+    state.rowsCache = state.sourceRows
+      .filter(function (r) { return !isUrlOnlyString(r.key, r.text); })
+      .map(function (r) {
+        return { key: r.key, text: r.text, note: r.note || '', previous_text: r.previous_text || null };
       });
-      stamp.appendChild(un);
-    }
-    return stamp;
   }
 
-  function escapeHtml(s) {
-    return String(s || '')
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
-  }
-
-  function makeEditButton(key, disabled) {
-    var edit = document.createElement('button');
-    edit.type = 'button';
-    edit.className = 'btn btn-edit';
-    edit.textContent = 'Edit';
-    edit.disabled = !!disabled;
-    edit.addEventListener('click', function () {
-      if (state.pendingKey) return;
-      state.editingKey = key;
-      state.editingDraft = null;
-      state.editingDraftKey = null;
-      renderRows();
-      var ta = document.getElementById('edit-' + key);
-      if (ta) ta.focus();
-    });
-    return edit;
-  }
-
-  function makeApproveButton(key, stale) {
-    var approve = document.createElement('button');
-    approve.type = 'button';
-    approve.className = 'btn btn-approve';
-    approve.textContent = stale ? 'Re-approve' : 'Approve';
-    approve.addEventListener('click', function () {
-      approveKey(key);
-    });
-    return approve;
-  }
-
-  function ensureSession() {
-    if (!state.sessionId) {
-      state.sessionId = uid();
-      sessionStorage.setItem('uaoa.sessionId', state.sessionId);
-    }
+  function projectFromUrl() {
+    return new URLSearchParams(location.search).get('project') || '';
   }
 
   function localeFromUrl() {
-    var q = new URLSearchParams(location.search);
-    return (q.get('locale') || LOCALES[0] && LOCALES[0].code || 'es').toLowerCase();
+    return (new URLSearchParams(location.search).get('locale') || '').toLowerCase();
   }
 
-  function setUrlLocale(code) {
+  function setUrlParams(projectSlug, locale) {
     var u = new URL(location.href);
-    u.searchParams.set('locale', code);
+    if (projectSlug) u.searchParams.set('project', projectSlug);
+    else u.searchParams.delete('project');
+    if (locale) u.searchParams.set('locale', locale);
+    else u.searchParams.delete('locale');
     history.replaceState(null, '', u.toString());
   }
 
-  function fillLocaleSelect() {
-    el.localeSelect.innerHTML = '';
-    LOCALES.forEach(function (loc) {
-      var opt = document.createElement('option');
-      opt.value = loc.code;
-      opt.textContent = loc.label + ' (' + loc.code + ')';
-      el.localeSelect.appendChild(opt);
-    });
-  }
-
   function updateChrome() {
-    el.reviewerPill.textContent = state.name ? ('Reviewer: ' + state.name) : 'Reviewer…';
+    el.reviewerPill.textContent = state.user
+      ? ('Signed in: ' + displayName(state.user))
+      : 'Signed out';
+    el.signOutBtn.hidden = !state.user;
+
     var lock = state.lock;
-    var mine = !!(lock && lock.sessionId === state.sessionId);
+    var mine = !!(lock && state.user && lock.holder_id === state.user.id);
     var free = !lock;
 
+    el.lockPill.hidden = !state.project || !state.locale;
     if (free) {
       el.lockPill.textContent = 'Locale available';
       el.lockPill.className = 'pill ok';
@@ -760,31 +228,25 @@
       el.lockPill.textContent = 'Under review by you';
       el.lockPill.className = 'pill ok';
     } else {
-      el.lockPill.textContent = 'In use by ' + (lock.holder || 'someone');
+      el.lockPill.textContent = 'In use by ' + (lock.holder_name || 'someone');
       el.lockPill.className = 'pill busy';
     }
 
-    // Release only while you hold the lease. Start Review stays visible once named:
-    // enabled (primary) when free; disabled gray when you hold or someone else does.
     el.releaseBtn.hidden = !(state.canEdit && mine);
-    el.checkoutBtn.hidden = !state.name;
-
-    var checkoutHeldByMe = !!(state.canEdit && mine);
-    var checkoutBlocked = !free; // mine or someone else
-    el.checkoutBtn.disabled = checkoutBlocked || !state.name;
-    el.checkoutBtn.classList.toggle('is-held', checkoutHeldByMe);
+    el.checkoutBtn.hidden = !state.user || !state.project || !state.locale;
+    var checkoutBlocked = !free;
+    el.checkoutBtn.disabled = checkoutBlocked || !state.user;
+    el.checkoutBtn.classList.toggle('is-held', !!(state.canEdit && mine));
     el.checkoutBtn.classList.toggle('is-busy-other', !!(lock && !mine));
-    el.checkoutBtn.classList.toggle('btn-approve', free && !!state.name);
-    el.checkoutBtn.classList.toggle('btn-ghost', !free || !state.name);
-    if (checkoutHeldByMe) {
-      el.checkoutBtn.title = 'Checked out by you';
-      el.checkoutBtn.setAttribute('aria-label', 'Checked out by you');
-    } else if (lock && !mine) {
-      el.checkoutBtn.title = 'Cannot begin review since locked by ' + (lock.holder || 'someone else');
-      el.checkoutBtn.setAttribute('aria-label', 'Cannot begin review since locked by someone else');
-    } else {
-      el.checkoutBtn.title = 'Start Review to claim this locale and approve or edit';
-      el.checkoutBtn.setAttribute('aria-label', 'Start Review');
+    el.checkoutBtn.classList.toggle('btn-approve', free && !!state.user);
+    el.checkoutBtn.classList.toggle('btn-ghost', !free || !state.user);
+
+    el.adminBtn.hidden = !(state.isAdmin || state.hubAdmin);
+    el.downloadBtn.hidden = !(state.isAdmin || state.hubAdmin) || !state.project;
+
+    if (!state.project || !state.locale) {
+      el.banner.hidden = true;
+      return;
     }
 
     if (!state.canEdit) {
@@ -792,14 +254,12 @@
       el.banner.className = 'banner';
       if (lock && !mine) {
         el.banner.textContent = 'Cannot begin review since locked by ' +
-          (lock.holder || 'someone else') +
+          (lock.holder_name || 'someone else') +
           ' until ' +
           (lock.until ? new Date(lock.until).toLocaleString() : 'later') +
           '. You can browse in read-only mode.';
-      } else if (free) {
-        el.banner.textContent = 'View only — press Start Review to claim this locale and approve or edit.';
       } else {
-        el.banner.textContent = 'Read-only — could not check out this locale. Try again or pick another language.';
+        el.banner.textContent = 'View only — press Start Review to claim this locale and approve or edit.';
       }
     } else {
       el.banner.hidden = false;
@@ -846,7 +306,7 @@
     return state.rowsCache.filter(function (r) {
       if (moduleOf(r.key) !== state.module) return false;
       if (!q) return true;
-      var tr = leafText(getByPath(state.tr, r.key));
+      var tr = (state.translations[r.key] && state.translations[r.key].text) || '';
       var enPlain = window.UAOAMarkup ? window.UAOAMarkup.plainText(r.text) : r.text;
       var trPlain = window.UAOAMarkup ? window.UAOAMarkup.plainText(tr) : tr;
       return (r.key + ' ' + enPlain + ' ' + trPlain + ' ' + r.note).toLowerCase().indexOf(q) !== -1;
@@ -865,185 +325,45 @@
     state.editingDraftKey = state.editingKey;
   }
 
-  function renderRows() {
-    snapshotEditDraft();
-    var rows = filteredRows();
-    var approved = rows.filter(function (r) { return isApproved(r.key); }).length;
-    var stale = rows.filter(function (r) { return isStale(r.key); }).length;
-    el.stats.textContent = (MODULE_LABELS[state.module] || state.module) +
-      ' · ' + rows.length + ' strings · ' + approved + ' approved' +
-      (stale ? ' · ' + stale + ' stale' : '');
-
-    if (!rows.length) {
-      el.rows.innerHTML = '<div class="empty">No strings in this module' +
-        (state.filter ? ' match your filter' : '') + '.</div>';
-      return;
-    }
-
-    var groups = {};
-    var order = [];
-    rows.forEach(function (r) {
-      var w = widgetOf(r.key);
-      if (!groups[w]) { groups[w] = []; order.push(w); }
-      groups[w].push(r);
-    });
-
-    el.rows.innerHTML = '';
-    order.forEach(function (w) {
-      var block = document.createElement('section');
-      block.className = 'widget-block';
-      var head = document.createElement('header');
-      head.textContent = w;
-      block.appendChild(head);
-
-      groups[w].forEach(function (r) {
-        block.appendChild(renderRow(r));
-      });
-      el.rows.appendChild(block);
-    });
-  }
-
-  function renderRow(r) {
-    var approved = isApproved(r.key);
-    var stale = isStale(r.key);
-    var editing = state.editingKey === r.key;
-    var pending = state.pendingKey === r.key;
-    var pendingSave = pending && state.pendingAction === 'save';
-    var pendingUnlock = pending && state.pendingAction === 'unapprove';
-    var saveError = state.approveErrors[r.key] || '';
-    var trText = leafText(getByPath(state.tr, r.key));
-    if (editing && state.editingDraft != null && state.editingDraftKey === r.key) {
-      trText = state.editingDraft;
-    }
-
-    var row = document.createElement('article');
-    row.className = 'row' +
-      (pending ? ' is-pending' : '') +
-      (stale ? ' is-stale' : '') +
-      (saveError && !approved ? ' is-save-failed' : '');
-    row.dataset.key = r.key;
-
-    var keyEl = document.createElement('div');
-    keyEl.className = 'key';
-    keyEl.textContent = r.key;
-    row.appendChild(keyEl);
-
-    if (r.note) {
-      var note = document.createElement('p');
-      note.className = 'note';
-      note.textContent = r.note;
-      row.appendChild(note);
-    }
-
-    var left = document.createElement('div');
-    left.innerHTML = '<div class="panel-label">English</div>';
-    var enBox = document.createElement('div');
-    enBox.className = 'en-box';
-    if (window.UAOAMarkup) window.UAOAMarkup.mountPreview(enBox, r.text);
-    else enBox.textContent = r.text;
-    left.appendChild(enBox);
-    row.appendChild(left);
-
-    var right = document.createElement('div');
-    right.innerHTML = '<div class="panel-label">Translation (' + state.locale + ')</div>';
-    var trBox;
-    if (editing) {
-      trBox = buildSegmentEditor(r.text, trText, pendingSave);
-      trBox.id = 'edit-' + r.key;
-    } else {
-      trBox = document.createElement('div');
-      trBox.className = 'tr-box' + (approved ? ' locked' : '');
-      if (window.UAOAMarkup) window.UAOAMarkup.mountPreview(trBox, trText);
-      else trBox.textContent = trText || '—';
-    }
-    right.appendChild(trBox);
-    row.appendChild(right);
-
-    var actions = document.createElement('div');
-    actions.className = 'actions';
-    var entry = approvalEntry(r.key);
-
-    if (!state.canEdit) {
-      // View-only: stamp if approved; never stamp when stale; else Read-only.
-      if (approved) {
-        actions.appendChild(makeStamp(entry, { canUnapprove: false }));
-      } else if (stale) {
-        var staleRo = document.createElement('span');
-        staleRo.className = 'pill busy';
-        staleRo.title = 'English source changed since this string was approved';
-        staleRo.textContent = 'Source updated — re-approve';
-        actions.appendChild(staleRo);
-      } else {
-        var ro = document.createElement('span');
-        ro.className = 'pill ro';
-        ro.textContent = 'Read-only';
-        actions.appendChild(ro);
-      }
-    } else if (editing) {
-      // Edit mode: hide stamp; Save / Cancel only. Cancel restores stamp if still approved.
-      var save = document.createElement('button');
-      save.type = 'button';
-      save.className = 'btn btn-save' + (pendingSave ? ' is-busy' : '');
-      save.innerHTML = btnLabel(pendingSave ? 'Saving…' : 'Save', pendingSave);
-      save.disabled = pendingSave;
-      save.setAttribute('aria-busy', pendingSave ? 'true' : 'false');
-      save.addEventListener('click', function () {
+  function makeStamp(entry, opts) {
+    opts = opts || {};
+    var stamp = document.createElement('div');
+    stamp.className = 'approval-stamp';
+    stamp.setAttribute('role', 'status');
+    var mark = document.createElement('div');
+    mark.className = 'approval-stamp-mark';
+    mark.textContent = 'Approved';
+    stamp.appendChild(mark);
+    var meta = document.createElement('div');
+    meta.className = 'approval-stamp-meta';
+    var by = entry && entry.approved_by
+      ? 'reviewer'
+      : (entry && entry.approved_at && !entry.approved_by ? 'initial import' : '—');
+    var at = formatStampAt(entry && entry.approved_at);
+    meta.innerHTML =
+      '<span class="approval-stamp-by">by ' + escapeHtml(by) + '</span>' +
+      (at ? '<span class="approval-stamp-at">' + escapeHtml(at) + '</span>' : '');
+    stamp.appendChild(meta);
+    if (opts.canUnapprove && opts.onUnapprove) {
+      var un = document.createElement('button');
+      un.type = 'button';
+      un.className = 'btn-stamp-unapprove' + (opts.pending ? ' is-busy' : '');
+      un.innerHTML = btnLabel(opts.pending ? '…' : 'Unapprove', !!opts.pending);
+      un.disabled = !!opts.pending || !!opts.disabled;
+      un.addEventListener('click', function () {
         if (state.pendingKey) return;
-        var next = window.UAOAMarkup ? window.UAOAMarkup.readEditor(trBox) : trBox.value;
-        saveEdit(r.key, next);
+        opts.onUnapprove();
       });
-      var cancel = document.createElement('button');
-      cancel.type = 'button';
-      cancel.className = 'btn btn-cancel';
-      cancel.textContent = 'Cancel';
-      cancel.disabled = pendingSave;
-      cancel.addEventListener('click', function () {
-        if (state.pendingKey) return;
-        state.editingKey = null;
-        state.editingDraft = null;
-        state.editingDraftKey = null;
-        renderRows();
-      });
-      actions.appendChild(save);
-      actions.appendChild(cancel);
-    } else if (approved) {
-      // Stamp + Edit (+ Unapprove on stamp). Edit hides stamp until Cancel/Save.
-      actions.appendChild(makeStamp(entry, {
-        canUnapprove: true,
-        pending: pendingUnlock,
-        disabled: pendingUnlock,
-        onUnapprove: function () { unapprove(r.key); },
-      }));
-      actions.appendChild(makeEditButton(r.key, pendingUnlock));
-    } else {
-      // Not approved: stale banner never uses a stamp; Approve (+ Edit).
-      if (stale) {
-        var stalePill = document.createElement('span');
-        stalePill.className = 'pill busy';
-        stalePill.title = 'English source changed since this string was approved — re-approve after review';
-        stalePill.textContent = 'Source updated — re-approve';
-        actions.appendChild(stalePill);
-      }
-      actions.appendChild(makeApproveButton(r.key, stale));
-      actions.appendChild(makeEditButton(r.key, false));
+      stamp.appendChild(un);
     }
-
-    row.appendChild(actions);
-    if (saveError && state.canEdit && !editing && !approved) {
-      var errEl = document.createElement('p');
-      errEl.className = 'row-save-error';
-      errEl.setAttribute('role', 'alert');
-      errEl.textContent = 'Did not save (' + saveError + '). Press Approve to retry.';
-      row.appendChild(errEl);
-    }
-    return row;
+    return stamp;
   }
 
   function buildSegmentEditor(enText, locText, disabled) {
     var aligned = window.UAOAMarkup
       ? window.UAOAMarkup.alignLocaleSegments(enText, locText)
       : { segments: [locText || ''], markup: '', hints: [], collapsed: false };
-    if (!aligned.markup) {
+    if (!aligned.markup || (state.project && !state.project.rich_text)) {
       var plain = document.createElement('textarea');
       plain.className = 'tr-box editable' + (disabled ? ' is-busy' : '');
       plain.value = locText || '';
@@ -1076,95 +396,322 @@
     return box;
   }
 
-  function setByPathLocal(root, key, text) {
-    var parts = key.split('.');
-    var cur = root;
-    for (var i = 0; i < parts.length - 1; i++) {
-      var p = parts[i];
-      if (Array.isArray(cur[p])) { cur = cur[p]; continue; }
-      if (!cur[p] || typeof cur[p] !== 'object' || ('text' in cur[p] && Object.keys(cur[p]).every(function (k) {
-        return k === 'text' || k === 'note';
-      }))) {
-        cur[p] = {};
-      }
-      cur = cur[p];
+  function renderRow(r) {
+    var approved = isApproved(r.key);
+    var stale = isStale(r.key);
+    var editing = state.editingKey === r.key;
+    var pending = state.pendingKey === r.key;
+    var pendingSave = pending && state.pendingAction === 'save';
+    var pendingUnlock = pending && state.pendingAction === 'unapprove';
+    var saveError = state.approveErrors[r.key] || '';
+    var trEntry = state.translations[r.key];
+    var trText = (trEntry && trEntry.text) || '';
+    if (editing && state.editingDraft != null && state.editingDraftKey === r.key) {
+      trText = state.editingDraft;
     }
-    var leaf = parts[parts.length - 1];
-    var existing = cur[leaf];
-    if (typeof existing === 'string') {
-      cur[leaf] = text;
-    } else if (existing && typeof existing === 'object' && 'text' in existing) {
-      cur[leaf] = Object.assign({}, existing, { text: text });
+
+    var row = document.createElement('article');
+    row.className = 'row' +
+      (pending ? ' is-pending' : '') +
+      (stale ? ' is-stale' : '') +
+      (saveError && !approved ? ' is-save-failed' : '');
+    row.dataset.key = r.key;
+
+    var keyEl = document.createElement('div');
+    keyEl.className = 'key';
+    keyEl.textContent = r.key;
+    row.appendChild(keyEl);
+
+    if (r.note) {
+      var note = document.createElement('p');
+      note.className = 'note';
+      note.textContent = r.note;
+      row.appendChild(note);
+    }
+
+    if (stale && r.previous_text != null) {
+      var diff = document.createElement('div');
+      diff.className = 'en-diff';
+      diff.innerHTML =
+        '<div class="panel-label">English changed</div>' +
+        '<div class="en-diff-old"><span class="diff-label">Was</span></div>' +
+        '<div class="en-diff-new"><span class="diff-label">Now</span></div>';
+      var oldBox = document.createElement('div');
+      oldBox.className = 'en-box muted';
+      if (window.UAOAMarkup) window.UAOAMarkup.mountPreview(oldBox, r.previous_text);
+      else oldBox.textContent = r.previous_text;
+      var newBox = document.createElement('div');
+      newBox.className = 'en-box';
+      if (window.UAOAMarkup) window.UAOAMarkup.mountPreview(newBox, r.text);
+      else newBox.textContent = r.text;
+      diff.querySelector('.en-diff-old').appendChild(oldBox);
+      diff.querySelector('.en-diff-new').appendChild(newBox);
+      var hint = document.createElement('p');
+      hint.className = 'note';
+      hint.textContent = 'Only the changed English must be re-approved. The translation below is unchanged until you edit it.';
+      diff.appendChild(hint);
+      row.appendChild(diff);
     } else {
-      cur[leaf] = { text: text };
+      var left = document.createElement('div');
+      left.innerHTML = '<div class="panel-label">English</div>';
+      var enBox = document.createElement('div');
+      enBox.className = 'en-box';
+      if (window.UAOAMarkup) window.UAOAMarkup.mountPreview(enBox, r.text);
+      else enBox.textContent = r.text;
+      left.appendChild(enBox);
+      row.appendChild(left);
     }
+
+    var right = document.createElement('div');
+    right.innerHTML = '<div class="panel-label">Translation (' + state.locale + ')</div>';
+    var trBox;
+    if (editing) {
+      trBox = buildSegmentEditor(r.text, trText, pendingSave);
+      trBox.id = 'edit-' + r.key;
+    } else {
+      trBox = document.createElement('div');
+      trBox.className = 'tr-box' + (approved ? ' locked' : '');
+      if (window.UAOAMarkup) window.UAOAMarkup.mountPreview(trBox, trText);
+      else trBox.textContent = trText || '—';
+    }
+    right.appendChild(trBox);
+    row.appendChild(right);
+
+    var actions = document.createElement('div');
+    actions.className = 'actions';
+    var entry = approvalEntry(r.key);
+
+    if (!state.canEdit) {
+      if (approved) {
+        actions.appendChild(makeStamp(entry, { canUnapprove: false }));
+      } else if (stale) {
+        var staleRo = document.createElement('span');
+        staleRo.className = 'pill busy';
+        staleRo.textContent = 'Source updated — re-approve';
+        actions.appendChild(staleRo);
+      } else {
+        var ro = document.createElement('span');
+        ro.className = 'pill ro';
+        ro.textContent = 'Read-only';
+        actions.appendChild(ro);
+      }
+    } else if (editing) {
+      var save = document.createElement('button');
+      save.type = 'button';
+      save.className = 'btn btn-save' + (pendingSave ? ' is-busy' : '');
+      save.innerHTML = btnLabel(pendingSave ? 'Saving…' : 'Save', pendingSave);
+      save.disabled = pendingSave;
+      save.addEventListener('click', function () {
+        if (state.pendingKey) return;
+        var next = window.UAOAMarkup && typeof trBox._markup === 'string'
+          ? window.UAOAMarkup.readEditor(trBox)
+          : trBox.value;
+        saveEdit(r.key, next);
+      });
+      var cancel = document.createElement('button');
+      cancel.type = 'button';
+      cancel.className = 'btn btn-cancel';
+      cancel.textContent = 'Cancel';
+      cancel.disabled = pendingSave;
+      cancel.addEventListener('click', function () {
+        if (state.pendingKey) return;
+        state.editingKey = null;
+        state.editingDraft = null;
+        state.editingDraftKey = null;
+        renderRows();
+      });
+      actions.appendChild(save);
+      actions.appendChild(cancel);
+    } else if (approved) {
+      actions.appendChild(makeStamp(entry, {
+        canUnapprove: true,
+        pending: pendingUnlock,
+        disabled: pendingUnlock,
+        onUnapprove: function () { unapprove(r.key); },
+      }));
+      actions.appendChild(makeEditButton(r.key, pendingUnlock));
+    } else {
+      if (stale) {
+        var stalePill = document.createElement('span');
+        stalePill.className = 'pill busy';
+        stalePill.textContent = 'Source updated — re-approve';
+        actions.appendChild(stalePill);
+      }
+      actions.appendChild(makeApproveButton(r.key, stale));
+      actions.appendChild(makeEditButton(r.key, false));
+    }
+
+    row.appendChild(actions);
+    if (saveError && state.canEdit && !editing && !approved) {
+      var errEl = document.createElement('p');
+      errEl.className = 'row-save-error';
+      errEl.setAttribute('role', 'alert');
+      errEl.textContent = 'Did not save (' + saveError + '). Press Approve to retry.';
+      row.appendChild(errEl);
+    }
+    return row;
   }
 
-  function priorApproval(key) {
-    if (state.approveQueue[key]) return state.approveQueue[key].prev;
-    var saw = false;
-    var found = null;
-    state.approveHeld.forEach(function (payload) {
-      if (!payload || !payload.prevByKey) return;
-      if (!Object.prototype.hasOwnProperty.call(payload.prevByKey, key)) return;
-      saw = true;
-      found = payload.prevByKey[key];
+  function makeEditButton(key, disabled) {
+    var edit = document.createElement('button');
+    edit.type = 'button';
+    edit.className = 'btn btn-edit';
+    edit.textContent = 'Edit';
+    edit.disabled = !!disabled;
+    edit.addEventListener('click', function () {
+      if (state.pendingKey) return;
+      state.editingKey = key;
+      state.editingDraft = null;
+      state.editingDraftKey = null;
+      renderRows();
     });
-    if (saw) return found;
-    var current = state.approvals[key];
-    if (current && current._local) return null;
-    return current ? Object.assign({}, current) : null;
+    return edit;
+  }
+
+  function makeApproveButton(key, stale) {
+    var approve = document.createElement('button');
+    approve.type = 'button';
+    approve.className = 'btn btn-approve';
+    approve.textContent = stale ? 'Re-approve' : 'Approve';
+    approve.addEventListener('click', function () { approveKey(key); });
+    return approve;
+  }
+
+  function renderRows() {
+    snapshotEditDraft();
+    var rows = filteredRows();
+    var approved = rows.filter(function (r) { return isApproved(r.key); }).length;
+    var stale = rows.filter(function (r) { return isStale(r.key); }).length;
+    el.stats.textContent = (MODULE_LABELS[state.module] || state.module) +
+      ' · ' + rows.length + ' strings · ' + approved + ' approved' +
+      (stale ? ' · ' + stale + ' stale' : '');
+
+    if (!rows.length) {
+      el.rows.innerHTML = '<div class="empty">No strings in this module' +
+        (state.filter ? ' match your filter' : '') + '.</div>';
+      return;
+    }
+
+    var groups = {};
+    var order = [];
+    rows.forEach(function (r) {
+      var w = widgetOf(r.key);
+      if (!groups[w]) { groups[w] = []; order.push(w); }
+      groups[w].push(r);
+    });
+
+    el.rows.innerHTML = '';
+    order.forEach(function (w) {
+      var block = document.createElement('section');
+      block.className = 'widget-block';
+      var head = document.createElement('header');
+      head.textContent = w;
+      block.appendChild(head);
+      groups[w].forEach(function (r) {
+        block.appendChild(renderRow(r));
+      });
+      el.rows.appendChild(block);
+    });
+  }
+
+  var APPROVE_FLUSH_MS = 2500;
+
+  function scheduleApproveFlush() {
+    clearTimeout(state.approveFlushTimer);
+    state.approveFlushTimer = setTimeout(function () {
+      flushApprovals();
+    }, APPROVE_FLUSH_MS);
   }
 
   function approveKey(key) {
     if (!state.canEdit || !state.locale || !key) return;
     if (state.pendingKey === key) return;
     delete state.approveErrors[key];
-    var prev = priorApproval(key);
-    var entry = localApprovalStamp(state.name);
-    state.approvals[key] = entry;
-    state.approveQueue[key] = {
-      locale: state.locale,
-      name: state.name,
-      sessionId: state.sessionId,
-      entry: entry,
-      prev: prev,
-    };
+    var prev = state.translations[key] ? Object.assign({}, state.translations[key]) : null;
+    var entry = Object.assign({}, state.translations[key] || { key: key, text: '' }, {
+      approved: true,
+      stale: false,
+      approved_at: new Date().toISOString(),
+      approved_by: state.user && state.user.id,
+      _local: true,
+    });
+    state.translations[key] = entry;
+    state.approveQueue[key] = { key: key, prev: prev };
     scheduleApproveFlush();
     renderModules(state.rowsCache);
     renderRows();
   }
 
+  function flushApprovals() {
+    if (state.approveFlushing) return state.approveFlushPromise;
+    var keys = Object.keys(state.approveQueue);
+    if (!keys.length) return Promise.resolve();
+    var payload = {
+      keys: keys,
+      prevByKey: {},
+    };
+    keys.forEach(function (k) {
+      payload.prevByKey[k] = state.approveQueue[k].prev;
+      delete state.approveQueue[k];
+    });
+    state.approveHeld.push(payload);
+    state.approveFlushing = true;
+    state.approveFlushPromise = Hub.approveKeys(state.project.id, state.locale, payload.keys)
+      .then(function (rows) {
+        (rows || []).forEach(function (row) {
+          state.translations[row.key] = row;
+          delete state.approveErrors[row.key];
+        });
+        state.approveHeld = state.approveHeld.filter(function (p) { return p !== payload; });
+        renderModules(state.rowsCache);
+        renderRows();
+      })
+      .catch(function (e) {
+        payload.keys.forEach(function (key) {
+          state.approveErrors[key] = e.message || 'approve failed';
+          if (payload.prevByKey[key]) state.translations[key] = payload.prevByKey[key];
+          else delete state.translations[key];
+        });
+        state.approveHeld = state.approveHeld.filter(function (p) { return p !== payload; });
+        toast(e.message || 'Approve failed', 'error');
+        renderModules(state.rowsCache);
+        renderRows();
+      })
+      .finally(function () {
+        state.approveFlushing = false;
+        state.approveFlushPromise = null;
+        if (Object.keys(state.approveQueue).length) flushApprovals();
+      });
+    return state.approveFlushPromise;
+  }
+
+  function settleApproveQueue() {
+    clearTimeout(state.approveFlushTimer);
+    return flushApprovals().then(function step() {
+      if (state.approveFlushing || state.approveHeld.length || Object.keys(state.approveQueue).length) {
+        return (state.approveFlushPromise || Promise.resolve()).then(step);
+      }
+    });
+  }
+
   function unapprove(key) {
     if (state.pendingKey) return;
-    var queued = dropQueuedApprove(key);
+    delete state.approveQueue[key];
     delete state.approveErrors[key];
-    var inflight = state.approveHeld.some(function (payload) {
-      return payload && payload.keys && payload.keys.indexOf(key) !== -1;
-    });
-    if (queued && !inflight && !queued.prev) {
-      delete state.approvals[key];
-      renderModules(state.rowsCache);
-      renderRows();
-      return;
-    }
-    var wait = inflight ? settleApproveQueue() : Promise.resolve();
     setPending(key, 'unapprove');
     renderRows();
-    wait.then(function () {
-      return api('/api/unapprove', {
-        method: 'POST',
-        body: {
-          locale: state.locale,
-          key: key,
-          name: state.name,
-          sessionId: state.sessionId,
-        },
-      });
-    }).then(function (data) {
-      setApprovals(data.approvals || {});
-      delete state.approvals[key];
-      delete state.approveErrors[key];
+    settleApproveQueue().then(function () {
+      return Hub.unapproveKey(state.project.id, state.locale, key);
+    }).then(function () {
+      if (state.translations[key]) {
+        state.translations[key] = Object.assign({}, state.translations[key], {
+          approved: false,
+          stale: false,
+          approved_by: null,
+          approved_at: null,
+          en_fp: null,
+        });
+      }
       clearPending();
       toast('Unapproved', 'ok');
       renderModules(state.rowsCache);
@@ -1178,37 +725,14 @@
 
   function saveEdit(key, text) {
     if (state.pendingKey) return;
-    dropQueuedApprove(key);
+    delete state.approveQueue[key];
     delete state.approveErrors[key];
-    var inflight = state.approveHeld.some(function (payload) {
-      return payload && payload.keys && payload.keys.indexOf(key) !== -1;
-    });
-    // Keep editingKey so the row stays in edit mode until the request finishes.
-    setByPathLocal(state.tr, key, text);
-    state.editingDraft = text;
-    state.editingDraftKey = key;
     setPending(key, 'save');
     renderRows();
-    var wait = inflight ? settleApproveQueue() : Promise.resolve();
-    wait.then(function () {
-      return api('/api/translation', {
-        method: 'PUT',
-        body: {
-          locale: state.locale,
-          key: key,
-          text: text,
-          name: state.name,
-          sessionId: state.sessionId,
-        },
-      });
-    }).then(function (data) {
-      if (data.catalog) state.tr = data.catalog;
-      else setByPathLocal(state.tr, key, text);
-      // Save clears approval for this key until they Approve again.
-      if (data.approvals) setApprovals(data.approvals);
-      else if (state.approvals[key]) delete state.approvals[key];
-      delete state.approvals[key];
-      delete state.approveErrors[key];
+    settleApproveQueue().then(function () {
+      return Hub.saveTranslation(state.project.id, state.locale, key, text);
+    }).then(function (row) {
+      state.translations[key] = row;
       clearPending();
       state.editingKey = null;
       state.editingDraft = null;
@@ -1224,162 +748,487 @@
   }
 
   function claimLocale() {
-    return api('/api/lock/claim', {
-      method: 'POST',
-      body: {
-        locale: state.locale,
-        name: state.name,
-        sessionId: state.sessionId,
-        minutes: CFG.leaseMinutes || 15,
-      },
-    }).then(function (data) {
-      state.lock = data.lock || null;
-      state.canEdit = !!data.acquired;
-      if (data.approvals) setApprovals(data.approvals);
+    return Hub.claimLease(
+      state.project.id,
+      state.locale,
+      CFG.leaseMinutes || 15,
+      displayName(state.user)
+    ).then(function (lease) {
+      state.lock = lease;
+      state.canEdit = !!(lease && state.user && lease.holder_id === state.user.id);
       updateChrome();
-      return data;
+      return lease;
     });
   }
 
   function releaseLocale() {
-    return api('/api/lock/release', {
-      method: 'POST',
-      body: {
-        locale: state.locale,
-        name: state.name,
-        sessionId: state.sessionId,
-      },
-    }).then(function () {
+    return Hub.releaseLease(state.project.id, state.locale).then(function () {
       state.lock = null;
       state.canEdit = false;
       state.editingKey = null;
       updateChrome();
       toast('Locale released — view only until you check out again.');
-    }).catch(function (e) { toast(e.message || 'Release failed', 'error'); });
+    }).catch(function (e) {
+      toast(e.message || 'Release failed', 'error');
+    });
   }
 
   function heartbeat() {
-    if (!state.canEdit || !state.locale) return;
-    api('/api/lock/heartbeat', {
-      method: 'POST',
-      body: {
-        locale: state.locale,
-        name: state.name,
-        sessionId: state.sessionId,
-        minutes: CFG.leaseMinutes || 15,
-      },
-    }).then(function (data) {
-      if (data.lock) state.lock = data.lock;
-      if (data.acquired === false) {
-        state.canEdit = false;
-        updateChrome();
-        renderRows();
-        toast('Checkout lost — locale taken or expired');
-      }
-    }).catch(function () { /* ignore transient */ });
+    if (!state.canEdit || !state.project || !state.locale) return;
+    Hub.heartbeatLease(state.project.id, state.locale, CFG.leaseMinutes || 15)
+      .then(function (lease) {
+        if (lease) state.lock = lease;
+        if (!lease || (state.user && lease.holder_id !== state.user.id)) {
+          state.canEdit = false;
+          updateChrome();
+          renderRows();
+          toast('Checkout lost — locale taken or expired');
+        }
+      })
+      .catch(function () { /* ignore transient */ });
+  }
+
+  function allowedLocales() {
+    if (state.isAdmin || state.hubAdmin) return state.locales;
+    var langs = (state.membership && state.membership.member_languages) || [];
+    var codes = langs.map(function (l) { return l.locale; });
+    return state.locales.filter(function (l) { return codes.indexOf(l.locale) !== -1; });
+  }
+
+  function fillLocaleSelect() {
+    var allowed = allowedLocales();
+    el.localeSelect.innerHTML = '';
+    allowed.forEach(function (loc) {
+      var opt = document.createElement('option');
+      opt.value = loc.locale;
+      opt.textContent = (loc.label || loc.locale) + ' (' + loc.locale + ')';
+      el.localeSelect.appendChild(opt);
+    });
+    el.localeLabel.hidden = !allowed.length;
+  }
+
+  function fillProjectSelect() {
+    el.projectSelect.innerHTML = '';
+    state.projects.forEach(function (p) {
+      var opt = document.createElement('option');
+      opt.value = p.slug;
+      opt.textContent = p.name;
+      el.projectSelect.appendChild(opt);
+    });
+    el.projectLabel.hidden = !state.projects.length;
   }
 
   function loadLocale(code) {
+    if (!state.project || !code) return Promise.resolve();
     state.locale = code;
     state.editingKey = null;
-    state.editingDraft = null;
-    state.editingDraftKey = null;
     state.approveErrors = {};
-    setUrlLocale(code);
+    setUrlParams(state.project.slug, code);
     el.localeSelect.value = code;
 
-    return ensureApiAwake().then(function () {
-      return Promise.all([
-        api('/api/catalog/en'),
-        api('/api/catalog/' + encodeURIComponent(code)),
-        api('/api/approvals/' + encodeURIComponent(code)),
-        api('/api/lock/' + encodeURIComponent(code)),
-      ]);
-    }).then(function (parts) {
-      state.en = parts[0].catalog;
-      state.tr = parts[1].catalog;
-      setApprovals(parts[2].approvals || {});
-      state.lock = parts[3].lock || null;
-      state.rowsCache = flattenEn();
+    return Promise.all([
+      Hub.loadTranslations(state.project.id, code),
+      Hub.loadLease(state.project.id, code),
+    ]).then(function (parts) {
+      var map = {};
+      (parts[0] || []).forEach(function (row) { map[row.key] = row; });
+      state.translations = map;
+      state.lock = parts[1];
+      state.canEdit = !!(state.lock && state.user && state.lock.holder_id === state.user.id);
+      hideWake();
+      updateChrome();
+      renderModules(state.rowsCache);
+      renderRows();
+    });
+  }
+
+  function loadProject(slug) {
+    var project = state.projects.find(function (p) { return p.slug === slug; }) || state.projects[0];
+    if (!project) {
+      el.appLayout.hidden = true;
+      el.emptyHub.hidden = false;
+      el.hubAdminHint.hidden = !state.hubAdmin;
+      return Promise.resolve();
+    }
+    el.emptyHub.hidden = true;
+    el.appLayout.hidden = false;
+    state.project = project;
+    el.projectSelect.value = project.slug;
+
+    return Promise.all([
+      Hub.getMembership(project.id),
+      Hub.listLocales(project.id),
+      Hub.loadSourceStrings(project.id),
+    ]).then(function (parts) {
+      state.membership = parts[0];
+      state.isAdmin = !!(state.hubAdmin || (parts[0] && parts[0].role === 'admin'));
+      state.locales = parts[1] || [];
+      state.sourceRows = parts[2] || [];
+      rebuildRowsCache();
+      fillLocaleSelect();
+
+      var allowed = allowedLocales();
+      var wanted = localeFromUrl() || (allowed[0] && allowed[0].locale) || '';
+      if (wanted && !allowed.some(function (l) { return l.locale === wanted; })) {
+        wanted = allowed[0] && allowed[0].locale;
+      }
       if (!MODULE_ORDER.includes(state.module) ||
           !state.rowsCache.some(function (r) { return moduleOf(r.key) === state.module; })) {
         state.module = 'common';
       }
-      // Paint catalogs immediately. Checkout is best-effort — a claim/reconcile
-      // failure must not leave the UI blank after sticky-approvals deploy.
-      state.canEdit = !!(state.lock && state.lock.sessionId === state.sessionId);
-      hideWakeBanner();
-      if (el.banner) el.banner.hidden = true;
-      updateChrome();
-      renderModules(state.rowsCache);
-      renderRows();
-      return claimLocale().then(function () {
-        renderRows();
-      }).catch(function (e) {
-        toast(e.message || 'Checkout failed — browsing read-only', 'error');
+      if (!wanted) {
+        state.locale = '';
         updateChrome();
-        renderRows();
-      });
-    }).catch(function (e) {
-      // Likely still cold-starting or network failure — allow a fresh wake cycle.
-      wakePromise = null;
-      var msg = e.message || 'network';
-      var waking = e.name === 'AbortError' ||
-        /Failed to fetch|NetworkError|timeout|abort/i.test(String(msg));
-      if (waking) {
-        showWakeFailed(
-          'Please wait up to 1 minute for the server to resume from hibernation, then refresh. (' + msg + ')'
-        );
-      } else {
-        hideWakeBanner();
-        el.banner.hidden = false;
-        el.banner.className = 'banner';
-        el.banner.textContent = 'API unavailable (' + msg +
-          '). Run python3 api/server.py locally, or host the API (Render) and set config.js apiBase.';
+        el.rows.innerHTML = '<div class="empty">No review locales assigned to you for this project.</div>';
+        return;
       }
-      throw e;
+      return loadLocale(wanted);
     });
   }
 
+  function showSignedOut() {
+    state.user = null;
+    state.projects = [];
+    state.project = null;
+    el.authScreen.hidden = false;
+    el.emptyHub.hidden = true;
+    el.appLayout.hidden = true;
+    el.projectLabel.hidden = true;
+    el.localeLabel.hidden = true;
+    updateChrome();
+  }
+
+  function showSignedIn(user) {
+    state.user = user;
+    el.authScreen.hidden = true;
+    el.signOutBtn.hidden = false;
+    updateChrome();
+
+    return Hub.probeHealth()
+      .then(function () {
+        hideWake();
+        return Hub.acceptInvites();
+      })
+      .then(function () {
+        return Promise.all([Hub.listMyProjects(), Hub.isHubAdmin()]);
+      })
+      .then(function (parts) {
+        state.projects = parts[0] || [];
+        state.hubAdmin = !!parts[1];
+        fillProjectSelect();
+        if (!state.projects.length) {
+          el.appLayout.hidden = true;
+          el.emptyHub.hidden = false;
+          el.hubAdminHint.hidden = !state.hubAdmin;
+          updateChrome();
+          return;
+        }
+        var slug = projectFromUrl() || state.projects[0].slug;
+        return loadProject(slug);
+      })
+      .catch(function (e) {
+        showWake(true, e.message || 'Could not reach Supabase. Retry shortly.');
+        toast(e.message || 'API unavailable', 'error');
+      });
+  }
+
+  function unapprovedCounts() {
+    var counts = {};
+    state.locales.forEach(function (l) { counts[l.locale] = null; });
+    return counts;
+  }
+
+  async function downloadZip() {
+    if (!state.project || !window.JSZip) {
+      toast('JSZip is not loaded', 'error');
+      return;
+    }
+    toast('Building zip…');
+    try {
+      var sources = state.sourceRows;
+      var sourceFlat = {};
+      sources.forEach(function (s) {
+        sourceFlat[s.key] = { text: s.text, note: s.note || '' };
+      });
+      var mode = state.project.rich_text ? 'rich' : 'plain';
+      var zip = new JSZip();
+      var folder = zip.folder('locales');
+      folder.file(
+        state.project.source_locale + '.json',
+        JSON.stringify(Hub.nestFlat(sourceFlat, mode), null, 2) + '\n'
+      );
+
+      var unapproved = {};
+      var localeList = state.locales.slice();
+      for (var i = 0; i < localeList.length; i++) {
+        var code = localeList[i].locale;
+        var rows = await Hub.loadTranslations(state.project.id, code);
+        var flat = {};
+        var open = 0;
+        rows.forEach(function (r) {
+          flat[r.key] = { text: r.text, note: r.note || '' };
+          if (!r.approved || r.stale) open += 1;
+        });
+        Object.keys(sourceFlat).forEach(function (k) {
+          if (!flat[k]) {
+            flat[k] = { text: '', note: '' };
+            open += 1;
+          }
+        });
+        unapproved[code] = open;
+        folder.file(code + '.json', JSON.stringify(Hub.nestFlat(flat, mode), null, 2) + '\n');
+        if (mode === 'plain') {
+          var notes = {};
+          Object.keys(flat).forEach(function (k) {
+            if (flat[k].note) notes[k] = { text: flat[k].note, note: '' };
+          });
+          folder.file(code + '.notes.json', JSON.stringify(Hub.nestFlat(notes, 'plain'), null, 2) + '\n');
+        }
+      }
+
+      var openSummary = Object.keys(unapproved)
+        .map(function (c) { return c + ': ' + unapproved[c] + ' unapproved'; })
+        .join(', ');
+      if (!window.confirm('Download locales zip?\n\n' + (openSummary || 'All approved'))) {
+        return;
+      }
+
+      folder.file('manifest.json', JSON.stringify({
+        project: state.project.slug,
+        versionHash: state.project.head_version_hash,
+        sourceLocale: state.project.source_locale,
+        richText: state.project.rich_text,
+        unapproved: unapproved,
+        exportedAt: new Date().toISOString(),
+      }, null, 2) + '\n');
+
+      var blob = await zip.generateAsync({ type: 'blob' });
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = state.project.slug + '-locales.zip';
+      a.click();
+      URL.revokeObjectURL(a.href);
+      toast('Download started', 'ok');
+    } catch (e) {
+      toast(e.message || 'Download failed', 'error');
+    }
+  }
+
+  function renderAdmin() {
+    var p = state.project;
+    var html = '';
+    if (state.hubAdmin) {
+      html += '<section class="admin-section"><h3>Create project</h3>' +
+        '<label>Slug <input id="newSlug" placeholder="my-site"></label>' +
+        '<label>Name <input id="newName" placeholder="My Site"></label>' +
+        '<label>GitHub repo <input id="newRepo" placeholder="org/repo"></label>' +
+        '<label><input type="checkbox" id="newRich"> Rich text HTML</label>' +
+        '<button type="button" class="btn btn-approve" id="createProjectBtn">Create</button></section>';
+    }
+    if (p) {
+      html += '<section class="admin-section"><h3>' + escapeHtml(p.name) + '</h3>' +
+        '<p class="note">slug: ' + escapeHtml(p.slug) +
+        ' · head: ' + escapeHtml(p.head_version_hash || '(none)') + '</p>' +
+        '<label>GitHub repo <input id="admRepo" value="' + escapeHtml(p.github_repo || '') + '"></label>' +
+        '<label>Branch <input id="admBranch" value="' + escapeHtml(p.github_branch || 'main') + '"></label>' +
+        '<label>Locales path <input id="admPath" value="' + escapeHtml(p.locales_path || 'locales') + '"></label>' +
+        '<label>Locales (comma codes) <input id="admLocales" value="' +
+          escapeHtml(state.locales.map(function (l) { return l.locale; }).join(', ')) + '"></label>' +
+        '<button type="button" class="btn btn-ghost" id="saveProjectBtn">Save project</button>' +
+        '<button type="button" class="btn btn-approve" id="pushRepoBtn">Push to repo</button></section>';
+
+      html += '<section class="admin-section"><h3>Credentials</h3>' +
+        '<button type="button" class="btn btn-ghost" id="rotateSecretBtn">Rotate push secret</button>' +
+        '<label>GitHub token <input id="ghToken" type="password" autocomplete="off" placeholder="fine-grained PAT"></label>' +
+        '<button type="button" class="btn btn-ghost" id="saveTokenBtn">Save GitHub token</button>' +
+        '<pre id="secretOut" class="secret-out" hidden></pre></section>';
+
+      html += '<section class="admin-section"><h3>Invite member</h3>' +
+        '<label>Email <input id="invEmail" type="email"></label>' +
+        '<label>or GitHub login <input id="invGithub"></label>' +
+        '<label>Role <select id="invRole"><option value="reviewer">reviewer</option><option value="admin">admin</option></select></label>' +
+        '<label>Locales <input id="invLocales" placeholder="es, fr"></label>' +
+        '<button type="button" class="btn btn-approve" id="inviteBtn">Invite</button>' +
+        '<div id="inviteList"></div></section>';
+    }
+    el.adminBody.innerHTML = html || '<p>No admin actions available.</p>';
+
+    var createBtn = document.getElementById('createProjectBtn');
+    if (createBtn) {
+      createBtn.addEventListener('click', function () {
+        var slug = (document.getElementById('newSlug').value || '').trim();
+        var name = (document.getElementById('newName').value || '').trim();
+        var repo = (document.getElementById('newRepo').value || '').trim();
+        var rich = document.getElementById('newRich').checked;
+        Hub.createProject({
+          slug: slug,
+          name: name || slug,
+          github_repo: repo || null,
+          rich_text: rich,
+          placeholder_style: 'auto',
+        }).then(function (created) {
+          toast('Project created', 'ok');
+          return Hub.listMyProjects().then(function (list) {
+            state.projects = list;
+            fillProjectSelect();
+            return loadProject(created.slug).then(renderAdmin);
+          });
+        }).catch(function (e) { toast(e.message || 'Create failed', 'error'); });
+      });
+    }
+
+    var saveProjectBtn = document.getElementById('saveProjectBtn');
+    if (saveProjectBtn) {
+      saveProjectBtn.addEventListener('click', function () {
+        var locales = (document.getElementById('admLocales').value || '')
+          .split(',')
+          .map(function (s) { return s.trim(); })
+          .filter(Boolean);
+        Hub.updateProject(p.id, {
+          github_repo: document.getElementById('admRepo').value.trim() || null,
+          github_branch: document.getElementById('admBranch').value.trim() || 'main',
+          locales_path: document.getElementById('admPath').value.trim() || 'locales',
+        }).then(function (updated) {
+          state.project = updated;
+          return Hub.setLocales(p.id, locales);
+        }).then(function () {
+          toast('Project saved', 'ok');
+          return loadProject(p.slug).then(renderAdmin);
+        }).catch(function (e) { toast(e.message || 'Save failed', 'error'); });
+      });
+    }
+
+    var pushBtn = document.getElementById('pushRepoBtn');
+    if (pushBtn) {
+      pushBtn.addEventListener('click', function () {
+        if (!window.confirm('Push current locale files to ' + (p.github_repo || 'repo') + '?')) return;
+        Hub.pushToRepo(p.id).then(function (data) {
+          toast('Pushed to ' + data.repo, 'ok');
+        }).catch(function (e) { toast(e.message || 'Push failed', 'error'); });
+      });
+    }
+
+    var rotateBtn = document.getElementById('rotateSecretBtn');
+    if (rotateBtn) {
+      rotateBtn.addEventListener('click', function () {
+        Hub.rotatePushSecret(p.id).then(function (data) {
+          var out = document.getElementById('secretOut');
+          out.hidden = false;
+          out.textContent = data.pushSecret;
+          toast('Copy the push secret now — it is shown only once', 'ok');
+        }).catch(function (e) { toast(e.message || 'Rotate failed', 'error'); });
+      });
+    }
+
+    var saveTokenBtn = document.getElementById('saveTokenBtn');
+    if (saveTokenBtn) {
+      saveTokenBtn.addEventListener('click', function () {
+        var token = document.getElementById('ghToken').value.trim();
+        Hub.setGithubToken(p.id, token).then(function () {
+          document.getElementById('ghToken').value = '';
+          toast('GitHub token saved', 'ok');
+        }).catch(function (e) { toast(e.message || 'Token save failed', 'error'); });
+      });
+    }
+
+    var inviteBtn = document.getElementById('inviteBtn');
+    if (inviteBtn) {
+      inviteBtn.addEventListener('click', function () {
+        var locales = (document.getElementById('invLocales').value || '')
+          .split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+        Hub.createInvite(p.id, {
+          email: document.getElementById('invEmail').value.trim() || null,
+          github_login: document.getElementById('invGithub').value.trim() || null,
+          role: document.getElementById('invRole').value,
+          locales: locales,
+        }).then(function () {
+          toast('Invite created', 'ok');
+          renderAdmin();
+        }).catch(function (e) { toast(e.message || 'Invite failed', 'error'); });
+      });
+      Hub.listInvites(p.id).then(function (invites) {
+        var box = document.getElementById('inviteList');
+        if (!box) return;
+        box.innerHTML = invites.map(function (inv) {
+          return '<div class="invite-row">' +
+            escapeHtml(inv.email || inv.github_login || '') +
+            ' · ' + escapeHtml(inv.role) +
+            ' · ' + escapeHtml((inv.locales || []).join(', ')) +
+            '</div>';
+        }).join('') || '<p class="note">No open invites.</p>';
+      }).catch(function () { /* ignore */ });
+    }
+  }
+
   function boot() {
-    fillLocaleSelect();
-    ensureSession();
+    if (!CFG.supabaseUrl || !CFG.supabaseAnonKey) {
+      el.authScreen.hidden = false;
+      el.authNote.hidden = false;
+      el.authNote.textContent = 'Set supabaseUrl and supabaseAnonKey in config.js, then reload.';
+      return;
+    }
+
+    try {
+      Hub.ensureClient();
+    } catch (e) {
+      el.authScreen.hidden = false;
+      el.authNote.hidden = false;
+      el.authNote.textContent = e.message || String(e);
+      return;
+    }
+
+    el.githubSignIn.addEventListener('click', function () {
+      Hub.signInWithGitHub().catch(function (e) {
+        toast(e.message || 'GitHub sign-in failed', 'error');
+      });
+    });
+
+    el.magicSignIn.addEventListener('click', function () {
+      var email = (el.magicEmail.value || '').trim();
+      if (!email) {
+        el.magicEmail.focus();
+        return;
+      }
+      Hub.signInWithMagicLink(email).then(function () {
+        el.authNote.hidden = false;
+        el.authNote.textContent = 'Check your email for the magic link.';
+      }).catch(function (e) {
+        toast(e.message || 'Magic link failed', 'error');
+      });
+    });
+
+    el.signOutBtn.addEventListener('click', function () {
+      Hub.signOut().then(showSignedOut);
+    });
+
+    el.projectSelect.addEventListener('change', function () {
+      settleApproveQueue().then(function () {
+        if (state.canEdit) return releaseLocale();
+      }).finally(function () {
+        loadProject(el.projectSelect.value);
+      });
+    });
 
     el.localeSelect.addEventListener('change', function () {
       var next = el.localeSelect.value;
       var prev = state.locale;
-      if (!next || next === prev) return;
-      var go = function () {
-        loadLocale(next).catch(function (e) { toast(e.message || 'Failed to load locale'); });
-      };
-      // Flush while this locale is still checked out, then release.
-      // A failed flush stays on the row so the reviewer can retry.
       settleApproveQueue().then(function () {
-        if (state.locale === prev && Object.keys(state.approveErrors).length) {
+        if (Object.keys(state.approveErrors).length) {
           el.localeSelect.value = prev;
           toast('Some approvals did not save — retry the highlighted rows', 'error');
           return;
         }
+        var go = function () { loadLocale(next); };
         if (state.canEdit && prev) return releaseLocale().finally(go);
         go();
-      }).catch(function (e) {
-        el.localeSelect.value = prev;
-        toast((e && e.message) || 'Could not save approvals before switching', 'error');
-      });
-    });
-
-    el.releaseBtn.addEventListener('click', function () {
-      // Release only — do not re-claim; stay view-only until Start Review.
-      releaseLocale().then(function () {
-        renderRows();
       });
     });
 
     el.checkoutBtn.addEventListener('click', function () {
-      if (!state.name || !state.locale || el.checkoutBtn.disabled) return;
-      claimLocale().then(function (data) {
+      if (el.checkoutBtn.disabled) return;
+      claimLocale().then(function (lease) {
         renderRows();
-        if (data && data.acquired) {
+        if (lease && state.user && lease.holder_id === state.user.id) {
           toast('Checked out — you can approve and edit', 'ok');
         } else {
           toast('Could not begin review — locale may be in use', 'error');
@@ -1389,69 +1238,40 @@
       });
     });
 
+    el.releaseBtn.addEventListener('click', function () {
+      releaseLocale().then(function () { renderRows(); });
+    });
+
     el.search.addEventListener('input', function () {
       state.filter = el.search.value;
       renderRows();
     });
 
-    function startReview() {
-      loadLocale(localeFromUrl()).catch(function (e) {
-        toast(e.message || 'API unavailable', 'error');
-      });
-    }
-
-    el.nameStart.addEventListener('click', function () {
-      var name = (el.nameInput.value || '').trim();
-      if (name.length < 2) {
-        el.nameInput.focus();
-        return;
-      }
-      state.name = name;
-      sessionStorage.setItem('uaoa.reviewer', name);
-      el.nameModal.hidden = true;
-      startReview();
+    el.adminBtn.addEventListener('click', function () {
+      el.adminModal.hidden = false;
+      renderAdmin();
     });
-
-    el.nameInput.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') el.nameStart.click();
+    el.adminClose.addEventListener('click', function () {
+      el.adminModal.hidden = true;
     });
-
-    var unloadHandled = false;
-    function onLeavePage() {
-      if (unloadHandled) return;
-      unloadHandled = true;
-      var sentApprovals = beaconQueuedApprovals();
-      if (!state.canEdit) return;
-      // Skip the release beacon while a batch is still being written so the
-      // checkout check on that batch still passes. The lease expires on its own.
-      if (sentApprovals || state.approveFlushing || state.approveHeld.length) return;
-      beaconReleaseLock();
-    }
-    window.addEventListener('pagehide', onLeavePage);
-    window.addEventListener('beforeunload', onLeavePage);
-    document.addEventListener('visibilitychange', function () {
-      if (document.visibilityState === 'hidden') flushApprovals();
+    el.downloadBtn.addEventListener('click', function () {
+      downloadZip();
     });
 
     setInterval(heartbeat, 120000);
 
-    el.localeSelect.value = localeFromUrl();
-
-    // Kick the Render cold-start early (while the name gate is open if needed).
-    ensureApiAwake().catch(function (e) {
-      showWakeFailed(
-        'Please wait up to 1 minute for the server to resume from hibernation, then refresh. (' +
-          (e.message || 'network') + ')'
-      );
+    Hub.onAuthChange(function (_event, session) {
+      if (session && session.user) showSignedIn(session.user);
+      else showSignedOut();
     });
 
-    if (!state.name) {
-      el.nameModal.hidden = false;
-      el.nameInput.focus();
-    } else {
-      el.nameModal.hidden = true;
-      startReview();
-    }
+    Hub.getSession().then(function (session) {
+      if (session && session.user) showSignedIn(session.user);
+      else showSignedOut();
+    }).catch(function (e) {
+      showWake(true, e.message || 'Could not reach Supabase');
+      showSignedOut();
+    });
   }
 
   boot();
