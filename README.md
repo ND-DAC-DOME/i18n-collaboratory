@@ -35,6 +35,7 @@ Default interchange: one UTF-8 JSON file per locale with the same nested key tre
 
 - **Admin upload**: open Admin → Upload locales (folder or `.zip`). First import may mark non-empty translations approved. Calls the `import-catalog` Edge Function (session JWT).
 - **Site repo Action**: see [scripts/templates/push-catalogs.yml](scripts/templates/push-catalogs.yml). Body fields include optional `initialApproval` (`approved` | `unapproved`, default `unapproved`) on the **first** push only.
+- **Site agent steering**: copy [scripts/templates/cursor/i18n-collaboratory.mdc](scripts/templates/cursor/i18n-collaboratory.mdc) to the site repo’s `.cursor/rules/`, and [scripts/templates/cursor/i18n-collaboratory/SKILL.md](scripts/templates/cursor/i18n-collaboratory/SKILL.md) to `.cursor/skills/i18n-collaboratory/SKILL.md`.
 
 ## Legacy Python API
 

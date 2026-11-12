@@ -1,0 +1,30 @@
+---
+description: Keep this repo's catalogs compatible with the i18n collaboratory translation backend
+alwaysApply: true
+---
+
+# i18n collaboratory
+
+Reviewed translations for this app live in the i18n collaboratory. This repo remains the runtime source of truth for how the app loads strings. The hub holds the review copy: English on the left (read-only for reviewers), one locale at a time on the right.
+
+## Changing copy
+
+- Change English in this repo, then send the catalog to the hub. Approval is valid only while the English UTF-8 text still matches the SHA-256 hex stored at approve time (`en_fp`). Unchanged English keeps the stamp. Changed English marks that key stale (`en_source_changed`) until a reviewer approves again. Saving a translation in the hub clears that key’s approval.
+- Give every locale the same key tree. A key missing from a locale is exported as an empty string.
+- Leave interpolation tokens unchanged (`{{name}}`, `{name}`, ICU). A renamed token is an English change that every locale must follow.
+- A leaf is a bare string. `{text, note}` is a leaf only when this project’s hub flag `rich_text` is on. Nested objects are walked. 0-based arrays use decimal segments including `0` (`items.0.text`). 1-based numbered objects (`"1"`, `"2"`, …) must round-trip as objects, not `[null, …]`. Keys starting with `_` are skipped.
+
+## Changing translations
+
+- Reviewers edit in the collaboratory. Bring text back with an admin push-to-repo or a locales zip, then unpack into this repo’s layout when the app does not already use one `{locale}.json` per locale.
+- A hub push overwrites `{locale}.json` under the project’s locales path, writes `manifest.json`, and on plain-text projects also writes `{locale}.notes.json`. Ingest skips `*.notes.json` and `manifest.json`.
+- Export writes the current text of every key, including drafts. `manifest.json` field `unapproved` counts keys that are missing, unapproved, or stale. A non-zero count means review is unfinished.
+- The same `versionHash` twice is a no-op. `initialApproval` (`approved` or `unapproved`, default `unapproved`) applies only on the first ingest, while the project has no head version yet.
+
+## Wiring
+
+Copy `push-catalogs.yml` and `push-catalogs.mjs` from the collaboratory `scripts/templates/`. Site secrets: `I18N_INGEST_URL`, `I18N_PUSH_SECRET`. Actions variable: `I18N_PROJECT_SLUG`. Point `LOCALES_DIR` at the flat interchange directory. If this app stores more than one JSON file per locale, pack before ingest and unpack after export. Leave the shared ingest function unchanged.
+
+Match the hub project to this app: `source_locale` (usually `en`), `placeholder_style` (`i18next`, `icu`, `single-brace`, or `auto`), and `rich_text` only when leaves contain HTML whose tags reviewers must not retype. Markdown or placeholder-only catalogs stay `rich_text` off. With `rich_text` on, reviewers edit words; English tags and link targets are reapplied on save.
+
+The push secret and the hub’s GitHub token stay out of this repo. Procedure for first connect, pack/unpack, and pull-back: the `i18n-collaboratory` skill.
