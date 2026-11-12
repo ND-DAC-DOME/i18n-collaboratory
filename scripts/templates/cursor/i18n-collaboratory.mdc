@@ -17,7 +17,7 @@ Reviewed translations for this app live in the i18n collaboratory. This repo rem
 ## Changing translations
 
 - Reviewers edit in the collaboratory. Bring text back with an admin push-to-repo or a locales zip, then unpack into this repo’s layout when the app does not already use one `{locale}.json` per locale.
-- A hub push overwrites `{locale}.json` under the project’s locales path, writes `manifest.json`, and on plain-text projects also writes `{locale}.notes.json`. Ingest skips `*.notes.json` and `manifest.json`.
+- A hub push writes one commit of changed review-locale `{locale}.json` files under the project’s locales path (author `i18n-collaboratory`). It does not rewrite the source locale. Plain-text projects may also get `{locale}.notes.json`; `manifest.json` only when locale files change. Ingest skips `*.notes.json` and `manifest.json`.
 - Export writes the current text of every key, including drafts. `manifest.json` field `unapproved` counts keys that are missing, unapproved, or stale. A non-zero count means review is unfinished.
 - The same `versionHash` twice is a no-op. `initialApproval` (`approved` or `unapproved`, default `unapproved`) applies only on the first ingest, while the project has no head version yet.
 

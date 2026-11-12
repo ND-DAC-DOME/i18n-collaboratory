@@ -157,6 +157,7 @@
         .from('source_strings')
         .select('key, text, note, text_fp, previous_text')
         .eq('project_id', projectId)
+        .order('key')
         .range(from, from + page - 1);
       if (result.error) throw result.error;
       var rows = result.data || [];
@@ -178,6 +179,7 @@
         .select('key, text, note, approved, approved_by, approved_by_name, approved_at, en_fp, stale, stale_reason')
         .eq('project_id', projectId)
         .eq('locale', locale)
+        .order('key')
         .range(from, from + page - 1);
       if (result.error) throw result.error;
       var rows = result.data || [];

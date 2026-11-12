@@ -51,9 +51,9 @@ Do not clear stale flags from this repo. Do not copy an old translation onto new
 ## Pulling translations back
 
 1. Prefer hub Admin push-to-repo when the project has a repo, branch, locales path, and stored token. Otherwise download the locales zip.
-2. Expect `{code}.json` for the source locale and each review locale, plus `manifest.json`. Plain projects also get `{code}.notes.json`.
+2. Push-to-repo writes one Git commit (author/committer `i18n-collaboratory`) with only review-locale files that differ from the branch tip. It does **not** rewrite the source locale (`en.json` unless the project says otherwise) — this repo owns English. Expect `{code}.json` for each review locale; plain projects may also get `{code}.notes.json`. `manifest.json` is included only when locale files change. Zip download still includes the source locale.
 3. Read `manifest.unapproved`. Export includes unapproved and stale text. Ship a release only when that count is acceptable for this app.
-4. Unpack into the runtime layout if step “Decide the interchange” required packing. Run this repo’s i18n check and a build.
+4. Unpack into the runtime layout if step “Decide the interchange” required packing. Prefer keeping the source locale file from git unless English was intentionally changed here. Run this repo’s i18n check and a build.
 5. Commit the unpacked catalogs. The next ingest of that same git SHA is a no-op; a newer SHA with the same strings reconciles without clearing approvals.
 
 Someone else may hold focus on a single key for about 45 seconds. That lock is inside the hub. It does not block ingest or a push-to-repo.

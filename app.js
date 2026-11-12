@@ -1371,7 +1371,16 @@
           }
           if (!window.confirm(prompt)) return null;
           return Hub.pushToRepo(fresh.id).then(function (data) {
-            toast('Pushed to ' + data.repo + ' at ' + (data.path || path), 'ok');
+            if (data.unchanged) {
+              toast('No translation file changes to push for ' + data.repo, 'ok');
+              return;
+            }
+            var n = (data.written && data.written.length) || 0;
+            toast(
+              'Pushed ' + n + ' file(s) to ' + data.repo + ' at ' + (data.path || path) +
+                (data.commitSha ? ' (' + String(data.commitSha).slice(0, 7) + ')' : ''),
+              'ok',
+            );
           });
         }).catch(function (e) { toast(e.message || 'Push failed', 'error'); });
       });

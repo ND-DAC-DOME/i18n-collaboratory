@@ -7,7 +7,8 @@
     "import:local": "node scripts/import_local_catalogs.mjs",
     "test:markup": "node markup.test.js",
     "test:nest": "node nest.test.mjs",
-    "test": "npm run test:markup && npm run test:nest"
+    "test:catalog": "node --experimental-strip-types catalog.test.mjs",
+    "test": "npm run test:markup && npm run test:nest && npm run test:catalog"
   },
   "devDependencies": {
     "@supabase/supabase-js": "^2.49.1"

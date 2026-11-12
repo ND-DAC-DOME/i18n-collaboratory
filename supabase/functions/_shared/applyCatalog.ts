@@ -1,4 +1,4 @@
-import { flattenCatalog, sha256Hex, type Leaf } from "./catalog.ts";
+import { collectPages, flattenCatalog, sha256Hex, type Leaf } from "./catalog.ts";
 import type { SupabaseClient } from "npm:@supabase/supabase-js@2";
 
 export type ApplyCatalogInput = {
@@ -58,7 +58,8 @@ export async function applyCatalog(
     throw new ApplyCatalogError(400, `missing source locale ${sourceLocale}`);
   }
 
-  const sourceFlat = flattenCatalog(sourceTree);
+  const mode = project.rich_text ? "rich" : "plain";
+  const sourceFlat = flattenCatalog(sourceTree, "", mode);
   const sourceEntries: {
     project_id: string;
     key: string;
@@ -88,12 +89,16 @@ export async function applyCatalog(
     input.initialApproval === "approved" ? "approved" : "unapproved";
   if (!isFirst) initialApproval = "unapproved";
 
-  const { data: priorSources } = await admin
-    .from("source_strings")
-    .select("key, text, text_fp")
-    .eq("project_id", projectId);
+  const priorSources = await collectPages((from, to) =>
+    admin
+      .from("source_strings")
+      .select("key, text, text_fp")
+      .eq("project_id", projectId)
+      .order("key")
+      .range(from, to)
+  );
   const priorMap = new Map(
-    (priorSources || []).map((r) => [r.key as string, r]),
+    priorSources.map((r) => [r.key as string, r]),
   );
 
   const changes: { key: string; old_text: string | null; new_text: string }[] =
@@ -152,16 +157,20 @@ export async function applyCatalog(
     changes.filter((c) => c.old_text != null).map((c) => c.key),
   );
   for (const code of localeCodes) {
-    const flat = flattenCatalog(input.locales[code]);
+    const flat = flattenCatalog(input.locales[code], "", mode);
     const rows: Record<string, unknown>[] = [];
 
-    const { data: existingRows } = await admin
-      .from("translations")
-      .select("*")
-      .eq("project_id", projectId)
-      .eq("locale", code);
+    const existingRows = await collectPages((from, to) =>
+      admin
+        .from("translations")
+        .select("*")
+        .eq("project_id", projectId)
+        .eq("locale", code)
+        .order("key")
+        .range(from, to)
+    );
     const existingByKey = new Map(
-      (existingRows || []).map((r) => [r.key as string, r]),
+      existingRows.map((r) => [r.key as string, r]),
     );
 
     for (const key of Object.keys(sourceFlat)) {

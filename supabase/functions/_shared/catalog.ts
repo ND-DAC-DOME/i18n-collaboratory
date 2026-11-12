@@ -25,9 +25,18 @@ export function leafNote(node: unknown): string {
   return "";
 }
 
+/**
+ * Walk a locale tree into dotted keys.
+ * `plain` (rich_text off): a bare string is a leaf, including a key named `note`
+ * (ORP `content.educationSteps.*.note` is copy, not translator metadata).
+ * `rich`: `{text, note?}` objects are leaves. A bare string named `note` on a
+ * non-leaf container is translator metadata and is not a separate key
+ * (UAOA `links.act.note`).
+ */
 export function flattenCatalog(
   obj: unknown,
   prefix = "",
+  mode: "plain" | "rich" = "plain",
 ): Record<string, Leaf> {
   const out: Record<string, Leaf> = {};
   let items: [string, unknown][] = [];
@@ -44,12 +53,41 @@ export function flattenCatalog(
     if (isLeafEntry(v)) {
       out[path] = { text: leafText(v), note: leafNote(v) };
     } else if (v && typeof v === "object") {
-      Object.assign(out, flattenCatalog(v, path));
-    } else if (typeof v === "string" && k !== "note") {
+      Object.assign(out, flattenCatalog(v, path, mode));
+    } else if (typeof v === "string" && (mode === "plain" || k !== "note")) {
       out[path] = { text: v, note: "" };
     }
   }
   return out;
+}
+
+type PageResult<T> = {
+  data: T[] | null;
+  error: { message: string } | null;
+};
+
+/**
+ * Read every row from a PostgREST query. The Data API caps each response
+ * (`max_rows`, 1000 in config.toml). Callers must `.order()` on a stable key
+ * and pass inclusive `.range(from, to)` bounds. A single unordered select
+ * silently returns the first page only.
+ */
+export async function collectPages<T>(
+  fetchPage: (from: number, to: number) => PromiseLike<PageResult<T>>,
+  pageSize = 1000,
+): Promise<T[]> {
+  if (pageSize < 1) throw new Error("pageSize must be positive");
+  const all: T[] = [];
+  const maxPages = 100;
+  for (let page = 0; page < maxPages; page++) {
+    const from = page * pageSize;
+    const { data, error } = await fetchPage(from, from + pageSize - 1);
+    if (error) throw new Error(error.message);
+    const rows = data ?? [];
+    all.push(...rows);
+    if (rows.length < pageSize) return all;
+  }
+  throw new Error("catalog page limit exceeded");
 }
 
 export async function sha256Hex(text: string): Promise<string> {
