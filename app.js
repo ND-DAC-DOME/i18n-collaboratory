@@ -32,6 +32,8 @@
     translations: {},
     canEdit: false,
     isAdmin: false,
+    focuses: {},
+    focusHeartbeatTimer: null,
     editingKey: null,
     editingDraft: null,
     editingDraftKey: null,
@@ -45,6 +47,8 @@
     approveFlushTimer: null,
     approveFlushing: false,
     approveFlushPromise: null,
+    realtimeChannel: null,
+    localWriteUntil: {},
   };
 
   var el = {
@@ -206,6 +210,8 @@
     history.replaceState(null, '', u.toString());
   }
 
+  var FOCUS_STALE_MS = 45000;
+
   function refreshCanEdit() {
     state.canEdit = !!(
       state.user &&
@@ -213,6 +219,94 @@
       state.locale &&
       allowedLocales().some(function (l) { return l.locale === state.locale; })
     );
+  }
+
+  function focusForKey(key) {
+    var f = state.focuses[key];
+    if (!f) return null;
+    if (new Date(f.updated_at).getTime() <= Date.now() - FOCUS_STALE_MS) return null;
+    return f;
+  }
+
+  function focusHeldByOther(key) {
+    var f = focusForKey(key);
+    return !!(f && state.user && f.user_id !== state.user.id);
+  }
+
+  function setFocusMap(rows) {
+    var map = {};
+    (rows || []).forEach(function (row) {
+      if (row && row.key) map[row.key] = row;
+    });
+    state.focuses = map;
+  }
+
+  function stopFocusHeartbeat() {
+    if (state.focusHeartbeatTimer) {
+      clearInterval(state.focusHeartbeatTimer);
+      state.focusHeartbeatTimer = null;
+    }
+  }
+
+  function startFocusHeartbeat(key) {
+    stopFocusHeartbeat();
+    state.focusHeartbeatTimer = setInterval(function () {
+      if (!state.project || !state.locale || state.editingKey !== key) {
+        stopFocusHeartbeat();
+        return;
+      }
+      Hub.heartbeatFocus(state.project.id, state.locale, key)
+        .then(function (row) {
+          if (row) state.focuses[key] = row;
+        })
+        .catch(function () { /* ignore */ });
+    }, 15000);
+  }
+
+  function beginEdit(key) {
+    if (state.pendingKey) return;
+    Hub.claimFocus(state.project.id, state.locale, key, displayName(state.user))
+      .then(function (row) {
+        if (!row || (state.user && row.user_id !== state.user.id)) {
+          if (row) state.focuses[key] = row;
+          toast(
+            'Being edited by ' + ((row && row.display_name) || 'someone else'),
+            'error',
+          );
+          renderRows();
+          return;
+        }
+        state.focuses[key] = row;
+        state.editingKey = key;
+        state.editingDraft = null;
+        state.editingDraftKey = null;
+        startFocusHeartbeat(key);
+        renderRows();
+      })
+      .catch(function (e) {
+        toast(e.message || 'Could not start edit', 'error');
+      });
+  }
+
+  function endEdit(opts) {
+    opts = opts || {};
+    var key = state.editingKey;
+    stopFocusHeartbeat();
+    state.editingKey = null;
+    state.editingDraft = null;
+    state.editingDraftKey = null;
+    if (!key || !state.project || !state.locale || opts.skipRelease) {
+      if (opts.rerender !== false) renderRows();
+      return Promise.resolve();
+    }
+    return Hub.releaseFocus(state.project.id, state.locale, key)
+      .then(function () {
+        delete state.focuses[key];
+      })
+      .catch(function () { /* ignore */ })
+      .then(function () {
+        if (opts.rerender !== false) renderRows();
+      });
   }
 
   function updateChrome() {
@@ -265,9 +359,10 @@
         '<span class="meta">' + stats[m].approved + ' / ' + stats[m].total + ' approved</span>';
       btn.addEventListener('click', function () {
         state.module = m;
-        state.editingKey = null;
-        renderModules(allRows);
-        renderRows();
+        endEdit({ rerender: false }).then(function () {
+          renderModules(allRows);
+          renderRows();
+        });
       });
       el.modList.appendChild(btn);
     });
@@ -308,9 +403,10 @@
     stamp.appendChild(mark);
     var meta = document.createElement('div');
     meta.className = 'approval-stamp-meta';
-    var by = entry && entry.approved_by
-      ? 'reviewer'
-      : (entry && entry.approved_at && !entry.approved_by ? 'initial import' : '—');
+    var by = entry && entry.approved_by_name
+      ? entry.approved_by_name
+      : (entry && entry.approved_at && !entry.approved_by ? 'initial import'
+        : (entry && entry.approved_by ? 'reviewer' : '—'));
     var at = formatStampAt(entry && entry.approved_at);
     meta.innerHTML =
       '<span class="approval-stamp-by">by ' + escapeHtml(by) + '</span>' +
@@ -382,10 +478,13 @@
       trText = state.editingDraft;
     }
 
+    var foreignFocus = focusHeldByOther(r.key);
+    var focusInfo = focusForKey(r.key);
     var row = document.createElement('article');
     row.className = 'row' +
       (pending ? ' is-pending' : '') +
       (stale ? ' is-stale' : '') +
+      (foreignFocus ? ' is-focused-other' : '') +
       (saveError && !approved ? ' is-save-failed' : '');
     row.dataset.key = r.key;
 
@@ -453,7 +552,15 @@
     actions.className = 'actions';
     var entry = approvalEntry(r.key);
 
-    if (!state.canEdit) {
+    if (foreignFocus) {
+      var focusPill = document.createElement('span');
+      focusPill.className = 'pill busy';
+      focusPill.textContent = 'Editing: ' + (focusInfo.display_name || 'someone');
+      actions.appendChild(focusPill);
+      if (approved) {
+        actions.appendChild(makeStamp(entry, { canUnapprove: false }));
+      }
+    } else if (!state.canEdit) {
       if (approved) {
         actions.appendChild(makeStamp(entry, { canUnapprove: false }));
       } else if (stale) {
@@ -487,10 +594,7 @@
       cancel.disabled = pendingSave;
       cancel.addEventListener('click', function () {
         if (state.pendingKey) return;
-        state.editingKey = null;
-        state.editingDraft = null;
-        state.editingDraftKey = null;
-        renderRows();
+        endEdit();
       });
       actions.appendChild(save);
       actions.appendChild(cancel);
@@ -529,13 +633,14 @@
     edit.type = 'button';
     edit.className = 'btn btn-edit';
     edit.textContent = 'Edit';
-    edit.disabled = !!disabled;
+    edit.disabled = !!disabled || focusHeldByOther(key);
     edit.addEventListener('click', function () {
-      if (state.pendingKey) return;
-      state.editingKey = key;
-      state.editingDraft = null;
-      state.editingDraftKey = null;
-      renderRows();
+      if (state.pendingKey || focusHeldByOther(key)) return;
+      if (state.editingKey && state.editingKey !== key) {
+        endEdit({ rerender: false }).then(function () { beginEdit(key); });
+        return;
+      }
+      beginEdit(key);
     });
     return edit;
   }
@@ -545,7 +650,11 @@
     approve.type = 'button';
     approve.className = 'btn btn-approve';
     approve.textContent = stale ? 'Re-approve' : 'Approve';
-    approve.addEventListener('click', function () { approveKey(key); });
+    approve.disabled = focusHeldByOther(key);
+    approve.addEventListener('click', function () {
+      if (focusHeldByOther(key)) return;
+      approveKey(key);
+    });
     return approve;
   }
 
@@ -605,6 +714,7 @@
       stale: false,
       approved_at: new Date().toISOString(),
       approved_by: state.user && state.user.id,
+      approved_by_name: displayName(state.user),
       _local: true,
     });
     state.translations[key] = entry;
@@ -628,11 +738,18 @@
     });
     state.approveHeld.push(payload);
     state.approveFlushing = true;
-    state.approveFlushPromise = Hub.approveKeys(state.project.id, state.locale, payload.keys)
+    payload.keys.forEach(markLocalWrite);
+    state.approveFlushPromise = Hub.approveKeys(
+      state.project.id,
+      state.locale,
+      payload.keys,
+      displayName(state.user),
+    )
       .then(function (rows) {
         (rows || []).forEach(function (row) {
           state.translations[row.key] = row;
           delete state.approveErrors[row.key];
+          markLocalWrite(row.key);
         });
         state.approveHeld = state.approveHeld.filter(function (p) { return p !== payload; });
         renderModules(state.rowsCache);
@@ -673,13 +790,16 @@
     setPending(key, 'unapprove');
     renderRows();
     settleApproveQueue().then(function () {
+      markLocalWrite(key);
       return Hub.unapproveKey(state.project.id, state.locale, key);
     }).then(function () {
+      markLocalWrite(key);
       if (state.translations[key]) {
         state.translations[key] = Object.assign({}, state.translations[key], {
           approved: false,
           stale: false,
           approved_by: null,
+          approved_by_name: null,
           approved_at: null,
           en_fp: null,
         });
@@ -702,16 +822,17 @@
     setPending(key, 'save');
     renderRows();
     settleApproveQueue().then(function () {
+      markLocalWrite(key);
       return Hub.saveTranslation(state.project.id, state.locale, key, text);
     }).then(function (row) {
       state.translations[key] = row;
+      markLocalWrite(key);
       clearPending();
-      state.editingKey = null;
-      state.editingDraft = null;
-      state.editingDraftKey = null;
-      toast('Saved — re-approve when ready', 'ok');
-      renderModules(state.rowsCache);
-      renderRows();
+      return endEdit({ skipRelease: false, rerender: false }).then(function () {
+        toast('Saved — re-approve when ready', 'ok');
+        renderModules(state.rowsCache);
+        renderRows();
+      });
     }).catch(function (e) {
       clearPending();
       toast(e.message || 'Save failed', 'error');
@@ -749,23 +870,83 @@
     el.projectLabel.hidden = !state.projects.length;
   }
 
+  function markLocalWrite(key) {
+    state.localWriteUntil[key] = Date.now() + 2500;
+  }
+
+  function isLocalWrite(key) {
+    var until = state.localWriteUntil[key];
+    if (!until) return false;
+    if (Date.now() > until) {
+      delete state.localWriteUntil[key];
+      return false;
+    }
+    return true;
+  }
+
+  function stopRealtime() {
+    if (!state.realtimeChannel) return Promise.resolve();
+    var ch = state.realtimeChannel;
+    state.realtimeChannel = null;
+    return Hub.removeChannel(ch).catch(function () { /* ignore */ });
+  }
+
+  function startRealtime(projectId, locale) {
+    return stopRealtime().then(function () {
+      state.realtimeChannel = Hub.subscribeLocale(projectId, locale, {
+        onTranslation: function (payload) {
+          var row = payload.new;
+          var old = payload.old;
+          var key = (row && row.key) || (old && old.key);
+          if (!key || state.locale !== locale) return;
+          if (isLocalWrite(key)) return;
+          if (payload.eventType === 'DELETE') {
+            delete state.translations[key];
+          } else if (row) {
+            state.translations[key] = row;
+          }
+          renderModules(state.rowsCache);
+          renderRows();
+        },
+        onFocus: function (payload) {
+          var row = payload.new;
+          var old = payload.old;
+          var key = (row && row.key) || (old && old.key);
+          if (!key || state.locale !== locale) return;
+          if (payload.eventType === 'DELETE') {
+            delete state.focuses[key];
+          } else if (row) {
+            state.focuses[key] = row;
+          }
+          renderRows();
+        },
+      });
+    });
+  }
+
   function loadLocale(code) {
     if (!state.project || !code) return Promise.resolve();
-    state.locale = code;
-    state.editingKey = null;
-    state.approveErrors = {};
-    setUrlParams(state.project.slug, code);
-    el.localeSelect.value = code;
+    return endEdit({ skipRelease: false, rerender: false }).then(function () {
+      state.locale = code;
+      state.approveErrors = {};
+      setUrlParams(state.project.slug, code);
+      el.localeSelect.value = code;
 
-    return Hub.loadTranslations(state.project.id, code).then(function (rows) {
-      var map = {};
-      (rows || []).forEach(function (row) { map[row.key] = row; });
-      state.translations = map;
-      refreshCanEdit();
-      hideWake();
-      updateChrome();
-      renderModules(state.rowsCache);
-      renderRows();
+      return Promise.all([
+        Hub.loadTranslations(state.project.id, code),
+        Hub.loadFocuses(state.project.id, code),
+      ]).then(function (parts) {
+        var map = {};
+        (parts[0] || []).forEach(function (row) { map[row.key] = row; });
+        state.translations = map;
+        setFocusMap(parts[1]);
+        refreshCanEdit();
+        hideWake();
+        updateChrome();
+        renderModules(state.rowsCache);
+        renderRows();
+        return startRealtime(state.project.id, code);
+      });
     });
   }
 
@@ -814,9 +995,12 @@
   }
 
   function showSignedOut() {
+    endEdit({ skipRelease: true, rerender: false });
+    stopRealtime();
     state.user = null;
     state.projects = [];
     state.project = null;
+    state.focuses = {};
     el.authScreen.hidden = false;
     el.emptyHub.hidden = true;
     el.appLayout.hidden = true;

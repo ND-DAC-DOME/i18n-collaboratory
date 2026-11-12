@@ -8,6 +8,7 @@ Zero-cost target: **GitHub Pages** (public site from this private Team-plan repo
 2. Apply migrations from `supabase/migrations/` (`npx supabase db push` after `npx supabase link`).
 3. Deploy Edge Functions:
    - `ingest` (`verify_jwt = false`)
+   - `import-catalog` (`verify_jwt = true`)
    - `credentials`
    - `push`
 4. Function secrets:
@@ -20,6 +21,8 @@ Zero-cost target: **GitHub Pages** (public site from this private Team-plan repo
 insert into public.hub_admins (user_id)
 values ('<your auth.users id>');
 ```
+
+Realtime: migrations add `translations` and `translation_focus` to the `supabase_realtime` publication so open review tabs receive live row patches.
 
 ## 2. Pages site
 
@@ -54,11 +57,15 @@ node scripts/import_local_catalogs.mjs
 
 Imports `data/*.json` and `state/approvals/*.json` into project slug `uaoa` with `rich_text=true`, preserving existing approval stamps.
 
-## 5. Site repos
+## 5. Load catalogs for a project
 
-Copy [scripts/templates/push-catalogs.yml](../scripts/templates/push-catalogs.yml) and [scripts/templates/push-catalogs.mjs](../scripts/templates/push-catalogs.mjs) into each site. Create the project in the hub Admin UI, rotate a push secret, set `I18N_INGEST_URL` / `I18N_PUSH_SECRET` / `I18N_PROJECT_SLUG`.
+**Browser upload (fast path):** create the project in Admin, set locale codes, then Upload locales (folder or zip containing `{source}.json` plus review locales). Optional first-import checkbox marks non-empty translations approved.
 
-First push: set `INITIAL_APPROVAL=approved` when adopting an already-accepted catalog; omit or use `unapproved` for a new site.
+**Site repo Action:** copy [scripts/templates/push-catalogs.yml](../scripts/templates/push-catalogs.yml) and [scripts/templates/push-catalogs.mjs](../scripts/templates/push-catalogs.mjs) into each site. Rotate a push secret in Admin, set `I18N_INGEST_URL` / `I18N_PUSH_SECRET` / `I18N_PROJECT_SLUG`.
+
+First push / first upload: set `INITIAL_APPROVAL=approved` (or check the Admin checkbox) when adopting an already-accepted catalog; omit or use `unapproved` for a new site.
+
+There is no exclusive locale checkout. Reviewers assigned a locale can approve and edit immediately; one person at a time may focus a single key for editing. Peers see approvals and focus without a full page refresh.
 
 ## 6. Local API (legacy)
 

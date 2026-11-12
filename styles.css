@@ -327,6 +327,10 @@ button, input, textarea, select { font: inherit; }
 @keyframes btn-spin { to { transform: rotate(360deg); } }
 
 .row.is-pending { background: #F8FBFD; }
+.row.is-focused-other {
+  outline: 1px solid color-mix(in srgb, var(--teal) 45%, transparent);
+  background: color-mix(in srgb, var(--teal) 6%, white);
+}
 .row.is-save-failed { background: #FFF8F7; }
 .row-save-error {
   grid-column: 1 / -1;

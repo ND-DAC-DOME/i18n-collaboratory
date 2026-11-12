@@ -168,7 +168,7 @@
     for (;;) {
       var result = await c
         .from('translations')
-        .select('key, text, note, approved, approved_by, approved_at, en_fp, stale, stale_reason')
+        .select('key, text, note, approved, approved_by, approved_by_name, approved_at, en_fp, stale, stale_reason')
         .eq('project_id', projectId)
         .eq('locale', locale)
         .range(from, from + page - 1);
@@ -181,58 +181,57 @@
     return all;
   }
 
-  async function loadLease(projectId, locale) {
+  async function loadFocuses(projectId, locale) {
     var c = sb();
     var result = await c
-      .from('locale_leases')
+      .from('translation_focus')
       .select('*')
       .eq('project_id', projectId)
-      .eq('locale', locale)
-      .maybeSingle();
+      .eq('locale', locale);
     if (result.error) throw result.error;
-    var lease = result.data;
-    if (lease && new Date(lease.until).getTime() <= Date.now()) return null;
-    return lease;
+    return result.data || [];
   }
 
-  async function claimLease(projectId, locale, minutes, holderName) {
+  async function claimFocus(projectId, locale, key, holderName) {
     var c = sb();
-    var result = await c.rpc('claim_locale_lease', {
+    var result = await c.rpc('claim_translation_focus', {
       pid: projectId,
       loc: locale,
-      minutes: minutes || CFG.leaseMinutes || 15,
+      k: key,
       holder_display: holderName || '',
     });
     if (result.error) throw result.error;
     return result.data;
   }
 
-  async function releaseLease(projectId, locale) {
+  async function releaseFocus(projectId, locale, key) {
     var c = sb();
-    var result = await c.rpc('release_locale_lease', {
+    var result = await c.rpc('release_translation_focus', {
       pid: projectId,
       loc: locale,
+      k: key,
     });
     if (result.error) throw result.error;
   }
 
-  async function heartbeatLease(projectId, locale, minutes) {
+  async function heartbeatFocus(projectId, locale, key) {
     var c = sb();
-    var result = await c.rpc('heartbeat_locale_lease', {
+    var result = await c.rpc('heartbeat_translation_focus', {
       pid: projectId,
       loc: locale,
-      minutes: minutes || CFG.leaseMinutes || 15,
+      k: key,
     });
     if (result.error) throw result.error;
     return result.data;
   }
 
-  async function approveKeys(projectId, locale, keys) {
+  async function approveKeys(projectId, locale, keys, approverDisplay) {
     var c = sb();
     var result = await c.rpc('approve_translation_keys', {
       pid: projectId,
       loc: locale,
       keys: keys,
+      approver_display: approverDisplay || '',
     });
     if (result.error) throw result.error;
     return result.data || [];
@@ -374,6 +373,47 @@
     });
   }
 
+  function subscribeLocale(projectId, locale, handlers) {
+    var c = sb();
+    var channel = c.channel('review:' + projectId + ':' + locale);
+    channel.on(
+      'postgres_changes',
+      {
+        event: '*',
+        schema: 'public',
+        table: 'translations',
+        filter: 'project_id=eq.' + projectId,
+      },
+      function (payload) {
+        var row = payload.new || payload.old;
+        if (!row || row.locale !== locale) return;
+        if (handlers && handlers.onTranslation) handlers.onTranslation(payload);
+      },
+    );
+    channel.on(
+      'postgres_changes',
+      {
+        event: '*',
+        schema: 'public',
+        table: 'translation_focus',
+        filter: 'project_id=eq.' + projectId,
+      },
+      function (payload) {
+        var row = payload.new || payload.old;
+        if (!row || row.locale !== locale) return;
+        if (handlers && handlers.onFocus) handlers.onFocus(payload);
+      },
+    );
+    channel.subscribe();
+    return channel;
+  }
+
+  function removeChannel(channel) {
+    if (!channel) return Promise.resolve();
+    var c = sb();
+    return c.removeChannel(channel);
+  }
+
   async function probeHealth() {
     try {
       ensureClient();
@@ -435,10 +475,12 @@
     listLocales: listLocales,
     loadSourceStrings: loadSourceStrings,
     loadTranslations: loadTranslations,
-    loadLease: loadLease,
-    claimLease: claimLease,
-    releaseLease: releaseLease,
-    heartbeatLease: heartbeatLease,
+    loadFocuses: loadFocuses,
+    claimFocus: claimFocus,
+    releaseFocus: releaseFocus,
+    heartbeatFocus: heartbeatFocus,
+    subscribeLocale: subscribeLocale,
+    removeChannel: removeChannel,
     approveKeys: approveKeys,
     unapproveKey: unapproveKey,
     saveTranslation: saveTranslation,

@@ -172,22 +172,23 @@ export async function applyCatalog(
       if (isFirst) {
         const nonempty = !!(leaf.text && leaf.text.trim());
         const approve = initialApproval === "approved" && nonempty;
-        rows.push({
-          project_id: projectId,
-          locale: code,
-          key,
-          text: leaf.text,
-          note: leaf.note,
-          approved: approve,
-          approved_by: null,
-          approved_at: approve ? now : null,
-          en_fp: approve ? enFp : null,
-          stale: false,
-          stale_reason: null,
-          updated_at: now,
-        });
-        continue;
-      }
+          rows.push({
+            project_id: projectId,
+            locale: code,
+            key,
+            text: leaf.text,
+            note: leaf.note,
+            approved: approve,
+            approved_by: null,
+            approved_by_name: null,
+            approved_at: approve ? now : null,
+            en_fp: approve ? enFp : null,
+            stale: false,
+            stale_reason: null,
+            updated_at: now,
+          });
+          continue;
+        }
 
       const changed = changedKeys.has(key);
       if (!existing) {
@@ -199,6 +200,7 @@ export async function applyCatalog(
           note: leaf.note,
           approved: false,
           approved_by: null,
+          approved_by_name: null,
           approved_at: null,
           en_fp: null,
           stale: false,
@@ -214,6 +216,7 @@ export async function applyCatalog(
           note: existing.note,
           approved: false,
           approved_by: existing.approved_by,
+          approved_by_name: existing.approved_by_name ?? null,
           approved_at: existing.approved_at,
           en_fp: existing.en_fp,
           stale: true,
@@ -231,6 +234,7 @@ export async function applyCatalog(
           note: existing.note ?? leaf.note,
           approved: !!keep,
           approved_by: keep ? existing.approved_by : null,
+          approved_by_name: keep ? (existing.approved_by_name ?? null) : null,
           approved_at: keep ? existing.approved_at : null,
           en_fp: keep ? enFp : null,
           stale: false,
