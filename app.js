@@ -44,6 +44,7 @@
     pendingKey: null,
     pendingAction: null,
     filter: '',
+    todoOnly: false,
     rowsCache: [],
     approveQueue: {},
     approveHeld: [],
@@ -68,6 +69,7 @@
     rows: document.getElementById('rows'),
     stats: document.getElementById('stats'),
     search: document.getElementById('search'),
+    todoOnlyBtn: document.getElementById('todoOnlyBtn'),
     banner: document.getElementById('statusBanner'),
     wakeBanner: document.getElementById('wakeBanner'),
     wakeTitle: document.getElementById('wakeBannerTitle'),
@@ -177,6 +179,11 @@
     return !!(a && a.stale && !a.approved);
   }
 
+  /** Unapproved or stale — still needs a reviewer action. */
+  function needsWork(key) {
+    return !isApproved(key);
+  }
+
   function formatStampAt(iso) {
     if (!iso) return '';
     try {
@@ -205,13 +212,38 @@
     return (new URLSearchParams(location.search).get('locale') || '').toLowerCase();
   }
 
+  function todoFromUrl() {
+    var v = (new URLSearchParams(location.search).get('todo') || '').toLowerCase();
+    return v === '1' || v === 'true' || v === 'yes';
+  }
+
   function setUrlParams(projectSlug, locale) {
     var u = new URL(location.href);
     if (projectSlug) u.searchParams.set('project', projectSlug);
     else u.searchParams.delete('project');
     if (locale) u.searchParams.set('locale', locale);
     else u.searchParams.delete('locale');
+    if (state.todoOnly) u.searchParams.set('todo', '1');
+    else u.searchParams.delete('todo');
     history.replaceState(null, '', u.toString());
+  }
+
+  function syncTodoOnlyBtn() {
+    if (!el.todoOnlyBtn) return;
+    el.todoOnlyBtn.setAttribute('aria-pressed', state.todoOnly ? 'true' : 'false');
+    el.todoOnlyBtn.textContent = state.todoOnly ? 'To-do only · on' : 'To-do only';
+  }
+
+  function setTodoOnly(on, opts) {
+    opts = opts || {};
+    state.todoOnly = !!on;
+    syncTodoOnlyBtn();
+    if (state.project) setUrlParams(state.project.slug, state.locale);
+    state.module = pickDefaultModule(state.rowsCache);
+    if (opts.rerender !== false) {
+      renderModules(state.rowsCache);
+      renderRows();
+    }
   }
 
   var FOCUS_STALE_MS = 45000;
@@ -343,9 +375,10 @@
     var by = {};
     allRows.forEach(function (r) {
       var m = moduleOf(r.key);
-      if (!by[m]) by[m] = { total: 0, approved: 0 };
+      if (!by[m]) by[m] = { total: 0, approved: 0, todo: 0 };
       by[m].total += 1;
       if (isApproved(r.key)) by[m].approved += 1;
+      else by[m].todo += 1;
     });
     return by;
   }
@@ -355,18 +388,14 @@
     var stats = moduleStats(allRows);
     var seen = {};
     var list = [];
-    MODULE_ORDER.forEach(function (m) {
-      if (stats[m] && stats[m].total && !seen[m]) {
-        seen[m] = true;
-        list.push(m);
-      }
-    });
-    Object.keys(stats).sort().forEach(function (m) {
-      if (stats[m].total && !seen[m]) {
-        seen[m] = true;
-        list.push(m);
-      }
-    });
+    function include(m) {
+      if (!stats[m] || seen[m]) return;
+      if (state.todoOnly ? !stats[m].todo : !stats[m].total) return;
+      seen[m] = true;
+      list.push(m);
+    }
+    MODULE_ORDER.forEach(include);
+    Object.keys(stats).sort().forEach(include);
     return list;
   }
 
@@ -377,14 +406,21 @@
   }
 
   function renderModules(allRows) {
+    var present = modulesPresent(allRows);
+    if (present.indexOf(state.module) === -1) {
+      state.module = present[0] || state.module;
+    }
     var stats = moduleStats(allRows);
     el.modList.innerHTML = '';
-    modulesPresent(allRows).forEach(function (m) {
+    present.forEach(function (m) {
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'mod-btn' + (state.module === m ? ' active' : '');
+      var meta = state.todoOnly
+        ? (stats[m].todo + ' to-do')
+        : (stats[m].approved + ' / ' + stats[m].total + ' approved');
       btn.innerHTML = '<span>' + (MODULE_LABELS[m] || m) + '</span>' +
-        '<span class="meta">' + stats[m].approved + ' / ' + stats[m].total + ' approved</span>';
+        '<span class="meta">' + meta + '</span>';
       btn.addEventListener('click', function () {
         state.module = m;
         endEdit({ rerender: false }).then(function () {
@@ -400,6 +436,7 @@
     var q = (state.filter || '').trim().toLowerCase();
     return state.rowsCache.filter(function (r) {
       if (moduleOf(r.key) !== state.module) return false;
+      if (state.todoOnly && !needsWork(r.key)) return false;
       if (!q) return true;
       var tr = (state.translations[r.key] && state.translations[r.key].text) || '';
       var enPlain = window.UAOAMarkup ? window.UAOAMarkup.plainText(r.text) : r.text;
@@ -691,13 +728,25 @@
     var rows = filteredRows();
     var approved = rows.filter(function (r) { return isApproved(r.key); }).length;
     var stale = rows.filter(function (r) { return isStale(r.key); }).length;
-    el.stats.textContent = (MODULE_LABELS[state.module] || state.module) +
-      ' · ' + rows.length + ' strings · ' + approved + ' approved' +
-      (stale ? ' · ' + stale + ' stale' : '');
+    var todoInModule = state.rowsCache.filter(function (r) {
+      return moduleOf(r.key) === state.module && needsWork(r.key);
+    }).length;
+    if (state.todoOnly) {
+      el.stats.textContent = (MODULE_LABELS[state.module] || state.module) +
+        ' · ' + rows.length + ' to-do' +
+        (stale ? ' · ' + stale + ' stale' : '') +
+        (state.filter ? ' (filtered)' : '');
+    } else {
+      el.stats.textContent = (MODULE_LABELS[state.module] || state.module) +
+        ' · ' + rows.length + ' strings · ' + approved + ' approved · ' + todoInModule + ' to-do' +
+        (stale ? ' · ' + stale + ' stale' : '');
+    }
 
     if (!rows.length) {
-      el.rows.innerHTML = '<div class="empty">No strings in this module' +
-        (state.filter ? ' match your filter' : '') + '.</div>';
+      var why = state.todoOnly
+        ? (state.filter ? 'No to-do strings match your filter.' : 'No to-do strings in this module.')
+        : ('No strings in this module' + (state.filter ? ' match your filter' : '') + '.');
+      el.rows.innerHTML = '<div class="empty">' + why + '</div>';
       return;
     }
 
@@ -1434,6 +1483,9 @@
       return;
     }
 
+    state.todoOnly = todoFromUrl();
+    syncTodoOnlyBtn();
+
     el.githubSignIn.addEventListener('click', function () {
       Hub.signInWithGitHub().catch(function (e) {
         toast(e.message || 'GitHub sign-in failed', 'error');
@@ -1481,6 +1533,12 @@
       state.filter = el.search.value;
       renderRows();
     });
+
+    if (el.todoOnlyBtn) {
+      el.todoOnlyBtn.addEventListener('click', function () {
+        setTodoOnly(!state.todoOnly);
+      });
+    }
 
     el.adminBtn.addEventListener('click', function () {
       el.adminModal.hidden = false;

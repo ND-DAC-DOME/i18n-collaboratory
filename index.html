@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>i18n Collaboratory</title>
-  <link rel="stylesheet" href="styles.css?v=46">
+  <link rel="stylesheet" href="styles.css?v=47">
 </head>
 <body>
   <header class="app-header">
@@ -69,7 +69,10 @@
       <div id="statusBanner" class="banner" hidden></div>
       <div class="toolbar">
         <div class="stats" id="stats"></div>
-        <input class="search" id="search" type="search" placeholder="Filter keys or text…" autocomplete="off">
+        <div class="toolbar-filters">
+          <button type="button" class="btn filter-toggle" id="todoOnlyBtn" aria-pressed="false" title="Hide approved strings">To-do only</button>
+          <input class="search" id="search" type="search" placeholder="Filter keys or text…" autocomplete="off">
+        </div>
       </div>
       <div id="rows"></div>
     </main>
@@ -87,11 +90,11 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-  <script src="vendor/supabase.min.js?v=46"></script>
-  <script src="vendor/jszip.min.js?v=46"></script>
-  <script src="config.js?v=46"></script>
-  <script src="hub.js?v=46"></script>
-  <script src="markup.js?v=46"></script>
-  <script src="app.js?v=46"></script>
+  <script src="vendor/supabase.min.js?v=47"></script>
+  <script src="vendor/jszip.min.js?v=47"></script>
+  <script src="config.js?v=47"></script>
+  <script src="hub.js?v=47"></script>
+  <script src="markup.js?v=47"></script>
+  <script src="app.js?v=47"></script>
 </body>
 </html>

@@ -151,8 +151,25 @@ button, input, textarea, select { font: inherit; }
   margin-bottom: 12px;
 }
 .toolbar .stats { font-size: 13px; color: var(--muted); font-weight: 600; }
+.toolbar-filters {
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  justify-content: flex-end;
+  flex: 1 1 240px;
+}
+.filter-toggle {
+  flex: 0 0 auto;
+  background: #fff;
+  border: 1.5px solid var(--line);
+  color: var(--navy);
+  font-weight: 700;
+}
+.filter-toggle[aria-pressed="true"] {
+  background: var(--warn-bg);
+  border-color: #F0D39A;
+  color: var(--warn);
+}
 .search {
-  flex: 1 1 220px; max-width: 320px;
+  flex: 1 1 180px; max-width: 320px;
   padding: 9px 12px; border-radius: 999px;
   border: 1.5px solid var(--line); background: #fff;
 }
