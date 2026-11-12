@@ -11,7 +11,7 @@ Vanilla files only. No bundler. `app.js` is one IIFE. Configuration is `window.U
 - Bump the `?v=` query on every script/link tag in `index.html` when `config.js`, `markup.js`, `app.js`, or `styles.css` changes.
 - Keep the global `[hidden] { display: none !important; }` rule. Author `display: flex|grid|inline-flex` on `.btn`, `.layout`, labels, etc. otherwise beats the UA `[hidden]` rule and leaks review chrome into the empty-hub / signed-out screens.
 - Locale list in `config.js` must match the API’s review locales: `es`, `cs`, `sl`, `sv`, `fr`.
-- Module order is `common`, `course`, `welcome`, `survey`, `m1`–`m5`, `summary`, `embeds`, `player`. Widget id is the first two key segments, except `player.*` (first three).
+- Preferred module order is `common`, `course`, `welcome`, `survey`, `m1`–`m5`, `summary`, `embeds`, `player`; any other top-level key segment present in the catalog (e.g. ORP `ui` / `content`) is listed too. Widget id is the first two key segments, except `player.*` (first three).
 - Do not render anchors as links. Join saved text through `UAOAMarkup.readEditor` so the English template is restored.
 - Approvals stay optimistic: queue about 2.5s, then `POST /api/approve-batch`, and fall back to `POST /api/approve` if batch is unavailable. A failed row stays visible for retry.
 - Colors live as `:root` tokens (`--navy` `#1C3564`, `--teal` `#21B7CB`). Sidebar stacks at 860px; a row stacks at 900px.

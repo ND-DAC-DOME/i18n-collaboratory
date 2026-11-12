@@ -3,6 +3,8 @@
 
   var CFG = window.UAOA_I18N_REVIEW || {};
   var Hub = window.I18nHub;
+  // Preferred order for known UAOA elearning prefixes; other top-level key
+  // segments (e.g. ORP ui / content) are appended alphabetically from the catalog.
   var MODULE_ORDER = ['common', 'course', 'welcome', 'survey', 'm1', 'm2', 'm3', 'm4', 'm5', 'summary', 'embeds', 'player'];
   var MODULE_LABELS = {
     common: 'Common UI',
@@ -17,6 +19,8 @@
     summary: 'Summary & Exit',
     embeds: 'Chrome embeds',
     player: 'Player / system labels',
+    ui: 'UI chrome',
+    content: 'Page & assessment copy',
   };
 
   var state = {
@@ -337,7 +341,6 @@
 
   function moduleStats(allRows) {
     var by = {};
-    MODULE_ORDER.forEach(function (m) { by[m] = { total: 0, approved: 0 }; });
     allRows.forEach(function (r) {
       var m = moduleOf(r.key);
       if (!by[m]) by[m] = { total: 0, approved: 0 };
@@ -347,11 +350,36 @@
     return by;
   }
 
+  /** Modules that actually have strings, preferred order first then extras A–Z. */
+  function modulesPresent(allRows) {
+    var stats = moduleStats(allRows);
+    var seen = {};
+    var list = [];
+    MODULE_ORDER.forEach(function (m) {
+      if (stats[m] && stats[m].total && !seen[m]) {
+        seen[m] = true;
+        list.push(m);
+      }
+    });
+    Object.keys(stats).sort().forEach(function (m) {
+      if (stats[m].total && !seen[m]) {
+        seen[m] = true;
+        list.push(m);
+      }
+    });
+    return list;
+  }
+
+  function pickDefaultModule(allRows) {
+    var present = modulesPresent(allRows);
+    if (present.indexOf(state.module) !== -1) return state.module;
+    return present[0] || 'common';
+  }
+
   function renderModules(allRows) {
     var stats = moduleStats(allRows);
     el.modList.innerHTML = '';
-    MODULE_ORDER.forEach(function (m) {
-      if (!stats[m] || !stats[m].total) return;
+    modulesPresent(allRows).forEach(function (m) {
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'mod-btn' + (state.module === m ? ' active' : '');
@@ -980,10 +1008,7 @@
       if (wanted && !allowed.some(function (l) { return l.locale === wanted; })) {
         wanted = allowed[0] && allowed[0].locale;
       }
-      if (!MODULE_ORDER.includes(state.module) ||
-          !state.rowsCache.some(function (r) { return moduleOf(r.key) === state.module; })) {
-        state.module = 'common';
-      }
+      state.module = pickDefaultModule(state.rowsCache);
       if (!wanted) {
         state.locale = '';
         updateChrome();
