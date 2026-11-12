@@ -615,9 +615,16 @@ create policy hub_admins_delete on public.hub_admins
   using (app.is_hub_admin(auth.uid()));
 
 -- projects
+-- Hub admins must be allowed by is_hub_admin() itself. Do not express that as
+-- "id is in member_project_ids()": that helper scans projects, and a STABLE
+-- scan does not see the row of an in-flight INSERT ... RETURNING, so create
+-- fails with "new row violates row-level security policy".
 create policy projects_select on public.projects
   for select to authenticated
-  using (id in (select app.member_project_ids(auth.uid())));
+  using (
+    (select app.is_hub_admin(auth.uid()))
+    or app.is_project_member(id, (select auth.uid()))
+  );
 
 create policy projects_insert on public.projects
   for insert to authenticated
