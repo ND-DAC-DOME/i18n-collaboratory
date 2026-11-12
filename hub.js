@@ -430,25 +430,57 @@
     }
   }
 
-  /** Build nested catalog objects for zip/export from flat rows. */
+  /**
+   * Build nested catalog objects for zip/export from flat rows.
+   * Arrays only when siblings are all decimal and include "0" (0-based).
+   * 1-based numbered objects ("1","2",…) stay objects — no leading null.
+   * Keep in sync with supabase/functions/_shared/catalog.ts nestStrings.
+   */
+  function childSegmentsByPrefix(keys) {
+    var map = Object.create(null);
+    keys.forEach(function (key) {
+      var parts = key.split('.');
+      var prefix = '';
+      for (var i = 0; i < parts.length; i++) {
+        if (!map[prefix]) map[prefix] = Object.create(null);
+        map[prefix][parts[i]] = true;
+        prefix = prefix ? prefix + '.' + parts[i] : parts[i];
+      }
+    });
+    return map;
+  }
+
+  function wantArrayChildren(siblings) {
+    if (!siblings) return false;
+    var keys = Object.keys(siblings);
+    if (!keys.length) return false;
+    for (var i = 0; i < keys.length; i++) {
+      if (!/^\d+$/.test(keys[i])) return false;
+    }
+    return !!siblings['0'];
+  }
+
   function nestFlat(flatLeaves, mode) {
     var root = {};
+    var children = childSegmentsByPrefix(Object.keys(flatLeaves));
     Object.keys(flatLeaves).forEach(function (key) {
       var leaf = flatLeaves[key];
       var parts = key.split('.');
       var cur = root;
+      var prefix = '';
       for (var i = 0; i < parts.length - 1; i++) {
         var p = parts[i];
-        var next = parts[i + 1];
-        var wantArray = /^\d+$/.test(next);
+        var childPrefix = prefix ? prefix + '.' + p : p;
+        var asArray = wantArrayChildren(children[childPrefix]);
         if (Array.isArray(cur)) {
           var idx = Number(p);
-          if (cur[idx] == null) cur[idx] = wantArray ? [] : {};
+          if (cur[idx] == null) cur[idx] = asArray ? [] : {};
           cur = cur[idx];
         } else {
-          if (cur[p] == null) cur[p] = wantArray ? [] : {};
+          if (cur[p] == null) cur[p] = asArray ? [] : {};
           cur = cur[p];
         }
+        prefix = childPrefix;
       }
       var last = parts[parts.length - 1];
       var value = mode === 'rich'

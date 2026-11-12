@@ -60,27 +60,62 @@ export async function sha256Hex(text: string): Promise<string> {
     .join("");
 }
 
-/** Rebuild a nested object from dotted keys. Arrays are used when every sibling key is numeric. */
+/**
+ * Rebuild a nested object from dotted keys.
+ * Use a JSON array only when every sibling key is decimal AND "0" is present
+ * (true 0-based arrays from flatten). 1-based numbered objects ("1","2",…)
+ * stay objects so export does not emit a leading null.
+ * Keep in sync with hub.js nestFlat.
+ */
+function childSegmentsByPrefix(keys: string[]): Map<string, Set<string>> {
+  const map = new Map<string, Set<string>>();
+  for (const key of keys) {
+    const parts = key.split(".");
+    let prefix = "";
+    for (const part of parts) {
+      let set = map.get(prefix);
+      if (!set) {
+        set = new Set();
+        map.set(prefix, set);
+      }
+      set.add(part);
+      prefix = prefix ? `${prefix}.${part}` : part;
+    }
+  }
+  return map;
+}
+
+function wantArrayChildren(siblings: Set<string> | undefined): boolean {
+  if (!siblings || siblings.size === 0) return false;
+  for (const k of siblings) {
+    if (!/^\d+$/.test(k)) return false;
+  }
+  return siblings.has("0");
+}
+
 export function nestStrings(
   flat: Record<string, Leaf>,
   mode: "plain" | "rich",
 ): unknown {
   const root: Record<string, unknown> = {};
+  const children = childSegmentsByPrefix(Object.keys(flat));
   for (const [key, leaf] of Object.entries(flat)) {
     const parts = key.split(".");
     let cur: Record<string, unknown> | unknown[] = root;
+    let prefix = "";
     for (let i = 0; i < parts.length - 1; i++) {
       const p = parts[i];
-      const next = parts[i + 1];
-      const wantArray = /^\d+$/.test(next);
+      const childPrefix = prefix ? `${prefix}.${p}` : p;
+      const asArray = wantArrayChildren(children.get(childPrefix));
       if (Array.isArray(cur)) {
         const idx = Number(p);
-        if (cur[idx] == null) cur[idx] = wantArray ? [] : {};
+        if (cur[idx] == null) cur[idx] = asArray ? [] : {};
         cur = cur[idx] as Record<string, unknown> | unknown[];
       } else {
-        if (cur[p] == null) cur[p] = wantArray ? [] : {};
+        if (cur[p] == null) cur[p] = asArray ? [] : {};
         cur = cur[p] as Record<string, unknown> | unknown[];
       }
+      prefix = childPrefix;
     }
     const last = parts[parts.length - 1];
     const value = mode === "rich"

@@ -5,7 +5,9 @@
   "description": "Multi-project translation review hub (GitHub Pages + Supabase)",
   "scripts": {
     "import:local": "node scripts/import_local_catalogs.mjs",
-    "test:markup": "node markup.test.js"
+    "test:markup": "node markup.test.js",
+    "test:nest": "node nest.test.mjs",
+    "test": "npm run test:markup && npm run test:nest"
   },
   "devDependencies": {
     "@supabase/supabase-js": "^2.49.1"
