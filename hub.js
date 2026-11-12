@@ -364,6 +364,16 @@
     });
   }
 
+  async function importCatalog(projectId, locales, opts) {
+    opts = opts || {};
+    return invokeFunction('import-catalog', {
+      projectId: projectId,
+      locales: locales,
+      sourceLocale: opts.sourceLocale || null,
+      initialApproval: opts.initialApproval || 'unapproved',
+    });
+  }
+
   async function probeHealth() {
     try {
       ensureClient();
@@ -442,6 +452,7 @@
     rotatePushSecret: rotatePushSecret,
     setGithubToken: setGithubToken,
     pushToRepo: pushToRepo,
+    importCatalog: importCatalog,
     probeHealth: probeHealth,
     nestFlat: nestFlat,
   };

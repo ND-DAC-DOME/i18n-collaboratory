@@ -10,6 +10,7 @@ alwaysApply: false
 - Helper functions stay in schema `app` (not exposed on the Data API).
 - `project_credentials` has no SELECT for `authenticated`; only Edge Functions with the service role read it.
 - `ingest` uses `verify_jwt = false` and a hashed per-project push secret.
+- `import-catalog` uses `verify_jwt = true`; project admin or hub admin only. Shared `applyCatalog` with ingest; content SHA-256 is the version hash.
 - First ingest honors `initialApproval` (`approved`|`unapproved`, default `unapproved`) only when `head_version_hash` is null.
 - Later ingest keeps sticky `en_fp` approvals; changed English marks translations stale and stores `previous_text` on source strings.
 - Encrypt GitHub tokens with `CREDENTIALS_ENCRYPTION_KEY` before writing `project_credentials`.

@@ -30,7 +30,6 @@
     module: 'common',
     sourceRows: [],
     translations: {},
-    lock: null,
     canEdit: false,
     isAdmin: false,
     editingKey: null,
@@ -54,9 +53,6 @@
     localeSelect: document.getElementById('localeSelect'),
     localeLabel: document.getElementById('localeLabel'),
     reviewerPill: document.getElementById('reviewerPill'),
-    lockPill: document.getElementById('lockPill'),
-    checkoutBtn: document.getElementById('checkoutBtn'),
-    releaseBtn: document.getElementById('releaseBtn'),
     adminBtn: document.getElementById('adminBtn'),
     downloadBtn: document.getElementById('downloadBtn'),
     signOutBtn: document.getElementById('signOutBtn'),
@@ -210,36 +206,20 @@
     history.replaceState(null, '', u.toString());
   }
 
+  function refreshCanEdit() {
+    state.canEdit = !!(
+      state.user &&
+      state.project &&
+      state.locale &&
+      allowedLocales().some(function (l) { return l.locale === state.locale; })
+    );
+  }
+
   function updateChrome() {
     el.reviewerPill.textContent = state.user
       ? ('Signed in: ' + displayName(state.user))
       : 'Signed out';
     el.signOutBtn.hidden = !state.user;
-
-    var lock = state.lock;
-    var mine = !!(lock && state.user && lock.holder_id === state.user.id);
-    var free = !lock;
-
-    el.lockPill.hidden = !state.project || !state.locale;
-    if (free) {
-      el.lockPill.textContent = 'Locale available';
-      el.lockPill.className = 'pill ok';
-    } else if (mine) {
-      el.lockPill.textContent = 'Under review by you';
-      el.lockPill.className = 'pill ok';
-    } else {
-      el.lockPill.textContent = 'In use by ' + (lock.holder_name || 'someone');
-      el.lockPill.className = 'pill busy';
-    }
-
-    el.releaseBtn.hidden = !(state.canEdit && mine);
-    el.checkoutBtn.hidden = !state.user || !state.project || !state.locale;
-    var checkoutBlocked = !free;
-    el.checkoutBtn.disabled = checkoutBlocked || !state.user;
-    el.checkoutBtn.classList.toggle('is-held', !!(state.canEdit && mine));
-    el.checkoutBtn.classList.toggle('is-busy-other', !!(lock && !mine));
-    el.checkoutBtn.classList.toggle('btn-approve', free && !!state.user);
-    el.checkoutBtn.classList.toggle('btn-ghost', !free || !state.user);
 
     el.adminBtn.hidden = !(state.isAdmin || state.hubAdmin);
     el.downloadBtn.hidden = !(state.isAdmin || state.hubAdmin) || !state.project;
@@ -252,20 +232,12 @@
     if (!state.canEdit) {
       el.banner.hidden = false;
       el.banner.className = 'banner';
-      if (lock && !mine) {
-        el.banner.textContent = 'Cannot begin review since locked by ' +
-          (lock.holder_name || 'someone else') +
-          ' until ' +
-          (lock.until ? new Date(lock.until).toLocaleString() : 'later') +
-          '. You can browse in read-only mode.';
-      } else {
-        el.banner.textContent = 'View only — press Start Review to claim this locale and approve or edit.';
-      }
+      el.banner.textContent = 'View only — this locale is not assigned to you.';
     } else {
       el.banner.hidden = false;
       el.banner.className = 'banner ok';
-      el.banner.textContent = 'You have an exclusive checkout for ' + state.locale.toUpperCase() +
-        '. Approve stamps a line; Edit to change the translation (Save clears approval). Release when done.';
+      el.banner.textContent = 'Reviewing ' + state.locale.toUpperCase() +
+        '. Approve stamps a line; Edit to change the translation (Save clears approval). Others may review the same locale.';
     }
   }
 
@@ -747,47 +719,6 @@
     });
   }
 
-  function claimLocale() {
-    return Hub.claimLease(
-      state.project.id,
-      state.locale,
-      CFG.leaseMinutes || 15,
-      displayName(state.user)
-    ).then(function (lease) {
-      state.lock = lease;
-      state.canEdit = !!(lease && state.user && lease.holder_id === state.user.id);
-      updateChrome();
-      return lease;
-    });
-  }
-
-  function releaseLocale() {
-    return Hub.releaseLease(state.project.id, state.locale).then(function () {
-      state.lock = null;
-      state.canEdit = false;
-      state.editingKey = null;
-      updateChrome();
-      toast('Locale released — view only until you check out again.');
-    }).catch(function (e) {
-      toast(e.message || 'Release failed', 'error');
-    });
-  }
-
-  function heartbeat() {
-    if (!state.canEdit || !state.project || !state.locale) return;
-    Hub.heartbeatLease(state.project.id, state.locale, CFG.leaseMinutes || 15)
-      .then(function (lease) {
-        if (lease) state.lock = lease;
-        if (!lease || (state.user && lease.holder_id !== state.user.id)) {
-          state.canEdit = false;
-          updateChrome();
-          renderRows();
-          toast('Checkout lost — locale taken or expired');
-        }
-      })
-      .catch(function () { /* ignore transient */ });
-  }
-
   function allowedLocales() {
     if (state.isAdmin || state.hubAdmin) return state.locales;
     var langs = (state.membership && state.membership.member_languages) || [];
@@ -826,15 +757,11 @@
     setUrlParams(state.project.slug, code);
     el.localeSelect.value = code;
 
-    return Promise.all([
-      Hub.loadTranslations(state.project.id, code),
-      Hub.loadLease(state.project.id, code),
-    ]).then(function (parts) {
+    return Hub.loadTranslations(state.project.id, code).then(function (rows) {
       var map = {};
-      (parts[0] || []).forEach(function (row) { map[row.key] = row; });
+      (rows || []).forEach(function (row) { map[row.key] = row; });
       state.translations = map;
-      state.lock = parts[1];
-      state.canEdit = !!(state.lock && state.user && state.lock.holder_id === state.user.id);
+      refreshCanEdit();
       hideWake();
       updateChrome();
       renderModules(state.rowsCache);
@@ -1014,6 +941,62 @@
     }
   }
 
+  function localeCodeFromPath(path) {
+    var parts = String(path || '').replace(/\\/g, '/').split('/');
+    var name = parts[parts.length - 1] || '';
+    if (!name.endsWith('.json')) return null;
+    if (name.endsWith('.notes.json') || name === 'manifest.json') return null;
+    return name.replace(/\.json$/, '');
+  }
+
+  function parseLocalesFiles(fileList, sourceLocale) {
+    var files = Array.prototype.slice.call(fileList || []);
+    var byCode = {};
+    var reads = files.map(function (file) {
+      var code = localeCodeFromPath(file.webkitRelativePath || file.name);
+      if (!code) return Promise.resolve(null);
+      return file.text().then(function (text) {
+        byCode[code] = JSON.parse(text);
+      });
+    });
+    return Promise.all(reads).then(function () {
+      if (!(sourceLocale in byCode)) {
+        throw new Error('Missing source locale file ' + sourceLocale + '.json');
+      }
+      if (!Object.keys(byCode).length) {
+        throw new Error('No locale JSON files found');
+      }
+      return byCode;
+    });
+  }
+
+  function parseLocalesZip(file, sourceLocale) {
+    if (!window.JSZip) return Promise.reject(new Error('JSZip is not loaded'));
+    return window.JSZip.loadAsync(file).then(function (zip) {
+      var byCode = {};
+      var jobs = [];
+      zip.forEach(function (relativePath, entry) {
+        if (entry.dir) return;
+        var code = localeCodeFromPath(relativePath);
+        if (!code) return;
+        jobs.push(
+          entry.async('string').then(function (text) {
+            byCode[code] = JSON.parse(text);
+          }),
+        );
+      });
+      return Promise.all(jobs).then(function () {
+        if (!(sourceLocale in byCode)) {
+          throw new Error('Missing source locale file ' + sourceLocale + '.json');
+        }
+        if (!Object.keys(byCode).length) {
+          throw new Error('No locale JSON files found in zip');
+        }
+        return byCode;
+      });
+    });
+  }
+
   function renderAdmin() {
     var p = state.project;
     var html = '';
@@ -1036,6 +1019,14 @@
           escapeHtml(state.locales.map(function (l) { return l.locale; }).join(', ')) + '"></label>' +
         '<button type="button" class="btn btn-ghost" id="saveProjectBtn">Save project</button>' +
         '<button type="button" class="btn btn-approve" id="pushRepoBtn">Push to repo</button></section>';
+
+      html += '<section class="admin-section"><h3>Upload locales</h3>' +
+        '<p class="note">Load catalogs from a locales folder or zip. Skip *.notes.json and manifest.json. Requires ' +
+        escapeHtml(p.source_locale || 'en') + '.json. Same sticky-approval rules as GitHub ingest.</p>' +
+        '<label>Folder <input type="file" id="uploadDir" webkitdirectory multiple></label>' +
+        '<label>Zip <input type="file" id="uploadZip" accept=".zip,application/zip"></label>' +
+        '<label><input type="checkbox" id="uploadInitialApproved"> Mark non-empty translations approved (first import only)</label>' +
+        '<button type="button" class="btn btn-approve" id="uploadLocalesBtn">Upload</button></section>';
 
       html += '<section class="admin-section"><h3>Credentials</h3>' +
         '<button type="button" class="btn btn-ghost" id="rotateSecretBtn">Rotate push secret</button>' +
@@ -1105,6 +1096,63 @@
         Hub.pushToRepo(p.id).then(function (data) {
           toast('Pushed to ' + data.repo, 'ok');
         }).catch(function (e) { toast(e.message || 'Push failed', 'error'); });
+      });
+    }
+
+    var uploadBtn = document.getElementById('uploadLocalesBtn');
+    if (uploadBtn) {
+      uploadBtn.addEventListener('click', function () {
+        var dirInput = document.getElementById('uploadDir');
+        var zipInput = document.getElementById('uploadZip');
+        var initial = document.getElementById('uploadInitialApproved').checked
+          ? 'approved'
+          : 'unapproved';
+        var sourceLocale = p.source_locale || 'en';
+        var zipFile = zipInput && zipInput.files && zipInput.files[0];
+        var dirFiles = dirInput && dirInput.files && dirInput.files.length
+          ? Array.prototype.slice.call(dirInput.files)
+          : [];
+        var parsePromise;
+        if (zipFile) {
+          parsePromise = parseLocalesZip(zipFile, sourceLocale);
+        } else if (dirFiles.length) {
+          parsePromise = parseLocalesFiles(dirFiles, sourceLocale);
+        } else {
+          toast('Choose a locales folder or zip first', 'error');
+          return;
+        }
+        uploadBtn.disabled = true;
+        parsePromise
+          .then(function (locales) {
+            return Hub.importCatalog(p.id, locales, {
+              sourceLocale: sourceLocale,
+              initialApproval: initial,
+            });
+          })
+          .then(function (data) {
+            if (data && data.noop) {
+              toast('Catalog unchanged (same content hash)', 'ok');
+            } else {
+              toast(
+                'Imported ' + (data.sourceKeys || 0) + ' keys' +
+                  (data.changedKeys ? ' · ' + data.changedKeys + ' English changed' : ''),
+                'ok',
+              );
+            }
+            if (dirInput) dirInput.value = '';
+            if (zipInput) zipInput.value = '';
+            return Hub.listMyProjects().then(function (list) {
+              state.projects = list;
+              fillProjectSelect();
+              return loadProject(p.slug).then(renderAdmin);
+            });
+          })
+          .catch(function (e) {
+            toast(e.message || 'Upload failed', 'error');
+          })
+          .finally(function () {
+            uploadBtn.disabled = false;
+          });
       });
     }
 
@@ -1203,8 +1251,6 @@
 
     el.projectSelect.addEventListener('change', function () {
       settleApproveQueue().then(function () {
-        if (state.canEdit) return releaseLocale();
-      }).finally(function () {
         loadProject(el.projectSelect.value);
       });
     });
@@ -1218,28 +1264,8 @@
           toast('Some approvals did not save — retry the highlighted rows', 'error');
           return;
         }
-        var go = function () { loadLocale(next); };
-        if (state.canEdit && prev) return releaseLocale().finally(go);
-        go();
+        loadLocale(next);
       });
-    });
-
-    el.checkoutBtn.addEventListener('click', function () {
-      if (el.checkoutBtn.disabled) return;
-      claimLocale().then(function (lease) {
-        renderRows();
-        if (lease && state.user && lease.holder_id === state.user.id) {
-          toast('Checked out — you can approve and edit', 'ok');
-        } else {
-          toast('Could not begin review — locale may be in use', 'error');
-        }
-      }).catch(function (e) {
-        toast(e.message || 'Start Review failed', 'error');
-      });
-    });
-
-    el.releaseBtn.addEventListener('click', function () {
-      releaseLocale().then(function () { renderRows(); });
     });
 
     el.search.addEventListener('input', function () {
@@ -1257,8 +1283,6 @@
     el.downloadBtn.addEventListener('click', function () {
       downloadZip();
     });
-
-    setInterval(heartbeat, 120000);
 
     Hub.onAuthChange(function (_event, session) {
       if (session && session.user) showSignedIn(session.user);

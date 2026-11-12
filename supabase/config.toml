@@ -35,6 +35,9 @@ redirect_uri = "http://127.0.0.1:54321/auth/v1/callback"
 [functions.ingest]
 verify_jwt = false
 
+[functions.import-catalog]
+verify_jwt = true
+
 [functions.credentials]
 verify_jwt = true
 
