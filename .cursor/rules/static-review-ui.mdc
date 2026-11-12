@@ -8,7 +8,8 @@ alwaysApply: false
 
 Vanilla files only. No bundler. `app.js` is one IIFE. Configuration is `window.UAOA_I18N_REVIEW` in `config.js`.
 
-- Bump the `?v=` query on every script tag in `index.html` when `config.js`, `markup.js`, or `app.js` changes.
+- Bump the `?v=` query on every script/link tag in `index.html` when `config.js`, `markup.js`, `app.js`, or `styles.css` changes.
+- Keep the global `[hidden] { display: none !important; }` rule. Author `display: flex|grid|inline-flex` on `.btn`, `.layout`, labels, etc. otherwise beats the UA `[hidden]` rule and leaks review chrome into the empty-hub / signed-out screens.
 - Locale list in `config.js` must match the API’s review locales: `es`, `cs`, `sl`, `sv`, `fr`.
 - Module order is `common`, `course`, `welcome`, `survey`, `m1`–`m5`, `summary`, `embeds`, `player`. Widget id is the first two key segments, except `player.*` (first three).
 - Do not render anchors as links. Join saved text through `UAOAMarkup.readEditor` so the English template is restored.

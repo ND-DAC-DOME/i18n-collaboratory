@@ -16,6 +16,8 @@
 }
 
 * { box-sizing: border-box; }
+/* Author display values (grid, flex, inline-flex) beat the UA [hidden] rule. */
+[hidden] { display: none !important; }
 html, body { margin: 0; min-height: 100%; }
 body {
   font-family: var(--font);
@@ -345,8 +347,6 @@ button, input, textarea, select { font: inherit; }
   position: fixed; inset: 0; background: rgba(9,19,36,.45);
   display: grid; place-items: center; z-index: 50; padding: 16px;
 }
-/* display:grid above beats the UA [hidden] rule — force dismiss */
-.modal-backdrop[hidden] { display: none !important; }
 .modal {
   width: min(440px, 100%);
   background: #fff; border-radius: 16px; padding: 22px;
@@ -417,8 +417,13 @@ button, input, textarea, select { font: inherit; }
 
 
 /* Auth + hub */
-.auth-screen, .empty-hub {
-  max-width: 420px;
+.auth-screen {
+  max-width: 440px;
+  margin: 48px auto;
+  padding: 0 16px;
+}
+.empty-hub {
+  max-width: 520px;
   margin: 48px auto;
   padding: 0 16px;
 }
@@ -429,7 +434,18 @@ button, input, textarea, select { font: inherit; }
   padding: 24px;
 }
 .auth-card h2, .empty-hub h2 { margin: 0 0 8px; color: var(--navy); }
-.auth-card p, .empty-hub p { color: var(--muted); font-size: 14px; }
+.auth-card p, .empty-hub p { margin: 0 0 12px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+.auth-card p:last-child, .empty-hub p:last-child { margin-bottom: 0; }
+/* Signed-in with nothing to review: one card, centered under the header. */
+body:has(#emptyHub:not([hidden])) {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body:has(#emptyHub:not([hidden])) > #emptyHub {
+  margin: auto;
+  width: min(520px, calc(100% - 32px));
+}
 .auth-divider {
   margin: 16px 0;
   text-align: center;
