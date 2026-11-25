@@ -4,12 +4,12 @@ Multi-project translation review hub for a family of sites.
 
 - Static UI on **GitHub Pages** (this private Team-plan repo; the published site is public)
 - Shared state on **Supabase** (Auth, Postgres + RLS, Edge Functions, Realtime)
-- Reviewers sign in with GitHub or email magic link (magic link needs custom SMTP)
+- Reviewers type a name. The page opens an anonymous session for this browser tab and records that name on approval stamps
 - Per-project roles: admin or language reviewer
 - Catalog ingest from each site repo via GitHub Actions + a project push secret, **or** Admin upload of a locales folder / zip
 - Sticky English fingerprints: unchanged English keeps approvals; changed English shows a side-by-side diff and needs re-approval
 - Approval stamps show who approved and when (`approved_by_name`)
-- Collaborative review: anyone assigned the locale can edit; one person at a time per focused key; peers see approvals and focus live
+- One 15-minute locale checkout per session (renews while the tab stays open). Inside that checkout, one person at a time per focused key; peers see approvals and focus live
 - Admins can **download** a `locales/` zip anytime, or **push** files back to the site repo
 
 ## Live setup

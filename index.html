@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>i18n Collaboratory</title>
-  <link rel="stylesheet" href="styles.css?v=49">
+  <link rel="stylesheet" href="styles.css?v=51">
 </head>
 <body>
   <header class="app-header">
@@ -21,7 +21,10 @@
         Locale
         <select id="localeSelect" aria-label="Locale"></select>
       </label>
-      <span class="pill" id="reviewerPill">Signed out</span>
+      <span class="pill" id="reviewerPill">Reviewer…</span>
+      <span class="pill" id="lockPill" hidden></span>
+      <button type="button" class="btn btn-ghost btn-checkout" id="checkoutBtn" hidden>Start Review</button>
+      <button type="button" class="btn btn-ghost" id="releaseBtn" hidden>Release</button>
       <button type="button" class="btn btn-ghost" id="adminBtn" hidden>Admin</button>
       <button type="button" class="btn btn-ghost" id="downloadBtn" hidden>Download</button>
       <button type="button" class="btn btn-ghost" id="signOutBtn" hidden>Sign out</button>
@@ -38,24 +41,24 @@
     </div>
   </div>
 
-  <div id="authScreen" class="auth-screen" hidden>
-    <div class="auth-card">
-      <h2>Sign in to review</h2>
-      <p>Use GitHub, or an email magic link once custom SMTP is configured on the Supabase project.</p>
-      <button type="button" class="btn btn-approve" id="githubSignIn">Continue with GitHub</button>
-      <div class="auth-divider">or</div>
+  <div id="nameModal" class="modal-backdrop">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="nameTitle">
+      <h2 id="nameTitle">Who's reviewing?</h2>
+      <p>Enter your name so we can check out a locale for you and record approvals. No account required.</p>
       <label class="auth-email">
-        Email
-        <input id="magicEmail" type="email" autocomplete="email" placeholder="you@example.com">
+        Your name
+        <input id="nameInput" type="text" autocomplete="name" maxlength="80" placeholder="Ada">
       </label>
-      <button type="button" class="btn btn-ghost" id="magicSignIn">Send magic link</button>
-      <p class="auth-note" id="authNote" hidden></p>
+      <div class="row-actions">
+        <button type="button" class="btn btn-approve" id="nameStart">Start reviewing</button>
+      </div>
+      <p class="auth-note" id="nameNote" hidden></p>
     </div>
   </div>
 
   <div id="emptyHub" class="empty-hub" hidden>
     <h2>No projects yet</h2>
-    <p>You are signed in, but you are not a member of any translation project. Ask a project admin for an invite.</p>
+    <p>No translation project is available for this link.</p>
     <p id="hubAdminHint" hidden>You are a hub admin — open Admin to create the first project.</p>
   </div>
 
@@ -90,11 +93,11 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-  <script src="vendor/supabase.min.js?v=49"></script>
-  <script src="vendor/jszip.min.js?v=49"></script>
-  <script src="config.js?v=49"></script>
-  <script src="hub.js?v=50"></script>
-  <script src="markup.js?v=49"></script>
-  <script src="app.js?v=50"></script>
+  <script src="vendor/supabase.min.js?v=51"></script>
+  <script src="vendor/jszip.min.js?v=51"></script>
+  <script src="config.js?v=51"></script>
+  <script src="hub.js?v=51"></script>
+  <script src="markup.js?v=51"></script>
+  <script src="app.js?v=51"></script>
 </body>
 </html>

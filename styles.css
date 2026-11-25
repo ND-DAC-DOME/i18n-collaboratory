@@ -490,6 +490,7 @@ body:has(#emptyHub:not([hidden])) > #emptyHub {
   width: 100%;
 }
 .auth-note { margin-top: 12px; color: var(--ok); font-size: 13px; }
+#nameNote { color: var(--danger); }
 
 .modal-wide { max-width: 640px; width: calc(100vw - 32px); }
 .admin-body { max-height: 60vh; overflow: auto; }
