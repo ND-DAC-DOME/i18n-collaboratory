@@ -13,9 +13,8 @@ Zero-cost target: **GitHub Pages** (public site from this private Team-plan repo
    - `push`
 4. Function secrets:
    - `CREDENTIALS_ENCRYPTION_KEY` — long random string used to encrypt per-project GitHub tokens
-5. Auth → enable **GitHub** and **Email**. Set Site URL / redirect to the Pages URL.
-6. Custom SMTP is required before magic-link works for addresses outside the Supabase org team. No specific SMTP vendor is required.
-7. Seed yourself as hub admin after first sign-in:
+5. Auth → enable **Anonymous sign-ins**. Set Site URL to the Pages URL. Apply `supabase/migrations/20261125180000_name_review_and_lease.sql` (`npx supabase db push`) so a name can join a project as a reviewer and writes require the locale checkout.
+6. Seed a hub admin (a dashboard user, not an anonymous reviewer) if you need Admin upload and download:
 
 ```sql
 insert into public.hub_admins (user_id)

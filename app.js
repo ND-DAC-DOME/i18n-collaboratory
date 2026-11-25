@@ -35,6 +35,9 @@
     sourceRows: [],
     translations: {},
     canEdit: false,
+    lock: null,
+    name: '',
+    leaseTimer: null,
     isAdmin: false,
     focuses: {},
     focusHeartbeatTimer: null,
@@ -62,6 +65,9 @@
     localeSelect: document.getElementById('localeSelect'),
     localeLabel: document.getElementById('localeLabel'),
     reviewerPill: document.getElementById('reviewerPill'),
+    lockPill: document.getElementById('lockPill'),
+    checkoutBtn: document.getElementById('checkoutBtn'),
+    releaseBtn: document.getElementById('releaseBtn'),
     adminBtn: document.getElementById('adminBtn'),
     downloadBtn: document.getElementById('downloadBtn'),
     signOutBtn: document.getElementById('signOutBtn'),
@@ -74,14 +80,13 @@
     wakeBanner: document.getElementById('wakeBanner'),
     wakeTitle: document.getElementById('wakeBannerTitle'),
     wakeBody: document.getElementById('wakeBannerBody'),
-    authScreen: document.getElementById('authScreen'),
+    nameModal: document.getElementById('nameModal'),
+    nameInput: document.getElementById('nameInput'),
+    nameStart: document.getElementById('nameStart'),
+    nameNote: document.getElementById('nameNote'),
     emptyHub: document.getElementById('emptyHub'),
     hubAdminHint: document.getElementById('hubAdminHint'),
     appLayout: document.getElementById('appLayout'),
-    githubSignIn: document.getElementById('githubSignIn'),
-    magicSignIn: document.getElementById('magicSignIn'),
-    magicEmail: document.getElementById('magicEmail'),
-    authNote: document.getElementById('authNote'),
     adminModal: document.getElementById('adminModal'),
     adminBody: document.getElementById('adminBody'),
     adminClose: document.getElementById('adminClose'),
@@ -114,6 +119,26 @@
     if (!el.wakeBanner) return;
     el.wakeBanner.hidden = true;
     el.wakeBanner.classList.remove('is-failed');
+  }
+
+  var NAME_KEY = 'i18n.reviewer';
+
+  function reviewerName() {
+    if (state.name) return state.name;
+    return displayName(state.user);
+  }
+
+  function isAnonymous(user) {
+    if (!user) return false;
+    if (user.is_anonymous) return true;
+    var meta = user.app_metadata || {};
+    return meta.provider === 'anonymous';
+  }
+
+  function holdsLease() {
+    var lock = state.lock;
+    if (!lock || !state.user || lock.holder_id !== state.user.id) return false;
+    return new Date(lock.until).getTime() > Date.now();
   }
 
   function displayName(user) {
@@ -253,6 +278,7 @@
       state.user &&
       state.project &&
       state.locale &&
+      holdsLease() &&
       allowedLocales().some(function (l) { return l.locale === state.locale; })
     );
   }
@@ -301,7 +327,7 @@
 
   function beginEdit(key) {
     if (state.pendingKey) return;
-    Hub.claimFocus(state.project.id, state.locale, key, displayName(state.user))
+    Hub.claimFocus(state.project.id, state.locale, key, reviewerName())
       .then(function (row) {
         if (!row || (state.user && row.user_id !== state.user.id)) {
           if (row) state.focuses[key] = row;
@@ -347,9 +373,25 @@
 
   function updateChrome() {
     el.reviewerPill.textContent = state.user
-      ? ('Signed in: ' + displayName(state.user))
-      : 'Signed out';
-    el.signOutBtn.hidden = !state.user;
+      ? ('Reviewer: ' + reviewerName())
+      : 'Reviewer…';
+    el.signOutBtn.hidden = !state.user || isAnonymous(state.user);
+
+    var lock = state.lock;
+    var mine = holdsLease();
+    var busyOther = !!(lock && state.user && lock.holder_id !== state.user.id && new Date(lock.until).getTime() > Date.now());
+    el.lockPill.hidden = !lock || !state.locale;
+    if (lock && state.locale) {
+      var who = lock.holder_name || 'someone';
+      el.lockPill.textContent = mine
+        ? (state.locale.toUpperCase() + ' · you')
+        : (state.locale.toUpperCase() + ' · ' + who);
+    }
+    var assigned = !!(state.user && state.project && state.locale &&
+      allowedLocales().some(function (l) { return l.locale === state.locale; }));
+    el.checkoutBtn.hidden = !assigned;
+    el.checkoutBtn.disabled = !assigned || busyOther || mine;
+    el.releaseBtn.hidden = !mine;
 
     el.adminBtn.hidden = !(state.isAdmin || state.hubAdmin);
     el.downloadBtn.hidden = !(state.isAdmin || state.hubAdmin) || !state.project;
@@ -359,15 +401,22 @@
       return;
     }
 
-    if (!state.canEdit) {
+    var mins = CFG.leaseMinutes || 15;
+    if (!assigned) {
       el.banner.hidden = false;
       el.banner.className = 'banner';
       el.banner.textContent = 'View only — this locale is not assigned to you.';
+    } else if (!mine) {
+      el.banner.hidden = false;
+      el.banner.className = 'banner';
+      el.banner.textContent = busyOther
+        ? ('View only — ' + (lock.holder_name || 'someone') + ' has ' + state.locale.toUpperCase() + ' checked out.')
+        : ('View only — press Start Review for a ' + mins + '-minute checkout. It renews while this tab stays open.');
     } else {
       el.banner.hidden = false;
       el.banner.className = 'banner ok';
-      el.banner.textContent = 'Reviewing ' + state.locale.toUpperCase() +
-        '. Approve stamps a line; Edit to change the translation (Save clears approval). Others may review the same locale.';
+      el.banner.textContent = 'You have ' + state.locale.toUpperCase() + ' for ' + mins +
+        ' minutes. The checkout renews while this tab stays open. One person at a time on a focused key.';
     }
   }
 
@@ -791,7 +840,7 @@
       stale: false,
       approved_at: new Date().toISOString(),
       approved_by: state.user && state.user.id,
-      approved_by_name: displayName(state.user),
+      approved_by_name: reviewerName(),
       _local: true,
     });
     state.translations[key] = entry;
@@ -820,7 +869,7 @@
       state.project.id,
       state.locale,
       payload.keys,
-      displayName(state.user),
+      reviewerName(),
     )
       .then(function (rows) {
         (rows || []).forEach(function (row) {
@@ -1012,12 +1061,15 @@
       return Promise.all([
         Hub.loadTranslations(state.project.id, code),
         Hub.loadFocuses(state.project.id, code),
+        Hub.loadLease(state.project.id, code),
       ]).then(function (parts) {
         var map = {};
         (parts[0] || []).forEach(function (row) { map[row.key] = row; });
         state.translations = map;
         setFocusMap(parts[1]);
+        state.lock = parts[2] || null;
         refreshCanEdit();
+        startLeaseHeartbeat();
         hideWake();
         updateChrome();
         renderModules(state.rowsCache);
@@ -1076,31 +1128,52 @@
     });
   }
 
-  function showSignedOut() {
-    endEdit({ skipRelease: true, rerender: false });
-    stopRealtime();
-    state.user = null;
-    state.projects = [];
-    state.project = null;
-    state.focuses = {};
-    el.authScreen.hidden = false;
+  function showNameGate(message) {
+    el.nameModal.hidden = false;
     el.emptyHub.hidden = true;
     el.appLayout.hidden = true;
     el.projectLabel.hidden = true;
     el.localeLabel.hidden = true;
+    if (el.nameInput && document.activeElement !== el.nameInput) {
+      el.nameInput.value = state.name || el.nameInput.value || '';
+    }
+    if (el.nameNote) {
+      el.nameNote.hidden = !message;
+      el.nameNote.textContent = message || '';
+    }
     updateChrome();
+    if (el.nameInput) el.nameInput.focus();
   }
 
+  function showSignedOut() {
+    endEdit({ skipRelease: true, rerender: false });
+    stopRealtime();
+    stopLeaseHeartbeat();
+    state.user = null;
+    state.projects = [];
+    state.project = null;
+    state.lock = null;
+    state.focuses = {};
+    openingReview = null;
+    showNameGate();
+  }
+
+  var openingReview = null;
+
   function showSignedIn(user) {
+    if (openingReview && state.user && user && state.user.id === user.id) return openingReview;
     state.user = user;
-    el.authScreen.hidden = true;
-    el.signOutBtn.hidden = false;
+    el.nameModal.hidden = true;
     updateChrome();
 
-    return Hub.probeHealth()
+    var join = isAnonymous(user)
+      ? Hub.enterAsReviewer(projectFromUrl() || null)
+      : Hub.acceptInvites();
+
+    openingReview = Hub.probeHealth()
       .then(function () {
         hideWake();
-        return Hub.acceptInvites();
+        return join;
       })
       .then(function () {
         return Promise.all([Hub.listMyProjects(), Hub.isHubAdmin()]);
@@ -1123,6 +1196,7 @@
         showWake(true, e.message || 'Could not reach Supabase. Retry shortly.');
         toast(e.message || 'API unavailable', 'error');
       });
+    return openingReview;
   }
 
   function unapprovedCounts() {
@@ -1495,47 +1569,94 @@
     }
   }
 
+  function claimLocale() {
+    if (!state.project || !state.locale) return Promise.resolve();
+    return Hub.claimLease(state.project.id, state.locale, reviewerName()).then(function (lease) {
+      state.lock = lease;
+      refreshCanEdit();
+      updateChrome();
+      renderRows();
+      return lease;
+    });
+  }
+
+  function releaseLocale() {
+    if (!state.project || !state.locale) return Promise.resolve();
+    return Hub.releaseLease(state.project.id, state.locale).then(function () {
+      state.lock = null;
+      state.editingKey = null;
+      refreshCanEdit();
+      updateChrome();
+      renderRows();
+      toast('Locale released — view only until you check out again.');
+    }).catch(function (e) {
+      toast(e.message || 'Release failed', 'error');
+    });
+  }
+
+  function startLeaseHeartbeat() {
+    stopLeaseHeartbeat();
+    state.leaseTimer = setInterval(function () {
+      if (!holdsLease() || !state.project || !state.locale) return;
+      Hub.heartbeatLease(state.project.id, state.locale).then(function (lease) {
+        if (lease) state.lock = lease;
+        refreshCanEdit();
+      }).catch(function () { /* next interval retries */ });
+    }, 120000);
+  }
+
+  function stopLeaseHeartbeat() {
+    if (state.leaseTimer) clearInterval(state.leaseTimer);
+    state.leaseTimer = null;
+  }
+
   function boot() {
     if (!CFG.supabaseUrl || !CFG.supabaseAnonKey) {
-      el.authScreen.hidden = false;
-      el.authNote.hidden = false;
-      el.authNote.textContent = 'Set supabaseUrl and supabaseAnonKey in config.js, then reload.';
+      showNameGate('Set supabaseUrl and supabaseAnonKey in config.js, then reload.');
       return;
     }
 
     try {
       Hub.ensureClient();
     } catch (e) {
-      el.authScreen.hidden = false;
-      el.authNote.hidden = false;
-      el.authNote.textContent = e.message || String(e);
+      showNameGate(e.message || String(e));
       return;
     }
 
+    state.name = sessionStorage.getItem(NAME_KEY) || '';
     state.todoOnly = todoFromUrl();
     syncTodoOnlyBtn();
 
-    el.githubSignIn.addEventListener('click', function () {
-      Hub.signInWithGitHub().catch(function (e) {
-        toast(e.message || 'GitHub sign-in failed', 'error');
-      });
-    });
-
-    el.magicSignIn.addEventListener('click', function () {
-      var email = (el.magicEmail.value || '').trim();
-      if (!email) {
-        el.magicEmail.focus();
+    function startWithName() {
+      var name = (el.nameInput.value || '').trim();
+      if (name.length < 2) {
+        showNameGate('Enter at least two characters.');
         return;
       }
-      Hub.signInWithMagicLink(email).then(function () {
-        el.authNote.hidden = false;
-        el.authNote.textContent = 'Check your email for the magic link.';
+      state.name = name.slice(0, 80);
+      sessionStorage.setItem(NAME_KEY, state.name);
+      el.nameStart.disabled = true;
+      Hub.getSession().then(function (session) {
+        if (session && session.user) return session.user;
+        return Hub.signInAnonymously().then(function (data) {
+          return data.user || data.session.user;
+        });
+      }).then(function (user) {
+        return showSignedIn(user);
       }).catch(function (e) {
-        toast(e.message || 'Magic link failed', 'error');
+        showNameGate(e.message || 'Could not start a review session');
+      }).then(function () {
+        el.nameStart.disabled = false;
       });
+    }
+
+    el.nameStart.addEventListener('click', startWithName);
+    el.nameInput.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter') startWithName();
     });
 
     el.signOutBtn.addEventListener('click', function () {
+      stopLeaseHeartbeat();
       Hub.signOut().then(showSignedOut);
     });
 
@@ -1548,19 +1669,43 @@
     el.localeSelect.addEventListener('change', function () {
       var next = el.localeSelect.value;
       var prev = state.locale;
+      var held = holdsLease();
       settleApproveQueue().then(function () {
         if (Object.keys(state.approveErrors).length) {
           el.localeSelect.value = prev;
           toast('Some approvals did not save — retry the highlighted rows', 'error');
           return;
         }
-        loadLocale(next);
+        var release = held && state.project
+          ? Hub.releaseLease(state.project.id, prev)
+          : Promise.resolve();
+        return release.then(function () {
+          state.lock = null;
+          return loadLocale(next);
+        });
       });
     });
 
     el.search.addEventListener('input', function () {
       state.filter = el.search.value;
       renderRows();
+    });
+
+    el.checkoutBtn.addEventListener('click', function () {
+      if (el.checkoutBtn.disabled) return;
+      claimLocale().then(function (lease) {
+        if (lease && state.user && lease.holder_id === state.user.id) {
+          toast('Checked out — you can approve and edit', 'ok');
+        } else {
+          toast('Could not begin review — locale may be in use', 'error');
+        }
+      }).catch(function (e) {
+        toast(e.message || 'Start Review failed', 'error');
+      });
+    });
+
+    el.releaseBtn.addEventListener('click', function () {
+      releaseLocale();
     });
 
     if (el.todoOnlyBtn) {
@@ -1590,6 +1735,31 @@
     el.downloadBtn.addEventListener('click', function () {
       downloadZip();
     });
+
+    var leaveHandled = false;
+    function releaseLockOnLeave() {
+      if (leaveHandled) return;
+      if (!holdsLease() || !state.project || !state.locale) return;
+      if (state.approveFlushing || state.approveHeld.length || Object.keys(state.approveQueue).length) return;
+      var token = Hub.accessToken();
+      if (!token || !CFG.supabaseUrl || !CFG.supabaseAnonKey) return;
+      leaveHandled = true;
+      try {
+        fetch(CFG.supabaseUrl.replace(/\/$/, '') + '/rest/v1/rpc/release_locale_lease', {
+          method: 'POST',
+          keepalive: true,
+          headers: {
+            apikey: CFG.supabaseAnonKey,
+            Authorization: 'Bearer ' + token,
+            'Content-Type': 'application/json',
+            Prefer: 'return=minimal',
+          },
+          body: JSON.stringify({ pid: state.project.id, loc: state.locale }),
+        });
+      } catch (e) { /* tab is closing */ }
+    }
+    window.addEventListener('pagehide', releaseLockOnLeave);
+    window.addEventListener('beforeunload', releaseLockOnLeave);
 
     Hub.onAuthChange(function (_event, session) {
       if (session && session.user) showSignedIn(session.user);

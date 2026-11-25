@@ -7,6 +7,7 @@
 
   var CFG = root.UAOA_I18N_REVIEW || {};
   var client = null;
+  var cachedToken = '';
 
   function ensureClient() {
     if (client) return client;
@@ -19,8 +20,9 @@
     client = root.supabase.createClient(CFG.supabaseUrl, CFG.supabaseAnonKey, {
       auth: {
         persistSession: true,
-        detectSessionInUrl: true,
+        detectSessionInUrl: false,
         flowType: 'pkce',
+        storage: root.sessionStorage,
       },
     });
     return client;
@@ -54,12 +56,73 @@
   async function getSession() {
     var c = sb();
     var result = await c.auth.getSession();
-    return result.data.session || null;
+    var session = result.data.session || null;
+    cachedToken = session ? session.access_token : '';
+    return session;
   }
 
   async function getUser() {
     var session = await getSession();
     return session ? session.user : null;
+  }
+
+  async function signInAnonymously() {
+    var c = sb();
+    var result = await c.auth.signInAnonymously();
+    if (result.error) throw result.error;
+    if (result.data && result.data.session) cachedToken = result.data.session.access_token;
+    return result.data;
+  }
+
+  async function enterAsReviewer(projectSlug) {
+    var c = sb();
+    var result = await c.rpc('enter_as_reviewer', { project_slug: projectSlug || null });
+    if (result.error) throw result.error;
+    return result.data;
+  }
+
+  async function loadLease(projectId, locale) {
+    var c = sb();
+    var result = await c.from('locale_leases')
+      .select('holder_id, holder_name, until')
+      .eq('project_id', projectId)
+      .eq('locale', locale)
+      .maybeSingle();
+    if (result.error) throw result.error;
+    return result.data;
+  }
+
+  async function claimLease(projectId, locale, display) {
+    var c = sb();
+    var result = await c.rpc('claim_locale_lease', {
+      pid: projectId,
+      loc: locale,
+      minutes: (CFG.leaseMinutes || 15),
+      holder_display: display || '',
+    });
+    if (result.error) throw result.error;
+    return result.data;
+  }
+
+  async function heartbeatLease(projectId, locale) {
+    var c = sb();
+    var result = await c.rpc('heartbeat_locale_lease', {
+      pid: projectId,
+      loc: locale,
+      minutes: (CFG.leaseMinutes || 15),
+    });
+    if (result.error) throw result.error;
+    return result.data;
+  }
+
+  async function releaseLease(projectId, locale) {
+    var c = sb();
+    var result = await c.rpc('release_locale_lease', { pid: projectId, loc: locale });
+    if (result.error) throw result.error;
+  }
+
+  function accessToken() {
+    return cachedToken;
   }
 
   async function signInWithGitHub() {
@@ -505,6 +568,13 @@
     ensureClient: ensureClient,
     getSession: getSession,
     getUser: getUser,
+    signInAnonymously: signInAnonymously,
+    enterAsReviewer: enterAsReviewer,
+    accessToken: accessToken,
+    loadLease: loadLease,
+    claimLease: claimLease,
+    heartbeatLease: heartbeatLease,
+    releaseLease: releaseLease,
     signInWithGitHub: signInWithGitHub,
     signInWithMagicLink: signInWithMagicLink,
     signOut: signOut,
