@@ -109,11 +109,54 @@ button, input, textarea, select { font: inherit; }
   height: fit-content;
   position: sticky; top: 78px;
 }
+@media (max-width: 860px) {
+  /* After the sticky rule. A pinned sidebar on the stacked layout hides later segments. */
+  .sidebar { position: static; }
+}
 .sidebar h2 {
   margin: 0 0 10px; font-size: 12px; letter-spacing: .04em;
   text-transform: uppercase; color: var(--muted);
 }
 .mod-list { display: flex; flex-direction: column; gap: 6px; }
+/* Sticky sidebar is taller than the viewport on long catalogs. Scroll the
+   segment list so the heading, note, and page header stay reachable. */
+@media (min-width: 861px) {
+  aside.sidebar {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 94px);
+    overflow: hidden;
+  }
+  aside.sidebar .mod-list {
+    flex: 1 1 auto;
+    min-height: 0;
+    max-height: calc(100vh - 240px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  aside.sidebar .mod-list::-webkit-scrollbar {
+    width: 12px;
+    background: #EEF3FB;
+  }
+  aside.sidebar .mod-list::-webkit-scrollbar-track {
+    background: #EEF3FB;
+    border-radius: 999px;
+  }
+  aside.sidebar .mod-list::-webkit-scrollbar-thumb {
+    background: var(--teal);
+    border-radius: 999px;
+    min-height: 40px;
+  }
+  aside.sidebar .mod-list::-webkit-scrollbar-thumb:hover {
+    background: var(--navy);
+  }
+  @supports not selector(::-webkit-scrollbar) {
+    aside.sidebar .mod-list {
+      scrollbar-width: thin;
+      scrollbar-color: var(--teal) #EEF3FB;
+    }
+  }
+}
 .mod-btn {
   text-align: left; border: 1.5px solid var(--line); background: #fff;
   border-radius: 10px; padding: 10px 12px; cursor: pointer; color: var(--navy);
