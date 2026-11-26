@@ -3,25 +3,7 @@
 
   var CFG = window.UAOA_I18N_REVIEW || {};
   var Hub = window.I18nHub;
-  // Preferred order for known UAOA elearning prefixes; other top-level key
-  // segments (e.g. ORP ui / content) are appended alphabetically from the catalog.
-  var MODULE_ORDER = ['common', 'course', 'welcome', 'survey', 'm1', 'm2', 'm3', 'm4', 'm5', 'summary', 'embeds', 'player'];
-  var MODULE_LABELS = {
-    common: 'Common UI',
-    course: 'Course outline (sidebar)',
-    welcome: 'About Course & Introduction',
-    survey: 'Survey',
-    m1: 'Module 1',
-    m2: 'Module 2',
-    m3: 'Module 3',
-    m4: 'Module 4',
-    m5: 'Module 5',
-    summary: 'Summary & Exit',
-    embeds: 'Chrome embeds',
-    player: 'Player / system labels',
-    ui: 'UI chrome',
-    content: 'Page & assessment copy',
-  };
+  var Chapters = window.ReviewChapters;
 
   var state = {
     user: null,
@@ -32,6 +14,7 @@
     locales: [],
     locale: '',
     module: 'common',
+    chapters: [],
     sourceRows: [],
     translations: {},
     canEdit: false,
@@ -179,15 +162,18 @@
     return /^https?:\/\/\S+$/i.test(plain);
   }
 
-  function moduleOf(key) {
-    return key.split('.')[0] || 'other';
+  function syncChapters(allRows) {
+    var keys = (allRows || []).map(function (row) { return row.key; });
+    state.chapters = Chapters.orderChapters(Chapters.deriveChapters(keys));
   }
 
-  function widgetOf(key) {
-    var parts = key.split('.');
-    if (parts.length < 2) return parts[0] || 'root';
-    if (parts[0] === 'player') return parts.slice(0, 3).join('.');
-    return parts.slice(0, 2).join('.');
+  function chapterOf(key) {
+    return Chapters.chapterOf(key, state.chapters);
+  }
+
+  function segmentLabel(prefix) {
+    if (!prefix) return 'All';
+    return Chapters.label(prefix) || prefix;
   }
 
   function approvalEntry(key) {
@@ -227,6 +213,7 @@
       .map(function (r) {
         return { key: r.key, text: r.text, note: r.note || '', previous_text: r.previous_text || null };
       });
+    syncChapters(state.rowsCache);
   }
 
   function projectFromUrl() {
@@ -422,8 +409,12 @@
 
   function moduleStats(allRows) {
     var by = {};
+    state.chapters.forEach(function (chapter) {
+      by[chapter] = { total: 0, approved: 0, todo: 0 };
+    });
     allRows.forEach(function (r) {
-      var m = moduleOf(r.key);
+      var m = chapterOf(r.key);
+      if (!m) return;
       if (!by[m]) by[m] = { total: 0, approved: 0, todo: 0 };
       by[m].total += 1;
       if (isApproved(r.key)) by[m].approved += 1;
@@ -432,46 +423,46 @@
     return by;
   }
 
-  /** Modules that actually have strings, preferred order first then extras A–Z. */
-  function modulesPresent(allRows) {
+  /** Chapters that have strings. To-do only hides chapters with nothing left to review. */
+  function chaptersPresent(allRows) {
+    syncChapters(allRows);
     var stats = moduleStats(allRows);
-    var seen = {};
     var list = [];
-    function include(m) {
-      if (!stats[m] || seen[m]) return;
-      if (state.todoOnly ? !stats[m].todo : !stats[m].total) return;
-      seen[m] = true;
-      list.push(m);
-    }
-    MODULE_ORDER.forEach(include);
-    Object.keys(stats).sort().forEach(include);
+    state.chapters.forEach(function (chapter) {
+      if (!stats[chapter]) return;
+      if (state.todoOnly ? !stats[chapter].todo : !stats[chapter].total) return;
+      list.push(chapter);
+    });
     return list;
   }
 
   function pickDefaultModule(allRows) {
-    var present = modulesPresent(allRows);
+    var present = chaptersPresent(allRows);
     if (present.indexOf(state.module) !== -1) return state.module;
-    return present[0] || 'common';
+    return present[0] || '';
   }
 
   function renderModules(allRows) {
-    var present = modulesPresent(allRows);
+    var present = chaptersPresent(allRows);
     if (present.indexOf(state.module) === -1) {
-      state.module = present[0] || state.module;
+      state.module = present[0] || '';
     }
     var stats = moduleStats(allRows);
     el.modList.innerHTML = '';
-    present.forEach(function (m) {
+    present.forEach(function (chapter) {
       var btn = document.createElement('button');
       btn.type = 'button';
-      btn.className = 'mod-btn' + (state.module === m ? ' active' : '');
+      var active = state.module === chapter;
+      btn.className = 'mod-btn' + (active ? ' active' : '');
+      if (active) btn.setAttribute('aria-current', 'true');
+      btn.title = chapter;
       var meta = state.todoOnly
-        ? (stats[m].todo + ' to-do')
-        : (stats[m].approved + ' / ' + stats[m].total + ' approved');
-      btn.innerHTML = '<span>' + (MODULE_LABELS[m] || m) + '</span>' +
+        ? (stats[chapter].todo + ' to-do')
+        : (stats[chapter].approved + ' / ' + stats[chapter].total + ' approved');
+      btn.innerHTML = '<span>' + escapeHtml(segmentLabel(chapter)) + '</span>' +
         '<span class="meta">' + meta + '</span>';
       btn.addEventListener('click', function () {
-        state.module = m;
+        state.module = chapter;
         endEdit({ rerender: false }).then(function () {
           renderModules(allRows);
           renderRows();
@@ -484,7 +475,7 @@
   function filteredRows() {
     var q = (state.filter || '').trim().toLowerCase();
     return state.rowsCache.filter(function (r) {
-      if (moduleOf(r.key) !== state.module) return false;
+      if (chapterOf(r.key) !== state.module) return false;
       if (state.todoOnly && !needsWork(r.key)) return false;
       if (!q) return true;
       var tr = (state.translations[r.key] && state.translations[r.key].text) || '';
@@ -778,23 +769,24 @@
     var approved = rows.filter(function (r) { return isApproved(r.key); }).length;
     var stale = rows.filter(function (r) { return isStale(r.key); }).length;
     var todoInModule = state.rowsCache.filter(function (r) {
-      return moduleOf(r.key) === state.module && needsWork(r.key);
+      return chapterOf(r.key) === state.module && needsWork(r.key);
     }).length;
+    var heading = segmentLabel(state.module);
     if (state.todoOnly) {
-      el.stats.textContent = (MODULE_LABELS[state.module] || state.module) +
+      el.stats.textContent = heading +
         ' · ' + rows.length + ' to-do' +
         (stale ? ' · ' + stale + ' stale' : '') +
         (state.filter ? ' (filtered)' : '');
     } else {
-      el.stats.textContent = (MODULE_LABELS[state.module] || state.module) +
+      el.stats.textContent = heading +
         ' · ' + rows.length + ' strings · ' + approved + ' approved · ' + todoInModule + ' to-do' +
         (stale ? ' · ' + stale + ' stale' : '');
     }
 
     if (!rows.length) {
       var why = state.todoOnly
-        ? (state.filter ? 'No to-do strings match your filter.' : 'No to-do strings in this module.')
-        : ('No strings in this module' + (state.filter ? ' match your filter' : '') + '.');
+        ? (state.filter ? 'No to-do strings match your filter.' : 'No to-do strings in this segment.')
+        : ('No strings in this segment' + (state.filter ? ' match your filter' : '') + '.');
       el.rows.innerHTML = '<div class="empty">' + why + '</div>';
       return;
     }
@@ -802,7 +794,7 @@
     var groups = {};
     var order = [];
     rows.forEach(function (r) {
-      var w = widgetOf(r.key);
+      var w = Chapters.groupOf(r.key, state.module);
       if (!groups[w]) { groups[w] = []; order.push(w); }
       groups[w].push(r);
     });
@@ -812,7 +804,7 @@
       var block = document.createElement('section');
       block.className = 'widget-block';
       var head = document.createElement('header');
-      head.textContent = w;
+      head.textContent = Chapters.groupLabel(w, state.module);
       block.appendChild(head);
       groups[w].forEach(function (r) {
         block.appendChild(renderRow(r));

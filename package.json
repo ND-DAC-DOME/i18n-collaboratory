@@ -6,6 +6,7 @@
   "scripts": {
     "import:local": "node scripts/import_local_catalogs.mjs",
     "test:markup": "node markup.test.js",
+    "test:chapters": "node chapters.test.js",
     "test:nest": "node nest.test.mjs",
     "test:catalog": "node --experimental-strip-types catalog.test.mjs",
     "test": "npm run test:markup && npm run test:nest && npm run test:catalog"
